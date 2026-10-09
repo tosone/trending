@@ -131,7 +131,7 @@
   function visibleRepos(){
     const q = query.trim().toLowerCase();
     const repos = sortedRepos();
-    return q ? repos.filter(r => (r.name || '').toLowerCase().includes(q)) : repos;
+    return q ? repos.filter(r => (r.full_name || '').toLowerCase().includes(q)) : repos;
   }
   function drawSorts(){
     [...$('sorts').querySelectorAll('button')].forEach(btn => {
@@ -189,7 +189,7 @@
         <label class="search">
           ${SEARCH_ICON}
           <input type="search" id="searchInput" autocomplete="off" spellcheck="false"
-                 placeholder="搜索仓库名（不含组织 / 用户名）" value="${esc(query)}">
+                 placeholder="搜索仓库名" value="${esc(query)}">
           <button type="button" class="clear" id="searchClear" aria-label="清空搜索" ${query ? '' : 'hidden'}>×</button>
         </label>
         <span class="result" id="resultCount"></span>
@@ -204,7 +204,7 @@
     box.innerHTML = repos.length
       ? repos.map(cardHtml).join('')
       : `<div class="empty" style="height:auto;padding:40px 0"><b>没有匹配的仓库</b>
-           <span>没有名字包含「${esc(query.trim())}」的仓库。</span></div>`;
+           <span>没有匹配「${esc(query.trim())}」的仓库。</span></div>`;
     const rc = $('resultCount');
     if (rc) rc.innerHTML = query.trim()
       ? `匹配 <b>${repos.length}</b> / ${curDoc.repos.length}`

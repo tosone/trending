@@ -107,6 +107,8 @@ the script.
   `rc-rank` title tooltip, never shown on the page.
 - The reading area `.reader-scroll` is one scroll container; the left list `.timeline` is
   another. Scroll a card into view with `scrollIntoView`, and highlight with `aria-current`.
+- The search box (`.board-tools .search`) filters by `full_name` (owner + repo,
+  case-insensitive) and filters both the left list and the cards at once.
 - Responsive breakpoints: at `1080px` the cards collapse to one column, at `900px` the left
   column becomes a drawer, at `640px` the reader bar wraps to two rows.
 - On narrow screens use `grid-template-columns:minmax(0,1fr)`, not `1fr` (the auto minimum
