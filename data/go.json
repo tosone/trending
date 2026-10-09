@@ -6,11 +6,34 @@
     "weekly",
     "monthly"
   ],
-  "generated_at": "2026-10-09T11:49:38+00:00",
+  "generated_at": "2026-10-09T12:43:27+00:00",
   "first_at": "2026-10-09T10:50:28+00:00",
-  "count": 56,
+  "count": 67,
   "added": 0,
   "repos": [
+    {
+      "owner": "avelino",
+      "name": "awesome-go",
+      "full_name": "avelino/awesome-go",
+      "url": "https://github.com/avelino/awesome-go",
+      "description": "A curated list of awesome Go frameworks, libraries and software",
+      "language": "Go",
+      "stars": 187488,
+      "forks": 13606,
+      "homepage": "https://awesome-go.com",
+      "license": "MIT",
+      "created_at": "2014-07-06T13:42:15Z",
+      "pushed_at": "2026-10-09T11:39:55Z",
+      "updated_at": "2026-10-09T12:37:45Z",
+      "open_issues": 64,
+      "summary": "Awesome Go 是一份由社区维护的 Go 框架、库与软件精选清单，灵感来自 awesome-python，主要帮助 Go 开发者快速找到特定领域可用的成熟项目，避免重复造轮子或在零散搜索结果中筛选。清单按功能分类组织，涵盖 Actor 模型、人工智能、音频与音乐、认证与授权等方向，每个条目附有简短说明。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-09T12:39:25+00:00",
+      "last_seen": "2026-10-09",
+      "seen_count": 1
+    },
     {
       "owner": "ollama",
       "name": "ollama",
@@ -43,22 +66,45 @@
       "url": "https://github.com/golang/go",
       "description": "The Go programming language",
       "language": "Go",
-      "stars": 139156,
-      "forks": 21646,
+      "stars": 139159,
+      "forks": 21656,
       "homepage": "https://go.dev",
       "license": "BSD-3-Clause",
       "created_at": "2014-08-19T04:33:40Z",
       "pushed_at": "2026-10-09T05:35:35Z",
-      "updated_at": "2026-10-09T11:33:35Z",
-      "open_issues": 10284,
-      "summary": "Go 是一门开源编程语言，旨在让构建简单、可靠且高效的软件变得容易。它主要解决在大型软件工程中兼顾开发效率与运行性能的问题，适合用来编写对稳定性和执行效率有要求的程序。其核心能力体现在语言层面的简洁设计与工程化支持，官方源码以 BSD 风格许可证分发，规范仓库位于 go.googlesource.com，并在 GitHub 上提供镜像。使用者可以从 go.dev/dl 获取官方二进制发行版，按 go.dev/doc/install 的说明安装；若所用操作系统和架构没有对应二进制包，也可参考 go.dev/doc/install/source 从源码安装。",
+      "updated_at": "2026-10-09T12:16:09Z",
+      "open_issues": 10285,
+      "summary": "Go 是一门开源编程语言，旨在让构建简单、可靠且高效的软件变得容易。它主要解决在开发中兼顾开发效率与运行性能的问题，适合编写对稳定性和执行效率有要求的程序。其核心能力体现在语言层面提供简洁的语法和内置的并发支持，帮助开发者以较少代码完成复杂逻辑。Go 自带完整的工具链，涵盖编译、测试与依赖管理，并配有官方二进制发行版和源码安装方式，可覆盖不同操作系统与硬件架构。典型使用场景包括后端服务、网络编程、命令行工具以及云原生基础设施等，许多现代分布式系统与容器相关技术栈都选用 Go 作为主要开发语言。该项目由数千名贡献者共同维护，官方通过问题追踪器收集缺陷报告与提案，并在专门页面解答使用疑问。",
       "windows": [
         "monthly"
       ],
       "added_at": "2026-10-09T11:00:35+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 7,
+      "seen_count": 9,
       "pinned": true
+    },
+    {
+      "owner": "kubernetes",
+      "name": "kubernetes",
+      "full_name": "kubernetes/kubernetes",
+      "url": "https://github.com/kubernetes/kubernetes",
+      "description": "Production-Grade Container Scheduling and Management",
+      "language": "Go",
+      "stars": 128208,
+      "forks": 46379,
+      "homepage": "https://kubernetes.io",
+      "license": "Apache-2.0",
+      "created_at": "2014-06-06T22:56:04Z",
+      "pushed_at": "2026-10-09T11:10:03Z",
+      "updated_at": "2026-10-09T12:17:43Z",
+      "open_issues": 3239,
+      "summary": "Kubernetes（简称 K8s）是一个用于跨多台主机管理容器化应用的开源系统，提供应用部署、维护和扩缩容的基础机制。它源于 Google 运行大规模生产负载的 Borg 系统经验，并融合了社区的最佳实践，现由云原生计算基金会（CNCF）托管。其核心能力在于容器调度与管理，帮助解决容器在分布式环境中的编排问题。典型使用场景包括微服务架构下的应用部署与动态调度，技术栈以 Go 语言开发。用户可通过官方文档和免费课程入门，开发者可借助社区仓库参与贡献，构建时需具备 Go 或 Docker 环境。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-09T12:39:25+00:00",
+      "last_seen": "2026-10-09",
+      "seen_count": 1
     },
     {
       "owner": "microsoft",
@@ -67,13 +113,13 @@
       "url": "https://github.com/microsoft/TypeScript",
       "description": "TypeScript is a superset of JavaScript that compiles to clean JavaScript output.",
       "language": "Go",
-      "stars": 111372,
-      "forks": 16117,
+      "stars": 111373,
+      "forks": 16124,
       "homepage": "https://www.typescriptlang.org",
       "license": "Apache-2.0",
       "created_at": "2014-06-17T15:28:39Z",
       "pushed_at": "2026-10-09T07:07:12Z",
-      "updated_at": "2026-10-09T11:14:13Z",
+      "updated_at": "2026-10-09T12:09:43Z",
       "open_issues": 5083,
       "summary": "TypeScript 是微软推出的 JavaScript 超集，专为构建应用级 JavaScript 而设计。它在 JavaScript 基础上加入可选的类型系统，并配套面向大型 JavaScript 应用的工具支持，可运行于任何浏览器、任何宿主和任何操作系统。其核心能力在于通过类型标注帮助开发者在编码阶段发现错误，并提升代码的可维护性与可读性；编译产物是清晰、符合标准的 JavaScript。它适用于大规模前端与后端 JavaScript 项目，帮助团队在复杂代码库中保持协作效率。",
       "windows": [
@@ -81,7 +127,7 @@
       ],
       "added_at": "2026-10-09T11:00:35+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 7
+      "seen_count": 8
     },
     {
       "owner": "JuliusBrussee",
@@ -107,6 +153,29 @@
       "seen_count": 7
     },
     {
+      "owner": "fatedier",
+      "name": "frp",
+      "full_name": "fatedier/frp",
+      "url": "https://github.com/fatedier/frp",
+      "description": "A fast reverse proxy to help you expose a local server behind a NAT or firewall to the internet.",
+      "language": "Go",
+      "stars": 109798,
+      "forks": 15237,
+      "homepage": "",
+      "license": "Apache-2.0",
+      "created_at": "2015-12-21T15:24:59Z",
+      "pushed_at": "2026-10-09T12:13:03Z",
+      "updated_at": "2026-10-09T12:39:11Z",
+      "open_issues": 39,
+      "summary": "frp 是一款用 Go 编写的快速反向代理工具，用于将位于 NAT 或防火墙之后的本地服务器暴露到互联网。它支持 TCP、UDP 以及 HTTP、HTTPS 协议，可通过域名将请求转发至内部服务，并提供 P2P 连接模式。核心能力包括配置拆分、服务端仪表盘与客户端管理界面、动态代理管理、Prometheus 监控、Token 与 OIDC 认证、TLS 加密压缩、KCP 与 QUIC 协议、连接池、负载均衡、健康检查、端口复用、带宽限制以及客户端插件等。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-09T12:39:25+00:00",
+      "last_seen": "2026-10-09",
+      "seen_count": 1
+    },
+    {
       "owner": "infiniflow",
       "name": "ragflow",
       "full_name": "infiniflow/ragflow",
@@ -130,27 +199,142 @@
       "seen_count": 7
     },
     {
+      "owner": "gohugoio",
+      "name": "hugo",
+      "full_name": "gohugoio/hugo",
+      "url": "https://github.com/gohugoio/hugo",
+      "description": "The world’s fastest framework for building websites.",
+      "language": "Go",
+      "stars": 90073,
+      "forks": 8385,
+      "homepage": "https://gohugo.io",
+      "license": "Apache-2.0",
+      "created_at": "2013-07-04T15:26:26Z",
+      "pushed_at": "2026-10-09T12:28:30Z",
+      "updated_at": "2026-10-09T12:29:24Z",
+      "open_issues": 209,
+      "summary": "Hugo 是一个用 Go 语言编写的静态网站生成器，由 bep、spf13 及社区贡献者共同维护，官方定位为构建网站速度最快的框架。它主要解决静态站点从内容到成品的高效构建问题，通过内置的开发用 Web 服务器，让用户在编写过程中即时查看内容、结构、行为和呈现的变化，完成后可部署到主机或推送到 Git 仓库实现自动构建。其核心能力包括强大的模板系统与快速资源流水线，支持 CSS 处理、图片转换与裁剪、JavaScript 打包、Sass 转译以及 Tailwind CSS 编译，并可通过 Hugo Modules 在项目间共享内容、资源、主题和配置。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-09T12:39:25+00:00",
+      "last_seen": "2026-10-09",
+      "seen_count": 1
+    },
+    {
+      "owner": "gin-gonic",
+      "name": "gin",
+      "full_name": "gin-gonic/gin",
+      "url": "https://github.com/gin-gonic/gin",
+      "description": "Gin is a high-performance HTTP web framework written in Go. It provides a Martini-like API but with significantly better performance—up to 40 times faster—thanks to httprouter. Gin is designed for building REST APIs, web applications, and microservices.",
+      "language": "Go",
+      "stars": 89297,
+      "forks": 8735,
+      "homepage": "https://gin-gonic.com/",
+      "license": "MIT",
+      "created_at": "2014-06-16T23:57:25Z",
+      "pushed_at": "2026-09-29T13:14:46Z",
+      "updated_at": "2026-10-09T12:27:09Z",
+      "open_issues": 794,
+      "summary": "Gin 是一个用 Go 编写的高性能 HTTP Web 框架，提供类似 Martini 的 API，并借助 httprouter 实现显著更好的性能，适合对速度和开发效率有要求的场景。它主要解决构建 REST API、Web 应用和微服务时的路由与请求处理问题，核心特点包括零分配路由、中间件支持、内置恢复中间件防止 panic 导致服务崩溃、JSON 绑定与校验、路由分组、集中式错误管理以及 JSON、XML、HTML 模板等渲染能力。典型用法是创建带默认中间件的路由器，定义处理函数并返回 JSON 响应，再启动 HTTP 服务。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-09T12:39:25+00:00",
+      "last_seen": "2026-10-09",
+      "seen_count": 1
+    },
+    {
+      "owner": "syncthing",
+      "name": "syncthing",
+      "full_name": "syncthing/syncthing",
+      "url": "https://github.com/syncthing/syncthing",
+      "description": "Open Source Continuous File Synchronization",
+      "language": "Go",
+      "stars": 89247,
+      "forks": 5510,
+      "homepage": "https://syncthing.net/",
+      "license": "MPL-2.0",
+      "created_at": "2013-11-26T09:48:21Z",
+      "pushed_at": "2026-10-09T10:11:31Z",
+      "updated_at": "2026-10-09T12:23:00Z",
+      "open_issues": 388,
+      "summary": "Syncthing 是一款用 Go 语言编写的开源持续文件同步程序，用于在两台或多台计算机之间自动同步文件。它主要解决多设备间数据保持一致的问题，让用户无需依赖第三方云存储即可完成同步。其核心目标按重要性排序为：防止数据丢失、抵御攻击者、易于使用、自动化运行、跨平台可用，并优先服务于个人用户。它强调保护用户数据安全，避免文件损坏，防止未经授权的窃听或修改，同时尽量减少不必要的人工操作。Syncthing 可在常见计算机系统上运行，并提供 Windows、Mac 和 Linux 的多种图形界面实现，也支持在 Docker 中运行。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-09T12:39:25+00:00",
+      "last_seen": "2026-10-09",
+      "seen_count": 1
+    },
+    {
+      "owner": "junegunn",
+      "name": "fzf",
+      "full_name": "junegunn/fzf",
+      "url": "https://github.com/junegunn/fzf",
+      "description": ":cherry_blossom: A command-line fuzzy finder",
+      "language": "Go",
+      "stars": 83463,
+      "forks": 4801,
+      "homepage": "https://junegunn.github.io/fzf/",
+      "license": "MIT",
+      "created_at": "2013-10-23T16:04:23Z",
+      "pushed_at": "2026-10-08T12:42:53Z",
+      "updated_at": "2026-10-09T10:30:29Z",
+      "open_issues": 333,
+      "summary": "fzf 是一个用 Go 编写的通用命令行模糊查找器，同时也可作为交互式终端工具箱使用。它解决的是在大量候选项中快速定位目标的问题，例如挑选文件、浏览命令历史、预览数据或以模糊匹配方式导航复杂数据集。其核心特点包括：以单一二进制文件分发，便于安装；处理海量条目时速度很快；提供事件驱动架构，可用于构建自定义终端界面与工作流；并内置对 Bash、Zsh、Fish、Nushell、Vim 和 Neovim 的集成。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-09T12:39:25+00:00",
+      "last_seen": "2026-10-09",
+      "seen_count": 1
+    },
+    {
       "owner": "jesseduffield",
       "name": "lazygit",
       "full_name": "jesseduffield/lazygit",
       "url": "https://github.com/jesseduffield/lazygit",
       "description": "simple terminal UI for git commands",
       "language": "Go",
-      "stars": 83038,
-      "forks": 3070,
+      "stars": 83043,
+      "forks": 3069,
       "homepage": "",
       "license": "MIT",
       "created_at": "2018-05-19T00:53:06Z",
       "pushed_at": "2026-10-07T18:52:10Z",
-      "updated_at": "2026-10-09T10:08:23Z",
+      "updated_at": "2026-10-09T12:32:37Z",
       "open_issues": 1051,
       "summary": "Lazygit 是一个用 Go 编写的 Git 终端界面工具，把日常 Git 操作变成键盘驱动的可视化交互。它针对的是 Git 功能强大但操作繁琐的问题：交互式变基要手改 TODO 文件、暂存部分代码要逐块处理甚至手写补丁、切换分支时被迫 stash 等。它支持按块或按行暂存改动、交互式变基（压缩、修正、删除、移动提交）、cherry-pick、bisect、撤销重做、提交图、比较两个提交、worktree、自定义命令与自定义补丁等。用户可在分支视图查看 GitHub PR 状态并用 shift+G 打开。",
       "last_seen": "2026-10-09",
-      "seen_count": 3,
+      "seen_count": 4,
       "added_at": "2026-10-09T10:50:28+00:00",
       "windows": [
         "daily"
       ]
+    },
+    {
+      "owner": "netdata",
+      "name": "netdata",
+      "full_name": "netdata/netdata",
+      "url": "https://github.com/netdata/netdata",
+      "description": "The fastest path to AI-powered full stack observability, even for lean teams.",
+      "language": "Go",
+      "stars": 80853,
+      "forks": 6659,
+      "homepage": "https://www.netdata.cloud",
+      "license": "GPL-3.0",
+      "created_at": "2013-06-17T18:39:10Z",
+      "pushed_at": "2026-10-09T11:25:26Z",
+      "updated_at": "2026-10-09T11:25:29Z",
+      "open_issues": 436,
+      "summary": "Netdata 是一个用 Go 编写的开源实时基础设施监控平台，面向从单机到多云环境的全栈可观测性需求。它解决的是传统监控配置复杂、数据粒度粗、资源占用高的问题，默认提供每秒级指标采集与可视化，安装后即可自动发现多数指标，无需繁琐配置。核心能力包括：内置机器学习对每条指标进行异常检测与趋势预测，分层时序数据库存储，以及数百条开箱即用的告警规则，可对接邮件、Slack、PagerDuty 等通知渠道。其模块化流水线覆盖采集、存储、学习、检测、告警、流式传输、归档与查询，支持将指标导出到 Prometheus、InfluxDB 等系统。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-09T12:39:25+00:00",
+      "last_seen": "2026-10-09",
+      "seen_count": 1
     },
     {
       "owner": "caddyserver",
@@ -159,13 +343,13 @@
       "url": "https://github.com/caddyserver/caddy",
       "description": "Fast and extensible multi-platform HTTP/1-2-3 web server with automatic HTTPS",
       "language": "Go",
-      "stars": 77581,
+      "stars": 77583,
       "forks": 5105,
       "homepage": "https://caddyserver.com",
       "license": "Apache-2.0",
       "created_at": "2015-01-13T19:45:03Z",
       "pushed_at": "2026-10-09T08:14:56Z",
-      "updated_at": "2026-10-09T11:32:23Z",
+      "updated_at": "2026-10-09T12:19:24Z",
       "open_issues": 287,
       "summary": "Caddy 是一个用 Go 编写的可扩展多平台 Web 服务器，默认启用 TLS，支持 HTTP/1.1、HTTP/2 和 HTTP/3。它主要解决 HTTPS 配置繁琐的问题：对公开域名自动通过 Let's Encrypt 和 ZeroSSL 申请并续期证书，对内部名称和 IP 使用本地 CA，还能在多实例间协调并支持多签发者回退，从而在证书或 OCSP 出问题时保持服务可用。配置方式灵活，既可用简洁的 Caddyfile，也可用原生 JSON 配置和 JSON API 动态调整，并支持 YAML、TOML、NGINX 配置等适配器。",
       "windows": [
@@ -174,7 +358,76 @@
       ],
       "added_at": "2026-10-09T11:00:35+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 7
+      "seen_count": 8
+    },
+    {
+      "owner": "nektos",
+      "name": "act",
+      "full_name": "nektos/act",
+      "url": "https://github.com/nektos/act",
+      "description": "Run your GitHub Actions locally 🚀",
+      "language": "Go",
+      "stars": 72247,
+      "forks": 2058,
+      "homepage": "https://nektosact.com",
+      "license": "MIT",
+      "created_at": "2019-01-02T19:53:43Z",
+      "pushed_at": "2026-08-09T22:50:11Z",
+      "updated_at": "2026-10-09T04:54:28Z",
+      "open_issues": 392,
+      "summary": "act 是一个用 Go 编写的命令行工具，让你在本地运行 GitHub Actions。它读取仓库 .github/workflows/ 中的工作流文件，解析出需要执行的动作及其依赖关系，再通过 Docker API 拉取或构建相应镜像，并为每个动作启动容器执行，环境变量和文件系统都尽量与 GitHub 提供的保持一致。它主要解决两类问题：一是避免每次测试工作流改动都要提交并推送，从而获得更快的反馈；二是把已定义好的 Actions 当作本地任务运行器，替代 Makefile 之类的重复配置。典型场景包括在本地调试 .",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-09T12:39:25+00:00",
+      "last_seen": "2026-10-09",
+      "seen_count": 1
+    },
+    {
+      "owner": "moby",
+      "name": "moby",
+      "full_name": "moby/moby",
+      "url": "https://github.com/moby/moby",
+      "description": "The Moby Project - a collaborative project for the container ecosystem to assemble container-based systems",
+      "language": "Go",
+      "stars": 72160,
+      "forks": 19237,
+      "homepage": "https://mobyproject.org/",
+      "license": "Apache-2.0",
+      "created_at": "2013-01-18T18:10:57Z",
+      "pushed_at": "2026-10-09T10:50:20Z",
+      "updated_at": "2026-10-09T11:52:38Z",
+      "open_issues": 3925,
+      "summary": "Moby 是由 Docker 创建的开源项目，旨在推动软件容器化。它提供一套类似“乐高积木”的工具包组件，以及将这些组件组装成自定义容器系统的框架，涵盖容器构建工具、镜像仓库、编排工具和运行时等，可作为构建模块与其他工具组合使用。项目强调模块化、灵活性和可替换性，组件拥有明确的功能与 API，同时提供安全默认值，主要面向开发者而非终端用户。它适合希望修改、实验和构建容器系统的工程师与爱好者，而非寻求商业支持的用户。Docker 产品以 Moby 作为上游，其他项目也可复用其组件。主要语言为 Go，根模块用于构建容器引擎，仅产出二进制文件，不保证 API 稳定性。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-09T12:39:25+00:00",
+      "last_seen": "2026-10-09",
+      "seen_count": 1
+    },
+    {
+      "owner": "prometheus",
+      "name": "prometheus",
+      "full_name": "prometheus/prometheus",
+      "url": "https://github.com/prometheus/prometheus",
+      "description": "The Prometheus monitoring system and time series database.",
+      "language": "Go",
+      "stars": 66438,
+      "forks": 10906,
+      "homepage": "https://prometheus.io/",
+      "license": "Apache-2.0",
+      "created_at": "2012-11-24T11:14:12Z",
+      "pushed_at": "2026-10-09T09:36:33Z",
+      "updated_at": "2026-10-09T11:28:31Z",
+      "open_issues": 985,
+      "summary": "Prometheus 是一套用 Go 编写的系统与服务监控系统，同时内置时序数据库，由云原生计算基金会托管。它按设定间隔从目标采集指标，评估规则表达式，展示结果，并在满足条件时触发告警。其特点包括：以指标名称和键值维度定义的多维数据模型、查询语言 PromQL、不依赖分布式存储且单节点自治、基于 HTTP 拉取模型采集时序数据，并可通过中间网关支持批处理任务的推送；目标可通过服务发现或静态配置获取，支持多种图形与仪表盘，以及分层和水平联邦。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-09T12:39:25+00:00",
+      "last_seen": "2026-10-09",
+      "seen_count": 1
     },
     {
       "owner": "usememos",
@@ -191,13 +444,13 @@
       "pushed_at": "2026-10-09T11:39:29Z",
       "updated_at": "2026-10-09T11:39:45Z",
       "open_issues": 101,
-      "summary": "Memos 是一个用 Go 编写的开源自托管笔记工具，定位为个人时间线，用来快速记录短想法。它解决的是随手记笔记时不想先纠结标题和分类的问题：直接写 Markdown，几秒内即可发布，之后通过搜索、标签或时间线按日期回溯，还能置顶重要内容并把常用筛选保存为视图。每条 memo 默认私密，可设置为仅自己可见、对已登录用户可见或公开分享，数据完全由自己掌控，支持零遥测、MIT 许可和完整导出。它提供 Docker 部署方式，并有 Chrome 和 Firefox 的网页剪藏扩展，可将网页、选中内容和图片以带来源链接的 Markdown 存入。适合需要轻量记录、注重数据主权并愿意自行部署的个人用户。",
+      "summary": "Memos 是一个用 Go 编写的自托管笔记工具，把零散想法按时间线组织起来。它想解决的问题是：记录时不必先想标题、选文件夹，随手写下即可，之后靠搜索、标签或日期找回。每条 memo 用 Markdown 书写，可插入图片和文件，支持置顶，也能把常用筛选条件保存为视图。分享粒度由你控制，新 memo 默认私密，可以只给自己看，也可以开放给已登录用户或任何拿到链接的人。数据完全归自己所有，无遥测，支持完整导出。部署上以 Docker 为主，官方提供在线演示和文档，并有 Chrome、Firefox 的网页剪藏扩展，能把网页、选中内容和图片以带来源链接的 Markdown 存入 Memos。",
       "windows": [
         "monthly"
       ],
       "added_at": "2026-10-09T11:00:35+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 7
+      "seen_count": 8
     },
     {
       "owner": "go-gitea",
@@ -1204,21 +1457,21 @@
       "url": "https://github.com/e2b-dev/runtime",
       "description": "The runtime behind every E2B stack: Cloud, Enterprise, and your own machine.",
       "language": "Go",
-      "stars": 1691,
+      "stars": 1692,
       "forks": 465,
       "homepage": "https://e2b.dev/?utm_source=github&utm_medium=referral&utm_campaign=repo_website&utm_content=runtime",
       "license": "Apache-2.0",
       "created_at": "2023-08-10T17:37:55Z",
-      "pushed_at": "2026-10-09T11:32:10Z",
-      "updated_at": "2026-10-09T11:32:17Z",
-      "open_issues": 212,
-      "summary": "E2B Runtime 是 E2B 智能体云的开源后端，用 Go 编写，采用 Apache-2.0 许可。它提供控制面 API、驱动 Firecracker 的节点编排器、运行在每个虚拟机内的 agent、边缘路由器和模板构建器，让每个智能体会话拥有独立的 Linux 微虚拟机。其核心思路是把沙箱视为恢复的快照：模板是预启动的虚拟机状态，创建沙箱即恢复快照，内存页通过 userfaultfd 按需加载，根文件系统采用写时复制覆盖层。控制面与数据面分离，沙箱流量从边缘直达节点。",
+      "pushed_at": "2026-10-09T12:30:11Z",
+      "updated_at": "2026-10-09T12:30:18Z",
+      "open_issues": 211,
+      "summary": "E2B Runtime 是支撑 E2B 云、企业部署与本地单机运行的完整后端，用 Go 编写。它为每个 AI 智能体会话提供独立的 Firecracker 微虚拟机，用于运行不可信代码。其核心思路是把沙箱视为已恢复的快照：模板是预启动并存入对象存储的虚拟机，创建沙箱即恢复快照，内存页通过 userfaultfd 按需加载，根文件系统采用写时复制覆盖层。控制面与数据面分离，API 只决定沙箱在哪运行，节点上的编排器负责 Firecracker 进程、网络命名空间、块设备与 cgroup，沙箱流量由边缘直达节点。",
       "windows": [
         "monthly"
       ],
       "added_at": "2026-10-09T11:00:35+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 7
+      "seen_count": 8
     },
     {
       "owner": "kai-scheduler",
@@ -1296,22 +1549,22 @@
       "url": "https://github.com/Agent-Field/CodeAF",
       "description": "Open-Source Software factory for Open Models",
       "language": "Go",
-      "stars": 360,
+      "stars": 361,
       "forks": 47,
       "homepage": "agentfield.ai/codeaf",
       "license": "Apache-2.0",
       "created_at": "2026-08-05T16:00:07Z",
-      "pushed_at": "2026-10-09T11:45:18Z",
-      "updated_at": "2026-10-09T09:02:58Z",
+      "pushed_at": "2026-10-09T12:36:44Z",
+      "updated_at": "2026-10-09T12:31:31Z",
       "open_issues": 270,
-      "summary": "CodeAF 是 AgentField AI 开源的一款面向开放模型的编程工具，用 Go 写成单个约 53MB 的二进制文件，无需额外安装依赖，采用 Apache 2.0 许可。它想解决的是多项目并行时终端分散、调度与检查都压在人身上的问题：把多个仓库、对话和任务收进一个窗口，在 home 中统一查看哪些需要你、哪些未读、哪些在运行以及花费多少。你用自然语言描述问题，它会拆成独立任务，各自在仓库副本和分支上运行，通过检查的改动自动落到你的分支而非主分支。它还提供针对代码审查、修 issue 等固定工作的子 harness，以及用于 CI、cron 和脚本的无头模式。",
+      "summary": "CodeAF 是一个用 Go 编写的开源编码工具，专为开放模型设计，目标是让每一分钱都发挥最大价值。它把分散在多个终端里的智能体工作整合到一个窗口中，统一管理所有项目和会话，每个项目保留各自的审批规则、模型和花费上限。你只需像跟同事说话一样描述问题，它就能把一句话拆成多个任务，在各自分支上运行，通过检查的工作自动合并到你的分支，无法自动验证的则等待你确认。它还提供针对特定工作定制的子工具，比如代码审查和开发任务，并能在一次会话中为不同任务自动挑选合适的模型组合。典型场景包括本地开发、CI 和脚本调用，以及从远程机器或手机通过 SSH 接入同一对话。",
       "windows": [
         "daily",
         "weekly"
       ],
       "added_at": "2026-10-09T11:00:35+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 7
+      "seen_count": 8
     }
   ]
 }

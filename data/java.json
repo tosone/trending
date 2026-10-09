@@ -6,11 +6,80 @@
     "weekly",
     "monthly"
   ],
-  "generated_at": "2026-10-09T11:49:26+00:00",
+  "generated_at": "2026-10-09T12:43:42+00:00",
   "first_at": "2026-10-09T11:22:02+00:00",
-  "count": 42,
+  "count": 49,
   "added": 0,
   "repos": [
+    {
+      "owner": "krahets",
+      "name": "hello-algo",
+      "full_name": "krahets/hello-algo",
+      "url": "https://github.com/krahets/hello-algo",
+      "description": "《Hello 算法》：动画图解、一键运行的数据结构与算法教程。支持简中、繁中、English、日本語，提供 Python, Java, C++, C, C#, JS, Go, Swift, Rust, Ruby, Kotlin, TS, Dart 等代码实现",
+      "language": "Java",
+      "stars": 130487,
+      "forks": 15502,
+      "homepage": "https://www.hello-algo.com",
+      "license": "NOASSERTION",
+      "created_at": "2022-11-04T11:08:34Z",
+      "pushed_at": "2026-08-17T20:58:58Z",
+      "updated_at": "2026-10-09T12:25:39Z",
+      "open_issues": 42,
+      "summary": "《Hello 算法》是一本面向数据结构与算法初学者的开源免费教程，通过动画图解降低理解门槛，内容覆盖基础概念与底层实现。它解决了新手学习算法时资料晦涩、代码难以运行的问题，所有源代码支持一键运行，便于读者在动手练习中掌握算法原理。教程提供简体中文、繁体中文、英文、日文和俄文版本，并附有 Python、Java、C++、C、C#、JavaScript、Go、Swift、Rust、Ruby、Kotlin、TypeScript、Dart 等十余种编程语言的代码实现，适合算法入门者、在校学生及需要多语言参考的开发者使用。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-09T12:39:32+00:00",
+      "last_seen": "2026-10-09",
+      "seen_count": 1
+    },
+    {
+      "owner": "iluwatar",
+      "name": "java-design-patterns",
+      "full_name": "iluwatar/java-design-patterns",
+      "url": "https://github.com/iluwatar/java-design-patterns",
+      "description": "Design patterns implemented in Java",
+      "language": "Java",
+      "stars": 94771,
+      "forks": 27370,
+      "homepage": "https://java-design-patterns.com",
+      "license": "NOASSERTION",
+      "created_at": "2014-08-09T16:45:18Z",
+      "pushed_at": "2026-10-08T12:44:21Z",
+      "updated_at": "2026-10-09T11:34:19Z",
+      "open_issues": 137,
+      "summary": "Java Design Patterns 是一个用 Java 实现经典设计模式的代码示例库，面向希望理解并应用设计模式的开发者。它解决的是设计模式学习过程中概念抽象、缺少可运行参考的问题，通过社区中经验丰富的程序员和架构师编写的源码，展示每种模式的具体实现方式。代码注释详尽，可作为编程教程使用，并基于主流开源 Java 技术构建。项目按创建型、行为型等类别组织，也支持按名称、性能或四人帮等标签检索，便于快速定位。适合在架构设计或系统开发时参考，帮助避免常见隐患、提升代码可读性。项目同时提供电子书，并鼓励开发者通过开发者 wiki 和聊天室参与贡献。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-09T12:39:32+00:00",
+      "last_seen": "2026-10-09",
+      "seen_count": 1
+    },
+    {
+      "owner": "macrozheng",
+      "name": "mall",
+      "full_name": "macrozheng/mall",
+      "url": "https://github.com/macrozheng/mall",
+      "description": "mall项目是一套电商系统，包括前台商城系统及后台管理系统，基于Spring Boot+MyBatis实现，采用Docker容器化部署。 前台商城系统包含首页门户、商品推荐、商品搜索、商品展示、购物车、订单流程、会员中心、客户服务、帮助中心等模块。 后台管理系统包含商品管理、订单管理、会员管理、促销管理、运营管理、内容管理、统计报表、财务管理、权限管理、设置等模块。",
+      "language": "Java",
+      "stars": 84870,
+      "forks": 29840,
+      "homepage": "https://www.macrozheng.com/admin/",
+      "license": "Apache-2.0",
+      "created_at": "2018-04-04T01:11:44Z",
+      "pushed_at": "2026-09-15T02:34:44Z",
+      "updated_at": "2026-10-09T12:21:28Z",
+      "open_issues": 16,
+      "summary": "mall 是一套基于 Spring Boot 与 MyBatis 实现的完整电商系统，采用 Docker 容器化部署，主要使用 Java 语言开发。它同时提供前台商城与后台管理两端：前台涵盖首页门户、商品推荐与搜索、商品展示、购物车、订单流程、会员中心、客户服务及帮助中心等模块；后台则包括商品、订单、会员、促销、运营、内容、统计报表、财务、权限与设置等管理功能。项目致力于提供一套可直接运行和学习的电商解决方案，配套有完整的学习教程、视频教程及在线演示环境，并另有基于 Spring Cloud Alibaba 的微服务版本 mall-swarm。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-09T12:39:32+00:00",
+      "last_seen": "2026-10-09",
+      "seen_count": 1
+    },
     {
       "owner": "NationalSecurityAgency",
       "name": "ghidra",
@@ -18,13 +87,13 @@
       "url": "https://github.com/NationalSecurityAgency/ghidra",
       "description": "Ghidra is a software reverse engineering (SRE) framework",
       "language": "Java",
-      "stars": 81875,
-      "forks": 9093,
+      "stars": 81890,
+      "forks": 9095,
       "homepage": "",
       "license": "Apache-2.0",
       "created_at": "2019-03-01T03:27:48Z",
       "pushed_at": "2026-10-09T10:30:16Z",
-      "updated_at": "2026-10-09T11:47:38Z",
+      "updated_at": "2026-10-09T12:37:41Z",
       "open_issues": 1988,
       "summary": "Ghidra 是由美国国家安全局研究理事会创建并维护的软件逆向工程框架，采用 Java 编写。它面向复杂逆向工程中的规模化与团队协作问题，提供可定制、可扩展的分析平台。其核心能力包括反汇编、汇编、反编译、图形化展示和脚本编写，支持多种处理器指令集与可执行格式，并可在交互与自动化两种模式下运行。用户能使用 Java 或 Python 开发自定义扩展组件和脚本。该框架可在 Windows、macOS 和 Linux 上运行，常用于分析恶意代码、挖掘网络与系统潜在漏洞。",
       "windows": [
@@ -34,7 +103,7 @@
       ],
       "added_at": "2026-10-09T11:22:02+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 3
+      "seen_count": 4
     },
     {
       "owner": "spring-projects",
@@ -44,13 +113,13 @@
       "description": "Spring Boot helps you to create Spring-powered, production-grade applications and services with absolute minimum fuss.",
       "language": "Java",
       "stars": 81585,
-      "forks": 44332,
+      "forks": 44334,
       "homepage": "https://spring.io/projects/spring-boot",
       "license": "Apache-2.0",
       "created_at": "2012-10-19T15:02:57Z",
       "pushed_at": "2026-10-08T14:06:52Z",
       "updated_at": "2026-10-09T11:04:01Z",
-      "open_issues": 496,
+      "open_issues": 497,
       "summary": "Spring Boot 是 Spring 生态中用于快速构建生产级应用和服务的框架，基于 Java 编写。它通过对 Spring 平台采取约定优于配置的立场，解决传统 Spring 开发中配置繁琐、上手门槛高的问题，让开发者能迅速聚焦到真正需要的部分。其核心特点包括：提供更快且易于获取的入门体验，在默认配置不适用时可快速让路，并内置嵌入式服务器、安全、指标、健康检查、外部化配置等大型项目常见的非功能性能力，同时完全不依赖代码生成和 XML 配置。使用它既能创建通过 java -jar 启动的独立 Java 应用，也能进行传统的 WAR 部署，还提供运行 Spring 脚本的命令行工具。",
       "windows": [
         "weekly",
@@ -58,7 +127,30 @@
       ],
       "added_at": "2026-10-09T11:22:02+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 3
+      "seen_count": 4
+    },
+    {
+      "owner": "doocs",
+      "name": "advanced-java",
+      "full_name": "doocs/advanced-java",
+      "url": "https://github.com/doocs/advanced-java",
+      "description": "😮 Core Interview Questions & Answers For Experienced Java(Backend) Developers | 互联网 Java 工程师进阶知识完全扫盲：涵盖高并发、分布式、高可用、微服务、海量数据处理等领域知识",
+      "language": "Java",
+      "stars": 79146,
+      "forks": 19136,
+      "homepage": "https://java.doocs.org",
+      "license": "CC-BY-SA-4.0",
+      "created_at": "2018-10-06T11:38:30Z",
+      "pushed_at": "2026-09-24T07:15:47Z",
+      "updated_at": "2026-10-09T09:57:52Z",
+      "open_issues": 0,
+      "summary": "doocs/advanced-java 是一份面向有经验的 Java 后端开发者的进阶知识整理，内容源自中华石杉的分享，由社区系统梳理成便于查阅的面试与学习资料。它主要解决开发者在中高级岗位面试和实际架构设计中，对高并发、分布式、高可用、微服务、海量数据处理等知识掌握零散、缺乏体系的问题。核心内容以问题驱动，覆盖消息队列、搜索引擎、缓存、分库分表、读写分离、分布式服务框架、分布式锁与事务、Hystrix 限流熔断降级、Spring Cloud 微服务以及海量数据 TopK 等典型题目，并配有思路解析。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-09T12:39:32+00:00",
+      "last_seen": "2026-10-09",
+      "seen_count": 1
     },
     {
       "owner": "elastic",
@@ -67,21 +159,90 @@
       "url": "https://github.com/elastic/elasticsearch",
       "description": "Free and Open Source, Distributed, RESTful Search Engine",
       "language": "Java",
-      "stars": 78225,
-      "forks": 26115,
+      "stars": 78226,
+      "forks": 26114,
       "homepage": "https://www.elastic.co/products/elasticsearch",
       "license": "NOASSERTION",
       "created_at": "2010-02-08T13:20:56Z",
-      "pushed_at": "2026-10-09T11:40:33Z",
-      "updated_at": "2026-10-09T11:27:28Z",
-      "open_issues": 6173,
+      "pushed_at": "2026-10-09T12:28:55Z",
+      "updated_at": "2026-10-09T12:29:00Z",
+      "open_issues": 6171,
       "summary": "Elasticsearch 是一个用 Java 编写的分布式搜索与分析引擎，同时也可作为可扩展的数据存储和向量数据库，针对生产级工作负载的速度与相关性进行了优化。它基于 RESTful 接口，支持通过任意 HTTP 客户端或官方语言客户端（如 Python）发送请求，数据以 JSON 文档形式索引，可近实时地搜索海量数据集。其核心能力包括全文检索、向量搜索、日志与指标处理、应用性能监控和安全日志分析，并可与生成式 AI 应用集成，支持检索增强生成等场景。",
       "windows": [
         "monthly"
       ],
       "added_at": "2026-10-09T11:22:02+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 3
+      "seen_count": 4
+    },
+    {
+      "owner": "MisterBooo",
+      "name": "LeetCodeAnimation",
+      "full_name": "MisterBooo/LeetCodeAnimation",
+      "url": "https://github.com/MisterBooo/LeetCodeAnimation",
+      "description": "Demonstrate all the questions on LeetCode in the form of animation.（用动画的形式呈现解LeetCode题目的思路,完整单步/回看/变速/语音讲解在 algomooc.com）",
+      "language": "Java",
+      "stars": 76705,
+      "forks": 13856,
+      "homepage": "https://www.algomooc.com",
+      "license": "",
+      "created_at": "2018-12-06T08:01:22Z",
+      "pushed_at": "2026-06-12T13:49:06Z",
+      "updated_at": "2026-10-09T11:40:00Z",
+      "open_issues": 22,
+      "summary": "LeetCodeAnimation 用动画形式拆解 LeetCode 题目的解题过程，把指针移动、状态转移、递归展开和边界条件这些抽象环节直观呈现出来。仓库主要用 Java 编写，同时为每道题提供 Python、C++、Java 三种参考实现，Python 为默认。它解决的是看代码难以理解算法执行流程的问题，适合刷题时卡住思路、需要看清步骤的学习者。核心特点包括动画题解、结构化数据以及持续同步机制：docs/data/manifest.json 可被脚本读取，用于生成索引或二次整理，网站侧新增动画后会同步回仓库。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-09T12:39:32+00:00",
+      "last_seen": "2026-10-09",
+      "seen_count": 1
+    },
+    {
+      "owner": "TheAlgorithms",
+      "name": "Java",
+      "full_name": "TheAlgorithms/Java",
+      "url": "https://github.com/TheAlgorithms/Java",
+      "description": "All Algorithms implemented in Java",
+      "language": "Java",
+      "stars": 66360,
+      "forks": 21282,
+      "homepage": "",
+      "license": "MIT",
+      "created_at": "2016-07-16T10:21:02Z",
+      "pushed_at": "2026-10-09T09:17:52Z",
+      "updated_at": "2026-10-09T09:17:54Z",
+      "open_issues": 10,
+      "summary": "TheAlgorithms/Java 汇集了用 Java 实现的各种算法，定位是教学与学习用途，而非替代 Java 标准库。它解决的是学习者在理解算法原理时缺少可运行、可修改示例代码的问题：仓库中的实现可以直接运行和编辑，也支持通过 Gitpod.io 这一免费在线开发环境一键打开并动手实践。核心特点在于覆盖面广，目录中提供了完整的应用列表，便于按主题查找；同时项目维护了贡献指南，说明如何参与改进或补充算法实现。典型使用场景包括算法课程学习、面试前的代码复习、以及通过阅读和改写 Java 代码来加深对数据结构与算法思路的理解。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-09T12:39:32+00:00",
+      "last_seen": "2026-10-09",
+      "seen_count": 1
+    },
+    {
+      "owner": "kdn251",
+      "name": "interviews",
+      "full_name": "kdn251/interviews",
+      "url": "https://github.com/kdn251/interviews",
+      "description": "Everything you need to know to get the job.",
+      "language": "Java",
+      "stars": 65261,
+      "forks": 12886,
+      "homepage": "https://www.youtube.com/channel/UCKvwPt6BifPP54yzH99ff1g?view_as=subscriber",
+      "license": "MIT",
+      "created_at": "2017-02-14T18:19:25Z",
+      "pushed_at": "2025-05-12T12:56:04Z",
+      "updated_at": "2026-10-09T07:51:03Z",
+      "open_issues": 122,
+      "summary": "kdn251/interviews 是一份面向软件开发求职者的面试准备资料库，主要语言为 Java，由 Kevin Naughton Jr. 维护。它解决的问题是把零散的面试知识点和练习渠道集中到一处，帮助准备编程面试的人系统复习。内容涵盖数据结构（链表、栈、队列、树、二叉搜索树、Trie、Fenwick 树、线段树、堆、哈希、图）和算法（快速排序、归并排序、桶排序、基数排序、深度优先搜索、广度优先搜索、拓扑排序、Dijkstra、Bellman-Ford、Floyd-Warshall 等），并给出每种结构或算法的时间复杂度说明。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-09T12:39:32+00:00",
+      "last_seen": "2026-10-09",
+      "seen_count": 1
     },
     {
       "owner": "termux",
@@ -145,13 +306,13 @@
       "pushed_at": "2026-10-09T11:09:42Z",
       "updated_at": "2026-10-09T11:09:51Z",
       "open_issues": 1465,
-      "summary": "NewPipe 是一款面向 Android 的自由轻量级流媒体前端，使用 Java 编写，以 GPLv3 或更高版本授权。它让用户无需注册账号即可观看和收听多个平台的内容，目前支持 YouTube、YouTube Music、PeerTube、Bandcamp、SoundCloud 和 media.ccc.de。应用通过调用官方 API 或解析网站获取数据，不依赖 Google Play 服务等专有库，因此可在未安装谷歌应用的设备或自定义 ROM 上运行。",
+      "summary": "NewPipe 是一款面向 Android 的自由轻量流媒体前端，用 Java 编写，目前处于测试阶段。它解决的是用户在不登录账号、不依赖 Google Play 服务等专有框架的情况下观看和收听网络媒体的问题：应用优先调用服务的官方 API，若接口受限或专有则解析网站或使用内部 API，因此无需注册即可使用。它支持 YouTube、YouTube Music、PeerTube、Bandcamp、SoundCloud 和 media.ccc.",
       "windows": [
         "weekly"
       ],
       "added_at": "2026-10-09T11:22:02+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 3
+      "seen_count": 4
     },
     {
       "owner": "YunaiV",
@@ -183,22 +344,22 @@
       "url": "https://github.com/keycloak/keycloak",
       "description": "Open Source Identity and Access Management For Modern Applications and Services",
       "language": "Java",
-      "stars": 37250,
+      "stars": 37251,
       "forks": 9029,
       "homepage": "https://www.keycloak.org",
       "license": "Apache-2.0",
       "created_at": "2013-07-02T13:38:51Z",
       "pushed_at": "2026-10-09T11:47:16Z",
-      "updated_at": "2026-10-09T11:48:03Z",
-      "open_issues": 3231,
-      "summary": "Keycloak 是一款开源的身份与访问管理工具，主要用 Java 编写，旨在以最小的工作量帮助应用和服务添加认证能力并保障安全，开发者无需自行处理用户存储或用户认证。它提供用户联合、强认证、用户管理和细粒度授权等核心功能，适用于需要统一登录、单点登录和权限控制的现代应用与服务。使用时可从官网下载发行版，解压后运行 bin/kc.sh 或 bin/kc.bat 的 start-dev 命令启动，也可通过 quay.io/keycloak/keycloak 的 Docker 镜像运行。项目采用 Apache License 2.",
+      "updated_at": "2026-10-09T12:13:35Z",
+      "open_issues": 3234,
+      "summary": "Keycloak 是一款开源的身份与访问管理工具，主要用 Java 编写，面向现代应用和服务。它解决的核心问题是让开发者无需自行处理用户存储和用户认证，就能以较小成本为应用添加登录功能并保护服务。其核心能力包括用户联邦、强认证、用户管理以及细粒度授权等。典型使用场景是为各类应用和服务统一提供认证与访问控制。技术上，它提供服务器和 Java 适配器，并有客户端库、Node.js 适配器及快速入门等配套项目。运行方式灵活，可从官网下载发行版解压后执行启动命令，也可直接使用 Docker 镜像。",
       "windows": [
         "weekly",
         "monthly"
       ],
       "added_at": "2026-10-09T11:22:02+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 3
+      "seen_count": 4
     },
     {
       "owner": "apache",
@@ -261,13 +422,13 @@
       "pushed_at": "2026-09-30T17:52:20Z",
       "updated_at": "2026-10-09T11:02:02Z",
       "open_issues": 615,
-      "summary": "Telegram for Android 是 Telegram 官方开源的安卓客户端源码，采用 Java 编写，面向希望了解或基于 Telegram 平台构建即时通讯应用的开发者。它解决了在移动端实现快速、安全消息传递的问题，核心能力包括消息收发、Firebase 消息推送以及通过 MTProto 协议与 Telegram 服务端通信。项目要求开发者自行申请 api_id，并遵守安全指南与开源许可，不得使用官方名称和标志。典型使用场景是学习大型即时通讯应用的架构，或定制自有品牌的安卓客户端。编译需使用 Android Studio 2025.1.4、Android NDK 27.2.",
+      "summary": "Telegram for Android 是 Telegram 官方 Android 客户端的完整源代码，使用 Java 编写，面向希望了解或基于其构建即时通讯应用的开发者。它解决的是在移动端实现快速、安全消息传递的问题，核心能力包括消息收发、基于 MTProto 协议的通信，以及通过 Firebase 实现的消息推送。该仓库包含可编译的 Android 工程，需要 Android Studio、Android NDK 和 Android SDK 配合使用，并依赖 release.keystore、google-services.json 及 BuildVars.java 等配置完成构建。",
       "windows": [
         "weekly"
       ],
       "added_at": "2026-10-09T11:22:02+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 3
+      "seen_count": 4
     },
     {
       "owner": "kestra-io",
@@ -461,21 +622,21 @@
       "url": "https://github.com/ZCShou/GoGoGo",
       "description": "一个基于 Android 调试 API + 百度地图实现的虚拟定位工具，并且同时实现了一个可以自由移动的摇杆",
       "language": "Java",
-      "stars": 11459,
+      "stars": 11461,
       "forks": 1309,
       "homepage": "https://itexp.blog.csdn.net/",
       "license": "GPL-3.0",
       "created_at": "2021-12-03T06:59:39Z",
       "pushed_at": "2025-11-20T17:04:08Z",
-      "updated_at": "2026-10-09T11:30:44Z",
+      "updated_at": "2026-10-09T12:18:16Z",
       "open_issues": 17,
-      "summary": "影梭（GoGoGo）是一个基于 Android 调试 API 与百度地图及定位 SDK 实现的虚拟定位工具，使用 Java 编写，支持 Android 8.0 及以上系统，无需 ROOT 权限即可修改设备当前位置并模拟移动。它主要解决在非 ROOT 环境下进行位置模拟的需求，核心功能包括定位修改、摇杆控制移动、历史记录、位置搜索、直接输入坐标以及截图。典型用法是安装 APK 后授予相关权限，单击地图位置并点击启动按钮。项目作者表示其初衷是学习 Android 与百度地图的实现方法，并明确反对将工具用于校园运动类 APP 作弊或游戏作弊。代码以 GPL-3.",
+      "summary": "影梭（GoGoGo）是一个面向 Android 8.0 及以上系统的虚拟定位工具，基于 Android 调试 API 与百度地图及定位 SDK 实现，使用 Java 编写。它解决的是无需 ROOT 权限即可修改手机当前位置并模拟移动的需求，核心功能包括定位修改、摇杆控制移动、历史记录、位置搜索、直接输入坐标以及截图。典型用法是安装 APK 后授予相关权限，单击地图位置再点击启动按钮。开发者强调该项目仅用于学习 Android 与百度地图的实现方法，不支持也不赞同用于校园运动类应用作弊，并提醒定位偶尔飘回真实位置是调试 API 的固有问题。",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-09T11:22:02+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 3
+      "seen_count": 4
     },
     {
       "owner": "alibaba",
@@ -601,21 +762,21 @@
       "description": "The main repository of Telegram X — official alternative Telegram client for Android.",
       "language": "Java",
       "stars": 6062,
-      "forks": 1139,
+      "forks": 1138,
       "homepage": "https://play.google.com/store/apps/details?id=org.thunderdog.challegram",
       "license": "GPL-3.0",
       "created_at": "2021-08-17T17:09:25Z",
       "pushed_at": "2026-10-08T15:29:03Z",
-      "updated_at": "2026-10-09T03:53:49Z",
+      "updated_at": "2026-10-09T12:27:25Z",
       "open_issues": 216,
-      "summary": "Telegram X 是 Telegram 官方推出的 Android 替代客户端，基于 TDLib 构建，采用 Java 语言开发，源码以 GNU GPL v3.0 协议开源。它通过 Telegram API 与 MTProto 安全协议实现消息收发，定位为实验性客户端，用于探索新功能与交互体验。项目提供完整的构建说明，支持 macOS、Ubuntu 与 Windows（MSYS2 UCRT64）环境，需 JDK 25、git-lfs 及至少 8GB 内存，克隆时建议使用 --shallow-submodules --depth=1 以节省空间。构建命令为 .",
+      "summary": "Telegram X 是 Telegram 官方推出的 Android 替代客户端，基于 TDLib 和 MTProto 安全协议构建，以 Java 为主要语言，定位为流畅且具实验性的即时通讯工具。它解决的是官方主客户端之外对性能与交互体验有更高要求的用户需求，同时提供可复现的构建流程以验证 APK 未被注入额外代码。其核心特点包括完整的源码与构建说明、支持通过校验和比对确认 APK 来源、提供可复现公开构建的 Ubuntu 环境配置，以及面向贡献者的拉取请求模板与指南。典型使用场景为在 Android 设备上安装并日常使用 Telegram，或由开发者自行编译、验证官方 APK 的完整性。",
       "windows": [
         "weekly",
         "monthly"
       ],
       "added_at": "2026-10-09T11:22:02+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 3
+      "seen_count": 4
     },
     {
       "owner": "GeyserMC",
@@ -750,13 +911,13 @@
       "pushed_at": "2026-10-09T07:40:07Z",
       "updated_at": "2026-10-09T11:02:44Z",
       "open_issues": 818,
-      "summary": "Meteor 是一款基于 Minecraft Fabric 的实用工具模组，主要面向无政府服务器（anarchy servers）场景，使用 Java 编写。它解决的问题是在这类特殊服务器环境中提供辅助功能，帮助玩家更高效地进行游戏操作。项目通过 Fabric 与 Yarn 构建，需先克隆仓库并运行 ./gradlew build 完成编译，安装步骤可参考其 wiki 指南。作为开源项目，它采用 GNU GPL v3.0 许可证，要求任何使用其代码的衍生作品必须公开源代码、明确告知用户并沿用相同许可证，禁止用于闭源或混淆程序。",
+      "summary": "Meteor Client 是一款基于 Minecraft Fabric 框架开发的实用工具模组，主要面向无政府状态服务器等场景，用 Java 编写。它解决的是玩家在这类服务器中需要额外辅助功能的问题，通过模组形式为游戏客户端提供一系列实用能力。项目使用 Fabric 与 Yarn 进行构建，开发者可克隆仓库后运行 ./gradlew build 完成编译，安装方式则参考其 wiki 指南。该模组适合希望在 Minecraft 中获取辅助功能的玩家使用，同时也接受社区贡献，要求提交的代码遵循既有风格、注重可读性，并为 Java 源文件保留许可头。",
       "windows": [
         "weekly"
       ],
       "added_at": "2026-10-09T11:22:02+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 3
+      "seen_count": 4
     },
     {
       "owner": "apache",

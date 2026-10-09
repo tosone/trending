@@ -6,9 +6,9 @@
     "weekly",
     "monthly"
   ],
-  "generated_at": "2026-10-09T11:50:11+00:00",
+  "generated_at": "2026-10-09T12:42:17+00:00",
   "first_at": "2026-10-09T11:23:13+00:00",
-  "count": 37,
+  "count": 45,
   "added": 0,
   "repos": [
     {
@@ -18,21 +18,21 @@
       "url": "https://github.com/tensorflow/tensorflow",
       "description": "An Open Source Machine Learning Framework for Everyone",
       "language": "C++",
-      "stars": 200573,
-      "forks": 78702,
+      "stars": 200574,
+      "forks": 78713,
       "homepage": "https://tensorflow.org",
       "license": "Apache-2.0",
       "created_at": "2015-11-07T01:19:20Z",
-      "pushed_at": "2026-10-09T11:40:35Z",
-      "updated_at": "2026-10-09T11:43:42Z",
-      "open_issues": 3247,
+      "pushed_at": "2026-10-09T12:29:36Z",
+      "updated_at": "2026-10-09T12:29:52Z",
+      "open_issues": 3248,
       "summary": "TensorFlow 是由 Google Brain 团队的研究人员和工程师开发的端到端开源机器学习平台，主要使用 C++ 编写，旨在帮助研究者推进机器学习领域的前沿进展，同时让开发者能够便捷地构建和部署由机器学习驱动的应用。它提供了涵盖工具、库和社区资源的完整生态系统，并支持稳定的 Python 和 C++ API，以及其他语言的非向后兼容保证 API。TensorFlow 可安装于 pip 包，支持 CUDA 加速的 GPU 以及通过设备插件支持 DirectX 和 macOS Metal，也提供仅 CPU 的精简包和用于测试的 nightly 版本。",
       "windows": [
         "monthly"
       ],
       "added_at": "2026-10-09T11:23:13+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 3
+      "seen_count": 4
     },
     {
       "owner": "ggml-org",
@@ -41,21 +41,67 @@
       "url": "https://github.com/ggml-org/llama.cpp",
       "description": "LLM inference in C/C++",
       "language": "C++",
-      "stars": 130619,
-      "forks": 24223,
+      "stars": 130622,
+      "forks": 24224,
       "homepage": "https://llama.app",
       "license": "MIT",
       "created_at": "2023-03-10T18:58:00Z",
-      "pushed_at": "2026-10-09T11:44:31Z",
-      "updated_at": "2026-10-09T11:38:18Z",
-      "open_issues": 2492,
+      "pushed_at": "2026-10-09T12:30:32Z",
+      "updated_at": "2026-10-09T12:38:20Z",
+      "open_issues": 2493,
       "summary": "llama.cpp 是一个用 C/C++ 实现的 LLM 推理项目，目标是在尽量少的配置下，让大语言模型和多模态模型能在本地或云端多种硬件上高效运行。它基于 ggml 库构建，不依赖外部库，针对 Apple 芯片通过 ARM NEON、Accelerate 和 Metal 优化，对 x86 提供 AVX、AVX2、AVX512 和 AMX 支持，对 RISC-V 也有相应指令集支持。项目支持 1.",
       "windows": [
         "monthly"
       ],
       "added_at": "2026-10-09T11:23:13+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 3
+      "seen_count": 4
+    },
+    {
+      "owner": "react",
+      "name": "react-native",
+      "full_name": "react/react-native",
+      "url": "https://github.com/react/react-native",
+      "description": "A framework for building native applications using React",
+      "language": "C++",
+      "stars": 126608,
+      "forks": 25302,
+      "homepage": "https://reactnative.dev",
+      "license": "MIT",
+      "created_at": "2015-01-09T18:10:16Z",
+      "pushed_at": "2026-10-09T12:37:46Z",
+      "updated_at": "2026-10-09T12:21:30Z",
+      "open_issues": 1147,
+      "summary": "React Native 是一个用 React 构建原生应用的框架，核心理念是“一次学习，随处编写”，让开发者用 JavaScript 编写代码，再由原生代码渲染，从而为 Android、iOS 等平台创建原生应用。它解决的是跨平台开发中既要复用逻辑又要保留原生体验的问题：其基础组件直接渲染为各平台的原生 UI，手势、文字缩放和无障碍行为都符合对应系统的习惯，同时声明式 UI、组件、Hooks 和 Suspense 可在多端复用。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-09T12:39:21+00:00",
+      "last_seen": "2026-10-09",
+      "seen_count": 1
+    },
+    {
+      "owner": "electron",
+      "name": "electron",
+      "full_name": "electron/electron",
+      "url": "https://github.com/electron/electron",
+      "description": ":electron: Build cross-platform desktop apps with JavaScript, HTML, and CSS",
+      "language": "C++",
+      "stars": 123246,
+      "forks": 17589,
+      "homepage": "https://electronjs.org",
+      "license": "MIT",
+      "created_at": "2013-04-12T01:47:36Z",
+      "pushed_at": "2026-10-09T05:25:31Z",
+      "updated_at": "2026-10-09T12:09:42Z",
+      "open_issues": 730,
+      "summary": "Electron 是一个基于 Node.js 和 Chromium 的框架，让开发者用 JavaScript、HTML 和 CSS 编写跨平台桌面应用。它解决了桌面软件开发通常需要分别针对不同操作系统编写原生代码的问题，通过前端技术栈即可构建 macOS、Windows 和 Linux 应用。其核心能力在于将 Chromium 的渲染引擎与 Node.js 运行时结合，使网页技术能够直接调用系统资源。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-09T12:39:21+00:00",
+      "last_seen": "2026-10-09",
+      "seen_count": 1
     },
     {
       "owner": "godotengine",
@@ -64,21 +110,159 @@
       "url": "https://github.com/godotengine/godot",
       "description": "Godot Engine – Multi-platform 2D and 3D game engine",
       "language": "C++",
-      "stars": 118121,
+      "stars": 118122,
       "forks": 26996,
       "homepage": "https://godotengine.org",
       "license": "MIT",
       "created_at": "2014-01-04T16:05:36Z",
       "pushed_at": "2026-10-08T18:43:17Z",
-      "updated_at": "2026-10-09T11:25:24Z",
-      "open_issues": 18860,
-      "summary": "Godot Engine 是一款用 C++ 编写的跨平台 2D 与 3D 游戏引擎，采用 MIT 许可证完全免费开源，无版税或附加条件。它通过统一界面提供完整的常用工具集，让开发者无需重复造轮子，专注于游戏内容创作。引擎支持一键导出到 Linux、macOS、Windows 等桌面平台，Android、iOS 等移动平台，以及 Web 平台和主机。其开发完全独立且由社区驱动，用户可参与塑造引擎功能，并由非营利的 Godot 基金会支持。该项目最初由 Juan Linietsky 和 Ariel Manzur 作为内部引擎开发多年，用于发布多款外包作品，2014 年 2 月开源。",
+      "updated_at": "2026-10-09T12:40:09Z",
+      "open_issues": 18861,
+      "summary": "Godot Engine 是一个用 C++ 编写的跨平台 2D 与 3D 游戏引擎，提供统一界面，让开发者无需从零构建基础工具，从而专注于游戏内容本身。它内置一套常用工具集，支持一键导出到 Linux、macOS、Windows 等桌面平台，Android、iOS 等移动平台，以及 Web 平台和主机。引擎完全免费，开发由社区驱动，用户可参与塑造其发展方向。该项目最初由 Juan Linietsky 和 Ariel Manzur 作为内部引擎开发多年，用于发布多款商业作品，后于 2014 年 2 月开源。",
       "windows": [
         "monthly"
       ],
       "added_at": "2026-10-09T11:23:13+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 3
+      "seen_count": 5
+    },
+    {
+      "owner": "microsoft",
+      "name": "terminal",
+      "full_name": "microsoft/terminal",
+      "url": "https://github.com/microsoft/terminal",
+      "description": "The new Windows Terminal and the original Windows console host, all in the same place!",
+      "language": "C++",
+      "stars": 105115,
+      "forks": 9656,
+      "homepage": "",
+      "license": "MIT",
+      "created_at": "2017-08-11T18:38:22Z",
+      "pushed_at": "2026-10-08T22:12:33Z",
+      "updated_at": "2026-10-09T11:37:47Z",
+      "open_issues": 1772,
+      "summary": "Windows Terminal 是微软推出的现代终端应用，与经典的控制台主机 conhost.exe 共存于同一仓库，主要用 C++ 编写。它解决了传统 Windows 控制台长期受限于向后兼容而难以加入标签页、Unicode 文本和表情符号等问题。核心能力包括多标签、富文本、全球化支持、可配置性以及主题与样式定制，同时注重速度与资源占用。仓库还包含 conhost.exe 源码、两者共享的组件、ColorTool 及控制台 API 示例。共享组件如基于 DirectWrite 的文本渲染引擎、支持 UTF-16 与 UTF-8 的缓冲区、VT 解析器等可被其他终端实现复用。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-09T12:39:21+00:00",
+      "last_seen": "2026-10-09",
+      "seen_count": 1
+    },
+    {
+      "owner": "opencv",
+      "name": "opencv",
+      "full_name": "opencv/opencv",
+      "url": "https://github.com/opencv/opencv",
+      "description": "Open Source Computer Vision Library",
+      "language": "C++",
+      "stars": 91125,
+      "forks": 57039,
+      "homepage": "https://opencv.org",
+      "license": "Apache-2.0",
+      "created_at": "2012-07-19T09:40:17Z",
+      "pushed_at": "2026-10-09T11:10:45Z",
+      "updated_at": "2026-10-09T12:37:18Z",
+      "open_issues": 2784,
+      "summary": "OpenCV 是一个开源的计算机视觉库，主要用 C++ 编写，提供图像处理与计算机视觉相关的通用算法和工具。它解决的是让开发者不必从零实现底层视觉运算的问题，覆盖从图像读取、变换到特征提取、目标检测等常见任务。其核心能力包括跨平台的图像与视频处理、矩阵运算以及多种视觉算法的实现，并配有官方文档、问答论坛和课程资源，便于学习和排查问题。典型使用场景包括机器人视觉、图像分析、视频监控、增强现实以及结合深度学习模型做推理等，常与 C++ 或 Python 等技术栈配合使用。项目还提供扩展功能模块，并鼓励社区提交基于 OpenCV 的项目、参与志愿活动或通过 OpenCV.ai 获取开发服务。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-09T12:39:21+00:00",
+      "last_seen": "2026-10-09",
+      "seen_count": 1
+    },
+    {
+      "owner": "bitcoin",
+      "name": "bitcoin",
+      "full_name": "bitcoin/bitcoin",
+      "url": "https://github.com/bitcoin/bitcoin",
+      "description": "Bitcoin Core integration/staging tree",
+      "language": "C++",
+      "stars": 90329,
+      "forks": 39425,
+      "homepage": "https://bitcoincore.org/en/download",
+      "license": "MIT",
+      "created_at": "2010-12-19T15:16:43Z",
+      "pushed_at": "2026-10-09T04:18:43Z",
+      "updated_at": "2026-10-09T11:58:13Z",
+      "open_issues": 755,
+      "summary": "Bitcoin Core 是比特币协议的官方实现，以 C++ 编写，作为集成与暂存代码库维护。它连接比特币点对点网络，下载并完整验证区块与交易，从而让节点独立校验链上数据，无需依赖第三方。除核心验证功能外，它还内置钱包和图形界面，图形界面可按需选择编译。该项目主要面向运行全节点、参与网络共识与交易验证的场景，开发者也可基于其代码进行研究与二次开发。代码通过单元测试、Python 编写的回归与集成测试以及覆盖 Windows、Linux、macOS 的持续集成流程保障质量，并借助 Transifex 管理多语言翻译。主分支持续构建与测试，正式稳定版本从发布分支打标签生成。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-09T12:39:21+00:00",
+      "last_seen": "2026-10-09",
+      "seen_count": 1
+    },
+    {
+      "owner": "tesseract-ocr",
+      "name": "tesseract",
+      "full_name": "tesseract-ocr/tesseract",
+      "url": "https://github.com/tesseract-ocr/tesseract",
+      "description": "Tesseract Open Source OCR Engine (main repository)",
+      "language": "C++",
+      "stars": 76882,
+      "forks": 10823,
+      "homepage": "https://tesseract-ocr.github.io/",
+      "license": "Apache-2.0",
+      "created_at": "2014-08-12T18:04:59Z",
+      "pushed_at": "2026-10-09T10:13:41Z",
+      "updated_at": "2026-10-09T10:14:41Z",
+      "open_issues": 495,
+      "summary": "Tesseract 是一个开源 OCR 引擎，包含 libtesseract 库和 tesseract 命令行程序，主要用 C++ 编写。它解决的是从图像中识别文字的问题，支持 UTF-8 编码，开箱即可识别超过 100 种语言，并能处理 PNG、JPEG、TIFF 等图像格式。其 4.x 版本引入了基于 LSTM 神经网络的行识别引擎，同时保留 Tesseract 3 的字符模式识别引擎，可通过 --oem 0 启用兼容模式。输出格式包括纯文本、hOCR、PDF、仅含不可见文本的 PDF、TSV、ALTO 和 PAGE。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-09T12:39:21+00:00",
+      "last_seen": "2026-10-09",
+      "seen_count": 1
+    },
+    {
+      "owner": "ocornut",
+      "name": "imgui",
+      "full_name": "ocornut/imgui",
+      "url": "https://github.com/ocornut/imgui",
+      "description": "Dear ImGui: Bloat-free Graphical User interface for C++ with minimal dependencies",
+      "language": "C++",
+      "stars": 76553,
+      "forks": 12079,
+      "homepage": "",
+      "license": "MIT",
+      "created_at": "2014-07-21T14:29:47Z",
+      "pushed_at": "2026-10-07T18:36:37Z",
+      "updated_at": "2026-10-09T12:33:50Z",
+      "open_issues": 1213,
+      "summary": "Dear ImGui 是一个用 C++ 编写的无冗余图形用户界面库，输出优化后的顶点缓冲区，可在支持 3D 管线的应用中随时渲染。它自身包含于若干平台无关的源文件中，无需特定构建流程，也没有外部依赖，便于快速集成。其设计目标是支持快速迭代，帮助程序员创建内容制作工具、可视化与调试工具，而非面向普通终端用户的界面。它尽量减少状态同步和用户侧 UI 状态存储，适合游戏引擎工具、实时 3D 应用、全屏应用、嵌入式及主机平台。官方提供 DirectX、Vulkan、Metal、OpenGL、SDL、GLFW 等后端，并有大量第三方语言绑定与框架集成，如 Unity、Unreal、Godot 等。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-09T12:39:21+00:00",
+      "last_seen": "2026-10-09",
+      "seen_count": 1
+    },
+    {
+      "owner": "protocolbuffers",
+      "name": "protobuf",
+      "full_name": "protocolbuffers/protobuf",
+      "url": "https://github.com/protocolbuffers/protobuf",
+      "description": "Protocol Buffers - Google's data interchange format",
+      "language": "C++",
+      "stars": 72104,
+      "forks": 16310,
+      "homepage": "http://protobuf.dev",
+      "license": "NOASSERTION",
+      "created_at": "2014-08-26T15:52:15Z",
+      "pushed_at": "2026-10-09T12:34:21Z",
+      "updated_at": "2026-10-09T09:34:47Z",
+      "open_issues": 368,
+      "summary": "Protocol Buffers（简称 protobuf）是 Google 提出的语言中立、平台中立、可扩展的结构化数据序列化机制，主要用 C++ 实现。它解决的是跨语言、跨平台交换结构化数据时的编码与兼容问题，通过编写 .proto 文件定义数据结构，再由协议编译器 protoc 生成目标语言的代码。其核心能力包括序列化结构化数据、支持多种编程语言、允许在不破坏旧数据的前提下扩展字段。典型用法是先用 protoc 编译 .proto 文件，再配合对应语言的运行时库在程序中使用；C++ 用户可从源码构建 protoc 与运行时，其他语言用户可直接下载官方发布的预编译二进制包。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-09T12:39:21+00:00",
+      "last_seen": "2026-10-09",
+      "seen_count": 1
     },
     {
       "owner": "zen-browser",
@@ -202,22 +386,22 @@
       "url": "https://github.com/shadps4-emu/shadPS4",
       "description": "PlayStation 4 emulator for Windows, Linux, macOS and FreeBSD written in C++",
       "language": "C++",
-      "stars": 33278,
-      "forks": 2660,
+      "stars": 33279,
+      "forks": 2661,
       "homepage": "https://shadps4.net/",
       "license": "GPL-2.0",
       "created_at": "2022-10-24T09:48:37Z",
       "pushed_at": "2026-10-07T19:46:41Z",
-      "updated_at": "2026-10-09T11:50:02Z",
+      "updated_at": "2026-10-09T12:28:42Z",
       "open_issues": 264,
-      "summary": "shadPS4 是一个用 C++ 编写的早期 PlayStation 4 模拟器，支持 Windows、Linux、macOS 和 FreeBSD，采用 GPL-2.0 许可证。它旨在让玩家在 PC 上运行 PS4 游戏，目前可成功运行《血源诅咒》《黑暗之魂：重制版》《荒野大镖客：救赎》等作品。该仓库仅包含模拟器核心，不含图形界面，普通用户需下载 QtLauncher 使用。它支持加载部分 PS4 固件模块，需放入 sys_modules 文件夹，且必须从合法拥有的主机中提取。",
+      "summary": "shadPS4 是一个用 C++ 编写的早期 PlayStation 4 模拟器，支持 Windows、Linux、macOS 和 FreeBSD，目标是让玩家在 PC 上运行 PS4 游戏。它解决的是跨平台运行 PS4 独占或主机游戏的需求，目前能成功运行《血源诅咒》《黑暗之魂：重制版》《荒野大镖客：救赎》等作品。项目核心不含图形界面，普通用户需搭配 QtLauncher 使用。它支持 Xbox 和 DualShock 手柄即插即用，也提供键盘鼠标映射，并可加载部分 PS4 固件模块。典型场景包括游戏兼容性测试、调试与问题报告，以及通过 Docker 或各平台说明进行构建。",
       "windows": [
         "weekly",
         "monthly"
       ],
       "added_at": "2026-10-09T11:23:13+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 3
+      "seen_count": 4
     },
     {
       "owner": "78",
@@ -642,21 +826,21 @@
       "url": "https://github.com/Vita3K/Vita3K",
       "description": "Experimental PlayStation Vita emulator",
       "language": "C++",
-      "stars": 5799,
+      "stars": 5800,
       "forks": 629,
       "homepage": "https://vita3k.org/",
       "license": "GPL-2.0",
       "created_at": "2018-01-26T22:45:05Z",
       "pushed_at": "2026-10-09T11:47:04Z",
-      "updated_at": "2026-10-09T11:40:21Z",
+      "updated_at": "2026-10-09T12:18:59Z",
       "open_issues": 227,
-      "summary": "Vita3K 是一个实验性的 PlayStation Vita 模拟器，使用 C++ 编写，支持 Windows、Linux、macOS 和 Android 平台，采用 GPLv2 许可证。它旨在让用户在非 Vita 设备上运行 Vita 游戏和自制程序，目前可运行大多数自制软件及部分商业游戏，兼容性仍在完善中。项目依赖 Unicorn 等外部库，Windows 用户需安装 Visual C++ 2015-2022 可再发行组件，Linux 需 xdg-desktop-portal 及 OpenGL 或 Vulkan 运行时，Android 端则依赖 Adreno 驱动。",
+      "summary": "Vita3K 是一个实验性的 PlayStation Vita 模拟器，使用 C++ 编写，可在 Windows、Linux、macOS 和 Android 上运行，目标是让用户在电脑或手机上运行 Vita 平台的自制程序和商业游戏。它目前能运行大多数自制程序及部分商业游戏，但项目仍处于早期阶段，兼容性有限，可能出现崩溃、画面异常和性能不佳等情况。",
       "windows": [
         "weekly"
       ],
       "added_at": "2026-10-09T11:23:13+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 3
+      "seen_count": 4
     },
     {
       "owner": "windirstat",

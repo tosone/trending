@@ -6,9 +6,9 @@
     "weekly",
     "monthly"
   ],
-  "generated_at": "2026-10-09T11:49:49+00:00",
+  "generated_at": "2026-10-09T12:43:31+00:00",
   "first_at": "2026-10-09T10:50:39+00:00",
-  "count": 45,
+  "count": 51,
   "added": 0,
   "repos": [
     {
@@ -64,21 +64,21 @@
       "url": "https://github.com/openai/codex",
       "description": "Lightweight coding agent that runs in your terminal",
       "language": "Rust",
-      "stars": 128345,
-      "forks": 20131,
+      "stars": 128353,
+      "forks": 20132,
       "homepage": "",
       "license": "Apache-2.0",
       "created_at": "2025-04-13T05:37:54Z",
-      "pushed_at": "2026-10-09T11:37:21Z",
-      "updated_at": "2026-10-09T11:43:08Z",
-      "open_issues": 21763,
+      "pushed_at": "2026-10-09T12:24:25Z",
+      "updated_at": "2026-10-09T12:38:06Z",
+      "open_issues": 21778,
       "summary": "Codex CLI 是 OpenAI 推出的本地命令行编程智能体，使用 Rust 编写，直接在终端中运行。它面向希望在本地环境中借助 AI 完成编码任务的开发者，无需依赖云端即可在电脑上执行。安装方式覆盖 Mac、Linux 和 Windows，也可通过多种包管理器获取，安装后运行 codex 即可启动。使用时推荐通过 ChatGPT 账号登录，可纳入 Plus、Pro、Business、Edu 或 Enterprise 套餐；也支持 API key，但需额外配置。",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-09T11:01:04+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 7
+      "seen_count": 8
     },
     {
       "owner": "rustdesk",
@@ -104,6 +104,144 @@
       "seen_count": 7
     },
     {
+      "owner": "rust-lang",
+      "name": "rust",
+      "full_name": "rust-lang/rust",
+      "url": "https://github.com/rust-lang/rust",
+      "description": "Empowering everyone to build reliable and efficient software.",
+      "language": "Rust",
+      "stars": 119542,
+      "forks": 17996,
+      "homepage": "https://www.rust-lang.org",
+      "license": "Apache-2.0",
+      "created_at": "2010-06-16T20:39:03Z",
+      "pushed_at": "2026-10-09T12:25:36Z",
+      "updated_at": "2026-10-09T12:26:53Z",
+      "open_issues": 12597,
+      "summary": "Rust 官方主仓库，包含编译器、标准库和文档，是这门系统级编程语言的完整实现。它要解决的核心问题是：在不牺牲运行效率的前提下，通过丰富的类型系统和所有权模型在编译期保证内存与线程安全，从而减少运行时缺陷。其特点体现在三方面：性能上快速且内存高效，适用于关键服务、嵌入式设备，并易于与其他语言集成；可靠性上依靠编译期检查降低错误；生产力上提供完善的文档、注重诊断信息的编译器，以及 Cargo 包管理与构建工具、rustfmt 格式化工具、Clippy 静态检查工具和 rust-analyzer 编辑器支持等配套工具链。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-09T12:39:37+00:00",
+      "last_seen": "2026-10-09",
+      "seen_count": 1
+    },
+    {
+      "owner": "tauri-apps",
+      "name": "tauri",
+      "full_name": "tauri-apps/tauri",
+      "url": "https://github.com/tauri-apps/tauri",
+      "description": "Build smaller, faster, and more secure desktop and mobile applications with a web frontend.",
+      "language": "Rust",
+      "stars": 111700,
+      "forks": 4049,
+      "homepage": "https://tauri.app",
+      "license": "Apache-2.0",
+      "created_at": "2019-07-13T09:09:37Z",
+      "pushed_at": "2026-10-09T03:27:32Z",
+      "updated_at": "2026-10-09T12:33:01Z",
+      "open_issues": 1490,
+      "summary": "Tauri 是一个用 Rust 构建的框架，用于为各大主流操作系统生成体积小、启动快且更安全的桌面与移动应用。它解决的是传统桌面应用打包笨重、资源占用高的问题：前端部分可自由选用任何能编译为 HTML、JS 和 CSS 的框架来搭建界面，后端则是 Rust 编写的二进制程序，并通过 API 与前端交互。界面渲染依赖 WRY 统一调用系统 WebView，在 macOS 和 iOS 上使用 WKWebView，Windows 上使用 WebView2，Linux 上使用 WebKitGTK，Android 上使用系统 WebView，窗口管理则由 tao 负责。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-09T12:39:37+00:00",
+      "last_seen": "2026-10-09",
+      "seen_count": 1
+    },
+    {
+      "owner": "denoland",
+      "name": "deno",
+      "full_name": "denoland/deno",
+      "url": "https://github.com/denoland/deno",
+      "description": "A modern runtime for JavaScript and TypeScript.",
+      "language": "Rust",
+      "stars": 108706,
+      "forks": 6402,
+      "homepage": "https://deno.com",
+      "license": "MIT",
+      "created_at": "2018-05-15T01:34:26Z",
+      "pushed_at": "2026-10-07T13:56:06Z",
+      "updated_at": "2026-10-09T12:09:47Z",
+      "open_issues": 1677,
+      "summary": "Deno 是一个面向 JavaScript、TypeScript 和 WebAssembly 的现代运行时，使用 Rust 构建，底层基于 V8 和 Tokio，默认启用安全机制并注重开发体验。它主要解决传统 JavaScript 运行时在安全性和 TypeScript 支持上的不足，让开发者无需额外配置即可直接运行 TypeScript 代码。其核心特点包括默认安全、内置 TypeScript 支持以及对 WebAssembly 的运行能力。典型使用场景是构建 Web 服务器，例如创建一个 server.ts 文件并运行命令即可在本地启动服务。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-09T12:39:37+00:00",
+      "last_seen": "2026-10-09",
+      "seen_count": 1
+    },
+    {
+      "owner": "ruvnet",
+      "name": "RuView",
+      "full_name": "ruvnet/RuView",
+      "url": "https://github.com/ruvnet/RuView",
+      "description": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
+      "language": "Rust",
+      "stars": 97011,
+      "forks": 12749,
+      "homepage": "https://Cognitum.One/RuView",
+      "license": "MIT",
+      "created_at": "2025-06-07T04:32:30Z",
+      "pushed_at": "2026-10-09T12:22:38Z",
+      "updated_at": "2026-10-09T12:30:33Z",
+      "open_issues": 395,
+      "summary": "RuView 是一个用 Rust 编写的 WiFi 感知平台，通过低成本的 ESP32 传感器采集信道状态信息（CSI），把普通 WiFi 信号转化为空间感知能力。它解决的问题是在不安装摄像头、不佩戴任何设备的前提下，实现对人的存在、位置和生命体征的监测。核心能力包括穿墙检测人员存在与数量、非接触测量呼吸和心率、识别行走坐姿与跌倒等活动、进行房间指纹识别与睡眠质量分析，甚至能从 CSI 估计 17 个身体关键点。系统完全运行在边缘硬件上，无需云端和联网，借助脉冲神经网络在本地学习环境，测量结果通过 Ed25519 见证链进行加密存证。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-09T12:39:37+00:00",
+      "last_seen": "2026-10-09",
+      "seen_count": 1
+    },
+    {
+      "owner": "BurntSushi",
+      "name": "ripgrep",
+      "full_name": "BurntSushi/ripgrep",
+      "url": "https://github.com/BurntSushi/ripgrep",
+      "description": "ripgrep recursively searches directories for a regex pattern while respecting your gitignore",
+      "language": "Rust",
+      "stars": 68941,
+      "forks": 4820,
+      "homepage": "",
+      "license": "Unlicense",
+      "created_at": "2016-03-11T02:02:33Z",
+      "pushed_at": "2026-08-04T13:59:44Z",
+      "updated_at": "2026-10-09T12:36:11Z",
+      "open_issues": 202,
+      "summary": "ripgrep（命令名 rg）是一款用 Rust 编写的行导向递归搜索工具，用于在当前目录中按正则表达式查找内容。它默认遵循 gitignore 规则，自动跳过隐藏文件和二进制文件，可通过 rg -uuu 关闭全部自动过滤，从而解决在代码库中搜索时被无关文件干扰的问题。其核心能力包括：基于 Rust 正则引擎，支持 SIMD 与字面量优化，兼顾 Unicode；可自动在内存映射与增量缓冲之间选择搜索策略；支持按文件类型搜索（如 rg -tpy 仅搜 Python）；可选 PCRE2 引擎以支持环视与反向引用；支持多行搜索、压缩文件搜索（-z）、非 UTF-8 编码、替换输出以及配置文件。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-09T12:39:37+00:00",
+      "last_seen": "2026-10-09",
+      "seen_count": 1
+    },
+    {
+      "owner": "dani-garcia",
+      "name": "vaultwarden",
+      "full_name": "dani-garcia/vaultwarden",
+      "url": "https://github.com/dani-garcia/vaultwarden",
+      "description": "Unofficial Bitwarden compatible server written in Rust, formerly known as bitwarden_rs",
+      "language": "Rust",
+      "stars": 68735,
+      "forks": 3293,
+      "homepage": "",
+      "license": "AGPL-3.0",
+      "created_at": "2018-02-17T22:40:20Z",
+      "pushed_at": "2026-10-07T21:41:03Z",
+      "updated_at": "2026-10-09T12:38:45Z",
+      "open_issues": 90,
+      "summary": "Vaultwarden 是一个用 Rust 编写的 Bitwarden 客户端 API 非官方服务端实现，前身为 bitwarden_rs。它面向自托管场景，适合在运行官方服务端资源开销过大时作为替代方案，并与官方 Bitwarden 客户端兼容。功能上，它几乎完整实现了 Bitwarden 客户端 API，涵盖个人密码库、Send、附件、网站图标、个人 API 密钥、组织、集合、密码共享、成员角色、群组、事件日志、管理员密码重置、目录连接器、策略、多因素与双因素认证（验证器、邮件、FIDO2 WebAuthn、YubiKey、Duo）、紧急访问，以及 Vaultwarden 管理后台和随容。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-09T12:39:37+00:00",
+      "last_seen": "2026-10-09",
+      "seen_count": 1
+    },
+    {
       "owner": "bevyengine",
       "name": "bevy",
       "full_name": "bevyengine/bevy",
@@ -116,15 +254,15 @@
       "license": "Apache-2.0",
       "created_at": "2020-01-18T21:13:55Z",
       "pushed_at": "2026-10-09T07:16:48Z",
-      "updated_at": "2026-10-09T11:18:39Z",
-      "open_issues": 3443,
-      "summary": "Bevy 是一个用 Rust 编写的开源数据驱动游戏引擎，采用实体组件系统（ECS）架构，目标是同时提供完整的 2D 和 3D 功能。它强调简单易上手，又保持对高级用户的灵活性，并且模块化设计允许开发者只使用所需部分，替换不喜欢的模块。引擎注重运行速度与并行执行，同时关注编译速度以提升开发效率。Bevy 完全免费且永久开源，代码采用 MIT 与 Apache 2.0 双许可。目前项目仍处于早期开发阶段，重要功能尚不完整，文档较少，大约每三个月发布一次包含破坏性 API 变更的新版本，并提供迁移指南。",
+      "updated_at": "2026-10-09T12:12:18Z",
+      "open_issues": 3444,
+      "summary": "Bevy 是一个用 Rust 编写的、以数据驱动为核心的游戏引擎，目标是提供完整且易用的 2D 和 3D 功能。它基于实体组件系统（ECS）架构，强调数据导向设计，让开发者能够灵活组合功能模块，只使用所需部分，并可替换不喜欢的实现。其设计目标包括能力完备、简单易学、模块化、运行快速且支持并行、编译迅速以提升开发效率。Bevy 适合希望用 Rust 构建游戏或交互式应用的开发者，官方提供快速入门指南、API 文档和可运行示例，社区也有丰富的教程与资源。",
       "windows": [
         "monthly"
       ],
       "added_at": "2026-10-09T11:01:04+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 7
+      "seen_count": 8
     },
     {
       "owner": "vercel-labs",
@@ -225,21 +363,21 @@
       "url": "https://github.com/rustfs/rustfs",
       "description": "RustFS is an open-source, S3-compatible high-performance object storage system supporting migration and coexistence with other S3-compatible platforms such as MinIO and Ceph.",
       "language": "Rust",
-      "stars": 34615,
+      "stars": 34618,
       "forks": 1564,
       "homepage": "https://rustfs.com/download/",
       "license": "Apache-2.0",
       "created_at": "2023-11-23T13:45:10Z",
       "pushed_at": "2026-10-09T11:31:01Z",
-      "updated_at": "2026-10-09T11:35:30Z",
+      "updated_at": "2026-10-09T12:31:24Z",
       "open_issues": 43,
-      "summary": "RustFS 是一个用 Rust 编写的开源分布式对象存储系统，兼容 S3 API，并支持与 MinIO、Ceph 等其他 S3 兼容平台迁移和共存。它主要解决在数据湖、AI 和大数据场景下对高性能、内存安全且许可宽松的对象存储需求。核心特点包括：基于 Rust 带来的高性能与资源效率、可扩展且容错的分布式架构、较广的 S3 API 兼容性、原生支持 OpenStack Swift API 与 Keystone 认证、面向高吞吐大数据与 AI 负载优化，并采用 Apache 2.0 许可证，避免 AGPL 限制。",
+      "summary": "RustFS 是一个用 Rust 编写的分布式对象存储系统，主要面向需要 S3 兼容能力的数据湖、AI 和大数据场景。它试图在保持 MinIO 式简洁部署体验的同时，借助 Rust 的内存安全与执行效率提供更高的性能和资源利用率。核心能力包括：兼容 S3 API 及 OpenStack Swift 协议与 Keystone 认证，支持分布式架构与故障容错，针对高吞吐负载优化，并提供 KMS 后端、Webhook 通知、OIDC 角色声明映射等企业特性。",
       "windows": [
         "monthly"
       ],
       "added_at": "2026-10-09T11:01:04+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 7
+      "seen_count": 8
     },
     {
       "owner": "cjpais",
@@ -294,21 +432,21 @@
       "url": "https://github.com/ankitects/anki",
       "description": "Anki is a smart spaced repetition flashcard program",
       "language": "Rust",
-      "stars": 31862,
+      "stars": 31864,
       "forks": 3314,
       "homepage": "https://apps.ankiweb.net",
       "license": "NOASSERTION",
       "created_at": "2012-12-21T08:03:31Z",
       "pushed_at": "2026-10-08T17:37:57Z",
-      "updated_at": "2026-10-09T09:35:16Z",
+      "updated_at": "2026-10-09T12:03:28Z",
       "open_issues": 583,
-      "summary": "Anki 是一款基于间隔重复原理的智能闪卡学习程序，本仓库包含其计算机版源代码。它主要解决记忆效率问题：通过安排复习时间，帮助学习者在遗忘临界点巩固知识，从而更牢固地记住内容。核心能力是间隔重复调度与闪卡管理，用户可创建、编辑和复习卡片，程序根据记忆情况动态调整复习间隔。项目主要使用 Rust 语言开发，同时提供贡献指南、开发文档、贡献者名单和测试版渠道，便于开发者参与构建与改进。典型使用场景包括语言词汇记忆、医学与法律等专业知识的长期记忆，以及任何需要高效记忆的学习任务。Anki 遵循其开源许可证发布，适合希望自主掌控学习进度或进行二次开发的技术用户。",
+      "summary": "Anki 是一款基于间隔重复原理的智能记忆卡片程序，本仓库为其计算机版源代码。它要解决的核心问题是：如何高效地把大量知识长期记住，避免遗忘。间隔重复通过安排复习时间，让学习者在即将遗忘时再次接触内容，从而强化记忆。Anki 的典型使用场景包括语言学习、医学与法律等专业考试备考、日常知识积累等。用户可创建正面与背面组成的卡片，程序根据反馈自动调整后续复习节奏。仓库主要使用 Rust 语言开发，同时包含构建、开发与贡献指南等文档，方便开发者参与改进。除计算机版外，项目还提供测试版供不愿自行编译的用户体验。",
       "windows": [
         "monthly"
       ],
       "added_at": "2026-10-09T11:01:04+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 7
+      "seen_count": 8
     },
     {
       "owner": "emilk",
@@ -695,13 +833,13 @@
       "pushed_at": "2026-10-09T09:36:20Z",
       "updated_at": "2026-10-09T10:31:47Z",
       "open_issues": 38,
-      "summary": "Utopia 是 DeepLethe 开发的企业级世界模型，用 Rust 编写，采用 Apache-2.0 许可。它试图解决现有向量库和知识图谱只记录当下知识、无法追溯认知演变的问题，将时间感知和本体论放入基础层，构建双时态知识图谱：知识随材料到来而演化，冲突检测、推理与决策都基于该本体运行。系统可离线部署，让企业在自有硬件上建立知识基础、可信决策核心与合规审计轨迹。技术上只需一个 Rust 二进制文件和一个 Postgres，全文检索内嵌于二进制，向量存入 pgvector，任务队列即一张表。",
+      "summary": "Utopia 是 DeepLethe 打造的面向企业的世界模型，用 Rust 编写，定位为知识工程的开源底座。它针对的是传统知识图谱与向量库只关注当下知识、缺乏时间维度与治理能力的问题，把时间感知和本体论放进基础层：知识随材料到达而演化，冲突检测、推理与决策都基于该本体运行，并支持离线部署，让企业在自有硬件上建立知识基础、可信决策核心与合规审计轨迹。其核心是双时态知识图谱，能记录认知变化的全过程，并在事后复盘决策时给出完整依据。技术上只需一个 Rust 二进制文件和一个 Postgres，全文检索内置于二进制，向量存入 pgvector，任务队列即一张表。",
       "windows": [
         "monthly"
       ],
       "added_at": "2026-10-09T11:01:04+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 7
+      "seen_count": 8
     },
     {
       "owner": "alphaXiv",

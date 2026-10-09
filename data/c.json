@@ -6,11 +6,34 @@
     "weekly",
     "monthly"
   ],
-  "generated_at": "2026-10-09T11:49:59+00:00",
+  "generated_at": "2026-10-09T12:43:46+00:00",
   "first_at": "2026-10-09T11:22:49+00:00",
-  "count": 41,
+  "count": 44,
   "added": 0,
   "repos": [
+    {
+      "owner": "torvalds",
+      "name": "linux",
+      "full_name": "torvalds/linux",
+      "url": "https://github.com/torvalds/linux",
+      "description": "Linux kernel source tree",
+      "language": "C",
+      "stars": 251351,
+      "forks": 67197,
+      "homepage": "",
+      "license": "NOASSERTION",
+      "created_at": "2011-09-04T22:48:12Z",
+      "pushed_at": "2026-10-09T04:46:28Z",
+      "updated_at": "2026-10-09T12:34:32Z",
+      "open_issues": 3,
+      "summary": "Linux 内核是任何 Linux 操作系统的核心，负责管理硬件、系统资源，并为上层软件提供基础服务。它用 C 语言编写，源码树即本仓库。内核解决的问题是充当硬件与应用程序之间的抽象层，使操作系统能在多种架构上稳定运行。其核心能力涵盖内存管理、调度器、网络栈、文件系统、RCU、锁原语与电源管理等子系统。典型使用场景包括：开发者提交补丁或编写驱动、研究人员分析内核架构、安全人员做加固与漏洞分析、维护者管理稳定版本与回移、系统管理员配置调优与排错、发行版维护者打包内核，以及硬件厂商为新设备编写驱动。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-09T12:39:16+00:00",
+      "last_seen": "2026-10-09",
+      "seen_count": 1
+    },
     {
       "owner": "Genymobile",
       "name": "scrcpy",
@@ -18,13 +41,13 @@
       "url": "https://github.com/Genymobile/scrcpy",
       "description": "Display and control your Android device",
       "language": "C",
-      "stars": 151656,
-      "forks": 13913,
+      "stars": 151662,
+      "forks": 13914,
       "homepage": "",
       "license": "Apache-2.0",
       "created_at": "2017-11-21T18:00:27Z",
       "pushed_at": "2026-10-08T06:44:51Z",
-      "updated_at": "2026-10-09T11:45:06Z",
+      "updated_at": "2026-10-09T12:37:52Z",
       "open_issues": 2921,
       "summary": "scrcpy 是一款用 C 语言编写的开源工具，可将通过 USB 或 TCP/IP 连接的 Android 设备屏幕镜像到电脑，并支持用键盘鼠标进行控制。它无需 root 权限，也无需在设备上安装应用，可在 Linux、Windows 和 macOS 上运行。其核心特点包括轻量、高性能、低延迟和快速启动，支持 30 至 120fps 与 1920×1080 以上画质，退出后不在设备上留下任何内容。功能涵盖音频转发、录屏、虚拟显示、双向复制粘贴、摄像头镜像、游戏手柄支持以及 OTG 模式等。使用时需在 Android 5.",
       "windows": [
@@ -34,7 +57,7 @@
       ],
       "added_at": "2026-10-09T11:22:49+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 3
+      "seen_count": 4
     },
     {
       "owner": "microsoft",
@@ -43,21 +66,21 @@
       "url": "https://github.com/microsoft/PowerToys",
       "description": "Microsoft PowerToys is a collection of utilities that supercharge productivity and customization on Windows",
       "language": "C",
-      "stars": 139136,
+      "stars": 139138,
       "forks": 8627,
       "homepage": "",
       "license": "MIT",
       "created_at": "2019-05-01T17:44:02Z",
       "pushed_at": "2026-10-09T10:54:36Z",
-      "updated_at": "2026-10-09T11:30:11Z",
-      "open_issues": 7728,
+      "updated_at": "2026-10-09T12:10:04Z",
+      "open_issues": 7730,
       "summary": "Microsoft PowerToys 是微软开源的一套 Windows 实用工具集合，主要用 C 语言编写，目标是帮助用户自定义 Windows 并简化日常操作。它解决的问题是系统原生功能在效率与个性化方面的不足，通过提供超过 30 款小工具来优化使用体验。核心特点在于覆盖范围广，从窗口管理、快捷启动到界面调整等均有涉及，并且项目正在将多个工具迁移到 WinUI 3，同时扩展 Command Palette 的标签页与 JavaScript/TypeScript 扩展能力。典型使用场景包括快速启动应用、调整窗口布局、批量处理文件等日常桌面操作。",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-09T11:22:49+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 3
+      "seen_count": 4
     },
     {
       "owner": "obsproject",
@@ -67,21 +90,67 @@
       "description": "OBS Studio - Free and open source software for live streaming and screen recording",
       "language": "C",
       "stars": 77189,
-      "forks": 10540,
+      "forks": 10539,
       "homepage": "https://obsproject.com",
       "license": "GPL-2.0",
       "created_at": "2013-10-01T02:40:31Z",
       "pushed_at": "2026-10-09T01:14:45Z",
       "updated_at": "2026-10-09T11:25:43Z",
       "open_issues": 1143,
-      "summary": "OBS Studio 是一款用 C 语言编写的免费开源软件，主要用于视频内容的采集、合成、编码、录制和直播推流。它面向需要高效处理视频流的用户，解决从屏幕捕获到实时输出的一体化需求。项目采用 GNU GPL v2 或更高版本许可，代码托管在 GitHub 上，并提供官方文档、论坛、构建说明和开发者 API 文档。其核心能力覆盖屏幕录制与直播串流，支持插件扩展和社区翻译协作。典型使用场景包括游戏直播、教学录屏、会议推流等。技术栈以 C 为主，构建状态通过 GitHub Actions 持续集成，翻译工作借助 Crowdin 平台完成。",
+      "summary": "OBS Studio 是一款用 C 语言编写的自由开源软件，专注于视频内容的采集、合成、编码、录制与直播推流。它解决的是将多个视频源实时整合并高效输出到文件或直播平台的需求，常用于游戏直播、屏幕录制、在线教学和会议演示等场景。其核心能力包括多源画面合成、实时编码与推流，并支持通过插件和 API 扩展功能，开发者可参考官方文档进行二次开发。项目提供网站、论坛、Wiki 文档和缺陷追踪等资源，翻译工作通过 Crowdin 协作完成，代码贡献需遵循相应的编码与提交规范。",
       "windows": [
         "daily",
         "weekly"
       ],
       "added_at": "2026-10-09T11:22:49+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 3
+      "seen_count": 5
+    },
+    {
+      "owner": "redis",
+      "name": "redis",
+      "full_name": "redis/redis",
+      "url": "https://github.com/redis/redis",
+      "description": "For developers, who are building real-time data-driven applications, Redis is the preferred, fastest, and most feature-rich cache, data structure server, and document and vector query engine.",
+      "language": "C",
+      "stars": 76667,
+      "forks": 24850,
+      "homepage": "http://redis.io",
+      "license": "NOASSERTION",
+      "created_at": "2009-03-21T22:32:25Z",
+      "pushed_at": "2026-10-09T12:28:27Z",
+      "updated_at": "2026-10-09T12:34:45Z",
+      "open_issues": 3005,
+      "summary": "Redis 是一个用 C 语言编写的高性能内存数据存储系统，主要面向构建实时数据驱动应用的开发者。它通过将数据主要保存在内存中并结合高效的数据结构，实现极低的读写延迟，适合对响应速度要求较高的场景。其核心能力包括缓存、分布式会话存储、数据结构服务、NoSQL 数据存储、搜索与查询引擎、事件存储与消息代理，以及面向生成式 AI 的向量存储。Redis 支持字符串、JSON、哈希、列表、集合、有序集合、向量集合、地理空间索引、位图、HyperLogLog 等多种数据类型，并提供事务、脚本、发布订阅和流处理功能。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-09T12:39:16+00:00",
+      "last_seen": "2026-10-09",
+      "seen_count": 1
+    },
+    {
+      "owner": "colbymchenry",
+      "name": "codegraph",
+      "full_name": "colbymchenry/codegraph",
+      "url": "https://github.com/colbymchenry/codegraph",
+      "description": "Pre-indexed code knowledge graph, auto syncs on code changes, for Claude Code, Codex, Gemini, Cursor, OpenCode, AntiGravity, Kiro, CoPilot, and Hermes Agent — fewer tokens, fewer tool calls, 100% local",
+      "language": "C",
+      "stars": 73572,
+      "forks": 4733,
+      "homepage": "https://colbymchenry.github.io/codegraph/",
+      "license": "MIT",
+      "created_at": "2026-01-18T21:45:37Z",
+      "pushed_at": "2026-10-07T16:34:38Z",
+      "updated_at": "2026-10-09T12:30:35Z",
+      "open_issues": 531,
+      "summary": "CodeGraph 是一个为 AI 编程助手提供代码知识图谱的本地工具，用 C 编写，解析内核由 Rust 驱动。它解决的是智能体理解代码时依赖 grep、glob 和逐文件读取、反复重建调用链与依赖关系的问题：通过预先索引代码库中的符号、调用边和依赖，让助手一次查询即可获得相关源码、符号间的调用路径（包括 grep 无法追踪的动态分发跳转）以及改动的影响范围。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-09T12:39:16+00:00",
+      "last_seen": "2026-10-09",
+      "seen_count": 1
     },
     {
       "owner": "DeusData",
@@ -344,21 +413,21 @@
       "url": "https://github.com/libsdl-org/SDL",
       "description": "Simple DirectMedia Layer",
       "language": "C",
-      "stars": 16761,
-      "forks": 3051,
+      "stars": 16762,
+      "forks": 3052,
       "homepage": "https://libsdl.org",
       "license": "Zlib",
       "created_at": "2021-01-15T19:55:54Z",
-      "pushed_at": "2026-10-09T04:56:47Z",
-      "updated_at": "2026-10-09T06:41:21Z",
+      "pushed_at": "2026-10-09T12:05:14Z",
+      "updated_at": "2026-10-09T12:37:35Z",
       "open_issues": 873,
-      "summary": "Simple DirectMedia Layer（简称 SDL）是一个用 C 语言编写的跨平台库，旨在简化多媒体软件的开发，让游戏和模拟器等程序更容易在不同平台上运行。它主要解决的是底层硬件与操作系统差异带来的适配问题，开发者无需为每个平台单独处理音频、输入、窗口等细节，从而专注于核心逻辑。SDL 以 C 语言实现，提供简洁的接口，可被多种编程语言调用，适合需要直接控制多媒体输出的场景。典型使用场景包括游戏开发、模拟器、播放器以及其他需要实时处理图形、声音和输入的应用。该库采用 zlib 许可证发布，允许自由使用和修改，官方站点提供最新版本和安装说明，便于开发者快速上手并集成到自己的技术栈中。",
+      "summary": "Simple DirectMedia Layer（简称 SDL）是一个用 C 语言编写的跨平台库，旨在让编写游戏、模拟器等多媒体系软件变得更容易。它解决的核心问题是：开发者无需为不同操作系统分别处理底层多媒体接口，就能获得统一的开发方式。SDL 提供对音频、输入、窗口等多媒体功能的抽象与封装，使同一套代码可以跨平台运行。它适合用于游戏开发、模拟器构建以及其他需要处理多媒体输入输出的程序，常作为底层库被上层框架或引擎调用。项目由 Sam Lantinga 发起，官网提供最新版本和额外信息，安装说明与快速入门可查阅 INSTALL.md。",
       "windows": [
         "monthly"
       ],
       "added_at": "2026-10-09T11:22:49+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 3
+      "seen_count": 4
     },
     {
       "owner": "zephyrproject-rtos",
@@ -886,13 +955,13 @@
       "pushed_at": "2026-05-04T03:14:05Z",
       "updated_at": "2026-10-09T06:29:35Z",
       "open_issues": 24,
-      "summary": "etaHEN 是一个面向 PS5 的 AIO Homebrew enabler，用 C 语言编写，以 GPLv3 协议开源。它主要解决在 PS5 上启用自制程序与调试功能的问题，通过 payload 注入方式运行，并配合 IPV6 或 UMTX 等漏洞使用。核心能力集中在 etaHEN toolbox，可替代系统调试设置，支持插件与 payload ELF 菜单、Homebrew Store 安装、待机选项、远程游玩菜单、外接硬盘管理、金手指菜单、手柄快捷键以及 Itemzflow 集成等。",
+      "summary": "etaHEN 是一个面向 PS5 的 AIO Homebrew enabler（一体化自制程序启用器），主要用 C 语言编写，通过漏洞利用向主机发送 payload，为运行自制软件和扩展功能提供基础环境。它解决的是 PS5 上启用自制程序、调试设置与系统功能扩展的问题，核心是 etaHEN toolbox，可替代调试设置，并集成插件管理、Homebrew Store 安装、Rest Mode 选项、Remote Play 菜单、ELF payload 菜单、外部硬盘管理、TestKit 菜单、Kstuff 菜单、游戏叠加菜单、作弊菜单、手柄快捷键、webMAN 游戏菜单、标题 ID 显示、蓝。",
       "windows": [
         "weekly"
       ],
       "added_at": "2026-10-09T11:22:49+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 3
+      "seen_count": 4
     },
     {
       "owner": "EchoStretch",
