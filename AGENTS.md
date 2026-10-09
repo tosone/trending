@@ -63,6 +63,26 @@ tools/fetch_trending.py   fetch trending + README + generate Chinese summaries
 - Fetching needs a logged-in `gh`; generating summaries needs `DEEPSEEK_API_KEY` (without
   it the tool falls back to an extractive summary).
 
+## Adding a repo
+
+You do **not** need to run the full trending update to add a repo. Use the targeted mode,
+which skips all 27 trending pages and only touches the repos you name:
+
+```bash
+python3 tools/fetch_trending.py --repos owner/repo        # add or refresh one repo
+python3 tools/fetch_trending.py --repos a/b,c/d           # several at once
+python3 tools/fetch_trending.py --only-pinned             # just refresh the PINNED list
+```
+
+It fetches metadata (and the README + a summary only if the repo is new), merges it into
+the matching `data/<language>.json` (or `data/other.json` when the language is not covered),
+then rebuilds `data/all.json` and `data/catalog.json`. A full run
+(`python3 tools/fetch_trending.py`) is only needed when you want to pick up the current
+trending boards — it refreshes every trending repo's metadata and is far heavier.
+
+To keep a repo collected on every full run, also add it to the `PINNED` list at the top of
+the script.
+
 ## Layout rules
 
 - Newspaper theme: paper background (`--paper`), double rules (`3px double var(--rule)`),

@@ -6,6 +6,8 @@
 用法：
     python3 tools/fetch_trending.py                  # 8 种语言 + 不限语言总榜，各 今日/本周/本月
     python3 tools/fetch_trending.py --since daily    # 只抓今日榜
+    python3 tools/fetch_trending.py --repos owner/repo[,owner/repo]  # 只加/刷新指定仓库，不抓 trending
+    python3 tools/fetch_trending.py --only-pinned    # 只刷新 PINNED 里的仓库，不抓 trending
     python3 tools/fetch_trending.py --no-summary     # 只抓数据，不调用大模型
     python3 tools/fetch_trending.py --languages go,rust
     python3 tools/fetch_trending.py --limit 15       # 每个窗口每种语言最多取 15 个
@@ -63,11 +65,14 @@ OTHER_LABEL = "其他语言"  # 总榜里不属于上面任何语言的，只进
 # 不管有没有上 trending，都固定收录这些仓库（owner/repo，会按语言归入对应文件）
 PINNED = [
     "openclaw/openclaw",
+    "NousResearch/hermes-agent",
+    "stablyai/orca",
     "golang/go",
     "python/cpython",
     "RustPython/RustPython",
     "react/react",
 ]
+PINNED_SET = set(PINNED)
 
 UA = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) github-trending-newspaper/1.0"
 
@@ -176,8 +181,8 @@ def enrich(repo: dict, need_readme: bool = True) -> dict:
     return repo
 
 
-def pinned_stub(full: str) -> dict:
-    """固定收录仓库的初始对象（尚未补元数据）。"""
+def repo_stub(full: str) -> dict:
+    """指定仓库的初始对象（尚未补元数据）。"""
     owner, _, name = full.partition("/")
     return {
         "owner": owner,
@@ -188,9 +193,14 @@ def pinned_stub(full: str) -> dict:
         "language": "",
         "stars": 0,
         "forks": 0,
-        "pinned": True,
         "_windows": [],
     }
+
+
+def pinned_stub(full: str) -> dict:
+    stub = repo_stub(full)
+    stub["pinned"] = True
+    return stub
 
 
 # ── README 清洗 ──────────────────────────────────────────────────────────────
@@ -440,11 +450,15 @@ def merge_into(path: Path, fresh: list[dict], label: str, wins: list[str], use_l
             old["seen_count"] = old.get("seen_count", 1) + 1
             old.setdefault("added_at", first_at)
             old.setdefault("summary", "")
+            if full in PINNED_SET:
+                old["pinned"] = True
         else:
             repo["windows"] = hits
             repo["added_at"] = now_iso
             repo["last_seen"] = today
             repo["seen_count"] = 1
+            if full in PINNED_SET:
+                repo["pinned"] = True
             by[full] = repo
             added += 1
 
@@ -472,6 +486,48 @@ def write_doc(path: Path, doc: dict) -> None:
     path.write_text(json.dumps(doc, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
 
+def rebuild_all(wins: list[str]) -> None:
+    """把所有语言文件 + other.json 去重合并成 all.json，并重写 catalog.json。"""
+    docs = []
+    for slug in LANGUAGES:
+        path = DATA / f"{slug}.json"
+        if path.exists():
+            docs.append(load_json(path))
+    other_path = DATA / "other.json"
+    if other_path.exists():
+        docs.append(load_json(other_path))
+
+    merged: dict[str, dict] = {}
+    for d in docs:
+        for repo in d["repos"]:
+            merged.setdefault(repo["full_name"], repo)
+    all_repos = sorted(merged.values(), key=lambda r: r.get("stars", 0), reverse=True)
+    firsts = [d.get("first_at") or d.get("generated_at") for d in docs]
+    now_iso = datetime.now(timezone.utc).isoformat(timespec="seconds")
+    write_doc(DATA / "all.json", {
+        "language": "all",
+        "label": ALL_LABEL,
+        "since": list(wins),
+        "generated_at": now_iso,
+        "first_at": min(firsts) if firsts else now_iso,
+        "count": len(all_repos),
+        "repos": all_repos,
+    })
+    print(f"[all] 写入 data/all.json（汇总 {len(all_repos)} 个）", file=sys.stderr)
+
+    catalog_langs = [{"key": "all", "label": ALL_LABEL, "count": len(all_repos)}]
+    for d in docs:
+        if d["language"] == "other":
+            continue
+        catalog_langs.append({"key": d["language"], "label": d["label"], "count": d["count"]})
+    write_doc(DATA / "catalog.json", {
+        "title": "GitHub Trending",
+        "generated_at": now_iso,
+        "since": list(wins),
+        "languages": catalog_langs,
+    })
+
+
 def main() -> int:
     ap = argparse.ArgumentParser(description="抓取 GitHub Trending 并向已有列表合并")
     ap.add_argument("--languages", default="all", help="逗号分隔，默认 all")
@@ -480,6 +536,8 @@ def main() -> int:
         help="榜单窗口；all = 今日+本周+本月（默认）",
     )
     ap.add_argument("--limit", type=int, default=25, help="每个窗口每种语言最多取几个上榜仓库")
+    ap.add_argument("--repos", default="", help="只处理这些仓库（owner/repo，逗号分隔），不抓 trending")
+    ap.add_argument("--only-pinned", action="store_true", help="只处理 PINNED 里的仓库，不抓 trending")
     ap.add_argument("--no-summary", action="store_true", help="跳过中文简介生成")
     args = ap.parse_args()
 
@@ -499,10 +557,50 @@ def main() -> int:
 
     DATA.mkdir(exist_ok=True)
 
-    # 1) 先抓不限语言的总榜，把仓库按语言分流
+    # ── 模式 A：只处理指定仓库（--repos）或固定仓库（--only-pinned），不抓 trending ──
+    if args.repos or args.only_pinned:
+        names = [s.strip() for s in args.repos.split(",") if s.strip()] if args.repos else list(PINNED)
+        bad = [n for n in names if "/" not in n]
+        if bad:
+            print("仓库名要写成 owner/repo：", ", ".join(bad), file=sys.stderr)
+            return 1
+        print(f"[指定] 只处理 {len(names)} 个仓库，不抓 trending：{', '.join(names)}", file=sys.stderr)
+
+        fresh = [repo_stub(n) for n in names]
+        with futures.ThreadPoolExecutor(max_workers=6) as pool:
+            fresh = list(pool.map(lambda r: enrich(r, need_readme=False), fresh))
+        for repo in fresh:
+            if repo["full_name"] in PINNED_SET:
+                repo["pinned"] = True
+
+        by_lang: dict[str, list[dict]] = {}
+        other: list[dict] = []
+        for repo in fresh:
+            slug = SLUG_BY_LABEL.get((repo.get("language") or "").strip())
+            if slug:
+                by_lang.setdefault(slug, []).append(repo)
+            else:
+                other.append(repo)
+
+        for slug, repos in by_lang.items():
+            doc = merge_into(DATA / f"{slug}.json", repos, LANGUAGES[slug], wins, use_llm)
+            write_doc(DATA / f"{slug}.json", doc)
+            print(
+                f"[{slug}] 写入 data/{slug}.json（累计 {doc['count']} 个，新增 {doc['added']} 个）",
+                file=sys.stderr,
+            )
+        if other:
+            other_doc = merge_into(DATA / "other.json", other, OTHER_LABEL, wins, use_llm)
+            write_doc(DATA / "other.json", other_doc)
+            print(f"[other] 写入 data/other.json（{other_doc['count']} 个）", file=sys.stderr)
+
+        rebuild_all(wins)
+        print("完成。", file=sys.stderr)
+        return 0
+
+    # ── 模式 B：正常抓 trending（各语言榜 + 总榜），顺带刷新固定仓库 ──
     overall = collect(None, wins, args.limit)
 
-    # 固定收录的仓库：先补元数据拿到语言，再和总榜一起分流
     pinned = [pinned_stub(f) for f in PINNED]
     with futures.ThreadPoolExecutor(max_workers=6) as pool:
         pinned = list(pool.map(lambda r: enrich(r, need_readme=False), pinned))
@@ -518,7 +616,6 @@ def main() -> int:
             other.append(repo)
     print(f"[总榜] 去重后 {len(overall)} 个，与固定收录合并后按语言分流", file=sys.stderr)
 
-    # 2) 各语言 = 该语言榜 + 总榜里属于该语言的
     for slug in slugs:
         fresh = combine(collect(slug, wins, args.limit), routed.get(slug, []))
         doc = merge_into(DATA / f"{slug}.json", fresh, LANGUAGES[slug], wins, use_llm)
@@ -528,52 +625,11 @@ def main() -> int:
             file=sys.stderr,
         )
 
-    # 3) 总榜里不属于任何收录语言的，只进 all（单独存 other.json，不在下拉里）
     other_doc = merge_into(DATA / "other.json", other, OTHER_LABEL, wins, use_llm)
     write_doc(DATA / "other.json", other_doc)
     print(f"[other] 写入 data/other.json（{other_doc['count']} 个，不单独展示）", file=sys.stderr)
 
-    # 4) all = 所有语言文件 + other，去重合并
-    docs = []
-    for slug in LANGUAGES:
-        path = DATA / f"{slug}.json"
-        if path.exists():
-            docs.append(load_json(path))
-    other_path = DATA / "other.json"
-    if other_path.exists():
-        docs.append(load_json(other_path))
-    merged: dict[str, dict] = {}
-    for d in docs:
-        for repo in d["repos"]:
-            merged.setdefault(repo["full_name"], repo)
-    all_repos = sorted(merged.values(), key=lambda r: r.get("stars", 0), reverse=True)
-    firsts = [d.get("first_at") or d.get("generated_at") for d in docs]
-    now_iso = datetime.now(timezone.utc).isoformat(timespec="seconds")
-    all_doc = {
-        "language": "all",
-        "label": ALL_LABEL,
-        "since": wins,
-        "generated_at": now_iso,
-        "first_at": min(firsts) if firsts else now_iso,
-        "count": len(all_repos),
-        "repos": all_repos,
-    }
-    write_doc(DATA / "all.json", all_doc)
-    print(f"[all] 写入 data/all.json（汇总 {len(all_repos)} 个）", file=sys.stderr)
-
-    catalog_langs = [{"key": "all", "label": ALL_LABEL, "count": len(all_repos)}]
-    for d in docs:
-        if d["language"] == "other":
-            continue
-        catalog_langs.append({"key": d["language"], "label": d["label"], "count": d["count"]})
-
-    catalog = {
-        "title": "GitHub Trending",
-        "generated_at": now_iso,
-        "since": wins,
-        "languages": catalog_langs,
-    }
-    write_doc(DATA / "catalog.json", catalog)
+    rebuild_all(wins)
     print("完成。", file=sys.stderr)
     return 0
 
