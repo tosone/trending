@@ -6,7 +6,7 @@
     "weekly",
     "monthly"
   ],
-  "generated_at": "2026-10-09T11:53:51+00:00",
+  "generated_at": "2026-10-09T11:54:53+00:00",
   "first_at": "2026-10-09T10:50:04+00:00",
   "count": 371,
   "repos": [
@@ -810,21 +810,21 @@
       "url": "https://github.com/stablyai/orca",
       "description": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
       "language": "TypeScript",
-      "stars": 88276,
+      "stars": 88277,
       "forks": 5651,
       "homepage": "https://onOrca.dev",
       "license": "MIT",
       "created_at": "2026-03-17T03:28:57Z",
       "pushed_at": "2026-10-09T11:51:16Z",
-      "updated_at": "2026-10-09T11:46:24Z",
+      "updated_at": "2026-10-09T11:53:55Z",
       "open_issues": 8236,
-      "summary": "Orca 是一个面向并行 AI 编码代理的 ADE（代理开发环境），使用 TypeScript 编写，采用 MIT 许可证开源。它要解决的问题是：当同时运行多个编码代理时，如何统一管理、隔离和比较它们的工作。核心做法是为每个代理分配独立的 git worktree，让 Codex、Claude Code、OpenCode、Pi 等任意 CLI 代理并排运行，并在同一处追踪进度。",
+      "summary": "Orca 是一个面向并行 AI 编码代理的 ADE（代理开发环境），用 TypeScript 编写，可在桌面、移动端和远程运行时使用。它要解决的问题是：当同时运行多个编码代理时，工作区、任务和结果容易散落各处难以管理。Orca 让 Codex、Claude Code、OpenCode、Pi 等任意 CLI 代理并排运行，每个代理拥有独立的 git worktree，并在同一处统一追踪。",
       "windows": [
         "monthly"
       ],
       "added_at": "2026-10-09T11:00:09+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 3,
+      "seen_count": 5,
       "pinned": true
     },
     {

@@ -266,6 +266,7 @@ README 内容（可能被截断）：
 3. 客观、具体、平实，不要营销腔，不要用「这个项目」「总之」「值得一提的是」这类空话开头。
 4. 只依据上面给出的信息，不要编造版本号、性能数字或未提及的功能。
 5. 不要使用 Markdown 标记、标题、列表、表情符号或换行，只输出一段文字。
+6. 不要提许可证 / 开源协议（license）名称，也不要写「采用 MIT 许可证」这类话。
 """
 
 
@@ -407,7 +408,10 @@ def windows_of(repo: dict) -> list[str]:
     return [w for w in WINDOW_ORDER if w in seen]
 
 
-def merge_into(path: Path, fresh: list[dict], label: str, wins: list[str], use_llm: bool) -> dict:
+def merge_into(
+    path: Path, fresh: list[dict], label: str, wins: list[str],
+    use_llm: bool, force_summary: bool = False,
+) -> dict:
     now = datetime.now(timezone.utc)
     now_iso = now.isoformat(timespec="seconds")
     today = now.date().isoformat()
@@ -420,18 +424,21 @@ def merge_into(path: Path, fresh: list[dict], label: str, wins: list[str], use_l
     new_count = sum(1 for r in fresh if r["full_name"] not in known)
     print(f"[{label}] 去重后 {len(fresh)} 个，其中新增 {new_count} 个；补齐元数据…", file=sys.stderr)
 
-    # 已收录的仓库不需要重新抓 README / 重新写简介
+    def is_new(repo: dict) -> bool:
+        return repo["full_name"] not in known
+
+    # 已收录的仓库不需要重新抓 README / 重新写简介（force_summary 时除外）
     with futures.ThreadPoolExecutor(max_workers=8) as pool:
-        fresh = list(pool.map(lambda r: enrich(r, r["full_name"] not in known), fresh))
+        fresh = list(pool.map(lambda r: enrich(r, force_summary or is_new(r)), fresh))
 
     def finish(repo: dict) -> dict:
         repo["summary"] = summarize(repo, use_llm)
         repo.pop("readme", None)
         return repo
 
-    fresh_new = [r for r in fresh if r["full_name"] not in known]
+    to_summarize = fresh if force_summary else [r for r in fresh if is_new(r)]
     with futures.ThreadPoolExecutor(max_workers=10) as pool:
-        list(pool.map(finish, fresh_new))
+        list(pool.map(finish, to_summarize))
 
     # 合并：老仓库保留，新仓库入列
     by = {r["full_name"]: r for r in old_repos}
@@ -450,6 +457,8 @@ def merge_into(path: Path, fresh: list[dict], label: str, wins: list[str], use_l
             old["seen_count"] = old.get("seen_count", 1) + 1
             old.setdefault("added_at", first_at)
             old.setdefault("summary", "")
+            if force_summary and repo.get("summary"):
+                old["summary"] = repo["summary"]   # 强制重写的简介要写回去
             if full in PINNED_SET:
                 old["pinned"] = True
         else:
@@ -539,7 +548,12 @@ def main() -> int:
     ap.add_argument("--repos", default="", help="只处理这些仓库（owner/repo，逗号分隔），不抓 trending")
     ap.add_argument("--only-pinned", action="store_true", help="只处理 PINNED 里的仓库，不抓 trending")
     ap.add_argument("--no-summary", action="store_true", help="跳过中文简介生成")
+    ap.add_argument("--resummarize", action="store_true", help="重写简介（只配合 --repos / --only-pinned）")
     args = ap.parse_args()
+
+    if args.resummarize and not (args.repos or args.only_pinned):
+        print("--resummarize 需要配合 --repos 或 --only-pinned 使用", file=sys.stderr)
+        return 1
 
     wins = list(WINDOW_ORDER) if args.since == "all" else [args.since]
 
@@ -583,7 +597,10 @@ def main() -> int:
                 other.append(repo)
 
         for slug, repos in by_lang.items():
-            doc = merge_into(DATA / f"{slug}.json", repos, LANGUAGES[slug], wins, use_llm)
+            doc = merge_into(
+                DATA / f"{slug}.json", repos, LANGUAGES[slug], wins, use_llm,
+                force_summary=args.resummarize,
+            )
             write_doc(DATA / f"{slug}.json", doc)
             print(
                 f"[{slug}] 写入 data/{slug}.json（累计 {doc['count']} 个，新增 {doc['added']} 个）",
