@@ -6,9 +6,9 @@
     "weekly",
     "monthly"
   ],
-  "generated_at": "2026-10-09T12:43:53+00:00",
+  "generated_at": "2026-10-09T12:59:16+00:00",
   "first_at": "2026-10-09T10:50:04+00:00",
-  "count": 540,
+  "count": 541,
   "repos": [
     {
       "owner": "sindresorhus",
@@ -7825,6 +7825,29 @@
       "added_at": "2026-10-09T11:00:35+00:00",
       "last_seen": "2026-10-09",
       "seen_count": 7
+    },
+    {
+      "owner": "Niko1221",
+      "name": "Strata",
+      "full_name": "Niko1221/Strata",
+      "url": "https://github.com/Niko1221/Strata",
+      "description": "Qwen3.8-Flash-Next on any consumer hardware: one-click install for Windows / Linux. Strata inference engine, OpenAI/Anthropic API on localhost, optional image input.",
+      "language": "C++",
+      "stars": 19111,
+      "forks": 1725,
+      "homepage": "",
+      "license": "MIT",
+      "created_at": "2026-09-24T16:40:20Z",
+      "pushed_at": "2026-10-08T12:14:59Z",
+      "updated_at": "2026-10-09T12:59:09Z",
+      "open_issues": 552,
+      "summary": "Strata 是一个用 C++ 编写的本地推理引擎，目标是在普通消费级电脑上运行 Qwen3.8-Flash-Next 这一 1250 亿参数的大模型。它解决的核心问题是：这类模型通常需要服务器级显存，而 Strata 通过让显卡、内存和固态硬盘分工协作，把模型塞进 12GB 以上显存的 NVIDIA 或 AMD 显卡中。安装器会自动检测硬件并推荐合适的模型尺寸，Windows 双击脚本、Linux 运行脚本即可完成部署，模型约 70GB，支持断点续传。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-09T12:59:12+00:00",
+      "last_seen": "2026-10-09",
+      "seen_count": 1
     },
     {
       "owner": "moonlight-stream",
