@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>GitHub Trending · 开源热榜</title>
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="assets/trending.css">
+</head>
+<body class="index">
+
+  <header class="app-bar">
+    <button class="menu-btn" id="menuBtn" aria-label="打开语言与仓库列表" aria-expanded="false">目录</button>
+    <div class="brand">GitHub Trending <small>开源热榜</small></div>
+    <div class="bar-meta" id="barMeta"></div>
+  </header>
+
+  <main class="app-main">
+    <aside class="list-col" id="listCol">
+      <div class="drawer-head"><span>目录</span><button id="drawerClose" aria-label="关闭目录">×</button></div>
+
+      <div class="lang-bar">
+        <label id="langLabel">语言 / LANGUAGE</label>
+        <div class="lang-select" id="langSelect">
+          <button class="lang-btn" id="langBtn" aria-haspopup="listbox" aria-expanded="false" aria-labelledby="langLabel">
+            <span class="dot" id="langDot"></span>
+            <span class="ln" id="langName">正在读取…</span>
+            <span class="lc" id="langCount">—</span>
+            <span class="caret" aria-hidden="true">▾</span>
+          </button>
+          <ul class="lang-menu" id="langMenu" role="listbox" aria-label="选择语言"></ul>
+        </div>
+      </div>
+
+      <div class="list-head"><span>仓库 / Star</span><span id="listHint"></span></div>
+      <div class="timeline" id="timeline"></div>
+    </aside>
+
+    <section class="reader">
+      <div class="reader-bar">
+        <span id="readerTitle">正在读取…</span>
+        <div class="sorts" id="sorts">
+          <span class="lbl">排序</span>
+          <button data-sort="stars" aria-pressed="true">Star<span class="arw">↓</span></button>
+          <button data-sort="updated" aria-pressed="false">最近更新<span class="arw">↓</span></button>
+        </div>
+      </div>
+      <div class="reader-scroll" id="reader">
+        <div class="empty"><b>GitHub Trending</b><span>正在读取榜单…</span></div>
+      </div>
+    </section>
+  </main>
+  <div class="backdrop" id="backdrop"></div>
+
+<script>
+(function(){
+  const LANG_COLOR = {
+    javascript:'var(--lang-js)', JavaScript:'var(--lang-js)',
+    typescript:'var(--lang-ts)', TypeScript:'var(--lang-ts)',
+    python:'var(--lang-py)', Python:'var(--lang-py)',
+    java:'var(--lang-java)', Java:'var(--lang-java)',
+    go:'var(--lang-go)', Go:'var(--lang-go)',
+    rust:'var(--lang-rs)', Rust:'var(--lang-rs)',
+    c:'var(--lang-c)', C:'var(--lang-c)',
+    cpp:'var(--lang-cpp)', 'C++':'var(--lang-cpp)',
+    all:'var(--lang-all)'
+  };
+  const SORTS = {
+    stars:  {label:'Star',     get:r => r.stars || 0},
+    updated:{label:'最近更新', get:r => Date.parse(r.pushed_at || r.updated_at || 0) || 0}
+  };
+  const cache = {};
+  let catalog = null, curLang = null, curDoc = null;
+  let sortKey = 'stars', sortDir = -1;   // -1 降序，1 升序
+  let query = '';                        // 搜索词，只匹配仓库名（不含 owner）
+
+  const esc = s => String(s == null ? '' : s)
+    .replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+
+  const fmtStars = n => (n >= 1000)
+    ? (n >= 10000 ? Math.round(n/1000) + 'k' : (n/1000).toFixed(1).replace(/\.0$/,'') + 'k')
+    : String(n || 0);
+
+  function fmtDate(iso){
+    if (!iso) return '—';
+    const d = new Date(iso);
+    if (isNaN(d)) return '—';
+    const p = n => String(n).padStart(2,'0');
+    return `${d.getFullYear()}.${p(d.getMonth()+1)}.${p(d.getDate())}`;
+  }
+  function relDate(iso){
+    const d = Date.parse(iso || '');
+    if (!d) return '';
+    const days = Math.floor((Date.now() - d) / 86400000);
+    if (days <= 0) return '今天';
+    if (days === 1) return '昨天';
+    if (days < 30) return days + ' 天前';
+    if (days < 365) return Math.floor(days/30) + ' 个月前';
+    return Math.floor(days/365) + ' 年前';
+  }
+
+  const $ = id => document.getElementById(id);
+  const $langBtn = $('langBtn'), $langMenu = $('langMenu');
+  const $timeline = $('timeline'), $reader = $('reader'), $title = $('readerTitle');
+  const $listHint = $('listHint'), $barMeta = $('barMeta');
+
+  /* ── 语言下拉 ─────────────────────────────────────────────────────────── */
+  function setLangFace(item){
+    $('langDot').style.background = LANG_COLOR[item.key] || 'var(--ink-faint)';
+    $('langName').textContent = item.label;
+    $('langCount').textContent = item.count + ' 个';
+  }
+  function openMenu(open){
+    $langMenu.classList.toggle('open', open);
+    $langBtn.setAttribute('aria-expanded', String(open));
+  }
+  function buildMenu(){
+    $langMenu.innerHTML = catalog.languages.map(l => `
+      <li role="option" data-key="${esc(l.key)}" aria-selected="${l.key === curLang}">
+        <span class="dot" style="background:${LANG_COLOR[l.key] || 'var(--ink-faint)'}"></span>
+        <span class="ln">${esc(l.label)}</span>
+        <span class="lc">${l.count} 个</span>
+      </li>`).join('');
+  }
+
+  /* ── 排序 ─────────────────────────────────────────────────────────────── */
+  function sortedRepos(){
+    const get = SORTS[sortKey].get;
+    return curDoc.repos.slice().sort((a, b) => (get(a) - get(b)) * sortDir);
+  }
+  function visibleRepos(){
+    const q = query.trim().toLowerCase();
+    const repos = sortedRepos();
+    return q ? repos.filter(r => (r.name || '').toLowerCase().includes(q)) : repos;
+  }
+  function drawSorts(){
+    [...$('sorts').querySelectorAll('button')].forEach(btn => {
+      const on = btn.dataset.sort === sortKey;
+      btn.setAttribute('aria-pressed', String(on));
+      btn.querySelector('.arw').textContent = on ? (sortDir < 0 ? '↓' : '↑') : '↓';
+    });
+  }
+
+  /* ── 左栏列表 ─────────────────────────────────────────────────────────── */
+  function drawList(){
+    const repos = visibleRepos();   // 已排序 + 搜索过滤
+    $listHint.textContent = repos.length + ' 个';
+    $timeline.innerHTML = repos.map((r, i) => `
+      <button class="repo-row" data-full="${esc(r.full_name)}" title="${esc(r.full_name)}" aria-current="false">
+        <span class="rk">${String(i + 1).padStart(2,'0')}</span>
+        <span class="nm"><span class="ow">${esc(r.owner)}</span><span class="sl">/</span><span class="rp">${esc(r.name)}</span></span>
+        <span class="st">★ ${fmtStars(r.stars)}</span>
+      </button>`).join('') || '<div class="empty" style="height:auto;padding:30px 0">这个语言暂无数据</div>';
+  }
+
+  /* ── 右栏卡片 ─────────────────────────────────────────────────────────── */
+  function cardHtml(r, i){
+    const color = LANG_COLOR[r.language] || 'var(--ink-faint)';
+    const upd = r.pushed_at || r.updated_at;
+    const added = r.added_at ? `收录于 ${fmtDate(r.added_at)}` : '';
+    return `
+      <article class="repo-card" id="card-${esc(r.full_name).replace(/\//g,'-')}" data-full="${esc(r.full_name)}">
+        <div class="rc-head">
+          <span class="rc-rank"${added ? ` title="${esc(added)}"` : ''}>${String(i + 1).padStart(2,'0')}</span>
+          <h3 class="rc-title">
+            <a href="${esc(r.url)}" target="_blank" rel="noopener">
+              <span class="ow">${esc(r.owner)}</span><span class="sl">/</span>${esc(r.name)}
+            </a>
+          </h3>
+          <span class="rc-lang"><i class="dot" style="background:${color}"></i>${esc(r.language || '')}</span>
+        </div>
+        <p class="rc-summary">${esc(r.summary || r.description || 'README 暂缺。')}</p>
+        <div class="rc-foot">
+          <span class="stars">★ <b>${fmtStars(r.stars)}</b></span>
+          <span class="upd">更新于 <b title="${esc(relDate(upd))}">${fmtDate(upd)}</b></span>
+        </div>
+      </article>`;
+  }
+
+  const SEARCH_ICON = '<svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="11" cy="11" r="7"></circle><path d="M20 20l-3.2-3.2"></path></svg>';
+
+  function boardHeadHtml(){
+    return `
+      <header class="board-head">
+        <h1>${esc(curDoc.label)}<span class="cn">Star 榜</span></h1>
+        <div class="en">GitHub Trending${'<span class="sep">◆</span>'}更新于 ${fmtDate(curDoc.generated_at)}</div>
+      </header>
+      <div class="board-tools">
+        <label class="search">
+          ${SEARCH_ICON}
+          <input type="search" id="searchInput" autocomplete="off" spellcheck="false"
+                 placeholder="搜索仓库名（不含组织 / 用户名）" value="${esc(query)}">
+          <button type="button" class="clear" id="searchClear" aria-label="清空搜索" ${query ? '' : 'hidden'}>×</button>
+        </label>
+        <span class="result" id="resultCount"></span>
+      </div>
+      <div class="cards" id="cards"></div>`;
+  }
+
+  function drawCards(){
+    const repos = visibleRepos();
+    const box = $('cards');
+    if (!box) return;
+    box.innerHTML = repos.length
+      ? repos.map(cardHtml).join('')
+      : `<div class="empty" style="height:auto;padding:40px 0"><b>没有匹配的仓库</b>
+           <span>没有名字包含「${esc(query.trim())}」的仓库。</span></div>`;
+    const rc = $('resultCount');
+    if (rc) rc.innerHTML = query.trim()
+      ? `匹配 <b>${repos.length}</b> / ${curDoc.repos.length}`
+      : `共 <b>${curDoc.repos.length}</b> 个`;
+  }
+
+  function drawBoard(){
+    $reader.innerHTML = boardHeadHtml();
+    $reader.scrollTop = 0;
+    const input = $('searchInput'), clear = $('searchClear');
+    input.addEventListener('input', () => {
+      query = input.value;
+      clear.hidden = !query.trim();
+      drawList();
+      drawCards();
+      $reader.scrollTop = 0;
+    });
+    clear.addEventListener('click', () => {
+      query = '';
+      input.value = '';
+      clear.hidden = true;
+      drawList();
+      drawCards();
+      $reader.scrollTop = 0;
+      input.focus();
+    });
+    drawCards();
+  }
+
+  function drawReaderTitle(){
+    const n = curDoc.repos.length;
+    $title.innerHTML = `<b>${esc(curDoc.label)}</b><span class="sp">◆</span>`
+      + `<span class="rb-date">${n} 个仓库 · 更新于 ${fmtDate(curDoc.generated_at)}</span>`;
+    $barMeta.innerHTML = `更新于 <b>${fmtDate(curDoc.generated_at)}</b>`;
+  }
+
+  /* 高亮：左栏当前项 + 右侧卡片滚动定位 */
+  function markCurrent(full){
+    $timeline.querySelectorAll('.repo-row').forEach(el =>
+      el.setAttribute('aria-current', String(el.dataset.full === full)));
+  }
+  function gotoRepo(full){
+    markCurrent(full);
+    const card = $reader.querySelector(`.repo-card[data-full="${CSS.escape(full)}"]`);
+    if (!card) return;
+    card.scrollIntoView({behavior:'smooth', block:'start'});
+    card.classList.remove('flash'); void card.offsetWidth; card.classList.add('flash');
+    document.body.classList.remove('drawer');
+  }
+
+  /* ── 载入一种语言 ─────────────────────────────────────────────────────── */
+  async function loadDoc(key){
+    if (cache[key]) return cache[key];
+    const r = await fetch(`data/${key}.json`, {cache:'no-cache'});
+    if (!r.ok) throw new Error('HTTP ' + r.status);
+    return (cache[key] = await r.json());
+  }
+
+  async function showLang(key){
+    curLang = key;
+    const entry = catalog.languages.find(l => l.key === key);
+    setLangFace(entry || {key, label:key, count:0});
+    buildMenu();
+    drawSorts();
+    try {
+      curDoc = await loadDoc(key);
+    } catch (e) {
+      $reader.innerHTML = `<div class="empty"><b>读不到 data/${esc(key)}.json</b>
+        <span>数据文件不存在，或页面需要用一个本地服务打开。</span>
+        <code>python3 -m http.server 8137</code></div>`;
+      return;
+    }
+    drawReaderTitle();
+    query = '';
+    drawList();
+    drawBoard();
+    $timeline.scrollTop = 0;   // 切语言后左右两侧都回到顶部
+    $reader.scrollTop = 0;
+  }
+
+  /* ── 事件 ─────────────────────────────────────────────────────────────── */
+  $langBtn.addEventListener('click', e => {
+    e.stopPropagation();
+    openMenu(!$langMenu.classList.contains('open'));
+  });
+  $langMenu.addEventListener('click', e => {
+    const li = e.target.closest('li[data-key]');
+    if (!li) return;
+    openMenu(false);
+    if (li.dataset.key !== curLang) showLang(li.dataset.key);
+  });
+  document.addEventListener('click', () => openMenu(false));
+  document.addEventListener('keydown', e => { if (e.key === 'Escape') openMenu(false); });
+
+  $timeline.addEventListener('click', e => {
+    const row = e.target.closest('.repo-row');
+    if (row) gotoRepo(row.dataset.full);
+  });
+
+  $('sorts').addEventListener('click', e => {
+    const btn = e.target.closest('button[data-sort]');
+    if (!btn) return;
+    const key = btn.dataset.sort;
+    if (key === sortKey) sortDir = -sortDir;         // 再点一次反向
+    else { sortKey = key; sortDir = -1; }
+    drawSorts();
+    if (curDoc) drawCards();
+  });
+
+  $('menuBtn').addEventListener('click', () => {
+    const on = !document.body.classList.contains('drawer');
+    document.body.classList.toggle('drawer', on);
+    $('menuBtn').setAttribute('aria-expanded', String(on));
+  });
+  $('drawerClose').addEventListener('click', () => document.body.classList.remove('drawer'));
+  $('backdrop').addEventListener('click', () => document.body.classList.remove('drawer'));
+
+  /* ── 启动 ─────────────────────────────────────────────────────────────── */
+  (async function boot(){
+    try {
+      const r = await fetch('data/catalog.json', {cache:'no-cache'});
+      if (!r.ok) throw new Error('HTTP ' + r.status);
+      catalog = await r.json();
+    } catch (e) {
+      $reader.innerHTML = `<div class="empty"><b>无法读取 data/catalog.json</b>
+        <span>浏览器不允许 file:// 页面读取本地 JSON，请用本地服务打开：</span>
+        <code>python3 -m http.server 8137</code>
+        <span>然后把地址换成 http://localhost:8137/</span></div>`;
+      return;
+    }
+    if (!catalog.languages || !catalog.languages.length){
+      $reader.innerHTML = '<div class="empty"><b>暂无数据</b><span>先运行 tools/fetch_trending.py 抓取榜单。</span></div>';
+      return;
+    }
+    $barMeta.innerHTML = `更新于 <b>${fmtDate(catalog.generated_at)}</b>`;
+    const byDefault = catalog.languages.find(l => l.key === 'all')
+      || catalog.languages.find(l => l.key === 'rust')
+      || catalog.languages[0];
+    showLang(byDefault.key);
+  })();
+})();
+</script>
+</body>
+</html>
