@@ -6,7 +6,7 @@
     "weekly",
     "monthly"
   ],
-  "generated_at": "2026-10-09T11:30:59+00:00",
+  "generated_at": "2026-10-09T11:49:59+00:00",
   "first_at": "2026-10-09T11:22:49+00:00",
   "count": 41,
   "added": 0,
@@ -18,13 +18,13 @@
       "url": "https://github.com/Genymobile/scrcpy",
       "description": "Display and control your Android device",
       "language": "C",
-      "stars": 151653,
-      "forks": 13912,
+      "stars": 151656,
+      "forks": 13913,
       "homepage": "",
       "license": "Apache-2.0",
       "created_at": "2017-11-21T18:00:27Z",
       "pushed_at": "2026-10-08T06:44:51Z",
-      "updated_at": "2026-10-09T11:25:48Z",
+      "updated_at": "2026-10-09T11:45:06Z",
       "open_issues": 2921,
       "summary": "scrcpy 是一款用 C 语言编写的开源工具，可将通过 USB 或 TCP/IP 连接的 Android 设备屏幕镜像到电脑，并支持用键盘鼠标进行控制。它无需 root 权限，也无需在设备上安装应用，可在 Linux、Windows 和 macOS 上运行。其核心特点包括轻量、高性能、低延迟和快速启动，支持 30 至 120fps 与 1920×1080 以上画质，退出后不在设备上留下任何内容。功能涵盖音频转发、录屏、虚拟显示、双向复制粘贴、摄像头镜像、游戏手柄支持以及 OTG 模式等。使用时需在 Android 5.",
       "windows": [
@@ -34,7 +34,7 @@
       ],
       "added_at": "2026-10-09T11:22:49+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "owner": "microsoft",
@@ -57,7 +57,7 @@
       ],
       "added_at": "2026-10-09T11:22:49+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "owner": "obsproject",
@@ -67,7 +67,7 @@
       "description": "OBS Studio - Free and open source software for live streaming and screen recording",
       "language": "C",
       "stars": 77189,
-      "forks": 10538,
+      "forks": 10540,
       "homepage": "https://obsproject.com",
       "license": "GPL-2.0",
       "created_at": "2013-10-01T02:40:31Z",
@@ -81,7 +81,7 @@
       ],
       "added_at": "2026-10-09T11:22:49+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "owner": "DeusData",
@@ -96,7 +96,7 @@
       "license": "MIT",
       "created_at": "2026-02-24T22:01:00Z",
       "pushed_at": "2026-10-09T02:12:21Z",
-      "updated_at": "2026-10-09T11:20:15Z",
+      "updated_at": "2026-10-09T11:34:12Z",
       "open_issues": 623,
       "summary": "codebase-memory-mcp 是一个用 C 编写的高性能代码智能 MCP 服务器，面向 AI 编码代理，将代码库索引为持久化知识图谱。它解决的是逐文件搜索效率低、token 消耗大的问题：通过 tree-sitter 解析 162 种语言，并对 Python、TypeScript、Go、Rust 等语言辅以 LSP 语义类型解析，构建函数、类、调用链、HTTP 路由和跨服务链接的图谱，提供 17 个 MCP 工具，支持搜索、追踪、架构分析、影响分析、Cypher 查询和死代码检测等。",
       "windows": [
@@ -104,7 +104,7 @@
       ],
       "added_at": "2026-10-09T11:22:49+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "owner": "curl",
@@ -113,13 +113,13 @@
       "url": "https://github.com/curl/curl",
       "description": "A command line tool and library for transferring data with URL syntax, supporting DICT, FILE, FTP, FTPS, GOPHER, GOPHERS, HTTP, HTTPS, IMAP, IMAPS, LDAP, LDAPS, MQTT, MQTTS, POP3, POP3S, RTSP, SCP, SFTP, SMB, SMBS, SMTP, SMTPS, TELNET, TFTP, WS and WSS. libcurl offers a myriad of powerful features",
       "language": "C",
-      "stars": 43136,
+      "stars": 43137,
       "forks": 7414,
       "homepage": "https://curl.se/",
       "license": "NOASSERTION",
       "created_at": "2010-03-18T22:32:22Z",
       "pushed_at": "2026-10-09T11:06:09Z",
-      "updated_at": "2026-10-09T11:06:36Z",
+      "updated_at": "2026-10-09T11:33:02Z",
       "open_issues": 64,
       "summary": "curl 是一个用 C 语言编写的命令行工具与库，用于通过 URL 语法在客户端与服务器之间传输数据。它解决的核心问题是让开发者与运维人员能够以统一方式访问多种网络协议，而无需为每种协议单独编写工具。curl 支持 DICT、FILE、FTP、FTPS、GOPHER、GOPHERS、HTTP、HTTPS、IMAP、IMAPS、LDAP、LDAPS、MQTT、MQTTS、POP3、POP3S、RTSP、SCP、SFTP、SMB、SMBS、SMTP、SMTPS、TELNET、TFTP、WS 和 WSS 等协议。其底层库 libcurl 可被集成到各类软件中，提供丰富的传输能力。",
       "windows": [
@@ -127,7 +127,7 @@
       ],
       "added_at": "2026-10-09T11:22:49+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "owner": "JustVugg",
@@ -136,13 +136,13 @@
       "url": "https://github.com/JustVugg/colibri",
       "description": "Run frontier MoE models on hardware you already own — pure C, zero deps, experts streamed from disk. Tiny engine, immense model. 🐦",
       "language": "C",
-      "stars": 40684,
+      "stars": 40687,
       "forks": 4472,
       "homepage": "https://justvugg.github.io/colibri",
       "license": "Apache-2.0",
       "created_at": "2026-07-01T12:27:49Z",
       "pushed_at": "2026-10-08T18:30:03Z",
-      "updated_at": "2026-10-09T11:26:16Z",
+      "updated_at": "2026-10-09T11:45:25Z",
       "open_issues": 85,
       "summary": "colibri 是一个用纯 C 编写的 MoE 模型推理引擎，目标是让用户在已有硬件上运行前沿规模的专家混合模型。它利用 MoE 模型每个 token 只激活少量专家的特性，将稠密部分常驻内存，把路由专家留在磁盘上按需读取，并通过缓存学习常用专家，从而不必把整个模型塞进显存或内存。项目无需 GPU 也能运行，支持 Vulkan 和 CUDA 加速，每个模型家族对应一个源文件。目前内置十余个引擎，覆盖 GLM、Kimi、DeepSeek、Qwen、OLMoE 等语言模型，以及图像生成和决策类模型。",
       "windows": [
@@ -150,7 +150,7 @@
       ],
       "added_at": "2026-10-09T11:22:49+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "owner": "raysan5",
@@ -173,7 +173,7 @@
       ],
       "added_at": "2026-10-09T11:22:49+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "owner": "ValdikSS",
@@ -182,13 +182,13 @@
       "url": "https://github.com/ValdikSS/GoodbyeDPI",
       "description": "GoodbyeDPI — Deep Packet Inspection circumvention utility (for Windows)",
       "language": "C",
-      "stars": 28752,
+      "stars": 28753,
       "forks": 2231,
       "homepage": "https://ntc.party/c/community-software/goodbyedpi",
       "license": "Apache-2.0",
       "created_at": "2017-05-16T18:48:52Z",
       "pushed_at": "2026-01-19T12:59:23Z",
-      "updated_at": "2026-10-09T09:37:01Z",
+      "updated_at": "2026-10-09T11:32:58Z",
       "open_issues": 154,
       "summary": "GoodbyeDPI 是一款面向 Windows 的深度包检测（DPI）绕过工具，使用 C 语言编写，需以管理员权限运行于 Windows 7 至 11。它针对运营商部署的 DPI 系统，帮助用户访问被屏蔽的网站。其核心能力分为两类：对被动 DPI，可拦截其伪造的 HTTP 302 重定向和 TCP Reset 数据包；对主动 DPI，则通过 TCP 分片、修改 Host 头大小写、插入额外空格、发送低 TTL 或错误校验和的伪造包等七种方法，干扰 DPI 的数据分类。程序依赖 WinDivert 驱动，通过 Windows 过滤平台将数据包重定向至用户态处理。",
       "windows": [
@@ -197,7 +197,7 @@
       ],
       "added_at": "2026-10-09T11:22:49+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "owner": "xiaojieonly",
@@ -220,7 +220,7 @@
       ],
       "added_at": "2026-10-09T11:22:49+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "owner": "libuv",
@@ -243,7 +243,7 @@
       ],
       "added_at": "2026-10-09T11:22:49+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "owner": "lvgl",
@@ -266,7 +266,7 @@
       ],
       "added_at": "2026-10-09T11:22:49+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "owner": "antirez",
@@ -289,7 +289,7 @@
       ],
       "added_at": "2026-10-09T11:22:49+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "owner": "DarkFlippers",
@@ -312,7 +312,7 @@
       ],
       "added_at": "2026-10-09T11:22:49+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "owner": "systemd",
@@ -322,11 +322,11 @@
       "description": "The systemd System and Service Manager ",
       "language": "C",
       "stars": 16803,
-      "forks": 4734,
+      "forks": 4735,
       "homepage": "https://systemd.io",
       "license": "GPL-2.0",
       "created_at": "2015-03-25T15:27:27Z",
-      "pushed_at": "2026-10-09T11:08:20Z",
+      "pushed_at": "2026-10-09T11:42:17Z",
       "updated_at": "2026-10-09T10:34:28Z",
       "open_issues": 3545,
       "summary": "systemd 是 Linux 系统的系统与服务管理器，以 C 语言编写，负责在系统启动时初始化各项服务并持续管理其运行状态。它解决的是传统 init 系统在服务依赖、并行启动和运行状态追踪上的不足，通过统一的单元配置来组织服务、设备、挂载点等资源。其核心能力包括按依赖关系并行启动服务、按需激活、进程生命周期监控以及日志收集等。典型使用场景涵盖服务器、桌面发行版和嵌入式设备的系统引导与服务编排，主流 Linux 发行版多以其作为默认初始化系统。",
@@ -335,7 +335,7 @@
       ],
       "added_at": "2026-10-09T11:22:49+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "owner": "libsdl-org",
@@ -358,7 +358,7 @@
       ],
       "added_at": "2026-10-09T11:22:49+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "owner": "zephyrproject-rtos",
@@ -368,20 +368,20 @@
       "description": "Primary Git Repository for the Zephyr Project. Zephyr is a new generation, scalable, optimized, secure RTOS for multiple hardware architectures.",
       "language": "C",
       "stars": 16726,
-      "forks": 10140,
+      "forks": 10141,
       "homepage": "https://docs.zephyrproject.org",
       "license": "Apache-2.0",
       "created_at": "2016-05-26T17:54:19Z",
       "pushed_at": "2026-10-09T06:37:53Z",
       "updated_at": "2026-10-09T10:15:04Z",
-      "open_issues": 4226,
+      "open_issues": 4227,
       "summary": "Zephyr 是一个面向资源受限设备设计的可扩展实时操作系统（RTOS），其内核 footprint 较小，强调安全性，并支持多种硬件架构，包括 ARM Cortex-A/R/M、Intel x86、ARC、Tensilica Xtensa、RISC-V、SPARC 和 MIPS，同时覆盖大量已支持的开发板。它主要解决嵌入式环境对实时性、资源占用和跨平台适配的需求，适用于从简单的环境传感器、LED 可穿戴设备到智能手表和物联网无线网关等场景。",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-09T11:22:49+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "owner": "DaveGamble",
@@ -404,7 +404,7 @@
       ],
       "added_at": "2026-10-09T11:22:49+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "owner": "lz4",
@@ -427,7 +427,7 @@
       ],
       "added_at": "2026-10-09T11:22:49+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "owner": "containers",
@@ -450,7 +450,7 @@
       ],
       "added_at": "2026-10-09T11:22:49+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "owner": "CTCaer",
@@ -473,7 +473,7 @@
       ],
       "added_at": "2026-10-09T11:22:49+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "owner": "n64decomp",
@@ -496,7 +496,7 @@
       ],
       "added_at": "2026-10-09T11:22:49+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "owner": "EpicGames",
@@ -505,13 +505,13 @@
       "url": "https://github.com/EpicGames/raddebugger",
       "description": "A native, user-mode, multi-process, graphical debugger.",
       "language": "C",
-      "stars": 8217,
+      "stars": 8218,
       "forks": 394,
       "homepage": "",
       "license": "MIT",
       "created_at": "2024-01-10T19:24:08Z",
       "pushed_at": "2026-10-07T20:56:17Z",
-      "updated_at": "2026-10-09T11:28:07Z",
+      "updated_at": "2026-10-09T11:36:09Z",
       "open_issues": 318,
       "summary": "RAD Debugger 是 Epic Games 开源的原生用户态多进程图形调试器，目前仅支持本地 Windows x64 调试与 PDB 符号，未来计划扩展到 Linux 和 DWARF。它处于 ALPHA 阶段，核心目标是解决大型项目调试与链接效率问题：一方面通过自定义 RAD Debug Info（RDI）格式按需转换 PDB，避免原生格式在超大可执行文件下溢出 32 位表；另一方面提供 RAD Linker，命令行兼容 MSVC，面向巨型项目优化，测试中链接时间可快 50%，并支持大内存页进一步提速。项目还包含 radbin 工具用于格式转换与文本转储。",
       "windows": [
@@ -521,7 +521,7 @@
       ],
       "added_at": "2026-10-09T11:22:49+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "owner": "moonlight-stream",
@@ -544,7 +544,7 @@
       ],
       "added_at": "2026-10-09T11:22:49+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "owner": "hathach",
@@ -558,16 +558,16 @@
       "homepage": "https://www.tinyusb.org",
       "license": "MIT",
       "created_at": "2012-11-26T06:24:00Z",
-      "pushed_at": "2026-10-09T11:11:27Z",
-      "updated_at": "2026-10-09T11:11:32Z",
-      "open_issues": 377,
+      "pushed_at": "2026-10-09T11:37:56Z",
+      "updated_at": "2026-10-09T11:38:01Z",
+      "open_issues": 376,
       "summary": "TinyUSB 是一个用 C 语言编写的开源跨平台 USB 协议栈，面向嵌入式系统，同时支持 USB 主机与设备模式。它针对内存安全和线程安全设计，不使用动态内存分配，所有缓冲区均为静态分配，并将中断事件统一推入队列，交由非中断上下文的任务函数处理，从而避免在 ISR 中执行复杂逻辑。该栈强调可移植性、小体积和实时性能，已支持 50 多种 MCU 系列，可运行于裸机、FreeRTOS、RT-Thread 和 Mynewt 等环境。",
       "windows": [
         "monthly"
       ],
       "added_at": "2026-10-09T11:22:49+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "owner": "InterceptSuite",
@@ -576,13 +576,13 @@
       "url": "https://github.com/InterceptSuite/ProxyBridge",
       "description": "Proxifier Alternative to redirect any Windows/MacOS/Linux TCP and UDP traffic to HTTP/Socks5 proxy",
       "language": "C",
-      "stars": 6624,
+      "stars": 6625,
       "forks": 400,
       "homepage": "https://interceptsuite.com/",
       "license": "MIT",
       "created_at": "2025-10-13T18:51:59Z",
       "pushed_at": "2026-10-08T15:54:24Z",
-      "updated_at": "2026-10-09T11:08:22Z",
+      "updated_at": "2026-10-09T11:32:39Z",
       "open_issues": 49,
       "summary": "ProxyBridge 是一款用 C 语言编写的开源通用代理客户端，可作为 Proxifier 的替代方案，在 Windows、macOS 和 Linux 上为应用程序提供透明代理路由。它解决的是那些本身不支持代理设置的软件无法走代理的问题，通过系统级拦截把指定进程的 TCP 和 UDP 流量重定向到 SOCKS5 或 HTTP 代理，应用无需做任何配置修改。",
       "windows": [
@@ -590,7 +590,7 @@
       ],
       "added_at": "2026-10-09T11:22:49+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "owner": "HarbourMasters",
@@ -613,7 +613,7 @@
       ],
       "added_at": "2026-10-09T11:22:49+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "owner": "armory3d",
@@ -623,7 +623,7 @@
       "description": "Graphics Creation Tools",
       "language": "C",
       "stars": 5343,
-      "forks": 613,
+      "forks": 614,
       "homepage": "https://armorpaint.org",
       "license": "NOASSERTION",
       "created_at": "2017-02-06T23:03:08Z",
@@ -636,7 +636,7 @@
       ],
       "added_at": "2026-10-09T11:22:49+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "owner": "skeeto",
@@ -659,7 +659,7 @@
       ],
       "added_at": "2026-10-09T11:22:49+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "owner": "pret",
@@ -682,7 +682,7 @@
       ],
       "added_at": "2026-10-09T11:22:49+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "owner": "stackia",
@@ -705,7 +705,7 @@
       ],
       "added_at": "2026-10-09T11:22:49+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "owner": "matz",
@@ -721,14 +721,14 @@
       "created_at": "2026-03-25T07:29:02Z",
       "pushed_at": "2026-10-09T11:05:17Z",
       "updated_at": "2026-10-09T11:05:23Z",
-      "open_issues": 23,
+      "open_issues": 24,
       "summary": "Spinel 是一个用 C 编写的 Ruby AOT 编译器，将 Ruby 源码编译为独立的原生可执行文件。它通过全程序类型推断生成优化后的 C 代码，再调用系统 cc 生成二进制，编译期不需要 Ruby 运行时，也不依赖链式辅助程序。编译器本身是单个自包含的 C 二进制，借助 libprism 解析 Ruby，分析与代码生成在同一进程内共享内存模型，无需序列化。日常接口 spin 类似 cargo 或 mix，可搭建项目、解析依赖、驱动编译并运行测试，依赖以源码树形式编入二进制，不做运行时加载。spinel 命令则适合单文件脚本与实验，支持输出 C 代码、与 CRuby 对比差异。",
       "windows": [
         "weekly"
       ],
       "added_at": "2026-10-09T11:22:49+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "owner": "willfaust",
@@ -737,13 +737,13 @@
       "url": "https://github.com/willfaust/Madeira",
       "description": "Run x86-64 Windows PC games on jailed iOS via FEX-Emu + Wine + DXMT",
       "language": "C",
-      "stars": 1891,
+      "stars": 1892,
       "forks": 280,
       "homepage": "",
       "license": "GPL-3.0",
       "created_at": "2026-03-07T17:25:50Z",
       "pushed_at": "2026-10-06T19:31:28Z",
-      "updated_at": "2026-10-09T11:04:18Z",
+      "updated_at": "2026-10-09T11:44:10Z",
       "open_issues": 70,
       "summary": "Madeira 是一个在未越狱 iPhone 上运行 Windows PC 游戏的开源研究项目，基于 FEX-Emu、Wine 和 DXMT 构建，用 C 语言编写。由于 iOS 应用无法启动其他程序，它把 Wine 服务器等组件全部塞进单一进程运行，游戏无需修改即可直接启动。它提供带封面、搜索和 Windows 桌面会话的游戏库，支持登录 Steam 客户端浏览、安装和更新自有游戏，并能在启动和退出时同步 Steam Cloud 存档，冲突时不会静默覆盖。",
       "windows": [
@@ -752,7 +752,7 @@
       ],
       "added_at": "2026-10-09T11:22:49+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "owner": "pnggroup",
@@ -775,7 +775,7 @@
       ],
       "added_at": "2026-10-09T11:22:49+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "owner": "coop-deluxe",
@@ -799,7 +799,7 @@
       ],
       "added_at": "2026-10-09T11:22:49+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "owner": "WeebLabs",
@@ -822,7 +822,7 @@
       ],
       "added_at": "2026-10-09T11:22:49+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "owner": "tr4m0ryp",
@@ -845,7 +845,7 @@
       ],
       "added_at": "2026-10-09T11:22:49+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "owner": "rexglue",
@@ -869,7 +869,7 @@
       ],
       "added_at": "2026-10-09T11:22:49+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "owner": "etaHEN",
@@ -892,7 +892,7 @@
       ],
       "added_at": "2026-10-09T11:22:49+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "owner": "EchoStretch",
@@ -916,7 +916,7 @@
       ],
       "added_at": "2026-10-09T11:22:49+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "owner": "FoloToy",
@@ -939,7 +939,7 @@
       ],
       "added_at": "2026-10-09T11:22:49+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "owner": "itsPLK",
@@ -962,7 +962,7 @@
       ],
       "added_at": "2026-10-09T11:22:49+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 2
+      "seen_count": 3
     }
   ]
 }

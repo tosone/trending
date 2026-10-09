@@ -6,7 +6,7 @@
     "weekly",
     "monthly"
   ],
-  "generated_at": "2026-10-09T11:31:09+00:00",
+  "generated_at": "2026-10-09T11:50:11+00:00",
   "first_at": "2026-10-09T11:23:13+00:00",
   "count": 37,
   "added": 0,
@@ -19,12 +19,12 @@
       "description": "An Open Source Machine Learning Framework for Everyone",
       "language": "C++",
       "stars": 200573,
-      "forks": 78701,
+      "forks": 78702,
       "homepage": "https://tensorflow.org",
       "license": "Apache-2.0",
       "created_at": "2015-11-07T01:19:20Z",
-      "pushed_at": "2026-10-09T11:21:13Z",
-      "updated_at": "2026-10-09T11:21:57Z",
+      "pushed_at": "2026-10-09T11:40:35Z",
+      "updated_at": "2026-10-09T11:43:42Z",
       "open_issues": 3247,
       "summary": "TensorFlow 是由 Google Brain 团队的研究人员和工程师开发的端到端开源机器学习平台，主要使用 C++ 编写，旨在帮助研究者推进机器学习领域的前沿进展，同时让开发者能够便捷地构建和部署由机器学习驱动的应用。它提供了涵盖工具、库和社区资源的完整生态系统，并支持稳定的 Python 和 C++ API，以及其他语言的非向后兼容保证 API。TensorFlow 可安装于 pip 包，支持 CUDA 加速的 GPU 以及通过设备插件支持 DirectX 和 macOS Metal，也提供仅 CPU 的精简包和用于测试的 nightly 版本。",
       "windows": [
@@ -32,7 +32,7 @@
       ],
       "added_at": "2026-10-09T11:23:13+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "owner": "ggml-org",
@@ -41,13 +41,13 @@
       "url": "https://github.com/ggml-org/llama.cpp",
       "description": "LLM inference in C/C++",
       "language": "C++",
-      "stars": 130618,
-      "forks": 24222,
+      "stars": 130619,
+      "forks": 24223,
       "homepage": "https://llama.app",
       "license": "MIT",
       "created_at": "2023-03-10T18:58:00Z",
-      "pushed_at": "2026-10-09T10:56:32Z",
-      "updated_at": "2026-10-09T11:30:01Z",
+      "pushed_at": "2026-10-09T11:44:31Z",
+      "updated_at": "2026-10-09T11:38:18Z",
       "open_issues": 2492,
       "summary": "llama.cpp 是一个用 C/C++ 实现的 LLM 推理项目，目标是在尽量少的配置下，让大语言模型和多模态模型能在本地或云端多种硬件上高效运行。它基于 ggml 库构建，不依赖外部库，针对 Apple 芯片通过 ARM NEON、Accelerate 和 Metal 优化，对 x86 提供 AVX、AVX2、AVX512 和 AMX 支持，对 RISC-V 也有相应指令集支持。项目支持 1.",
       "windows": [
@@ -55,7 +55,7 @@
       ],
       "added_at": "2026-10-09T11:23:13+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "owner": "godotengine",
@@ -71,14 +71,14 @@
       "created_at": "2014-01-04T16:05:36Z",
       "pushed_at": "2026-10-08T18:43:17Z",
       "updated_at": "2026-10-09T11:25:24Z",
-      "open_issues": 18859,
+      "open_issues": 18860,
       "summary": "Godot Engine 是一款用 C++ 编写的跨平台 2D 与 3D 游戏引擎，采用 MIT 许可证完全免费开源，无版税或附加条件。它通过统一界面提供完整的常用工具集，让开发者无需重复造轮子，专注于游戏内容创作。引擎支持一键导出到 Linux、macOS、Windows 等桌面平台，Android、iOS 等移动平台，以及 Web 平台和主机。其开发完全独立且由社区驱动，用户可参与塑造引擎功能，并由非营利的 Godot 基金会支持。该项目最初由 Juan Linietsky 和 Ariel Manzur 作为内部引擎开发多年，用于发布多款外包作品，2014 年 2 月开源。",
       "windows": [
         "monthly"
       ],
       "added_at": "2026-10-09T11:23:13+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "owner": "zen-browser",
@@ -87,13 +87,13 @@
       "url": "https://github.com/zen-browser/desktop",
       "description": "Welcome to a calmer internet",
       "language": "C++",
-      "stars": 44843,
+      "stars": 44844,
       "forks": 1812,
       "homepage": "https://zen-browser.app",
       "license": "MPL-2.0",
       "created_at": "2024-03-28T00:05:55Z",
       "pushed_at": "2026-10-09T07:36:59Z",
-      "updated_at": "2026-10-09T11:04:27Z",
+      "updated_at": "2026-10-09T11:41:24Z",
       "open_issues": 738,
       "summary": "Zen Browser 是一款基于 Firefox 构建的开源浏览器，官方定位是带来更平静的上网体验，同时致力于将用户的生产力提升到新水平。它主要解决的是日常浏览中效率与专注度不足的问题，通过 Firefox 内核的稳定性和兼容性，在此基础上进行定制与优化。核心特点在于其构建方式：正式版基于 Firefox 157.0.1，而 Twilight 版本则基于 Firefox RC 157.0.1，用户可根据对稳定性和新特性的需求选择不同通道。",
       "windows": [
@@ -101,7 +101,7 @@
       ],
       "added_at": "2026-10-09T11:23:13+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "owner": "aria2",
@@ -110,13 +110,13 @@
       "url": "https://github.com/aria2/aria2",
       "description": "aria2 is a lightweight multi-protocol & multi-source, cross platform download utility operated in command-line. It supports HTTP/HTTPS, FTP, SFTP, BitTorrent and Metalink.",
       "language": "C++",
-      "stars": 42997,
+      "stars": 42998,
       "forks": 3945,
       "homepage": "https://aria2.github.io/",
       "license": "GPL-2.0",
       "created_at": "2010-11-27T09:41:48Z",
       "pushed_at": "2026-06-25T14:49:35Z",
-      "updated_at": "2026-10-09T11:06:34Z",
+      "updated_at": "2026-10-09T11:33:45Z",
       "open_issues": 1182,
       "summary": "aria2 是一款用 C++ 编写的轻量级命令行下载工具，支持 HTTP/HTTPS、FTP、SFTP、BitTorrent 和 Metalink 等多种协议，可从多个来源同时下载同一文件以充分利用带宽。它支持分段下载，并能在下载 HTTP/FTP 数据的同时将其上传至 BitTorrent 网络，还可借助 Metalink 的分块校验在下载过程中自动验证数据。其功能涵盖代理与认证、Cookie 导入、速度限制、DHT、PEX、UDP tracker、JSON-RPC/XML-RPC 接口、守护进程运行、选择性下载及 IPv6 等。",
       "windows": [
@@ -124,7 +124,7 @@
       ],
       "added_at": "2026-10-09T11:23:13+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "owner": "LizardByte",
@@ -133,13 +133,13 @@
       "url": "https://github.com/LizardByte/Sunshine",
       "description": "Self-hosted game stream host for Moonlight.",
       "language": "C++",
-      "stars": 42016,
+      "stars": 42017,
       "forks": 2210,
       "homepage": "http://app.lizardbyte.dev/Sunshine/",
       "license": "GPL-3.0",
       "created_at": "2021-12-15T23:38:57Z",
       "pushed_at": "2026-10-09T11:08:05Z",
-      "updated_at": "2026-10-09T11:14:10Z",
+      "updated_at": "2026-10-09T11:41:34Z",
       "open_issues": 173,
       "summary": "Sunshine 是一个用 C++ 编写的自托管游戏串流主机，为 Moonlight 客户端提供低延迟的云游戏服务。它解决的是把本机游戏画面实时推送到其他设备的问题，支持 AMD、Intel、Nvidia 显卡的硬件编码，也提供软件编码方案。用户可通过任意设备上的 Moonlight 客户端连接，并借助网页界面完成配置和客户端配对，既能在本地服务器操作，也能用移动设备完成。它覆盖 FreeBSD、Linux、macOS 和 Windows，支持 AMF、NVENC、QuickSync、VAAPI、Video Toolbox、Vulkan Video 等编码接口，以及多种屏幕捕获方式。",
       "windows": [
@@ -147,7 +147,7 @@
       ],
       "added_at": "2026-10-09T11:23:13+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "owner": "FreeCAD",
@@ -156,13 +156,13 @@
       "url": "https://github.com/FreeCAD/FreeCAD",
       "description": "Official source code of FreeCAD, a free and opensource multiplatform 3D parametric modeler.",
       "language": "C++",
-      "stars": 34073,
+      "stars": 34075,
       "forks": 6160,
       "homepage": "https://www.freecad.org",
       "license": "LGPL-2.1",
       "created_at": "2012-09-09T08:25:02Z",
       "pushed_at": "2026-10-09T08:41:54Z",
-      "updated_at": "2026-10-09T11:11:28Z",
+      "updated_at": "2026-10-09T11:46:52Z",
       "open_issues": 3963,
       "summary": "FreeCAD 是一款开源、跨平台的三维参数化建模软件，官方源代码以 C++ 编写。它面向现实物体的设计，允许用户通过修改模型历史中的参数来调整设计，从而解决从概念到成品过程中反复修改的需求。其核心能力包括：基于几何约束绘制二维草图并以此构建三维对象，也能从三维模型反向生成二维工程图，并提供尺寸调整工具以输出高质量生产图纸。技术上，它依赖 OpenCASCADE 几何内核、Coin3D 三维场景库、Qt 图形界面，并开放广泛的 Python API。",
       "windows": [
@@ -170,7 +170,7 @@
       ],
       "added_at": "2026-10-09T11:23:13+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "owner": "microsoft",
@@ -193,7 +193,7 @@
       ],
       "added_at": "2026-10-09T11:23:13+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "owner": "shadps4-emu",
@@ -202,14 +202,14 @@
       "url": "https://github.com/shadps4-emu/shadPS4",
       "description": "PlayStation 4 emulator for Windows, Linux, macOS and FreeBSD written in C++",
       "language": "C++",
-      "stars": 33277,
+      "stars": 33278,
       "forks": 2660,
       "homepage": "https://shadps4.net/",
       "license": "GPL-2.0",
       "created_at": "2022-10-24T09:48:37Z",
       "pushed_at": "2026-10-07T19:46:41Z",
-      "updated_at": "2026-10-09T11:03:12Z",
-      "open_issues": 265,
+      "updated_at": "2026-10-09T11:50:02Z",
+      "open_issues": 264,
       "summary": "shadPS4 是一个用 C++ 编写的早期 PlayStation 4 模拟器，支持 Windows、Linux、macOS 和 FreeBSD，采用 GPL-2.0 许可证。它旨在让玩家在 PC 上运行 PS4 游戏，目前可成功运行《血源诅咒》《黑暗之魂：重制版》《荒野大镖客：救赎》等作品。该仓库仅包含模拟器核心，不含图形界面，普通用户需下载 QtLauncher 使用。它支持加载部分 PS4 固件模块，需放入 sys_modules 文件夹，且必须从合法拥有的主机中提取。",
       "windows": [
         "weekly",
@@ -217,7 +217,7 @@
       ],
       "added_at": "2026-10-09T11:23:13+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "owner": "78",
@@ -226,21 +226,21 @@
       "url": "https://github.com/78/xiaozhi-esp32",
       "description": "An MCP-based chatbot | 一个基于MCP的聊天机器人",
       "language": "C++",
-      "stars": 30560,
+      "stars": 30561,
       "forks": 7159,
       "homepage": "https://xiaozhi.me",
       "license": "MIT",
       "created_at": "2024-08-31T10:08:16Z",
       "pushed_at": "2026-10-08T15:44:27Z",
-      "updated_at": "2026-10-09T11:28:10Z",
-      "open_issues": 674,
+      "updated_at": "2026-10-09T11:35:08Z",
+      "open_issues": 675,
       "summary": "xiaozhi-esp32 是一个基于 MCP 协议的 ESP32 聊天机器人开源固件，用 C++ 编写，面向语音交互场景。它把大模型能力落到硬件端，借助 Qwen、DeepSeek 等模型实现对话，并通过 MCP 协议完成多端设备控制。项目支持 Wi-Fi、有线以太网、USB RNDIS 及 Cat.",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-09T11:23:13+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "owner": "keepassxreboot",
@@ -249,21 +249,21 @@
       "url": "https://github.com/keepassxreboot/keepassxc",
       "description": "KeePassXC is a cross-platform community-driven port of the Windows application “KeePass Password Safe”.",
       "language": "C++",
-      "stars": 29136,
+      "stars": 29137,
       "forks": 1934,
       "homepage": "https://keepassxc.org/",
       "license": "NOASSERTION",
       "created_at": "2016-02-28T15:52:40Z",
       "pushed_at": "2026-10-08T11:25:45Z",
-      "updated_at": "2026-10-09T11:24:23Z",
-      "open_issues": 922,
+      "updated_at": "2026-10-09T11:35:36Z",
+      "open_issues": 923,
       "summary": "KeePassXC 是一款用 C++ 编写的跨平台开源密码管理器，是 Windows 上 KeePass Password Safe 的社区驱动移植版本，可在 Windows、macOS 和 Linux 上运行。它把用户名、密码、网址、附件和备注等信息保存在离线的加密 KDBX 文件中，兼容 KDBX3 与 KDBX4 格式，数据始终加密存储且不暴露在程序之外，文件可放在本地或公私云盘。它支持分组管理、搜索、密码生成、TOTP 存储与生成、YubiKey/OnlyKey 挑战应答、自动输入，并能与 Chrome、Firefox、Edge、Brave 等浏览器集成，还支持 passkey。",
       "windows": [
         "monthly"
       ],
       "added_at": "2026-10-09T11:23:13+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "owner": "typesense",
@@ -286,7 +286,7 @@
       ],
       "added_at": "2026-10-09T11:23:13+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "owner": "simdjson",
@@ -309,7 +309,7 @@
       ],
       "added_at": "2026-10-09T11:23:13+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "owner": "k4yt3x",
@@ -318,13 +318,13 @@
       "url": "https://github.com/k4yt3x/video2x",
       "description": "A machine learning-based video super resolution and frame interpolation framework. Est. Hack the Valley II, 2018.",
       "language": "C++",
-      "stars": 22103,
+      "stars": 22104,
       "forks": 1918,
       "homepage": "https://docs.video2x.org",
       "license": "AGPL-3.0",
       "created_at": "2018-02-24T16:34:41Z",
       "pushed_at": "2026-03-07T15:39:42Z",
-      "updated_at": "2026-10-09T11:17:24Z",
+      "updated_at": "2026-10-09T11:46:28Z",
       "open_issues": 134,
       "summary": "Video2X 是一个基于机器学习的视频超分辨率与帧插值框架，最初于 2018 年启动，6.0.0 版本使用 C/C++ 完全重写，在提升运行效率的同时改善了输出质量，并支持 Windows 与 Linux 跨平台使用。它主要解决低分辨率、低帧率视频的画质增强问题，可借助 waifu2x、Real-CUGAN、Real-ESRGAN、DAIN 等模型将视频放大至更高分辨率或提升帧率。项目提供 Windows 图形界面安装程序，支持简体中文等多种语言，也通过 AUR、AppImage、容器镜像等方式在 Linux 上分发，并可在 Google Colab 上借用 GPU 运行。",
       "windows": [
@@ -332,7 +332,7 @@
       ],
       "added_at": "2026-10-09T11:23:13+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "owner": "Atmosphere-NX",
@@ -355,7 +355,7 @@
       ],
       "added_at": "2026-10-09T11:23:13+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "owner": "moonlight-stream",
@@ -379,7 +379,7 @@
       ],
       "added_at": "2026-10-09T11:23:13+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "owner": "boykopovar",
@@ -388,14 +388,14 @@
       "url": "https://github.com/boykopovar/AnyPS5",
       "description": "Tool for automatic PS5 executables porting to Linux and Windows",
       "language": "C++",
-      "stars": 18603,
-      "forks": 1471,
+      "stars": 18714,
+      "forks": 1479,
       "homepage": "https://discord.gg/BHFztBPUe",
       "license": "GPL-2.0",
       "created_at": "2026-08-03T21:30:25Z",
       "pushed_at": "2026-10-09T10:46:21Z",
-      "updated_at": "2026-10-09T11:31:09Z",
-      "open_issues": 607,
+      "updated_at": "2026-10-09T11:50:07Z",
+      "open_issues": 616,
       "summary": "AnyPS5 是一款用 C++ 编写的工具，用于将 PS5 可执行文件自动移植到 Linux 和 Windows。它通过重链接器把可执行文件转换为目标系统的原生格式，并提供适合动态链接的系统 prx 库实现，不依赖模拟器或独立运行时进程。项目当前按已声明函数比例统计系统库覆盖度，遇到不支持或异常状态会抛出 std::runtime_error 并终止进程。其着色器重编译器可生成 SPIR-V，在启用 ANYPS5_ENABLE_SPIRV_TOOLS 时经 Spirv-Tools 验证。",
       "windows": [
         "daily",
@@ -403,7 +403,7 @@
       ],
       "added_at": "2026-10-09T11:23:13+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "owner": "doitsujin",
@@ -412,13 +412,13 @@
       "url": "https://github.com/doitsujin/dxvk",
       "description": "Vulkan-based implementation of D3D8, 9, 10 and 11 for Linux / Wine",
       "language": "C++",
-      "stars": 18255,
+      "stars": 18256,
       "forks": 1280,
       "homepage": "",
       "license": "Zlib",
       "created_at": "2017-10-11T13:34:29Z",
       "pushed_at": "2026-10-08T19:53:14Z",
-      "updated_at": "2026-10-09T10:34:15Z",
+      "updated_at": "2026-10-09T11:36:33Z",
       "open_issues": 269,
       "summary": "DXVK 是一个基于 Vulkan 的 Direct3D 8/9/10/11 翻译层，用 C++ 编写，让 Linux 用户可以通过 Wine 运行依赖这些图形 API 的 3D 应用程序和游戏。它把 D3D 调用转换为 Vulkan，从而绕开 Wine 自带的 wined3d，改善兼容性与运行表现。使用时需将对应 DLL 放入 Wine 前缀并设置原生 DLL 覆盖，d3d8 依赖 d3d8.dll 与 d3d9.dll，d3d10 和 d3d11 则依赖 d3d11.dll、d3d10core.dll 与 dxgi.dll。",
       "windows": [
@@ -426,7 +426,7 @@
       ],
       "added_at": "2026-10-09T11:23:13+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "owner": "wolfpld",
@@ -449,7 +449,7 @@
       ],
       "added_at": "2026-10-09T11:23:13+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "owner": "justcallmekoko",
@@ -458,13 +458,13 @@
       "url": "https://github.com/justcallmekoko/ESP32Marauder",
       "description": "A suite of WiFi/Bluetooth offensive and defensive tools for the ESP32",
       "language": "C++",
-      "stars": 12663,
+      "stars": 12664,
       "forks": 1523,
       "homepage": "https://justcallmekokollc.com",
       "license": "",
       "created_at": "2019-09-13T18:37:40Z",
       "pushed_at": "2026-10-09T03:22:10Z",
-      "updated_at": "2026-10-09T11:15:19Z",
+      "updated_at": "2026-10-09T11:41:07Z",
       "open_issues": 331,
       "summary": "ESP32 Marauder 是一套面向 ESP32 微控制器的 WiFi 与蓝牙攻防工具集，主要使用 C++ 编写。它解决的是在嵌入式平台上进行无线网络探测与安全测试的需求，将多种无线操作能力集成到同一固件中，方便研究者和爱好者在 ESP32 硬件上直接使用。其核心能力覆盖 WiFi 和蓝牙两个方向，既包含 offensive 性质的测试功能，也包含 defensive 性质的防护或监测功能，具体工具集合可参考项目 wiki 获取完整概览。典型使用场景包括无线安全评估、教学演示以及个人对周边无线环境的分析。项目提供最新固件发布包供下载，并设有购买渠道获取配套硬件。",
       "windows": [
@@ -472,7 +472,7 @@
       ],
       "added_at": "2026-10-09T11:23:13+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "owner": "hluk",
@@ -495,7 +495,7 @@
       ],
       "added_at": "2026-10-09T11:23:13+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "owner": "optiscaler",
@@ -518,7 +518,7 @@
       ],
       "added_at": "2026-10-09T11:23:13+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "owner": "mamedev",
@@ -541,7 +541,7 @@
       ],
       "added_at": "2026-10-09T11:23:13+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "owner": "leejet",
@@ -564,7 +564,7 @@
       ],
       "added_at": "2026-10-09T11:23:13+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "owner": "firebase",
@@ -587,7 +587,7 @@
       ],
       "added_at": "2026-10-09T11:23:13+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "owner": "kvcache-ai",
@@ -610,7 +610,7 @@
       ],
       "added_at": "2026-10-09T11:23:13+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "owner": "google",
@@ -633,7 +633,7 @@
       ],
       "added_at": "2026-10-09T11:23:13+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "owner": "Vita3K",
@@ -642,13 +642,13 @@
       "url": "https://github.com/Vita3K/Vita3K",
       "description": "Experimental PlayStation Vita emulator",
       "language": "C++",
-      "stars": 5798,
+      "stars": 5799,
       "forks": 629,
       "homepage": "https://vita3k.org/",
       "license": "GPL-2.0",
       "created_at": "2018-01-26T22:45:05Z",
-      "pushed_at": "2026-10-09T11:20:01Z",
-      "updated_at": "2026-10-09T11:20:07Z",
+      "pushed_at": "2026-10-09T11:47:04Z",
+      "updated_at": "2026-10-09T11:40:21Z",
       "open_issues": 227,
       "summary": "Vita3K 是一个实验性的 PlayStation Vita 模拟器，使用 C++ 编写，支持 Windows、Linux、macOS 和 Android 平台，采用 GPLv2 许可证。它旨在让用户在非 Vita 设备上运行 Vita 游戏和自制程序，目前可运行大多数自制软件及部分商业游戏，兼容性仍在完善中。项目依赖 Unicorn 等外部库，Windows 用户需安装 Visual C++ 2015-2022 可再发行组件，Linux 需 xdg-desktop-portal 及 OpenGL 或 Vulkan 运行时，Android 端则依赖 Adreno 驱动。",
       "windows": [
@@ -656,7 +656,7 @@
       ],
       "added_at": "2026-10-09T11:23:13+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "owner": "windirstat",
@@ -679,7 +679,7 @@
       ],
       "added_at": "2026-10-09T11:23:13+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "owner": "DamRsn",
@@ -702,7 +702,7 @@
       ],
       "added_at": "2026-10-09T11:23:13+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "owner": "Neroued",
@@ -718,14 +718,14 @@
       "created_at": "2026-06-26T16:20:43Z",
       "pushed_at": "2026-10-07T10:36:56Z",
       "updated_at": "2026-10-09T11:10:59Z",
-      "open_issues": 143,
+      "open_issues": 144,
       "summary": "NInfer 是一个用 C++/CUDA 从零实现的单卡推理引擎，面向 Qwen3.5 Dense 与 MoE 架构，专为单张 NVIDIA GeForce RTX 5090 优化。它解决的是在单 GPU 上以最大性能运行选定模型检查点的问题，运行时高度特化：一块 GPU、一个常驻模型、启动时固定的一到八条执行通道。",
       "windows": [
         "monthly"
       ],
       "added_at": "2026-10-09T11:23:13+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "owner": "M-Abozaid",
@@ -748,7 +748,7 @@
       ],
       "added_at": "2026-10-09T11:23:13+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "owner": "harry7557558",
@@ -764,14 +764,14 @@
       "created_at": "2024-05-04T03:03:05Z",
       "pushed_at": "2026-10-09T00:56:43Z",
       "updated_at": "2026-10-09T10:43:56Z",
-      "open_issues": 52,
+      "open_issues": 51,
       "summary": "Spirula Studio 是一个跨厂商的 3D Gaussian Splatting 训练工具，用 C++ 编写，将原始照片或视频到 splat 再到带纹理网格的完整流程打包进单个可执行文件，无需安装 Python、PyTorch 或单独的 COLMAP。它通过 Vulkan 计算在 NVIDIA、AMD、Intel 和 Apple GPU 上运行，也保留 CUDA 后端，可在 8GB 显存内训练千万级全 SH 高斯，并原生支持鱼眼与 360 度相机。",
       "windows": [
         "monthly"
       ],
       "added_at": "2026-10-09T11:23:13+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "owner": "zeldaret",
@@ -794,7 +794,7 @@
       ],
       "added_at": "2026-10-09T11:23:13+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "owner": "gta-reversed",
@@ -817,7 +817,7 @@
       ],
       "added_at": "2026-10-09T11:23:13+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "owner": "ROCm",
@@ -831,16 +831,16 @@
       "homepage": "",
       "license": "",
       "created_at": "2025-04-07T16:23:38Z",
-      "pushed_at": "2026-10-09T11:19:41Z",
+      "pushed_at": "2026-10-09T11:45:09Z",
       "updated_at": "2026-10-09T11:19:44Z",
-      "open_issues": 1449,
+      "open_issues": 1452,
       "summary": "ROCm Systems 是 AMD ROCm 生态的超级仓库，将原本分散在多个独立 GitHub 仓库中的系统级项目整合到一处，以统一开发、持续集成与集成流程。首批纳入的项目主要面向构建 PyTorch 所需的依赖。仓库按结构划分：projects/ 下每个文件夹对应一个原先独立维护并单独发布的 ROCm 系统项目，shared/ 下则存放被多个项目共用、但不单独产出包的依赖代码。其目标是为 ROCm 各库提供统一的构建与测试工作流，共享工具链和 CI，改善跨团队协作与可见性。项目名称已统一为与发布包一致的命名规范，迁移状态分为已完成、进行中和待定三类，已完成的项目以此仓库为准。",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-09T11:23:13+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "owner": "aydencharles",
@@ -863,7 +863,7 @@
       ],
       "added_at": "2026-10-09T11:23:13+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 2
+      "seen_count": 3
     }
   ]
 }

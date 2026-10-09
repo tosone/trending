@@ -6,7 +6,7 @@
     "weekly",
     "monthly"
   ],
-  "generated_at": "2026-10-09T11:30:35+00:00",
+  "generated_at": "2026-10-09T11:49:38+00:00",
   "first_at": "2026-10-09T10:50:28+00:00",
   "count": 56,
   "added": 0,
@@ -18,17 +18,17 @@
       "url": "https://github.com/ollama/ollama",
       "description": "Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
       "language": "Go",
-      "stars": 182473,
+      "stars": 182475,
       "forks": 18175,
       "homepage": "https://ollama.com",
       "license": "MIT",
       "created_at": "2023-06-26T19:39:32Z",
       "pushed_at": "2026-10-09T10:08:47Z",
-      "updated_at": "2026-10-09T11:21:40Z",
+      "updated_at": "2026-10-09T11:45:45Z",
       "open_issues": 4229,
       "summary": "Ollama 是一个用 Go 语言编写的开源工具，目标是让用户在自己的电脑上快速运行和管理各类开放模型，例如 Kimi、GLM、MiniMax、DeepSeek、gpt-oss、Qwen、Gemma 等。它解决了本地部署大模型时环境配置繁琐、模型管理分散的问题，提供 macOS、Windows、Linux 和 Docker 的安装方式，并内置 REST API 用于运行和管理模型。",
       "last_seen": "2026-10-09",
-      "seen_count": 9,
+      "seen_count": 10,
       "added_at": "2026-10-09T10:50:28+00:00",
       "windows": [
         "daily",
@@ -43,13 +43,13 @@
       "url": "https://github.com/golang/go",
       "description": "The Go programming language",
       "language": "Go",
-      "stars": 139157,
-      "forks": 21645,
+      "stars": 139156,
+      "forks": 21646,
       "homepage": "https://go.dev",
       "license": "BSD-3-Clause",
       "created_at": "2014-08-19T04:33:40Z",
       "pushed_at": "2026-10-09T05:35:35Z",
-      "updated_at": "2026-10-09T11:28:17Z",
+      "updated_at": "2026-10-09T11:33:35Z",
       "open_issues": 10284,
       "summary": "Go 是一门开源编程语言，旨在让构建简单、可靠且高效的软件变得容易。它主要解决在大型软件工程中兼顾开发效率与运行性能的问题，适合用来编写对稳定性和执行效率有要求的程序。其核心能力体现在语言层面的简洁设计与工程化支持，官方源码以 BSD 风格许可证分发，规范仓库位于 go.googlesource.com，并在 GitHub 上提供镜像。使用者可以从 go.dev/dl 获取官方二进制发行版，按 go.dev/doc/install 的说明安装；若所用操作系统和架构没有对应二进制包，也可参考 go.dev/doc/install/source 从源码安装。",
       "windows": [
@@ -57,7 +57,8 @@
       ],
       "added_at": "2026-10-09T11:00:35+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 6
+      "seen_count": 7,
+      "pinned": true
     },
     {
       "owner": "microsoft",
@@ -80,7 +81,7 @@
       ],
       "added_at": "2026-10-09T11:00:35+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 6
+      "seen_count": 7
     },
     {
       "owner": "JuliusBrussee",
@@ -89,13 +90,13 @@
       "url": "https://github.com/JuliusBrussee/caveman",
       "description": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that cuts 65% of tokens by talking like a caveman.",
       "language": "Go",
-      "stars": 110669,
-      "forks": 6409,
+      "stars": 110673,
+      "forks": 6408,
       "homepage": "https://docs.caveman.so/docs/quickstart",
       "license": "Apache-2.0",
       "created_at": "2026-04-04T10:03:00Z",
       "pushed_at": "2026-10-09T08:56:10Z",
-      "updated_at": "2026-10-09T11:28:55Z",
+      "updated_at": "2026-10-09T11:44:52Z",
       "open_issues": 52,
       "summary": "Caveman 是一个用 Go 编写的代理与技能组合，目标是在不改变代码正确性的前提下压缩 AI 编程代理消耗的 token。它针对两类浪费：一是代理输出啰嗦，二是代理读取的日志、测试输出、JSON、网页等内容体积庞大。技能部分只压缩代理的回答，保留否定、路径和数字，在 claude-opus-5-5 上测得中位数再省 3%，激进模式省 35%；代理部分则压缩代理读入的内容，日志、CSV、YAML、JSON 和测试输出可缩小 98.5% 至 99.1%，整段会话输入 token 减少 33.2%，18 道基准题全部答对。",
       "windows": [
@@ -103,7 +104,7 @@
       ],
       "added_at": "2026-10-09T11:00:35+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 6
+      "seen_count": 7
     },
     {
       "owner": "infiniflow",
@@ -117,16 +118,16 @@
       "homepage": "https://ragflow.io",
       "license": "Apache-2.0",
       "created_at": "2023-12-12T06:13:13Z",
-      "pushed_at": "2026-10-09T11:25:22Z",
-      "updated_at": "2026-10-09T11:30:12Z",
-      "open_issues": 1348,
+      "pushed_at": "2026-10-09T11:47:00Z",
+      "updated_at": "2026-10-09T11:47:06Z",
+      "open_issues": 1347,
       "summary": "RAGFlow 是一个开源检索增强生成（RAG）引擎，用 Go 语言实现，旨在为大型语言模型构建更优质的上下文层。它主要解决非结构化数据难以被模型有效利用的问题，通过深度文档理解从 Word、Excel、PPT、图片、扫描件、网页等复杂格式中提取知识，并借助模板化分块让切分过程可解释、可干预。其核心能力包括知识编译，可在文档和数据集层面生成 Wiki、图谱、树、思维导图、时间线等结构化知识产物；代理式检索支持多步推理与证据验证，并提供低、中、高、超高四档思考模式控制检索深度；答案附带可追溯引用以减少幻觉。",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-09T11:00:35+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 6
+      "seen_count": 7
     },
     {
       "owner": "jesseduffield",
@@ -158,13 +159,13 @@
       "url": "https://github.com/caddyserver/caddy",
       "description": "Fast and extensible multi-platform HTTP/1-2-3 web server with automatic HTTPS",
       "language": "Go",
-      "stars": 77580,
+      "stars": 77581,
       "forks": 5105,
       "homepage": "https://caddyserver.com",
       "license": "Apache-2.0",
       "created_at": "2015-01-13T19:45:03Z",
       "pushed_at": "2026-10-09T08:14:56Z",
-      "updated_at": "2026-10-09T11:10:00Z",
+      "updated_at": "2026-10-09T11:32:23Z",
       "open_issues": 287,
       "summary": "Caddy 是一个用 Go 编写的可扩展多平台 Web 服务器，默认启用 TLS，支持 HTTP/1.1、HTTP/2 和 HTTP/3。它主要解决 HTTPS 配置繁琐的问题：对公开域名自动通过 Let's Encrypt 和 ZeroSSL 申请并续期证书，对内部名称和 IP 使用本地 CA，还能在多实例间协调并支持多签发者回退，从而在证书或 OCSP 出问题时保持服务可用。配置方式灵活，既可用简洁的 Caddyfile，也可用原生 JSON 配置和 JSON API 动态调整，并支持 YAML、TOML、NGINX 配置等适配器。",
       "windows": [
@@ -173,7 +174,7 @@
       ],
       "added_at": "2026-10-09T11:00:35+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 6
+      "seen_count": 7
     },
     {
       "owner": "usememos",
@@ -187,8 +188,8 @@
       "homepage": "https://usememos.com",
       "license": "MIT",
       "created_at": "2021-12-08T15:30:18Z",
-      "pushed_at": "2026-10-09T00:40:12Z",
-      "updated_at": "2026-10-09T11:19:42Z",
+      "pushed_at": "2026-10-09T11:39:29Z",
+      "updated_at": "2026-10-09T11:39:45Z",
       "open_issues": 101,
       "summary": "Memos 是一个用 Go 编写的开源自托管笔记工具，定位为个人时间线，用来快速记录短想法。它解决的是随手记笔记时不想先纠结标题和分类的问题：直接写 Markdown，几秒内即可发布，之后通过搜索、标签或时间线按日期回溯，还能置顶重要内容并把常用筛选保存为视图。每条 memo 默认私密，可设置为仅自己可见、对已登录用户可见或公开分享，数据完全由自己掌控，支持零遥测、MIT 许可和完整导出。它提供 Docker 部署方式，并有 Chrome 和 Firefox 的网页剪藏扩展，可将网页、选中内容和图片以带来源链接的 Markdown 存入。适合需要轻量记录、注重数据主权并愿意自行部署的个人用户。",
       "windows": [
@@ -196,7 +197,7 @@
       ],
       "added_at": "2026-10-09T11:00:35+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 6
+      "seen_count": 7
     },
     {
       "owner": "go-gitea",
@@ -205,13 +206,13 @@
       "url": "https://github.com/go-gitea/gitea",
       "description": "Git with a cup of tea! Painless self-hosted all-in-one software development service, including Git hosting, code review, team collaboration, package registry and CI/CD",
       "language": "Go",
-      "stars": 58379,
+      "stars": 58380,
       "forks": 7239,
       "homepage": "https://gitea.com",
       "license": "MIT",
       "created_at": "2016-11-01T02:13:26Z",
       "pushed_at": "2026-10-09T06:31:32Z",
-      "updated_at": "2026-10-09T11:02:17Z",
+      "updated_at": "2026-10-09T11:35:44Z",
       "open_issues": 2353,
       "summary": "Gitea 是一款用 Go 语言编写的自托管一体化软件开发服务，目标是以最简单、快速且省心的方式搭建 Git 托管平台。它集成了代码管理、代码审查、议题跟踪、项目看板、Wiki、团队协作、包注册表以及可复用 GitHub Actions 的 CI/CD 功能，解决团队自建开发基础设施时工具分散、部署复杂的问题。由于基于 Go，它可运行在 Linux、macOS、FreeBSD/OpenBSD 和 Windows 上，支持 x86、amd64、ARM、RISC-V 64 与 PowerPC 等架构。用户可通过官方镜像以容器方式部署，或从源码构建后运行 gitea web 启动服务。",
       "windows": [
@@ -219,7 +220,7 @@
       ],
       "added_at": "2026-10-09T11:00:35+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 6
+      "seen_count": 7
     },
     {
       "owner": "multica-ai",
@@ -234,7 +235,7 @@
       "license": "NOASSERTION",
       "created_at": "2026-01-13T17:59:46Z",
       "pushed_at": "2026-10-09T08:50:47Z",
-      "updated_at": "2026-10-09T11:24:43Z",
+      "updated_at": "2026-10-09T11:42:47Z",
       "open_issues": 1839,
       "summary": "Multica 是一个可自托管的工作空间，把 AI 编码代理当作团队成员来分配工作：给代理指派 issue，它会自行接单、在你自己控制的运行时上执行、边做边评论，完成后交回人工审查。它针对的问题是，同时使用 Claude Code、Codex 等多个代理时，每个都困在独立终端里、会话结束即失忆，人不得不反复补充上下文。Multica 不内置模型，而是驱动你已安装并登录的 26 种代理 CLI，切换供应商只是换个下拉选项。",
       "windows": [
@@ -242,7 +243,7 @@
       ],
       "added_at": "2026-10-09T11:00:35+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 6
+      "seen_count": 7
     },
     {
       "owner": "QuantumNous",
@@ -251,13 +252,13 @@
       "url": "https://github.com/QuantumNous/new-api",
       "description": "A unified AI model hub for aggregation & distribution. It supports cross-converting various LLMs into OpenAI-compatible, Claude-compatible, or Gemini-compatible formats. A centralized gateway for personal and enterprise model management.",
       "language": "Go",
-      "stars": 49500,
-      "forks": 11906,
+      "stars": 49503,
+      "forks": 11905,
       "homepage": "https://www.newapi.ai",
       "license": "AGPL-3.0",
       "created_at": "2023-11-10T19:33:36Z",
-      "pushed_at": "2026-10-09T08:39:18Z",
-      "updated_at": "2026-10-09T11:22:26Z",
+      "pushed_at": "2026-10-09T11:42:51Z",
+      "updated_at": "2026-10-09T11:48:29Z",
       "open_issues": 1372,
       "summary": "New API 是一个用 Go 编写的自托管 AI 网关，面向应用、智能体与团队，用于聚合和分发模型服务。它把 OpenAI、Anthropic、Google Gemini、Azure OpenAI、AWS Bedrock、Vertex AI、DeepSeek、Qwen 等上游服务接入后，对外暴露统一的 API，并在一个控制台内管理路由、访问权限、用量与成本。其核心能力是协议转换，可在 OpenAI、Claude、Gemini 等格式间做请求、响应与流式转换，让客户端无需为更换供应商重复配置。典型场景包括团队内共享授权的模型访问、私有化多模型服务部署，以及跨供应商的用量分析与费用核算。",
       "windows": [
@@ -265,7 +266,7 @@
       ],
       "added_at": "2026-10-09T11:00:35+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 6
+      "seen_count": 7
     },
     {
       "owner": "MHSanaei",
@@ -274,13 +275,13 @@
       "url": "https://github.com/MHSanaei/3x-ui",
       "description": "Supporting multi-protocol multi-user(Vmess, Vless, Trojan, ShadowSocks, Wireguard, Hysteria, Tunnel, Mixed, HTTP, Tun, MTProto، AmneziaWG) ",
       "language": "Go",
-      "stars": 47691,
-      "forks": 12198,
+      "stars": 47693,
+      "forks": 12199,
       "homepage": "https://docs.sanaei.dev/",
       "license": "GPL-3.0",
       "created_at": "2023-02-09T19:16:57Z",
       "pushed_at": "2026-10-08T20:11:11Z",
-      "updated_at": "2026-10-09T11:10:11Z",
+      "updated_at": "2026-10-09T11:48:41Z",
       "open_issues": 185,
       "summary": "3X-UI 是一个基于 Go 语言开发的开源 Web 控制面板，用于管理 Xray-core 服务器，是原 X-UI 项目的增强分支。它解决的是在单台 VPS 或多节点环境下部署、配置和监控多种代理与 VPN 协议时操作繁琐的问题，通过多语言界面统一管理。核心能力包括支持 VLESS、VMess、Trojan、Shadowsocks、WireGuard、AmneziaWG、TUIC v5、Hysteria2、MTProto、HTTP、SOCKS、Tunnel 和 TUN 等协议，并兼容 TCP、mKCP、WebSocket、gRPC、HTTPUpgrade、XHTTP 等传输方式，配合 TL。",
       "windows": [
@@ -289,7 +290,7 @@
       ],
       "added_at": "2026-10-09T11:00:35+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 6
+      "seen_count": 7
     },
     {
       "owner": "alibaba",
@@ -298,14 +299,14 @@
       "url": "https://github.com/alibaba/open-code-review",
       "description": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
       "language": "Go",
-      "stars": 44788,
-      "forks": 3243,
+      "stars": 44798,
+      "forks": 3245,
       "homepage": "https://open-codereview.ai",
       "license": "Apache-2.0",
       "created_at": "2026-05-18T02:16:36Z",
       "pushed_at": "2026-10-08T11:52:10Z",
-      "updated_at": "2026-10-09T11:24:11Z",
-      "open_issues": 284,
+      "updated_at": "2026-10-09T11:49:15Z",
+      "open_issues": 283,
       "summary": "Open Code Review 是阿里巴巴开源的一款 AI 代码审查命令行工具，由内部官方 AI 代码审查助手孵化而来，使用 Go 语言编写。它读取 Git diff，将变更文件交给可配置的 LLM Agent 审查，生成精确到行的结构化评论，Agent 能读取完整文件、搜索代码库并参考其他变更文件，还支持对整个文件进行扫描审查。",
       "windows": [
         "daily",
@@ -313,7 +314,7 @@
       ],
       "added_at": "2026-10-09T11:00:35+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 6
+      "seen_count": 7
     },
     {
       "owner": "Wei-Shaw",
@@ -322,21 +323,21 @@
       "url": "https://github.com/Wei-Shaw/sub2api",
       "description": "Sub2API 一站式开源中转服务，让 Claude、Openai 、Gemini、Grok订阅统一接入，支持拼车共享，更高效分摊成本，原生工具无缝使用。",
       "language": "Go",
-      "stars": 43558,
-      "forks": 9338,
+      "stars": 43559,
+      "forks": 9339,
       "homepage": "",
       "license": "LGPL-3.0",
       "created_at": "2025-12-18T02:26:18Z",
       "pushed_at": "2026-10-09T06:00:42Z",
-      "updated_at": "2026-10-09T10:56:05Z",
-      "open_issues": 3543,
+      "updated_at": "2026-10-09T11:40:24Z",
+      "open_issues": 3544,
       "summary": "Sub2API 是一个用 Go 语言编写的 AI API 网关平台，定位为订阅配额分发的一站式开源中转服务。它要解决的问题是：用户手中有 Claude、OpenAI、Gemini、Grok 等多家上游服务的订阅，但各平台接口与配额彼此独立，难以统一调用和分摊成本。该项目通过统一接入这些订阅，让不同来源的模型能力汇聚到同一入口，并支持拼车共享，使多人可以更高效地分摊订阅费用，同时保持原生工具的无缝使用。其核心能力集中在订阅配额的分发与中转上，适合需要同时使用多种主流模型、又希望降低单人成本的小团队或个人开发者。技术栈以 Go 为主，部署后可作为 API 网关对接各类客户端。",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-09T11:00:35+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 6
+      "seen_count": 7
     },
     {
       "owner": "XTLS",
@@ -345,13 +346,13 @@
       "url": "https://github.com/XTLS/Xray-core",
       "description": "Xray, Penetrates Everything. Also the best v2ray-core. Where the magic happens. An open platform for various uses.",
       "language": "Go",
-      "stars": 42011,
+      "stars": 42014,
       "forks": 5964,
       "homepage": "https://t.me/projectXray",
       "license": "MPL-2.0",
       "created_at": "2020-11-09T11:23:10Z",
       "pushed_at": "2026-10-08T15:38:18Z",
-      "updated_at": "2026-10-09T11:08:19Z",
+      "updated_at": "2026-10-09T11:48:41Z",
       "open_issues": 56,
       "summary": "Xray-core 是 Project X 推出的开源网络工具集，源自 XTLS 协议，采用 Go 语言编写，被官方称为“最好的 v2ray-core”。它主要解决网络传输中的穿透与隐私问题，提供 VLESS、XTLS、REALITY、XUDP 等协议支持，并集成 XHTTP 等扩展能力。其核心特点在于协议灵活、可组合性强，支持多种传输与回落方案，如 VLESS-XTLS-uTLS-REALITY 和 VLESS-TCP-XTLS-Vision。",
       "windows": [
@@ -360,7 +361,7 @@
       ],
       "added_at": "2026-10-09T11:00:35+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 6
+      "seen_count": 7
     },
     {
       "owner": "aquasecurity",
@@ -369,13 +370,13 @@
       "url": "https://github.com/aquasecurity/trivy",
       "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
       "language": "Go",
-      "stars": 38309,
+      "stars": 38310,
       "forks": 749,
       "homepage": "https://trivy.dev",
       "license": "Apache-2.0",
       "created_at": "2019-04-11T01:01:07Z",
       "pushed_at": "2026-10-09T11:28:00Z",
-      "updated_at": "2026-10-09T11:28:07Z",
+      "updated_at": "2026-10-09T11:44:04Z",
       "open_issues": 262,
       "summary": "Trivy 是一款用 Go 编写的综合性安全扫描工具，由 Aqua Security 维护。它围绕“扫描目标”和“扫描器”两个维度组织能力：可扫描的目标包括容器镜像、文件系统、远程 Git 仓库、虚拟机镜像和 Kubernetes；在这些目标中，它能发现操作系统包与软件依赖（生成 SBOM）、已知漏洞（CVE）、IaC 问题与错误配置、敏感信息与密钥，以及软件许可证。Trivy 支持主流编程语言、操作系统和平台，安装方式覆盖 Homebrew、Docker 镜像和二进制下载等渠道，并可与 GitHub Actions、Kubernetes Operator、VS Code 插件等生态集成。",
       "windows": [
@@ -384,7 +385,7 @@
       ],
       "added_at": "2026-10-09T11:00:35+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 6
+      "seen_count": 7
     },
     {
       "owner": "tailscale",
@@ -426,7 +427,7 @@
       "open_issues": 1456,
       "summary": "Vault 是 HashiCorp 用 Go 语言开发的开源工具，用于安全访问密钥，提供密钥管理、加密即服务和特权访问管理能力。它解决的核心问题是：现代系统需要访问数据库凭据、API 密钥、证书等大量敏感信息，而追踪谁访问了什么、实现密钥轮换与安全存储往往依赖平台特定方案，缺少统一且带审计的手段。Vault 提供统一接口，写入持久存储前先加密，并记录详细审计日志。其核心能力包括安全密钥存储、动态密钥生成（如按需为 AWS 或 SQL 数据库创建并到期自动吊销凭据）、数据加解密而不存储数据、租约与续期、以及单条或树状密钥吊销。",
       "last_seen": "2026-10-09",
-      "seen_count": 9,
+      "seen_count": 10,
       "added_at": "2026-10-09T10:50:28+00:00",
       "windows": [
         "daily"
@@ -453,7 +454,7 @@
       ],
       "added_at": "2026-10-09T11:00:35+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 6
+      "seen_count": 7
     },
     {
       "owner": "Tencent",
@@ -463,7 +464,7 @@
       "description": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
       "language": "Go",
       "stars": 32779,
-      "forks": 4363,
+      "forks": 4362,
       "homepage": "https://weknora.weixin.qq.com",
       "license": "NOASSERTION",
       "created_at": "2025-07-22T08:01:23Z",
@@ -477,7 +478,7 @@
       ],
       "added_at": "2026-10-09T11:00:35+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 6
+      "seen_count": 7
     },
     {
       "owner": "gitleaks",
@@ -524,7 +525,7 @@
       ],
       "added_at": "2026-10-09T11:00:35+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 6
+      "seen_count": 7
     },
     {
       "owner": "vxcontrol",
@@ -548,7 +549,7 @@
       ],
       "added_at": "2026-10-09T11:00:35+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 6
+      "seen_count": 7
     },
     {
       "owner": "argoproj",
@@ -594,7 +595,7 @@
       ],
       "added_at": "2026-10-09T11:00:35+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 6
+      "seen_count": 7
     },
     {
       "owner": "navidrome",
@@ -613,7 +614,7 @@
       "open_issues": 297,
       "summary": "Navidrome 是一个用 Go 编写的开源音乐收藏服务器与流媒体服务，让你通过任意浏览器或移动设备访问自己的音乐库，相当于搭建私有的流媒体平台。它主要解决个人音乐收藏难以跨设备随时随地收听的问题，可处理超大音乐库，支持几乎所有音频格式，并能读取和利用已有的元数据，对合辑与多碟套装也有良好支持。它支持多用户，每位用户拥有独立的播放次数、播放列表和收藏；资源占用低，可运行在 macOS、Linux、Windows 及树莓派上，也提供 Docker 镜像。",
       "last_seen": "2026-10-09",
-      "seen_count": 9,
+      "seen_count": 10,
       "added_at": "2026-10-09T10:50:28+00:00",
       "windows": [
         "monthly"
@@ -640,7 +641,7 @@
       ],
       "added_at": "2026-10-09T11:00:35+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 6
+      "seen_count": 7
     },
     {
       "owner": "qax-os",
@@ -663,7 +664,7 @@
       ],
       "added_at": "2026-10-09T11:00:35+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 6
+      "seen_count": 7
     },
     {
       "owner": "google",
@@ -679,14 +680,14 @@
       "created_at": "2018-04-26T21:28:49Z",
       "pushed_at": "2026-10-09T04:50:07Z",
       "updated_at": "2026-10-09T11:21:58Z",
-      "open_issues": 942,
+      "open_issues": 944,
       "summary": "gVisor 是 Google 开源的容器应用内核，用 Go 语言编写并在用户态运行，为容器提供类似 Linux 的接口。它要解决的核心问题是：容器本身并非安全沙箱，共享内核意味着单个漏洞就可能导致容器逃逸，因此直接用容器运行不可信代码存在风险。gVisor 在应用与宿主内核之间加入一层隔离，限制应用可访问的宿主内核面，同时仍提供应用所需的全部功能。它既不是 seccomp-bpf 这类系统调用过滤器，也不是对 Linux 隔离原语的封装，更不是传统虚拟机，而是取二者之间的第三条路径，兼具虚拟机的安全收益与普通用户态应用的低资源占用、快速启动和灵活性。",
       "windows": [
         "weekly"
       ],
       "added_at": "2026-10-09T11:00:35+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 6
+      "seen_count": 7
     },
     {
       "owner": "coder",
@@ -700,16 +701,16 @@
       "homepage": "https://coder.com",
       "license": "AGPL-3.0",
       "created_at": "2021-12-22T06:08:52Z",
-      "pushed_at": "2026-10-09T11:29:06Z",
-      "updated_at": "2026-10-09T11:23:00Z",
-      "open_issues": 1148,
+      "pushed_at": "2026-10-09T11:41:14Z",
+      "updated_at": "2026-10-09T11:32:47Z",
+      "open_issues": 1147,
       "summary": "Coder 是一个可自托管的云开发环境与 AI 编码代理平台，用 Go 编写。它主要解决开发环境配置慢、资源闲置浪费以及 AI 编码工具凭据管理分散的问题。工作区通过 Terraform 定义，可运行在 EC2、Kubernetes Pod、Docker 容器等基础设施上，并经 Wireguard 隧道安全连接，空闲时自动关闭以节省成本，让开发者入职从数天缩短到数秒。",
       "windows": [
         "monthly"
       ],
       "added_at": "2026-10-09T11:00:35+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 6
+      "seen_count": 7
     },
     {
       "owner": "oauth2-proxy",
@@ -732,7 +733,7 @@
       ],
       "added_at": "2026-10-09T11:00:35+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 6
+      "seen_count": 7
     },
     {
       "owner": "fish2018",
@@ -755,7 +756,7 @@
       ],
       "added_at": "2026-10-09T11:00:35+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 6
+      "seen_count": 7
     },
     {
       "owner": "TencentCloud",
@@ -778,7 +779,7 @@
       ],
       "added_at": "2026-10-09T11:00:35+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 6
+      "seen_count": 7
     },
     {
       "owner": "go-acme",
@@ -833,13 +834,13 @@
       "url": "https://github.com/pocket-id/pocket-id",
       "description": "The most user-friendly OpenID Connect Certified™ and OAuth 2.0 provider that lets users sign in to your applications with passkeys.",
       "language": "Go",
-      "stars": 9473,
+      "stars": 9474,
       "forks": 319,
       "homepage": "https://pocket-id.org",
       "license": "BSD-2-Clause",
       "created_at": "2024-08-11T18:57:32Z",
       "pushed_at": "2026-10-08T20:53:37Z",
-      "updated_at": "2026-10-09T11:25:40Z",
+      "updated_at": "2026-10-09T11:37:00Z",
       "open_issues": 98,
       "summary": "Pocket ID 是一个用 Go 语言编写的 OpenID Connect Certified™ 和 OAuth 2.0 身份认证提供方，目标是让用户通过 passkey 登录各类应用。它想解决的是 Keycloak、ORY Hydra 等自托管方案对简单场景过于复杂的问题，因此把易用性放在首位。其最突出的特点是只支持 passkey 认证，完全不需要密码，用户可以用 YubiKey 等物理密钥安全便捷地登录所有自托管服务。部署方式多样，官方推荐使用 Docker，并提供了详细的文档和贡献指南。它适合希望为自建应用添加统一登录、又不想维护复杂身份系统的个人或小团队。",
       "windows": [
@@ -847,7 +848,7 @@
       ],
       "added_at": "2026-10-09T11:00:35+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 6
+      "seen_count": 7
     },
     {
       "owner": "openbao",
@@ -870,7 +871,7 @@
       ],
       "added_at": "2026-10-09T11:00:35+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 6
+      "seen_count": 7
     },
     {
       "owner": "kyverno",
@@ -908,7 +909,7 @@
       "license": "MIT",
       "created_at": "2026-02-27T23:28:01Z",
       "pushed_at": "2026-10-09T06:09:05Z",
-      "updated_at": "2026-10-09T08:09:35Z",
+      "updated_at": "2026-10-09T11:45:34Z",
       "open_issues": 927,
       "summary": "Gentle-AI 是一个用 Go 编写的开源配置工具，为 Claude Code、Cursor、OpenCode、Codex、Pi 等十七种 AI 编程代理提供统一的工程化环境，不绑定任何特定代理。它针对的问题是：代理每次会话都从零开始，反复重新解释项目决策，也无法证明自己做了什么。为此它提供持久记忆 Engram，让代理边工作边记录并主动调用；有机驱动开发 ODD 让小改动保持轻量、大任务拥有可恢复的特性文档；默认启用测试先行，为每条需求先写一个失败测试再实现；收据驱动开发 RDD 默认开启，在评审前冻结候选版本，使证据绑定到确切版本而非模型记忆。",
       "windows": [
@@ -916,7 +917,7 @@
       ],
       "added_at": "2026-10-09T11:00:35+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 6
+      "seen_count": 7
     },
     {
       "owner": "Gentleman-Programming",
@@ -939,7 +940,7 @@
       ],
       "added_at": "2026-10-09T11:00:35+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 6
+      "seen_count": 7
     },
     {
       "owner": "external-secrets",
@@ -985,7 +986,7 @@
       ],
       "added_at": "2026-10-09T11:00:35+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 6
+      "seen_count": 7
     },
     {
       "owner": "asciimoo",
@@ -1008,7 +1009,7 @@
       ],
       "added_at": "2026-10-09T11:00:35+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 6
+      "seen_count": 7
     },
     {
       "owner": "Gaurav-Gosain",
@@ -1017,14 +1018,14 @@
       "url": "https://github.com/Gaurav-Gosain/tuios",
       "description": "A terminal window manager that knows what your agents are doing. Tiling panes, workspaces, sessions that survive restarts, and one Inbox for every coding agent.",
       "language": "Go",
-      "stars": 5064,
+      "stars": 5065,
       "forks": 230,
       "homepage": "https://tuios.dev",
       "license": "MIT",
       "created_at": "2025-09-06T18:13:51Z",
       "pushed_at": "2026-10-09T11:28:58Z",
-      "updated_at": "2026-10-09T11:10:48Z",
-      "open_issues": 23,
+      "updated_at": "2026-10-09T11:48:11Z",
+      "open_issues": 25,
       "summary": "TUIOS 是一个用 Go 编写的终端窗口管理器与多路复用器，运行在现有终端内，为同时使用多个编码智能体的人解决会话分散、状态难追踪的问题。它提供 vim 式模态界面、BSP 平铺、9 个工作区、命令面板和模糊启动器，支持 kitty 图形协议与 sixel 图像透传，并基于 Charm 技术栈实现事件驱动渲染。守护进程让会话在重启后存活，还可通过 ssh 或 Tailscale 访问其他机器上的会话。",
       "windows": [
         "weekly",
@@ -1032,7 +1033,7 @@
       ],
       "added_at": "2026-10-09T11:00:35+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 6
+      "seen_count": 7
     },
     {
       "owner": "open-telemetry",
@@ -1071,14 +1072,14 @@
       "created_at": "2026-05-13T19:02:38Z",
       "pushed_at": "2026-10-09T09:26:33Z",
       "updated_at": "2026-10-09T10:45:29Z",
-      "open_issues": 709,
+      "open_issues": 710,
       "summary": "Agent Substrate 是一个用 Go 编写的、默认安全的智能体运行运行时，目标是在 Kubernetes 上运行数百万个沙箱。它针对自主智能体场景设计，通过将大量多数时间处于空闲状态的“actor”（如智能体应用）映射到少量就绪的“worker”上，实现高密度多路复用，官方称其密度可达标准容器运行时的十倍，并支持亚 500 毫秒恢复、每秒 500 次以上的挂起/恢复，以及零信任的内核与网络隔离。",
       "windows": [
         "monthly"
       ],
       "added_at": "2026-10-09T11:00:35+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 6
+      "seen_count": 7
     },
     {
       "owner": "docker",
@@ -1087,17 +1088,17 @@
       "url": "https://github.com/docker/docker-agent",
       "description": "AI Agent Builder and Runtime by Docker Engineering",
       "language": "Go",
-      "stars": 4282,
+      "stars": 4283,
       "forks": 498,
       "homepage": "https://docker.github.io/docker-agent/",
       "license": "Apache-2.0",
       "created_at": "2025-09-01T12:14:45Z",
-      "pushed_at": "2026-10-09T11:28:32Z",
-      "updated_at": "2026-10-09T11:30:26Z",
-      "open_issues": 46,
+      "pushed_at": "2026-10-09T11:39:10Z",
+      "updated_at": "2026-10-09T11:37:34Z",
+      "open_issues": 47,
       "summary": "docker-agent 是 Docker Engineering 开源的一款 AI 智能体构建与运行工具，以 Go 语言编写，并作为 Docker CLI 插件集成，可通过 docker agent 命令直接调用。它面向希望以低代码方式搭建 AI 智能体的开发者，核心思路是用声明式 YAML 配置定义智能体，无需编写代码即可赋予其工具能力并投入运行。",
       "last_seen": "2026-10-09",
-      "seen_count": 9,
+      "seen_count": 10,
       "added_at": "2026-10-09T10:50:28+00:00",
       "windows": [
         "daily",
@@ -1125,7 +1126,7 @@
       ],
       "added_at": "2026-10-09T11:00:35+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 6
+      "seen_count": 7
     },
     {
       "owner": "slavakurilyak",
@@ -1134,13 +1135,13 @@
       "url": "https://github.com/slavakurilyak/awesome-ai-agents",
       "description": "Awesome list of 300+ agentic AI resources",
       "language": "Go",
-      "stars": 2409,
+      "stars": 2410,
       "forks": 623,
       "homepage": "",
       "license": "MIT",
       "created_at": "2024-01-15T12:48:42Z",
       "pushed_at": "2026-10-04T07:15:17Z",
-      "updated_at": "2026-10-09T09:59:34Z",
+      "updated_at": "2026-10-09T11:40:14Z",
       "open_issues": 28,
       "summary": "这是一个由 Slava Kurilyak 维护的 AI 智能体资源清单，收录了 300 多个 agentic AI 项目，按类别整理，方便开发者按需检索。每个条目都要求有 GitHub、GitLab.com 或 Codeberg 上的公开仓库，并标注原始提交者与当前维护者，托管产品若无独立仓库则不予收录。",
       "windows": [
@@ -1148,7 +1149,7 @@
       ],
       "added_at": "2026-10-09T11:00:35+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 6
+      "seen_count": 7
     },
     {
       "owner": "stacklok",
@@ -1194,7 +1195,7 @@
       ],
       "added_at": "2026-10-09T11:00:35+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 6
+      "seen_count": 7
     },
     {
       "owner": "e2b-dev",
@@ -1208,8 +1209,8 @@
       "homepage": "https://e2b.dev/?utm_source=github&utm_medium=referral&utm_campaign=repo_website&utm_content=runtime",
       "license": "Apache-2.0",
       "created_at": "2023-08-10T17:37:55Z",
-      "pushed_at": "2026-10-09T11:19:31Z",
-      "updated_at": "2026-10-09T11:19:38Z",
+      "pushed_at": "2026-10-09T11:32:10Z",
+      "updated_at": "2026-10-09T11:32:17Z",
       "open_issues": 212,
       "summary": "E2B Runtime 是 E2B 智能体云的开源后端，用 Go 编写，采用 Apache-2.0 许可。它提供控制面 API、驱动 Firecracker 的节点编排器、运行在每个虚拟机内的 agent、边缘路由器和模板构建器，让每个智能体会话拥有独立的 Linux 微虚拟机。其核心思路是把沙箱视为恢复的快照：模板是预启动的虚拟机状态，创建沙箱即恢复快照，内存页通过 userfaultfd 按需加载，根文件系统采用写时复制覆盖层。控制面与数据面分离，沙箱流量从边缘直达节点。",
       "windows": [
@@ -1217,7 +1218,7 @@
       ],
       "added_at": "2026-10-09T11:00:35+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 6
+      "seen_count": 7
     },
     {
       "owner": "kai-scheduler",
@@ -1263,7 +1264,7 @@
       ],
       "added_at": "2026-10-09T11:00:35+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 6
+      "seen_count": 7
     },
     {
       "owner": "llm-d",
@@ -1300,7 +1301,7 @@
       "homepage": "agentfield.ai/codeaf",
       "license": "Apache-2.0",
       "created_at": "2026-08-05T16:00:07Z",
-      "pushed_at": "2026-10-09T11:27:55Z",
+      "pushed_at": "2026-10-09T11:45:18Z",
       "updated_at": "2026-10-09T09:02:58Z",
       "open_issues": 270,
       "summary": "CodeAF 是 AgentField AI 开源的一款面向开放模型的编程工具，用 Go 写成单个约 53MB 的二进制文件，无需额外安装依赖，采用 Apache 2.0 许可。它想解决的是多项目并行时终端分散、调度与检查都压在人身上的问题：把多个仓库、对话和任务收进一个窗口，在 home 中统一查看哪些需要你、哪些未读、哪些在运行以及花费多少。你用自然语言描述问题，它会拆成独立任务，各自在仓库副本和分支上运行，通过检查的改动自动落到你的分支而非主分支。它还提供针对代码审查、修 issue 等固定工作的子 harness，以及用于 CI、cron 和脚本的无头模式。",
@@ -1310,7 +1311,7 @@
       ],
       "added_at": "2026-10-09T11:00:35+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 6
+      "seen_count": 7
     }
   ]
 }

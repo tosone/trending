@@ -6,7 +6,7 @@
     "weekly",
     "monthly"
   ],
-  "generated_at": "2026-10-09T11:30:23+00:00",
+  "generated_at": "2026-10-09T11:49:26+00:00",
   "first_at": "2026-10-09T11:22:02+00:00",
   "count": 42,
   "added": 0,
@@ -18,13 +18,13 @@
       "url": "https://github.com/NationalSecurityAgency/ghidra",
       "description": "Ghidra is a software reverse engineering (SRE) framework",
       "language": "Java",
-      "stars": 81868,
-      "forks": 9094,
+      "stars": 81875,
+      "forks": 9093,
       "homepage": "",
       "license": "Apache-2.0",
       "created_at": "2019-03-01T03:27:48Z",
       "pushed_at": "2026-10-09T10:30:16Z",
-      "updated_at": "2026-10-09T11:14:25Z",
+      "updated_at": "2026-10-09T11:47:38Z",
       "open_issues": 1988,
       "summary": "Ghidra 是由美国国家安全局研究理事会创建并维护的软件逆向工程框架，采用 Java 编写。它面向复杂逆向工程中的规模化与团队协作问题，提供可定制、可扩展的分析平台。其核心能力包括反汇编、汇编、反编译、图形化展示和脚本编写，支持多种处理器指令集与可执行格式，并可在交互与自动化两种模式下运行。用户能使用 Java 或 Python 开发自定义扩展组件和脚本。该框架可在 Windows、macOS 和 Linux 上运行，常用于分析恶意代码、挖掘网络与系统潜在漏洞。",
       "windows": [
@@ -34,7 +34,7 @@
       ],
       "added_at": "2026-10-09T11:22:02+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "owner": "spring-projects",
@@ -44,7 +44,7 @@
       "description": "Spring Boot helps you to create Spring-powered, production-grade applications and services with absolute minimum fuss.",
       "language": "Java",
       "stars": 81585,
-      "forks": 44330,
+      "forks": 44332,
       "homepage": "https://spring.io/projects/spring-boot",
       "license": "Apache-2.0",
       "created_at": "2012-10-19T15:02:57Z",
@@ -58,7 +58,7 @@
       ],
       "added_at": "2026-10-09T11:22:02+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "owner": "elastic",
@@ -72,16 +72,16 @@
       "homepage": "https://www.elastic.co/products/elasticsearch",
       "license": "NOASSERTION",
       "created_at": "2010-02-08T13:20:56Z",
-      "pushed_at": "2026-10-09T11:27:24Z",
+      "pushed_at": "2026-10-09T11:40:33Z",
       "updated_at": "2026-10-09T11:27:28Z",
-      "open_issues": 6172,
+      "open_issues": 6173,
       "summary": "Elasticsearch 是一个用 Java 编写的分布式搜索与分析引擎，同时也可作为可扩展的数据存储和向量数据库，针对生产级工作负载的速度与相关性进行了优化。它基于 RESTful 接口，支持通过任意 HTTP 客户端或官方语言客户端（如 Python）发送请求，数据以 JSON 文档形式索引，可近实时地搜索海量数据集。其核心能力包括全文检索、向量搜索、日志与指标处理、应用性能监控和安全日志分析，并可与生成式 AI 应用集成，支持检索增强生成等场景。",
       "windows": [
         "monthly"
       ],
       "added_at": "2026-10-09T11:22:02+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "owner": "termux",
@@ -91,12 +91,12 @@
       "description": "Termux - a terminal emulator application for Android OS extendible by variety of packages.",
       "language": "Java",
       "stars": 62258,
-      "forks": 7815,
+      "forks": 7816,
       "homepage": "https://f-droid.org/en/packages/com.termux",
       "license": "NOASSERTION",
       "created_at": "2015-10-23T09:42:46Z",
       "pushed_at": "2026-09-26T05:11:44Z",
-      "updated_at": "2026-10-09T11:04:28Z",
+      "updated_at": "2026-10-09T11:40:41Z",
       "open_issues": 634,
       "summary": "Termux 是一款面向 Android 系统的终端模拟器应用，同时提供 Linux 环境，使用 Java 开发。它让用户在移动设备上获得命令行操作能力，并通过安装各类软件包扩展功能。应用本身负责用户界面和终端模拟，可安装的软件包则由独立的 termux-packages 仓库维护。核心应用还配有 API、Boot、Float、Styling、Tasker、Widget 等可选插件。安装来源包括 F-Droid、GitHub Releases 和 Google Play 实验分支，不同来源的 APK 使用不同签名密钥，因共享 sharedUserId 而不可混装。",
       "windows": [
@@ -105,7 +105,7 @@
       ],
       "added_at": "2026-10-09T11:22:02+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "owner": "jeecgboot",
@@ -114,13 +114,13 @@
       "url": "https://github.com/jeecgboot/JeecgBoot",
       "description": "【低代码v2.0，一句话即可生成整个系统】企业级AI低代码平台，一键生成前后端代码甚至整个系统。 AI Skills 一句话画流程、设计表单、生成报表、大屏。内置 AI应用平台涵盖：AI聊天、知识库、流程编排、MCP插件等，兼容主流大模型。引领AI低代码「Skills 生成 → 在线配置 → 代码生成 → 手工合并->AI修改」开发模式，解决 Java 项目 90% 重复工作，提高效率又不失灵活。",
       "language": "Java",
-      "stars": 48123,
+      "stars": 48124,
       "forks": 16211,
       "homepage": "https://jeecg.com",
       "license": "Apache-2.0",
       "created_at": "2018-11-26T10:40:00Z",
       "pushed_at": "2026-09-22T14:26:15Z",
-      "updated_at": "2026-10-09T10:33:40Z",
+      "updated_at": "2026-10-09T11:34:28Z",
       "open_issues": 55,
       "summary": "JeecgBoot 是一款企业级 AI 低代码开发平台，以低代码开发、AI 应用平台和 AI 知识库为核心能力，主要解决 Java 项目中大量重复性开发工作的问题。平台通过 AI Skills 支持用自然语言一句话生成完整系统或业务模块，自动完成建表、前后端 CRUD 代码、菜单权限配置和页面渲染，并引领“AI 生成、在线配置、代码生成、手工合并”的开发模式，在提升效率的同时保留源码级扩展能力。其核心能力包括零代码在线应用搭建、支持单表与树表等多种模型的代码生成器、AI 流程编排、MCP 插件、知识库问答以及报表和大屏设计，兼容 ChatGPT、DeepSeek、Ollama 等主流大模型。",
       "windows": [
@@ -128,7 +128,7 @@
       ],
       "added_at": "2026-10-09T11:22:02+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "owner": "TeamNewPipe",
@@ -151,7 +151,7 @@
       ],
       "added_at": "2026-10-09T11:22:02+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "owner": "YunaiV",
@@ -174,7 +174,7 @@
       ],
       "added_at": "2026-10-09T11:22:02+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "owner": "keycloak",
@@ -183,14 +183,14 @@
       "url": "https://github.com/keycloak/keycloak",
       "description": "Open Source Identity and Access Management For Modern Applications and Services",
       "language": "Java",
-      "stars": 37249,
-      "forks": 9028,
+      "stars": 37250,
+      "forks": 9029,
       "homepage": "https://www.keycloak.org",
       "license": "Apache-2.0",
       "created_at": "2013-07-02T13:38:51Z",
-      "pushed_at": "2026-10-09T11:18:21Z",
-      "updated_at": "2026-10-09T11:18:29Z",
-      "open_issues": 3230,
+      "pushed_at": "2026-10-09T11:47:16Z",
+      "updated_at": "2026-10-09T11:48:03Z",
+      "open_issues": 3231,
       "summary": "Keycloak 是一款开源的身份与访问管理工具，主要用 Java 编写，旨在以最小的工作量帮助应用和服务添加认证能力并保障安全，开发者无需自行处理用户存储或用户认证。它提供用户联合、强认证、用户管理和细粒度授权等核心功能，适用于需要统一登录、单点登录和权限控制的现代应用与服务。使用时可从官网下载发行版，解压后运行 bin/kc.sh 或 bin/kc.bat 的 start-dev 命令启动，也可通过 quay.io/keycloak/keycloak 的 Docker 镜像运行。项目采用 Apache License 2.",
       "windows": [
         "weekly",
@@ -198,7 +198,7 @@
       ],
       "added_at": "2026-10-09T11:22:02+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "owner": "apache",
@@ -221,7 +221,7 @@
       ],
       "added_at": "2026-10-09T11:22:02+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "owner": "xuxueli",
@@ -244,7 +244,7 @@
       ],
       "added_at": "2026-10-09T11:22:02+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "owner": "DrKLO",
@@ -267,7 +267,7 @@
       ],
       "added_at": "2026-10-09T11:22:02+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "owner": "kestra-io",
@@ -281,9 +281,9 @@
       "homepage": "https://go.kestra.io/home",
       "license": "Apache-2.0",
       "created_at": "2019-08-24T13:56:15Z",
-      "pushed_at": "2026-10-09T11:28:45Z",
-      "updated_at": "2026-10-09T11:21:29Z",
-      "open_issues": 868,
+      "pushed_at": "2026-10-09T11:48:20Z",
+      "updated_at": "2026-10-09T11:31:51Z",
+      "open_issues": 870,
       "summary": "Kestra 是一个用 Java 编写的开源事件驱动编排与调度平台，面向数据、AI 和基础设施工作流。它把定时任务与事件触发统一在声明式的 YAML 接口下，将基础设施即代码的实践引入数据管道和微服务流程，解决工作流分散、难以版本化和跨环境调度的问题。核心能力包括：同一份流程可在 YAML 编辑器、无代码编辑器和 AI Copilot 之间同步编辑，并支持 Git 版本控制；内置数百个插件，可执行 Python、Node.",
       "windows": [
         "weekly",
@@ -291,7 +291,7 @@
       ],
       "added_at": "2026-10-09T11:22:02+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "owner": "Anuken",
@@ -314,7 +314,7 @@
       ],
       "added_at": "2026-10-09T11:22:02+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "owner": "OtterMind",
@@ -337,7 +337,7 @@
       ],
       "added_at": "2026-10-09T11:22:02+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "owner": "ashishps1",
@@ -360,7 +360,7 @@
       ],
       "added_at": "2026-10-09T11:22:02+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "owner": "apache",
@@ -374,16 +374,16 @@
       "homepage": "https://doris.apache.org",
       "license": "Apache-2.0",
       "created_at": "2017-08-10T12:13:30Z",
-      "pushed_at": "2026-10-09T10:12:01Z",
-      "updated_at": "2026-10-09T09:21:43Z",
-      "open_issues": 1358,
+      "pushed_at": "2026-10-09T11:44:28Z",
+      "updated_at": "2026-10-09T11:44:36Z",
+      "open_issues": 1357,
       "summary": "Apache Doris 是一款基于 MPP 架构的开源实时分析与搜索数据库，主要使用 Java 语言开发，并于 2022 年 6 月从 Apache 孵化器毕业成为顶级项目。它面向需要快速查询与统一检索的场景，解决结构化数据分析、湖仓查询加速以及跨文本和向量数据的混合搜索问题。其核心能力集中在实时分析、湖仓查询加速和混合搜索三方面，支持标准 SQL 分析，可同时处理结构化、文本与向量数据。部署上既支持存算一体，也支持存算分离，分离模式下无状态计算组运行在共享对象存储之上，便于按需扩展计算并隔离工作负载。",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-09T11:22:02+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "owner": "quarkusio",
@@ -397,16 +397,16 @@
       "homepage": "https://quarkus.io",
       "license": "Apache-2.0",
       "created_at": "2018-07-06T00:44:20Z",
-      "pushed_at": "2026-10-09T11:25:11Z",
+      "pushed_at": "2026-10-09T11:49:24Z",
       "updated_at": "2026-10-09T11:09:30Z",
-      "open_issues": 2813,
+      "open_issues": 2814,
       "summary": "Quarkus 是一个面向云原生、以 Linux 容器为先的 Java 应用开发框架，主要用 Java 编写。它针对容器环境做了优化，能构建占用资源极少的 Java 应用，并遵循 Kubernetes 等环境下的 12 要素架构。其核心特点是把更多工作放到构建阶段完成，从而实现快速启动，同时支持 JVM 与原生两种运行方式：JVM 适合高吞吐场景，原生模式适合资源受限环境。它还统一了命令式与响应式编程模型，让阻塞式和非阻塞式开发共用一个编程模型。",
       "windows": [
         "monthly"
       ],
       "added_at": "2026-10-09T11:22:02+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "owner": "LawnchairLauncher",
@@ -429,7 +429,7 @@
       ],
       "added_at": "2026-10-09T11:22:02+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "owner": "langchain4j",
@@ -452,7 +452,7 @@
       ],
       "added_at": "2026-10-09T11:22:02+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "owner": "ZCShou",
@@ -461,13 +461,13 @@
       "url": "https://github.com/ZCShou/GoGoGo",
       "description": "一个基于 Android 调试 API + 百度地图实现的虚拟定位工具，并且同时实现了一个可以自由移动的摇杆",
       "language": "Java",
-      "stars": 11458,
+      "stars": 11459,
       "forks": 1309,
       "homepage": "https://itexp.blog.csdn.net/",
       "license": "GPL-3.0",
       "created_at": "2021-12-03T06:59:39Z",
       "pushed_at": "2025-11-20T17:04:08Z",
-      "updated_at": "2026-10-09T10:35:51Z",
+      "updated_at": "2026-10-09T11:30:44Z",
       "open_issues": 17,
       "summary": "影梭（GoGoGo）是一个基于 Android 调试 API 与百度地图及定位 SDK 实现的虚拟定位工具，使用 Java 编写，支持 Android 8.0 及以上系统，无需 ROOT 权限即可修改设备当前位置并模拟移动。它主要解决在非 ROOT 环境下进行位置模拟的需求，核心功能包括定位修改、摇杆控制移动、历史记录、位置搜索、直接输入坐标以及截图。典型用法是安装 APK 后授予相关权限，单击地图位置并点击启动按钮。项目作者表示其初衷是学习 Android 与百度地图的实现方法，并明确反对将工具用于校园运动类 APP 作弊或游戏作弊。代码以 GPL-3.",
       "windows": [
@@ -475,7 +475,7 @@
       ],
       "added_at": "2026-10-09T11:22:02+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "owner": "alibaba",
@@ -498,7 +498,7 @@
       ],
       "added_at": "2026-10-09T11:22:02+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "owner": "LaurieWired",
@@ -507,13 +507,13 @@
       "url": "https://github.com/LaurieWired/GhidraMCP",
       "description": "MCP Server for Ghidra",
       "language": "Java",
-      "stars": 10777,
-      "forks": 1114,
+      "stars": 10780,
+      "forks": 1113,
       "homepage": "",
       "license": "Apache-2.0",
       "created_at": "2025-03-23T05:36:55Z",
       "pushed_at": "2025-06-23T04:18:18Z",
-      "updated_at": "2026-10-09T11:30:17Z",
+      "updated_at": "2026-10-09T11:37:14Z",
       "open_issues": 83,
       "summary": "GhidraMCP 是一个面向 Ghidra 的 Model Context Protocol 服务器，用 Java 编写，通过 Ghidra 插件与 Python MCP 客户端配合，让大语言模型能够自主完成应用程序逆向工程。它把 Ghidra 的核心功能封装成 MCP 工具，供各类 MCP 客户端调用，解决的是 LLM 难以直接操作逆向工具的问题。核心能力包括在 Ghidra 中反编译和分析二进制文件、自动重命名方法和数据、列出方法、类、导入与导出。",
       "windows": [
@@ -522,7 +522,7 @@
       ],
       "added_at": "2026-10-09T11:22:02+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "owner": "apache",
@@ -545,7 +545,7 @@
       ],
       "added_at": "2026-10-09T11:22:02+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "owner": "Suwayomi",
@@ -554,13 +554,13 @@
       "url": "https://github.com/Suwayomi/Suwayomi-Server",
       "description": "A rewrite of Tachiyomi for the Desktop",
       "language": "Java",
-      "stars": 7836,
+      "stars": 7837,
       "forks": 469,
       "homepage": "",
       "license": "MPL-2.0",
       "created_at": "2020-12-23T20:31:38Z",
       "pushed_at": "2026-10-08T17:30:29Z",
-      "updated_at": "2026-10-09T11:13:25Z",
+      "updated_at": "2026-10-09T11:35:56Z",
       "open_issues": 175,
       "summary": "Suwayomi-Server 是一个用 Java 编写的开源漫画阅读服务器，可视为 Tachiyomi 的桌面端重写版本，但它并非 Tachiyomi 的分支，而是独立实现的兼容软件。它主要解决在桌面或服务器上集中管理漫画库的问题，通过运行专为 Mihon（Tachiyomi）构建的扩展来获取相同的内容源。核心能力包括搜索和浏览已安装源、建立书库与分类、自动更新和下载新章节、离线阅读、兼容 Tachiyomi 的备份与恢复、通过 MyAnimeList 等平台追踪进度，并支持 FlareSolverr 绕过 Cloudflare 保护。",
       "windows": [
@@ -568,7 +568,7 @@
       ],
       "added_at": "2026-10-09T11:22:02+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "owner": "zhukunpenglinyutong",
@@ -591,7 +591,7 @@
       ],
       "added_at": "2026-10-09T11:22:02+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "owner": "TGX-Android",
@@ -615,7 +615,7 @@
       ],
       "added_at": "2026-10-09T11:22:02+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "owner": "GeyserMC",
@@ -639,7 +639,7 @@
       ],
       "added_at": "2026-10-09T11:22:02+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "owner": "bethington",
@@ -648,13 +648,13 @@
       "url": "https://github.com/bethington/ghidra-mcp",
       "description": "Ghidra MCP Server — 200+ MCP tools for AI-powered reverse engineering. GUI plugin + headless server, lazy tool loading, convention enforcement, batch operations, Ghidra Server integration, and Docker deployment.",
       "language": "Java",
-      "stars": 5070,
+      "stars": 5075,
       "forks": 248,
       "homepage": "",
       "license": "Apache-2.0",
       "created_at": "2025-08-30T06:40:03Z",
       "pushed_at": "2026-10-09T11:10:55Z",
-      "updated_at": "2026-10-09T11:27:45Z",
+      "updated_at": "2026-10-09T11:47:38Z",
       "open_issues": 31,
       "summary": "Ghidra MCP Server 是一个基于 Java 开发的生产级 Model Context Protocol 服务器，用于把 Ghidra 的反向工程能力接入 AI 工具与自动化框架。它针对多数同类实现只提供少量只读工具的问题，提供 209 个 MCP 工具，覆盖反编译、调用图、交叉引用、P-code 图数据流分析、结构体与枚举创建、字符串提取、导入导出分析、内存检查，以及重命名、注释、类型标注等写操作。",
       "windows": [
@@ -664,7 +664,7 @@
       ],
       "added_at": "2026-10-09T11:22:02+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "owner": "FCL-Team",
@@ -687,7 +687,7 @@
       ],
       "added_at": "2026-10-09T11:22:02+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "owner": "RikkaApps",
@@ -710,7 +710,7 @@
       ],
       "added_at": "2026-10-09T11:22:02+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "owner": "nageoffer",
@@ -733,7 +733,7 @@
       ],
       "added_at": "2026-10-09T11:22:02+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "owner": "MeteorDevelopment",
@@ -756,7 +756,7 @@
       ],
       "added_at": "2026-10-09T11:22:02+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "owner": "apache",
@@ -779,7 +779,7 @@
       ],
       "added_at": "2026-10-09T11:22:02+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "owner": "AndroidIDEOfficial",
@@ -803,7 +803,7 @@
       ],
       "added_at": "2026-10-09T11:22:02+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "owner": "shmykelsa",
@@ -826,7 +826,7 @@
       ],
       "added_at": "2026-10-09T11:22:02+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "owner": "sepinf-inc",
@@ -849,7 +849,7 @@
       ],
       "added_at": "2026-10-09T11:22:02+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "owner": "zalexdev",
@@ -872,7 +872,7 @@
       ],
       "added_at": "2026-10-09T11:22:02+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "owner": "AndreyPavlenko",
@@ -881,13 +881,13 @@
       "url": "https://github.com/AndreyPavlenko/Fermata",
       "description": "",
       "language": "Java",
-      "stars": 1405,
+      "stars": 1406,
       "forks": 203,
       "homepage": "",
       "license": "GPL-3.0",
       "created_at": "2019-12-23T19:14:49Z",
       "pushed_at": "2026-09-20T14:37:33Z",
-      "updated_at": "2026-10-09T09:10:55Z",
+      "updated_at": "2026-10-09T11:31:17Z",
       "open_issues": 210,
       "summary": "Fermata Media Player 是一款用 Java 编写的免费开源音视频及电视播放器，界面简洁直观，主要面向以文件夹和播放列表组织媒体文件的用户。它支持按文件夹播放、CUE 与 M3U 播放列表、收藏和书签，并能记住每个文件夹上次播放的曲目与进度。其 IPTV 插件支持 XMLTV EPG 和 Catchup，视频播放器可处理字幕和音轨（仅限 VLC 引擎）。音频方面提供均衡器、低音增强和虚拟化等效果，且可针对单个曲目或文件夹配置音效与播放速度。",
       "windows": [
@@ -895,7 +895,7 @@
       ],
       "added_at": "2026-10-09T11:22:02+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "owner": "MCRcortex",
@@ -919,7 +919,7 @@
       ],
       "added_at": "2026-10-09T11:22:02+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "owner": "Keeperorowner",
@@ -942,7 +942,7 @@
       ],
       "added_at": "2026-10-09T11:22:02+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "owner": "yash-srivastava",
@@ -965,7 +965,7 @@
       ],
       "added_at": "2026-10-09T11:22:02+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "owner": "Leclowndu93150",
@@ -988,7 +988,7 @@
       ],
       "added_at": "2026-10-09T11:22:02+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 2
+      "seen_count": 3
     }
   ]
 }

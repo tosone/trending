@@ -6,10 +6,10 @@
     "weekly",
     "monthly"
   ],
-  "generated_at": "2026-10-09T11:30:46+00:00",
+  "generated_at": "2026-10-09T11:49:49+00:00",
   "first_at": "2026-10-09T10:50:39+00:00",
   "count": 45,
-  "added": 1,
+  "added": 0,
   "repos": [
     {
       "owner": "clash-verge-rev",
@@ -18,13 +18,13 @@
       "url": "https://github.com/clash-verge-rev/clash-verge-rev",
       "description": "A modern GUI client based on Tauri, designed to run in Windows, macOS and Linux for tailored proxy experience",
       "language": "Rust",
-      "stars": 150005,
+      "stars": 150010,
       "forks": 10773,
       "homepage": "https://www.clashverge.dev",
       "license": "GPL-3.0",
       "created_at": "2023-11-21T18:24:03Z",
       "pushed_at": "2026-10-09T05:55:42Z",
-      "updated_at": "2026-10-09T11:24:36Z",
+      "updated_at": "2026-10-09T11:42:35Z",
       "open_issues": 503,
       "summary": "Clash Verge Rev 是基于 Tauri 2 框架开发的 Clash Meta 图形界面客户端，使用 Rust 编写，是 Clash Verge 项目的延续，支持 Windows、macOS 和 Linux 系统。它内置 Clash.Meta（mihomo）内核，并允许切换 Alpha 版本内核，为用户提供定制化的代理体验。该客户端解决了代理配置与节点管理的可视化需求，主要功能包括配置文件管理与增强（支持 Merge 和 Script 及语法提示）、系统代理与守卫、TUN 虚拟网卡模式、可视化节点和规则编辑，以及 WebDav 配置备份同步。",
       "windows": [
@@ -32,7 +32,7 @@
       ],
       "added_at": "2026-10-09T11:01:04+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 6
+      "seen_count": 7
     },
     {
       "owner": "farion1231",
@@ -41,21 +41,21 @@
       "url": "https://github.com/farion1231/cc-switch",
       "description": "A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode, OpenClaw, Grok Build & Hermes Agent. Only official website: ccswitch.io",
       "language": "Rust",
-      "stars": 141781,
-      "forks": 9473,
+      "stars": 141788,
+      "forks": 9474,
       "homepage": "https://ccswitch.io",
       "license": "MIT",
       "created_at": "2025-08-04T14:16:16Z",
       "pushed_at": "2026-10-09T09:00:33Z",
-      "updated_at": "2026-10-09T11:29:02Z",
-      "open_issues": 2840,
+      "updated_at": "2026-10-09T11:46:50Z",
+      "open_issues": 2843,
       "summary": "CC Switch 是一款基于 Rust 与 Tauri 2 构建的跨平台桌面工具，用于统一管理 Claude Code、Codex、Gemini CLI、Grok Build、OpenCode 等十余种 AI 编程工具的配置。这些工具各自使用 JSON、TOML、YAML 等不同格式，切换 API 供应商时需手动改文件，MCP、Skills 和提示词也要分别维护。CC Switch 将这些问题集中到一个应用里：内置 90 多个供应商预设，填入密钥即可一键切换，且只替换端点、密钥和模型等连接信息，用户自加的插件、钩子和注释保持不变。",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-09T11:01:04+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 6
+      "seen_count": 7
     },
     {
       "owner": "openai",
@@ -64,21 +64,21 @@
       "url": "https://github.com/openai/codex",
       "description": "Lightweight coding agent that runs in your terminal",
       "language": "Rust",
-      "stars": 128343,
+      "stars": 128345,
       "forks": 20131,
       "homepage": "",
       "license": "Apache-2.0",
       "created_at": "2025-04-13T05:37:54Z",
-      "pushed_at": "2026-10-09T11:08:40Z",
-      "updated_at": "2026-10-09T11:29:19Z",
-      "open_issues": 21756,
+      "pushed_at": "2026-10-09T11:37:21Z",
+      "updated_at": "2026-10-09T11:43:08Z",
+      "open_issues": 21763,
       "summary": "Codex CLI 是 OpenAI 推出的本地命令行编程智能体，使用 Rust 编写，直接在终端中运行。它面向希望在本地环境中借助 AI 完成编码任务的开发者，无需依赖云端即可在电脑上执行。安装方式覆盖 Mac、Linux 和 Windows，也可通过多种包管理器获取，安装后运行 codex 即可启动。使用时推荐通过 ChatGPT 账号登录，可纳入 Plus、Pro、Business、Edu 或 Enterprise 套餐；也支持 API key，但需额外配置。",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-09T11:01:04+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 6
+      "seen_count": 7
     },
     {
       "owner": "rustdesk",
@@ -87,13 +87,13 @@
       "url": "https://github.com/rustdesk/rustdesk",
       "description": "An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.",
       "language": "Rust",
-      "stars": 125290,
-      "forks": 19552,
+      "stars": 125293,
+      "forks": 19553,
       "homepage": "https://rustdesk.com",
       "license": "AGPL-3.0",
       "created_at": "2020-09-28T15:36:08Z",
       "pushed_at": "2026-10-09T06:11:42Z",
-      "updated_at": "2026-10-09T11:19:20Z",
+      "updated_at": "2026-10-09T11:48:14Z",
       "open_issues": 174,
       "summary": "RustDesk 是一款用 Rust 编写的开源远程桌面应用，定位为 TeamViewer 的自托管替代方案。它开箱即用、无需配置，让用户完全掌控自己的数据，无需担心安全问题。用户既可使用官方提供的 rendezvous/relay 服务器，也可自行搭建甚至编写自己的中继服务器，从而解决远程访问中对数据隐私和自主可控的需求。桌面端采用 Flutter 或已弃用的 Sciter 构建图形界面，核心模块包括屏幕捕获、键盘鼠标控制、剪贴板与文件传输、音视频编解码以及网络连接管理，其中 hbb_common 库提供视频编解码、配置和 tcp/udp 封装等共享功能。",
       "windows": [
@@ -101,7 +101,7 @@
       ],
       "added_at": "2026-10-09T11:01:04+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 6
+      "seen_count": 7
     },
     {
       "owner": "bevyengine",
@@ -124,7 +124,7 @@
       ],
       "added_at": "2026-10-09T11:01:04+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 6
+      "seen_count": 7
     },
     {
       "owner": "vercel-labs",
@@ -133,17 +133,17 @@
       "url": "https://github.com/vercel-labs/agent-browser",
       "description": "Browser automation CLI for AI agents",
       "language": "Rust",
-      "stars": 43714,
+      "stars": 43716,
       "forks": 2961,
       "homepage": "https://agent-browser.dev",
       "license": "Apache-2.0",
       "created_at": "2026-01-11T05:38:15Z",
       "pushed_at": "2026-10-08T05:10:23Z",
-      "updated_at": "2026-10-09T10:56:38Z",
+      "updated_at": "2026-10-09T11:42:18Z",
       "open_issues": 844,
       "summary": "agent-browser 是 Vercel Labs 推出的浏览器自动化命令行工具，专为 AI 智能体设计，使用 Rust 编写，以原生二进制形式提供，运行速度快。它通过 npm、Homebrew、Cargo 或源码安装，可自动检测并复用已有的 Chrome、Brave、Playwright 和 Puppeteer 环境，守护进程本身不依赖 Playwright 或 Node.js。核心能力包括语义化元素定位与点击、填表、悬停等操作，支持批量命令执行以减少进程启动开销，并提供标签页管理、Cookie 与存储、网络控制、剪贴板、鼠标控制及浏览器设置等命令。",
       "last_seen": "2026-10-09",
-      "seen_count": 9,
+      "seen_count": 10,
       "added_at": "2026-10-09T10:50:39+00:00",
       "windows": [
         "daily"
@@ -156,21 +156,21 @@
       "url": "https://github.com/tinyhumansai/openhuman",
       "description": "The fastest, cheapest, most efficient open-source agent harness. Run more than 500 agents on a $10 VPS.",
       "language": "Rust",
-      "stars": 41717,
-      "forks": 4104,
+      "stars": 41719,
+      "forks": 4103,
       "homepage": "https://tinyhumans.ai/openhuman",
       "license": "GPL-3.0",
       "created_at": "2026-02-18T20:01:27Z",
-      "pushed_at": "2026-10-09T10:56:06Z",
-      "updated_at": "2026-10-09T11:26:33Z",
-      "open_issues": 299,
+      "pushed_at": "2026-10-09T11:44:17Z",
+      "updated_at": "2026-10-09T11:44:27Z",
+      "open_issues": 292,
       "summary": "OpenHuman 是一个用 Rust 编写的开源 agent harness，目标是在极低资源下运行大规模 agent 集群。它针对多数 harness 每个 agent 跑一个重进程、每次调用重发大段提示词的问题，通过 RLM 递归语言模型压缩工具返回结果、Jev 小模型从 1215 个工具中检索、统一 Rust 总线按需加载功能、内置带引用的记忆机制，以及无截图的浏览器与桌面控制，把单步开销压下来。官方基准显示，在相同模型与容器下跑 SWE-bench 任务，它用时不到中位数一半，token 消耗约为典型工具的 2.",
       "windows": [
         "weekly"
       ],
       "added_at": "2026-10-09T11:01:04+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 6
+      "seen_count": 7
     },
     {
       "owner": "ajeetdsouza",
@@ -202,21 +202,21 @@
       "url": "https://github.com/jdx/mise",
       "description": "dev tools, env vars, task runner",
       "language": "Rust",
-      "stars": 34815,
+      "stars": 34817,
       "forks": 1468,
       "homepage": "https://mise.jdx.dev",
       "license": "MIT",
       "created_at": "2023-01-09T14:44:21Z",
-      "pushed_at": "2026-10-09T11:30:43Z",
-      "updated_at": "2026-10-09T11:30:39Z",
-      "open_issues": 13,
+      "pushed_at": "2026-10-09T11:47:10Z",
+      "updated_at": "2026-10-09T11:43:50Z",
+      "open_issues": 11,
       "summary": "mise 是一个用 Rust 编写的命令行工具，把开发工具版本管理、环境变量设置和任务运行整合到一个 mise.toml 配置文件中，可在 shell、编辑器和 CI 中通用。它解决的是项目间工具版本不一致、环境配置分散的问题：通过内置的 1000 多个工具注册表，可以为每个项目安装 Node.js、Python、Terraform 等不同版本，同时管理环境变量并加载 .env 文件，还能定义 build、test 等任务，让任务在项目指定的工具和环境下运行。",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-09T11:01:04+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 6
+      "seen_count": 7
     },
     {
       "owner": "rustfs",
@@ -225,13 +225,13 @@
       "url": "https://github.com/rustfs/rustfs",
       "description": "RustFS is an open-source, S3-compatible high-performance object storage system supporting migration and coexistence with other S3-compatible platforms such as MinIO and Ceph.",
       "language": "Rust",
-      "stars": 34614,
+      "stars": 34615,
       "forks": 1564,
       "homepage": "https://rustfs.com/download/",
       "license": "Apache-2.0",
       "created_at": "2023-11-23T13:45:10Z",
-      "pushed_at": "2026-10-09T11:03:22Z",
-      "updated_at": "2026-10-09T11:29:23Z",
+      "pushed_at": "2026-10-09T11:31:01Z",
+      "updated_at": "2026-10-09T11:35:30Z",
       "open_issues": 43,
       "summary": "RustFS 是一个用 Rust 编写的开源分布式对象存储系统，兼容 S3 API，并支持与 MinIO、Ceph 等其他 S3 兼容平台迁移和共存。它主要解决在数据湖、AI 和大数据场景下对高性能、内存安全且许可宽松的对象存储需求。核心特点包括：基于 Rust 带来的高性能与资源效率、可扩展且容错的分布式架构、较广的 S3 API 兼容性、原生支持 OpenStack Swift API 与 Keystone 认证、面向高吞吐大数据与 AI 负载优化，并采用 Apache 2.0 许可证，避免 AGPL 限制。",
       "windows": [
@@ -239,7 +239,7 @@
       ],
       "added_at": "2026-10-09T11:01:04+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 6
+      "seen_count": 7
     },
     {
       "owner": "cjpais",
@@ -262,7 +262,7 @@
       ],
       "added_at": "2026-10-09T11:01:04+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 6
+      "seen_count": 7
     },
     {
       "owner": "lbjlaq",
@@ -285,7 +285,7 @@
       ],
       "added_at": "2026-10-09T11:01:04+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 6
+      "seen_count": 7
     },
     {
       "owner": "ankitects",
@@ -308,7 +308,7 @@
       ],
       "added_at": "2026-10-09T11:01:04+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 6
+      "seen_count": 7
     },
     {
       "owner": "emilk",
@@ -340,13 +340,13 @@
       "url": "https://github.com/trycua/cua",
       "description": "Scale computer-use 2.0 with open-source drivers, cross-OS fleets, and benchmarks for training, evaluation, and data generation.",
       "language": "Rust",
-      "stars": 29130,
+      "stars": 29131,
       "forks": 2055,
       "homepage": "https://cua.ai",
       "license": "MIT",
       "created_at": "2025-01-31T15:02:49Z",
       "pushed_at": "2026-10-09T06:54:52Z",
-      "updated_at": "2026-10-09T11:29:34Z",
+      "updated_at": "2026-10-09T11:33:27Z",
       "open_issues": 1154,
       "summary": "Cua 是一套面向计算机使用智能体的开源工具集，用 Rust 编写，目标是让 AI 代理直接操作真实桌面环境。它提供多个组件：Cua Spaces 是 macOS 桌面应用，在本地或自有机器、云账户上创建完整虚拟机桌面，支持应用免登录迁移、人机共享同一桌面；Cua Driver 通过 CLI、MCP 或类型化 SDK 操作 macOS、Windows、Linux 上的原生应用与浏览器；Lume 基于 Apple Virtualization.",
       "windows": [
@@ -354,7 +354,7 @@
       ],
       "added_at": "2026-10-09T11:01:04+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 6
+      "seen_count": 7
     },
     {
       "owner": "sharkdp",
@@ -363,13 +363,13 @@
       "url": "https://github.com/sharkdp/hyperfine",
       "description": "A command-line benchmarking tool",
       "language": "Rust",
-      "stars": 29020,
+      "stars": 29021,
       "forks": 520,
       "homepage": "",
       "license": "Apache-2.0",
       "created_at": "2018-01-13T15:49:54Z",
       "pushed_at": "2026-10-07T21:12:04Z",
-      "updated_at": "2026-10-09T11:04:10Z",
+      "updated_at": "2026-10-09T11:48:35Z",
       "open_issues": 52,
       "summary": "hyperfine 是一款用 Rust 编写的命令行基准测试工具，用于测量和比较任意 shell 命令的执行性能。它通过多次运行命令并进行统计分析，帮助开发者解决手工计时不准确、结果受缓存干扰等问题。核心能力包括：自动确定运行次数、支持预热与清缓存准备命令、检测统计离群值、参数化扫描（如线程数或 Git 分支对比）、自定义性能指标（墙钟时间、CPU 时间、内存峰值及硬件计数器）以及导出 CSV、JSON、Markdown 等格式。默认直接执行命令以避免 shell 开销，也可通过 -S 启用 shell 语法。",
       "windows": [
@@ -377,7 +377,7 @@
       ],
       "added_at": "2026-10-09T11:01:04+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 6
+      "seen_count": 7
     },
     {
       "owner": "t8y2",
@@ -386,14 +386,14 @@
       "url": "https://github.com/t8y2/dbx",
       "description": "25 MB lightweight cross-platform database client for 100+ databases, including MySQL, PostgreSQL, SQLite, Redis, MongoDB, DuckDB, SQL Server, and Dameng. Built-in AI, MCP Server, CLI, desktop and Docker. | 轻量级跨平台数据库管理工具，支持 MySQL、PostgreSQL、SQLite、Redis、MongoDB、达梦等 100+ 数据库，提供桌面端、Docker、CLI、内置 AI 助手和 MCP。",
       "language": "Rust",
-      "stars": 25357,
+      "stars": 25358,
       "forks": 2294,
       "homepage": "https://dbxio.com",
       "license": "Apache-2.0",
       "created_at": "2026-04-29T03:00:36Z",
-      "pushed_at": "2026-10-09T11:25:46Z",
-      "updated_at": "2026-10-09T11:29:08Z",
-      "open_issues": 1094,
+      "pushed_at": "2026-10-09T11:46:51Z",
+      "updated_at": "2026-10-09T11:46:54Z",
+      "open_issues": 1095,
       "summary": "DBX 是一个用 Rust 编写的轻量级跨平台数据库管理工具，体积约 25 MB，无需 Java 运行时、Python 虚拟环境或内置 Chromium，下载即用。它支持 MySQL、PostgreSQL、SQLite、Redis、MongoDB、DuckDB、SQL Server、达梦等 100 多种数据库，并提供桌面端、Docker 和 Web 三种形态。除数据库外，还内置 Kafka、RabbitMQ、Nacos、ZooKeeper 等消息队列与中间件的管理控制台。",
       "windows": [
         "weekly",
@@ -401,7 +401,7 @@
       ],
       "added_at": "2026-10-09T11:01:04+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 6
+      "seen_count": 7
     },
     {
       "owner": "AprilNEA",
@@ -446,7 +446,7 @@
       "windows": [],
       "added_at": "2026-10-09T11:30:46+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "owner": "longbridge",
@@ -470,7 +470,7 @@
       ],
       "added_at": "2026-10-09T11:01:04+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 6
+      "seen_count": 7
     },
     {
       "owner": "tracel-ai",
@@ -502,13 +502,13 @@
       "url": "https://github.com/NVIDIA/OpenShell",
       "description": "OpenShell is the safe, private runtime for autonomous AI agents.",
       "language": "Rust",
-      "stars": 15551,
+      "stars": 15552,
       "forks": 1747,
       "homepage": "https://docs.nvidia.com/openshell/latest/",
       "license": "Apache-2.0",
       "created_at": "2026-02-24T22:52:22Z",
-      "pushed_at": "2026-10-09T10:50:13Z",
-      "updated_at": "2026-10-09T11:26:00Z",
+      "pushed_at": "2026-10-09T11:39:25Z",
+      "updated_at": "2026-10-09T11:39:39Z",
       "open_issues": 582,
       "summary": "OpenShell 是 NVIDIA 开源的自主 AI 智能体安全运行时，用 Rust 编写。智能体在读取文件、安装软件包、调用 API 和使用凭据时最有价值，但直接放开权限会带来数据、密钥和网络风险。OpenShell 通过策略声明每个智能体可访问的资源并强制执行：一方面在隔离沙箱中借助内核级控制限制文件访问、系统调用和网络连接，所有出站连接先经策略检查，凭据仅在发往已批准端点时注入，智能体本身接触不到真实密钥；另一方面在策略变更生效前用形式化验证标记新增的高风险访问，例如带凭据访问新主机或调用新 API 方法，等待人工审核。",
       "windows": [
@@ -517,7 +517,7 @@
       ],
       "added_at": "2026-10-09T11:01:04+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 6
+      "seen_count": 7
     },
     {
       "owner": "hydra-db",
@@ -540,7 +540,7 @@
       ],
       "added_at": "2026-10-09T11:01:04+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 6
+      "seen_count": 7
     },
     {
       "owner": "cloudflare",
@@ -563,7 +563,7 @@
       ],
       "added_at": "2026-10-09T11:01:04+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 6
+      "seen_count": 7
     },
     {
       "owner": "Pumpkin-MC",
@@ -586,7 +586,7 @@
       ],
       "added_at": "2026-10-09T11:01:04+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 6
+      "seen_count": 7
     },
     {
       "owner": "storytold",
@@ -595,17 +595,17 @@
       "url": "https://github.com/storytold/artcraft",
       "description": "ArtCraft is an intentional crafting engine for artists, designers, and filmmakers",
       "language": "Rust",
-      "stars": 9644,
-      "forks": 1428,
+      "stars": 9691,
+      "forks": 1432,
       "homepage": "https://getartcraft.com",
       "license": "NOASSERTION",
       "created_at": "2022-03-31T23:19:12Z",
       "pushed_at": "2026-10-07T00:56:15Z",
-      "updated_at": "2026-10-09T11:30:23Z",
+      "updated_at": "2026-10-09T11:49:48Z",
       "open_issues": 79,
       "summary": "ArtCraft 是一个面向艺术家、设计师和电影制作人的交互式 AI 图像与视频创作引擎，用 Rust 编写，定位为“艺术家的 IDE”。它试图解决 AI 生成内容难以精确控制构图、角色一致性和镜头位置的问题，把提示词生成转变为可反复调整的创作流程。核心能力包括在 2D 画布中合成、在 3D 中布置场景，并自由选择适合的模型，通过可视化工具实现精确、可重复的结果。它同时支持快速提示词探索，再借助画布和场景工具细化，并计划加入图像修复与图像素材功能。目前已支持多种模型与提供商，未来还计划集成 Kling、Google、Runway、Luma 以及 OpenArt、Freepik 等聚合服务。",
       "last_seen": "2026-10-09",
-      "seen_count": 9,
+      "seen_count": 10,
       "added_at": "2026-10-09T10:50:39+00:00",
       "windows": [
         "daily"
@@ -618,21 +618,21 @@
       "url": "https://github.com/pacifio/atlas",
       "description": "Source control for agents. Use multiple coding agents, track their changes and query them in one place",
       "language": "Rust",
-      "stars": 9542,
+      "stars": 9544,
       "forks": 368,
       "homepage": "https://www.tryatlas.cc/",
       "license": "Apache-2.0",
       "created_at": "2026-05-14T16:48:52Z",
       "pushed_at": "2026-10-09T09:57:36Z",
-      "updated_at": "2026-10-09T11:27:39Z",
-      "open_issues": 35,
+      "updated_at": "2026-10-09T11:36:13Z",
+      "open_issues": 36,
       "summary": "Atlas 是一款用 Rust 编写的编码智能体源代码管理工具，面向同时使用多个 AI 编码代理的开发者。它要解决的核心问题是：代理每次会话都从零开始，切换代理会丢失上下文，而提示词、工具调用和推理过程往往随终端滚动而消失，最终只剩一条由模型撰写的提交信息。Atlas 为每次代理运行生成检查点，把提交关联回产生它的会话，保留提示、工具调用和文件变更，并支持事后直接与检查点对话。它可并排运行 Claude Code、Codex、Atlas 自带代理以及 ACP 注册表中的其他代理，共享记忆让中途换代理无需重新解释。项目笔记以 Markdown 存放在 .",
       "windows": [
         "monthly"
       ],
       "added_at": "2026-10-09T11:01:04+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 6
+      "seen_count": 7
     },
     {
       "owner": "max-sixty",
@@ -655,7 +655,7 @@
       ],
       "added_at": "2026-10-09T11:01:04+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 6
+      "seen_count": 7
     },
     {
       "owner": "akitaonrails",
@@ -664,17 +664,17 @@
       "url": "https://github.com/akitaonrails/ai-memory",
       "description": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
       "language": "Rust",
-      "stars": 9077,
+      "stars": 9079,
       "forks": 631,
       "homepage": "",
       "license": "MIT",
       "created_at": "2026-05-21T23:23:51Z",
       "pushed_at": "2026-10-09T04:15:29Z",
-      "updated_at": "2026-10-09T10:44:35Z",
+      "updated_at": "2026-10-09T11:41:43Z",
       "open_issues": 5,
       "summary": "ai-memory 是一个用 Rust 编写的长期记忆服务，面向 Claude Code、Codex、Cursor、Gemini CLI 等二十多种 AI 编程代理。它解决的核心问题是：各代理自带的记忆彼此隔离，绑定单一机器与工具，切换代理或设备时上下文丢失，需要反复解释架构、失败尝试和未决问题。ai-memory 让所有代理共享同一份记忆，任务中途退出后换用另一代理可继续接手，交接以类型化、仅可认领一次的协议完成。记忆以 git 托管的普通 Markdown 维基为真实来源，数据库只是可重建的派生索引，无向量库依赖。",
       "last_seen": "2026-10-09",
-      "seen_count": 9,
+      "seen_count": 10,
       "added_at": "2026-10-09T10:50:39+00:00",
       "windows": [
         "monthly"
@@ -701,7 +701,7 @@
       ],
       "added_at": "2026-10-09T11:01:04+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 6
+      "seen_count": 7
     },
     {
       "owner": "alphaXiv",
@@ -724,7 +724,7 @@
       ],
       "added_at": "2026-10-09T11:01:04+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 6
+      "seen_count": 7
     },
     {
       "owner": "xingkongliang",
@@ -747,7 +747,7 @@
       ],
       "added_at": "2026-10-09T11:01:04+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 6
+      "seen_count": 7
     },
     {
       "owner": "zerx-lab",
@@ -756,13 +756,13 @@
       "url": "https://github.com/zerx-lab/FluxDown",
       "description": "Rust 驱动的多协议下载管理器，支持 HTTP/FTP/BitTorrent 磁力链接及 HLS/DASH 流媒体，智能多线程加速与浏览器无缝集成。精美界面，极致性能，永久免费，零广告。",
       "language": "Rust",
-      "stars": 4107,
-      "forks": 240,
+      "stars": 4108,
+      "forks": 241,
       "homepage": "https://fluxdown.zerx.dev",
       "license": "AGPL-3.0",
       "created_at": "2026-07-03T01:00:17Z",
       "pushed_at": "2026-10-09T06:34:52Z",
-      "updated_at": "2026-10-09T11:29:23Z",
+      "updated_at": "2026-10-09T11:31:08Z",
       "open_issues": 428,
       "summary": "FluxDown 是一个用 Rust 编写的多协议下载管理器，定位为免费开源的 IDM 替代品。它基于 Rust 与 Tokio 构建下载引擎，支持 HTTP/HTTPS、FTP、BitTorrent、eD2K 磁力链接以及 HLS、DASH 流媒体，通过自适应分段和慢速分片补救实现动态多线程加速。项目采用单一引擎、多客户端架构：桌面端使用 GPUI，移动端为 Flutter，另有 React Web UI 和 CLI，并提供 Chrome、Edge、Firefox 浏览器扩展与油猴脚本，借助三层拦截引擎接管浏览器下载。",
       "windows": [
@@ -770,7 +770,7 @@
       ],
       "added_at": "2026-10-09T11:01:04+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 6
+      "seen_count": 7
     },
     {
       "owner": "touchHLE",
@@ -793,7 +793,7 @@
       ],
       "added_at": "2026-10-09T11:01:04+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 6
+      "seen_count": 7
     },
     {
       "owner": "martin-olivier",
@@ -853,7 +853,7 @@
       "homepage": "https://zeron.sh",
       "license": "MIT",
       "created_at": "2026-07-20T15:04:04Z",
-      "pushed_at": "2026-10-09T01:07:01Z",
+      "pushed_at": "2026-10-09T11:39:02Z",
       "updated_at": "2026-10-09T11:04:17Z",
       "open_issues": 291,
       "summary": "Zeron 是一个用 Rust 编写的原生控制平面，用于统一管理 Claude Code、Codex、Cursor、Devin、Grok、Hermes、Pi、Antigravity 等编码代理。它默认在本地运行，会话数据保留在用户设备上，无需账号或网络连接，同时提供可选的多设备同步功能。项目提供桌面应用和面向 Linux 的无头命令行版本：桌面端支持 macOS、Windows 和 Linux，可自行更新；无头版适合在 VPS 等无显示器的服务器上以后台服务方式常驻运行，重启后仍能存活。",
@@ -863,7 +863,7 @@
       ],
       "added_at": "2026-10-09T11:01:04+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 6
+      "seen_count": 7
     },
     {
       "owner": "HakanSeven12",
@@ -882,7 +882,7 @@
       "open_issues": 145,
       "summary": "Open CAD Studio 是一个用 Rust 编写的跨平台开源 CAD 应用，面向二维制图与三维建模，桌面版与网页版共享同一套编辑内核。它直接读写 DWG 和 DXF 文件，无需借助转换服务，可解决工程图纸打开、编辑、修复与保存的兼容性问题。核心能力包括：精确的二维绘图工具，如直线、多段线、曲线、样条、填充、对象捕捉、图层、块和外部参照；文字、标注、引线、公差、表格、模型空间、图纸空间、视口与打印样式等文档工具；基于内核的三维实体建模，支持基本体、拉伸、旋转、扫掠、放样、布尔运算和 ACIS 实体细分；通过 wgpu 实现 GPU 加速的正交与透视视口渲染。",
       "last_seen": "2026-10-09",
-      "seen_count": 9,
+      "seen_count": 10,
       "added_at": "2026-10-09T10:50:39+00:00",
       "windows": [
         "monthly"
@@ -895,13 +895,13 @@
       "url": "https://github.com/dmtrKovalenko/fframes",
       "description": "programmatic video rendering framework that is actually fast",
       "language": "Rust",
-      "stars": 2452,
+      "stars": 2453,
       "forks": 56,
       "homepage": "https://fframes.studio/",
       "license": "MIT",
       "created_at": "2021-11-22T14:40:26Z",
       "pushed_at": "2026-10-09T05:38:50Z",
-      "updated_at": "2026-10-09T10:58:23Z",
+      "updated_at": "2026-10-09T11:31:40Z",
       "open_issues": 22,
       "summary": "fframes 是一个用 Rust 编写的程序化视频渲染框架，核心卖点是渲染速度快。它让你用 Rust 代码和 SVG 描述视频内容，由 GPU 完成绘制，Skia 后端在 Metal 或 Vulkan 上运行，比内置 CPU 后端快约十倍；不含表达式的静态标记会在编译期哈希缓存，编码则直接链接 ffmpeg 的 libav 库而非调用外部工具，必要时还能用 SkSL 或 Shadertoy GLSL 着色器补充 SVG 的表现力。",
       "windows": [
@@ -909,7 +909,7 @@
       ],
       "added_at": "2026-10-09T11:01:04+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 6
+      "seen_count": 7
     },
     {
       "owner": "microsoft",
@@ -918,17 +918,17 @@
       "url": "https://github.com/microsoft/mxc",
       "description": "Policy-driven, layered isolation and containment ",
       "language": "Rust",
-      "stars": 2033,
+      "stars": 2039,
       "forks": 112,
       "homepage": "",
       "license": "MIT",
       "created_at": "2026-02-06T20:13:08Z",
       "pushed_at": "2026-10-09T04:18:42Z",
-      "updated_at": "2026-10-09T11:30:05Z",
-      "open_issues": 51,
+      "updated_at": "2026-10-09T11:49:48Z",
+      "open_issues": 52,
       "summary": "Microsoft eXecution Container（MXC）是一个用于在 Windows、Linux 和 macOS 上运行不可信代码的沙箱化执行系统，主要面向模型输出、插件和工具等场景。它通过统一的容器模型和类型化 SDK，把操作系统原生进程沙箱到完整虚拟机等多种隔离后端整合在一起，解决跨平台安全执行不受信任代码的问题。",
       "last_seen": "2026-10-09",
-      "seen_count": 9,
+      "seen_count": 10,
       "added_at": "2026-10-09T10:50:39+00:00",
       "windows": [
         "daily",
@@ -956,7 +956,7 @@
       ],
       "added_at": "2026-10-09T11:01:04+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 6
+      "seen_count": 7
     },
     {
       "owner": "fabio-rovai",
@@ -988,13 +988,13 @@
       "url": "https://github.com/eolix/photosuite",
       "description": "A desktop image editor, faithful to classic Adobe Photoshop, with native PSD/PSB compatibility",
       "language": "Rust",
-      "stars": 974,
+      "stars": 975,
       "forks": 45,
       "homepage": "https://photosuite.app",
       "license": "Apache-2.0",
       "created_at": "2026-04-24T18:56:59Z",
       "pushed_at": "2026-10-09T02:02:45Z",
-      "updated_at": "2026-10-09T10:38:33Z",
+      "updated_at": "2026-10-09T11:34:27Z",
       "open_issues": 23,
       "summary": "PhotoSuite 是一款用 Rust 编写的桌面图像编辑器，目标是忠实复刻经典版 Adobe Photoshop 的界面与操作逻辑，并原生支持 PSD/PSB 格式。它解决的是设计师在无 Adobe 授权情况下仍需编辑 PSD 文件的问题：PSD 是原生格式而非有损导入，图层记录、蒙版、混合模式、图层样式、智能滤镜、文本与矢量路径等可双向往返，在 Photoshop 中打开图层树保持完整。它基于开源引擎 PhotoCraft 构建，界面采用 egui 与 wgpu，支持 Metal、Vulkan、DirectX 12 及 CPU 回退，不使用 Electron 或网页视图。",
       "windows": [
@@ -1002,7 +1002,7 @@
       ],
       "added_at": "2026-10-09T11:01:04+00:00",
       "last_seen": "2026-10-09",
-      "seen_count": 6
+      "seen_count": 7
     },
     {
       "owner": "yuxino",
