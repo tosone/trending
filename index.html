@@ -246,11 +246,34 @@
     $timeline.querySelectorAll('.repo-row').forEach(el =>
       el.setAttribute('aria-current', String(el.dataset.full === full)));
   }
+  /* 平滑滚动：浏览器自带 smooth 的时长不可控、跨卡片时偏慢，这里自己做一段更短的动画
+     （距离越远略长，封顶 300ms）；再次点击或手动滚动都会立刻打断。 */
+  let scrollAnim = 0;
+  const calm = () => matchMedia('(prefers-reduced-motion: reduce)').matches;
+  const stopScroll = () => { cancelAnimationFrame(scrollAnim); scrollAnim = 0; };
+  function scrollReaderTo(top){
+    stopScroll();
+    const to = Math.max(0, Math.min(top, $reader.scrollHeight - $reader.clientHeight));
+    const from = $reader.scrollTop, dist = to - from;
+    if (!dist) return;
+    if (calm()){ $reader.scrollTop = to; return; }
+    const dur = Math.min(300, Math.max(150, 90 + Math.abs(dist) * 0.14));
+    const t0 = performance.now(), ease = t => 1 - (1 - t) ** 3;
+    const step = now => {
+      const t = Math.min(1, (now - t0) / dur);
+      $reader.scrollTop = from + dist * ease(t);
+      scrollAnim = t < 1 ? requestAnimationFrame(step) : 0;
+    };
+    scrollAnim = requestAnimationFrame(step);
+  }
+  $reader.addEventListener('wheel', stopScroll, {passive:true});
+  $reader.addEventListener('touchstart', stopScroll, {passive:true});
   function gotoRepo(full){
     markCurrent(full);
     const card = $reader.querySelector(`.repo-card[data-full="${CSS.escape(full)}"]`);
     if (!card) return;
-    card.scrollIntoView({behavior:'smooth', block:'start'});
+    scrollReaderTo($reader.scrollTop + card.getBoundingClientRect().top
+                   - $reader.getBoundingClientRect().top);
     card.classList.remove('flash'); void card.offsetWidth; card.classList.add('flash');
     document.body.classList.remove('drawer');
   }
@@ -264,6 +287,7 @@
   }
 
   async function showLang(key){
+    stopScroll();
     curLang = key;
     const entry = catalog.languages.find(l => l.key === key);
     setLangFace(entry || {key, label:key, count:0});
