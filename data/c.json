@@ -6,7 +6,7 @@
     "weekly",
     "monthly"
   ],
-  "generated_at": "2026-10-10T10:31:24+00:00",
+  "generated_at": "2026-10-10T10:42:12+00:00",
   "first_at": "2026-10-09T11:22:49+00:00",
   "count": 44,
   "added": 0,
@@ -57,7 +57,7 @@
       ],
       "added_at": "2026-10-09T11:22:49+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 5
+      "seen_count": 6
     },
     {
       "owner": "microsoft",
@@ -80,7 +80,7 @@
       ],
       "added_at": "2026-10-09T11:22:49+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 5
+      "seen_count": 6
     },
     {
       "owner": "obsproject",
@@ -89,13 +89,13 @@
       "url": "https://github.com/obsproject/obs-studio",
       "description": "OBS Studio - Free and open source software for live streaming and screen recording",
       "language": "C",
-      "stars": 77230,
+      "stars": 77231,
       "forks": 10561,
       "homepage": "https://obsproject.com",
       "license": "GPL-2.0",
       "created_at": "2013-10-01T02:40:31Z",
       "pushed_at": "2026-10-10T01:13:10Z",
-      "updated_at": "2026-10-10T09:55:01Z",
+      "updated_at": "2026-10-10T10:38:01Z",
       "open_issues": 1146,
       "summary": "OBS Studio 是一款用 C 语言编写的自由开源软件，专注于视频内容的采集、合成、编码、录制与直播推流。它解决的是将多个视频源实时整合并高效输出到文件或直播平台的需求，常用于游戏直播、屏幕录制、在线教学和会议演示等场景。其核心能力包括多源画面合成、实时编码与推流，并支持通过插件和 API 扩展功能，开发者可参考官方文档进行二次开发。项目提供网站、论坛、Wiki 文档和缺陷追踪等资源，翻译工作通过 Crowdin 协作完成，代码贡献需遵循相应的编码与提交规范。",
       "windows": [
@@ -104,7 +104,7 @@
       ],
       "added_at": "2026-10-09T11:22:49+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 6
+      "seen_count": 7
     },
     {
       "owner": "redis",
@@ -173,7 +173,7 @@
       ],
       "added_at": "2026-10-09T11:22:49+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "curl",
@@ -196,7 +196,7 @@
       ],
       "added_at": "2026-10-09T11:22:49+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "JustVugg",
@@ -205,13 +205,13 @@
       "url": "https://github.com/JustVugg/colibri",
       "description": "Run frontier MoE models on hardware you already own — pure C, zero deps, experts streamed from disk. Tiny engine, immense model. 🐦",
       "language": "C",
-      "stars": 40901,
+      "stars": 40903,
       "forks": 4487,
       "homepage": "https://justvugg.github.io/colibri",
       "license": "Apache-2.0",
       "created_at": "2026-07-01T12:27:49Z",
       "pushed_at": "2026-10-08T18:30:03Z",
-      "updated_at": "2026-10-10T10:24:28Z",
+      "updated_at": "2026-10-10T10:35:14Z",
       "open_issues": 90,
       "summary": "colibri 是一个用纯 C 编写的 MoE 模型推理引擎，目标是让用户在已有硬件上运行前沿规模的专家混合模型。它利用 MoE 模型每个 token 只激活少量专家的特性，将稠密部分常驻内存，把路由专家留在磁盘上按需读取，并通过缓存学习常用专家，从而不必把整个模型塞进显存或内存。项目无需 GPU 也能运行，支持 Vulkan 和 CUDA 加速，每个模型家族对应一个源文件。目前内置十余个引擎，覆盖 GLM、Kimi、DeepSeek、Qwen、OLMoE 等语言模型，以及图像生成和决策类模型。",
       "windows": [
@@ -219,7 +219,7 @@
       ],
       "added_at": "2026-10-09T11:22:49+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "raysan5",
@@ -242,7 +242,7 @@
       ],
       "added_at": "2026-10-09T11:22:49+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "ValdikSS",
@@ -266,7 +266,7 @@
       ],
       "added_at": "2026-10-09T11:22:49+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "xiaojieonly",
@@ -289,7 +289,7 @@
       ],
       "added_at": "2026-10-09T11:22:49+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "libuv",
@@ -312,7 +312,7 @@
       ],
       "added_at": "2026-10-09T11:22:49+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "lvgl",
@@ -335,7 +335,7 @@
       ],
       "added_at": "2026-10-09T11:22:49+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "antirez",
@@ -344,13 +344,13 @@
       "url": "https://github.com/antirez/ds4",
       "description": "DeepSeek 4 Flash and PRO local inference engine for Metal, CUDA and ROCm",
       "language": "C",
-      "stars": 23748,
+      "stars": 23749,
       "forks": 2293,
       "homepage": "",
       "license": "MIT",
       "created_at": "2026-05-06T17:17:05Z",
       "pushed_at": "2026-10-08T07:00:42Z",
-      "updated_at": "2026-10-10T09:10:23Z",
+      "updated_at": "2026-10-10T10:35:37Z",
       "open_issues": 770,
       "summary": "DwarfStar（ds4）是面向消费级硬件的本地大模型推理引擎，用 C 语言编写，重点支持 DeepSeek V4 Flash、V4 PRO、GLM 5.x 及 Qwen3.8 Flash Next 等模型，并非通用 GGUF 运行器，需使用项目自产的 GGUF 文件。它解决在个人可拥有的设备上运行优秀大模型的问题，支持 Metal（96GB 以上 Mac，小内存可 SSD 流式加载）、NVIDIA CUDA（含多卡与 Ada Lovelace）及 Strix Halo 上的 ROCm。",
       "windows": [
@@ -358,7 +358,7 @@
       ],
       "added_at": "2026-10-09T11:22:49+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "DarkFlippers",
@@ -381,7 +381,7 @@
       ],
       "added_at": "2026-10-09T11:22:49+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "systemd",
@@ -404,7 +404,7 @@
       ],
       "added_at": "2026-10-09T11:22:49+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "libsdl-org",
@@ -427,7 +427,7 @@
       ],
       "added_at": "2026-10-09T11:22:49+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 5
+      "seen_count": 6
     },
     {
       "owner": "zephyrproject-rtos",
@@ -450,7 +450,7 @@
       ],
       "added_at": "2026-10-09T11:22:49+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "DaveGamble",
@@ -473,7 +473,7 @@
       ],
       "added_at": "2026-10-09T11:22:49+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "lz4",
@@ -496,7 +496,7 @@
       ],
       "added_at": "2026-10-09T11:22:49+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "containers",
@@ -519,7 +519,7 @@
       ],
       "added_at": "2026-10-09T11:22:49+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "CTCaer",
@@ -542,7 +542,7 @@
       ],
       "added_at": "2026-10-09T11:22:49+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "n64decomp",
@@ -565,7 +565,7 @@
       ],
       "added_at": "2026-10-09T11:22:49+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "EpicGames",
@@ -574,13 +574,13 @@
       "url": "https://github.com/EpicGames/raddebugger",
       "description": "A native, user-mode, multi-process, graphical debugger.",
       "language": "C",
-      "stars": 8301,
+      "stars": 8303,
       "forks": 396,
       "homepage": "",
       "license": "MIT",
       "created_at": "2024-01-10T19:24:08Z",
       "pushed_at": "2026-10-07T20:56:17Z",
-      "updated_at": "2026-10-10T10:23:56Z",
+      "updated_at": "2026-10-10T10:37:48Z",
       "open_issues": 317,
       "summary": "RAD Debugger 是 Epic Games 开源的原生用户态多进程图形调试器，目前仅支持本地 Windows x64 调试与 PDB 符号，未来计划扩展到 Linux 和 DWARF。它处于 ALPHA 阶段，核心目标是解决大型项目调试与链接效率问题：一方面通过自定义 RAD Debug Info（RDI）格式按需转换 PDB，避免原生格式在超大可执行文件下溢出 32 位表；另一方面提供 RAD Linker，命令行兼容 MSVC，面向巨型项目优化，测试中链接时间可快 50%，并支持大内存页进一步提速。项目还包含 radbin 工具用于格式转换与文本转储。",
       "windows": [
@@ -590,7 +590,7 @@
       ],
       "added_at": "2026-10-09T11:22:49+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "moonlight-stream",
@@ -613,7 +613,7 @@
       ],
       "added_at": "2026-10-09T11:22:49+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "hathach",
@@ -636,7 +636,7 @@
       ],
       "added_at": "2026-10-09T11:22:49+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "InterceptSuite",
@@ -659,7 +659,7 @@
       ],
       "added_at": "2026-10-09T11:22:49+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "HarbourMasters",
@@ -682,7 +682,7 @@
       ],
       "added_at": "2026-10-09T11:22:49+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "armory3d",
@@ -705,7 +705,7 @@
       ],
       "added_at": "2026-10-09T11:22:49+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "skeeto",
@@ -728,7 +728,7 @@
       ],
       "added_at": "2026-10-09T11:22:49+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "pret",
@@ -738,7 +738,7 @@
       "description": "Decompilation of Pokémon Emerald",
       "language": "C",
       "stars": 3555,
-      "forks": 4773,
+      "forks": 4774,
       "homepage": "",
       "license": "",
       "created_at": "2015-10-05T10:09:22Z",
@@ -751,7 +751,7 @@
       ],
       "added_at": "2026-10-09T11:22:49+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "stackia",
@@ -774,7 +774,7 @@
       ],
       "added_at": "2026-10-09T11:22:49+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "matz",
@@ -783,21 +783,21 @@
       "url": "https://github.com/matz/spinel",
       "description": "Ruby AOT compiler",
       "language": "C",
-      "stars": 2212,
+      "stars": 2213,
       "forks": 148,
       "homepage": "",
       "license": "MIT",
       "created_at": "2026-03-25T07:29:02Z",
       "pushed_at": "2026-10-10T09:54:00Z",
-      "updated_at": "2026-10-10T09:54:04Z",
-      "open_issues": 29,
+      "updated_at": "2026-10-10T10:31:35Z",
+      "open_issues": 30,
       "summary": "Spinel 是一个用 C 编写的 Ruby AOT 编译器，将 Ruby 源码编译为独立的原生可执行文件。它通过全程序类型推断生成优化后的 C 代码，再调用系统 cc 生成二进制，编译期不需要 Ruby 运行时，也不依赖链式辅助程序。编译器本身是单个自包含的 C 二进制，借助 libprism 解析 Ruby，分析与代码生成在同一进程内共享内存模型，无需序列化。日常接口 spin 类似 cargo 或 mix，可搭建项目、解析依赖、驱动编译并运行测试，依赖以源码树形式编入二进制，不做运行时加载。spinel 命令则适合单文件脚本与实验，支持输出 C 代码、与 CRuby 对比差异。",
       "windows": [
         "weekly"
       ],
       "added_at": "2026-10-09T11:22:49+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "willfaust",
@@ -806,13 +806,13 @@
       "url": "https://github.com/willfaust/Madeira",
       "description": "Run x86-64 Windows PC games on jailed iOS via FEX-Emu + Wine + DXMT",
       "language": "C",
-      "stars": 1918,
+      "stars": 1919,
       "forks": 288,
       "homepage": "",
       "license": "GPL-3.0",
       "created_at": "2026-03-07T17:25:50Z",
       "pushed_at": "2026-10-06T19:31:28Z",
-      "updated_at": "2026-10-10T10:19:29Z",
+      "updated_at": "2026-10-10T10:41:15Z",
       "open_issues": 84,
       "summary": "Madeira 是一个在未越狱 iPhone 上运行 Windows PC 游戏的开源研究项目，基于 FEX-Emu、Wine 和 DXMT 构建，用 C 语言编写。由于 iOS 应用无法启动其他程序，它把 Wine 服务器等组件全部塞进单一进程运行，游戏无需修改即可直接启动。它提供带封面、搜索和 Windows 桌面会话的游戏库，支持登录 Steam 客户端浏览、安装和更新自有游戏，并能在启动和退出时同步 Steam Cloud 存档，冲突时不会静默覆盖。",
       "windows": [
@@ -821,7 +821,7 @@
       ],
       "added_at": "2026-10-09T11:22:49+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "pnggroup",
@@ -844,7 +844,7 @@
       ],
       "added_at": "2026-10-09T11:22:49+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "coop-deluxe",
@@ -868,7 +868,7 @@
       ],
       "added_at": "2026-10-09T11:22:49+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "WeebLabs",
@@ -891,7 +891,7 @@
       ],
       "added_at": "2026-10-09T11:22:49+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "tr4m0ryp",
@@ -900,13 +900,13 @@
       "url": "https://github.com/tr4m0ryp/tr4mpass",
       "description": "Free, open-source iCloud activation lock bypass tool. Remove iCloud lock from iPhone 5s through iPhone 15 Pro (iOS 12-26.1). Fully offline -- no servers, no payments. Supports checkm8 (A5-A11) and session activation (A12+).",
       "language": "C",
-      "stars": 1194,
+      "stars": 1195,
       "forks": 305,
       "homepage": "",
       "license": "",
       "created_at": "2026-04-04T22:44:07Z",
       "pushed_at": "2026-09-19T10:28:02Z",
-      "updated_at": "2026-10-10T05:44:37Z",
+      "updated_at": "2026-10-10T10:39:11Z",
       "open_issues": 94,
       "summary": "tr4mpass 是一款用 C 语言编写的免费开源 iCloud 激活锁绕过工具，可在本地电脑上运行，无需服务器、付费或账号。它支持 iPhone 5s 至 iPhone 15 Pro、iOS 12 至 26.1，提供两条绕过路径：针对 A5 至 A11 芯片的 checkm8 硬件漏洞利用，以及针对 A12 及以后芯片的会话激活方式，后者通过操纵 DFU 模式下的设备身份并借助苹果激活协议改变锁定状态。工具附带脚本可自动安装依赖、构建程序、检测设备并引导进入 DFU 模式，在 macOS、Linux 及 WSL 上均可使用。",
       "windows": [
@@ -914,7 +914,7 @@
       ],
       "added_at": "2026-10-09T11:22:49+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "rexglue",
@@ -938,7 +938,7 @@
       ],
       "added_at": "2026-10-09T11:22:49+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "etaHEN",
@@ -961,7 +961,7 @@
       ],
       "added_at": "2026-10-09T11:22:49+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 5
+      "seen_count": 6
     },
     {
       "owner": "EchoStretch",
@@ -985,7 +985,7 @@
       ],
       "added_at": "2026-10-09T11:22:49+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "FoloToy",
@@ -1008,7 +1008,7 @@
       ],
       "added_at": "2026-10-09T11:22:49+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "itsPLK",
@@ -1018,7 +1018,7 @@
       "description": "A modern, web-based dashboard to easily manage, import, and automatically load payloads on your PS5.",
       "language": "C",
       "stars": 473,
-      "forks": 57,
+      "forks": 58,
       "homepage": "",
       "license": "GPL-3.0",
       "created_at": "2026-04-19T12:45:11Z",
@@ -1031,7 +1031,7 @@
       ],
       "added_at": "2026-10-09T11:22:49+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     }
   ]
 }

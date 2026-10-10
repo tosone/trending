@@ -6,7 +6,7 @@
     "weekly",
     "monthly"
   ],
-  "generated_at": "2026-10-10T10:31:01+00:00",
+  "generated_at": "2026-10-10T10:42:01+00:00",
   "first_at": "2026-10-09T10:50:28+00:00",
   "count": 67,
   "added": 0,
@@ -47,11 +47,11 @@
       "license": "MIT",
       "created_at": "2023-06-26T19:39:32Z",
       "pushed_at": "2026-10-10T07:31:41Z",
-      "updated_at": "2026-10-10T10:20:14Z",
+      "updated_at": "2026-10-10T10:35:21Z",
       "open_issues": 4237,
       "summary": "Ollama 是一个用 Go 语言编写的开源工具，目标是让用户在自己的电脑上快速运行和管理各类开放模型，例如 Kimi、GLM、MiniMax、DeepSeek、gpt-oss、Qwen、Gemma 等。它解决了本地部署大模型时环境配置繁琐、模型管理分散的问题，提供 macOS、Windows、Linux 和 Docker 的安装方式，并内置 REST API 用于运行和管理模型。",
       "last_seen": "2026-10-10",
-      "seen_count": 11,
+      "seen_count": 12,
       "added_at": "2026-10-09T10:50:28+00:00",
       "windows": [
         "daily",
@@ -80,7 +80,7 @@
       ],
       "added_at": "2026-10-09T11:00:35+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 10,
+      "seen_count": 11,
       "pinned": true
     },
     {
@@ -113,13 +113,13 @@
       "url": "https://github.com/microsoft/TypeScript",
       "description": "TypeScript is a superset of JavaScript that compiles to clean JavaScript output.",
       "language": "Go",
-      "stars": 111376,
-      "forks": 16265,
+      "stars": 111375,
+      "forks": 16266,
       "homepage": "https://www.typescriptlang.org",
       "license": "Apache-2.0",
       "created_at": "2014-06-17T15:28:39Z",
       "pushed_at": "2026-10-09T23:51:53Z",
-      "updated_at": "2026-10-10T10:13:30Z",
+      "updated_at": "2026-10-10T10:33:50Z",
       "open_issues": 5095,
       "summary": "TypeScript 是微软推出的 JavaScript 超集，专为构建应用级 JavaScript 而设计。它在 JavaScript 基础上加入可选的类型系统，并配套面向大型 JavaScript 应用的工具支持，可运行于任何浏览器、任何宿主和任何操作系统。其核心能力在于通过类型标注帮助开发者在编码阶段发现错误，并提升代码的可维护性与可读性；编译产物是清晰、符合标准的 JavaScript。它适用于大规模前端与后端 JavaScript 项目，帮助团队在复杂代码库中保持协作效率。",
       "windows": [
@@ -127,7 +127,7 @@
       ],
       "added_at": "2026-10-09T11:00:35+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 9
+      "seen_count": 10
     },
     {
       "owner": "JuliusBrussee",
@@ -137,20 +137,20 @@
       "description": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that cuts 65% of tokens by talking like a caveman.",
       "language": "Go",
       "stars": 110848,
-      "forks": 6423,
+      "forks": 6424,
       "homepage": "https://docs.caveman.so/docs/quickstart",
       "license": "Apache-2.0",
       "created_at": "2026-04-04T10:03:00Z",
       "pushed_at": "2026-10-10T09:56:34Z",
       "updated_at": "2026-10-10T10:18:12Z",
-      "open_issues": 57,
+      "open_issues": 58,
       "summary": "Caveman 是一个用 Go 编写的代理与技能组合，目标是在不改变代码正确性的前提下压缩 AI 编程代理消耗的 token。它针对两类浪费：一是代理输出啰嗦，二是代理读取的日志、测试输出、JSON、网页等内容体积庞大。技能部分只压缩代理的回答，保留否定、路径和数字，在 claude-opus-5-5 上测得中位数再省 3%，激进模式省 35%；代理部分则压缩代理读入的内容，日志、CSV、YAML、JSON 和测试输出可缩小 98.5% 至 99.1%，整段会话输入 token 减少 33.2%，18 道基准题全部答对。",
       "windows": [
         "weekly"
       ],
       "added_at": "2026-10-09T11:00:35+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 8
+      "seen_count": 9
     },
     {
       "owner": "fatedier",
@@ -189,14 +189,14 @@
       "created_at": "2023-12-12T06:13:13Z",
       "pushed_at": "2026-10-10T10:27:30Z",
       "updated_at": "2026-10-10T10:27:35Z",
-      "open_issues": 1357,
+      "open_issues": 1358,
       "summary": "RAGFlow 是一个开源检索增强生成（RAG）引擎，用 Go 语言实现，旨在为大型语言模型构建更优质的上下文层。它主要解决非结构化数据难以被模型有效利用的问题，通过深度文档理解从 Word、Excel、PPT、图片、扫描件、网页等复杂格式中提取知识，并借助模板化分块让切分过程可解释、可干预。其核心能力包括知识编译，可在文档和数据集层面生成 Wiki、图谱、树、思维导图、时间线等结构化知识产物；代理式检索支持多步推理与证据验证，并提供低、中、高、超高四档思考模式控制检索深度；答案附带可追溯引用以减少幻觉。",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-09T11:00:35+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 8
+      "seen_count": 9
     },
     {
       "owner": "gohugoio",
@@ -343,14 +343,14 @@
       "url": "https://github.com/caddyserver/caddy",
       "description": "Fast and extensible multi-platform HTTP/1-2-3 web server with automatic HTTPS",
       "language": "Go",
-      "stars": 77668,
-      "forks": 5108,
+      "stars": 77669,
+      "forks": 5109,
       "homepage": "https://caddyserver.com",
       "license": "Apache-2.0",
       "created_at": "2015-01-13T19:45:03Z",
-      "pushed_at": "2026-10-09T21:22:41Z",
-      "updated_at": "2026-10-10T09:54:24Z",
-      "open_issues": 285,
+      "pushed_at": "2026-10-10T10:40:47Z",
+      "updated_at": "2026-10-10T10:41:21Z",
+      "open_issues": 283,
       "summary": "Caddy 是一个用 Go 编写的可扩展多平台 Web 服务器，默认启用 TLS，支持 HTTP/1.1、HTTP/2 和 HTTP/3。它主要解决 HTTPS 配置繁琐的问题：对公开域名自动通过 Let's Encrypt 和 ZeroSSL 申请并续期证书，对内部名称和 IP 使用本地 CA，还能在多实例间协调并支持多签发者回退，从而在证书或 OCSP 出问题时保持服务可用。配置方式灵活，既可用简洁的 Caddyfile，也可用原生 JSON 配置和 JSON API 动态调整，并支持 YAML、TOML、NGINX 配置等适配器。",
       "windows": [
         "weekly",
@@ -358,7 +358,7 @@
       ],
       "added_at": "2026-10-09T11:00:35+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 9
+      "seen_count": 10
     },
     {
       "owner": "nektos",
@@ -450,7 +450,7 @@
       ],
       "added_at": "2026-10-09T11:00:35+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 9
+      "seen_count": 10
     },
     {
       "owner": "go-gitea",
@@ -466,14 +466,14 @@
       "created_at": "2016-11-01T02:13:26Z",
       "pushed_at": "2026-10-10T07:46:57Z",
       "updated_at": "2026-10-10T10:09:25Z",
-      "open_issues": 2312,
+      "open_issues": 2313,
       "summary": "Gitea 是一款用 Go 语言编写的自托管一体化软件开发服务，目标是以最简单、快速且省心的方式搭建 Git 托管平台。它集成了代码管理、代码审查、议题跟踪、项目看板、Wiki、团队协作、包注册表以及可复用 GitHub Actions 的 CI/CD 功能，解决团队自建开发基础设施时工具分散、部署复杂的问题。由于基于 Go，它可运行在 Linux、macOS、FreeBSD/OpenBSD 和 Windows 上，支持 x86、amd64、ARM、RISC-V 64 与 PowerPC 等架构。用户可通过官方镜像以容器方式部署，或从源码构建后运行 gitea web 启动服务。",
       "windows": [
         "weekly"
       ],
       "added_at": "2026-10-09T11:00:35+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 8
+      "seen_count": 9
     },
     {
       "owner": "multica-ai",
@@ -482,21 +482,21 @@
       "url": "https://github.com/multica-ai/multica",
       "description": "Make humans and AI agents work as one team — open-source and self-hostable.",
       "language": "Go",
-      "stars": 52378,
-      "forks": 6820,
+      "stars": 52380,
+      "forks": 6821,
       "homepage": "https://multica.ai",
       "license": "NOASSERTION",
       "created_at": "2026-01-13T17:59:46Z",
       "pushed_at": "2026-10-10T09:03:32Z",
-      "updated_at": "2026-10-10T10:28:27Z",
-      "open_issues": 1851,
+      "updated_at": "2026-10-10T10:39:51Z",
+      "open_issues": 1852,
       "summary": "Multica 是一个可自托管的工作空间，把 AI 编码代理当作团队成员来分配工作：给代理指派 issue，它会自行接单、在你自己控制的运行时上执行、边做边评论，完成后交回人工审查。它针对的问题是，同时使用 Claude Code、Codex 等多个代理时，每个都困在独立终端里、会话结束即失忆，人不得不反复补充上下文。Multica 不内置模型，而是驱动你已安装并登录的 26 种代理 CLI，切换供应商只是换个下拉选项。",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-09T11:00:35+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 8
+      "seen_count": 9
     },
     {
       "owner": "QuantumNous",
@@ -505,13 +505,13 @@
       "url": "https://github.com/QuantumNous/new-api",
       "description": "A unified AI model hub for aggregation & distribution. It supports cross-converting various LLMs into OpenAI-compatible, Claude-compatible, or Gemini-compatible formats. A centralized gateway for personal and enterprise model management.",
       "language": "Go",
-      "stars": 49614,
+      "stars": 49615,
       "forks": 11925,
       "homepage": "https://www.newapi.ai",
       "license": "AGPL-3.0",
       "created_at": "2023-11-10T19:33:36Z",
       "pushed_at": "2026-10-10T06:07:53Z",
-      "updated_at": "2026-10-10T10:25:00Z",
+      "updated_at": "2026-10-10T10:41:25Z",
       "open_issues": 1371,
       "summary": "New API 是一个用 Go 编写的自托管 AI 网关，面向应用、智能体与团队，用于聚合和分发模型服务。它把 OpenAI、Anthropic、Google Gemini、Azure OpenAI、AWS Bedrock、Vertex AI、DeepSeek、Qwen 等上游服务接入后，对外暴露统一的 API，并在一个控制台内管理路由、访问权限、用量与成本。其核心能力是协议转换，可在 OpenAI、Claude、Gemini 等格式间做请求、响应与流式转换，让客户端无需为更换供应商重复配置。典型场景包括团队内共享授权的模型访问、私有化多模型服务部署，以及跨供应商的用量分析与费用核算。",
       "windows": [
@@ -519,7 +519,7 @@
       ],
       "added_at": "2026-10-09T11:00:35+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 8
+      "seen_count": 9
     },
     {
       "owner": "MHSanaei",
@@ -543,7 +543,7 @@
       ],
       "added_at": "2026-10-09T11:00:35+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 8
+      "seen_count": 9
     },
     {
       "owner": "alibaba",
@@ -552,13 +552,13 @@
       "url": "https://github.com/alibaba/open-code-review",
       "description": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
       "language": "Go",
-      "stars": 45699,
-      "forks": 3298,
+      "stars": 45707,
+      "forks": 3299,
       "homepage": "https://open-codereview.ai",
       "license": "Apache-2.0",
       "created_at": "2026-05-18T02:16:36Z",
       "pushed_at": "2026-10-10T08:37:26Z",
-      "updated_at": "2026-10-10T10:27:43Z",
+      "updated_at": "2026-10-10T10:39:21Z",
       "open_issues": 288,
       "summary": "Open Code Review 是阿里巴巴开源的一款 AI 代码审查命令行工具，由内部官方 AI 代码审查助手孵化而来，使用 Go 语言编写。它读取 Git diff，将变更文件交给可配置的 LLM Agent 审查，生成精确到行的结构化评论，Agent 能读取完整文件、搜索代码库并参考其他变更文件，还支持对整个文件进行扫描审查。",
       "windows": [
@@ -567,7 +567,7 @@
       ],
       "added_at": "2026-10-09T11:00:35+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 8
+      "seen_count": 9
     },
     {
       "owner": "Wei-Shaw",
@@ -576,13 +576,13 @@
       "url": "https://github.com/Wei-Shaw/sub2api",
       "description": "Sub2API 一站式开源中转服务，让 Claude、Openai 、Gemini、Grok订阅统一接入，支持拼车共享，更高效分摊成本，原生工具无缝使用。",
       "language": "Go",
-      "stars": 43626,
+      "stars": 43628,
       "forks": 9362,
       "homepage": "",
       "license": "LGPL-3.0",
       "created_at": "2025-12-18T02:26:18Z",
       "pushed_at": "2026-10-10T08:08:18Z",
-      "updated_at": "2026-10-10T10:18:57Z",
+      "updated_at": "2026-10-10T10:40:17Z",
       "open_issues": 3569,
       "summary": "Sub2API 是一个用 Go 语言编写的 AI API 网关平台，定位为订阅配额分发的一站式开源中转服务。它要解决的问题是：用户手中有 Claude、OpenAI、Gemini、Grok 等多家上游服务的订阅，但各平台接口与配额彼此独立，难以统一调用和分摊成本。该项目通过统一接入这些订阅，让不同来源的模型能力汇聚到同一入口，并支持拼车共享，使多人可以更高效地分摊订阅费用，同时保持原生工具的无缝使用。其核心能力集中在订阅配额的分发与中转上，适合需要同时使用多种主流模型、又希望降低单人成本的小团队或个人开发者。技术栈以 Go 为主，部署后可作为 API 网关对接各类客户端。",
       "windows": [
@@ -590,7 +590,7 @@
       ],
       "added_at": "2026-10-09T11:00:35+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 8
+      "seen_count": 9
     },
     {
       "owner": "XTLS",
@@ -614,7 +614,7 @@
       ],
       "added_at": "2026-10-09T11:00:35+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 8
+      "seen_count": 9
     },
     {
       "owner": "aquasecurity",
@@ -638,7 +638,7 @@
       ],
       "added_at": "2026-10-09T11:00:35+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 8
+      "seen_count": 9
     },
     {
       "owner": "tailscale",
@@ -680,7 +680,7 @@
       "open_issues": 1458,
       "summary": "Vault 是 HashiCorp 用 Go 语言开发的开源工具，用于安全访问密钥，提供密钥管理、加密即服务和特权访问管理能力。它解决的核心问题是：现代系统需要访问数据库凭据、API 密钥、证书等大量敏感信息，而追踪谁访问了什么、实现密钥轮换与安全存储往往依赖平台特定方案，缺少统一且带审计的手段。Vault 提供统一接口，写入持久存储前先加密，并记录详细审计日志。其核心能力包括安全密钥存储、动态密钥生成（如按需为 AWS 或 SQL 数据库创建并到期自动吊销凭据）、数据加解密而不存储数据、租约与续期、以及单条或树状密钥吊销。",
       "last_seen": "2026-10-10",
-      "seen_count": 11,
+      "seen_count": 12,
       "added_at": "2026-10-09T10:50:28+00:00",
       "windows": [
         "daily"
@@ -707,7 +707,7 @@
       ],
       "added_at": "2026-10-09T11:00:35+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 8
+      "seen_count": 9
     },
     {
       "owner": "Tencent",
@@ -716,14 +716,14 @@
       "url": "https://github.com/Tencent/WeKnora",
       "description": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
       "language": "Go",
-      "stars": 32977,
+      "stars": 32978,
       "forks": 4388,
       "homepage": "https://weknora.weixin.qq.com",
       "license": "NOASSERTION",
       "created_at": "2025-07-22T08:01:23Z",
-      "pushed_at": "2026-10-10T09:45:19Z",
-      "updated_at": "2026-10-10T10:30:46Z",
-      "open_issues": 614,
+      "pushed_at": "2026-10-10T10:36:05Z",
+      "updated_at": "2026-10-10T10:36:10Z",
+      "open_issues": 615,
       "summary": "WeKnora 是腾讯开源、用 Go 编写的 LLM 知识平台，面向企业文档理解、语义检索与推理，把团队散落的文档汇聚成可查询、可推理并持续更新的知识库。它提供三种协同模式：用 RAG 做快速问答并标注来源，用智能体完成多步任务，用自动 Wiki 将文档中的人、产品与概念整理成带引用的页面，三者共享同一知识库。智能体可安装技能并在 Docker、E2B、Cube 沙箱中运行，通过 BrowserSkill 操作用户本机浏览器，也能接入外部 MCP 服务。",
       "windows": [
         "daily",
@@ -731,7 +731,7 @@
       ],
       "added_at": "2026-10-09T11:00:35+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 8
+      "seen_count": 9
     },
     {
       "owner": "gitleaks",
@@ -763,13 +763,13 @@
       "url": "https://github.com/trufflesecurity/trufflehog",
       "description": "Find, verify, and analyze leaked credentials",
       "language": "Go",
-      "stars": 28406,
+      "stars": 28407,
       "forks": 2627,
       "homepage": "https://trufflesecurity.com",
       "license": "AGPL-3.0",
       "created_at": "2016-12-31T05:08:12Z",
       "pushed_at": "2026-10-09T20:20:15Z",
-      "updated_at": "2026-10-10T05:14:51Z",
+      "updated_at": "2026-10-10T10:37:15Z",
       "open_issues": 560,
       "summary": "TruffleHog 是一款用 Go 编写的开源凭据泄露扫描工具，用于发现、分类、验证和分析泄露的密钥。它解决的痛点是：代码仓库、聊天记录、日志、对象存储等位置常残留 API 密钥、数据库密码和私钥，仅凭肉眼难以识别，且无法判断其是否仍然有效。其核心能力包括：在 Git、S3、GCS、Docker 镜像、Jenkins、Elasticsearch、Postman、Hugging Face 等多种来源中搜索密钥；对超过 800 种密钥类型进行分类；通过实际登录确认密钥是否仍然有效；并对常见泄露类型做权限与资源分析。",
       "windows": [
@@ -778,7 +778,7 @@
       ],
       "added_at": "2026-10-09T11:00:35+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 8
+      "seen_count": 9
     },
     {
       "owner": "vxcontrol",
@@ -802,7 +802,7 @@
       ],
       "added_at": "2026-10-09T11:00:35+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 8
+      "seen_count": 9
     },
     {
       "owner": "argoproj",
@@ -848,7 +848,7 @@
       ],
       "added_at": "2026-10-09T11:00:35+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 8
+      "seen_count": 9
     },
     {
       "owner": "navidrome",
@@ -867,7 +867,7 @@
       "open_issues": 297,
       "summary": "Navidrome 是一个用 Go 编写的开源音乐收藏服务器与流媒体服务，让你通过任意浏览器或移动设备访问自己的音乐库，相当于搭建私有的流媒体平台。它主要解决个人音乐收藏难以跨设备随时随地收听的问题，可处理超大音乐库，支持几乎所有音频格式，并能读取和利用已有的元数据，对合辑与多碟套装也有良好支持。它支持多用户，每位用户拥有独立的播放次数、播放列表和收藏；资源占用低，可运行在 macOS、Linux、Windows 及树莓派上，也提供 Docker 镜像。",
       "last_seen": "2026-10-10",
-      "seen_count": 11,
+      "seen_count": 12,
       "added_at": "2026-10-09T10:50:28+00:00",
       "windows": [
         "monthly"
@@ -894,7 +894,7 @@
       ],
       "added_at": "2026-10-09T11:00:35+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 8
+      "seen_count": 9
     },
     {
       "owner": "qax-os",
@@ -917,7 +917,7 @@
       ],
       "added_at": "2026-10-09T11:00:35+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 8
+      "seen_count": 9
     },
     {
       "owner": "google",
@@ -931,7 +931,7 @@
       "homepage": "https://gvisor.dev",
       "license": "Apache-2.0",
       "created_at": "2018-04-26T21:28:49Z",
-      "pushed_at": "2026-10-10T09:39:26Z",
+      "pushed_at": "2026-10-10T10:33:20Z",
       "updated_at": "2026-10-10T09:32:12Z",
       "open_issues": 923,
       "summary": "gVisor 是 Google 开源的容器应用内核，用 Go 语言编写并在用户态运行，为容器提供类似 Linux 的接口。它要解决的核心问题是：容器本身并非安全沙箱，共享内核意味着单个漏洞就可能导致容器逃逸，因此直接用容器运行不可信代码存在风险。gVisor 在应用与宿主内核之间加入一层隔离，限制应用可访问的宿主内核面，同时仍提供应用所需的全部功能。它既不是 seccomp-bpf 这类系统调用过滤器，也不是对 Linux 隔离原语的封装，更不是传统虚拟机，而是取二者之间的第三条路径，兼具虚拟机的安全收益与普通用户态应用的低资源占用、快速启动和灵活性。",
@@ -940,7 +940,7 @@
       ],
       "added_at": "2026-10-09T11:00:35+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 8
+      "seen_count": 9
     },
     {
       "owner": "coder",
@@ -963,7 +963,7 @@
       ],
       "added_at": "2026-10-09T11:00:35+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 8
+      "seen_count": 9
     },
     {
       "owner": "oauth2-proxy",
@@ -986,7 +986,7 @@
       ],
       "added_at": "2026-10-09T11:00:35+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 8
+      "seen_count": 9
     },
     {
       "owner": "fish2018",
@@ -1009,7 +1009,7 @@
       ],
       "added_at": "2026-10-09T11:00:35+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 8
+      "seen_count": 9
     },
     {
       "owner": "TencentCloud",
@@ -1032,7 +1032,7 @@
       ],
       "added_at": "2026-10-09T11:00:35+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 8
+      "seen_count": 9
     },
     {
       "owner": "go-acme",
@@ -1101,7 +1101,7 @@
       ],
       "added_at": "2026-10-09T11:00:35+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 8
+      "seen_count": 9
     },
     {
       "owner": "openbao",
@@ -1124,7 +1124,7 @@
       ],
       "added_at": "2026-10-09T11:00:35+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 8
+      "seen_count": 9
     },
     {
       "owner": "kyverno",
@@ -1170,7 +1170,7 @@
       ],
       "added_at": "2026-10-09T11:00:35+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 8
+      "seen_count": 9
     },
     {
       "owner": "Gentleman-Programming",
@@ -1193,7 +1193,7 @@
       ],
       "added_at": "2026-10-09T11:00:35+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 8
+      "seen_count": 9
     },
     {
       "owner": "external-secrets",
@@ -1225,13 +1225,13 @@
       "url": "https://github.com/lharries/whatsapp-mcp",
       "description": "WhatsApp MCP server",
       "language": "Go",
-      "stars": 6463,
+      "stars": 6464,
       "forks": 1374,
       "homepage": "https://x.com/LukeHarries_/status/1905986562388635913",
       "license": "MIT",
       "created_at": "2025-03-29T12:49:33Z",
       "pushed_at": "2025-07-13T17:22:00Z",
-      "updated_at": "2026-10-10T09:25:20Z",
+      "updated_at": "2026-10-10T10:37:52Z",
       "open_issues": 252,
       "summary": "WhatsApp MCP Server 是一个基于 Model Context Protocol 的服务器，让 Claude 等 LLM 能直接访问和操作用户的个人 WhatsApp 数据。它通过 whatsmeow 库连接 WhatsApp Web 多设备 API，将消息、联系人等数据存储在本地 SQLite 数据库中，仅在代理调用工具时才发送给模型，用户可自行控制。",
       "windows": [
@@ -1239,7 +1239,7 @@
       ],
       "added_at": "2026-10-09T11:00:35+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 8
+      "seen_count": 9
     },
     {
       "owner": "asciimoo",
@@ -1262,7 +1262,7 @@
       ],
       "added_at": "2026-10-09T11:00:35+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 8
+      "seen_count": 9
     },
     {
       "owner": "Gaurav-Gosain",
@@ -1286,7 +1286,7 @@
       ],
       "added_at": "2026-10-09T11:00:35+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 8
+      "seen_count": 9
     },
     {
       "owner": "open-telemetry",
@@ -1318,13 +1318,13 @@
       "url": "https://github.com/agent-substrate/substrate",
       "description": "Agent Substrate: the core system",
       "language": "Go",
-      "stars": 4743,
+      "stars": 4746,
       "forks": 537,
       "homepage": "",
       "license": "Apache-2.0",
       "created_at": "2026-05-13T19:02:38Z",
       "pushed_at": "2026-10-10T05:50:09Z",
-      "updated_at": "2026-10-10T10:21:40Z",
+      "updated_at": "2026-10-10T10:39:45Z",
       "open_issues": 726,
       "summary": "Agent Substrate 是一个用 Go 编写的、默认安全的智能体运行运行时，目标是在 Kubernetes 上运行数百万个沙箱。它针对自主智能体场景设计，通过将大量多数时间处于空闲状态的“actor”（如智能体应用）映射到少量就绪的“worker”上，实现高密度多路复用，官方称其密度可达标准容器运行时的十倍，并支持亚 500 毫秒恢复、每秒 500 次以上的挂起/恢复，以及零信任的内核与网络隔离。",
       "windows": [
@@ -1332,7 +1332,7 @@
       ],
       "added_at": "2026-10-09T11:00:35+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 8
+      "seen_count": 9
     },
     {
       "owner": "docker",
@@ -1351,7 +1351,7 @@
       "open_issues": 46,
       "summary": "docker-agent 是 Docker Engineering 开源的一款 AI 智能体构建与运行工具，以 Go 语言编写，并作为 Docker CLI 插件集成，可通过 docker agent 命令直接调用。它面向希望以低代码方式搭建 AI 智能体的开发者，核心思路是用声明式 YAML 配置定义智能体，无需编写代码即可赋予其工具能力并投入运行。",
       "last_seen": "2026-10-10",
-      "seen_count": 11,
+      "seen_count": 12,
       "added_at": "2026-10-09T10:50:28+00:00",
       "windows": [
         "daily",
@@ -1379,7 +1379,7 @@
       ],
       "added_at": "2026-10-09T11:00:35+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 8
+      "seen_count": 9
     },
     {
       "owner": "slavakurilyak",
@@ -1402,7 +1402,7 @@
       ],
       "added_at": "2026-10-09T11:00:35+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 8
+      "seen_count": 9
     },
     {
       "owner": "stacklok",
@@ -1448,7 +1448,7 @@
       ],
       "added_at": "2026-10-09T11:00:35+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 8
+      "seen_count": 9
     },
     {
       "owner": "e2b-dev",
@@ -1471,7 +1471,7 @@
       ],
       "added_at": "2026-10-09T11:00:35+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 9
+      "seen_count": 10
     },
     {
       "owner": "kai-scheduler",
@@ -1503,13 +1503,13 @@
       "url": "https://github.com/ys-ll/uniterm",
       "description": "All-in-one terminal covering 30+ protocols — SSH, RDP, SFTP, databases, Kubernetes and more. With a built-in AI Agent that runs multi-turn shell commands autonomously.",
       "language": "Go",
-      "stars": 807,
+      "stars": 808,
       "forks": 121,
       "homepage": "https://uniterm.net",
       "license": "Apache-2.0",
       "created_at": "2026-05-11T10:59:23Z",
       "pushed_at": "2026-10-10T09:15:45Z",
-      "updated_at": "2026-10-10T10:18:29Z",
+      "updated_at": "2026-10-10T10:38:55Z",
       "open_issues": 46,
       "summary": "uniTerm 是一款用 Go 编写的开源一体化终端工具，将 30 多种协议整合到同一界面，涵盖 SSH、Telnet、Mosh、RDP、VNC、SPICE、SFTP、SCP、FTP、SMB、WebDAV、S3 等远程访问方式，并支持 MySQL、PostgreSQL、Oracle、Redis、MongoDB 等数据库客户端，以及 Kubernetes、Docker、Podman 等容器管理。它解决的是运维和开发人员需要在多个工具间反复切换的问题，把远程终端、文件传输、远程桌面、数据库操作和服务器监控集中在一起。",
       "windows": [
@@ -1517,7 +1517,7 @@
       ],
       "added_at": "2026-10-09T11:00:35+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 8
+      "seen_count": 9
     },
     {
       "owner": "llm-d",
@@ -1564,7 +1564,7 @@
       ],
       "added_at": "2026-10-09T11:00:35+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 9
+      "seen_count": 10
     }
   ]
 }

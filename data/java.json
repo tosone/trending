@@ -6,7 +6,7 @@
     "weekly",
     "monthly"
   ],
-  "generated_at": "2026-10-10T10:30:50+00:00",
+  "generated_at": "2026-10-10T10:41:55+00:00",
   "first_at": "2026-10-09T11:22:02+00:00",
   "count": 49,
   "added": 0,
@@ -87,13 +87,13 @@
       "url": "https://github.com/NationalSecurityAgency/ghidra",
       "description": "Ghidra is a software reverse engineering (SRE) framework",
       "language": "Java",
-      "stars": 82398,
-      "forks": 9154,
+      "stars": 82405,
+      "forks": 9155,
       "homepage": "",
       "license": "Apache-2.0",
       "created_at": "2019-03-01T03:27:48Z",
       "pushed_at": "2026-10-09T10:30:16Z",
-      "updated_at": "2026-10-10T10:28:02Z",
+      "updated_at": "2026-10-10T10:37:22Z",
       "open_issues": 1989,
       "summary": "Ghidra 是由美国国家安全局研究理事会创建并维护的软件逆向工程框架，采用 Java 编写。它面向复杂逆向工程中的规模化与团队协作问题，提供可定制、可扩展的分析平台。其核心能力包括反汇编、汇编、反编译、图形化展示和脚本编写，支持多种处理器指令集与可执行格式，并可在交互与自动化两种模式下运行。用户能使用 Java 或 Python 开发自定义扩展组件和脚本。该框架可在 Windows、macOS 和 Linux 上运行，常用于分析恶意代码、挖掘网络与系统潜在漏洞。",
       "windows": [
@@ -103,7 +103,7 @@
       ],
       "added_at": "2026-10-09T11:22:02+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 5
+      "seen_count": 6
     },
     {
       "owner": "spring-projects",
@@ -113,7 +113,7 @@
       "description": "Spring Boot helps you to create Spring-powered, production-grade applications and services with absolute minimum fuss.",
       "language": "Java",
       "stars": 81583,
-      "forks": 44459,
+      "forks": 44461,
       "homepage": "https://spring.io/projects/spring-boot",
       "license": "Apache-2.0",
       "created_at": "2012-10-19T15:02:57Z",
@@ -127,7 +127,7 @@
       ],
       "added_at": "2026-10-09T11:22:02+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 5
+      "seen_count": 6
     },
     {
       "owner": "doocs",
@@ -166,14 +166,14 @@
       "created_at": "2010-02-08T13:20:56Z",
       "pushed_at": "2026-10-10T10:07:19Z",
       "updated_at": "2026-10-10T09:47:37Z",
-      "open_issues": 6168,
+      "open_issues": 6167,
       "summary": "Elasticsearch 是一个用 Java 编写的分布式搜索与分析引擎，同时也可作为可扩展的数据存储和向量数据库，针对生产级工作负载的速度与相关性进行了优化。它基于 RESTful 接口，支持通过任意 HTTP 客户端或官方语言客户端（如 Python）发送请求，数据以 JSON 文档形式索引，可近实时地搜索海量数据集。其核心能力包括全文检索、向量搜索、日志与指标处理、应用性能监控和安全日志分析，并可与生成式 AI 应用集成，支持检索增强生成等场景。",
       "windows": [
         "monthly"
       ],
       "added_at": "2026-10-09T11:22:02+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 5
+      "seen_count": 6
     },
     {
       "owner": "MisterBooo",
@@ -266,7 +266,7 @@
       ],
       "added_at": "2026-10-09T11:22:02+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "jeecgboot",
@@ -289,7 +289,7 @@
       ],
       "added_at": "2026-10-09T11:22:02+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "TeamNewPipe",
@@ -312,7 +312,7 @@
       ],
       "added_at": "2026-10-09T11:22:02+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 5
+      "seen_count": 6
     },
     {
       "owner": "YunaiV",
@@ -335,7 +335,7 @@
       ],
       "added_at": "2026-10-09T11:22:02+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "keycloak",
@@ -359,7 +359,7 @@
       ],
       "added_at": "2026-10-09T11:22:02+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 5
+      "seen_count": 6
     },
     {
       "owner": "apache",
@@ -382,7 +382,7 @@
       ],
       "added_at": "2026-10-09T11:22:02+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "xuxueli",
@@ -405,7 +405,7 @@
       ],
       "added_at": "2026-10-09T11:22:02+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "DrKLO",
@@ -428,7 +428,7 @@
       ],
       "added_at": "2026-10-09T11:22:02+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 5
+      "seen_count": 6
     },
     {
       "owner": "kestra-io",
@@ -452,7 +452,7 @@
       ],
       "added_at": "2026-10-09T11:22:02+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "Anuken",
@@ -475,7 +475,7 @@
       ],
       "added_at": "2026-10-09T11:22:02+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "OtterMind",
@@ -498,7 +498,7 @@
       ],
       "added_at": "2026-10-09T11:22:02+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "ashishps1",
@@ -508,7 +508,7 @@
       "description": "Learn Low Level Design (LLD) and prepare for interviews using free resources.",
       "language": "Java",
       "stars": 27309,
-      "forks": 6595,
+      "forks": 6596,
       "homepage": "https://algomaster.io",
       "license": "GPL-3.0",
       "created_at": "2023-11-17T10:15:12Z",
@@ -521,7 +521,7 @@
       ],
       "added_at": "2026-10-09T11:22:02+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "apache",
@@ -535,16 +535,16 @@
       "homepage": "https://doris.apache.org",
       "license": "Apache-2.0",
       "created_at": "2017-08-10T12:13:30Z",
-      "pushed_at": "2026-10-10T10:19:20Z",
-      "updated_at": "2026-10-10T10:12:55Z",
-      "open_issues": 1345,
+      "pushed_at": "2026-10-10T10:41:33Z",
+      "updated_at": "2026-10-10T10:41:38Z",
+      "open_issues": 1344,
       "summary": "Apache Doris 是一款基于 MPP 架构的开源实时分析与搜索数据库，主要使用 Java 语言开发，并于 2022 年 6 月从 Apache 孵化器毕业成为顶级项目。它面向需要快速查询与统一检索的场景，解决结构化数据分析、湖仓查询加速以及跨文本和向量数据的混合搜索问题。其核心能力集中在实时分析、湖仓查询加速和混合搜索三方面，支持标准 SQL 分析，可同时处理结构化、文本与向量数据。部署上既支持存算一体，也支持存算分离，分离模式下无状态计算组运行在共享对象存储之上，便于按需扩展计算并隔离工作负载。",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-09T11:22:02+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "quarkusio",
@@ -567,7 +567,7 @@
       ],
       "added_at": "2026-10-09T11:22:02+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "LawnchairLauncher",
@@ -590,7 +590,7 @@
       ],
       "added_at": "2026-10-09T11:22:02+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "langchain4j",
@@ -613,7 +613,7 @@
       ],
       "added_at": "2026-10-09T11:22:02+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "ZCShou",
@@ -636,7 +636,7 @@
       ],
       "added_at": "2026-10-09T11:22:02+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 5
+      "seen_count": 6
     },
     {
       "owner": "alibaba",
@@ -645,13 +645,13 @@
       "url": "https://github.com/alibaba/spring-ai-alibaba",
       "description": "Agentic AI Framework for Java Developers",
       "language": "Java",
-      "stars": 10990,
+      "stars": 10991,
       "forks": 2441,
       "homepage": "https://java2ai.com",
       "license": "Apache-2.0",
       "created_at": "2024-09-09T01:35:50Z",
       "pushed_at": "2026-10-07T13:48:56Z",
-      "updated_at": "2026-10-10T09:50:03Z",
+      "updated_at": "2026-10-10T10:31:30Z",
       "open_issues": 162,
       "summary": "Spring AI Alibaba 是面向 Java 开发者的 Agentic AI 框架，用于构建智能体、工作流与多智能体应用。它基于 Spring AI 生态，提供 Agent Framework、Graph 运行时与一站式 Admin 平台三层结构：Agent Framework 内置上下文工程与 Human In The Loop，并支持 SequentialAgent、ParallelAgent、RoutingAgent、LoopAgent 等编排模式；Graph 作为底层运行时，负责持久化、工作流编排与流式输出，支持条件路由、嵌套图、并行执行与状态管理，并可导出 PlantUML。",
       "windows": [
@@ -659,7 +659,7 @@
       ],
       "added_at": "2026-10-09T11:22:02+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "LaurieWired",
@@ -683,7 +683,7 @@
       ],
       "added_at": "2026-10-09T11:22:02+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "apache",
@@ -706,7 +706,7 @@
       ],
       "added_at": "2026-10-09T11:22:02+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "Suwayomi",
@@ -729,7 +729,7 @@
       ],
       "added_at": "2026-10-09T11:22:02+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "zhukunpenglinyutong",
@@ -738,13 +738,13 @@
       "url": "https://github.com/zhukunpenglinyutong/jetbrains-cc-gui",
       "description": "Jetbrains Claude Code and Codex GUI Plugin",
       "language": "Java",
-      "stars": 6899,
+      "stars": 6900,
       "forks": 672,
       "homepage": "https://plugins.jetbrains.com/plugin/29342-cc-gui-claude-or-codex-",
       "license": "MIT",
       "created_at": "2025-11-20T03:41:05Z",
       "pushed_at": "2026-10-10T04:59:45Z",
-      "updated_at": "2026-10-10T09:31:28Z",
+      "updated_at": "2026-10-10T10:41:08Z",
       "open_issues": 532,
       "summary": "CC GUI 是一款基于 Java 开发的 IntelliJ IDEA 插件，原名 Claude Code GUI，为 Claude Code、OpenAI Codex 等 AI 编程命令行工具提供可视化界面，解决在 IDE 内直接调用 AI 编码助手时交互不便的问题。插件支持 Claude Code、OpenAI Codex，以及 Grok CLI、Kimi CLI、OpenCode、PI CLI、OMP CLI、DeepSeek Harness 等多个处于测试阶段的引擎。",
       "windows": [
@@ -752,7 +752,7 @@
       ],
       "added_at": "2026-10-09T11:22:02+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "TGX-Android",
@@ -776,7 +776,7 @@
       ],
       "added_at": "2026-10-09T11:22:02+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 5
+      "seen_count": 6
     },
     {
       "owner": "GeyserMC",
@@ -800,7 +800,7 @@
       ],
       "added_at": "2026-10-09T11:22:02+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "bethington",
@@ -809,13 +809,13 @@
       "url": "https://github.com/bethington/ghidra-mcp",
       "description": "Ghidra MCP Server — 200+ MCP tools for AI-powered reverse engineering. GUI plugin + headless server, lazy tool loading, convention enforcement, batch operations, Ghidra Server integration, and Docker deployment.",
       "language": "Java",
-      "stars": 5246,
-      "forks": 266,
+      "stars": 5249,
+      "forks": 267,
       "homepage": "",
       "license": "Apache-2.0",
       "created_at": "2025-08-30T06:40:03Z",
       "pushed_at": "2026-10-09T17:40:39Z",
-      "updated_at": "2026-10-10T10:29:42Z",
+      "updated_at": "2026-10-10T10:41:10Z",
       "open_issues": 30,
       "summary": "Ghidra MCP Server 是一个基于 Java 开发的生产级 Model Context Protocol 服务器，用于把 Ghidra 的反向工程能力接入 AI 工具与自动化框架。它针对多数同类实现只提供少量只读工具的问题，提供 209 个 MCP 工具，覆盖反编译、调用图、交叉引用、P-code 图数据流分析、结构体与枚举创建、字符串提取、导入导出分析、内存检查，以及重命名、注释、类型标注等写操作。",
       "windows": [
@@ -825,7 +825,7 @@
       ],
       "added_at": "2026-10-09T11:22:02+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "FCL-Team",
@@ -848,7 +848,7 @@
       ],
       "added_at": "2026-10-09T11:22:02+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "RikkaApps",
@@ -871,7 +871,7 @@
       ],
       "added_at": "2026-10-09T11:22:02+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "nageoffer",
@@ -894,7 +894,7 @@
       ],
       "added_at": "2026-10-09T11:22:02+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "MeteorDevelopment",
@@ -917,7 +917,7 @@
       ],
       "added_at": "2026-10-09T11:22:02+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 5
+      "seen_count": 6
     },
     {
       "owner": "apache",
@@ -940,7 +940,7 @@
       ],
       "added_at": "2026-10-09T11:22:02+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "AndroidIDEOfficial",
@@ -964,7 +964,7 @@
       ],
       "added_at": "2026-10-09T11:22:02+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "shmykelsa",
@@ -987,7 +987,7 @@
       ],
       "added_at": "2026-10-09T11:22:02+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "sepinf-inc",
@@ -1010,7 +1010,7 @@
       ],
       "added_at": "2026-10-09T11:22:02+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "zalexdev",
@@ -1033,7 +1033,7 @@
       ],
       "added_at": "2026-10-09T11:22:02+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "AndreyPavlenko",
@@ -1056,7 +1056,7 @@
       ],
       "added_at": "2026-10-09T11:22:02+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "MCRcortex",
@@ -1080,7 +1080,7 @@
       ],
       "added_at": "2026-10-09T11:22:02+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "Keeperorowner",
@@ -1103,7 +1103,7 @@
       ],
       "added_at": "2026-10-09T11:22:02+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "yash-srivastava",
@@ -1126,7 +1126,7 @@
       ],
       "added_at": "2026-10-09T11:22:02+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "Leclowndu93150",
@@ -1149,7 +1149,7 @@
       ],
       "added_at": "2026-10-09T11:22:02+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     }
   ]
 }

@@ -6,7 +6,7 @@
     "weekly",
     "monthly"
   ],
-  "generated_at": "2026-10-10T10:32:32+00:00",
+  "generated_at": "2026-10-10T10:42:19+00:00",
   "first_at": "2026-10-09T10:50:04+00:00",
   "count": 543,
   "repos": [
@@ -92,14 +92,14 @@
       "homepage": "https://openclaw.ai",
       "license": "MIT",
       "created_at": "2025-11-24T10:16:47Z",
-      "pushed_at": "2026-10-10T10:30:20Z",
-      "updated_at": "2026-10-10T10:28:35Z",
-      "open_issues": 9410,
+      "pushed_at": "2026-10-10T10:41:23Z",
+      "updated_at": "2026-10-10T10:40:13Z",
+      "open_issues": 9413,
       "summary": "OpenClaw 是一个用 TypeScript 编写的开源 AI 助手，运行在用户自己的电脑上，并接入 Discord、iMessage、Slack、Teams、Telegram、WhatsApp 等二十多个聊天渠道，同时提供 macOS、iOS、Android、Windows 和 Linux 原生应用。它通过一个本地 Gateway 统一管理会话、工具、事件与渠道连接，既可作个人助手，也可作团队共享部署，差别仅在配置。其状态、记忆和凭据都保存在本地硬件上，模型与代理框架（如 Claude、Codex、本地模型）以插件形式存在，可随时替换。",
       "windows": [],
       "added_at": "2026-10-09T11:29:55+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 3
+      "seen_count": 4
     },
     {
       "owner": "donnemartin",
@@ -246,13 +246,13 @@
       "url": "https://github.com/mattpocock/skills",
       "description": "Skills for Real Engineers. Straight from my .agents directory.",
       "language": "Shell",
-      "stars": 283501,
+      "stars": 283516,
       "forks": 23745,
       "homepage": "https://aihero.dev/skills",
       "license": "MIT",
       "created_at": "2026-02-03T11:15:53Z",
       "pushed_at": "2026-10-09T10:57:08Z",
-      "updated_at": "2026-10-10T10:31:12Z",
+      "updated_at": "2026-10-10T10:41:51Z",
       "open_issues": 163,
       "summary": "面向真实工程而非“氛围编程”的 AI 代理技能集，来自作者日常使用的 .agents 目录，以 Shell 编写。它针对四类常见失败：需求错位、代理输出冗长、代码不可用、代码库退化为泥球。核心做法是用 /grill-me 和 /grill-with-docs 在动手前对齐意图并建立共享语言与 ADR，用 /tdd 的 red-green-refactor 循环和 /diagnosing-bugs 的诊断回路补齐反馈，用 /to-spec、/to-tickets、/implement 等把对话转成规格与工单并驱动实现，用 /improve-codebase-architecture 定期扫描深。",
       "windows": [
@@ -261,7 +261,7 @@
       ],
       "added_at": "2026-10-09T11:23:29+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 5
+      "seen_count": 6
     },
     {
       "owner": "996icu",
@@ -293,13 +293,13 @@
       "url": "https://github.com/affaan-m/ECC",
       "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
       "language": "JavaScript",
-      "stars": 276191,
-      "forks": 41206,
+      "stars": 276199,
+      "forks": 41205,
       "homepage": "https://ecc.tools",
       "license": "MIT",
       "created_at": "2026-01-18T00:51:51Z",
       "pushed_at": "2026-10-10T01:41:12Z",
-      "updated_at": "2026-10-10T10:28:24Z",
+      "updated_at": "2026-10-10T10:41:16Z",
       "open_issues": 227,
       "summary": "ECC 是一套面向 AI 编码代理的运行框架性能优化系统，主要用 JavaScript 编写，为 Claude Code、Codex、Cursor、Opencode 等工具提供技能、本能、记忆、安全与调研优先的开发能力。它要解决的问题是：代理虽然能写代码，却缺少一套协调的工程流程，用户往往需要在每次提示中重复搭建规划、验证、审查和记忆机制。ECC 把这些流程一次性安装好，让代理在构建前先规划，用测试验证改动，从全新上下文审查自身工作，记住关键信息，并把重复的成功经验沉淀为可复用的技能和工作流。",
       "windows": [
@@ -307,7 +307,7 @@
       ],
       "added_at": "2026-10-09T10:59:47+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 9
+      "seen_count": 10
     },
     {
       "owner": "NousResearch",
@@ -316,20 +316,20 @@
       "url": "https://github.com/NousResearch/hermes-agent",
       "description": "The agent that grows with you",
       "language": "Python",
-      "stars": 252397,
-      "forks": 54539,
+      "stars": 252399,
+      "forks": 54541,
       "pinned": true,
       "homepage": "https://hermes-agent.nousresearch.com",
       "license": "MIT",
       "created_at": "2025-07-22T22:22:28Z",
       "pushed_at": "2026-10-10T10:23:30Z",
-      "updated_at": "2026-10-10T10:28:51Z",
-      "open_issues": 47687,
+      "updated_at": "2026-10-10T10:41:40Z",
+      "open_issues": 47691,
       "summary": "Hermes Agent 是 Nous Research 用 Python 开发的自改进 AI 智能体，主打随使用不断成长。它内置学习闭环：能从经验中自动创建技能并在使用中持续改进，主动提醒自己沉淀知识，检索历史会话，并借助 Honcho 辩证式用户建模跨会话加深对你的理解。它不绑定本地电脑，可跑在 5 美元 VPS、GPU 集群或空闲时近乎零成本的 Serverless 环境上，支持本地、Docker、SSH、Modal、Daytona 等七种终端后端。模型可自由切换，兼容 Nous Portal、OpenRouter、OpenAI 及自建端点。",
       "windows": [],
       "added_at": "2026-10-09T11:49:12+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 3
+      "seen_count": 4
     },
     {
       "owner": "torvalds",
@@ -374,7 +374,7 @@
       "windows": [],
       "added_at": "2026-10-09T11:29:43+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "trimstray",
@@ -476,7 +476,7 @@
       "description": "An Open Source Machine Learning Framework for Everyone",
       "language": "C++",
       "stars": 200582,
-      "forks": 78860,
+      "forks": 78862,
       "homepage": "https://tensorflow.org",
       "license": "Apache-2.0",
       "created_at": "2015-11-07T01:19:20Z",
@@ -489,7 +489,7 @@
       ],
       "added_at": "2026-10-09T11:23:13+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 5
+      "seen_count": 6
     },
     {
       "owner": "trekhleb",
@@ -688,11 +688,11 @@
       "license": "MIT",
       "created_at": "2023-06-26T19:39:32Z",
       "pushed_at": "2026-10-10T07:31:41Z",
-      "updated_at": "2026-10-10T10:20:14Z",
+      "updated_at": "2026-10-10T10:35:21Z",
       "open_issues": 4237,
       "summary": "Ollama 是一个用 Go 语言编写的开源工具，目标是让用户在自己的电脑上快速运行和管理各类开放模型，例如 Kimi、GLM、MiniMax、DeepSeek、gpt-oss、Qwen、Gemma 等。它解决了本地部署大模型时环境配置繁琐、模型管理分散的问题，提供 macOS、Windows、Linux 和 Docker 的安装方式，并内置 REST API 用于运行和管理模型。",
       "last_seen": "2026-10-10",
-      "seen_count": 11,
+      "seen_count": 12,
       "added_at": "2026-10-09T10:50:28+00:00",
       "windows": [
         "daily",
@@ -891,13 +891,13 @@
       "url": "https://github.com/DietrichGebert/ponytail",
       "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
       "language": "JavaScript",
-      "stars": 160038,
+      "stars": 160045,
       "forks": 8609,
       "homepage": "https://ponytail.dev",
       "license": "MIT",
       "created_at": "2026-06-12T00:52:37Z",
       "pushed_at": "2026-10-10T04:19:53Z",
-      "updated_at": "2026-10-10T10:29:34Z",
+      "updated_at": "2026-10-10T10:40:38Z",
       "open_issues": 45,
       "summary": "Ponytail 是一个给 AI 编程代理注入“最懒资深开发”思维的提示词项目，用 JavaScript 编写，核心只有一份 SKILL.md 提示词，其余内容都是把它接入不同代理的适配层。它要解决的问题是代理倾向于堆砌代码：安装多余依赖、手写整块日历。Ponytail 让代理先读懂改动涉及的代码和真实数据流，再按“能少写就少写”的阶梯选择方案，例如复用已有 Input 组件和浏览器原生日期选择器，把 335 行压到 10 行。它强调懒而不失职，信任边界校验、错误处理、安全与无障碍不砍，含分支、循环、解析、金额或安全的逻辑会留下一个小测试，每次回复还会说明跳过了什么、有何风险。",
       "windows": [
@@ -906,7 +906,7 @@
       ],
       "added_at": "2026-10-09T10:59:47+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 8
+      "seen_count": 9
     },
     {
       "owner": "Snailclimb",
@@ -929,7 +929,7 @@
       ],
       "added_at": "2026-10-09T11:01:40+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 8
+      "seen_count": 9
     },
     {
       "owner": "langgenius",
@@ -977,7 +977,7 @@
       ],
       "added_at": "2026-10-09T11:22:49+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 5
+      "seen_count": 6
     },
     {
       "owner": "clash-verge-rev",
@@ -986,13 +986,13 @@
       "url": "https://github.com/clash-verge-rev/clash-verge-rev",
       "description": "A modern GUI client based on Tauri, designed to run in Windows, macOS and Linux for tailored proxy experience",
       "language": "Rust",
-      "stars": 150281,
+      "stars": 150282,
       "forks": 10802,
       "homepage": "https://www.clashverge.dev",
       "license": "GPL-3.0",
       "created_at": "2023-11-21T18:24:03Z",
       "pushed_at": "2026-10-10T09:27:21Z",
-      "updated_at": "2026-10-10T10:05:09Z",
+      "updated_at": "2026-10-10T10:40:21Z",
       "open_issues": 509,
       "summary": "Clash Verge Rev 是基于 Tauri 2 框架开发的 Clash Meta 图形界面客户端，使用 Rust 编写，是 Clash Verge 项目的延续，支持 Windows、macOS 和 Linux 系统。它内置 Clash.Meta（mihomo）内核，并允许切换 Alpha 版本内核，为用户提供定制化的代理体验。该客户端解决了代理配置与节点管理的可视化需求，主要功能包括配置文件管理与增强（支持 Merge 和 Script 及语法提示）、系统代理与守卫、TUN 虚拟网卡模式、可视化节点和规则编辑，以及 WebDav 配置备份同步。",
       "windows": [
@@ -1000,7 +1000,7 @@
       ],
       "added_at": "2026-10-09T11:01:04+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 8
+      "seen_count": 9
     },
     {
       "owner": "anthropics",
@@ -1009,21 +1009,21 @@
       "url": "https://github.com/anthropics/claude-code",
       "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
       "language": "TypeScript",
-      "stars": 149967,
-      "forks": 26018,
+      "stars": 149971,
+      "forks": 26023,
       "homepage": "https://code.claude.com/docs/en/overview",
       "license": "",
       "created_at": "2025-02-22T17:41:21Z",
       "pushed_at": "2026-10-09T19:28:59Z",
-      "updated_at": "2026-10-10T10:13:29Z",
-      "open_issues": 14620,
+      "updated_at": "2026-10-10T10:37:01Z",
+      "open_issues": 14619,
       "summary": "Claude Code 是 Anthropic 推出的智能体编程工具，运行在终端中，以 TypeScript 编写。它能理解你的代码库，通过自然语言指令执行日常任务、解释复杂代码并处理 Git 工作流，从而加快编码速度。使用时可在终端、IDE 中调用，或在 GitHub 上通过 @claude 触发。安装方式覆盖 macOS、Linux 和 Windows，推荐使用 Homebrew 或 WinGet，npm 安装已被弃用。仓库还包含若干插件，通过自定义命令和智能体扩展功能。它适合需要频繁处理代码理解、重复性任务和版本控制的开发者。",
       "windows": [
         "monthly"
       ],
       "added_at": "2026-10-09T11:00:09+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 8
+      "seen_count": 9
     },
     {
       "owner": "airbnb",
@@ -1056,7 +1056,7 @@
       "description": "The React Framework",
       "language": "JavaScript",
       "stars": 143101,
-      "forks": 34425,
+      "forks": 34430,
       "homepage": "https://nextjs.org",
       "license": "MIT",
       "created_at": "2016-10-05T23:32:51Z",
@@ -1070,7 +1070,7 @@
       ],
       "added_at": "2026-10-09T10:59:47+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 9
+      "seen_count": 10
     },
     {
       "owner": "yangshun",
@@ -1102,21 +1102,21 @@
       "url": "https://github.com/farion1231/cc-switch",
       "description": "A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode, OpenClaw, Grok Build & Hermes Agent. Only official website: ccswitch.io",
       "language": "Rust",
-      "stars": 142264,
+      "stars": 142271,
       "forks": 9495,
       "homepage": "https://ccswitch.io",
       "license": "MIT",
       "created_at": "2025-08-04T14:16:16Z",
       "pushed_at": "2026-10-10T08:53:28Z",
-      "updated_at": "2026-10-10T10:26:08Z",
-      "open_issues": 2015,
+      "updated_at": "2026-10-10T10:40:04Z",
+      "open_issues": 2016,
       "summary": "CC Switch 是一款基于 Rust 与 Tauri 2 构建的跨平台桌面工具，用于统一管理 Claude Code、Codex、Gemini CLI、Grok Build、OpenCode 等十余种 AI 编程工具的配置。这些工具各自使用 JSON、TOML、YAML 等不同格式，切换 API 供应商时需手动改文件，MCP、Skills 和提示词也要分别维护。CC Switch 将这些问题集中到一个应用里：内置 90 多个供应商预设，填入密钥即可一键切换，且只替换端点、密钥和模型等连接信息，用户自加的插件、钩子和注释保持不变。",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-09T11:01:04+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 8
+      "seen_count": 9
     },
     {
       "owner": "ytdl-org",
@@ -1231,7 +1231,7 @@
       ],
       "added_at": "2026-10-09T11:00:35+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 10,
+      "seen_count": 11,
       "pinned": true
     },
     {
@@ -1255,7 +1255,7 @@
       ],
       "added_at": "2026-10-09T11:22:49+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 5
+      "seen_count": 6
     },
     {
       "owner": "labuladong",
@@ -1311,7 +1311,7 @@
       "description": "LLM inference in C/C++",
       "language": "C++",
       "stars": 130706,
-      "forks": 24255,
+      "forks": 24256,
       "homepage": "https://llama.app",
       "license": "MIT",
       "created_at": "2023-03-10T18:58:00Z",
@@ -1324,7 +1324,7 @@
       ],
       "added_at": "2026-10-09T11:23:13+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 5
+      "seen_count": 6
     },
     {
       "owner": "krahets",
@@ -1379,21 +1379,21 @@
       "url": "https://github.com/openai/codex",
       "description": "Lightweight coding agent that runs in your terminal",
       "language": "Rust",
-      "stars": 128486,
+      "stars": 128489,
       "forks": 20164,
       "homepage": "",
       "license": "Apache-2.0",
       "created_at": "2025-04-13T05:37:54Z",
       "pushed_at": "2026-10-10T08:51:37Z",
-      "updated_at": "2026-10-10T10:27:37Z",
-      "open_issues": 22003,
+      "updated_at": "2026-10-10T10:37:01Z",
+      "open_issues": 22005,
       "summary": "Codex CLI 是 OpenAI 推出的本地命令行编程智能体，使用 Rust 编写，直接在终端中运行。它面向希望在本地环境中借助 AI 完成编码任务的开发者，无需依赖云端即可在电脑上执行。安装方式覆盖 Mac、Linux 和 Windows，也可通过多种包管理器获取，安装后运行 codex 即可启动。使用时推荐通过 ChatGPT 账号登录，可纳入 Plus、Pro、Business、Edu 或 Enterprise 套餐；也支持 API key，但需额外配置。",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-09T11:01:04+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 9
+      "seen_count": 10
     },
     {
       "owner": "kubernetes",
@@ -1448,13 +1448,13 @@
       "url": "https://github.com/rustdesk/rustdesk",
       "description": "An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.",
       "language": "Rust",
-      "stars": 125370,
+      "stars": 125371,
       "forks": 19571,
       "homepage": "https://rustdesk.com",
       "license": "AGPL-3.0",
       "created_at": "2020-09-28T15:36:08Z",
       "pushed_at": "2026-10-10T09:40:46Z",
-      "updated_at": "2026-10-10T10:25:21Z",
+      "updated_at": "2026-10-10T10:38:32Z",
       "open_issues": 174,
       "summary": "RustDesk 是一款用 Rust 编写的开源远程桌面应用，定位为 TeamViewer 的自托管替代方案。它开箱即用、无需配置，让用户完全掌控自己的数据，无需担心安全问题。用户既可使用官方提供的 rendezvous/relay 服务器，也可自行搭建甚至编写自己的中继服务器，从而解决远程访问中对数据隐私和自主可控的需求。桌面端采用 Flutter 或已弃用的 Sciter 构建图形界面，核心模块包括屏幕捕获、键盘鼠标控制、剪贴板与文件传输、音视频编解码以及网络连接管理，其中 hbb_common 库提供视频编解码、配置和 tcp/udp 封装等共享功能。",
       "windows": [
@@ -1462,7 +1462,7 @@
       ],
       "added_at": "2026-10-09T11:01:04+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 8
+      "seen_count": 9
     },
     {
       "owner": "electron",
@@ -1623,7 +1623,7 @@
       ],
       "added_at": "2026-10-09T11:23:13+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 6
+      "seen_count": 7
     },
     {
       "owner": "mrdoob",
@@ -1724,13 +1724,13 @@
       "url": "https://github.com/microsoft/TypeScript",
       "description": "TypeScript is a superset of JavaScript that compiles to clean JavaScript output.",
       "language": "Go",
-      "stars": 111376,
-      "forks": 16265,
+      "stars": 111375,
+      "forks": 16266,
       "homepage": "https://www.typescriptlang.org",
       "license": "Apache-2.0",
       "created_at": "2014-06-17T15:28:39Z",
       "pushed_at": "2026-10-09T23:51:53Z",
-      "updated_at": "2026-10-10T10:13:30Z",
+      "updated_at": "2026-10-10T10:33:50Z",
       "open_issues": 5095,
       "summary": "TypeScript 是微软推出的 JavaScript 超集，专为构建应用级 JavaScript 而设计。它在 JavaScript 基础上加入可选的类型系统，并配套面向大型 JavaScript 应用的工具支持，可运行于任何浏览器、任何宿主和任何操作系统。其核心能力在于通过类型标注帮助开发者在编码阶段发现错误，并提升代码的可维护性与可读性；编译产物是清晰、符合标准的 JavaScript。它适用于大规模前端与后端 JavaScript 项目，帮助团队在复杂代码库中保持协作效率。",
       "windows": [
@@ -1738,7 +1738,7 @@
       ],
       "added_at": "2026-10-09T11:00:35+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 9
+      "seen_count": 10
     },
     {
       "owner": "supabase",
@@ -1747,13 +1747,13 @@
       "url": "https://github.com/supabase/supabase",
       "description": "The Postgres development platform. Supabase gives you a dedicated Postgres database to build your web, mobile, and AI applications.",
       "language": "TypeScript",
-      "stars": 111297,
+      "stars": 111296,
       "forks": 16323,
       "homepage": "https://supabase.com",
       "license": "Apache-2.0",
       "created_at": "2019-10-12T05:56:49Z",
       "pushed_at": "2026-10-10T05:57:03Z",
-      "updated_at": "2026-10-10T10:22:43Z",
+      "updated_at": "2026-10-10T10:33:23Z",
       "open_issues": 1147,
       "summary": "Supabase 是一个基于 Postgres 的开发平台，目标是用企业级开源工具实现 Firebase 式的开发体验，让开发者无需自行拼装后端即可构建 Web、移动和 AI 应用。它提供托管的 Postgres 数据库，并在此基础上集成认证与授权、自动生成的 REST 与 GraphQL API、实时订阅、数据库函数与边缘函数、文件存储以及 AI 向量嵌入工具包，还配有管理面板。",
       "windows": [
@@ -1761,7 +1761,7 @@
       ],
       "added_at": "2026-10-09T11:00:09+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 8
+      "seen_count": 9
     },
     {
       "owner": "JuliusBrussee",
@@ -1771,20 +1771,20 @@
       "description": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that cuts 65% of tokens by talking like a caveman.",
       "language": "Go",
       "stars": 110848,
-      "forks": 6423,
+      "forks": 6424,
       "homepage": "https://docs.caveman.so/docs/quickstart",
       "license": "Apache-2.0",
       "created_at": "2026-04-04T10:03:00Z",
       "pushed_at": "2026-10-10T09:56:34Z",
       "updated_at": "2026-10-10T10:18:12Z",
-      "open_issues": 57,
+      "open_issues": 58,
       "summary": "Caveman 是一个用 Go 编写的代理与技能组合，目标是在不改变代码正确性的前提下压缩 AI 编程代理消耗的 token。它针对两类浪费：一是代理输出啰嗦，二是代理读取的日志、测试输出、JSON、网页等内容体积庞大。技能部分只压缩代理的回答，保留否定、路径和数字，在 claude-opus-5-5 上测得中位数再省 3%，激进模式省 35%；代理部分则压缩代理读入的内容，日志、CSV、YAML、JSON 和测试输出可缩小 98.5% 至 99.1%，整段会话输入 token 减少 33.2%，18 道基准题全部答对。",
       "windows": [
         "weekly"
       ],
       "added_at": "2026-10-09T11:00:35+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 8
+      "seen_count": 9
     },
     {
       "owner": "papers-we-love",
@@ -1977,17 +1977,17 @@
       "url": "https://github.com/addyosmani/agent-skills",
       "description": "Production-grade engineering skills for AI coding agents.",
       "language": "JavaScript",
-      "stars": 104288,
+      "stars": 104293,
       "forks": 10883,
       "homepage": "https://skills.addy.ie",
       "license": "MIT",
       "created_at": "2026-02-15T20:20:26Z",
       "pushed_at": "2026-10-10T08:28:49Z",
-      "updated_at": "2026-10-10T10:27:05Z",
+      "updated_at": "2026-10-10T10:38:23Z",
       "open_issues": 118,
       "summary": "Agent Skills 是一套面向 AI 编程代理的生产级工程技能包，由 Addy Osmani 维护，以 JavaScript 编写。它把资深工程师在软件开发各阶段使用的工作流、质量门禁和最佳实践固化成结构化技能，让 AI 代理在定义、规划、构建、验证、审查、发布等环节保持一致行为。仓库包含 25 个技能（24 个生命周期技能加一个元技能）和 9 个斜杠命令，命令会自动激活对应技能，技能也会根据任务类型自动触发，例如设计 API 时启用接口设计技能。每个技能由步骤、检查点和退出标准组成，并附有反合理化表格，用于反驳代理跳过测试等借口，同时要求以测试通过、构建输出等证据作为完成依据。",
       "last_seen": "2026-10-10",
-      "seen_count": 12,
+      "seen_count": 13,
       "added_at": "2026-10-09T10:50:04+00:00",
       "windows": [
         "daily",
@@ -2003,20 +2003,20 @@
       "description": "Tensors and Dynamic neural networks in Python with strong GPU acceleration",
       "language": "Python",
       "stars": 104018,
-      "forks": 31874,
+      "forks": 31876,
       "homepage": "https://pytorch.org",
       "license": "NOASSERTION",
       "created_at": "2016-08-13T05:26:41Z",
       "pushed_at": "2026-10-10T10:03:44Z",
       "updated_at": "2026-10-10T10:21:20Z",
-      "open_issues": 17703,
+      "open_issues": 17702,
       "summary": "PyTorch 是一个以 Python 为核心的张量计算与动态神经网络库，主要解决科学计算和深度学习中对 GPU 加速与灵活建模的需求。它提供类似 NumPy 的张量运算，支持在 CPU 或 GPU 上运行，并集成 Intel MKL、NVIDIA cuDNN、NCCL 等加速库以提升速度。其核心特点是基于磁带式自动微分的动态神经网络，网络行为可随时改变而无需重建结构；同时坚持 Python 优先，可自然结合 NumPy、SciPy、Cython 等包，并支持用 C/C++ 编写扩展。典型场景包括替代 NumPy 进行 GPU 加速计算，以及作为深度学习研究平台，兼顾灵活性与速度。",
       "windows": [
         "monthly"
       ],
       "added_at": "2026-10-09T11:21:36+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 5
+      "seen_count": 6
     },
     {
       "owner": "react",
@@ -2163,13 +2163,13 @@
       "url": "https://github.com/paperclipai/paperclip",
       "description": "The open-source app everyone uses to manage agents at work",
       "language": "TypeScript",
-      "stars": 99440,
+      "stars": 99442,
       "forks": 16780,
       "homepage": "https://paperclip.ing",
       "license": "MIT",
       "created_at": "2026-03-02T15:01:51Z",
       "pushed_at": "2026-10-10T09:51:10Z",
-      "updated_at": "2026-10-10T10:29:08Z",
+      "updated_at": "2026-10-10T10:36:16Z",
       "open_issues": 6326,
       "summary": "Paperclip 是一个用 TypeScript 编写的开源 AI 智能体管理应用，包含 Node.js 服务端和 React 界面，用于把多个 AI 智能体组织成一个协同工作的团队。它解决的核心问题是：当人们同时运行大量智能体（如 OpenClaw、Claude Code、Codex、Cursor、Gemini CLI 等）时，容易失去对任务进度、成本和权限的掌控。Paperclip 提供组织架构、目标对齐、心跳唤醒、预算与成本控制、任务线程、审批治理、技能库、定时例程、多组织隔离等能力，让智能体拥有角色、汇报线和预算，并按分配的目标自主工作。",
       "windows": [
@@ -2177,7 +2177,7 @@
       ],
       "added_at": "2026-10-09T11:00:09+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 8
+      "seen_count": 9
     },
     {
       "owner": "mui",
@@ -2209,17 +2209,17 @@
       "url": "https://github.com/thedotmack/claude-mem",
       "description": "Persistent Context Across Sessions for Every Agent –  Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
       "language": "TypeScript",
-      "stars": 99092,
+      "stars": 99095,
       "forks": 8677,
       "homepage": "https://claude-mem.ai",
       "license": "Apache-2.0",
       "created_at": "2025-08-31T20:50:03Z",
       "pushed_at": "2026-10-09T10:23:45Z",
-      "updated_at": "2026-10-10T10:26:39Z",
+      "updated_at": "2026-10-10T10:37:06Z",
       "open_issues": 143,
       "summary": "claude-mem 是一个为 Claude Code 等 AI 编程代理设计的持久化记忆压缩系统，用 TypeScript 编写。它解决的核心问题是：代理在会话结束后会丢失上下文，导致每次都要重新了解项目。claude-mem 通过生命周期钩子自动捕获代理在会话中的工具使用观察，用 AI 压缩成语义摘要存入 SQLite 数据库，并在后续会话启动时把相关上下文注入回去，让代理保持对项目的知识连续性。它提供基于技能的搜索、MCP 搜索工具（采用三层渐进式披露工作流，先取索引再按需拉取详情以节省 token）、Web 查看器界面和隐私标签控制。",
       "last_seen": "2026-10-10",
-      "seen_count": 12,
+      "seen_count": 13,
       "added_at": "2026-10-09T10:50:16+00:00",
       "windows": [
         "daily",
@@ -2395,13 +2395,13 @@
       "url": "https://github.com/Panniantong/Agent-Reach",
       "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
       "language": "Python",
-      "stars": 95253,
+      "stars": 95258,
       "forks": 8331,
       "homepage": "",
       "license": "MIT",
       "created_at": "2026-02-24T02:10:24Z",
       "pushed_at": "2026-10-08T08:31:08Z",
-      "updated_at": "2026-10-10T10:30:32Z",
+      "updated_at": "2026-10-10T10:38:46Z",
       "open_issues": 204,
       "summary": "Agent Reach 是一个用 Python 编写的命令行工具，为 AI Agent 提供读取和搜索互联网内容的能力。它针对 Twitter、Reddit、YouTube、GitHub、Bilibili、小红书等平台各自存在的门槛——付费 API、反爬封锁、登录限制、数据清洗——预先选好并安装当前可用的接入方式，用户只需把一句安装指令复制给 Claude Code、Cursor 等 Agent，即可让它读取网页、提取 YouTube 字幕、搜索 Reddit 和 B站、查看 GitHub 仓库与 Issue、订阅 RSS。",
       "windows": [
@@ -2410,7 +2410,7 @@
       ],
       "added_at": "2026-10-09T11:21:36+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "3b1b",
@@ -2488,17 +2488,17 @@
       "url": "https://github.com/Leonxlnx/taste-skill",
       "description": "Taste-Skill - gives your AI good taste. stops the AI from generating boring, generic slop ",
       "language": "JavaScript",
-      "stars": 94252,
+      "stars": 94255,
       "forks": 6414,
       "homepage": "https://tasteskill.dev",
       "license": "MIT",
       "created_at": "2026-02-19T21:44:05Z",
       "pushed_at": "2026-10-09T21:58:20Z",
-      "updated_at": "2026-10-10T10:25:53Z",
+      "updated_at": "2026-10-10T10:38:55Z",
       "open_issues": 78,
       "summary": "Taste Skill 是一套面向 AI 编程代理的可移植技能包，用 JavaScript 编写，目标是提升 AI 生成界面的设计水准，避免产出千篇一律的模板化 UI。它通过 SKILL.md 指令文件为代理补充布局、字体、动效与间距方面的规则，并支持通过 npx skills add 安装，也可直接复制到项目或对话中使用。",
       "last_seen": "2026-10-10",
-      "seen_count": 11,
+      "seen_count": 12,
       "added_at": "2026-10-09T10:50:04+00:00",
       "windows": [
         "daily",
@@ -2518,7 +2518,7 @@
       "license": "MIT",
       "created_at": "2025-06-22T08:02:17Z",
       "pushed_at": "2026-09-24T09:24:44Z",
-      "updated_at": "2026-10-10T10:24:01Z",
+      "updated_at": "2026-10-10T10:30:57Z",
       "open_issues": 375,
       "summary": "OpenCut 是一个用 TypeScript 编写的开源视频编辑器，目标是成为 CapCut 的免费替代品，支持网页、桌面和移动端。它要解决的是视频剪辑工具闭源、收费或平台受限的问题，让用户在不同设备上都能使用同一套编辑能力。目前项目正在从零重写，计划引入编辑器 API、以插件优先架构实现第三方插件、基于 Rust 核心让桌面、移动和浏览器共用一套代码，并支持 MCP 服务器供 AI 代理调用、无头模式用于自动化和批量渲染，以及编辑器内的脚本标签页。旧版本仍可在 opencut-classic 仓库获取，opencut.app 也继续运行经典版，重写版将先部署在 new.opencut.",
       "windows": [
@@ -2526,7 +2526,7 @@
       ],
       "added_at": "2026-10-09T11:00:09+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 8
+      "seen_count": 9
     },
     {
       "owner": "louislam",
@@ -2565,14 +2565,14 @@
       "created_at": "2023-12-12T06:13:13Z",
       "pushed_at": "2026-10-10T10:27:30Z",
       "updated_at": "2026-10-10T10:27:35Z",
-      "open_issues": 1357,
+      "open_issues": 1358,
       "summary": "RAGFlow 是一个开源检索增强生成（RAG）引擎，用 Go 语言实现，旨在为大型语言模型构建更优质的上下文层。它主要解决非结构化数据难以被模型有效利用的问题，通过深度文档理解从 Word、Excel、PPT、图片、扫描件、网页等复杂格式中提取知识，并借助模板化分块让切分过程可解释、可干预。其核心能力包括知识编译，可在文档和数据集层面生成 Wiki、图谱、树、思维导图、时间线等结构化知识产物；代理式检索支持多步推理与证据验证，并提供低、中、高、超高四档思考模式控制检索深度；答案附带可追溯引用以减少幻觉。",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-09T11:00:35+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 8
+      "seen_count": 9
     },
     {
       "owner": "django",
@@ -2632,16 +2632,16 @@
       "homepage": "https://www.home-assistant.io",
       "license": "Apache-2.0",
       "created_at": "2013-09-17T07:29:48Z",
-      "pushed_at": "2026-10-10T10:04:02Z",
-      "updated_at": "2026-10-10T09:38:13Z",
-      "open_issues": 3442,
+      "pushed_at": "2026-10-10T10:34:41Z",
+      "updated_at": "2026-10-10T10:34:53Z",
+      "open_issues": 3432,
       "summary": "Home Assistant 是一套以本地控制和隐私优先为理念的开源家庭自动化系统，主要使用 Python 编写，由全球范围的爱好者和 DIY 社区共同维护。它解决的是将不同品牌、不同协议的智能设备统一接入与联动的问题，避免数据依赖云端、隐私外泄以及设备各自为政。系统采用模块化架构，通过集成方式支持各类设备与操作，用户也可以自行创建组件来扩展功能。它可以运行在树莓派或本地服务器上，适合在家庭环境中搭建自动化场景，例如灯光、传感器等设备的集中管理与自动响应。官方提供演示、安装说明、教程和文档，遇到使用或开发问题可查阅帮助栏目。项目隶属于 Open Home Foundation。",
       "windows": [
         "monthly"
       ],
       "added_at": "2026-10-09T11:21:36+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 5
+      "seen_count": 6
     },
     {
       "owner": "storybookjs",
@@ -2857,13 +2857,13 @@
       "url": "https://github.com/stablyai/orca",
       "description": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
       "language": "TypeScript",
-      "stars": 88898,
+      "stars": 88905,
       "forks": 5683,
       "homepage": "https://onOrca.dev",
       "license": "MIT",
       "created_at": "2026-03-17T03:28:57Z",
-      "pushed_at": "2026-10-10T10:30:08Z",
-      "updated_at": "2026-10-10T10:29:31Z",
+      "pushed_at": "2026-10-10T10:39:19Z",
+      "updated_at": "2026-10-10T10:39:47Z",
       "open_issues": 8287,
       "summary": "Orca 是一个面向并行 AI 编码代理的 ADE（代理开发环境），用 TypeScript 编写，可在桌面、移动端和远程运行时使用。它要解决的问题是：当同时运行多个编码代理时，工作区、任务和结果容易散落各处难以管理。Orca 让 Codex、Claude Code、OpenCode、Pi 等任意 CLI 代理并排运行，每个代理拥有独立的 git worktree，并在同一处统一追踪。",
       "windows": [
@@ -2871,7 +2871,7 @@
       ],
       "added_at": "2026-10-09T11:00:09+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 6,
+      "seen_count": 7,
       "pinned": true
     },
     {
@@ -2927,13 +2927,13 @@
       "url": "https://github.com/D4Vinci/Scrapling",
       "description": "🕷️ An adaptive Web Scraping framework that handles everything from a single request to a full-scale crawl! Don't be shy, join here: https://discord.gg/EMgGbDceNQ and follow here for daily tips and tricks: https://x.com/Scrapling_dev",
       "language": "Python",
-      "stars": 86604,
-      "forks": 8873,
+      "stars": 86606,
+      "forks": 8874,
       "homepage": "https://scrapling.readthedocs.io/en/latest/",
       "license": "BSD-3-Clause",
       "created_at": "2024-10-13T20:29:53Z",
       "pushed_at": "2026-10-08T20:28:21Z",
-      "updated_at": "2026-10-10T10:25:35Z",
+      "updated_at": "2026-10-10T10:38:42Z",
       "open_issues": 14,
       "summary": "Scrapling 是一个用 Python 编写的自适应网页抓取框架，覆盖从单次请求到大规模爬取的完整需求。它主要解决网页结构变动导致选择器失效、反爬系统拦截以及爬虫难以扩展的问题。其解析器能通过相似度算法在页面更新后自动重新定位元素；抓取器可绕过 Cloudflare Turnstile 等反爬机制，并支持 HTTP、动态浏览器和隐身抓取。爬虫框架提供类似 Scrapy 的 API、并发抓取、多会话、暂停续爬、代理轮换、自动限速和 robots.txt 合规，还支持流式输出与断点续爬。",
       "windows": [
@@ -2941,7 +2941,7 @@
       ],
       "added_at": "2026-10-09T11:21:36+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 5
+      "seen_count": 6
     },
     {
       "owner": "Egonex-AI",
@@ -3226,13 +3226,13 @@
       "url": "https://github.com/NationalSecurityAgency/ghidra",
       "description": "Ghidra is a software reverse engineering (SRE) framework",
       "language": "Java",
-      "stars": 82398,
-      "forks": 9154,
+      "stars": 82405,
+      "forks": 9155,
       "homepage": "",
       "license": "Apache-2.0",
       "created_at": "2019-03-01T03:27:48Z",
       "pushed_at": "2026-10-09T10:30:16Z",
-      "updated_at": "2026-10-10T10:28:02Z",
+      "updated_at": "2026-10-10T10:37:22Z",
       "open_issues": 1989,
       "summary": "Ghidra 是由美国国家安全局研究理事会创建并维护的软件逆向工程框架，采用 Java 编写。它面向复杂逆向工程中的规模化与团队协作问题，提供可定制、可扩展的分析平台。其核心能力包括反汇编、汇编、反编译、图形化展示和脚本编写，支持多种处理器指令集与可执行格式，并可在交互与自动化两种模式下运行。用户能使用 Java 或 Python 开发自定义扩展组件和脚本。该框架可在 Windows、macOS 和 Linux 上运行，常用于分析恶意代码、挖掘网络与系统潜在漏洞。",
       "windows": [
@@ -3242,7 +3242,7 @@
       ],
       "added_at": "2026-10-09T11:22:02+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 5
+      "seen_count": 6
     },
     {
       "owner": "datawhalechina",
@@ -3251,13 +3251,13 @@
       "url": "https://github.com/datawhalechina/hello-agents",
       "description": "📚 《从零开始构建智能体》——从零开始的智能体原理与实践教程",
       "language": "Python",
-      "stars": 82384,
-      "forks": 10221,
+      "stars": 82386,
+      "forks": 10222,
       "homepage": "https://hello-agents.datawhale.cc",
       "license": "NOASSERTION",
       "created_at": "2025-09-07T09:50:24Z",
       "pushed_at": "2026-10-08T08:17:28Z",
-      "updated_at": "2026-10-10T10:26:29Z",
+      "updated_at": "2026-10-10T10:41:23Z",
       "open_issues": 109,
       "summary": "Hello-Agents 是 Datawhale 社区推出的系统性智能体学习教程，以 Python 编写，旨在填补当前智能体领域系统性、重实践教程的空白。它不局限于 Dify、Coze 等流程驱动的软件工程类 Agent，而是聚焦真正由 AI 驱动的 AI Native Agent，带领读者从核心原理出发，理解经典范式并亲手构建多智能体应用。",
       "windows": [
@@ -3265,7 +3265,7 @@
       ],
       "added_at": "2026-10-09T11:21:36+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 5
+      "seen_count": 6
     },
     {
       "owner": "tonsky",
@@ -3298,7 +3298,7 @@
       "description": "Spring Boot helps you to create Spring-powered, production-grade applications and services with absolute minimum fuss.",
       "language": "Java",
       "stars": 81583,
-      "forks": 44459,
+      "forks": 44461,
       "homepage": "https://spring.io/projects/spring-boot",
       "license": "Apache-2.0",
       "created_at": "2012-10-19T15:02:57Z",
@@ -3312,7 +3312,7 @@
       ],
       "added_at": "2026-10-09T11:22:02+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 5
+      "seen_count": 6
     },
     {
       "owner": "swisskyrepo",
@@ -3344,13 +3344,13 @@
       "url": "https://github.com/tt-a1i/archify",
       "description": "Turn any idea, plan, or codebase into a beautiful interactive diagram. An agent skill for Claude Code, Codex, and more.",
       "language": "JavaScript",
-      "stars": 81478,
+      "stars": 81481,
       "forks": 5502,
       "homepage": "https://archify.si",
       "license": "MIT",
       "created_at": "2026-04-15T05:27:37Z",
-      "pushed_at": "2026-10-10T10:28:57Z",
-      "updated_at": "2026-10-10T10:28:36Z",
+      "pushed_at": "2026-10-10T10:39:16Z",
+      "updated_at": "2026-10-10T10:41:19Z",
       "open_issues": 231,
       "summary": "Archify 是一个开源智能体技能，用 JavaScript 编写，可接入 Claude Code、Codex CLI、Cursor、OpenCode 等工具。它把一段想法、计划或代码仓库描述，转换成可交互的 HTML 图表，用于理解、规划和分享。用户只需向 AI 智能体描述需求，例如“添加认证”“高亮缓存未命中路径”，即可在对话中持续迭代；也可以让智能体读取仓库，生成有源码依据的架构图。输出是自包含的 HTML 文件，下载后用浏览器打开即可查看节点详情、追踪路径和来源链接，无需安装 Archify，转发给他人也能保留交互。",
       "windows": [
@@ -3359,7 +3359,7 @@
       ],
       "added_at": "2026-10-09T10:59:47+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 8
+      "seen_count": 9
     },
     {
       "owner": "netdata",
@@ -3483,13 +3483,13 @@
       "url": "https://github.com/pbakaus/impeccable",
       "description": "The design language that makes your AI harness better at design.",
       "language": "JavaScript",
-      "stars": 79193,
+      "stars": 79196,
       "forks": 4709,
       "homepage": "https://impeccable.style",
       "license": "Apache-2.0",
       "created_at": "2025-11-16T01:52:04Z",
       "pushed_at": "2026-10-09T18:44:27Z",
-      "updated_at": "2026-10-10T10:22:34Z",
+      "updated_at": "2026-10-10T10:37:45Z",
       "open_issues": 69,
       "summary": "Impeccable 是一套面向 AI 编程代理的设计语言与技能包，用 JavaScript 编写，旨在解决大模型生成前端界面时反复出现的同质化问题，比如滥用 Inter 字体、紫蓝渐变、卡片嵌套卡片、彩色背景上叠灰字等。它通过 npx impeccable install 安装，并在 AI 工具内运行 /impeccable init，将受众、用途、约束、语气等产品事实记录到 PRODUCT.md，与视觉方向分离。",
       "windows": [
@@ -3498,7 +3498,7 @@
       ],
       "added_at": "2026-10-09T10:59:47+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 9
+      "seen_count": 10
     },
     {
       "owner": "doocs",
@@ -3584,14 +3584,14 @@
       "created_at": "2010-02-08T13:20:56Z",
       "pushed_at": "2026-10-10T10:07:19Z",
       "updated_at": "2026-10-10T09:47:37Z",
-      "open_issues": 6168,
+      "open_issues": 6167,
       "summary": "Elasticsearch 是一个用 Java 编写的分布式搜索与分析引擎，同时也可作为可扩展的数据存储和向量数据库，针对生产级工作负载的速度与相关性进行了优化。它基于 RESTful 接口，支持通过任意 HTTP 客户端或官方语言客户端（如 Python）发送请求，数据以 JSON 文档形式索引，可近实时地搜索海量数据集。其核心能力包括全文检索、向量搜索、日志与指标处理、应用性能监控和安全日志分析，并可与生成式 AI 应用集成，支持检索增强生成等场景。",
       "windows": [
         "monthly"
       ],
       "added_at": "2026-10-09T11:22:02+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 5
+      "seen_count": 6
     },
     {
       "owner": "unslothai",
@@ -3605,16 +3605,16 @@
       "homepage": "https://unsloth.ai/docs",
       "license": "Apache-2.0",
       "created_at": "2023-11-29T16:50:09Z",
-      "pushed_at": "2026-10-10T10:28:36Z",
-      "updated_at": "2026-10-10T10:26:01Z",
-      "open_issues": 648,
+      "pushed_at": "2026-10-10T10:36:24Z",
+      "updated_at": "2026-10-10T10:34:47Z",
+      "open_issues": 645,
       "summary": "Unsloth 是一个用于在本地运行和训练大语言模型及扩散模型的桌面应用，提供原生桌面程序、Web UI 和代码库三种使用方式。它主要解决本地部署与微调模型时显存占用高、配置繁琐的问题，通过优化可将训练速度提升约两倍并减少约七成显存占用，且不损失精度。它支持 GGUF、MLX、LoRA、QLoRA、全量微调、强化学习、GRPO、DPO 等训练方式，兼容 NVIDIA、AMD、Intel GPU 及 CPU 和 Vulkan 后端，并可在 Windows、Linux、WSL 和 macOS 上运行。",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-09T11:21:36+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "caddyserver",
@@ -3623,14 +3623,14 @@
       "url": "https://github.com/caddyserver/caddy",
       "description": "Fast and extensible multi-platform HTTP/1-2-3 web server with automatic HTTPS",
       "language": "Go",
-      "stars": 77668,
-      "forks": 5108,
+      "stars": 77669,
+      "forks": 5109,
       "homepage": "https://caddyserver.com",
       "license": "Apache-2.0",
       "created_at": "2015-01-13T19:45:03Z",
-      "pushed_at": "2026-10-09T21:22:41Z",
-      "updated_at": "2026-10-10T09:54:24Z",
-      "open_issues": 285,
+      "pushed_at": "2026-10-10T10:40:47Z",
+      "updated_at": "2026-10-10T10:41:21Z",
+      "open_issues": 283,
       "summary": "Caddy 是一个用 Go 编写的可扩展多平台 Web 服务器，默认启用 TLS，支持 HTTP/1.1、HTTP/2 和 HTTP/3。它主要解决 HTTPS 配置繁琐的问题：对公开域名自动通过 Let's Encrypt 和 ZeroSSL 申请并续期证书，对内部名称和 IP 使用本地 CA，还能在多实例间协调并支持多签发者回退，从而在证书或 OCSP 出问题时保持服务可用。配置方式灵活，既可用简洁的 Caddyfile，也可用原生 JSON 配置和 JSON API 动态调整，并支持 YAML、TOML、NGINX 配置等适配器。",
       "windows": [
         "weekly",
@@ -3638,7 +3638,7 @@
       ],
       "added_at": "2026-10-09T11:00:35+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 9
+      "seen_count": 10
     },
     {
       "owner": "tensorflow",
@@ -3671,19 +3671,19 @@
       "description": "The Python programming language",
       "language": "Python",
       "stars": 77604,
-      "forks": 37824,
+      "forks": 37826,
       "pinned": true,
       "homepage": "https://www.python.org",
       "license": "NOASSERTION",
       "created_at": "2017-02-10T19:23:51Z",
-      "pushed_at": "2026-10-10T10:30:30Z",
+      "pushed_at": "2026-10-10T10:37:14Z",
       "updated_at": "2026-10-10T10:17:21Z",
-      "open_issues": 9756,
+      "open_issues": 9736,
       "summary": "CPython 是 Python 编程语言的官方参考实现，由 Python 软件基金会维护，当前开发版本为 3.16.0 alpha 0。它解决了 Python 代码的解释执行问题，将 Python 源码编译为字节码并在虚拟机中运行，同时提供完整的标准库和 C 扩展接口。其核心特点包括支持在 Unix、Linux、BSD、macOS、Windows 和 Cygwin 等平台构建，可通过 configure 脚本定制编译选项，并支持 Profile Guided Optimization 和 Link Time Optimization 等优化手段提升运行性能。",
       "windows": [],
       "added_at": "2026-10-09T11:30:10+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "666ghj",
@@ -3692,13 +3692,13 @@
       "url": "https://github.com/666ghj/MiroFish",
       "description": "A Simple and Universal Swarm Intelligence Engine, Predicting Anything. 简洁通用的群体智能引擎，预测万物",
       "language": "Python",
-      "stars": 77563,
+      "stars": 77566,
       "forks": 11846,
       "homepage": "https://mirofish.ai",
       "license": "AGPL-3.0",
       "created_at": "2025-11-26T04:23:02Z",
       "pushed_at": "2026-10-01T18:28:51Z",
-      "updated_at": "2026-10-10T10:19:41Z",
+      "updated_at": "2026-10-10T10:41:44Z",
       "open_issues": 135,
       "summary": "MiroFish 是一个基于多智能体技术的群体智能预测引擎，用 Python 编写。它从现实世界的种子信息（如突发新闻、政策草案或金融信号）中提取要素，自动构建高保真的平行数字世界，让数千个具备独立人格、长期记忆和行为逻辑的智能体在其中自由交互与社会演化。用户只需上传种子材料并用自然语言描述预测需求，即可从“上帝视角”动态注入变量，推演未来走向，最终获得详细的预测报告和一个可深度交互的数字世界。其工作流程包括图谱构建、环境搭建、双平台并行模拟、报告生成和深度交互，模拟引擎由 OASIS 驱动。",
       "windows": [
@@ -3706,7 +3706,7 @@
       ],
       "added_at": "2026-10-09T11:21:36+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "obsproject",
@@ -3715,13 +3715,13 @@
       "url": "https://github.com/obsproject/obs-studio",
       "description": "OBS Studio - Free and open source software for live streaming and screen recording",
       "language": "C",
-      "stars": 77230,
+      "stars": 77231,
       "forks": 10561,
       "homepage": "https://obsproject.com",
       "license": "GPL-2.0",
       "created_at": "2013-10-01T02:40:31Z",
       "pushed_at": "2026-10-10T01:13:10Z",
-      "updated_at": "2026-10-10T09:55:01Z",
+      "updated_at": "2026-10-10T10:38:01Z",
       "open_issues": 1146,
       "summary": "OBS Studio 是一款用 C 语言编写的自由开源软件，专注于视频内容的采集、合成、编码、录制与直播推流。它解决的是将多个视频源实时整合并高效输出到文件或直播平台的需求，常用于游戏直播、屏幕录制、在线教学和会议演示等场景。其核心能力包括多源画面合成、实时编码与推流，并支持通过插件和 API 扩展功能，开发者可参考官方文档进行二次开发。项目提供网站、论坛、Wiki 文档和缺陷追踪等资源，翻译工作通过 Crowdin 协作完成，代码贡献需遵循相应的编码与提交规范。",
       "windows": [
@@ -3730,7 +3730,7 @@
       ],
       "added_at": "2026-10-09T11:22:49+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 6
+      "seen_count": 7
     },
     {
       "owner": "grafana",
@@ -4108,13 +4108,13 @@
       "url": "https://github.com/headroomlabs-ai/headroom",
       "description": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer tokens for coding agents, 60-95% fewer tokens for JSON, same answers. Library, proxy, MCP server.",
       "language": "Python",
-      "stars": 74880,
+      "stars": 74881,
       "forks": 5806,
       "homepage": "https://docs.headroomlabs.ai/docs",
       "license": "Apache-2.0",
       "created_at": "2026-01-07T19:58:51Z",
       "pushed_at": "2026-10-10T08:42:50Z",
-      "updated_at": "2026-10-10T10:10:58Z",
+      "updated_at": "2026-10-10T10:37:05Z",
       "open_issues": 450,
       "summary": "Headroom 是一个用 Python 编写的 LLM 上下文压缩工具，在工具输出、日志、文件、RAG 片段和对话历史进入模型之前进行压缩，从而减少 token 消耗。它提供 Python 与 TypeScript 库、代理、MCP 服务器以及一行命令包装多种编码代理等多种接入方式，压缩在本地完成，原始内容通过 CCR 缓存并可按需检索，因此结果可逆。其核心由 ContentRouter 识别内容类型，分别用 SmartCrusher、CodeCompressor 和 Kompress-v2-base 处理 JSON、源码与自然语言，并能标记会破坏 KV 缓存前缀的易变内容。",
       "windows": [
@@ -4122,7 +4122,7 @@
       ],
       "added_at": "2026-10-09T11:21:36+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "Eugeny",
@@ -4605,7 +4605,7 @@
       ],
       "added_at": "2026-10-09T11:00:09+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 8
+      "seen_count": 9
     },
     {
       "owner": "code-yeongyu",
@@ -4720,7 +4720,7 @@
       ],
       "added_at": "2026-10-09T11:21:36+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 5
+      "seen_count": 6
     },
     {
       "owner": "BurntSushi",
@@ -4776,7 +4776,7 @@
       "description": "Get your documents ready for gen AI",
       "language": "Python",
       "stars": 68623,
-      "forks": 5032,
+      "forks": 5033,
       "homepage": "https://docling-project.github.io/docling",
       "license": "MIT",
       "created_at": "2024-07-09T07:50:26Z",
@@ -4789,7 +4789,7 @@
       ],
       "added_at": "2026-10-09T11:21:36+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "gorhill",
@@ -4845,13 +4845,13 @@
       "url": "https://github.com/byoungd/up",
       "description": "人生进阶指南 韩先凯的人生进阶指南 英语学习指南 离谱的人生 AI时代终身学习：AI、学习、创业与成长。",
       "language": "JavaScript",
-      "stars": 68148,
+      "stars": 68149,
       "forks": 6767,
       "homepage": "https://byoungd.github.io/up/",
       "license": "NOASSERTION",
       "created_at": "2017-05-30T07:18:52Z",
       "pushed_at": "2026-10-09T04:51:00Z",
-      "updated_at": "2026-10-10T10:22:01Z",
+      "updated_at": "2026-10-10T10:30:22Z",
       "open_issues": 29,
       "summary": "《人生进阶指南》是韩先凯（笔名离谱）持续更新的中英双语开放书稿，以 JavaScript 构建站点，提供可下载的 EPUB 与 PDF、可复制的工作表。它面向希望提升英语、学习 AI、完成真实项目或重建生活节律的普通人，解决的是在 AI 让答案变得廉价的时代里，如何保留判断、把建议变成作品并承担责任的问题。核心方法是一条循环：定义问题、保存基线、完成最小任务、记录证据、延迟复测、决定迁移，并区分研究结论、个人经验与待验证假设。内容涵盖英语能力训练、AI 协作学习、项目开发与资源层创业、人生复盘与恢复等。",
       "windows": [
@@ -4860,7 +4860,7 @@
       ],
       "added_at": "2026-10-09T10:59:47+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 9
+      "seen_count": 10
     },
     {
       "owner": "chartjs",
@@ -5099,13 +5099,13 @@
       "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
       "description": "Learn it. Build it. Ship it for others.",
       "language": "Python",
-      "stars": 66334,
+      "stars": 66336,
       "forks": 11615,
       "homepage": "https://aiengineeringfromscratch.com",
       "license": "MIT",
       "created_at": "2026-03-18T18:38:02Z",
       "pushed_at": "2026-10-10T10:26:51Z",
-      "updated_at": "2026-10-10T10:26:56Z",
+      "updated_at": "2026-10-10T10:33:23Z",
       "open_issues": 62,
       "summary": "这是一个从零开始系统学习 AI 工程的开源课程仓库，用 Python、TypeScript、Rust、Julia 四种语言编写，包含 20 个阶段、523 节课，约 342 小时内容。它要解决的是 AI 学习材料零散、难以贯通的问题：多数教程只教调 API 或跑通某个 demo，学习者说不清模型内部的损失曲线和注意力机制。该课程按线性代数到自主智能体的顺序逐层搭建，每个算法先用原始数学手写实现，再对照 PyTorch 等生产库，每节课都产出可复用成果，如提示词、技能、智能体或 MCP 服务器。",
       "windows": [
@@ -5114,7 +5114,7 @@
       ],
       "added_at": "2026-10-09T11:21:36+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "webpack",
@@ -5152,7 +5152,7 @@
       "license": "AGPL-3.0",
       "created_at": "2026-03-29T15:23:22Z",
       "pushed_at": "2026-10-03T16:28:55Z",
-      "updated_at": "2026-10-10T10:30:38Z",
+      "updated_at": "2026-10-10T10:33:00Z",
       "open_issues": 383,
       "summary": "OpenMontage 是一个开源、由智能体驱动的视频制作系统，用 Python 编写。它把 AI 编程助手变成完整的视频工作室：用户用自然语言描述需求，智能体便负责调研、写脚本、生成素材、剪辑与合成。它提供 12 条制作流水线和 100 多个工具，并附带 700 多个智能体技能与制作知识文件。与仅靠静态图动画的取巧方式不同，它能从免费素材库和开放档案中检索真实动态片段，剪辑成时间线并渲染成片。系统支持从 YouTube、短视频或本地片段出发，分析节奏、场景与风格，给出差异化方案、工具路径与成本估算，并在生成素材前设置审批关卡。",
       "windows": [
@@ -5160,7 +5160,7 @@
       ],
       "added_at": "2026-10-09T11:21:36+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "kelseyhightower",
@@ -5229,7 +5229,7 @@
       ],
       "added_at": "2026-10-09T11:00:35+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 9
+      "seen_count": 10
     },
     {
       "owner": "termux",
@@ -5253,7 +5253,7 @@
       ],
       "added_at": "2026-10-09T11:22:02+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "BerriAI",
@@ -5262,13 +5262,13 @@
       "url": "https://github.com/BerriAI/litellm",
       "description": "The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and logging [Bedrock, Azure, OpenAI, Anthropic, OpenAI, VertexAI, vLLM, Nvidia NIM]",
       "language": "Python",
-      "stars": 60857,
+      "stars": 60859,
       "forks": 12207,
       "homepage": "https://docs.litellm.ai/docs/",
       "license": "NOASSERTION",
       "created_at": "2023-07-27T00:09:52Z",
-      "pushed_at": "2026-10-10T10:30:33Z",
-      "updated_at": "2026-10-10T10:29:56Z",
+      "pushed_at": "2026-10-10T10:38:53Z",
+      "updated_at": "2026-10-10T10:35:30Z",
       "open_issues": 5453,
       "summary": "LiteLLM 是一个开源 AI 网关，提供统一接口以 OpenAI 格式调用 100 多种大模型服务，涵盖 OpenAI、Anthropic、Gemini、Bedrock、Azure、VertexAI、vLLM、Nvidia NIM 等。它解决的是多供应商接入带来的碎片化问题：各家 SDK、鉴权方式、请求格式和错误类型各不相同，切换成本高。LiteLLM 提供统一 API 与 OpenAI 兼容层，使代码无需重写即可更换供应商。它有两种用法：作为 Python SDK 直接集成进代码，或部署为代理服务器作为团队级网关。",
       "windows": [
@@ -5276,7 +5276,7 @@
       ],
       "added_at": "2026-10-09T11:21:36+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "heygen-com",
@@ -5285,13 +5285,13 @@
       "url": "https://github.com/heygen-com/hyperframes",
       "description": "Write HTML. Render video. Built for agents.",
       "language": "TypeScript",
-      "stars": 60056,
-      "forks": 5364,
+      "stars": 60062,
+      "forks": 5366,
       "homepage": "https://hyperframes.dev",
       "license": "Apache-2.0",
       "created_at": "2026-03-10T01:51:06Z",
       "pushed_at": "2026-10-10T09:58:46Z",
-      "updated_at": "2026-10-10T10:28:45Z",
+      "updated_at": "2026-10-10T10:41:27Z",
       "open_issues": 236,
       "summary": "HyperFrames 是一个开源框架，用于把 HTML、CSS、媒体素材和可定位动画转换为确定性的 MP4 视频，官方定位是“写 HTML，渲染视频，为智能体而生”。它解决的是视频制作难以被代码和 AI 智能体直接操控的问题：合成内容就是带 data 属性的 HTML 文件，不需要 React，也没有专有时间线格式，浏览器里可直接预览，渲染时由无头 Chrome 逐帧定位、FFmpeg 编码，相同输入产出相同视频。动画层支持 GSAP、CSS、Lottie、Three.js、Anime.js、WAAPI 或自定义适配器。",
       "windows": [
@@ -5300,7 +5300,30 @@
       ],
       "added_at": "2026-10-09T11:00:09+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 8
+      "seen_count": 9
+    },
+    {
+      "owner": "morluto",
+      "name": "rea",
+      "full_name": "morluto/rea",
+      "url": "https://github.com/morluto/rea",
+      "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
+      "language": "TypeScript",
+      "stars": 59146,
+      "forks": 11731,
+      "homepage": "https://rea.tools",
+      "license": "MIT",
+      "created_at": "2026-04-14T00:51:32Z",
+      "pushed_at": "2026-10-10T10:29:33Z",
+      "updated_at": "2026-10-10T10:41:44Z",
+      "open_issues": 139,
+      "summary": "REA 是一个基于 TypeScript 开发的开源逆向工程工具，通过 MCP 协议把智能体接入二进制、应用与运行时行为的分析流程。它要解决的问题是：当你看到某个应用里想借鉴的功能，却拿不到源码时，可以让智能体借助 REA 检查该应用，说明功能如何实现并给出证据，再据此为自己的项目构建对应版本。核心能力覆盖原生二进制、JavaScript 与 Electron 应用、.NET 程序集以及网站，静态分析无需引擎，原生分析可复用已有的 Hopper 或 Ghidra。分析在本地运行，结论附带证据与局限。",
+      "last_seen": "2026-10-10",
+      "seen_count": 12,
+      "added_at": "2026-10-09T10:50:16+00:00",
+      "windows": [
+        "daily"
+      ]
     },
     {
       "owner": "hugohe3",
@@ -5323,30 +5346,7 @@
       ],
       "added_at": "2026-10-09T11:21:36+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
-    },
-    {
-      "owner": "morluto",
-      "name": "rea",
-      "full_name": "morluto/rea",
-      "url": "https://github.com/morluto/rea",
-      "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
-      "language": "TypeScript",
-      "stars": 58924,
-      "forks": 11667,
-      "homepage": "https://rea.tools",
-      "license": "MIT",
-      "created_at": "2026-04-14T00:51:32Z",
-      "pushed_at": "2026-10-10T10:29:33Z",
-      "updated_at": "2026-10-10T10:30:23Z",
-      "open_issues": 138,
-      "summary": "REA 是一个基于 TypeScript 开发的开源逆向工程工具，通过 MCP 协议把智能体接入二进制、应用与运行时行为的分析流程。它要解决的问题是：当你看到某个应用里想借鉴的功能，却拿不到源码时，可以让智能体借助 REA 检查该应用，说明功能如何实现并给出证据，再据此为自己的项目构建对应版本。核心能力覆盖原生二进制、JavaScript 与 Electron 应用、.NET 程序集以及网站，静态分析无需引擎，原生分析可复用已有的 Hopper 或 Ghidra。分析在本地运行，结论附带证据与局限。",
-      "last_seen": "2026-10-10",
-      "seen_count": 11,
-      "added_at": "2026-10-09T10:50:16+00:00",
-      "windows": [
-        "daily"
-      ]
+      "seen_count": 5
     },
     {
       "owner": "go-gitea",
@@ -5362,14 +5362,14 @@
       "created_at": "2016-11-01T02:13:26Z",
       "pushed_at": "2026-10-10T07:46:57Z",
       "updated_at": "2026-10-10T10:09:25Z",
-      "open_issues": 2312,
+      "open_issues": 2313,
       "summary": "Gitea 是一款用 Go 语言编写的自托管一体化软件开发服务，目标是以最简单、快速且省心的方式搭建 Git 托管平台。它集成了代码管理、代码审查、议题跟踪、项目看板、Wiki、团队协作、包注册表以及可复用 GitHub Actions 的 CI/CD 功能，解决团队自建开发基础设施时工具分散、部署复杂的问题。由于基于 Go，它可运行在 Linux、macOS、FreeBSD/OpenBSD 和 Windows 上，支持 x86、amd64、ARM、RISC-V 64 与 PowerPC 等架构。用户可通过官方镜像以容器方式部署，或从源码构建后运行 gitea web 启动服务。",
       "windows": [
         "weekly"
       ],
       "added_at": "2026-10-09T11:00:35+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 8
+      "seen_count": 9
     },
     {
       "owner": "debpalash",
@@ -5378,13 +5378,13 @@
       "url": "https://github.com/debpalash/VoiceStudio",
       "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
       "language": "Python",
-      "stars": 56750,
+      "stars": 56752,
       "forks": 6366,
       "homepage": "https://voicestudio.sh",
       "license": "AGPL-3.0",
       "created_at": "2026-04-09T21:40:26Z",
-      "pushed_at": "2026-10-10T10:30:31Z",
-      "updated_at": "2026-10-10T10:29:33Z",
+      "pushed_at": "2026-10-10T10:31:36Z",
+      "updated_at": "2026-10-10T10:36:14Z",
       "open_issues": 59,
       "summary": "VoiceStudio 是一个用 Python 编写的开源、完全本地化的 ElevenLabs 替代方案，支持 646 种语言的语音克隆、语音设计、视频配音、听写、转录和有声书制作。它解决的是语音生成工具依赖云端服务、数据外泄和费用高昂的问题，默认由 k2-fsa/OmniVoice 引擎驱动，也可选用其他引擎，本地工作流直接运行在用户硬件上，远程服务为可选项，使用分析数据需经用户同意。典型场景包括克隆声音后输入文本生成语音、为视频配音、转录音频以及制作有声书。",
       "windows": [
@@ -5392,7 +5392,7 @@
       ],
       "added_at": "2026-10-09T11:21:36+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "ayghri",
@@ -5401,13 +5401,13 @@
       "url": "https://github.com/ayghri/i-have-adhd",
       "description": "A skill to stop your coding agent from burying the answer. ADHD-friendly output.",
       "language": "Python",
-      "stars": 56203,
-      "forks": 3204,
+      "stars": 56207,
+      "forks": 3205,
       "homepage": "",
       "license": "MIT",
       "created_at": "2026-05-13T20:42:06Z",
       "pushed_at": "2026-10-06T23:23:46Z",
-      "updated_at": "2026-10-10T10:28:48Z",
+      "updated_at": "2026-10-10T10:41:38Z",
       "open_issues": 66,
       "summary": "i-have-adhd 是一个用 Python 编写的开源技能，为编码助手提供 ADHD 友好的输出规范，无需 ADHD 诊断即可使用。它要解决的问题是：编码助手常把答案埋在冗长铺垫和客套话里，用户得翻找半天才能看到关键操作。该技能通过 SKILL.md 中的十条规则约束助手行为，包括先给出下一步操作、多步任务编号、每轮重申当前状态、给出具体分钟级时间估计、错误陈述就事论事、列表最多五项，并禁止开场白、总结和“希望有帮助”之类的收尾。典型场景是让助手修改代码或排查故障时，直接输出如“编辑 src/auth.ts 第 42 行更新令牌校验”这样的可执行步骤，而非大段解释。",
       "windows": [
@@ -5415,7 +5415,7 @@
       ],
       "added_at": "2026-10-09T11:21:36+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "coreyhaines31",
@@ -5424,13 +5424,13 @@
       "url": "https://github.com/coreyhaines31/marketingskills",
       "description": "Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.",
       "language": "JavaScript",
-      "stars": 53990,
+      "stars": 53992,
       "forks": 8023,
       "homepage": "https://marketing-skills.com",
       "license": "MIT",
       "created_at": "2026-01-15T19:45:23Z",
       "pushed_at": "2026-10-08T21:51:51Z",
-      "updated_at": "2026-10-10T10:29:14Z",
+      "updated_at": "2026-10-10T10:39:04Z",
       "open_issues": 31,
       "summary": "marketingskills 是一套面向 AI 编程代理的营销技能库，由 Corey Haines 构建，主要服务技术型营销人员和创始人。它通过 Markdown 文件为代理注入专业知识和操作流程，使其在处理营销任务时能调用相应框架与最佳实践，兼容 Claude Code、OpenAI Codex、Cursor、Windsurf 等支持 Agent Skills 规范的代理。技能覆盖转化率优化、文案写作、SEO、分析与增长工程等方向，其中 product-marketing 是基础技能，其他技能会先读取它来理解产品、受众与定位。",
       "windows": [
@@ -5438,7 +5438,7 @@
       ],
       "added_at": "2026-10-09T10:59:47+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 9
+      "seen_count": 10
     },
     {
       "owner": "bojieli",
@@ -5448,7 +5448,7 @@
       "description": "《深入理解 AI Agent：设计原理与工程实践》（李博杰 著）开源主仓库：全书正文、编译版 PDF 与按章配套代码",
       "language": "Python",
       "stars": 53303,
-      "forks": 6026,
+      "forks": 6027,
       "homepage": "",
       "license": "Apache-2.0",
       "created_at": "2025-09-09T02:41:44Z",
@@ -5461,7 +5461,7 @@
       ],
       "added_at": "2026-10-09T11:21:36+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "multica-ai",
@@ -5470,21 +5470,21 @@
       "url": "https://github.com/multica-ai/multica",
       "description": "Make humans and AI agents work as one team — open-source and self-hostable.",
       "language": "Go",
-      "stars": 52378,
-      "forks": 6820,
+      "stars": 52380,
+      "forks": 6821,
       "homepage": "https://multica.ai",
       "license": "NOASSERTION",
       "created_at": "2026-01-13T17:59:46Z",
       "pushed_at": "2026-10-10T09:03:32Z",
-      "updated_at": "2026-10-10T10:28:27Z",
-      "open_issues": 1851,
+      "updated_at": "2026-10-10T10:39:51Z",
+      "open_issues": 1852,
       "summary": "Multica 是一个可自托管的工作空间，把 AI 编码代理当作团队成员来分配工作：给代理指派 issue，它会自行接单、在你自己控制的运行时上执行、边做边评论，完成后交回人工审查。它针对的问题是，同时使用 Claude Code、Codex 等多个代理时，每个都困在独立终端里、会话结束即失忆，人不得不反复补充上下文。Multica 不内置模型，而是驱动你已安装并登录的 26 种代理 CLI，切换供应商只是换个下拉选项。",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-09T11:00:35+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 8
+      "seen_count": 9
     },
     {
       "owner": "bilawalsidhu",
@@ -5493,13 +5493,13 @@
       "url": "https://github.com/bilawalsidhu/gods-eye-view",
       "description": "A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.",
       "language": "JavaScript",
-      "stars": 49820,
-      "forks": 10065,
+      "stars": 49821,
+      "forks": 10067,
       "homepage": "https://maptheworld.ai/",
       "license": "NOASSERTION",
       "created_at": "2026-06-22T23:37:22Z",
       "pushed_at": "2026-10-10T03:59:46Z",
-      "updated_at": "2026-10-10T10:26:26Z",
+      "updated_at": "2026-10-10T10:32:19Z",
       "open_issues": 296,
       "summary": "God's Eye View 是一个运行在浏览器中的间谍卫星模拟器，基于 JavaScript 开发，将公开的实时数据源汇聚到同一个逼真的三维地球上。它解决的是信息分散问题：航班应答机、船舶信标、卫星轨道根数、地震仪和公共摄像头本就公开，但此前彼此孤立，该项目把它们放进同一视图，让用户在全球态势与单个飞机、船只或街道之间自由切换。核心能力包括驾驶舱视角跟随航班、点击追踪任意目标并显示轨迹与元数据、语音控制与语音标注、按机型渲染的 3D 飞机模型、CRT/NVG/FLIR 等传感器滤镜、检测框叠加、军事风格 HUD、天气与雷达动画、卫星过境查询、免密钥搜索以及可分享的场景链接。",
       "windows": [
@@ -5507,7 +5507,7 @@
       ],
       "added_at": "2026-10-09T10:59:47+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 8
+      "seen_count": 9
     },
     {
       "owner": "QuantumNous",
@@ -5516,13 +5516,13 @@
       "url": "https://github.com/QuantumNous/new-api",
       "description": "A unified AI model hub for aggregation & distribution. It supports cross-converting various LLMs into OpenAI-compatible, Claude-compatible, or Gemini-compatible formats. A centralized gateway for personal and enterprise model management.",
       "language": "Go",
-      "stars": 49614,
+      "stars": 49615,
       "forks": 11925,
       "homepage": "https://www.newapi.ai",
       "license": "AGPL-3.0",
       "created_at": "2023-11-10T19:33:36Z",
       "pushed_at": "2026-10-10T06:07:53Z",
-      "updated_at": "2026-10-10T10:25:00Z",
+      "updated_at": "2026-10-10T10:41:25Z",
       "open_issues": 1371,
       "summary": "New API 是一个用 Go 编写的自托管 AI 网关，面向应用、智能体与团队，用于聚合和分发模型服务。它把 OpenAI、Anthropic、Google Gemini、Azure OpenAI、AWS Bedrock、Vertex AI、DeepSeek、Qwen 等上游服务接入后，对外暴露统一的 API，并在一个控制台内管理路由、访问权限、用量与成本。其核心能力是协议转换，可在 OpenAI、Claude、Gemini 等格式间做请求、响应与流式转换，让客户端无需为更换供应商重复配置。典型场景包括团队内共享授权的模型访问、私有化多模型服务部署，以及跨供应商的用量分析与费用核算。",
       "windows": [
@@ -5530,7 +5530,7 @@
       ],
       "added_at": "2026-10-09T11:00:35+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 8
+      "seen_count": 9
     },
     {
       "owner": "bevyengine",
@@ -5553,7 +5553,7 @@
       ],
       "added_at": "2026-10-09T11:01:04+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 9
+      "seen_count": 10
     },
     {
       "owner": "cathrynlavery",
@@ -5562,13 +5562,13 @@
       "url": "https://github.com/cathrynlavery/diagram-design",
       "description": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Factory Droid, and Pi. 44 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
       "language": "HTML",
-      "stars": 48404,
+      "stars": 48412,
       "forks": 3058,
       "homepage": "https://cathrynlavery.github.io/diagram-design/",
       "license": "MIT",
       "created_at": "2026-04-16T18:01:16Z",
       "pushed_at": "2026-10-10T04:32:06Z",
-      "updated_at": "2026-10-10T10:30:23Z",
+      "updated_at": "2026-10-10T10:39:59Z",
       "open_issues": 81,
       "summary": "diagram-design 是一套面向 Claude Code、Codex、GitHub Copilot、Factory Droid、Pi 等 Agent Skills 兼容宿主的编辑级图表设计技能，用自包含的 HTML + SVG 输出，无需构建步骤、JavaScript 或外部图片依赖。它针对的是 AI 生成图表常见的圆角方框套路和风格不统一问题，提供 42 种图表类型，涵盖架构图、流程图、时序图、ER 图、泳道图、甘特图、桑基图、鱼骨图、Wardley 地图、看板、用户旅程、UML 类图、数据库模式等，每种都附带极简浅色、极简深色和完整编辑三种静态变体，可直接在浏览器打开。",
       "windows": [
@@ -5576,7 +5576,7 @@
       ],
       "added_at": "2026-10-09T11:23:29+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "K-Dense-AI",
@@ -5599,7 +5599,7 @@
       ],
       "added_at": "2026-10-09T11:21:36+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "jeecgboot",
@@ -5622,7 +5622,7 @@
       ],
       "added_at": "2026-10-09T11:22:02+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "vectorize-io",
@@ -5631,13 +5631,13 @@
       "url": "https://github.com/vectorize-io/hindsight",
       "description": "Hindsight: Agent Memory That Learns",
       "language": "Python",
-      "stars": 47890,
+      "stars": 47892,
       "forks": 5988,
       "homepage": "https://hindsight.vectorize.io/",
       "license": "MIT",
       "created_at": "2025-10-30T11:49:48Z",
       "pushed_at": "2026-10-09T18:39:34Z",
-      "updated_at": "2026-10-10T10:26:43Z",
+      "updated_at": "2026-10-10T10:34:41Z",
       "open_issues": 183,
       "summary": "Hindsight 是一个用 Python 编写的智能体记忆系统，目标不是单纯回放对话历史，而是让智能体随时间积累并学习。它针对 RAG 和知识图谱在长期记忆任务上的不足，采用类生物记忆结构，将记忆分为世界事实、经历、观察和心智模型，并存入相互隔离的 bank 中。系统提供 retain、recall、reflect 三种操作：retain 借助 LLM 抽取事实、实体与关系；recall 并行执行语义、关键词、图和时间四路检索并融合重排；reflect 则对已有记忆做深度分析。后台还会把相关事实整合为带证据的观察，并生成可像数据库一样直接读取的心智模型和知识页面。",
       "windows": [
@@ -5645,7 +5645,7 @@
       ],
       "added_at": "2026-10-09T11:21:36+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "hiroi-sora",
@@ -5654,13 +5654,13 @@
       "url": "https://github.com/hiroi-sora/Umi-OCR",
       "description": "OCR software, free and offline. 开源、免费的离线OCR软件。支持截屏/批量导入图片，PDF文档识别，排除水印/页眉页脚，扫描/生成二维码。内置多国语言库。",
       "language": "Python",
-      "stars": 47773,
+      "stars": 47775,
       "forks": 4664,
       "homepage": "",
       "license": "MIT",
       "created_at": "2022-03-28T04:01:46Z",
       "pushed_at": "2025-11-20T14:58:13Z",
-      "updated_at": "2026-10-10T10:30:38Z",
+      "updated_at": "2026-10-10T10:39:04Z",
       "open_issues": 361,
       "summary": "Umi-OCR 是一款开源免费的离线 OCR 软件，基于 Python 开发，适用于 Windows7 x64 与 Linux x64 平台，解压即用，无需联网。它主要解决图片与文档中文字提取的需求，支持截屏识别、批量导入图片、PDF 等文档识别，并能排除水印与页眉页脚干扰。核心能力包括多国语言识别库、排版解析、忽略区域、二维码扫描与生成、公式识别，以及命令行与 HTTP 接口调用。典型场景如批量处理本地图片、从扫描件提取文本或生成双层可搜索 PDF、识别长图与代码截图。",
       "windows": [
@@ -5668,7 +5668,7 @@
       ],
       "added_at": "2026-10-09T11:21:36+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "MHSanaei",
@@ -5692,7 +5692,7 @@
       ],
       "added_at": "2026-10-09T11:00:35+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 8
+      "seen_count": 9
     },
     {
       "owner": "DeusData",
@@ -5715,7 +5715,7 @@
       ],
       "added_at": "2026-10-09T11:22:49+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "alibaba",
@@ -5724,13 +5724,13 @@
       "url": "https://github.com/alibaba/open-code-review",
       "description": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
       "language": "Go",
-      "stars": 45699,
-      "forks": 3298,
+      "stars": 45707,
+      "forks": 3299,
       "homepage": "https://open-codereview.ai",
       "license": "Apache-2.0",
       "created_at": "2026-05-18T02:16:36Z",
       "pushed_at": "2026-10-10T08:37:26Z",
-      "updated_at": "2026-10-10T10:27:43Z",
+      "updated_at": "2026-10-10T10:39:21Z",
       "open_issues": 288,
       "summary": "Open Code Review 是阿里巴巴开源的一款 AI 代码审查命令行工具，由内部官方 AI 代码审查助手孵化而来，使用 Go 语言编写。它读取 Git diff，将变更文件交给可配置的 LLM Agent 审查，生成精确到行的结构化评论，Agent 能读取完整文件、搜索代码库并参考其他变更文件，还支持对整个文件进行扫描审查。",
       "windows": [
@@ -5739,7 +5739,7 @@
       ],
       "added_at": "2026-10-09T11:00:35+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 8
+      "seen_count": 9
     },
     {
       "owner": "getsentry",
@@ -5762,7 +5762,7 @@
       ],
       "added_at": "2026-10-09T11:21:36+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "LibreChat-AI",
@@ -5771,13 +5771,13 @@
       "url": "https://github.com/LibreChat-AI/LibreChat",
       "description": "Enhanced ChatGPT Clone: Features Agents, MCP, Skills, DeepSeek, Anthropic, AWS, OpenAI, Responses API, Azure, Groq, o1, GPT-5, Mistral, OpenRouter, Vertex AI, Gemini, Artifacts, AI model switching, message search, Code Interpreter, langchain, DALL-E-3, OpenAPI Actions, Functions, Secure Multi-User Auth, Presets, open-source for self-hosting. Active",
       "language": "TypeScript",
-      "stars": 45478,
+      "stars": 45477,
       "forks": 9337,
       "homepage": "https://librechat.ai/",
       "license": "MIT",
       "created_at": "2023-02-12T01:06:52Z",
       "pushed_at": "2026-10-10T10:30:10Z",
-      "updated_at": "2026-10-10T10:28:22Z",
+      "updated_at": "2026-10-10T10:35:20Z",
       "open_issues": 893,
       "summary": "LibreChat 是一个基于 TypeScript 构建的开源、可自托管 AI 聊天平台，把 Anthropic、OpenAI、Azure、AWS Bedrock、Google Vertex AI、Groq、DeepSeek、Mistral、OpenRouter 等主流模型服务统一到一个界面中，也支持任何兼容 OpenAI 的本地或远程端点，无需代理。它解决的是多模型切换繁琐、数据隐私与部署自主性不足的问题。",
       "windows": [
@@ -5785,7 +5785,7 @@
       ],
       "added_at": "2026-10-09T11:00:09+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 8
+      "seen_count": 9
     },
     {
       "owner": "zen-browser",
@@ -5794,13 +5794,13 @@
       "url": "https://github.com/zen-browser/desktop",
       "description": "Welcome to a calmer internet",
       "language": "C++",
-      "stars": 44853,
+      "stars": 44854,
       "forks": 1814,
       "homepage": "https://zen-browser.app",
       "license": "MPL-2.0",
       "created_at": "2024-03-28T00:05:55Z",
       "pushed_at": "2026-10-10T09:16:44Z",
-      "updated_at": "2026-10-10T10:29:48Z",
+      "updated_at": "2026-10-10T10:41:08Z",
       "open_issues": 754,
       "summary": "Zen Browser 是一款基于 Firefox 构建的开源浏览器，官方定位是带来更平静的上网体验，同时致力于将用户的生产力提升到新水平。它主要解决的是日常浏览中效率与专注度不足的问题，通过 Firefox 内核的稳定性和兼容性，在此基础上进行定制与优化。核心特点在于其构建方式：正式版基于 Firefox 157.0.1，而 Twilight 版本则基于 Firefox RC 157.0.1，用户可根据对稳定性和新特性的需求选择不同通道。",
       "windows": [
@@ -5808,7 +5808,7 @@
       ],
       "added_at": "2026-10-09T11:23:13+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "vercel-labs",
@@ -5827,7 +5827,7 @@
       "open_issues": 849,
       "summary": "agent-browser 是 Vercel Labs 推出的浏览器自动化命令行工具，专为 AI 智能体设计，使用 Rust 编写，以原生二进制形式提供，运行速度快。它通过 npm、Homebrew、Cargo 或源码安装，可自动检测并复用已有的 Chrome、Brave、Playwright 和 Puppeteer 环境，守护进程本身不依赖 Playwright 或 Node.js。核心能力包括语义化元素定位与点击、填表、悬停等操作，支持批量命令执行以减少进程启动开销，并提供标签页管理、Cookie 与存储、网络控制、剪贴板、鼠标控制及浏览器设置等命令。",
       "last_seen": "2026-10-10",
-      "seen_count": 11,
+      "seen_count": 12,
       "added_at": "2026-10-09T10:50:39+00:00",
       "windows": [
         "daily"
@@ -5840,13 +5840,13 @@
       "url": "https://github.com/Wei-Shaw/sub2api",
       "description": "Sub2API 一站式开源中转服务，让 Claude、Openai 、Gemini、Grok订阅统一接入，支持拼车共享，更高效分摊成本，原生工具无缝使用。",
       "language": "Go",
-      "stars": 43626,
+      "stars": 43628,
       "forks": 9362,
       "homepage": "",
       "license": "LGPL-3.0",
       "created_at": "2025-12-18T02:26:18Z",
       "pushed_at": "2026-10-10T08:08:18Z",
-      "updated_at": "2026-10-10T10:18:57Z",
+      "updated_at": "2026-10-10T10:40:17Z",
       "open_issues": 3569,
       "summary": "Sub2API 是一个用 Go 语言编写的 AI API 网关平台，定位为订阅配额分发的一站式开源中转服务。它要解决的问题是：用户手中有 Claude、OpenAI、Gemini、Grok 等多家上游服务的订阅，但各平台接口与配额彼此独立，难以统一调用和分摊成本。该项目通过统一接入这些订阅，让不同来源的模型能力汇聚到同一入口，并支持拼车共享，使多人可以更高效地分摊订阅费用，同时保持原生工具的无缝使用。其核心能力集中在订阅配额的分发与中转上，适合需要同时使用多种主流模型、又希望降低单人成本的小团队或个人开发者。技术栈以 Go 为主，部署后可作为 API 网关对接各类客户端。",
       "windows": [
@@ -5854,7 +5854,7 @@
       ],
       "added_at": "2026-10-09T11:00:35+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 8
+      "seen_count": 9
     },
     {
       "owner": "curl",
@@ -5877,7 +5877,7 @@
       ],
       "added_at": "2026-10-09T11:22:49+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "aria2",
@@ -5900,7 +5900,7 @@
       ],
       "added_at": "2026-10-09T11:23:13+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "LizardByte",
@@ -5914,7 +5914,7 @@
       "homepage": "http://app.lizardbyte.dev/Sunshine/",
       "license": "GPL-3.0",
       "created_at": "2021-12-15T23:38:57Z",
-      "pushed_at": "2026-10-10T08:24:12Z",
+      "pushed_at": "2026-10-10T10:41:39Z",
       "updated_at": "2026-10-10T10:22:39Z",
       "open_issues": 165,
       "summary": "Sunshine 是一个用 C++ 编写的自托管游戏串流主机，为 Moonlight 客户端提供低延迟的云游戏服务。它解决的是把本机游戏画面实时推送到其他设备的问题，支持 AMD、Intel、Nvidia 显卡的硬件编码，也提供软件编码方案。用户可通过任意设备上的 Moonlight 客户端连接，并借助网页界面完成配置和客户端配对，既能在本地服务器操作，也能用移动设备完成。它覆盖 FreeBSD、Linux、macOS 和 Windows，支持 AMF、NVENC、QuickSync、VAAPI、Video Toolbox、Vulkan Video 等编码接口，以及多种屏幕捕获方式。",
@@ -5923,7 +5923,7 @@
       ],
       "added_at": "2026-10-09T11:23:13+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "XTLS",
@@ -5947,7 +5947,7 @@
       ],
       "added_at": "2026-10-09T11:00:35+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 8
+      "seen_count": 9
     },
     {
       "owner": "tinyhumansai",
@@ -5956,21 +5956,21 @@
       "url": "https://github.com/tinyhumansai/openhuman",
       "description": "The fastest, cheapest, most efficient open-source agent harness. Run more than 500 agents on a $10 VPS.",
       "language": "Rust",
-      "stars": 41771,
+      "stars": 41770,
       "forks": 4111,
       "homepage": "https://tinyhumans.ai/openhuman",
       "license": "GPL-3.0",
       "created_at": "2026-02-18T20:01:27Z",
-      "pushed_at": "2026-10-10T10:20:19Z",
-      "updated_at": "2026-10-10T10:20:24Z",
-      "open_issues": 248,
+      "pushed_at": "2026-10-10T10:37:07Z",
+      "updated_at": "2026-10-10T10:37:16Z",
+      "open_issues": 247,
       "summary": "OpenHuman 是一个用 Rust 编写的开源 agent harness，目标是在极低资源下运行大规模 agent 集群。它针对多数 harness 每个 agent 跑一个重进程、每次调用重发大段提示词的问题，通过 RLM 递归语言模型压缩工具返回结果、Jev 小模型从 1215 个工具中检索、统一 Rust 总线按需加载功能、内置带引用的记忆机制，以及无截图的浏览器与桌面控制，把单步开销压下来。官方基准显示，在相同模型与容器下跑 SWE-bench 任务，它用时不到中位数一半，token 消耗约为典型工具的 2.",
       "windows": [
         "weekly"
       ],
       "added_at": "2026-10-09T11:01:04+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 8
+      "seen_count": 9
     },
     {
       "owner": "JustVugg",
@@ -5979,13 +5979,13 @@
       "url": "https://github.com/JustVugg/colibri",
       "description": "Run frontier MoE models on hardware you already own — pure C, zero deps, experts streamed from disk. Tiny engine, immense model. 🐦",
       "language": "C",
-      "stars": 40901,
+      "stars": 40903,
       "forks": 4487,
       "homepage": "https://justvugg.github.io/colibri",
       "license": "Apache-2.0",
       "created_at": "2026-07-01T12:27:49Z",
       "pushed_at": "2026-10-08T18:30:03Z",
-      "updated_at": "2026-10-10T10:24:28Z",
+      "updated_at": "2026-10-10T10:35:14Z",
       "open_issues": 90,
       "summary": "colibri 是一个用纯 C 编写的 MoE 模型推理引擎，目标是让用户在已有硬件上运行前沿规模的专家混合模型。它利用 MoE 模型每个 token 只激活少量专家的特性，将稠密部分常驻内存，把路由专家留在磁盘上按需读取，并通过缓存学习常用专家，从而不必把整个模型塞进显存或内存。项目无需 GPU 也能运行，支持 Vulkan 和 CUDA 加速，每个模型家族对应一个源文件。目前内置十余个引擎，覆盖 GLM、Kimi、DeepSeek、Qwen、OLMoE 等语言模型，以及图像生成和决策类模型。",
       "windows": [
@@ -5993,7 +5993,7 @@
       ],
       "added_at": "2026-10-09T11:22:49+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "TeamNewPipe",
@@ -6016,7 +6016,7 @@
       ],
       "added_at": "2026-10-09T11:22:02+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 5
+      "seen_count": 6
     },
     {
       "owner": "ajeetdsouza",
@@ -6108,7 +6108,7 @@
       ],
       "added_at": "2026-10-09T11:22:02+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "anthropics",
@@ -6131,7 +6131,7 @@
       ],
       "added_at": "2026-10-09T11:21:36+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "VectifyAI",
@@ -6145,7 +6145,7 @@
       "homepage": "https://pageindex.ai",
       "license": "MIT",
       "created_at": "2025-04-01T10:53:54Z",
-      "pushed_at": "2026-10-08T05:18:34Z",
+      "pushed_at": "2026-10-10T10:35:42Z",
       "updated_at": "2026-10-10T10:25:59Z",
       "open_issues": 122,
       "summary": "PageIndex 是一个基于推理的无向量 RAG 引擎，用 Python 编写。它针对向量数据库在长而复杂的专业文档上检索准确率不足的问题：语义相似不等于相关，而相关需要推理。PageIndex 受 AlphaGo 启发，用层次化树索引取代向量索引，让大模型在树上推理检索，模拟人类专家翻阅长报告的方式。流程分两步：先为每份文档生成树结构索引，再用大模型推理在树上进行代理式搜索，实现可追溯、可解释、上下文感知的检索，无需向量库和分块。索引阶段用基础模型即可，成本约为每页 0.001 美元；查询阶段建议用最好的模型。",
@@ -6154,7 +6154,7 @@
       ],
       "added_at": "2026-10-09T11:21:36+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "aquasecurity",
@@ -6178,7 +6178,7 @@
       ],
       "added_at": "2026-10-09T11:00:35+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 8
+      "seen_count": 9
     },
     {
       "owner": "tailscale",
@@ -6225,7 +6225,7 @@
       ],
       "added_at": "2026-10-09T11:22:02+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 5
+      "seen_count": 6
     },
     {
       "owner": "ItzCrazyKns",
@@ -6271,7 +6271,7 @@
       ],
       "added_at": "2026-10-09T11:01:40+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 7
+      "seen_count": 8
     },
     {
       "owner": "hashicorp",
@@ -6290,7 +6290,7 @@
       "open_issues": 1458,
       "summary": "Vault 是 HashiCorp 用 Go 语言开发的开源工具，用于安全访问密钥，提供密钥管理、加密即服务和特权访问管理能力。它解决的核心问题是：现代系统需要访问数据库凭据、API 密钥、证书等大量敏感信息，而追踪谁访问了什么、实现密钥轮换与安全存储往往依赖平台特定方案，缺少统一且带审计的手段。Vault 提供统一接口，写入持久存储前先加密，并记录详细审计日志。其核心能力包括安全密钥存储、动态密钥生成（如按需为 AWS 或 SQL 数据库创建并到期自动吊销凭据）、数据加解密而不存储数据、租约与续期、以及单条或树状密钥吊销。",
       "last_seen": "2026-10-10",
-      "seen_count": 11,
+      "seen_count": 12,
       "added_at": "2026-10-09T10:50:28+00:00",
       "windows": [
         "daily"
@@ -6317,7 +6317,7 @@
       ],
       "added_at": "2026-10-09T11:00:35+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 8
+      "seen_count": 9
     },
     {
       "owner": "raysan5",
@@ -6340,7 +6340,7 @@
       ],
       "added_at": "2026-10-09T11:22:49+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "jdx",
@@ -6363,7 +6363,7 @@
       ],
       "added_at": "2026-10-09T11:01:04+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 8
+      "seen_count": 9
     },
     {
       "owner": "rustfs",
@@ -6377,7 +6377,7 @@
       "homepage": "https://rustfs.com/download/",
       "license": "Apache-2.0",
       "created_at": "2023-11-23T13:45:10Z",
-      "pushed_at": "2026-10-10T10:26:58Z",
+      "pushed_at": "2026-10-10T10:42:03Z",
       "updated_at": "2026-10-10T10:28:27Z",
       "open_issues": 47,
       "summary": "RustFS 是一个用 Rust 编写的分布式对象存储系统，主要面向需要 S3 兼容能力的数据湖、AI 和大数据场景。它试图在保持 MinIO 式简洁部署体验的同时，借助 Rust 的内存安全与执行效率提供更高的性能和资源利用率。核心能力包括：兼容 S3 API 及 OpenStack Swift 协议与 Keystone 认证，支持分布式架构与故障容错，针对高吞吐负载优化，并提供 KMS 后端、Webhook 通知、OIDC 角色声明映射等企业特性。",
@@ -6386,7 +6386,7 @@
       ],
       "added_at": "2026-10-09T11:01:04+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 9
+      "seen_count": 10
     },
     {
       "owner": "p-e-w",
@@ -6409,7 +6409,7 @@
       ],
       "added_at": "2026-10-09T11:21:36+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "FreeCAD",
@@ -6423,16 +6423,16 @@
       "homepage": "https://www.freecad.org",
       "license": "LGPL-2.1",
       "created_at": "2012-09-09T08:25:02Z",
-      "pushed_at": "2026-10-10T09:42:52Z",
+      "pushed_at": "2026-10-10T10:37:16Z",
       "updated_at": "2026-10-10T10:06:18Z",
-      "open_issues": 3978,
+      "open_issues": 3979,
       "summary": "FreeCAD 是一款开源、跨平台的三维参数化建模软件，官方源代码以 C++ 编写。它面向现实物体的设计，允许用户通过修改模型历史中的参数来调整设计，从而解决从概念到成品过程中反复修改的需求。其核心能力包括：基于几何约束绘制二维草图并以此构建三维对象，也能从三维模型反向生成二维工程图，并提供尺寸调整工具以输出高质量生产图纸。技术上，它依赖 OpenCASCADE 几何内核、Coin3D 三维场景库、Qt 图形界面，并开放广泛的 Python API。",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-09T11:23:13+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "microsoft",
@@ -6455,7 +6455,7 @@
       ],
       "added_at": "2026-10-09T11:23:13+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "apache",
@@ -6478,7 +6478,7 @@
       ],
       "added_at": "2026-10-09T11:22:02+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "cjpais",
@@ -6487,13 +6487,13 @@
       "url": "https://github.com/cjpais/Handy",
       "description": "A free, open source, and extensible speech-to-text application that works completely offline.",
       "language": "Rust",
-      "stars": 33406,
-      "forks": 3115,
+      "stars": 33407,
+      "forks": 3114,
       "homepage": "https://handy.computer",
       "license": "MIT",
       "created_at": "2025-02-13T02:42:29Z",
       "pushed_at": "2026-10-10T02:41:21Z",
-      "updated_at": "2026-10-10T10:25:07Z",
+      "updated_at": "2026-10-10T10:37:03Z",
       "open_issues": 170,
       "summary": "Handy 是一款用 Rust 编写的跨平台桌面语音转文字应用，完全离线运行，主打隐私与简洁。它解决的问题很直接：用户按下可配置的快捷键说话，松开后文字便自动粘贴到任意输入框，音频不经过云端。转录由 Whisper 系列模型（Small/Medium/Turbo/Large，支持 GPU 加速）或 CPU 优化的 Parakeet V3 完成，并用 Silero 做静音检测。支持 Windows、macOS 和 Linux，可通过 Homebrew、winget 或 deb 包安装，也提供 Raycast 集成和命令行参数控制。",
       "windows": [
@@ -6501,7 +6501,7 @@
       ],
       "added_at": "2026-10-09T11:01:04+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 8
+      "seen_count": 9
     },
     {
       "owner": "shadps4-emu",
@@ -6510,13 +6510,13 @@
       "url": "https://github.com/shadps4-emu/shadPS4",
       "description": "PlayStation 4 emulator for Windows, Linux, macOS and FreeBSD written in C++",
       "language": "C++",
-      "stars": 33334,
+      "stars": 33335,
       "forks": 2675,
       "homepage": "https://shadps4.net/",
       "license": "GPL-2.0",
       "created_at": "2022-10-24T09:48:37Z",
       "pushed_at": "2026-10-10T10:29:06Z",
-      "updated_at": "2026-10-10T10:29:11Z",
+      "updated_at": "2026-10-10T10:32:34Z",
       "open_issues": 263,
       "summary": "shadPS4 是一个用 C++ 编写的早期 PlayStation 4 模拟器，支持 Windows、Linux、macOS 和 FreeBSD，目标是让玩家在 PC 上运行 PS4 游戏。它解决的是跨平台运行 PS4 独占或主机游戏的需求，目前能成功运行《血源诅咒》《黑暗之魂：重制版》《荒野大镖客：救赎》等作品。项目核心不含图形界面，普通用户需搭配 QtLauncher 使用。它支持 Xbox 和 DualShock 手柄即插即用，也提供键盘鼠标映射，并可加载部分 PS4 固件模块。典型场景包括游戏兼容性测试、调试与问题报告，以及通过 Docker 或各平台说明进行构建。",
       "windows": [
@@ -6525,7 +6525,7 @@
       ],
       "added_at": "2026-10-09T11:23:13+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 5
+      "seen_count": 6
     },
     {
       "owner": "Tencent",
@@ -6534,14 +6534,14 @@
       "url": "https://github.com/Tencent/WeKnora",
       "description": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
       "language": "Go",
-      "stars": 32977,
+      "stars": 32978,
       "forks": 4388,
       "homepage": "https://weknora.weixin.qq.com",
       "license": "NOASSERTION",
       "created_at": "2025-07-22T08:01:23Z",
-      "pushed_at": "2026-10-10T09:45:19Z",
-      "updated_at": "2026-10-10T10:30:46Z",
-      "open_issues": 614,
+      "pushed_at": "2026-10-10T10:36:05Z",
+      "updated_at": "2026-10-10T10:36:10Z",
+      "open_issues": 615,
       "summary": "WeKnora 是腾讯开源、用 Go 编写的 LLM 知识平台，面向企业文档理解、语义检索与推理，把团队散落的文档汇聚成可查询、可推理并持续更新的知识库。它提供三种协同模式：用 RAG 做快速问答并标注来源，用智能体完成多步任务，用自动 Wiki 将文档中的人、产品与概念整理成带引用的页面，三者共享同一知识库。智能体可安装技能并在 Docker、E2B、Cube 沙箱中运行，通过 BrowserSkill 操作用户本机浏览器，也能接入外部 MCP 服务。",
       "windows": [
         "daily",
@@ -6549,7 +6549,7 @@
       ],
       "added_at": "2026-10-09T11:00:35+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 8
+      "seen_count": 9
     },
     {
       "owner": "tashfeenahmed",
@@ -6558,17 +6558,17 @@
       "url": "https://github.com/tashfeenahmed/freellmapi",
       "description": "7.4 billion tokens per month. 34 free LLM providers. 635 free model endpoints. All behind one /v1 endpoint, plus any custom OpenAI-compatible endpoint. Smart routing, automatic failover, encrypted keys. Personal experimentation only.",
       "language": "TypeScript",
-      "stars": 32716,
+      "stars": 32720,
       "forks": 4529,
       "homepage": "https://freellmapi.co",
       "license": "MIT",
       "created_at": "2026-04-21T13:38:59Z",
       "pushed_at": "2026-10-09T21:16:00Z",
-      "updated_at": "2026-10-10T10:28:54Z",
+      "updated_at": "2026-10-10T10:35:03Z",
       "open_issues": 31,
       "summary": "FreeLLMAPI 是一个用 TypeScript 编写的开源路由服务，把 34 家免费 LLM 提供商的 635 个模型端点聚合到单个 OpenAI 兼容的 /v1 接口后面。它要解决的是手动叠加各家免费额度时的麻烦：不同 SDK、不同速率限制、不同失败点。核心能力包括智能路由与自动故障转移、按密钥统计 RPM/RPD/TPM/TPD 用量以卡住免费额度、AES-256-GCM 加密存储密钥、统一模型与命名回退链、粘性会话与上下文交接、可选提示压缩，以及从签名源自动同步模型目录。",
       "last_seen": "2026-10-10",
-      "seen_count": 11,
+      "seen_count": 12,
       "added_at": "2026-10-09T10:50:16+00:00",
       "windows": [
         "daily",
@@ -6597,7 +6597,7 @@
       ],
       "added_at": "2026-10-09T11:21:36+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "vercel-labs",
@@ -6606,13 +6606,13 @@
       "url": "https://github.com/vercel-labs/agent-skills",
       "description": "Vercel's official collection of agent skills",
       "language": "JavaScript",
-      "stars": 32153,
+      "stars": 32154,
       "forks": 2819,
       "homepage": "https://skills.sh/vercel-labs/agent-skills",
       "license": "",
       "created_at": "2025-12-08T19:10:06Z",
       "pushed_at": "2026-08-28T13:36:31Z",
-      "updated_at": "2026-10-10T10:20:06Z",
+      "updated_at": "2026-10-10T10:37:05Z",
       "open_issues": 179,
       "summary": "Agent Skills 是 Vercel 官方推出的 AI 编码代理技能集合，以打包好的指令和脚本扩展代理能力，遵循 Agent Skills 格式。它解决的是 AI 代理在具体工程任务中缺乏针对性指导的问题，目前包含八个技能：vercel-optimize 先采集 Vercel 指标再定位问题路由，用于审计成本、性能、缓存与函数用量；react-best-practices 汇集 Vercel 工程团队的 40 多条 React 与 Next.",
       "windows": [
@@ -6620,7 +6620,7 @@
       ],
       "added_at": "2026-10-09T10:59:47+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 8
+      "seen_count": 9
     },
     {
       "owner": "lbjlaq",
@@ -6629,13 +6629,13 @@
       "url": "https://github.com/lbjlaq/Antigravity-Manager",
       "description": "Professional Antigravity Account Manager & Switcher. One-click seamless account switching for Antigravity Tools. Built with Tauri v2 + React (Rust).专业的 Antigravity 账号管理与切换工具。为 Antigravity 提供一键无缝账号切换功能。",
       "language": "Rust",
-      "stars": 32049,
+      "stars": 32050,
       "forks": 3461,
       "homepage": "https://lbjlaq.github.io/Antigravity-Manager/",
       "license": "NOASSERTION",
       "created_at": "2025-11-26T10:47:13Z",
       "pushed_at": "2026-10-10T04:04:58Z",
-      "updated_at": "2026-10-10T10:28:44Z",
+      "updated_at": "2026-10-10T10:37:04Z",
       "open_issues": 1730,
       "summary": "Antigravity-Manager 是一款基于 Tauri v2 与 React（Rust 后端）构建的桌面应用，用于统一管理 Antigravity 账号并实现一键无缝切换。它面向需要同时使用多个 AI 账号的开发者，将常见的 Google、Anthropic 网页会话转换为标准化 API 接口，解决不同服务商之间的协议差异问题。核心能力包括：多账号仪表盘实时监控 Gemini Pro、Claude 等配额并推荐最佳账号；支持 OAuth 2.",
       "windows": [
@@ -6643,7 +6643,7 @@
       ],
       "added_at": "2026-10-09T11:01:04+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 8
+      "seen_count": 9
     },
     {
       "owner": "tirth8205",
@@ -6666,7 +6666,7 @@
       ],
       "added_at": "2026-10-09T11:21:36+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "ankitects",
@@ -6675,13 +6675,13 @@
       "url": "https://github.com/ankitects/anki",
       "description": "Anki is a smart spaced repetition flashcard program",
       "language": "Rust",
-      "stars": 31890,
+      "stars": 31891,
       "forks": 3316,
       "homepage": "https://apps.ankiweb.net",
       "license": "NOASSERTION",
       "created_at": "2012-12-21T08:03:31Z",
       "pushed_at": "2026-10-09T18:23:24Z",
-      "updated_at": "2026-10-10T10:23:53Z",
+      "updated_at": "2026-10-10T10:41:25Z",
       "open_issues": 586,
       "summary": "Anki 是一款基于间隔重复原理的智能记忆卡片程序，本仓库为其计算机版源代码。它要解决的核心问题是：如何高效地把大量知识长期记住，避免遗忘。间隔重复通过安排复习时间，让学习者在即将遗忘时再次接触内容，从而强化记忆。Anki 的典型使用场景包括语言学习、医学与法律等专业考试备考、日常知识积累等。用户可创建正面与背面组成的卡片，程序根据反馈自动调整后续复习节奏。仓库主要使用 Rust 语言开发，同时包含构建、开发与贡献指南等文档，方便开发者参与改进。除计算机版外，项目还提供测试版供不愿自行编译的用户体验。",
       "windows": [
@@ -6689,7 +6689,7 @@
       ],
       "added_at": "2026-10-09T11:01:04+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 9
+      "seen_count": 10
     },
     {
       "owner": "emilk",
@@ -6735,7 +6735,7 @@
       ],
       "added_at": "2026-10-09T11:22:02+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "78",
@@ -6750,7 +6750,7 @@
       "license": "MIT",
       "created_at": "2024-08-31T10:08:16Z",
       "pushed_at": "2026-10-10T07:51:57Z",
-      "updated_at": "2026-10-10T10:27:08Z",
+      "updated_at": "2026-10-10T10:38:18Z",
       "open_issues": 671,
       "summary": "xiaozhi-esp32 是一个基于 MCP 协议的 ESP32 聊天机器人开源固件，用 C++ 编写，面向语音交互场景。它把大模型能力落到硬件端，借助 Qwen、DeepSeek 等模型实现对话，并通过 MCP 协议完成多端设备控制。项目支持 Wi-Fi、有线以太网、USB RNDIS 及 Cat.",
       "windows": [
@@ -6758,7 +6758,7 @@
       ],
       "added_at": "2026-10-09T11:23:13+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "DrKLO",
@@ -6781,7 +6781,7 @@
       ],
       "added_at": "2026-10-09T11:22:02+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 5
+      "seen_count": 6
     },
     {
       "owner": "Anil-matcha",
@@ -6804,7 +6804,7 @@
       ],
       "added_at": "2026-10-09T11:01:40+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 8
+      "seen_count": 9
     },
     {
       "owner": "gitleaks",
@@ -6851,7 +6851,7 @@
       ],
       "added_at": "2026-10-09T11:22:02+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "Anuken",
@@ -6874,7 +6874,7 @@
       ],
       "added_at": "2026-10-09T11:22:02+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "trycua",
@@ -6883,13 +6883,13 @@
       "url": "https://github.com/trycua/cua",
       "description": "Scale computer-use 2.0 with open-source drivers, cross-OS fleets, and benchmarks for training, evaluation, and data generation.",
       "language": "Rust",
-      "stars": 29238,
+      "stars": 29239,
       "forks": 2066,
       "homepage": "https://cua.ai",
       "license": "MIT",
       "created_at": "2025-01-31T15:02:49Z",
       "pushed_at": "2026-10-10T10:13:19Z",
-      "updated_at": "2026-10-10T10:19:14Z",
+      "updated_at": "2026-10-10T10:38:35Z",
       "open_issues": 1152,
       "summary": "Cua 是一套面向计算机使用智能体的开源工具集，用 Rust 编写，目标是让 AI 代理直接操作真实桌面环境。它提供多个组件：Cua Spaces 是 macOS 桌面应用，在本地或自有机器、云账户上创建完整虚拟机桌面，支持应用免登录迁移、人机共享同一桌面；Cua Driver 通过 CLI、MCP 或类型化 SDK 操作 macOS、Windows、Linux 上的原生应用与浏览器；Lume 基于 Apple Virtualization.",
       "windows": [
@@ -6897,7 +6897,7 @@
       ],
       "added_at": "2026-10-09T11:01:04+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 8
+      "seen_count": 9
     },
     {
       "owner": "keepassxreboot",
@@ -6920,7 +6920,7 @@
       ],
       "added_at": "2026-10-09T11:23:13+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "sharkdp",
@@ -6943,7 +6943,7 @@
       ],
       "added_at": "2026-10-09T11:01:04+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 8
+      "seen_count": 9
     },
     {
       "owner": "ValdikSS",
@@ -6967,7 +6967,7 @@
       ],
       "added_at": "2026-10-09T11:22:49+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "anthropics",
@@ -6976,13 +6976,13 @@
       "url": "https://github.com/anthropics/knowledge-work-plugins",
       "description": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
       "language": "Python",
-      "stars": 28548,
-      "forks": 3260,
+      "stars": 28554,
+      "forks": 3262,
       "homepage": "",
       "license": "Apache-2.0",
       "created_at": "2026-01-23T20:11:54Z",
       "pushed_at": "2026-10-10T07:38:13Z",
-      "updated_at": "2026-10-10T10:29:30Z",
+      "updated_at": "2026-10-10T10:41:14Z",
       "open_issues": 140,
       "summary": "anthropics/knowledge-work-plugins 是 Anthropic 开源的插件集合，主要面向知识工作者，用于 Claude Cowork，也兼容 Claude Code。它解决的是通用助手难以贴合具体岗位、团队和公司流程的问题：每个插件围绕某一职能打包技能、连接器、斜杠命令和子代理，让 Claude 按既定方式完成工作。",
       "windows": [
@@ -6991,7 +6991,7 @@
       ],
       "added_at": "2026-10-09T11:21:36+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "invoke-ai",
@@ -7023,13 +7023,13 @@
       "url": "https://github.com/trufflesecurity/trufflehog",
       "description": "Find, verify, and analyze leaked credentials",
       "language": "Go",
-      "stars": 28406,
+      "stars": 28407,
       "forks": 2627,
       "homepage": "https://trufflesecurity.com",
       "license": "AGPL-3.0",
       "created_at": "2016-12-31T05:08:12Z",
       "pushed_at": "2026-10-09T20:20:15Z",
-      "updated_at": "2026-10-10T05:14:51Z",
+      "updated_at": "2026-10-10T10:37:15Z",
       "open_issues": 560,
       "summary": "TruffleHog 是一款用 Go 编写的开源凭据泄露扫描工具，用于发现、分类、验证和分析泄露的密钥。它解决的痛点是：代码仓库、聊天记录、日志、对象存储等位置常残留 API 密钥、数据库密码和私钥，仅凭肉眼难以识别，且无法判断其是否仍然有效。其核心能力包括：在 Git、S3、GCS、Docker 镜像、Jenkins、Elasticsearch、Postman、Hugging Face 等多种来源中搜索密钥；对超过 800 种密钥类型进行分类；通过实际登录确认密钥是否仍然有效；并对常见泄露类型做权限与资源分析。",
       "windows": [
@@ -7038,7 +7038,7 @@
       ],
       "added_at": "2026-10-09T11:00:35+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 8
+      "seen_count": 9
     },
     {
       "owner": "OtterMind",
@@ -7061,7 +7061,7 @@
       ],
       "added_at": "2026-10-09T11:22:02+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "xiaojieonly",
@@ -7084,7 +7084,7 @@
       ],
       "added_at": "2026-10-09T11:22:49+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "ashishps1",
@@ -7094,7 +7094,7 @@
       "description": "Learn Low Level Design (LLD) and prepare for interviews using free resources.",
       "language": "Java",
       "stars": 27309,
-      "forks": 6595,
+      "forks": 6596,
       "homepage": "https://algomaster.io",
       "license": "GPL-3.0",
       "created_at": "2023-11-17T10:15:12Z",
@@ -7107,7 +7107,7 @@
       ],
       "added_at": "2026-10-09T11:22:02+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "libuv",
@@ -7130,7 +7130,7 @@
       ],
       "added_at": "2026-10-09T11:22:49+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "cloudflare",
@@ -7139,17 +7139,17 @@
       "url": "https://github.com/cloudflare/security-audit-skill",
       "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
       "language": "JavaScript",
-      "stars": 27137,
+      "stars": 27142,
       "forks": 1630,
       "homepage": "",
       "license": "MIT",
       "created_at": "2026-06-18T14:08:44Z",
       "pushed_at": "2026-09-14T19:29:02Z",
-      "updated_at": "2026-10-10T10:30:03Z",
+      "updated_at": "2026-10-10T10:40:48Z",
       "open_issues": 56,
       "summary": "security-audit-skill 是 Cloudflare 开源的一款编码智能体技能，用 JavaScript 编写，可将通用编码智能体改造成安全审计员。它针对单仓库场景，把安全审计拆解为六个阶段：侦察、覆盖驱动的漏洞搜寻、候选验证、结构化输出、独立记录核验和目标中立的报告生成，并通过 coverage-ledger.json、findings.json 等机器可读文件与校验脚本保证结果可核查。其核心特点是采用对抗式验证，检查发现与发现漏洞的智能体相互独立，结论分为 confirmed、needs_validation 和 rejected 三类，且多次运行结果可累加，逐步提升覆盖率。",
       "last_seen": "2026-10-10",
-      "seen_count": 11,
+      "seen_count": 12,
       "added_at": "2026-10-09T10:50:04+00:00",
       "windows": [
         "daily",
@@ -7177,7 +7177,7 @@
       ],
       "added_at": "2026-10-09T11:23:13+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "pingdotgg",
@@ -7186,14 +7186,14 @@
       "url": "https://github.com/pingdotgg/t3code",
       "description": "",
       "language": "TypeScript",
-      "stars": 26715,
-      "forks": 6984,
+      "stars": 26717,
+      "forks": 6985,
       "homepage": "https://t3.codes",
       "license": "MIT",
       "created_at": "2026-02-08T23:46:22Z",
       "pushed_at": "2026-10-10T09:43:45Z",
-      "updated_at": "2026-10-10T10:28:36Z",
-      "open_issues": 2934,
+      "updated_at": "2026-10-10T10:40:59Z",
+      "open_issues": 2938,
       "summary": "T3 Code 是一个用 TypeScript 编写的“智能体控制面板”，让你通过 iOS、Android 移动应用、网页应用和基于 Electron 的桌面应用来操控本机上的 AI 编程智能体。它本身不提供模型，而是对接你已有的订阅服务，包括 Claude Code、Codex、Cursor、Grok Build、OpenCode 和 Google Antigravity，只要这些工具在电脑上安装并完成认证，T3 Code 就能调用它们。",
       "windows": [
         "weekly",
@@ -7201,7 +7201,7 @@
       ],
       "added_at": "2026-10-09T11:00:09+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 8
+      "seen_count": 9
     },
     {
       "owner": "yikart",
@@ -7247,7 +7247,7 @@
       ],
       "added_at": "2026-10-09T11:01:58+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 7
+      "seen_count": 8
     },
     {
       "owner": "mksglu",
@@ -7256,13 +7256,13 @@
       "url": "https://github.com/mksglu/context-mode",
       "description": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and   enforces routing across 17 platforms via MCP + hooks.",
       "language": "TypeScript",
-      "stars": 26028,
+      "stars": 26029,
       "forks": 1877,
       "homepage": "https://context-mode.com",
       "license": "NOASSERTION",
       "created_at": "2026-02-23T05:56:28Z",
       "pushed_at": "2026-10-10T06:07:56Z",
-      "updated_at": "2026-10-10T10:00:46Z",
+      "updated_at": "2026-10-10T10:37:07Z",
       "open_issues": 339,
       "summary": "Context Mode 是一个面向 AI 编程助手的 MCP 服务器，用 TypeScript 编写，主要解决上下文窗口被工具输出挤占以及对话压缩后记忆丢失的问题。它通过沙箱执行工具调用，让原始数据留在子进程外，仅将 stdout 送入上下文，官方称可实现约 98% 的压缩；同时用 SQLite 记录文件编辑、git 操作、任务与错误等事件，压缩后借助 FTS5 与 BM25 检索按需恢复工作状态。它还支持索引与搜索、URL 抓取索引、TTL 缓存、渐进限流，并提倡让模型写脚本分析数据而非把数据读入上下文。",
       "windows": [
@@ -7270,7 +7270,7 @@
       ],
       "added_at": "2026-10-09T11:00:09+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 8
+      "seen_count": 9
     },
     {
       "owner": "t8y2",
@@ -7279,13 +7279,13 @@
       "url": "https://github.com/t8y2/dbx",
       "description": "25 MB lightweight cross-platform database client for 100+ databases, including MySQL, PostgreSQL, SQLite, Redis, MongoDB, DuckDB, SQL Server, and Dameng. Built-in AI, MCP Server, CLI, desktop and Docker. | 轻量级跨平台数据库管理工具，支持 MySQL、PostgreSQL、SQLite、Redis、MongoDB、达梦等 100+ 数据库，提供桌面端、Docker、CLI、内置 AI 助手和 MCP。",
       "language": "Rust",
-      "stars": 25534,
+      "stars": 25535,
       "forks": 2314,
       "homepage": "https://dbxio.com",
       "license": "Apache-2.0",
       "created_at": "2026-04-29T03:00:36Z",
       "pushed_at": "2026-10-10T10:20:55Z",
-      "updated_at": "2026-10-10T10:30:46Z",
+      "updated_at": "2026-10-10T10:37:04Z",
       "open_issues": 1097,
       "summary": "DBX 是一个用 Rust 编写的轻量级跨平台数据库管理工具，体积约 25 MB，无需 Java 运行时、Python 虚拟环境或内置 Chromium，下载即用。它支持 MySQL、PostgreSQL、SQLite、Redis、MongoDB、DuckDB、SQL Server、达梦等 100 多种数据库，并提供桌面端、Docker 和 Web 三种形态。除数据库外，还内置 Kafka、RabbitMQ、Nacos、ZooKeeper 等消息队列与中间件的管理控制台。",
       "windows": [
@@ -7294,7 +7294,7 @@
       ],
       "added_at": "2026-10-09T11:01:04+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 8
+      "seen_count": 9
     },
     {
       "owner": "vxcontrol",
@@ -7318,7 +7318,7 @@
       ],
       "added_at": "2026-10-09T11:00:35+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 8
+      "seen_count": 9
     },
     {
       "owner": "spicetify",
@@ -7364,7 +7364,7 @@
       ],
       "added_at": "2026-10-09T11:22:49+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "simdjson",
@@ -7387,7 +7387,7 @@
       ],
       "added_at": "2026-10-09T11:23:13+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "argoproj",
@@ -7433,7 +7433,7 @@
       ],
       "added_at": "2026-10-09T11:00:35+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 8
+      "seen_count": 9
     },
     {
       "owner": "boykopovar",
@@ -7442,14 +7442,14 @@
       "url": "https://github.com/boykopovar/AnyPS5",
       "description": "Tool for automatic PS5 executables porting to Linux and Windows",
       "language": "C++",
-      "stars": 24112,
-      "forks": 1997,
+      "stars": 24144,
+      "forks": 2000,
       "homepage": "https://discord.gg/BHFztBPUe",
       "license": "GPL-2.0",
       "created_at": "2026-08-03T21:30:25Z",
-      "pushed_at": "2026-10-10T10:00:40Z",
-      "updated_at": "2026-10-10T10:31:28Z",
-      "open_issues": 227,
+      "pushed_at": "2026-10-10T10:39:14Z",
+      "updated_at": "2026-10-10T10:41:51Z",
+      "open_issues": 230,
       "summary": "AnyPS5 是一款用 C++ 编写的工具，用于将 PS5 可执行文件自动移植到 Linux 和 Windows。它通过重链接器把可执行文件转换为目标系统的原生格式，并提供适合动态链接的系统 prx 库实现，不依赖模拟器或独立运行时进程。项目当前按已声明函数比例统计系统库覆盖度，遇到不支持或异常状态会抛出 std::runtime_error 并终止进程。其着色器重编译器可生成 SPIR-V，在启用 ANYPS5_ENABLE_SPIRV_TOOLS 时经 Spirv-Tools 验证。",
       "windows": [
         "daily",
@@ -7457,7 +7457,7 @@
       ],
       "added_at": "2026-10-09T11:23:13+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "navidrome",
@@ -7476,7 +7476,7 @@
       "open_issues": 297,
       "summary": "Navidrome 是一个用 Go 编写的开源音乐收藏服务器与流媒体服务，让你通过任意浏览器或移动设备访问自己的音乐库，相当于搭建私有的流媒体平台。它主要解决个人音乐收藏难以跨设备随时随地收听的问题，可处理超大音乐库，支持几乎所有音频格式，并能读取和利用已有的元数据，对合辑与多碟套装也有良好支持。它支持多用户，每位用户拥有独立的播放次数、播放列表和收藏；资源占用低，可运行在 macOS、Linux、Windows 及树莓派上，也提供 Docker 镜像。",
       "last_seen": "2026-10-10",
-      "seen_count": 11,
+      "seen_count": 12,
       "added_at": "2026-10-09T10:50:28+00:00",
       "windows": [
         "monthly"
@@ -7489,13 +7489,13 @@
       "url": "https://github.com/antirez/ds4",
       "description": "DeepSeek 4 Flash and PRO local inference engine for Metal, CUDA and ROCm",
       "language": "C",
-      "stars": 23748,
+      "stars": 23749,
       "forks": 2293,
       "homepage": "",
       "license": "MIT",
       "created_at": "2026-05-06T17:17:05Z",
       "pushed_at": "2026-10-08T07:00:42Z",
-      "updated_at": "2026-10-10T09:10:23Z",
+      "updated_at": "2026-10-10T10:35:37Z",
       "open_issues": 770,
       "summary": "DwarfStar（ds4）是面向消费级硬件的本地大模型推理引擎，用 C 语言编写，重点支持 DeepSeek V4 Flash、V4 PRO、GLM 5.x 及 Qwen3.8 Flash Next 等模型，并非通用 GGUF 运行器，需使用项目自产的 GGUF 文件。它解决在个人可拥有的设备上运行优秀大模型的问题，支持 Metal（96GB 以上 Mac，小内存可 SSD 流式加载）、NVIDIA CUDA（含多卡与 Ada Lovelace）及 Strix Halo 上的 ROCm。",
       "windows": [
@@ -7503,7 +7503,7 @@
       ],
       "added_at": "2026-10-09T11:22:49+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "ifixai-ai",
@@ -7512,13 +7512,13 @@
       "url": "https://github.com/ifixai-ai/iFixAi",
       "description": "Independent Auditing of AI Agents. Run by human or the agent itself, to answer the most crucial question in the AI Agent Economy. Is the agent doing what is supposed to do? With iFixAi you can have this answer in less than 120 seconds.",
       "language": "Python",
-      "stars": 23253,
+      "stars": 23257,
       "forks": 1438,
       "homepage": "https://www.ifixai.ai",
       "license": "Apache-2.0",
       "created_at": "2026-04-27T13:02:34Z",
       "pushed_at": "2026-10-09T16:49:40Z",
-      "updated_at": "2026-10-10T10:29:40Z",
+      "updated_at": "2026-10-10T10:41:28Z",
       "open_issues": 44,
       "summary": "iFixAi 是一个用 Python 编写的 AI 智能体独立审计工具，由人类或智能体自身运行，用于回答 AI 智能体经济中最关键的问题：智能体是否在做它该做的事？现有评估、红队和可观测性工具主要考察技术能力，如 token 效率、延迟和提示注入，却无法基于业务 KPI 和组织结构判断智能体是否称职。iFixAi 在 AI 红队与运营保障之间取得平衡，可在 120 秒内给出答案。它提供三种运行方式：引导式向导、面向 Claude Code 和 Codex 的插件，以及适用于各类智能体的零安装技能命令，底层共用同一套诊断流程。",
       "windows": [
@@ -7526,7 +7526,7 @@
       ],
       "added_at": "2026-10-09T11:21:36+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "AprilNEA",
@@ -7572,7 +7572,7 @@
       ],
       "added_at": "2026-10-09T11:00:35+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 8
+      "seen_count": 9
     },
     {
       "owner": "dream-num",
@@ -7595,7 +7595,7 @@
       ],
       "added_at": "2026-10-09T11:00:09+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 8
+      "seen_count": 9
     },
     {
       "owner": "DarkFlippers",
@@ -7618,7 +7618,7 @@
       ],
       "added_at": "2026-10-09T11:22:49+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "RustPython",
@@ -7633,14 +7633,14 @@
       "homepage": "https://rustpython.github.io",
       "license": "MIT",
       "created_at": "2018-05-28T19:27:01Z",
-      "pushed_at": "2026-10-10T00:25:57Z",
-      "updated_at": "2026-10-10T00:26:02Z",
-      "open_issues": 314,
+      "pushed_at": "2026-10-10T10:41:24Z",
+      "updated_at": "2026-10-10T10:41:28Z",
+      "open_issues": 307,
       "summary": "RustPython 是一个用 Rust 编写的 Python 3 解释器，目标是在 Rust 中实现完整的 Python 3 环境，而非依赖 CPython 绑定。它支持 CPython 3.14.0 及以上版本，可用于在 WebAssembly 中运行 Python、嵌入 Rust 应用进行脚本扩展，以及构建独立的 WASI 模块。项目提供交互式 shell、venv 和 pip 支持，并可通过 ssl 特性启用 HTTPS 请求。它还包含一个实验性的 JIT 编译器，能将 Python 函数编译为原生代码。",
       "windows": [],
       "added_at": "2026-10-09T11:30:46+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 3
+      "seen_count": 4
     },
     {
       "owner": "tabler",
@@ -7649,17 +7649,17 @@
       "url": "https://github.com/tabler/tabler-icons",
       "description": "A set of over 6200 free MIT-licensed high-quality SVG icons for you to use in your web projects.",
       "language": "JavaScript",
-      "stars": 22179,
+      "stars": 22178,
       "forks": 1232,
       "homepage": "https://tabler.io/icons",
       "license": "MIT",
       "created_at": "2020-02-27T15:10:04Z",
       "pushed_at": "2026-10-10T00:05:51Z",
-      "updated_at": "2026-10-10T10:27:52Z",
+      "updated_at": "2026-10-10T10:39:57Z",
       "open_issues": 82,
       "summary": "Tabler Icons 是一套面向 Web 项目的高质量 SVG 图标集合，包含超过 6200 个图标，分为轮廓和填充两种风格，所有轮廓图标基于 24x24 网格、2px 描边设计，并可在其他描边宽度下保持良好渲染效果。它解决了开发者在界面中寻找统一、可定制图标资源的问题，图标以纯 SVG 文件形式提供，可直接作为图片、CSS 背景、内联元素或雪碧图使用，内联时还能继承 currentColor，便于通过 CSS 调整大小、颜色和描边。",
       "last_seen": "2026-10-10",
-      "seen_count": 12,
+      "seen_count": 13,
       "added_at": "2026-10-09T10:50:04+00:00",
       "windows": [
         "daily",
@@ -7673,13 +7673,13 @@
       "url": "https://github.com/k4yt3x/video2x",
       "description": "A machine learning-based video super resolution and frame interpolation framework. Est. Hack the Valley II, 2018.",
       "language": "C++",
-      "stars": 22133,
+      "stars": 22132,
       "forks": 1921,
       "homepage": "https://docs.video2x.org",
       "license": "AGPL-3.0",
       "created_at": "2018-02-24T16:34:41Z",
       "pushed_at": "2026-03-07T15:39:42Z",
-      "updated_at": "2026-10-10T09:46:54Z",
+      "updated_at": "2026-10-10T10:33:46Z",
       "open_issues": 134,
       "summary": "Video2X 是一个基于机器学习的视频超分辨率与帧插值框架，最初于 2018 年启动，6.0.0 版本使用 C/C++ 完全重写，在提升运行效率的同时改善了输出质量，并支持 Windows 与 Linux 跨平台使用。它主要解决低分辨率、低帧率视频的画质增强问题，可借助 waifu2x、Real-CUGAN、Real-ESRGAN、DAIN 等模型将视频放大至更高分辨率或提升帧率。项目提供 Windows 图形界面安装程序，支持简体中文等多种语言，也通过 AUR、AppImage、容器镜像等方式在 Linux 上分发，并可在 Google Colab 上借用 GPU 运行。",
       "windows": [
@@ -7687,7 +7687,7 @@
       ],
       "added_at": "2026-10-09T11:23:13+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "dyad-sh",
@@ -7733,7 +7733,7 @@
       ],
       "added_at": "2026-10-09T11:00:35+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 8
+      "seen_count": 9
     },
     {
       "owner": "liyupi",
@@ -7742,13 +7742,13 @@
       "url": "https://github.com/liyupi/ai-guide",
       "description": "程序员鱼皮的 AI 资源大全 + Vibe Coding 零基础教程，分享 OpenClaw 保姆级教程、大模型玩法（DeepSeek / GPT / Gemini / Claude / GLM）、最新 AI 资讯、Prompt 提示词大全、AI 知识百科（Agent Skills / RAG / MCP / A2A）、AI 编程教程（Harness Engineering）、AI 工具用法（Cursor / Claude Code / TRAE / Codex / Copilot）、AI 开发框架教程（Spring AI / LangChain）、AI 产品变现指南，帮你快速掌握 AI 技术，走在时代前沿。本项目为开源文档 aiguide，已升级为鱼皮 AI 导航网站",
       "language": "JavaScript",
-      "stars": 20948,
+      "stars": 20949,
       "forks": 2307,
       "homepage": "https://ai.codefather.cn",
       "license": "NOASSERTION",
       "created_at": "2025-02-13T05:47:46Z",
       "pushed_at": "2026-09-28T03:09:27Z",
-      "updated_at": "2026-10-10T10:10:01Z",
+      "updated_at": "2026-10-10T10:39:03Z",
       "open_issues": 8,
       "summary": "鱼皮的 AI 知识库（aiguide）是一个免费开放的 AI 知识共享平台，旨在减少信息差，帮助不同背景的人平等获取 AI 工具与认知。它汇总热门 AI 工具的产品介绍、使用指南、测评、技巧、应用场景、变现与行业资讯，并重点提供《Vibe Coding 零基础入门教程》，覆盖基础必读、编程工具选择、项目实战、经验技巧、产品变现、编程学习与资源宝库，还配有视频课程和学习路径推荐。",
       "windows": [
@@ -7756,7 +7756,7 @@
       ],
       "added_at": "2026-10-09T11:01:40+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 7
+      "seen_count": 8
     },
     {
       "owner": "Atmosphere-NX",
@@ -7779,7 +7779,7 @@
       ],
       "added_at": "2026-10-09T11:23:13+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "Open-Dev-Society",
@@ -7802,7 +7802,7 @@
       ],
       "added_at": "2026-10-09T11:00:09+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 8
+      "seen_count": 9
     },
     {
       "owner": "NVIDIA",
@@ -7825,7 +7825,7 @@
       ],
       "added_at": "2026-10-09T11:21:36+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "google",
@@ -7839,7 +7839,7 @@
       "homepage": "https://gvisor.dev",
       "license": "Apache-2.0",
       "created_at": "2018-04-26T21:28:49Z",
-      "pushed_at": "2026-10-10T09:39:26Z",
+      "pushed_at": "2026-10-10T10:33:20Z",
       "updated_at": "2026-10-10T09:32:12Z",
       "open_issues": 923,
       "summary": "gVisor 是 Google 开源的容器应用内核，用 Go 语言编写并在用户态运行，为容器提供类似 Linux 的接口。它要解决的核心问题是：容器本身并非安全沙箱，共享内核意味着单个漏洞就可能导致容器逃逸，因此直接用容器运行不可信代码存在风险。gVisor 在应用与宿主内核之间加入一层隔离，限制应用可访问的宿主内核面，同时仍提供应用所需的全部功能。它既不是 seccomp-bpf 这类系统调用过滤器，也不是对 Linux 隔离原语的封装，更不是传统虚拟机，而是取二者之间的第三条路径，兼具虚拟机的安全收益与普通用户态应用的低资源占用、快速启动和灵活性。",
@@ -7848,7 +7848,7 @@
       ],
       "added_at": "2026-10-09T11:00:35+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 8
+      "seen_count": 9
     },
     {
       "owner": "Niko1221",
@@ -7895,7 +7895,7 @@
       ],
       "added_at": "2026-10-09T11:23:13+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "earthtojake",
@@ -7904,13 +7904,13 @@
       "url": "https://github.com/earthtojake/text-to-cad",
       "description": "Give your agent CAD superpowers.",
       "language": "Python",
-      "stars": 18878,
+      "stars": 18883,
       "forks": 1862,
       "homepage": "https://www.texttocad.dev",
       "license": "MIT",
       "created_at": "2026-04-22T01:09:45Z",
       "pushed_at": "2026-10-10T09:57:34Z",
-      "updated_at": "2026-10-10T10:26:00Z",
+      "updated_at": "2026-10-10T10:38:46Z",
       "open_issues": 26,
       "summary": "text-to-cad 是一个用 Python 编写的插件，为 AI 代理赋予本地生成三维模型的能力。它面向需要快速产出 CAD 文件的开发者与工程师，解决的是让代理直接参与建模、制造检查与出图的流程问题。核心能力包括生成 STEP、GLB、STL、3MF 格式模型，执行面向制造的设计检查，生成工程图纸，并连接常见的 3D 打印、钣金和 CNC 加工服务。它支持 Claude Code、Codex、Cursor、Gemini、Grok 等具备插件或技能框架的代理，通过 uv 运行，安装后首次启动会下载 CAD 运行时。",
       "windows": [
@@ -7918,7 +7918,7 @@
       ],
       "added_at": "2026-10-09T11:21:36+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "doitsujin",
@@ -7941,7 +7941,7 @@
       ],
       "added_at": "2026-10-09T11:23:13+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "HunxByts",
@@ -7964,7 +7964,7 @@
       ],
       "added_at": "2026-10-09T11:21:36+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "Robbyant",
@@ -7973,13 +7973,13 @@
       "url": "https://github.com/Robbyant/lingbot-map",
       "description": "[ECCV 2026 Best Paper Award Candidate] LingBot-Map: Geometric Context Transformer for Streaming 3D Reconstruction",
       "language": "Python",
-      "stars": 17882,
-      "forks": 1964,
+      "stars": 17890,
+      "forks": 1965,
       "homepage": "",
       "license": "Apache-2.0",
       "created_at": "2026-04-15T17:59:48Z",
       "pushed_at": "2026-10-06T09:23:51Z",
-      "updated_at": "2026-10-10T10:28:21Z",
+      "updated_at": "2026-10-10T10:40:44Z",
       "open_issues": 83,
       "summary": "LingBot-Map 是 Robbyant 团队开源的流式三维重建基础模型，论文入选 ECCV 2026 最佳论文候选，主要用 Python 实现。它针对长序列视频的三维重建难题，提出几何上下文变换器，通过锚点上下文、位姿参考窗口和轨迹记忆，把坐标定位、稠密几何线索与长程漂移校正统一在一个流式框架内。模型采用前馈架构与分页 KV 缓存注意力，在 518×378 分辨率下可对超过一万帧的序列保持约 20 FPS 的稳定推理，并支持关键帧间隔、窗口化推理和天空遮罩等策略以控制显存与漂移。",
       "windows": [
@@ -7988,7 +7988,7 @@
       ],
       "added_at": "2026-10-09T11:21:36+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "Effect-TS",
@@ -8012,7 +8012,7 @@
       ],
       "added_at": "2026-10-09T11:00:09+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 8
+      "seen_count": 9
     },
     {
       "owner": "coder",
@@ -8035,7 +8035,7 @@
       ],
       "added_at": "2026-10-09T11:00:35+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 8
+      "seen_count": 9
     },
     {
       "owner": "wolfpld",
@@ -8058,7 +8058,7 @@
       ],
       "added_at": "2026-10-09T11:23:13+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "systemd",
@@ -8081,7 +8081,7 @@
       ],
       "added_at": "2026-10-09T11:22:49+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "libsdl-org",
@@ -8104,7 +8104,7 @@
       ],
       "added_at": "2026-10-09T11:22:49+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 5
+      "seen_count": 6
     },
     {
       "owner": "zephyrproject-rtos",
@@ -8127,7 +8127,7 @@
       ],
       "added_at": "2026-10-09T11:22:49+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "longbridge",
@@ -8136,13 +8136,13 @@
       "url": "https://github.com/longbridge/gpui-kit",
       "description": "Rust GUI components for building fantastic cross-platform desktop application by using GPUI.",
       "language": "Rust",
-      "stars": 16714,
+      "stars": 16715,
       "forks": 1029,
       "homepage": "http://gpui-kit.com",
       "license": "NOASSERTION",
       "created_at": "2024-06-13T13:45:39Z",
       "pushed_at": "2026-10-10T10:05:47Z",
-      "updated_at": "2026-10-10T10:22:09Z",
+      "updated_at": "2026-10-10T10:32:33Z",
       "open_issues": 86,
       "summary": "GPUI Kit 是一套基于 Rust 与 GPUI 的跨平台桌面应用开发框架，由长桥从实际商业产品 Longbridge Pro 中提炼而来。它把可复用的行为、状态与基础设施作为底层，向上提供完整的界面系统，并整合数据、布局与编辑能力，解决 Rust 桌面开发中组件零散、交互行为需自行实现的问题。框架内置 75 个以上有文档的组件与基础件，涵盖表单、导航、浮层、数据展示与编辑等，支持 WebAssembly、AccessKit 无障碍、无头窗口的 UI 集成测试，以及通过 gpui-shell 加载 JavaScript 扩展。",
       "windows": [
@@ -8151,7 +8151,7 @@
       ],
       "added_at": "2026-10-09T11:01:04+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 8
+      "seen_count": 9
     },
     {
       "owner": "JoeanAmier",
@@ -8174,7 +8174,7 @@
       ],
       "added_at": "2026-10-09T11:01:40+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 7
+      "seen_count": 8
     },
     {
       "owner": "tracel-ai",
@@ -8211,16 +8211,16 @@
       "homepage": "https://doris.apache.org",
       "license": "Apache-2.0",
       "created_at": "2017-08-10T12:13:30Z",
-      "pushed_at": "2026-10-10T10:19:20Z",
-      "updated_at": "2026-10-10T10:12:55Z",
-      "open_issues": 1345,
+      "pushed_at": "2026-10-10T10:41:33Z",
+      "updated_at": "2026-10-10T10:41:38Z",
+      "open_issues": 1344,
       "summary": "Apache Doris 是一款基于 MPP 架构的开源实时分析与搜索数据库，主要使用 Java 语言开发，并于 2022 年 6 月从 Apache 孵化器毕业成为顶级项目。它面向需要快速查询与统一检索的场景，解决结构化数据分析、湖仓查询加速以及跨文本和向量数据的混合搜索问题。其核心能力集中在实时分析、湖仓查询加速和混合搜索三方面，支持标准 SQL 分析，可同时处理结构化、文本与向量数据。部署上既支持存算一体，也支持存算分离，分离模式下无状态计算组运行在共享对象存储之上，便于按需扩展计算并隔离工作负载。",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-09T11:22:02+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "quarkusio",
@@ -8243,7 +8243,7 @@
       ],
       "added_at": "2026-10-09T11:22:02+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "VERT-sh",
@@ -8266,7 +8266,7 @@
       ],
       "added_at": "2026-10-09T11:01:58+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 7
+      "seen_count": 8
     },
     {
       "owner": "NVIDIA",
@@ -8275,14 +8275,14 @@
       "url": "https://github.com/NVIDIA/OpenShell",
       "description": "OpenShell is the safe, private runtime for autonomous AI agents.",
       "language": "Rust",
-      "stars": 15661,
+      "stars": 15663,
       "forks": 1752,
       "homepage": "https://docs.nvidia.com/openshell/latest/",
       "license": "Apache-2.0",
       "created_at": "2026-02-24T22:52:22Z",
       "pushed_at": "2026-10-10T07:38:52Z",
-      "updated_at": "2026-10-10T10:19:10Z",
-      "open_issues": 589,
+      "updated_at": "2026-10-10T10:36:52Z",
+      "open_issues": 590,
       "summary": "OpenShell 是 NVIDIA 开源的自主 AI 智能体安全运行时，用 Rust 编写。智能体在读取文件、安装软件包、调用 API 和使用凭据时最有价值，但直接放开权限会带来数据、密钥和网络风险。OpenShell 通过策略声明每个智能体可访问的资源并强制执行：一方面在隔离沙箱中借助内核级控制限制文件访问、系统调用和网络连接，所有出站连接先经策略检查，凭据仅在发往已批准端点时注入，智能体本身接触不到真实密钥；另一方面在策略变更生效前用形式化验证标记新增的高风险访问，例如带凭据访问新主机或调用新 API 方法，等待人工审核。",
       "windows": [
         "weekly",
@@ -8290,7 +8290,7 @@
       ],
       "added_at": "2026-10-09T11:01:04+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 8
+      "seen_count": 9
     },
     {
       "owner": "dyang886",
@@ -8299,13 +8299,13 @@
       "url": "https://github.com/dyang886/Game-Cheats-Manager",
       "description": "Easily download and manage single-player game cheats for your convenience",
       "language": "C++",
-      "stars": 15162,
+      "stars": 15161,
       "forks": 533,
       "homepage": "https://gamezonelabs.com",
       "license": "GPL-3.0",
       "created_at": "2023-12-31T10:09:12Z",
       "pushed_at": "2026-10-07T18:58:01Z",
-      "updated_at": "2026-10-10T10:30:55Z",
+      "updated_at": "2026-10-10T10:37:04Z",
       "open_issues": 5,
       "summary": "Game Cheats Manager 是一个用 C++ 编写的开源桌面工具，用于集中下载和管理单机游戏修改器。它解决的是玩家在多个来源之间反复切换、面对失效链接和杂乱网页的问题，把 Fling、XiaoXing、Cheat Engine 作弊表以及社区上传的修改器整合到一个界面中。核心能力包括中英文即时搜索、双击下载并自动解压归类、启动时后台检查更新，以及一键将修改器目录加入 Windows Defender 白名单，减少误报干扰。对于仍带反作弊机制的单机游戏，下载完成后会给出绕过步骤提示。",
       "windows": [
@@ -8313,7 +8313,7 @@
       ],
       "added_at": "2026-10-10T10:31:34+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "owner": "oauth2-proxy",
@@ -8336,7 +8336,7 @@
       ],
       "added_at": "2026-10-09T11:00:35+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 8
+      "seen_count": 9
     },
     {
       "owner": "fish2018",
@@ -8359,7 +8359,7 @@
       ],
       "added_at": "2026-10-09T11:00:35+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 8
+      "seen_count": 9
     },
     {
       "owner": "nanobrowser",
@@ -8382,7 +8382,7 @@
       ],
       "added_at": "2026-10-09T11:00:09+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 8
+      "seen_count": 9
     },
     {
       "owner": "miuuyy",
@@ -8391,13 +8391,13 @@
       "url": "https://github.com/miuuyy/codex-chatgpt-web",
       "description": "Use ChatGPT Web (including Pro) as a native model in Codex — with context, tools, streaming and images, without using Codex quota.",
       "language": "TypeScript",
-      "stars": 13867,
+      "stars": 13869,
       "forks": 1091,
       "homepage": "",
       "license": "MIT",
       "created_at": "2026-07-26T13:04:44Z",
       "pushed_at": "2026-10-09T04:45:40Z",
-      "updated_at": "2026-10-10T09:54:34Z",
+      "updated_at": "2026-10-10T10:41:26Z",
       "open_issues": 29,
       "summary": "codex-chatgpt-web 是一个用 TypeScript 编写的开源工具，让 Codex 能把 ChatGPT Web（含 Pro）当作原生模型使用。它解决的是 Codex 配额消耗问题：通过调用账户内的 ChatGPT Web 模型，使用其独立的用量限制，而不占用 Work 或 Codex 配额，同时保留相同的界面、任务、图像与流式输出体验。可用模型随账户类型而异，免费与 Go 账户对应 Luna、Think，付费账户对应 GPT-6 Sol 与 GPT-5.",
       "windows": [
@@ -8405,7 +8405,7 @@
       ],
       "added_at": "2026-10-09T11:00:09+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 8
+      "seen_count": 9
     },
     {
       "owner": "LawnchairLauncher",
@@ -8428,7 +8428,7 @@
       ],
       "added_at": "2026-10-09T11:22:02+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "mailcow",
@@ -8474,7 +8474,7 @@
       ],
       "added_at": "2026-10-09T11:22:02+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "DaveGamble",
@@ -8497,7 +8497,7 @@
       ],
       "added_at": "2026-10-09T11:22:49+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "hydra-db",
@@ -8507,7 +8507,7 @@
       "description": "HydraDB - fast graph database on object storage",
       "language": "Rust",
       "stars": 13020,
-      "forks": 5453,
+      "forks": 5452,
       "homepage": "https://hydradb.com",
       "license": "AGPL-3.0",
       "created_at": "2026-07-03T05:34:15Z",
@@ -8520,7 +8520,7 @@
       ],
       "added_at": "2026-10-09T11:01:04+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 8
+      "seen_count": 9
     },
     {
       "owner": "TencentCloud",
@@ -8543,7 +8543,7 @@
       ],
       "added_at": "2026-10-09T11:00:35+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 8
+      "seen_count": 9
     },
     {
       "owner": "cloudflare",
@@ -8566,7 +8566,7 @@
       ],
       "added_at": "2026-10-09T11:01:04+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 8
+      "seen_count": 9
     },
     {
       "owner": "storytold",
@@ -8575,17 +8575,17 @@
       "url": "https://github.com/storytold/artcraft",
       "description": "ArtCraft is an intentional crafting engine for artists, designers, and filmmakers",
       "language": "Rust",
-      "stars": 12716,
-      "forks": 1954,
+      "stars": 12733,
+      "forks": 1958,
       "homepage": "https://getartcraft.com",
       "license": "Apache-2.0",
       "created_at": "2022-03-31T23:19:12Z",
       "pushed_at": "2026-10-10T08:18:00Z",
-      "updated_at": "2026-10-10T10:30:53Z",
+      "updated_at": "2026-10-10T10:41:05Z",
       "open_issues": 110,
       "summary": "ArtCraft 是一个面向艺术家、设计师和电影制作人的交互式 AI 图像与视频创作引擎，用 Rust 编写，定位为“艺术家的 IDE”。它试图解决 AI 生成内容难以精确控制构图、角色一致性和镜头位置的问题，把提示词生成转变为可反复调整的创作流程。核心能力包括在 2D 画布中合成、在 3D 中布置场景，并自由选择适合的模型，通过可视化工具实现精确、可重复的结果。它同时支持快速提示词探索，再借助画布和场景工具细化，并计划加入图像修复与图像素材功能。目前已支持多种模型与提供商，未来还计划集成 Kling、Google、Runway、Luma 以及 OpenArt、Freepik 等聚合服务。",
       "last_seen": "2026-10-10",
-      "seen_count": 11,
+      "seen_count": 12,
       "added_at": "2026-10-09T10:50:39+00:00",
       "windows": [
         "daily"
@@ -8612,7 +8612,7 @@
       ],
       "added_at": "2026-10-09T11:23:13+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "hluk",
@@ -8635,7 +8635,7 @@
       ],
       "added_at": "2026-10-09T11:23:13+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "Pumpkin-MC",
@@ -8658,7 +8658,7 @@
       ],
       "added_at": "2026-10-09T11:01:04+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 8
+      "seen_count": 9
     },
     {
       "owner": "lz4",
@@ -8681,7 +8681,7 @@
       ],
       "added_at": "2026-10-09T11:22:49+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "CodeWithHarry",
@@ -8727,7 +8727,7 @@
       ],
       "added_at": "2026-10-09T11:21:36+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "optiscaler",
@@ -8750,7 +8750,7 @@
       ],
       "added_at": "2026-10-09T11:23:13+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "laoma528",
@@ -8759,13 +8759,13 @@
       "url": "https://github.com/laoma528/awesome-zhuiju-free",
       "description": "免费无广告的追剧资源指南，人工精选资源、每天检测资源有效性。收录在线影视、影视APP、网盘搜索、磁力BT、字幕、TVBox / 影视仓空壳软件/配置地址、IPTV直播源、会员拼团、影视相关开源项目。开源，社区共同维护。",
       "language": "JavaScript",
-      "stars": 11636,
+      "stars": 11637,
       "forks": 798,
       "homepage": "https://zhuiju.me",
       "license": "CC-BY-4.0",
       "created_at": "2026-06-05T18:14:45Z",
       "pushed_at": "2026-10-10T01:38:12Z",
-      "updated_at": "2026-10-10T10:13:56Z",
+      "updated_at": "2026-10-10T10:33:52Z",
       "open_issues": 11,
       "summary": "Awesome Zhuiju Free 是一份免费无广告的追剧资源指南，以 JavaScript 编写并开源，由社区共同维护。它解决的是影视资源链接易失效、质量参差、风险不明的问题：人工精选在线影视、影视 APP、网盘搜索、磁力 BT、字幕、TVBox 与影视仓空壳软件及配置地址、IPTV 直播源、会员拼团和影视相关开源项目，并每天自动检测资源是否可用。每条记录展示推荐指数（由多、快、净、稳四项评分平均得出）、状态、检测时间，以及版权、安全、隐私、支付四类风险标记。资源主数据存于 resources/resources.json，验证与投诉记录分别保留在 reports 目录下。",
       "windows": [
@@ -8773,7 +8773,7 @@
       ],
       "added_at": "2026-10-09T10:59:47+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 8
+      "seen_count": 9
     },
     {
       "owner": "ZCShou",
@@ -8796,7 +8796,7 @@
       ],
       "added_at": "2026-10-09T11:22:02+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 5
+      "seen_count": 6
     },
     {
       "owner": "cloudflare",
@@ -8819,7 +8819,7 @@
       ],
       "added_at": "2026-10-09T11:00:09+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 8
+      "seen_count": 9
     },
     {
       "owner": "Vincentwei1021",
@@ -8828,17 +8828,17 @@
       "url": "https://github.com/Vincentwei1021/video-shotcraft",
       "description": "AI video skill for Claude Code & Codex — cinematic product videos with Remotion: 152 shot recipe cards, 209 motion previews, a production-ready template",
       "language": "TypeScript",
-      "stars": 11104,
+      "stars": 11108,
       "forks": 994,
       "homepage": "https://vincentwei1021.github.io/video-shotcraft/",
       "license": "Apache-2.0",
       "created_at": "2026-07-19T11:44:41Z",
       "pushed_at": "2026-10-05T09:12:26Z",
-      "updated_at": "2026-10-10T10:17:00Z",
+      "updated_at": "2026-10-10T10:40:06Z",
       "open_issues": 8,
       "summary": "video-shotcraft 是一个面向 Claude Code 与 Codex 的 AI 智能体技能，用 TypeScript 编写，基于 Remotion 框架把产品宣传片制作流程交给智能体完成。它解决的是从分镜、动画到音效设计需要多工具切换、难以标准化的问题：用户只需指向产品，智能体即可产出电影感促销、营销、发布或演示视频，包含真实页面捕捉、2.5D 运镜、节拍同步剪辑与电影级音效。核心能力包括 152 张镜头配方卡、209 个动态预览、可一键切换的九种影片主题，以及内置的 Ink Press 完整模板（36.2 秒、1920×1080、30fps、10 个镜头）。",
       "last_seen": "2026-10-10",
-      "seen_count": 11,
+      "seen_count": 12,
       "added_at": "2026-10-09T10:50:16+00:00",
       "windows": [
         "daily"
@@ -8851,13 +8851,13 @@
       "url": "https://github.com/multimodal-art-projection/YuE",
       "description": "YuE2: frontier music generation with symbolic planning, zero-shot covers, and agentic music editing.",
       "language": "Python",
-      "stars": 11099,
+      "stars": 11100,
       "forks": 1263,
       "homepage": "https://map-yue2.github.io/",
       "license": "Apache-2.0",
       "created_at": "2025-01-23T06:21:58Z",
       "pushed_at": "2026-10-06T07:30:39Z",
-      "updated_at": "2026-10-10T10:16:00Z",
+      "updated_at": "2026-10-10T10:31:53Z",
       "open_issues": 41,
       "summary": "YuE2 是一个用 Python 实现的开源音乐生成项目，目标是把符号化的乐谱规划与音频渲染统一起来。它接收歌词和风格提示后，先生成旋律与和弦的乐谱方案，再据此合成带人声和伴奏的完整歌曲，因此创作过程是可读、可播放、可修改的，人和智能体都能检查和编辑乐谱。除从零创作外，它还支持零样本翻唱和基于对话的智能体编辑，翻唱时先用 SheetSage2 将录音转写为乐谱，再按新风格重新渲染。",
       "windows": [
@@ -8865,7 +8865,7 @@
       ],
       "added_at": "2026-10-09T11:21:36+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "openai",
@@ -8897,13 +8897,13 @@
       "url": "https://github.com/alibaba/spring-ai-alibaba",
       "description": "Agentic AI Framework for Java Developers",
       "language": "Java",
-      "stars": 10990,
+      "stars": 10991,
       "forks": 2441,
       "homepage": "https://java2ai.com",
       "license": "Apache-2.0",
       "created_at": "2024-09-09T01:35:50Z",
       "pushed_at": "2026-10-07T13:48:56Z",
-      "updated_at": "2026-10-10T09:50:03Z",
+      "updated_at": "2026-10-10T10:31:30Z",
       "open_issues": 162,
       "summary": "Spring AI Alibaba 是面向 Java 开发者的 Agentic AI 框架，用于构建智能体、工作流与多智能体应用。它基于 Spring AI 生态，提供 Agent Framework、Graph 运行时与一站式 Admin 平台三层结构：Agent Framework 内置上下文工程与 Human In The Loop，并支持 SequentialAgent、ParallelAgent、RoutingAgent、LoopAgent 等编排模式；Graph 作为底层运行时，负责持久化、工作流编排与流式输出，支持条件路由、嵌套图、并行执行与状态管理，并可导出 PlantUML。",
       "windows": [
@@ -8911,7 +8911,7 @@
       ],
       "added_at": "2026-10-09T11:22:02+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "LaurieWired",
@@ -8935,7 +8935,7 @@
       ],
       "added_at": "2026-10-09T11:22:02+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "cursor",
@@ -8944,13 +8944,13 @@
       "url": "https://github.com/cursor/plugins",
       "description": "Cursor plugin specification and official plugins",
       "language": "TypeScript",
-      "stars": 10668,
+      "stars": 10671,
       "forks": 1011,
       "homepage": "",
       "license": "",
       "created_at": "2026-01-23T01:57:42Z",
       "pushed_at": "2026-10-10T04:39:40Z",
-      "updated_at": "2026-10-10T10:18:50Z",
+      "updated_at": "2026-10-10T10:37:14Z",
       "open_issues": 197,
       "summary": "Cursor plugins 是 Cursor 官方维护的插件集合，为常见开发工具、框架和 SaaS 产品提供插件支持。它解决的是开发者需要在 Cursor 中统一接入各类外部工具与服务的问题，通过标准化插件规范降低集成成本。仓库采用多插件市场结构，根目录的 .cursor-plugin/marketplace.json 列出全部插件，每个插件以独立目录存在于仓库根目录，并各自带有 .cursor-plugin/plugin.json 清单文件，其中 author.name 与插件清单中的作者信息保持一致。核心能力在于提供官方插件规范与配套插件实现，主要使用 TypeScript 编写。",
       "windows": [
@@ -8959,7 +8959,7 @@
       ],
       "added_at": "2026-10-09T11:00:09+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 9
+      "seen_count": 10
     },
     {
       "owner": "thesysdev",
@@ -8968,13 +8968,13 @@
       "url": "https://github.com/thesysdev/openui",
       "description": "The Open Standard for Generative UI",
       "language": "TypeScript",
-      "stars": 10636,
+      "stars": 10637,
       "forks": 715,
       "homepage": "https://www.openui.com",
       "license": "MIT",
       "created_at": "2024-12-02T10:40:06Z",
       "pushed_at": "2026-10-10T06:40:51Z",
-      "updated_at": "2026-10-10T10:28:23Z",
+      "updated_at": "2026-10-10T10:34:30Z",
       "open_issues": 168,
       "summary": "OpenUI 是一个全栈、框架无关的生成式 UI 框架，核心是名为 OpenUI Lang 的紧凑流式语言，用于让模型生成结构化界面而非纯文本。它解决的问题是：模型输出通常只有文本，难以直接渲染为可交互 UI，而 JSON 等格式在流式场景下 token 开销大。OpenUI 允许开发者定义或复用组件库，据此自动生成系统提示词，再将模型输出的 OpenUI Lang 逐步解析渲染。其核心能力包括：内置图表、表单、表格、布局等组件库；支持 React、Vue、Svelte、Angular 的流式渲染器；基于 Zod 的类型化组件契约；相比 JSON 最多可减少 67% 的 token。",
       "windows": [
@@ -8982,7 +8982,7 @@
       ],
       "added_at": "2026-10-09T11:01:58+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 7
+      "seen_count": 8
     },
     {
       "owner": "mamedev",
@@ -9005,7 +9005,7 @@
       ],
       "added_at": "2026-10-09T11:23:13+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "WebKit",
@@ -9028,7 +9028,7 @@
       ],
       "added_at": "2026-10-09T10:59:47+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 8
+      "seen_count": 9
     },
     {
       "owner": "go-acme",
@@ -9097,7 +9097,7 @@
       ],
       "added_at": "2026-10-09T11:21:36+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "mnfst",
@@ -9106,13 +9106,13 @@
       "url": "https://github.com/mnfst/awesome-free-llm-apis",
       "description": "List of Permanent Free LLM API  (API Keys)",
       "language": "JavaScript",
-      "stars": 9674,
+      "stars": 9675,
       "forks": 1035,
       "homepage": "",
       "license": "CC0-1.0",
       "created_at": "2026-03-21T18:14:07Z",
       "pushed_at": "2026-10-10T03:51:43Z",
-      "updated_at": "2026-10-10T10:26:18Z",
+      "updated_at": "2026-10-10T10:33:27Z",
       "open_issues": 47,
       "summary": "awesome-free-llm-apis 是一份持续维护的免费大模型 API 清单，专门收录提供永久免费额度、可用于文本推理的接口，帮助开发者在不付费的前提下接入 LLM 能力。清单中的端点大多兼容 OpenAI SDK，每个条目都指向对应厂商的 API Key 申请页面，并按来源分为两类：一类是训练或微调模型的公司自营 API，如 Cohere、Google Gemini、Mistral AI、Z AI；另一类是托管开源权重模型的第三方推理平台，如 Cloudflare Workers AI、Groq、Hugging Face、OpenRouter、NVIDIA NIM、Ollama C。",
       "windows": [
@@ -9121,7 +9121,7 @@
       ],
       "added_at": "2026-10-09T10:59:47+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 8
+      "seen_count": 9
     },
     {
       "owner": "reconurge",
@@ -9131,7 +9131,7 @@
       "description": "A modern platform for visual, flexible, and extensible graph-based investigations. For cybersecurity analysts and investigators.",
       "language": "TypeScript",
       "stars": 9594,
-      "forks": 1177,
+      "forks": 1178,
       "homepage": "https://flowsint.io",
       "license": "Apache-2.0",
       "created_at": "2025-01-31T15:10:41Z",
@@ -9140,7 +9140,7 @@
       "open_issues": 66,
       "summary": "Flowsint 是一个基于 TypeScript 开发的开源 OSINT 图谱调查平台，面向网络安全分析师和调查人员，用于对实体间关系进行可视化、灵活且可扩展的图形化探索。它通过图形界面和自动化富化器解决情报调查中数据分散、关联难以直观呈现的问题。核心能力包括：以图节点方式呈现域名、IP、ASN、CIDR、邮箱、电话、社交账号、加密货币钱包、网站、组织和个人等实体及其关联；内置大量富化器，覆盖反向 DNS、子域发现、WHOIS、IP 地理定位、ASN 查询、Maigret 用户名搜索、数据泄露检查、网站爬取、Gravatar 查询、钱包交易与 NFT 查询、N8n 工作流连接等。",
       "last_seen": "2026-10-10",
-      "seen_count": 11,
+      "seen_count": 12,
       "added_at": "2026-10-09T10:50:16+00:00",
       "windows": [
         "daily",
@@ -9169,7 +9169,7 @@
       ],
       "added_at": "2026-10-09T11:01:04+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 8
+      "seen_count": 9
     },
     {
       "owner": "ibelick",
@@ -9192,7 +9192,7 @@
       ],
       "added_at": "2026-10-09T11:01:58+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 7
+      "seen_count": 8
     },
     {
       "owner": "pocket-id",
@@ -9215,7 +9215,7 @@
       ],
       "added_at": "2026-10-09T11:00:35+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 8
+      "seen_count": 9
     },
     {
       "owner": "apache",
@@ -9238,7 +9238,7 @@
       ],
       "added_at": "2026-10-09T11:22:02+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "backnotprop",
@@ -9284,7 +9284,7 @@
       ],
       "added_at": "2026-10-09T11:01:04+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 8
+      "seen_count": 9
     },
     {
       "owner": "meituan-longcat",
@@ -9307,7 +9307,7 @@
       ],
       "added_at": "2026-10-09T11:21:36+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 5
+      "seen_count": 6
     },
     {
       "owner": "akitaonrails",
@@ -9326,7 +9326,7 @@
       "open_issues": 6,
       "summary": "ai-memory 是一个用 Rust 编写的长期记忆服务，面向 Claude Code、Codex、Cursor、Gemini CLI 等二十多种 AI 编程代理。它解决的核心问题是：各代理自带的记忆彼此隔离，绑定单一机器与工具，切换代理或设备时上下文丢失，需要反复解释架构、失败尝试和未决问题。ai-memory 让所有代理共享同一份记忆，任务中途退出后换用另一代理可继续接手，交接以类型化、仅可认领一次的协议完成。记忆以 git 托管的普通 Markdown 维基为真实来源，数据库只是可重建的派生索引，无向量库依赖。",
       "last_seen": "2026-10-10",
-      "seen_count": 11,
+      "seen_count": 12,
       "added_at": "2026-10-09T10:50:39+00:00",
       "windows": [
         "monthly"
@@ -9353,7 +9353,7 @@
       ],
       "added_at": "2026-10-09T11:22:49+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "DuarteSantos8",
@@ -9362,17 +9362,17 @@
       "url": "https://github.com/DuarteSantos8/openGym",
       "description": "Self-hosted gym & body-weight tracker — plan routines, log workouts (supersets, warm-ups, cardio), see which muscles are trained, fatigued or detrained, import from FitNotes/Strong/Hevy, passkey login. Your data, your server.",
       "language": "JavaScript",
-      "stars": 8938,
-      "forks": 1102,
+      "stars": 8940,
+      "forks": 1104,
       "homepage": "https://opengym.ch",
       "license": "AGPL-3.0",
       "created_at": "2026-07-18T20:41:24Z",
       "pushed_at": "2026-10-09T14:01:04Z",
-      "updated_at": "2026-10-10T10:30:13Z",
+      "updated_at": "2026-10-10T10:34:23Z",
       "open_issues": 81,
       "summary": "openGym 是一个可自托管的健身与体重追踪应用，用 JavaScript 编写，前端基于 React 19 与 Vite，后端为纯 node:http，数据以 JSON 形式存放在本地 ./data 目录，通过 Docker Compose 一键部署。它解决的是主流健身应用把用户数据锁在厂商服务器、依赖订阅且可能随时关停的问题：所有训练记录、体重与进度照片都留在自己的服务器上，支持 passkey 登录与多设备同步，离线也能使用。",
       "last_seen": "2026-10-10",
-      "seen_count": 11,
+      "seen_count": 12,
       "added_at": "2026-10-09T10:50:04+00:00",
       "windows": [
         "daily",
@@ -9400,7 +9400,7 @@
       ],
       "added_at": "2026-10-09T11:22:49+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "n64decomp",
@@ -9423,7 +9423,7 @@
       ],
       "added_at": "2026-10-09T11:22:49+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "tile-ai",
@@ -9446,7 +9446,7 @@
       ],
       "added_at": "2026-10-09T11:21:36+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "TencentCloud",
@@ -9455,13 +9455,13 @@
       "url": "https://github.com/TencentCloud/Octop",
       "description": "A smarter, self-hosted AI assistant — multi-user, multi-agent.",
       "language": "Python",
-      "stars": 8417,
+      "stars": 8421,
       "forks": 1030,
       "homepage": "https://octop.cloud",
       "license": "MIT",
       "created_at": "2026-07-08T12:54:20Z",
       "pushed_at": "2026-10-10T09:43:42Z",
-      "updated_at": "2026-10-10T10:30:37Z",
+      "updated_at": "2026-10-10T10:34:26Z",
       "open_issues": 710,
       "summary": "Octop 是腾讯云开源的自托管 AI 助手，基于 Python 开发，主打多用户与多智能体协作。它把网页控制台、命令行、IM 渠道和定时任务整合进单一进程，所有对话、工作区与凭据都保存在本机 ~/.octop/ 目录下（默认 SQLite，可选 PostgreSQL），从而在保留隐私的前提下提供可并行运作的智能环境。",
       "windows": [
@@ -9469,7 +9469,7 @@
       ],
       "added_at": "2026-10-09T11:21:36+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "openbao",
@@ -9492,7 +9492,7 @@
       ],
       "added_at": "2026-10-09T11:00:35+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 8
+      "seen_count": 9
     },
     {
       "owner": "ever-co",
@@ -9506,7 +9506,7 @@
       "homepage": "https://gauzy.co",
       "license": "AGPL-3.0",
       "created_at": "2019-06-02T09:47:13Z",
-      "pushed_at": "2026-10-10T10:20:58Z",
+      "pushed_at": "2026-10-10T10:34:50Z",
       "updated_at": "2026-10-10T10:11:23Z",
       "open_issues": 458,
       "summary": "Ever Gauzy 是一个基于 TypeScript 构建的开源业务管理平台，面向协作、按需和共享经济场景，将 ERP、CRM、HRM、ATS 和项目管理整合在同一套系统中。它主要解决企业需要在多个独立工具间切换的问题，提供人力资源管理、时间与活动追踪、客户关系、销售管道、财务与会计、库存与供应链、项目任务、目标与 KPI、休假审批、多组织与多币种等能力，并支持角色权限、报表分析、数据导入导出和多语言主题。",
@@ -9515,7 +9515,7 @@
       ],
       "added_at": "2026-10-09T11:00:09+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 8
+      "seen_count": 9
     },
     {
       "owner": "EpicGames",
@@ -9524,13 +9524,13 @@
       "url": "https://github.com/EpicGames/raddebugger",
       "description": "A native, user-mode, multi-process, graphical debugger.",
       "language": "C",
-      "stars": 8301,
+      "stars": 8303,
       "forks": 396,
       "homepage": "",
       "license": "MIT",
       "created_at": "2024-01-10T19:24:08Z",
       "pushed_at": "2026-10-07T20:56:17Z",
-      "updated_at": "2026-10-10T10:23:56Z",
+      "updated_at": "2026-10-10T10:37:48Z",
       "open_issues": 317,
       "summary": "RAD Debugger 是 Epic Games 开源的原生用户态多进程图形调试器，目前仅支持本地 Windows x64 调试与 PDB 符号，未来计划扩展到 Linux 和 DWARF。它处于 ALPHA 阶段，核心目标是解决大型项目调试与链接效率问题：一方面通过自定义 RAD Debug Info（RDI）格式按需转换 PDB，避免原生格式在超大可执行文件下溢出 32 位表；另一方面提供 RAD Linker，命令行兼容 MSVC，面向巨型项目优化，测试中链接时间可快 50%，并支持大内存页进一步提速。项目还包含 radbin 工具用于格式转换与文本转储。",
       "windows": [
@@ -9540,7 +9540,7 @@
       ],
       "added_at": "2026-10-09T11:22:49+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "tester-army",
@@ -9609,7 +9609,7 @@
       ],
       "added_at": "2026-10-09T11:01:04+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 9
+      "seen_count": 10
     },
     {
       "owner": "Suwayomi",
@@ -9632,7 +9632,7 @@
       ],
       "added_at": "2026-10-09T11:22:02+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "Gentleman-Programming",
@@ -9655,7 +9655,7 @@
       ],
       "added_at": "2026-10-09T11:00:35+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 8
+      "seen_count": 9
     },
     {
       "owner": "leejet",
@@ -9678,7 +9678,7 @@
       ],
       "added_at": "2026-10-09T11:23:13+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "openai",
@@ -9724,7 +9724,7 @@
       ],
       "added_at": "2026-10-09T11:22:49+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "hathach",
@@ -9747,7 +9747,7 @@
       ],
       "added_at": "2026-10-09T11:22:49+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "Gentleman-Programming",
@@ -9770,7 +9770,7 @@
       ],
       "added_at": "2026-10-09T11:00:35+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 8
+      "seen_count": 9
     },
     {
       "owner": "firebase",
@@ -9793,7 +9793,7 @@
       ],
       "added_at": "2026-10-09T11:23:13+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "zhukunpenglinyutong",
@@ -9802,13 +9802,13 @@
       "url": "https://github.com/zhukunpenglinyutong/jetbrains-cc-gui",
       "description": "Jetbrains Claude Code and Codex GUI Plugin",
       "language": "Java",
-      "stars": 6899,
+      "stars": 6900,
       "forks": 672,
       "homepage": "https://plugins.jetbrains.com/plugin/29342-cc-gui-claude-or-codex-",
       "license": "MIT",
       "created_at": "2025-11-20T03:41:05Z",
       "pushed_at": "2026-10-10T04:59:45Z",
-      "updated_at": "2026-10-10T09:31:28Z",
+      "updated_at": "2026-10-10T10:41:08Z",
       "open_issues": 532,
       "summary": "CC GUI 是一款基于 Java 开发的 IntelliJ IDEA 插件，原名 Claude Code GUI，为 Claude Code、OpenAI Codex 等 AI 编程命令行工具提供可视化界面，解决在 IDE 内直接调用 AI 编码助手时交互不便的问题。插件支持 Claude Code、OpenAI Codex，以及 Grok CLI、Kimi CLI、OpenCode、PI CLI、OMP CLI、DeepSeek Harness 等多个处于测试阶段的引擎。",
       "windows": [
@@ -9816,7 +9816,7 @@
       ],
       "added_at": "2026-10-09T11:22:02+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "external-secrets",
@@ -9862,7 +9862,7 @@
       ],
       "added_at": "2026-10-09T11:01:04+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 8
+      "seen_count": 9
     },
     {
       "owner": "kvcache-ai",
@@ -9871,13 +9871,13 @@
       "url": "https://github.com/kvcache-ai/Mooncake",
       "description": "Mooncake is the serving platform for Kimi, a leading LLM service provided by Moonshot AI.",
       "language": "C++",
-      "stars": 6752,
+      "stars": 6753,
       "forks": 1305,
       "homepage": "https://kvcache-ai.github.io/Mooncake/",
       "license": "Apache-2.0",
       "created_at": "2024-06-25T05:21:05Z",
-      "pushed_at": "2026-10-10T10:15:53Z",
-      "updated_at": "2026-10-10T10:16:01Z",
+      "pushed_at": "2026-10-10T10:39:13Z",
+      "updated_at": "2026-10-10T10:36:00Z",
       "open_issues": 705,
       "summary": "Mooncake 是 Moonshot AI 为 Kimi 打造的 LLM 服务基础设施，采用以 KVCache 为中心的分离式架构，将预填充与解码集群拆分，并利用 GPU 集群中闲置的 CPU、DRAM 和 SSD 构建分布式 KV 缓存池。其核心是高性能 Transfer Engine，提供跨异构网络与加速器的批量数据传输，支持多传输协议、拓扑感知路由、多网卡带宽聚合与自动故障转移；在此基础上还有负责分布式 KV 缓存与模型权重管理的 Mooncake Store，以及面向大规模 MoE 推理的 Mooncake EP 与 PG，后者提供可感知失效 rank 并支持免重启恢复的 PyTo。",
       "windows": [
@@ -9885,7 +9885,7 @@
       ],
       "added_at": "2026-10-09T11:23:13+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "InterceptSuite",
@@ -9908,7 +9908,7 @@
       ],
       "added_at": "2026-10-09T11:22:49+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "google",
@@ -9931,7 +9931,7 @@
       ],
       "added_at": "2026-10-09T11:23:13+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "vastsa",
@@ -9954,7 +9954,7 @@
       ],
       "added_at": "2026-10-09T11:01:58+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 7
+      "seen_count": 8
     },
     {
       "owner": "mvschwarz",
@@ -9963,13 +9963,13 @@
       "url": "https://github.com/mvschwarz/openrig",
       "description": "Build your own network of agents from Claude Code, Codex and Pi: persistent teams with roles, shared context and owned work.",
       "language": "TypeScript",
-      "stars": 6598,
+      "stars": 6601,
       "forks": 484,
       "homepage": "https://openrig.dev",
       "license": "Apache-2.0",
       "created_at": "2026-04-01T06:22:40Z",
       "pushed_at": "2026-10-10T09:01:57Z",
-      "updated_at": "2026-10-10T10:24:33Z",
+      "updated_at": "2026-10-10T10:40:07Z",
       "open_issues": 155,
       "summary": "OpenRig 是一个用 TypeScript 编写的开源工具，用于把 Claude Code、Codex 等 AI 编码代理组织成持久化的智能体团队。它解决的是代理会话散落在多个终端、缺乏统一管理的问题：通过 YAML 定义团队角色，一条命令即可启动，让不同代理在同一套系统中协作。核心特点包括角色分工、共享上下文、任务归属，以及由 lead 代理协调专家并汇总需要人工决策的结果。使用时先与 kernel operator 对话，选择适合已有账号的团队，再向 builder 下达一个有边界的任务并查看产出与评审。它依赖 Node.",
       "windows": [
@@ -9977,7 +9977,7 @@
       ],
       "added_at": "2026-10-09T11:00:09+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 8
+      "seen_count": 9
     },
     {
       "owner": "lharries",
@@ -9986,13 +9986,13 @@
       "url": "https://github.com/lharries/whatsapp-mcp",
       "description": "WhatsApp MCP server",
       "language": "Go",
-      "stars": 6463,
+      "stars": 6464,
       "forks": 1374,
       "homepage": "https://x.com/LukeHarries_/status/1905986562388635913",
       "license": "MIT",
       "created_at": "2025-03-29T12:49:33Z",
       "pushed_at": "2025-07-13T17:22:00Z",
-      "updated_at": "2026-10-10T09:25:20Z",
+      "updated_at": "2026-10-10T10:37:52Z",
       "open_issues": 252,
       "summary": "WhatsApp MCP Server 是一个基于 Model Context Protocol 的服务器，让 Claude 等 LLM 能直接访问和操作用户的个人 WhatsApp 数据。它通过 whatsmeow 库连接 WhatsApp Web 多设备 API，将消息、联系人等数据存储在本地 SQLite 数据库中，仅在代理调用工具时才发送给模型，用户可自行控制。",
       "windows": [
@@ -10000,7 +10000,7 @@
       ],
       "added_at": "2026-10-09T11:00:35+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 8
+      "seen_count": 9
     },
     {
       "owner": "TGX-Android",
@@ -10024,7 +10024,7 @@
       ],
       "added_at": "2026-10-09T11:22:02+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 5
+      "seen_count": 6
     },
     {
       "owner": "Neet-Nestor",
@@ -10033,13 +10033,13 @@
       "url": "https://github.com/Neet-Nestor/Telegram-Media-Downloader",
       "description": "A script allowing you to download images and videos from Telegram web even if the group restricts downloading.",
       "language": "JavaScript",
-      "stars": 6021,
+      "stars": 6022,
       "forks": 592,
       "homepage": "https://greasyfork.org/scripts/446342-telegram-media-downloader",
       "license": "GPL-3.0",
       "created_at": "2022-06-11T06:20:37Z",
       "pushed_at": "2026-03-09T06:52:52Z",
-      "updated_at": "2026-10-10T06:36:50Z",
+      "updated_at": "2026-10-10T10:40:45Z",
       "open_issues": 73,
       "summary": "Telegram Media Downloader 是一款基于 JavaScript 的用户脚本，用于在 Telegram 网页版中下载图片、GIF、音频和视频，即使所在群组或频道已关闭下载权限也能生效。它通过浏览器扩展管理器（如 Tampermonkey、Violentmonkey 等）安装，支持 Telegram WebK 和 WebZ 两个版本，其中语音消息下载等功能仅在 WebK 版本可用。对于允许保存内容的聊天，脚本不会干预，仍使用官方下载按钮；对于禁止下载的频道，它会重新添加下载按钮，视频下载时右下角还会显示进度条。",
       "windows": [
@@ -10048,7 +10048,7 @@
       ],
       "added_at": "2026-10-09T10:59:47+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 8
+      "seen_count": 9
     },
     {
       "owner": "asciimoo",
@@ -10071,7 +10071,7 @@
       ],
       "added_at": "2026-10-09T11:00:35+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 8
+      "seen_count": 9
     },
     {
       "owner": "xingkongliang",
@@ -10094,7 +10094,7 @@
       ],
       "added_at": "2026-10-09T11:01:04+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 8
+      "seen_count": 9
     },
     {
       "owner": "GeyserMC",
@@ -10118,7 +10118,7 @@
       ],
       "added_at": "2026-10-09T11:22:02+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "Vita3K",
@@ -10132,16 +10132,16 @@
       "homepage": "https://vita3k.org/",
       "license": "GPL-2.0",
       "created_at": "2018-01-26T22:45:05Z",
-      "pushed_at": "2026-10-09T16:59:51Z",
-      "updated_at": "2026-10-10T10:31:24Z",
-      "open_issues": 227,
+      "pushed_at": "2026-10-10T10:39:43Z",
+      "updated_at": "2026-10-10T10:39:50Z",
+      "open_issues": 226,
       "summary": "Vita3K 是一个实验性的 PlayStation Vita 模拟器，使用 C++ 编写，可在 Windows、Linux、macOS 和 Android 上运行，目标是让用户在电脑或手机上运行 Vita 平台的自制程序和商业游戏。它目前能运行大多数自制程序及部分商业游戏，但项目仍处于早期阶段，兼容性有限，可能出现崩溃、画面异常和性能不佳等情况。",
       "windows": [
         "weekly"
       ],
       "added_at": "2026-10-09T11:23:13+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 5
+      "seen_count": 6
     },
     {
       "owner": "FxEmbed",
@@ -10164,7 +10164,7 @@
       ],
       "added_at": "2026-10-09T11:00:09+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 8
+      "seen_count": 9
     },
     {
       "owner": "pablostanley",
@@ -10188,7 +10188,7 @@
       ],
       "added_at": "2026-10-09T11:00:09+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 8
+      "seen_count": 9
     },
     {
       "owner": "twostraws",
@@ -10197,13 +10197,13 @@
       "url": "https://github.com/twostraws/SwiftUI-Agent-Skill",
       "description": "SwiftUI agent skill for Claude Code, Codex, and other AI tools.",
       "language": "",
-      "stars": 5643,
-      "forks": 198,
+      "stars": 5649,
+      "forks": 199,
       "homepage": "",
       "license": "MIT",
       "created_at": "2026-03-05T20:13:14Z",
       "pushed_at": "2026-10-07T13:39:28Z",
-      "updated_at": "2026-10-10T10:28:58Z",
+      "updated_at": "2026-10-10T10:40:13Z",
       "open_issues": 12,
       "summary": "SwiftUI Pro 是 Paul Hudson 为 AI 编程助手开发的 SwiftUI 代理技能，基于其多年积累的 AGENTS.md 文件整理而成，采用 Agent Skills 格式，可兼容 Claude Code、Codex、Gemini、Cursor 等工具。它针对大语言模型在编写 SwiftUI 代码时常犯的错误，提供 API 用法、设计、性能与无障碍方面的指导，涵盖导航、布局、动画、状态管理、VoiceOver 以及废弃 API 等内容。安装可通过 npx 选择目标代理和项目范围，Claude Code 用户也能借助市场插件安装。",
       "windows": [
@@ -10211,7 +10211,7 @@
       ],
       "added_at": "2026-10-09T11:23:29+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "HarbourMasters",
@@ -10234,7 +10234,7 @@
       ],
       "added_at": "2026-10-09T11:22:49+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "armory3d",
@@ -10257,7 +10257,7 @@
       ],
       "added_at": "2026-10-09T11:22:49+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "NVIDIA",
@@ -10280,7 +10280,7 @@
       ],
       "added_at": "2026-10-09T11:21:36+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "bethington",
@@ -10289,13 +10289,13 @@
       "url": "https://github.com/bethington/ghidra-mcp",
       "description": "Ghidra MCP Server — 200+ MCP tools for AI-powered reverse engineering. GUI plugin + headless server, lazy tool loading, convention enforcement, batch operations, Ghidra Server integration, and Docker deployment.",
       "language": "Java",
-      "stars": 5246,
-      "forks": 266,
+      "stars": 5249,
+      "forks": 267,
       "homepage": "",
       "license": "Apache-2.0",
       "created_at": "2025-08-30T06:40:03Z",
       "pushed_at": "2026-10-09T17:40:39Z",
-      "updated_at": "2026-10-10T10:29:42Z",
+      "updated_at": "2026-10-10T10:41:10Z",
       "open_issues": 30,
       "summary": "Ghidra MCP Server 是一个基于 Java 开发的生产级 Model Context Protocol 服务器，用于把 Ghidra 的反向工程能力接入 AI 工具与自动化框架。它针对多数同类实现只提供少量只读工具的问题，提供 209 个 MCP 工具，覆盖反编译、调用图、交叉引用、P-code 图数据流分析、结构体与枚举创建、字符串提取、导入导出分析、内存检查，以及重命名、注释、类型标注等写操作。",
       "windows": [
@@ -10305,7 +10305,7 @@
       ],
       "added_at": "2026-10-09T11:22:02+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "Gaurav-Gosain",
@@ -10329,7 +10329,7 @@
       ],
       "added_at": "2026-10-09T11:00:35+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 8
+      "seen_count": 9
     },
     {
       "owner": "breferrari",
@@ -10352,7 +10352,7 @@
       ],
       "added_at": "2026-10-09T11:00:09+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 8
+      "seen_count": 9
     },
     {
       "owner": "open-telemetry",
@@ -10398,7 +10398,7 @@
       ],
       "added_at": "2026-10-09T11:21:36+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "skeeto",
@@ -10421,7 +10421,7 @@
       ],
       "added_at": "2026-10-09T11:22:49+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "FCL-Team",
@@ -10444,7 +10444,7 @@
       ],
       "added_at": "2026-10-09T11:22:02+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "hieunc229",
@@ -10467,7 +10467,7 @@
       ],
       "added_at": "2026-10-09T11:00:09+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 8
+      "seen_count": 9
     },
     {
       "owner": "withmarbleapp",
@@ -10490,7 +10490,7 @@
       ],
       "added_at": "2026-10-09T10:59:47+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 8
+      "seen_count": 9
     },
     {
       "owner": "agent-substrate",
@@ -10499,13 +10499,13 @@
       "url": "https://github.com/agent-substrate/substrate",
       "description": "Agent Substrate: the core system",
       "language": "Go",
-      "stars": 4743,
+      "stars": 4746,
       "forks": 537,
       "homepage": "",
       "license": "Apache-2.0",
       "created_at": "2026-05-13T19:02:38Z",
       "pushed_at": "2026-10-10T05:50:09Z",
-      "updated_at": "2026-10-10T10:21:40Z",
+      "updated_at": "2026-10-10T10:39:45Z",
       "open_issues": 726,
       "summary": "Agent Substrate 是一个用 Go 编写的、默认安全的智能体运行运行时，目标是在 Kubernetes 上运行数百万个沙箱。它针对自主智能体场景设计，通过将大量多数时间处于空闲状态的“actor”（如智能体应用）映射到少量就绪的“worker”上，实现高密度多路复用，官方称其密度可达标准容器运行时的十倍，并支持亚 500 毫秒恢复、每秒 500 次以上的挂起/恢复，以及零信任的内核与网络隔离。",
       "windows": [
@@ -10513,7 +10513,7 @@
       ],
       "added_at": "2026-10-09T11:00:35+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 8
+      "seen_count": 9
     },
     {
       "owner": "anthropics",
@@ -10559,7 +10559,7 @@
       ],
       "added_at": "2026-10-09T11:00:09+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 8
+      "seen_count": 9
     },
     {
       "owner": "WorldFlowAI",
@@ -10568,13 +10568,13 @@
       "url": "https://github.com/WorldFlowAI/everything-claude-code",
       "description": "Claude Code toolkit - agents, commands, skills, rules, and hooks for productive AI-assisted development",
       "language": "JavaScript",
-      "stars": 4393,
+      "stars": 4394,
       "forks": 666,
       "homepage": "",
       "license": "",
       "created_at": "2026-01-23T12:41:36Z",
       "pushed_at": "2026-01-23T12:42:00Z",
-      "updated_at": "2026-10-10T10:21:23Z",
+      "updated_at": "2026-10-10T10:38:31Z",
       "open_issues": 12,
       "summary": "Everything Claude Code 是一套面向 Claude Code 的完整配置集合，由一位 Anthropic 黑客松获胜者整理，包含经过十余个月日常使用打磨的 agents、skills、hooks、commands、rules 和 MCP 配置，可直接作为插件安装或手动复制组件。它主要解决 AI 辅助开发中配置零散、跨平台兼容性差、包管理器识别混乱等问题：所有 hooks 和脚本用 Node.js 重写，支持 Windows、macOS 和 Linux，并能按环境变量、项目配置、package.json、锁文件等优先级自动检测 npm、pnpm、yarn 或 bun。",
       "windows": [
@@ -10582,7 +10582,7 @@
       ],
       "added_at": "2026-10-09T10:59:47+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 8
+      "seen_count": 9
     },
     {
       "owner": "docker",
@@ -10601,7 +10601,7 @@
       "open_issues": 46,
       "summary": "docker-agent 是 Docker Engineering 开源的一款 AI 智能体构建与运行工具，以 Go 语言编写，并作为 Docker CLI 插件集成，可通过 docker agent 命令直接调用。它面向希望以低代码方式搭建 AI 智能体的开发者，核心思路是用声明式 YAML 配置定义智能体，无需编写代码即可赋予其工具能力并投入运行。",
       "last_seen": "2026-10-10",
-      "seen_count": 11,
+      "seen_count": 12,
       "added_at": "2026-10-09T10:50:28+00:00",
       "windows": [
         "daily",
@@ -10629,7 +10629,7 @@
       ],
       "added_at": "2026-10-09T11:22:02+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "danyuchn",
@@ -10638,13 +10638,13 @@
       "url": "https://github.com/danyuchn/asd-ste100-skill",
       "description": "ASD-STE100 Simplified Technical English rules, repurposed as a Claude Code skill for rewriting ambiguous agent-facing English.",
       "language": "Python",
-      "stars": 4283,
+      "stars": 4284,
       "forks": 245,
       "homepage": "",
       "license": "MIT",
       "created_at": "2026-07-20T15:10:41Z",
       "pushed_at": "2026-10-04T06:18:56Z",
-      "updated_at": "2026-10-10T09:48:26Z",
+      "updated_at": "2026-10-10T10:41:12Z",
       "open_issues": 5,
       "summary": "ASD-STE100 Skill 是一个 Claude Code 技能，用 Python 实现，把航空航天与国防行业为飞机维修指令制定的受控语言标准 ASD-STE100 简化技术英语，转用于改写面向 AI 代理的英文文本。它针对的问题是：下游代理解析另一个代理的输出、工具描述、错误信息或代理间指令时，没有人类在回路中澄清歧义。技能提供严格与 STE 风格两种模式，逐句标记并改写歧义用词、复杂时态、被动语态、多指令句、过长名词簇、省略词、超长句、短语动词、名词化动作、分号、堆叠模糊语和营销形容词，且不丢失原文的事实、条件或范围限定；若简化会损失精度，则保留原句并标注取舍。",
       "windows": [
@@ -10652,7 +10652,7 @@
       ],
       "added_at": "2026-10-10T10:30:37+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "owner": "fleetbase",
@@ -10661,13 +10661,13 @@
       "url": "https://github.com/fleetbase/fleetbase",
       "description": "Modular logistics and supply chain operating system (LSOS)",
       "language": "JavaScript",
-      "stars": 4260,
+      "stars": 4262,
       "forks": 1114,
       "homepage": "https://fleetbase.io",
       "license": "AGPL-3.0",
       "created_at": "2022-09-23T09:36:08Z",
       "pushed_at": "2026-10-08T07:47:58Z",
-      "updated_at": "2026-10-10T10:14:02Z",
+      "updated_at": "2026-10-10T10:41:06Z",
       "open_issues": 17,
       "summary": "Fleetbase 是一个开源、模块化的物流与供应链操作系统，主要用 JavaScript 编写，旨在让需要运输货物、人员或设备的团队拥有自己掌控的软件。它把调度、车队管理、实时追踪、商贸、仓储和财务整合到一个平台中，并提供 REST API、Webhook 和扩展系统，每个模块既可独立运行又能相互集成。其功能包括看板式订单流转、实时运营地图、自定义订单流程与字段、车辆与司机分配及路线规划、服务区域与地理围栏、店铺与商品目录管理、收入与发票账本，以及可浏览安装免费或付费扩展的市场。",
       "windows": [
@@ -10675,7 +10675,7 @@
       ],
       "added_at": "2026-10-09T10:59:47+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 8
+      "seen_count": 9
     },
     {
       "owner": "windirstat",
@@ -10684,13 +10684,13 @@
       "url": "https://github.com/windirstat/windirstat",
       "description": "Windows disk usage analyzer and cleanup tool with interactive treemaps, large-file discovery, duplicate detection, and file-system monitoring.",
       "language": "C++",
-      "stars": 4260,
+      "stars": 4261,
       "forks": 262,
       "homepage": "https://windirstat.net",
       "license": "GPL-3.0",
       "created_at": "2016-04-04T18:34:51Z",
       "pushed_at": "2026-10-08T18:48:17Z",
-      "updated_at": "2026-10-10T10:12:19Z",
+      "updated_at": "2026-10-10T10:33:56Z",
       "open_issues": 30,
       "summary": "WinDirStat 是一款面向 Windows 的磁盘占用分析与清理工具，用 C++ 编写，帮助用户弄清磁盘空间被什么文件占用。它可扫描驱动器、文件夹、网络共享及 MTP 设备，通过可排序文件列表、文件类型统计以及矩形树图、旭日图、火焰图等交互式可视化呈现结果。核心能力包括查找大文件与重复文件、查看权限、估算存储成本、导出报告，并支持暂停续扫、按路径名称大小年龄过滤及正则搜索。它还提供文件系统监控、CSV 或 JSON 快照保存与加载，以及通过命令行导出扫描、重复和权限报告。典型场景是清理磁盘前定位大文件或重复项，也可在管理员权限下从 NTFS、exFAT 和 FAT 盘恢复已删除文件。",
       "windows": [
@@ -10698,7 +10698,7 @@
       ],
       "added_at": "2026-10-09T11:23:13+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "chthollyphile",
@@ -10707,13 +10707,13 @@
       "url": "https://github.com/chthollyphile/folia-major",
       "description": "专注于绚丽的歌词动画效果的本地音乐/navidrome/第三方多平台在线音乐播放器",
       "language": "TypeScript",
-      "stars": 4248,
+      "stars": 4249,
       "forks": 321,
       "homepage": "https://folia-site.cielaniska.top/",
       "license": "AGPL-3.0",
       "created_at": "2025-11-28T11:58:07Z",
       "pushed_at": "2026-10-10T08:20:41Z",
-      "updated_at": "2026-10-10T10:30:25Z",
+      "updated_at": "2026-10-10T10:32:51Z",
       "open_issues": 33,
       "summary": "Folia 是一款以全屏沉浸式歌词播放为核心的在线音乐播放器，使用 TypeScript 编写，支持网易云、酷狗、Navidrome 及本地音乐库。它通过智能歌词匹配、AI 生成配色主题和多种全屏歌词动画，解决普通播放器歌词展示单调的问题，让歌词呈现接近文字 PV 的视觉效果，并自动适配不同窗口尺寸。项目提供基于 Electron 的 Windows、macOS、Linux 桌面版和基于 Node.js 的 Web 版，可一键部署到 Vercel 或 Cloudflare，也支持 Docker Compose 自托管，移动端可通过 PWA 或 Capacitor 打包使用。",
       "windows": [
@@ -10721,7 +10721,7 @@
       ],
       "added_at": "2026-10-09T11:00:09+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 8
+      "seen_count": 9
     },
     {
       "owner": "nageoffer",
@@ -10744,7 +10744,7 @@
       ],
       "added_at": "2026-10-09T11:22:02+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "zerx-lab",
@@ -10760,14 +10760,14 @@
       "created_at": "2026-07-03T01:00:17Z",
       "pushed_at": "2026-10-10T10:23:50Z",
       "updated_at": "2026-10-10T10:28:10Z",
-      "open_issues": 432,
+      "open_issues": 433,
       "summary": "FluxDown 是一个用 Rust 编写的多协议下载管理器，定位为免费开源的 IDM 替代品。它基于 Rust 与 Tokio 构建下载引擎，支持 HTTP/HTTPS、FTP、BitTorrent、eD2K 磁力链接以及 HLS、DASH 流媒体，通过自适应分段和慢速分片补救实现动态多线程加速。项目采用单一引擎、多客户端架构：桌面端使用 GPUI，移动端为 Flutter，另有 React Web UI 和 CLI，并提供 Chrome、Edge、Firefox 浏览器扩展与油猴脚本，借助三层拦截引擎接管浏览器下载。",
       "windows": [
         "weekly"
       ],
       "added_at": "2026-10-09T11:01:04+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 8
+      "seen_count": 9
     },
     {
       "owner": "touchHLE",
@@ -10790,7 +10790,7 @@
       ],
       "added_at": "2026-10-09T11:01:04+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 8
+      "seen_count": 9
     },
     {
       "owner": "martin-olivier",
@@ -10836,7 +10836,7 @@
       ],
       "added_at": "2026-10-09T11:22:02+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 5
+      "seen_count": 6
     },
     {
       "owner": "edwardkim",
@@ -10869,7 +10869,7 @@
       "description": "Decompilation of Pokémon Emerald",
       "language": "C",
       "stars": 3555,
-      "forks": 4773,
+      "forks": 4774,
       "homepage": "",
       "license": "",
       "created_at": "2015-10-05T10:09:22Z",
@@ -10882,7 +10882,7 @@
       ],
       "added_at": "2026-10-09T11:22:49+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "grafana",
@@ -10905,7 +10905,7 @@
       ],
       "added_at": "2026-10-09T11:00:35+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 8
+      "seen_count": 9
     },
     {
       "owner": "thebuggeddev",
@@ -10951,7 +10951,7 @@
       ],
       "added_at": "2026-10-09T11:22:02+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "IRNova",
@@ -10974,7 +10974,7 @@
       ],
       "added_at": "2026-10-09T11:01:40+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 7
+      "seen_count": 8
     },
     {
       "owner": "chuspeeism",
@@ -10997,7 +10997,7 @@
       ],
       "added_at": "2026-10-09T11:01:40+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 7
+      "seen_count": 8
     },
     {
       "owner": "AndroidIDEOfficial",
@@ -11021,7 +11021,7 @@
       ],
       "added_at": "2026-10-09T11:22:02+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "AtomicBot-ai",
@@ -11044,7 +11044,7 @@
       ],
       "added_at": "2026-10-09T11:00:09+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 8
+      "seen_count": 9
     },
     {
       "owner": "zeronsh",
@@ -11068,7 +11068,7 @@
       ],
       "added_at": "2026-10-09T11:01:04+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 8
+      "seen_count": 9
     },
     {
       "owner": "davidmonterocrespo24",
@@ -11107,14 +11107,14 @@
       "created_at": "2023-03-03T11:36:02Z",
       "pushed_at": "2026-10-09T08:31:52Z",
       "updated_at": "2026-10-10T08:47:37Z",
-      "open_issues": 27,
+      "open_issues": 28,
       "summary": "NeuralNote 是一款基于深度学习的音频转 MIDI 插件，支持 VST3、AU 及独立运行，用 C++ 编写。它解决的是把音频（尤其是完整混音）转写为 MIDI 音符的问题，让用户能在数字音频工作站中直接对音频进行转谱。其 v2 版本用 MuScriptor 模型取代了此前的 Basic Pitch，支持多乐器转写并按乐器分组音符，内置多乐器合成器可试听、调节各乐器增益、静音与独奏，并配有全新界面。使用时可录制或拖入音频文件，选择目标乐器或交由模型自动检测，转写在后台进行并实时填充钢琴卷帘，还能边解码边播放。",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-09T11:23:13+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "shmykelsa",
@@ -11137,7 +11137,7 @@
       ],
       "added_at": "2026-10-09T11:22:02+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "sepinf-inc",
@@ -11160,7 +11160,7 @@
       ],
       "added_at": "2026-10-09T11:22:02+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "makecindy",
@@ -11174,16 +11174,16 @@
       "homepage": "https://cindy.app",
       "license": "Apache-2.0",
       "created_at": "2026-07-22T17:49:34Z",
-      "pushed_at": "2026-10-10T10:29:51Z",
-      "updated_at": "2026-10-10T10:29:56Z",
-      "open_issues": 1567,
+      "pushed_at": "2026-10-10T10:40:52Z",
+      "updated_at": "2026-10-10T10:40:57Z",
+      "open_issues": 1568,
       "summary": "Cindy 是一个开源、开箱即用的 AI Agent 客户端，用 TypeScript 编写，以 pnpm monorepo 形式组织，包含桌面端、移动端及其共享包。它把多种 harness、模型和工具整合进同一个 agent，首批支持 Claude Code 与 Codex，模型与 harness 可自由混用并在任务中途切换，而工作区、记忆、技能和工具保持连续，同一任务甚至可由不同组合的 agent 并行规划、执行与审查。它在本机运行，直接使用真实文件和已登录的应用，能驱动浏览器、电脑和手机，并接受来自即时通讯和定时调度的任务。",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-09T11:01:58+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 7
+      "seen_count": 8
     },
     {
       "owner": "alsk1992",
@@ -11206,7 +11206,7 @@
       ],
       "added_at": "2026-10-09T11:01:58+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 7
+      "seen_count": 8
     },
     {
       "owner": "DmNote-App",
@@ -11215,17 +11215,17 @@
       "url": "https://github.com/DmNote-App/DmNote",
       "description": "Make it yours. A customizable key viewer for DJMAX RESPECT V and any game.",
       "language": "TypeScript",
-      "stars": 2902,
+      "stars": 2903,
       "forks": 107,
       "homepage": "https://DmNote.app",
       "license": "GPL-3.0",
       "created_at": "2025-01-03T05:48:56Z",
       "pushed_at": "2026-10-07T23:36:48Z",
-      "updated_at": "2026-10-10T09:24:20Z",
+      "updated_at": "2026-10-10T10:32:46Z",
       "open_issues": 9,
       "summary": "DM Note 是一款面向 DJMAX RESPECT V 及各类游戏的按键可视化工具，基于 TypeScript 与 Tauri 构建，前端采用 React 19、Vite 7 和 Tailwind CSS 3。它解决的是玩家在直播或录制游戏画面时无法直观呈现键盘输入的问题，通过实时可视化、按键映射、音符特效、按键计数器、KPS 统计图表和按键音等功能展示操作。用户可在网格中编辑按键、为每个键指定图片、编写自定义 CSS 或使用插件与预设进行个性化定制。其覆盖层支持始终置顶、位置锁定、缩放基准点以及 OBS 浏览器源，并具备五种语言、快捷键、设置重置和自动更新。",
       "last_seen": "2026-10-10",
-      "seen_count": 11,
+      "seen_count": 12,
       "added_at": "2026-10-09T10:50:16+00:00",
       "windows": [
         "daily",
@@ -11253,7 +11253,7 @@
       ],
       "added_at": "2026-10-09T11:23:13+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "chaolucky18",
@@ -11276,7 +11276,7 @@
       ],
       "added_at": "2026-10-09T11:01:40+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 7
+      "seen_count": 8
     },
     {
       "owner": "HakanSeven12",
@@ -11286,7 +11286,7 @@
       "description": "A CAD application built with Rust — 2D/3D drawing, DWG/DXF support, and GPU-accelerated rendering",
       "language": "Rust",
       "stars": 2675,
-      "forks": 289,
+      "forks": 290,
       "homepage": "",
       "license": "GPL-3.0",
       "created_at": "2026-03-22T11:53:50Z",
@@ -11295,7 +11295,7 @@
       "open_issues": 159,
       "summary": "Open CAD Studio 是一个用 Rust 编写的跨平台开源 CAD 应用，面向二维制图与三维建模，桌面版与网页版共享同一套编辑内核。它直接读写 DWG 和 DXF 文件，无需借助转换服务，可解决工程图纸打开、编辑、修复与保存的兼容性问题。核心能力包括：精确的二维绘图工具，如直线、多段线、曲线、样条、填充、对象捕捉、图层、块和外部参照；文字、标注、引线、公差、表格、模型空间、图纸空间、视口与打印样式等文档工具；基于内核的三维实体建模，支持基本体、拉伸、旋转、扫掠、放样、布尔运算和 ACIS 实体细分；通过 wgpu 实现 GPU 加速的正交与透视视口渲染。",
       "last_seen": "2026-10-10",
-      "seen_count": 11,
+      "seen_count": 12,
       "added_at": "2026-10-09T10:50:39+00:00",
       "windows": [
         "monthly"
@@ -11308,13 +11308,13 @@
       "url": "https://github.com/kanoqwq/UFI-TOOLS",
       "description": "A functional tools for z*e devices (F50 | U30 Air)",
       "language": "JavaScript",
-      "stars": 2672,
+      "stars": 2674,
       "forks": 290,
       "homepage": "",
       "license": "MIT",
       "created_at": "2025-03-21T01:13:27Z",
       "pushed_at": "2026-10-09T18:16:42Z",
-      "updated_at": "2026-10-10T10:27:25Z",
+      "updated_at": "2026-10-10T10:37:04Z",
       "open_issues": 38,
       "summary": "UFI-TOOLS 是一款面向中兴随身 WiFi（F50、U30 Air 等）及展锐/紫光平台 Android 设备的系统管理与扩展工具，主要用 JavaScript 编写。它针对这类设备原生管理能力有限的问题，提供远程管理、信号监控、系统控制和插件扩展等功能。核心能力包括免重启锁频段与锁小区、3G/4G/5G 网络模式切换、RSRP/SINR/PCI 等信号指标实时监测、短信收发与自动转发、内置 AT 命令终端、SSH 远程访问，以及一键获取系统权限、CPU 核心控制和电池定量停充等高级操作。",
       "windows": [
@@ -11322,7 +11322,7 @@
       ],
       "added_at": "2026-10-09T10:59:47+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 9
+      "seen_count": 10
     },
     {
       "owner": "M-Abozaid",
@@ -11331,21 +11331,21 @@
       "url": "https://github.com/M-Abozaid/esp32-c3-adblock",
       "description": "Pi-hole-class DNS ad-blocker on a $2 ESP32-C3 (no PSRAM): 537k domains as 40-bit FNV-1a hashes in flash, binary-searched. UDP DNS sinkhole + web dashboard. https://youtube.com/shorts/RaxszOUMi8E?feature=share",
       "language": "C++",
-      "stars": 2644,
-      "forks": 243,
+      "stars": 2645,
+      "forks": 244,
       "homepage": "",
       "license": "MIT",
       "created_at": "2026-06-19T18:14:43Z",
       "pushed_at": "2026-10-06T10:47:36Z",
-      "updated_at": "2026-10-10T10:17:25Z",
-      "open_issues": 21,
+      "updated_at": "2026-10-10T10:32:57Z",
+      "open_issues": 22,
       "summary": "这是一个运行在约 2 美元 ESP32-C3 上的 Pi-hole 风格 DNS 广告拦截器，无需 PSRAM。它解决的核心问题是：多数 ESP32 DNS 拦截方案要把域名黑名单加载进内存，因而依赖 PSRAM。该项目改为把域名存成排序后的 40 位 FNV-1a 哈希写入 flash，再用二分查找匹配，14 万条域名约占 0.7 MB flash、匹配约 10 毫秒、占用约 50 KB RAM。它提供 UDP DNS 黑洞与网页仪表盘，支持通过上传或远程 URL 定时更新黑名单，并可用 OTA 更新固件；WiFi 配置走强制门户，无需重新刷写。",
       "windows": [
         "monthly"
       ],
       "added_at": "2026-10-09T11:23:13+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "cartesiancs",
@@ -11368,7 +11368,7 @@
       ],
       "added_at": "2026-10-09T11:01:58+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 7
+      "seen_count": 8
     },
     {
       "owner": "dmtrKovalenko",
@@ -11391,7 +11391,7 @@
       ],
       "added_at": "2026-10-09T11:01:04+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 8
+      "seen_count": 9
     },
     {
       "owner": "microsoft",
@@ -11400,17 +11400,17 @@
       "url": "https://github.com/microsoft/mxc",
       "description": "Policy-driven, layered isolation and containment ",
       "language": "Rust",
-      "stars": 2503,
+      "stars": 2504,
       "forks": 125,
       "homepage": "",
       "license": "MIT",
       "created_at": "2026-02-06T20:13:08Z",
       "pushed_at": "2026-10-10T00:17:30Z",
-      "updated_at": "2026-10-10T10:23:05Z",
+      "updated_at": "2026-10-10T10:34:55Z",
       "open_issues": 57,
       "summary": "Microsoft eXecution Container（MXC）是一个用于在 Windows、Linux 和 macOS 上运行不可信代码的沙箱化执行系统，主要面向模型输出、插件和工具等场景。它通过统一的容器模型和类型化 SDK，把操作系统原生进程沙箱到完整虚拟机等多种隔离后端整合在一起，解决跨平台安全执行不受信任代码的问题。",
       "last_seen": "2026-10-10",
-      "seen_count": 11,
+      "seen_count": 12,
       "added_at": "2026-10-09T10:50:39+00:00",
       "windows": [
         "daily",
@@ -11438,7 +11438,7 @@
       ],
       "added_at": "2026-10-09T11:00:09+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 8
+      "seen_count": 9
     },
     {
       "owner": "slavakurilyak",
@@ -11461,7 +11461,7 @@
       ],
       "added_at": "2026-10-09T11:00:35+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 8
+      "seen_count": 9
     },
     {
       "owner": "aunetx",
@@ -11480,7 +11480,7 @@
       "open_issues": 233,
       "summary": "Blur my Shell 是一款用 JavaScript 编写的 GNOME Shell 扩展，为顶部面板、Dash、概览等界面区域添加模糊效果。它提供静态模糊与动态模糊两种方式：静态模糊基于壁纸图像并通过可自定义的管线叠加高斯模糊、蒙特卡洛模糊、像素化、圆角等效果，动态模糊则让组件半透明并实时模糊背后内容。功能覆盖概览、面板、Dash to Dock、应用文件夹、截图窗口选择器、弹窗、锁屏、窗口列表及应用窗口等，其中应用模糊类似 Windows 的 Mica 与 Acrylic 效果，支持白名单或黑名单模式。",
       "last_seen": "2026-10-10",
-      "seen_count": 11,
+      "seen_count": 12,
       "added_at": "2026-10-09T10:50:04+00:00",
       "windows": [
         "daily"
@@ -11530,7 +11530,7 @@
       ],
       "added_at": "2026-10-09T11:22:49+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "matz",
@@ -11539,21 +11539,21 @@
       "url": "https://github.com/matz/spinel",
       "description": "Ruby AOT compiler",
       "language": "C",
-      "stars": 2212,
+      "stars": 2213,
       "forks": 148,
       "homepage": "",
       "license": "MIT",
       "created_at": "2026-03-25T07:29:02Z",
       "pushed_at": "2026-10-10T09:54:00Z",
-      "updated_at": "2026-10-10T09:54:04Z",
-      "open_issues": 29,
+      "updated_at": "2026-10-10T10:31:35Z",
+      "open_issues": 30,
       "summary": "Spinel 是一个用 C 编写的 Ruby AOT 编译器，将 Ruby 源码编译为独立的原生可执行文件。它通过全程序类型推断生成优化后的 C 代码，再调用系统 cc 生成二进制，编译期不需要 Ruby 运行时，也不依赖链式辅助程序。编译器本身是单个自包含的 C 二进制，借助 libprism 解析 Ruby，分析与代码生成在同一进程内共享内存模型，无需序列化。日常接口 spin 类似 cargo 或 mix，可搭建项目、解析依赖、驱动编译并运行测试，依赖以源码树形式编入二进制，不做运行时加载。spinel 命令则适合单文件脚本与实验，支持输出 C 代码、与 CRuby 对比差异。",
       "windows": [
         "weekly"
       ],
       "added_at": "2026-10-09T11:22:49+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "PurpleDoubleD",
@@ -11577,7 +11577,7 @@
       ],
       "added_at": "2026-10-09T11:01:58+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 7
+      "seen_count": 8
     },
     {
       "owner": "p1neappleXpress",
@@ -11600,7 +11600,7 @@
       ],
       "added_at": "2026-10-09T11:00:35+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 8
+      "seen_count": 9
     },
     {
       "owner": "willfaust",
@@ -11609,13 +11609,13 @@
       "url": "https://github.com/willfaust/Madeira",
       "description": "Run x86-64 Windows PC games on jailed iOS via FEX-Emu + Wine + DXMT",
       "language": "C",
-      "stars": 1918,
+      "stars": 1919,
       "forks": 288,
       "homepage": "",
       "license": "GPL-3.0",
       "created_at": "2026-03-07T17:25:50Z",
       "pushed_at": "2026-10-06T19:31:28Z",
-      "updated_at": "2026-10-10T10:19:29Z",
+      "updated_at": "2026-10-10T10:41:15Z",
       "open_issues": 84,
       "summary": "Madeira 是一个在未越狱 iPhone 上运行 Windows PC 游戏的开源研究项目，基于 FEX-Emu、Wine 和 DXMT 构建，用 C 语言编写。由于 iOS 应用无法启动其他程序，它把 Wine 服务器等组件全部塞进单一进程运行，游戏无需修改即可直接启动。它提供带封面、搜索和 Windows 桌面会话的游戏库，支持登录 Steam 客户端浏览、安装和更新自有游戏，并能在启动和退出时同步 Steam Cloud 存档，冲突时不会静默覆盖。",
       "windows": [
@@ -11624,7 +11624,7 @@
       ],
       "added_at": "2026-10-09T11:22:49+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "zalexdev",
@@ -11647,7 +11647,7 @@
       ],
       "added_at": "2026-10-09T11:22:02+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "e2b-dev",
@@ -11670,7 +11670,7 @@
       ],
       "added_at": "2026-10-09T11:00:35+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 9
+      "seen_count": 10
     },
     {
       "owner": "pnggroup",
@@ -11693,7 +11693,7 @@
       ],
       "added_at": "2026-10-09T11:22:49+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "harry7557558",
@@ -11707,16 +11707,16 @@
       "homepage": "",
       "license": "GPL-3.0",
       "created_at": "2024-05-04T03:03:05Z",
-      "pushed_at": "2026-10-10T10:29:32Z",
-      "updated_at": "2026-10-10T10:29:37Z",
-      "open_issues": 53,
+      "pushed_at": "2026-10-10T10:38:23Z",
+      "updated_at": "2026-10-10T10:38:27Z",
+      "open_issues": 52,
       "summary": "Spirula Studio 是一个跨厂商的 3D Gaussian Splatting 训练工具，用 C++ 编写，将原始照片或视频到 splat 再到带纹理网格的完整流程打包进单个可执行文件，无需安装 Python、PyTorch 或单独的 COLMAP。它通过 Vulkan 计算在 NVIDIA、AMD、Intel 和 Apple GPU 上运行，也保留 CUDA 后端，可在 8GB 显存内训练千万级全 SH 高斯，并原生支持鱼眼与 360 度相机。",
       "windows": [
         "monthly"
       ],
       "added_at": "2026-10-09T11:23:13+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "kai-scheduler",
@@ -11762,7 +11762,7 @@
       ],
       "added_at": "2026-10-09T11:22:02+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "coop-deluxe",
@@ -11786,7 +11786,7 @@
       ],
       "added_at": "2026-10-09T11:22:49+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "hughhowey",
@@ -11802,7 +11802,7 @@
       "created_at": "2026-08-07T14:26:38Z",
       "pushed_at": "2026-10-09T19:43:21Z",
       "updated_at": "2026-10-10T10:06:07Z",
-      "open_issues": 43,
+      "open_issues": 44,
       "summary": "NEO 是一款由小说作者开发、面向长篇写作者的本地写作工具，基于 Electron 与 JavaScript 构建，运行于 macOS、Windows 和 Linux。它针对写作软件功能臃肿、干扰多的问题，把界面简化为一张白纸：回车分段、两下回车生成分节符、三下回车新建章节，章节自动编号，破折号、省略号和弯引号随输入自动转换。书稿以纯文件形式保存在本地 NEO Library 文件夹中，无需账号或订阅。核心功能包括书架式书库管理、索引卡大纲、Darlings 暂存段落、占位符待办、每日字数目标与进度图、封面生成，以及将多个书架绑定为合集。",
       "windows": [
         "weekly",
@@ -11810,7 +11810,7 @@
       ],
       "added_at": "2026-10-09T10:59:47+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 8
+      "seen_count": 9
     },
     {
       "owner": "WeebLabs",
@@ -11833,7 +11833,7 @@
       ],
       "added_at": "2026-10-09T11:22:49+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "androoAGI",
@@ -11856,7 +11856,7 @@
       ],
       "added_at": "2026-10-09T10:59:47+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 8
+      "seen_count": 9
     },
     {
       "owner": "MCRcortex",
@@ -11880,7 +11880,7 @@
       ],
       "added_at": "2026-10-09T11:22:02+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "Gimanh",
@@ -11926,7 +11926,7 @@
       ],
       "added_at": "2026-10-09T11:01:04+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 8
+      "seen_count": 9
     },
     {
       "owner": "Tencent-Hunyuan",
@@ -11949,7 +11949,7 @@
       ],
       "added_at": "2026-10-09T11:21:36+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "tr4m0ryp",
@@ -11958,13 +11958,13 @@
       "url": "https://github.com/tr4m0ryp/tr4mpass",
       "description": "Free, open-source iCloud activation lock bypass tool. Remove iCloud lock from iPhone 5s through iPhone 15 Pro (iOS 12-26.1). Fully offline -- no servers, no payments. Supports checkm8 (A5-A11) and session activation (A12+).",
       "language": "C",
-      "stars": 1194,
+      "stars": 1195,
       "forks": 305,
       "homepage": "",
       "license": "",
       "created_at": "2026-04-04T22:44:07Z",
       "pushed_at": "2026-09-19T10:28:02Z",
-      "updated_at": "2026-10-10T05:44:37Z",
+      "updated_at": "2026-10-10T10:39:11Z",
       "open_issues": 94,
       "summary": "tr4mpass 是一款用 C 语言编写的免费开源 iCloud 激活锁绕过工具，可在本地电脑上运行，无需服务器、付费或账号。它支持 iPhone 5s 至 iPhone 15 Pro、iOS 12 至 26.1，提供两条绕过路径：针对 A5 至 A11 芯片的 checkm8 硬件漏洞利用，以及针对 A12 及以后芯片的会话激活方式，后者通过操纵 DFU 模式下的设备身份并借助苹果激活协议改变锁定状态。工具附带脚本可自动安装依赖、构建程序、检测设备并引导进入 DFU 模式，在 macOS、Linux 及 WSL 上均可使用。",
       "windows": [
@@ -11972,7 +11972,7 @@
       ],
       "added_at": "2026-10-09T11:22:49+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "akiralereal",
@@ -11995,7 +11995,7 @@
       ],
       "added_at": "2026-10-09T11:01:40+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 7
+      "seen_count": 8
     },
     {
       "owner": "LuxAlgo",
@@ -12064,7 +12064,7 @@
       ],
       "added_at": "2026-10-09T11:23:13+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "eolix",
@@ -12087,7 +12087,7 @@
       ],
       "added_at": "2026-10-09T11:01:04+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 8
+      "seen_count": 9
     },
     {
       "owner": "rexglue",
@@ -12111,7 +12111,7 @@
       ],
       "added_at": "2026-10-09T11:22:49+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "gta-reversed",
@@ -12134,7 +12134,7 @@
       ],
       "added_at": "2026-10-09T11:23:13+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "fabio-rovai",
@@ -12176,7 +12176,7 @@
       "open_issues": 154,
       "summary": "微软开源的 Power Platform Skills 是一个面向 GitHub Copilot 与 Claude Code 的插件市场，为 Power Platform 开发提供可复用的技能、代理和命令。它解决的是开发者在使用 AI 助手构建和部署 Power Platform 方案时缺乏专用工具链的问题。仓库以 JavaScript 编写，包含 Power Pages、模型驱动应用、MCP 应用、代码应用、移动应用、画布应用、Power Automate、流程智能等插件，Dataverse 插件则由独立仓库维护。安装脚本会自动安装 pac CLI、识别可用工具、注册市场并启用自动更新。",
       "last_seen": "2026-10-10",
-      "seen_count": 11,
+      "seen_count": 12,
       "added_at": "2026-10-09T10:50:04+00:00",
       "windows": [
         "daily"
@@ -12203,7 +12203,7 @@
       ],
       "added_at": "2026-10-09T11:22:02+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "XCQ0607",
@@ -12235,13 +12235,13 @@
       "url": "https://github.com/ys-ll/uniterm",
       "description": "All-in-one terminal covering 30+ protocols — SSH, RDP, SFTP, databases, Kubernetes and more. With a built-in AI Agent that runs multi-turn shell commands autonomously.",
       "language": "Go",
-      "stars": 807,
+      "stars": 808,
       "forks": 121,
       "homepage": "https://uniterm.net",
       "license": "Apache-2.0",
       "created_at": "2026-05-11T10:59:23Z",
       "pushed_at": "2026-10-10T09:15:45Z",
-      "updated_at": "2026-10-10T10:18:29Z",
+      "updated_at": "2026-10-10T10:38:55Z",
       "open_issues": 46,
       "summary": "uniTerm 是一款用 Go 编写的开源一体化终端工具，将 30 多种协议整合到同一界面，涵盖 SSH、Telnet、Mosh、RDP、VNC、SPICE、SFTP、SCP、FTP、SMB、WebDAV、S3 等远程访问方式，并支持 MySQL、PostgreSQL、Oracle、Redis、MongoDB 等数据库客户端，以及 Kubernetes、Docker、Podman 等容器管理。它解决的是运维和开发人员需要在多个工具间反复切换的问题，把远程终端、文件传输、远程桌面、数据库操作和服务器监控集中在一起。",
       "windows": [
@@ -12249,7 +12249,7 @@
       ],
       "added_at": "2026-10-09T11:00:35+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 8
+      "seen_count": 9
     },
     {
       "owner": "etaHEN",
@@ -12272,7 +12272,7 @@
       ],
       "added_at": "2026-10-09T11:22:49+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 5
+      "seen_count": 6
     },
     {
       "owner": "ranxianglei",
@@ -12286,16 +12286,16 @@
       "homepage": "",
       "license": "NOASSERTION",
       "created_at": "2026-08-06T08:27:34Z",
-      "pushed_at": "2026-10-10T10:23:08Z",
+      "pushed_at": "2026-10-10T10:37:23Z",
       "updated_at": "2026-10-10T10:12:43Z",
-      "open_issues": 160,
+      "open_issues": 162,
       "summary": "billion-context 是一个用 TypeScript 编写的上下文压缩插件，位于智能体与模型 API 之间，通过重写 Anthropic/OpenAI 流实现压缩。它面向长编码会话中上下文膨胀、按 token 计费以及超出窗口后会话退化的问题，让单个会话可以持续数天、累计处理数十亿 token。其压缩由模型自行决定时机与内容，生成分层摘要而非硬截断，具备增量、可逆、对前缀缓存友好的特点，压缩本身开销不超过 2%，健康会话可维持 95% 至 97% 的前缀缓存命中率。",
       "windows": [
         "weekly"
       ],
       "added_at": "2026-10-09T11:01:58+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 7
+      "seen_count": 8
     },
     {
       "owner": "EchoStretch",
@@ -12319,7 +12319,7 @@
       ],
       "added_at": "2026-10-09T11:22:49+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "yuxino",
@@ -12365,7 +12365,7 @@
       ],
       "added_at": "2026-10-09T11:22:49+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "ROCm",
@@ -12379,7 +12379,7 @@
       "homepage": "",
       "license": "",
       "created_at": "2025-04-07T16:23:38Z",
-      "pushed_at": "2026-10-10T10:24:25Z",
+      "pushed_at": "2026-10-10T10:39:13Z",
       "updated_at": "2026-10-10T09:09:57Z",
       "open_issues": 1451,
       "summary": "ROCm Systems 是 AMD ROCm 生态的超级仓库，将原本分散在多个独立 GitHub 仓库中的系统级项目整合到一处，以统一开发、持续集成与集成流程。首批纳入的项目主要面向构建 PyTorch 所需的依赖。仓库按结构划分：projects/ 下每个文件夹对应一个原先独立维护并单独发布的 ROCm 系统项目，shared/ 下则存放被多个项目共用、但不单独产出包的依赖代码。其目标是为 ROCm 各库提供统一的构建与测试工作流，共享工具链和 CI，改善跨团队协作与可见性。项目名称已统一为与发布包一致的命名规范，迁移状态分为已完成、进行中和待定三类，已完成的项目以此仓库为准。",
@@ -12388,7 +12388,7 @@
       ],
       "added_at": "2026-10-09T11:23:13+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "mrifqidaffaaditya",
@@ -12421,7 +12421,7 @@
       "description": "A modern, web-based dashboard to easily manage, import, and automatically load payloads on your PS5.",
       "language": "C",
       "stars": 473,
-      "forks": 57,
+      "forks": 58,
       "homepage": "",
       "license": "GPL-3.0",
       "created_at": "2026-04-19T12:45:11Z",
@@ -12434,7 +12434,7 @@
       ],
       "added_at": "2026-10-09T11:22:49+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "rubys",
@@ -12504,7 +12504,7 @@
       ],
       "added_at": "2026-10-09T11:00:35+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 9
+      "seen_count": 10
     },
     {
       "owner": "aydencharles",
@@ -12527,7 +12527,7 @@
       ],
       "added_at": "2026-10-09T11:23:13+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "yash-srivastava",
@@ -12550,7 +12550,7 @@
       ],
       "added_at": "2026-10-09T11:22:02+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "Leclowndu93150",
@@ -12573,7 +12573,7 @@
       ],
       "added_at": "2026-10-09T11:22:02+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     }
   ]
 }

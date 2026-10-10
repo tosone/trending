@@ -6,10 +6,10 @@
     "weekly",
     "monthly"
   ],
-  "generated_at": "2026-10-10T10:31:34+00:00",
+  "generated_at": "2026-10-10T10:42:17+00:00",
   "first_at": "2026-10-09T11:23:13+00:00",
   "count": 47,
-  "added": 1,
+  "added": 0,
   "repos": [
     {
       "owner": "tensorflow",
@@ -19,7 +19,7 @@
       "description": "An Open Source Machine Learning Framework for Everyone",
       "language": "C++",
       "stars": 200582,
-      "forks": 78860,
+      "forks": 78862,
       "homepage": "https://tensorflow.org",
       "license": "Apache-2.0",
       "created_at": "2015-11-07T01:19:20Z",
@@ -32,7 +32,7 @@
       ],
       "added_at": "2026-10-09T11:23:13+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 5
+      "seen_count": 6
     },
     {
       "owner": "ggml-org",
@@ -42,7 +42,7 @@
       "description": "LLM inference in C/C++",
       "language": "C++",
       "stars": 130706,
-      "forks": 24255,
+      "forks": 24256,
       "homepage": "https://llama.app",
       "license": "MIT",
       "created_at": "2023-03-10T18:58:00Z",
@@ -55,7 +55,7 @@
       ],
       "added_at": "2026-10-09T11:23:13+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 5
+      "seen_count": 6
     },
     {
       "owner": "react",
@@ -124,7 +124,7 @@
       ],
       "added_at": "2026-10-09T11:23:13+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 6
+      "seen_count": 7
     },
     {
       "owner": "microsoft",
@@ -271,13 +271,13 @@
       "url": "https://github.com/zen-browser/desktop",
       "description": "Welcome to a calmer internet",
       "language": "C++",
-      "stars": 44853,
+      "stars": 44854,
       "forks": 1814,
       "homepage": "https://zen-browser.app",
       "license": "MPL-2.0",
       "created_at": "2024-03-28T00:05:55Z",
       "pushed_at": "2026-10-10T09:16:44Z",
-      "updated_at": "2026-10-10T10:29:48Z",
+      "updated_at": "2026-10-10T10:41:08Z",
       "open_issues": 754,
       "summary": "Zen Browser 是一款基于 Firefox 构建的开源浏览器，官方定位是带来更平静的上网体验，同时致力于将用户的生产力提升到新水平。它主要解决的是日常浏览中效率与专注度不足的问题，通过 Firefox 内核的稳定性和兼容性，在此基础上进行定制与优化。核心特点在于其构建方式：正式版基于 Firefox 157.0.1，而 Twilight 版本则基于 Firefox RC 157.0.1，用户可根据对稳定性和新特性的需求选择不同通道。",
       "windows": [
@@ -285,7 +285,7 @@
       ],
       "added_at": "2026-10-09T11:23:13+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "aria2",
@@ -308,7 +308,7 @@
       ],
       "added_at": "2026-10-09T11:23:13+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "LizardByte",
@@ -322,7 +322,7 @@
       "homepage": "http://app.lizardbyte.dev/Sunshine/",
       "license": "GPL-3.0",
       "created_at": "2021-12-15T23:38:57Z",
-      "pushed_at": "2026-10-10T08:24:12Z",
+      "pushed_at": "2026-10-10T10:41:39Z",
       "updated_at": "2026-10-10T10:22:39Z",
       "open_issues": 165,
       "summary": "Sunshine 是一个用 C++ 编写的自托管游戏串流主机，为 Moonlight 客户端提供低延迟的云游戏服务。它解决的是把本机游戏画面实时推送到其他设备的问题，支持 AMD、Intel、Nvidia 显卡的硬件编码，也提供软件编码方案。用户可通过任意设备上的 Moonlight 客户端连接，并借助网页界面完成配置和客户端配对，既能在本地服务器操作，也能用移动设备完成。它覆盖 FreeBSD、Linux、macOS 和 Windows，支持 AMF、NVENC、QuickSync、VAAPI、Video Toolbox、Vulkan Video 等编码接口，以及多种屏幕捕获方式。",
@@ -331,7 +331,7 @@
       ],
       "added_at": "2026-10-09T11:23:13+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "FreeCAD",
@@ -345,16 +345,16 @@
       "homepage": "https://www.freecad.org",
       "license": "LGPL-2.1",
       "created_at": "2012-09-09T08:25:02Z",
-      "pushed_at": "2026-10-10T09:42:52Z",
+      "pushed_at": "2026-10-10T10:37:16Z",
       "updated_at": "2026-10-10T10:06:18Z",
-      "open_issues": 3978,
+      "open_issues": 3979,
       "summary": "FreeCAD 是一款开源、跨平台的三维参数化建模软件，官方源代码以 C++ 编写。它面向现实物体的设计，允许用户通过修改模型历史中的参数来调整设计，从而解决从概念到成品过程中反复修改的需求。其核心能力包括：基于几何约束绘制二维草图并以此构建三维对象，也能从三维模型反向生成二维工程图，并提供尺寸调整工具以输出高质量生产图纸。技术上，它依赖 OpenCASCADE 几何内核、Coin3D 三维场景库、Qt 图形界面，并开放广泛的 Python API。",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-09T11:23:13+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "microsoft",
@@ -377,7 +377,7 @@
       ],
       "added_at": "2026-10-09T11:23:13+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "shadps4-emu",
@@ -386,13 +386,13 @@
       "url": "https://github.com/shadps4-emu/shadPS4",
       "description": "PlayStation 4 emulator for Windows, Linux, macOS and FreeBSD written in C++",
       "language": "C++",
-      "stars": 33334,
+      "stars": 33335,
       "forks": 2675,
       "homepage": "https://shadps4.net/",
       "license": "GPL-2.0",
       "created_at": "2022-10-24T09:48:37Z",
       "pushed_at": "2026-10-10T10:29:06Z",
-      "updated_at": "2026-10-10T10:29:11Z",
+      "updated_at": "2026-10-10T10:32:34Z",
       "open_issues": 263,
       "summary": "shadPS4 是一个用 C++ 编写的早期 PlayStation 4 模拟器，支持 Windows、Linux、macOS 和 FreeBSD，目标是让玩家在 PC 上运行 PS4 游戏。它解决的是跨平台运行 PS4 独占或主机游戏的需求，目前能成功运行《血源诅咒》《黑暗之魂：重制版》《荒野大镖客：救赎》等作品。项目核心不含图形界面，普通用户需搭配 QtLauncher 使用。它支持 Xbox 和 DualShock 手柄即插即用，也提供键盘鼠标映射，并可加载部分 PS4 固件模块。典型场景包括游戏兼容性测试、调试与问题报告，以及通过 Docker 或各平台说明进行构建。",
       "windows": [
@@ -401,7 +401,7 @@
       ],
       "added_at": "2026-10-09T11:23:13+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 5
+      "seen_count": 6
     },
     {
       "owner": "78",
@@ -416,7 +416,7 @@
       "license": "MIT",
       "created_at": "2024-08-31T10:08:16Z",
       "pushed_at": "2026-10-10T07:51:57Z",
-      "updated_at": "2026-10-10T10:27:08Z",
+      "updated_at": "2026-10-10T10:38:18Z",
       "open_issues": 671,
       "summary": "xiaozhi-esp32 是一个基于 MCP 协议的 ESP32 聊天机器人开源固件，用 C++ 编写，面向语音交互场景。它把大模型能力落到硬件端，借助 Qwen、DeepSeek 等模型实现对话，并通过 MCP 协议完成多端设备控制。项目支持 Wi-Fi、有线以太网、USB RNDIS 及 Cat.",
       "windows": [
@@ -424,7 +424,7 @@
       ],
       "added_at": "2026-10-09T11:23:13+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "keepassxreboot",
@@ -447,7 +447,7 @@
       ],
       "added_at": "2026-10-09T11:23:13+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "typesense",
@@ -470,7 +470,7 @@
       ],
       "added_at": "2026-10-09T11:23:13+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "simdjson",
@@ -493,7 +493,7 @@
       ],
       "added_at": "2026-10-09T11:23:13+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "boykopovar",
@@ -502,14 +502,14 @@
       "url": "https://github.com/boykopovar/AnyPS5",
       "description": "Tool for automatic PS5 executables porting to Linux and Windows",
       "language": "C++",
-      "stars": 24112,
-      "forks": 1997,
+      "stars": 24144,
+      "forks": 2000,
       "homepage": "https://discord.gg/BHFztBPUe",
       "license": "GPL-2.0",
       "created_at": "2026-08-03T21:30:25Z",
-      "pushed_at": "2026-10-10T10:00:40Z",
-      "updated_at": "2026-10-10T10:31:28Z",
-      "open_issues": 227,
+      "pushed_at": "2026-10-10T10:39:14Z",
+      "updated_at": "2026-10-10T10:41:51Z",
+      "open_issues": 230,
       "summary": "AnyPS5 是一款用 C++ 编写的工具，用于将 PS5 可执行文件自动移植到 Linux 和 Windows。它通过重链接器把可执行文件转换为目标系统的原生格式，并提供适合动态链接的系统 prx 库实现，不依赖模拟器或独立运行时进程。项目当前按已声明函数比例统计系统库覆盖度，遇到不支持或异常状态会抛出 std::runtime_error 并终止进程。其着色器重编译器可生成 SPIR-V，在启用 ANYPS5_ENABLE_SPIRV_TOOLS 时经 Spirv-Tools 验证。",
       "windows": [
         "daily",
@@ -517,7 +517,7 @@
       ],
       "added_at": "2026-10-09T11:23:13+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "k4yt3x",
@@ -526,13 +526,13 @@
       "url": "https://github.com/k4yt3x/video2x",
       "description": "A machine learning-based video super resolution and frame interpolation framework. Est. Hack the Valley II, 2018.",
       "language": "C++",
-      "stars": 22133,
+      "stars": 22132,
       "forks": 1921,
       "homepage": "https://docs.video2x.org",
       "license": "AGPL-3.0",
       "created_at": "2018-02-24T16:34:41Z",
       "pushed_at": "2026-03-07T15:39:42Z",
-      "updated_at": "2026-10-10T09:46:54Z",
+      "updated_at": "2026-10-10T10:33:46Z",
       "open_issues": 134,
       "summary": "Video2X 是一个基于机器学习的视频超分辨率与帧插值框架，最初于 2018 年启动，6.0.0 版本使用 C/C++ 完全重写，在提升运行效率的同时改善了输出质量，并支持 Windows 与 Linux 跨平台使用。它主要解决低分辨率、低帧率视频的画质增强问题，可借助 waifu2x、Real-CUGAN、Real-ESRGAN、DAIN 等模型将视频放大至更高分辨率或提升帧率。项目提供 Windows 图形界面安装程序，支持简体中文等多种语言，也通过 AUR、AppImage、容器镜像等方式在 Linux 上分发，并可在 Google Colab 上借用 GPU 运行。",
       "windows": [
@@ -540,7 +540,7 @@
       ],
       "added_at": "2026-10-09T11:23:13+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "Atmosphere-NX",
@@ -563,7 +563,7 @@
       ],
       "added_at": "2026-10-09T11:23:13+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "Niko1221",
@@ -610,7 +610,7 @@
       ],
       "added_at": "2026-10-09T11:23:13+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "doitsujin",
@@ -633,7 +633,7 @@
       ],
       "added_at": "2026-10-09T11:23:13+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "wolfpld",
@@ -656,7 +656,7 @@
       ],
       "added_at": "2026-10-09T11:23:13+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "dyang886",
@@ -665,13 +665,13 @@
       "url": "https://github.com/dyang886/Game-Cheats-Manager",
       "description": "Easily download and manage single-player game cheats for your convenience",
       "language": "C++",
-      "stars": 15162,
+      "stars": 15161,
       "forks": 533,
       "homepage": "https://gamezonelabs.com",
       "license": "GPL-3.0",
       "created_at": "2023-12-31T10:09:12Z",
       "pushed_at": "2026-10-07T18:58:01Z",
-      "updated_at": "2026-10-10T10:30:55Z",
+      "updated_at": "2026-10-10T10:37:04Z",
       "open_issues": 5,
       "summary": "Game Cheats Manager 是一个用 C++ 编写的开源桌面工具，用于集中下载和管理单机游戏修改器。它解决的是玩家在多个来源之间反复切换、面对失效链接和杂乱网页的问题，把 Fling、XiaoXing、Cheat Engine 作弊表以及社区上传的修改器整合到一个界面中。核心能力包括中英文即时搜索、双击下载并自动解压归类、启动时后台检查更新，以及一键将修改器目录加入 Windows Defender 白名单，减少误报干扰。对于仍带反作弊机制的单机游戏，下载完成后会给出绕过步骤提示。",
       "windows": [
@@ -679,7 +679,7 @@
       ],
       "added_at": "2026-10-10T10:31:34+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "owner": "justcallmekoko",
@@ -702,7 +702,7 @@
       ],
       "added_at": "2026-10-09T11:23:13+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "hluk",
@@ -725,7 +725,7 @@
       ],
       "added_at": "2026-10-09T11:23:13+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "optiscaler",
@@ -748,7 +748,7 @@
       ],
       "added_at": "2026-10-09T11:23:13+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "mamedev",
@@ -771,7 +771,7 @@
       ],
       "added_at": "2026-10-09T11:23:13+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "leejet",
@@ -794,7 +794,7 @@
       ],
       "added_at": "2026-10-09T11:23:13+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "firebase",
@@ -817,7 +817,7 @@
       ],
       "added_at": "2026-10-09T11:23:13+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "kvcache-ai",
@@ -826,13 +826,13 @@
       "url": "https://github.com/kvcache-ai/Mooncake",
       "description": "Mooncake is the serving platform for Kimi, a leading LLM service provided by Moonshot AI.",
       "language": "C++",
-      "stars": 6752,
+      "stars": 6753,
       "forks": 1305,
       "homepage": "https://kvcache-ai.github.io/Mooncake/",
       "license": "Apache-2.0",
       "created_at": "2024-06-25T05:21:05Z",
-      "pushed_at": "2026-10-10T10:15:53Z",
-      "updated_at": "2026-10-10T10:16:01Z",
+      "pushed_at": "2026-10-10T10:39:13Z",
+      "updated_at": "2026-10-10T10:36:00Z",
       "open_issues": 705,
       "summary": "Mooncake 是 Moonshot AI 为 Kimi 打造的 LLM 服务基础设施，采用以 KVCache 为中心的分离式架构，将预填充与解码集群拆分，并利用 GPU 集群中闲置的 CPU、DRAM 和 SSD 构建分布式 KV 缓存池。其核心是高性能 Transfer Engine，提供跨异构网络与加速器的批量数据传输，支持多传输协议、拓扑感知路由、多网卡带宽聚合与自动故障转移；在此基础上还有负责分布式 KV 缓存与模型权重管理的 Mooncake Store，以及面向大规模 MoE 推理的 Mooncake EP 与 PG，后者提供可感知失效 rank 并支持免重启恢复的 PyTo。",
       "windows": [
@@ -840,7 +840,7 @@
       ],
       "added_at": "2026-10-09T11:23:13+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "google",
@@ -863,7 +863,7 @@
       ],
       "added_at": "2026-10-09T11:23:13+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "Vita3K",
@@ -877,16 +877,16 @@
       "homepage": "https://vita3k.org/",
       "license": "GPL-2.0",
       "created_at": "2018-01-26T22:45:05Z",
-      "pushed_at": "2026-10-09T16:59:51Z",
-      "updated_at": "2026-10-10T10:31:24Z",
-      "open_issues": 227,
+      "pushed_at": "2026-10-10T10:39:43Z",
+      "updated_at": "2026-10-10T10:39:50Z",
+      "open_issues": 226,
       "summary": "Vita3K 是一个实验性的 PlayStation Vita 模拟器，使用 C++ 编写，可在 Windows、Linux、macOS 和 Android 上运行，目标是让用户在电脑或手机上运行 Vita 平台的自制程序和商业游戏。它目前能运行大多数自制程序及部分商业游戏，但项目仍处于早期阶段，兼容性有限，可能出现崩溃、画面异常和性能不佳等情况。",
       "windows": [
         "weekly"
       ],
       "added_at": "2026-10-09T11:23:13+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 5
+      "seen_count": 6
     },
     {
       "owner": "windirstat",
@@ -895,13 +895,13 @@
       "url": "https://github.com/windirstat/windirstat",
       "description": "Windows disk usage analyzer and cleanup tool with interactive treemaps, large-file discovery, duplicate detection, and file-system monitoring.",
       "language": "C++",
-      "stars": 4260,
+      "stars": 4261,
       "forks": 262,
       "homepage": "https://windirstat.net",
       "license": "GPL-3.0",
       "created_at": "2016-04-04T18:34:51Z",
       "pushed_at": "2026-10-08T18:48:17Z",
-      "updated_at": "2026-10-10T10:12:19Z",
+      "updated_at": "2026-10-10T10:33:56Z",
       "open_issues": 30,
       "summary": "WinDirStat 是一款面向 Windows 的磁盘占用分析与清理工具，用 C++ 编写，帮助用户弄清磁盘空间被什么文件占用。它可扫描驱动器、文件夹、网络共享及 MTP 设备，通过可排序文件列表、文件类型统计以及矩形树图、旭日图、火焰图等交互式可视化呈现结果。核心能力包括查找大文件与重复文件、查看权限、估算存储成本、导出报告，并支持暂停续扫、按路径名称大小年龄过滤及正则搜索。它还提供文件系统监控、CSV 或 JSON 快照保存与加载，以及通过命令行导出扫描、重复和权限报告。典型场景是清理磁盘前定位大文件或重复项，也可在管理员权限下从 NTFS、exFAT 和 FAT 盘恢复已删除文件。",
       "windows": [
@@ -909,7 +909,7 @@
       ],
       "added_at": "2026-10-09T11:23:13+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "DamRsn",
@@ -925,14 +925,14 @@
       "created_at": "2023-03-03T11:36:02Z",
       "pushed_at": "2026-10-09T08:31:52Z",
       "updated_at": "2026-10-10T08:47:37Z",
-      "open_issues": 27,
+      "open_issues": 28,
       "summary": "NeuralNote 是一款基于深度学习的音频转 MIDI 插件，支持 VST3、AU 及独立运行，用 C++ 编写。它解决的是把音频（尤其是完整混音）转写为 MIDI 音符的问题，让用户能在数字音频工作站中直接对音频进行转谱。其 v2 版本用 MuScriptor 模型取代了此前的 Basic Pitch，支持多乐器转写并按乐器分组音符，内置多乐器合成器可试听、调节各乐器增益、静音与独奏，并配有全新界面。使用时可录制或拖入音频文件，选择目标乐器或交由模型自动检测，转写在后台进行并实时填充钢琴卷帘，还能边解码边播放。",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-09T11:23:13+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "Neroued",
@@ -955,7 +955,7 @@
       ],
       "added_at": "2026-10-09T11:23:13+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "M-Abozaid",
@@ -964,21 +964,21 @@
       "url": "https://github.com/M-Abozaid/esp32-c3-adblock",
       "description": "Pi-hole-class DNS ad-blocker on a $2 ESP32-C3 (no PSRAM): 537k domains as 40-bit FNV-1a hashes in flash, binary-searched. UDP DNS sinkhole + web dashboard. https://youtube.com/shorts/RaxszOUMi8E?feature=share",
       "language": "C++",
-      "stars": 2644,
-      "forks": 243,
+      "stars": 2645,
+      "forks": 244,
       "homepage": "",
       "license": "MIT",
       "created_at": "2026-06-19T18:14:43Z",
       "pushed_at": "2026-10-06T10:47:36Z",
-      "updated_at": "2026-10-10T10:17:25Z",
-      "open_issues": 21,
+      "updated_at": "2026-10-10T10:32:57Z",
+      "open_issues": 22,
       "summary": "这是一个运行在约 2 美元 ESP32-C3 上的 Pi-hole 风格 DNS 广告拦截器，无需 PSRAM。它解决的核心问题是：多数 ESP32 DNS 拦截方案要把域名黑名单加载进内存，因而依赖 PSRAM。该项目改为把域名存成排序后的 40 位 FNV-1a 哈希写入 flash，再用二分查找匹配，14 万条域名约占 0.7 MB flash、匹配约 10 毫秒、占用约 50 KB RAM。它提供 UDP DNS 黑洞与网页仪表盘，支持通过上传或远程 URL 定时更新黑名单，并可用 OTA 更新固件；WiFi 配置走强制门户，无需重新刷写。",
       "windows": [
         "monthly"
       ],
       "added_at": "2026-10-09T11:23:13+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "harry7557558",
@@ -992,16 +992,16 @@
       "homepage": "",
       "license": "GPL-3.0",
       "created_at": "2024-05-04T03:03:05Z",
-      "pushed_at": "2026-10-10T10:29:32Z",
-      "updated_at": "2026-10-10T10:29:37Z",
-      "open_issues": 53,
+      "pushed_at": "2026-10-10T10:38:23Z",
+      "updated_at": "2026-10-10T10:38:27Z",
+      "open_issues": 52,
       "summary": "Spirula Studio 是一个跨厂商的 3D Gaussian Splatting 训练工具，用 C++ 编写，将原始照片或视频到 splat 再到带纹理网格的完整流程打包进单个可执行文件，无需安装 Python、PyTorch 或单独的 COLMAP。它通过 Vulkan 计算在 NVIDIA、AMD、Intel 和 Apple GPU 上运行，也保留 CUDA 后端，可在 8GB 显存内训练千万级全 SH 高斯，并原生支持鱼眼与 360 度相机。",
       "windows": [
         "monthly"
       ],
       "added_at": "2026-10-09T11:23:13+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "zeldaret",
@@ -1024,7 +1024,7 @@
       ],
       "added_at": "2026-10-09T11:23:13+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "gta-reversed",
@@ -1047,7 +1047,7 @@
       ],
       "added_at": "2026-10-09T11:23:13+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "ROCm",
@@ -1061,7 +1061,7 @@
       "homepage": "",
       "license": "",
       "created_at": "2025-04-07T16:23:38Z",
-      "pushed_at": "2026-10-10T10:24:25Z",
+      "pushed_at": "2026-10-10T10:39:13Z",
       "updated_at": "2026-10-10T09:09:57Z",
       "open_issues": 1451,
       "summary": "ROCm Systems 是 AMD ROCm 生态的超级仓库，将原本分散在多个独立 GitHub 仓库中的系统级项目整合到一处，以统一开发、持续集成与集成流程。首批纳入的项目主要面向构建 PyTorch 所需的依赖。仓库按结构划分：projects/ 下每个文件夹对应一个原先独立维护并单独发布的 ROCm 系统项目，shared/ 下则存放被多个项目共用、但不单独产出包的依赖代码。其目标是为 ROCm 各库提供统一的构建与测试工作流，共享工具链和 CI，改善跨团队协作与可见性。项目名称已统一为与发布包一致的命名规范，迁移状态分为已完成、进行中和待定三类，已完成的项目以此仓库为准。",
@@ -1070,7 +1070,7 @@
       ],
       "added_at": "2026-10-09T11:23:13+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "aydencharles",
@@ -1093,7 +1093,7 @@
       ],
       "added_at": "2026-10-09T11:23:13+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     }
   ]
 }

@@ -6,7 +6,7 @@
     "weekly",
     "monthly"
   ],
-  "generated_at": "2026-10-10T10:30:26+00:00",
+  "generated_at": "2026-10-10T10:41:44+00:00",
   "first_at": "2026-10-09T10:50:16+00:00",
   "count": 81,
   "added": 0,
@@ -47,14 +47,14 @@
       "homepage": "https://openclaw.ai",
       "license": "MIT",
       "created_at": "2025-11-24T10:16:47Z",
-      "pushed_at": "2026-10-10T10:30:20Z",
-      "updated_at": "2026-10-10T10:28:35Z",
-      "open_issues": 9410,
+      "pushed_at": "2026-10-10T10:41:23Z",
+      "updated_at": "2026-10-10T10:40:13Z",
+      "open_issues": 9413,
       "summary": "OpenClaw 是一个用 TypeScript 编写的开源 AI 助手，运行在用户自己的电脑上，并接入 Discord、iMessage、Slack、Teams、Telegram、WhatsApp 等二十多个聊天渠道，同时提供 macOS、iOS、Android、Windows 和 Linux 原生应用。它通过一个本地 Gateway 统一管理会话、工具、事件与渠道连接，既可作个人助手，也可作团队共享部署，差别仅在配置。其状态、记忆和凭据都保存在本地硬件上，模型与代理框架（如 Claude、Codex、本地模型）以插件形式存在，可随时替换。",
       "windows": [],
       "added_at": "2026-10-09T11:29:55+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 3
+      "seen_count": 4
     },
     {
       "owner": "nilbuild",
@@ -155,21 +155,21 @@
       "url": "https://github.com/anthropics/claude-code",
       "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
       "language": "TypeScript",
-      "stars": 149967,
-      "forks": 26018,
+      "stars": 149971,
+      "forks": 26023,
       "homepage": "https://code.claude.com/docs/en/overview",
       "license": "",
       "created_at": "2025-02-22T17:41:21Z",
       "pushed_at": "2026-10-09T19:28:59Z",
-      "updated_at": "2026-10-10T10:13:29Z",
-      "open_issues": 14620,
+      "updated_at": "2026-10-10T10:37:01Z",
+      "open_issues": 14619,
       "summary": "Claude Code 是 Anthropic 推出的智能体编程工具，运行在终端中，以 TypeScript 编写。它能理解你的代码库，通过自然语言指令执行日常任务、解释复杂代码并处理 Git 工作流，从而加快编码速度。使用时可在终端、IDE 中调用，或在 GitHub 上通过 @claude 触发。安装方式覆盖 macOS、Linux 和 Windows，推荐使用 Homebrew 或 WinGet，npm 安装已被弃用。仓库还包含若干插件，通过自定义命令和智能体扩展功能。它适合需要频繁处理代码理解、重复性任务和版本控制的开发者。",
       "windows": [
         "monthly"
       ],
       "added_at": "2026-10-09T11:00:09+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 8
+      "seen_count": 9
     },
     {
       "owner": "yangshun",
@@ -224,13 +224,13 @@
       "url": "https://github.com/supabase/supabase",
       "description": "The Postgres development platform. Supabase gives you a dedicated Postgres database to build your web, mobile, and AI applications.",
       "language": "TypeScript",
-      "stars": 111297,
+      "stars": 111296,
       "forks": 16323,
       "homepage": "https://supabase.com",
       "license": "Apache-2.0",
       "created_at": "2019-10-12T05:56:49Z",
       "pushed_at": "2026-10-10T05:57:03Z",
-      "updated_at": "2026-10-10T10:22:43Z",
+      "updated_at": "2026-10-10T10:33:23Z",
       "open_issues": 1147,
       "summary": "Supabase 是一个基于 Postgres 的开发平台，目标是用企业级开源工具实现 Firebase 式的开发体验，让开发者无需自行拼装后端即可构建 Web、移动和 AI 应用。它提供托管的 Postgres 数据库，并在此基础上集成认证与授权、自动生成的 REST 与 GraphQL API、实时订阅、数据库函数与边缘函数、文件存储以及 AI 向量嵌入工具包，还配有管理面板。",
       "windows": [
@@ -238,7 +238,7 @@
       ],
       "added_at": "2026-10-09T11:00:09+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 8
+      "seen_count": 9
     },
     {
       "owner": "angular",
@@ -293,13 +293,13 @@
       "url": "https://github.com/paperclipai/paperclip",
       "description": "The open-source app everyone uses to manage agents at work",
       "language": "TypeScript",
-      "stars": 99440,
+      "stars": 99442,
       "forks": 16780,
       "homepage": "https://paperclip.ing",
       "license": "MIT",
       "created_at": "2026-03-02T15:01:51Z",
       "pushed_at": "2026-10-10T09:51:10Z",
-      "updated_at": "2026-10-10T10:29:08Z",
+      "updated_at": "2026-10-10T10:36:16Z",
       "open_issues": 6326,
       "summary": "Paperclip 是一个用 TypeScript 编写的开源 AI 智能体管理应用，包含 Node.js 服务端和 React 界面，用于把多个 AI 智能体组织成一个协同工作的团队。它解决的核心问题是：当人们同时运行大量智能体（如 OpenClaw、Claude Code、Codex、Cursor、Gemini CLI 等）时，容易失去对任务进度、成本和权限的掌控。Paperclip 提供组织架构、目标对齐、心跳唤醒、预算与成本控制、任务线程、审批治理、技能库、定时例程、多组织隔离等能力，让智能体拥有角色、汇报线和预算，并按分配的目标自主工作。",
       "windows": [
@@ -307,7 +307,7 @@
       ],
       "added_at": "2026-10-09T11:00:09+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 8
+      "seen_count": 9
     },
     {
       "owner": "thedotmack",
@@ -316,17 +316,17 @@
       "url": "https://github.com/thedotmack/claude-mem",
       "description": "Persistent Context Across Sessions for Every Agent –  Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
       "language": "TypeScript",
-      "stars": 99092,
+      "stars": 99095,
       "forks": 8677,
       "homepage": "https://claude-mem.ai",
       "license": "Apache-2.0",
       "created_at": "2025-08-31T20:50:03Z",
       "pushed_at": "2026-10-09T10:23:45Z",
-      "updated_at": "2026-10-10T10:26:39Z",
+      "updated_at": "2026-10-10T10:37:06Z",
       "open_issues": 143,
       "summary": "claude-mem 是一个为 Claude Code 等 AI 编程代理设计的持久化记忆压缩系统，用 TypeScript 编写。它解决的核心问题是：代理在会话结束后会丢失上下文，导致每次都要重新了解项目。claude-mem 通过生命周期钩子自动捕获代理在会话中的工具使用观察，用 AI 压缩成语义摘要存入 SQLite 数据库，并在后续会话启动时把相关上下文注入回去，让代理保持对项目的知识连续性。它提供基于技能的搜索、MCP 搜索工具（采用三层渐进式披露工作流，先取索引再按需拉取详情以节省 token）、Web 查看器界面和隐私标签控制。",
       "last_seen": "2026-10-10",
-      "seen_count": 12,
+      "seen_count": 13,
       "added_at": "2026-10-09T10:50:16+00:00",
       "windows": [
         "daily",
@@ -393,7 +393,7 @@
       "license": "MIT",
       "created_at": "2025-06-22T08:02:17Z",
       "pushed_at": "2026-09-24T09:24:44Z",
-      "updated_at": "2026-10-10T10:24:01Z",
+      "updated_at": "2026-10-10T10:30:57Z",
       "open_issues": 375,
       "summary": "OpenCut 是一个用 TypeScript 编写的开源视频编辑器，目标是成为 CapCut 的免费替代品，支持网页、桌面和移动端。它要解决的是视频剪辑工具闭源、收费或平台受限的问题，让用户在不同设备上都能使用同一套编辑能力。目前项目正在从零重写，计划引入编辑器 API、以插件优先架构实现第三方插件、基于 Rust 核心让桌面、移动和浏览器共用一套代码，并支持 MCP 服务器供 AI 代理调用、无头模式用于自动化和批量渲染，以及编辑器内的脚本标签页。旧版本仍可在 opencut-classic 仓库获取，opencut.app 也继续运行经典版，重写版将先部署在 new.opencut.",
       "windows": [
@@ -401,7 +401,7 @@
       ],
       "added_at": "2026-10-09T11:00:09+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 8
+      "seen_count": 9
     },
     {
       "owner": "storybookjs",
@@ -433,13 +433,13 @@
       "url": "https://github.com/stablyai/orca",
       "description": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
       "language": "TypeScript",
-      "stars": 88898,
+      "stars": 88905,
       "forks": 5683,
       "homepage": "https://onOrca.dev",
       "license": "MIT",
       "created_at": "2026-03-17T03:28:57Z",
-      "pushed_at": "2026-10-10T10:30:08Z",
-      "updated_at": "2026-10-10T10:29:31Z",
+      "pushed_at": "2026-10-10T10:39:19Z",
+      "updated_at": "2026-10-10T10:39:47Z",
       "open_issues": 8287,
       "summary": "Orca 是一个面向并行 AI 编码代理的 ADE（代理开发环境），用 TypeScript 编写，可在桌面、移动端和远程运行时使用。它要解决的问题是：当同时运行多个编码代理时，工作区、任务和结果容易散落各处难以管理。Orca 让 Codex、Claude Code、OpenCode、Pi 等任意 CLI 代理并排运行，每个代理拥有独立的 git worktree，并在同一处统一追踪。",
       "windows": [
@@ -447,7 +447,7 @@
       ],
       "added_at": "2026-10-09T11:00:09+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 6,
+      "seen_count": 7,
       "pinned": true
     },
     {
@@ -678,7 +678,7 @@
       ],
       "added_at": "2026-10-09T11:00:09+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 8
+      "seen_count": 9
     },
     {
       "owner": "code-yeongyu",
@@ -756,13 +756,13 @@
       "url": "https://github.com/heygen-com/hyperframes",
       "description": "Write HTML. Render video. Built for agents.",
       "language": "TypeScript",
-      "stars": 60056,
-      "forks": 5364,
+      "stars": 60062,
+      "forks": 5366,
       "homepage": "https://hyperframes.dev",
       "license": "Apache-2.0",
       "created_at": "2026-03-10T01:51:06Z",
       "pushed_at": "2026-10-10T09:58:46Z",
-      "updated_at": "2026-10-10T10:28:45Z",
+      "updated_at": "2026-10-10T10:41:27Z",
       "open_issues": 236,
       "summary": "HyperFrames 是一个开源框架，用于把 HTML、CSS、媒体素材和可定位动画转换为确定性的 MP4 视频，官方定位是“写 HTML，渲染视频，为智能体而生”。它解决的是视频制作难以被代码和 AI 智能体直接操控的问题：合成内容就是带 data 属性的 HTML 文件，不需要 React，也没有专有时间线格式，浏览器里可直接预览，渲染时由无头 Chrome 逐帧定位、FFmpeg 编码，相同输入产出相同视频。动画层支持 GSAP、CSS、Lottie、Three.js、Anime.js、WAAPI 或自定义适配器。",
       "windows": [
@@ -771,7 +771,7 @@
       ],
       "added_at": "2026-10-09T11:00:09+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 8
+      "seen_count": 9
     },
     {
       "owner": "morluto",
@@ -780,17 +780,17 @@
       "url": "https://github.com/morluto/rea",
       "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
       "language": "TypeScript",
-      "stars": 58924,
-      "forks": 11667,
+      "stars": 59146,
+      "forks": 11731,
       "homepage": "https://rea.tools",
       "license": "MIT",
       "created_at": "2026-04-14T00:51:32Z",
       "pushed_at": "2026-10-10T10:29:33Z",
-      "updated_at": "2026-10-10T10:30:23Z",
-      "open_issues": 138,
+      "updated_at": "2026-10-10T10:41:44Z",
+      "open_issues": 139,
       "summary": "REA 是一个基于 TypeScript 开发的开源逆向工程工具，通过 MCP 协议把智能体接入二进制、应用与运行时行为的分析流程。它要解决的问题是：当你看到某个应用里想借鉴的功能，却拿不到源码时，可以让智能体借助 REA 检查该应用，说明功能如何实现并给出证据，再据此为自己的项目构建对应版本。核心能力覆盖原生二进制、JavaScript 与 Electron 应用、.NET 程序集以及网站，静态分析无需引擎，原生分析可复用已有的 Hopper 或 Ghidra。分析在本地运行，结论附带证据与局限。",
       "last_seen": "2026-10-10",
-      "seen_count": 11,
+      "seen_count": 12,
       "added_at": "2026-10-09T10:50:16+00:00",
       "windows": [
         "daily"
@@ -803,13 +803,13 @@
       "url": "https://github.com/LibreChat-AI/LibreChat",
       "description": "Enhanced ChatGPT Clone: Features Agents, MCP, Skills, DeepSeek, Anthropic, AWS, OpenAI, Responses API, Azure, Groq, o1, GPT-5, Mistral, OpenRouter, Vertex AI, Gemini, Artifacts, AI model switching, message search, Code Interpreter, langchain, DALL-E-3, OpenAPI Actions, Functions, Secure Multi-User Auth, Presets, open-source for self-hosting. Active",
       "language": "TypeScript",
-      "stars": 45478,
+      "stars": 45477,
       "forks": 9337,
       "homepage": "https://librechat.ai/",
       "license": "MIT",
       "created_at": "2023-02-12T01:06:52Z",
       "pushed_at": "2026-10-10T10:30:10Z",
-      "updated_at": "2026-10-10T10:28:22Z",
+      "updated_at": "2026-10-10T10:35:20Z",
       "open_issues": 893,
       "summary": "LibreChat 是一个基于 TypeScript 构建的开源、可自托管 AI 聊天平台，把 Anthropic、OpenAI、Azure、AWS Bedrock、Google Vertex AI、Groq、DeepSeek、Mistral、OpenRouter 等主流模型服务统一到一个界面中，也支持任何兼容 OpenAI 的本地或远程端点，无需代理。它解决的是多模型切换繁琐、数据隐私与部署自主性不足的问题。",
       "windows": [
@@ -817,7 +817,7 @@
       ],
       "added_at": "2026-10-09T11:00:09+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 8
+      "seen_count": 9
     },
     {
       "owner": "videojs",
@@ -872,17 +872,17 @@
       "url": "https://github.com/tashfeenahmed/freellmapi",
       "description": "7.4 billion tokens per month. 34 free LLM providers. 635 free model endpoints. All behind one /v1 endpoint, plus any custom OpenAI-compatible endpoint. Smart routing, automatic failover, encrypted keys. Personal experimentation only.",
       "language": "TypeScript",
-      "stars": 32716,
+      "stars": 32720,
       "forks": 4529,
       "homepage": "https://freellmapi.co",
       "license": "MIT",
       "created_at": "2026-04-21T13:38:59Z",
       "pushed_at": "2026-10-09T21:16:00Z",
-      "updated_at": "2026-10-10T10:28:54Z",
+      "updated_at": "2026-10-10T10:35:03Z",
       "open_issues": 31,
       "summary": "FreeLLMAPI 是一个用 TypeScript 编写的开源路由服务，把 34 家免费 LLM 提供商的 635 个模型端点聚合到单个 OpenAI 兼容的 /v1 接口后面。它要解决的是手动叠加各家免费额度时的麻烦：不同 SDK、不同速率限制、不同失败点。核心能力包括智能路由与自动故障转移、按密钥统计 RPM/RPD/TPM/TPD 用量以卡住免费额度、AES-256-GCM 加密存储密钥、统一模型与命名回退链、粘性会话与上下文交接、可选提示压缩，以及从签名源自动同步模型目录。",
       "last_seen": "2026-10-10",
-      "seen_count": 11,
+      "seen_count": 12,
       "added_at": "2026-10-09T10:50:16+00:00",
       "windows": [
         "daily",
@@ -920,14 +920,14 @@
       "url": "https://github.com/pingdotgg/t3code",
       "description": "",
       "language": "TypeScript",
-      "stars": 26715,
-      "forks": 6984,
+      "stars": 26717,
+      "forks": 6985,
       "homepage": "https://t3.codes",
       "license": "MIT",
       "created_at": "2026-02-08T23:46:22Z",
       "pushed_at": "2026-10-10T09:43:45Z",
-      "updated_at": "2026-10-10T10:28:36Z",
-      "open_issues": 2934,
+      "updated_at": "2026-10-10T10:40:59Z",
+      "open_issues": 2938,
       "summary": "T3 Code 是一个用 TypeScript 编写的“智能体控制面板”，让你通过 iOS、Android 移动应用、网页应用和基于 Electron 的桌面应用来操控本机上的 AI 编程智能体。它本身不提供模型，而是对接你已有的订阅服务，包括 Claude Code、Codex、Cursor、Grok Build、OpenCode 和 Google Antigravity，只要这些工具在电脑上安装并完成认证，T3 Code 就能调用它们。",
       "windows": [
         "weekly",
@@ -935,7 +935,7 @@
       ],
       "added_at": "2026-10-09T11:00:09+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 8
+      "seen_count": 9
     },
     {
       "owner": "yikart",
@@ -981,7 +981,7 @@
       ],
       "added_at": "2026-10-09T11:01:58+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 7
+      "seen_count": 8
     },
     {
       "owner": "mksglu",
@@ -990,13 +990,13 @@
       "url": "https://github.com/mksglu/context-mode",
       "description": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and   enforces routing across 17 platforms via MCP + hooks.",
       "language": "TypeScript",
-      "stars": 26028,
+      "stars": 26029,
       "forks": 1877,
       "homepage": "https://context-mode.com",
       "license": "NOASSERTION",
       "created_at": "2026-02-23T05:56:28Z",
       "pushed_at": "2026-10-10T06:07:56Z",
-      "updated_at": "2026-10-10T10:00:46Z",
+      "updated_at": "2026-10-10T10:37:07Z",
       "open_issues": 339,
       "summary": "Context Mode 是一个面向 AI 编程助手的 MCP 服务器，用 TypeScript 编写，主要解决上下文窗口被工具输出挤占以及对话压缩后记忆丢失的问题。它通过沙箱执行工具调用，让原始数据留在子进程外，仅将 stdout 送入上下文，官方称可实现约 98% 的压缩；同时用 SQLite 记录文件编辑、git 操作、任务与错误等事件，压缩后借助 FTS5 与 BM25 检索按需恢复工作状态。它还支持索引与搜索、URL 抓取索引、TTL 缓存、渐进限流，并提倡让模型写脚本分析数据而非把数据读入上下文。",
       "windows": [
@@ -1004,7 +1004,7 @@
       ],
       "added_at": "2026-10-09T11:00:09+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 8
+      "seen_count": 9
     },
     {
       "owner": "dream-num",
@@ -1027,7 +1027,7 @@
       ],
       "added_at": "2026-10-09T11:00:09+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 8
+      "seen_count": 9
     },
     {
       "owner": "dyad-sh",
@@ -1073,7 +1073,7 @@
       ],
       "added_at": "2026-10-09T11:00:09+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 8
+      "seen_count": 9
     },
     {
       "owner": "Effect-TS",
@@ -1097,7 +1097,7 @@
       ],
       "added_at": "2026-10-09T11:00:09+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 8
+      "seen_count": 9
     },
     {
       "owner": "VERT-sh",
@@ -1120,7 +1120,7 @@
       ],
       "added_at": "2026-10-09T11:01:58+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 7
+      "seen_count": 8
     },
     {
       "owner": "nanobrowser",
@@ -1143,7 +1143,7 @@
       ],
       "added_at": "2026-10-09T11:00:09+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 8
+      "seen_count": 9
     },
     {
       "owner": "miuuyy",
@@ -1152,13 +1152,13 @@
       "url": "https://github.com/miuuyy/codex-chatgpt-web",
       "description": "Use ChatGPT Web (including Pro) as a native model in Codex — with context, tools, streaming and images, without using Codex quota.",
       "language": "TypeScript",
-      "stars": 13867,
+      "stars": 13869,
       "forks": 1091,
       "homepage": "",
       "license": "MIT",
       "created_at": "2026-07-26T13:04:44Z",
       "pushed_at": "2026-10-09T04:45:40Z",
-      "updated_at": "2026-10-10T09:54:34Z",
+      "updated_at": "2026-10-10T10:41:26Z",
       "open_issues": 29,
       "summary": "codex-chatgpt-web 是一个用 TypeScript 编写的开源工具，让 Codex 能把 ChatGPT Web（含 Pro）当作原生模型使用。它解决的是 Codex 配额消耗问题：通过调用账户内的 ChatGPT Web 模型，使用其独立的用量限制，而不占用 Work 或 Codex 配额，同时保留相同的界面、任务、图像与流式输出体验。可用模型随账户类型而异，免费与 Go 账户对应 Luna、Think，付费账户对应 GPT-6 Sol 与 GPT-5.",
       "windows": [
@@ -1166,7 +1166,7 @@
       ],
       "added_at": "2026-10-09T11:00:09+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 8
+      "seen_count": 9
     },
     {
       "owner": "cloudflare",
@@ -1189,7 +1189,7 @@
       ],
       "added_at": "2026-10-09T11:00:09+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 8
+      "seen_count": 9
     },
     {
       "owner": "Vincentwei1021",
@@ -1198,17 +1198,17 @@
       "url": "https://github.com/Vincentwei1021/video-shotcraft",
       "description": "AI video skill for Claude Code & Codex — cinematic product videos with Remotion: 152 shot recipe cards, 209 motion previews, a production-ready template",
       "language": "TypeScript",
-      "stars": 11104,
+      "stars": 11108,
       "forks": 994,
       "homepage": "https://vincentwei1021.github.io/video-shotcraft/",
       "license": "Apache-2.0",
       "created_at": "2026-07-19T11:44:41Z",
       "pushed_at": "2026-10-05T09:12:26Z",
-      "updated_at": "2026-10-10T10:17:00Z",
+      "updated_at": "2026-10-10T10:40:06Z",
       "open_issues": 8,
       "summary": "video-shotcraft 是一个面向 Claude Code 与 Codex 的 AI 智能体技能，用 TypeScript 编写，基于 Remotion 框架把产品宣传片制作流程交给智能体完成。它解决的是从分镜、动画到音效设计需要多工具切换、难以标准化的问题：用户只需指向产品，智能体即可产出电影感促销、营销、发布或演示视频，包含真实页面捕捉、2.5D 运镜、节拍同步剪辑与电影级音效。核心能力包括 152 张镜头配方卡、209 个动态预览、可一键切换的九种影片主题，以及内置的 Ink Press 完整模板（36.2 秒、1920×1080、30fps、10 个镜头）。",
       "last_seen": "2026-10-10",
-      "seen_count": 11,
+      "seen_count": 12,
       "added_at": "2026-10-09T10:50:16+00:00",
       "windows": [
         "daily"
@@ -1244,13 +1244,13 @@
       "url": "https://github.com/cursor/plugins",
       "description": "Cursor plugin specification and official plugins",
       "language": "TypeScript",
-      "stars": 10668,
+      "stars": 10671,
       "forks": 1011,
       "homepage": "",
       "license": "",
       "created_at": "2026-01-23T01:57:42Z",
       "pushed_at": "2026-10-10T04:39:40Z",
-      "updated_at": "2026-10-10T10:18:50Z",
+      "updated_at": "2026-10-10T10:37:14Z",
       "open_issues": 197,
       "summary": "Cursor plugins 是 Cursor 官方维护的插件集合，为常见开发工具、框架和 SaaS 产品提供插件支持。它解决的是开发者需要在 Cursor 中统一接入各类外部工具与服务的问题，通过标准化插件规范降低集成成本。仓库采用多插件市场结构，根目录的 .cursor-plugin/marketplace.json 列出全部插件，每个插件以独立目录存在于仓库根目录，并各自带有 .cursor-plugin/plugin.json 清单文件，其中 author.name 与插件清单中的作者信息保持一致。核心能力在于提供官方插件规范与配套插件实现，主要使用 TypeScript 编写。",
       "windows": [
@@ -1259,7 +1259,7 @@
       ],
       "added_at": "2026-10-09T11:00:09+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 9
+      "seen_count": 10
     },
     {
       "owner": "thesysdev",
@@ -1268,13 +1268,13 @@
       "url": "https://github.com/thesysdev/openui",
       "description": "The Open Standard for Generative UI",
       "language": "TypeScript",
-      "stars": 10636,
+      "stars": 10637,
       "forks": 715,
       "homepage": "https://www.openui.com",
       "license": "MIT",
       "created_at": "2024-12-02T10:40:06Z",
       "pushed_at": "2026-10-10T06:40:51Z",
-      "updated_at": "2026-10-10T10:28:23Z",
+      "updated_at": "2026-10-10T10:34:30Z",
       "open_issues": 168,
       "summary": "OpenUI 是一个全栈、框架无关的生成式 UI 框架，核心是名为 OpenUI Lang 的紧凑流式语言，用于让模型生成结构化界面而非纯文本。它解决的问题是：模型输出通常只有文本，难以直接渲染为可交互 UI，而 JSON 等格式在流式场景下 token 开销大。OpenUI 允许开发者定义或复用组件库，据此自动生成系统提示词，再将模型输出的 OpenUI Lang 逐步解析渲染。其核心能力包括：内置图表、表单、表格、布局等组件库；支持 React、Vue、Svelte、Angular 的流式渲染器；基于 Zod 的类型化组件契约；相比 JSON 最多可减少 67% 的 token。",
       "windows": [
@@ -1282,7 +1282,7 @@
       ],
       "added_at": "2026-10-09T11:01:58+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 7
+      "seen_count": 8
     },
     {
       "owner": "reconurge",
@@ -1292,7 +1292,7 @@
       "description": "A modern platform for visual, flexible, and extensible graph-based investigations. For cybersecurity analysts and investigators.",
       "language": "TypeScript",
       "stars": 9594,
-      "forks": 1177,
+      "forks": 1178,
       "homepage": "https://flowsint.io",
       "license": "Apache-2.0",
       "created_at": "2025-01-31T15:10:41Z",
@@ -1301,7 +1301,7 @@
       "open_issues": 66,
       "summary": "Flowsint 是一个基于 TypeScript 开发的开源 OSINT 图谱调查平台，面向网络安全分析师和调查人员，用于对实体间关系进行可视化、灵活且可扩展的图形化探索。它通过图形界面和自动化富化器解决情报调查中数据分散、关联难以直观呈现的问题。核心能力包括：以图节点方式呈现域名、IP、ASN、CIDR、邮箱、电话、社交账号、加密货币钱包、网站、组织和个人等实体及其关联；内置大量富化器，覆盖反向 DNS、子域发现、WHOIS、IP 地理定位、ASN 查询、Maigret 用户名搜索、数据泄露检查、网站爬取、Gravatar 查询、钱包交易与 NFT 查询、N8n 工作流连接等。",
       "last_seen": "2026-10-10",
-      "seen_count": 11,
+      "seen_count": 12,
       "added_at": "2026-10-09T10:50:16+00:00",
       "windows": [
         "daily",
@@ -1330,7 +1330,7 @@
       ],
       "added_at": "2026-10-09T11:01:58+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 7
+      "seen_count": 8
     },
     {
       "owner": "backnotprop",
@@ -1367,7 +1367,7 @@
       "homepage": "https://gauzy.co",
       "license": "AGPL-3.0",
       "created_at": "2019-06-02T09:47:13Z",
-      "pushed_at": "2026-10-10T10:20:58Z",
+      "pushed_at": "2026-10-10T10:34:50Z",
       "updated_at": "2026-10-10T10:11:23Z",
       "open_issues": 458,
       "summary": "Ever Gauzy 是一个基于 TypeScript 构建的开源业务管理平台，面向协作、按需和共享经济场景，将 ERP、CRM、HRM、ATS 和项目管理整合在同一套系统中。它主要解决企业需要在多个独立工具间切换的问题，提供人力资源管理、时间与活动追踪、客户关系、销售管道、财务与会计、库存与供应链、项目任务、目标与 KPI、休假审批、多组织与多币种等能力，并支持角色权限、报表分析、数据导入导出和多语言主题。",
@@ -1376,7 +1376,7 @@
       ],
       "added_at": "2026-10-09T11:00:09+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 8
+      "seen_count": 9
     },
     {
       "owner": "tester-army",
@@ -1422,7 +1422,7 @@
       ],
       "added_at": "2026-10-09T11:01:58+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 7
+      "seen_count": 8
     },
     {
       "owner": "mvschwarz",
@@ -1431,13 +1431,13 @@
       "url": "https://github.com/mvschwarz/openrig",
       "description": "Build your own network of agents from Claude Code, Codex and Pi: persistent teams with roles, shared context and owned work.",
       "language": "TypeScript",
-      "stars": 6598,
+      "stars": 6601,
       "forks": 484,
       "homepage": "https://openrig.dev",
       "license": "Apache-2.0",
       "created_at": "2026-04-01T06:22:40Z",
       "pushed_at": "2026-10-10T09:01:57Z",
-      "updated_at": "2026-10-10T10:24:33Z",
+      "updated_at": "2026-10-10T10:40:07Z",
       "open_issues": 155,
       "summary": "OpenRig 是一个用 TypeScript 编写的开源工具，用于把 Claude Code、Codex 等 AI 编码代理组织成持久化的智能体团队。它解决的是代理会话散落在多个终端、缺乏统一管理的问题：通过 YAML 定义团队角色，一条命令即可启动，让不同代理在同一套系统中协作。核心特点包括角色分工、共享上下文、任务归属，以及由 lead 代理协调专家并汇总需要人工决策的结果。使用时先与 kernel operator 对话，选择适合已有账号的团队，再向 builder 下达一个有边界的任务并查看产出与评审。它依赖 Node.",
       "windows": [
@@ -1445,7 +1445,7 @@
       ],
       "added_at": "2026-10-09T11:00:09+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 8
+      "seen_count": 9
     },
     {
       "owner": "FxEmbed",
@@ -1468,7 +1468,7 @@
       ],
       "added_at": "2026-10-09T11:00:09+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 8
+      "seen_count": 9
     },
     {
       "owner": "pablostanley",
@@ -1492,7 +1492,7 @@
       ],
       "added_at": "2026-10-09T11:00:09+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 8
+      "seen_count": 9
     },
     {
       "owner": "breferrari",
@@ -1515,7 +1515,7 @@
       ],
       "added_at": "2026-10-09T11:00:09+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 8
+      "seen_count": 9
     },
     {
       "owner": "hieunc229",
@@ -1538,7 +1538,7 @@
       ],
       "added_at": "2026-10-09T11:00:09+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 8
+      "seen_count": 9
     },
     {
       "owner": "melgarafael",
@@ -1561,7 +1561,7 @@
       ],
       "added_at": "2026-10-09T11:00:09+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 8
+      "seen_count": 9
     },
     {
       "owner": "chthollyphile",
@@ -1570,13 +1570,13 @@
       "url": "https://github.com/chthollyphile/folia-major",
       "description": "专注于绚丽的歌词动画效果的本地音乐/navidrome/第三方多平台在线音乐播放器",
       "language": "TypeScript",
-      "stars": 4248,
+      "stars": 4249,
       "forks": 321,
       "homepage": "https://folia-site.cielaniska.top/",
       "license": "AGPL-3.0",
       "created_at": "2025-11-28T11:58:07Z",
       "pushed_at": "2026-10-10T08:20:41Z",
-      "updated_at": "2026-10-10T10:30:25Z",
+      "updated_at": "2026-10-10T10:32:51Z",
       "open_issues": 33,
       "summary": "Folia 是一款以全屏沉浸式歌词播放为核心的在线音乐播放器，使用 TypeScript 编写，支持网易云、酷狗、Navidrome 及本地音乐库。它通过智能歌词匹配、AI 生成配色主题和多种全屏歌词动画，解决普通播放器歌词展示单调的问题，让歌词呈现接近文字 PV 的视觉效果，并自动适配不同窗口尺寸。项目提供基于 Electron 的 Windows、macOS、Linux 桌面版和基于 Node.js 的 Web 版，可一键部署到 Vercel 或 Cloudflare，也支持 Docker Compose 自托管，移动端可通过 PWA 或 Capacitor 打包使用。",
       "windows": [
@@ -1584,7 +1584,7 @@
       ],
       "added_at": "2026-10-09T11:00:09+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 8
+      "seen_count": 9
     },
     {
       "owner": "thebuggeddev",
@@ -1630,7 +1630,7 @@
       ],
       "added_at": "2026-10-09T11:00:09+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 8
+      "seen_count": 9
     },
     {
       "owner": "davidmonterocrespo24",
@@ -1667,16 +1667,16 @@
       "homepage": "https://cindy.app",
       "license": "Apache-2.0",
       "created_at": "2026-07-22T17:49:34Z",
-      "pushed_at": "2026-10-10T10:29:51Z",
-      "updated_at": "2026-10-10T10:29:56Z",
-      "open_issues": 1567,
+      "pushed_at": "2026-10-10T10:40:52Z",
+      "updated_at": "2026-10-10T10:40:57Z",
+      "open_issues": 1568,
       "summary": "Cindy 是一个开源、开箱即用的 AI Agent 客户端，用 TypeScript 编写，以 pnpm monorepo 形式组织，包含桌面端、移动端及其共享包。它把多种 harness、模型和工具整合进同一个 agent，首批支持 Claude Code 与 Codex，模型与 harness 可自由混用并在任务中途切换，而工作区、记忆、技能和工具保持连续，同一任务甚至可由不同组合的 agent 并行规划、执行与审查。它在本机运行，直接使用真实文件和已登录的应用，能驱动浏览器、电脑和手机，并接受来自即时通讯和定时调度的任务。",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-09T11:01:58+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 7
+      "seen_count": 8
     },
     {
       "owner": "alsk1992",
@@ -1699,7 +1699,7 @@
       ],
       "added_at": "2026-10-09T11:01:58+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 7
+      "seen_count": 8
     },
     {
       "owner": "DmNote-App",
@@ -1708,17 +1708,17 @@
       "url": "https://github.com/DmNote-App/DmNote",
       "description": "Make it yours. A customizable key viewer for DJMAX RESPECT V and any game.",
       "language": "TypeScript",
-      "stars": 2902,
+      "stars": 2903,
       "forks": 107,
       "homepage": "https://DmNote.app",
       "license": "GPL-3.0",
       "created_at": "2025-01-03T05:48:56Z",
       "pushed_at": "2026-10-07T23:36:48Z",
-      "updated_at": "2026-10-10T09:24:20Z",
+      "updated_at": "2026-10-10T10:32:46Z",
       "open_issues": 9,
       "summary": "DM Note 是一款面向 DJMAX RESPECT V 及各类游戏的按键可视化工具，基于 TypeScript 与 Tauri 构建，前端采用 React 19、Vite 7 和 Tailwind CSS 3。它解决的是玩家在直播或录制游戏画面时无法直观呈现键盘输入的问题，通过实时可视化、按键映射、音符特效、按键计数器、KPS 统计图表和按键音等功能展示操作。用户可在网格中编辑按键、为每个键指定图片、编写自定义 CSS 或使用插件与预设进行个性化定制。其覆盖层支持始终置顶、位置锁定、缩放基准点以及 OBS 浏览器源，并具备五种语言、快捷键、设置重置和自动更新。",
       "last_seen": "2026-10-10",
-      "seen_count": 11,
+      "seen_count": 12,
       "added_at": "2026-10-09T10:50:16+00:00",
       "windows": [
         "daily",
@@ -1746,7 +1746,7 @@
       ],
       "added_at": "2026-10-09T11:01:58+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 7
+      "seen_count": 8
     },
     {
       "owner": "spotify",
@@ -1769,7 +1769,7 @@
       ],
       "added_at": "2026-10-09T11:00:09+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 8
+      "seen_count": 9
     },
     {
       "owner": "PurpleDoubleD",
@@ -1793,7 +1793,7 @@
       ],
       "added_at": "2026-10-09T11:01:58+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 7
+      "seen_count": 8
     },
     {
       "owner": "Gimanh",
@@ -1853,16 +1853,16 @@
       "homepage": "",
       "license": "NOASSERTION",
       "created_at": "2026-08-06T08:27:34Z",
-      "pushed_at": "2026-10-10T10:23:08Z",
+      "pushed_at": "2026-10-10T10:37:23Z",
       "updated_at": "2026-10-10T10:12:43Z",
-      "open_issues": 160,
+      "open_issues": 162,
       "summary": "billion-context 是一个用 TypeScript 编写的上下文压缩插件，位于智能体与模型 API 之间，通过重写 Anthropic/OpenAI 流实现压缩。它面向长编码会话中上下文膨胀、按 token 计费以及超出窗口后会话退化的问题，让单个会话可以持续数天、累计处理数十亿 token。其压缩由模型自行决定时机与内容，生成分层摘要而非硬截断，具备增量、可逆、对前缀缓存友好的特点，压缩本身开销不超过 2%，健康会话可维持 95% 至 97% 的前缀缓存命中率。",
       "windows": [
         "weekly"
       ],
       "added_at": "2026-10-09T11:01:58+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 7
+      "seen_count": 8
     },
     {
       "owner": "mrifqidaffaaditya",
