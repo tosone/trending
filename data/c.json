@@ -6,9 +6,9 @@
     "weekly",
     "monthly"
   ],
-  "generated_at": "2026-10-10T10:42:12+00:00",
+  "generated_at": "2026-10-10T22:28:07+00:00",
   "first_at": "2026-10-09T11:22:49+00:00",
-  "count": 44,
+  "count": 56,
   "added": 0,
   "repos": [
     {
@@ -41,14 +41,14 @@
       "url": "https://github.com/Genymobile/scrcpy",
       "description": "Display and control your Android device",
       "language": "C",
-      "stars": 151745,
-      "forks": 13922,
+      "stars": 151784,
+      "forks": 13924,
       "homepage": "",
       "license": "Apache-2.0",
       "created_at": "2017-11-21T18:00:27Z",
       "pushed_at": "2026-10-08T06:44:51Z",
-      "updated_at": "2026-10-10T10:29:35Z",
-      "open_issues": 2923,
+      "updated_at": "2026-10-10T22:12:09Z",
+      "open_issues": 2924,
       "summary": "scrcpy 是一款用 C 语言编写的开源工具，可将通过 USB 或 TCP/IP 连接的 Android 设备屏幕镜像到电脑，并支持用键盘鼠标进行控制。它无需 root 权限，也无需在设备上安装应用，可在 Linux、Windows 和 macOS 上运行。其核心特点包括轻量、高性能、低延迟和快速启动，支持 30 至 120fps 与 1920×1080 以上画质，退出后不在设备上留下任何内容。功能涵盖音频转发、录屏、虚拟显示、双向复制粘贴、摄像头镜像、游戏手柄支持以及 OTG 模式等。使用时需在 Android 5.",
       "windows": [
         "daily",
@@ -57,7 +57,7 @@
       ],
       "added_at": "2026-10-09T11:22:49+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 6
+      "seen_count": 7
     },
     {
       "owner": "microsoft",
@@ -83,20 +83,43 @@
       "seen_count": 6
     },
     {
+      "owner": "ventoy",
+      "name": "Ventoy",
+      "full_name": "ventoy/Ventoy",
+      "url": "https://github.com/ventoy/Ventoy",
+      "description": "A new bootable USB solution.",
+      "language": "C",
+      "stars": 79884,
+      "forks": 4977,
+      "homepage": "https://www.ventoy.net",
+      "license": "GPL-3.0",
+      "created_at": "2020-03-10T15:19:19Z",
+      "pushed_at": "2026-10-09T05:20:44Z",
+      "updated_at": "2026-10-10T21:13:25Z",
+      "open_issues": 1001,
+      "summary": "Ventoy 是一个用 C 语言编写的开源可启动 U 盘制作工具，主要解决传统方式下每换一个系统镜像就要重新格式化并写入 U 盘的麻烦。它允许用户直接把 ISO、WIM、IMG、VHD(x)、EFI 等镜像文件复制到 U 盘或本地磁盘中，启动时由 Ventoy 提供菜单进行选择，无需反复格式化，也无需解压镜像。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-10T22:24:33+00:00",
+      "last_seen": "2026-10-10",
+      "seen_count": 1
+    },
+    {
       "owner": "obsproject",
       "name": "obs-studio",
       "full_name": "obsproject/obs-studio",
       "url": "https://github.com/obsproject/obs-studio",
       "description": "OBS Studio - Free and open source software for live streaming and screen recording",
       "language": "C",
-      "stars": 77231,
-      "forks": 10561,
+      "stars": 77255,
+      "forks": 10570,
       "homepage": "https://obsproject.com",
       "license": "GPL-2.0",
       "created_at": "2013-10-01T02:40:31Z",
       "pushed_at": "2026-10-10T01:13:10Z",
-      "updated_at": "2026-10-10T10:38:01Z",
-      "open_issues": 1146,
+      "updated_at": "2026-10-10T22:20:32Z",
+      "open_issues": 1145,
       "summary": "OBS Studio 是一款用 C 语言编写的自由开源软件，专注于视频内容的采集、合成、编码、录制与直播推流。它解决的是将多个视频源实时整合并高效输出到文件或直播平台的需求，常用于游戏直播、屏幕录制、在线教学和会议演示等场景。其核心能力包括多源画面合成、实时编码与推流，并支持通过插件和 API 扩展功能，开发者可参考官方文档进行二次开发。项目提供网站、论坛、Wiki 文档和缺陷追踪等资源，翻译工作通过 Crowdin 协作完成，代码贡献需遵循相应的编码与提交规范。",
       "windows": [
         "daily",
@@ -104,7 +127,7 @@
       ],
       "added_at": "2026-10-09T11:22:49+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 7
+      "seen_count": 8
     },
     {
       "owner": "redis",
@@ -113,21 +136,21 @@
       "url": "https://github.com/redis/redis",
       "description": "For developers, who are building real-time data-driven applications, Redis is the preferred, fastest, and most feature-rich cache, data structure server, and document and vector query engine.",
       "language": "C",
-      "stars": 76667,
-      "forks": 24850,
+      "stars": 76700,
+      "forks": 24852,
       "homepage": "http://redis.io",
       "license": "NOASSERTION",
       "created_at": "2009-03-21T22:32:25Z",
-      "pushed_at": "2026-10-09T12:28:27Z",
-      "updated_at": "2026-10-09T12:34:45Z",
-      "open_issues": 3005,
+      "pushed_at": "2026-10-10T09:00:40Z",
+      "updated_at": "2026-10-10T18:07:55Z",
+      "open_issues": 3018,
       "summary": "Redis 是一个用 C 语言编写的高性能内存数据存储系统，主要面向构建实时数据驱动应用的开发者。它通过将数据主要保存在内存中并结合高效的数据结构，实现极低的读写延迟，适合对响应速度要求较高的场景。其核心能力包括缓存、分布式会话存储、数据结构服务、NoSQL 数据存储、搜索与查询引擎、事件存储与消息代理，以及面向生成式 AI 的向量存储。Redis 支持字符串、JSON、哈希、列表、集合、有序集合、向量集合、地理空间索引、位图、HyperLogLog 等多种数据类型，并提供事务、脚本、发布订阅和流处理功能。",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-09T12:39:16+00:00",
-      "last_seen": "2026-10-09",
-      "seen_count": 1
+      "last_seen": "2026-10-10",
+      "seen_count": 2
     },
     {
       "owner": "colbymchenry",
@@ -182,246 +205,15 @@
       "url": "https://github.com/curl/curl",
       "description": "A command line tool and library for transferring data with URL syntax, supporting DICT, FILE, FTP, FTPS, GOPHER, GOPHERS, HTTP, HTTPS, IMAP, IMAPS, LDAP, LDAPS, MQTT, MQTTS, POP3, POP3S, RTSP, SCP, SFTP, SMB, SMBS, SMTP, SMTPS, TELNET, TFTP, WS and WSS. libcurl offers a myriad of powerful features",
       "language": "C",
-      "stars": 43144,
-      "forks": 7418,
+      "stars": 43149,
+      "forks": 7422,
       "homepage": "https://curl.se/",
       "license": "NOASSERTION",
       "created_at": "2010-03-18T22:32:22Z",
-      "pushed_at": "2026-10-10T08:39:42Z",
-      "updated_at": "2026-10-10T08:38:59Z",
-      "open_issues": 68,
+      "pushed_at": "2026-10-10T22:10:45Z",
+      "updated_at": "2026-10-10T22:11:28Z",
+      "open_issues": 69,
       "summary": "curl 是一个用 C 语言编写的命令行工具与库，用于通过 URL 语法在客户端与服务器之间传输数据。它解决的核心问题是让开发者与运维人员能够以统一方式访问多种网络协议，而无需为每种协议单独编写工具。curl 支持 DICT、FILE、FTP、FTPS、GOPHER、GOPHERS、HTTP、HTTPS、IMAP、IMAPS、LDAP、LDAPS、MQTT、MQTTS、POP3、POP3S、RTSP、SCP、SFTP、SMB、SMBS、SMTP、SMTPS、TELNET、TFTP、WS 和 WSS 等协议。其底层库 libcurl 可被集成到各类软件中，提供丰富的传输能力。",
-      "windows": [
-        "monthly"
-      ],
-      "added_at": "2026-10-09T11:22:49+00:00",
-      "last_seen": "2026-10-10",
-      "seen_count": 5
-    },
-    {
-      "owner": "JustVugg",
-      "name": "colibri",
-      "full_name": "JustVugg/colibri",
-      "url": "https://github.com/JustVugg/colibri",
-      "description": "Run frontier MoE models on hardware you already own — pure C, zero deps, experts streamed from disk. Tiny engine, immense model. 🐦",
-      "language": "C",
-      "stars": 40903,
-      "forks": 4487,
-      "homepage": "https://justvugg.github.io/colibri",
-      "license": "Apache-2.0",
-      "created_at": "2026-07-01T12:27:49Z",
-      "pushed_at": "2026-10-08T18:30:03Z",
-      "updated_at": "2026-10-10T10:35:14Z",
-      "open_issues": 90,
-      "summary": "colibri 是一个用纯 C 编写的 MoE 模型推理引擎，目标是让用户在已有硬件上运行前沿规模的专家混合模型。它利用 MoE 模型每个 token 只激活少量专家的特性，将稠密部分常驻内存，把路由专家留在磁盘上按需读取，并通过缓存学习常用专家，从而不必把整个模型塞进显存或内存。项目无需 GPU 也能运行，支持 Vulkan 和 CUDA 加速，每个模型家族对应一个源文件。目前内置十余个引擎，覆盖 GLM、Kimi、DeepSeek、Qwen、OLMoE 等语言模型，以及图像生成和决策类模型。",
-      "windows": [
-        "monthly"
-      ],
-      "added_at": "2026-10-09T11:22:49+00:00",
-      "last_seen": "2026-10-10",
-      "seen_count": 5
-    },
-    {
-      "owner": "raysan5",
-      "name": "raylib",
-      "full_name": "raysan5/raylib",
-      "url": "https://github.com/raysan5/raylib",
-      "description": "A simple and easy-to-use library to enjoy videogames programming",
-      "language": "C",
-      "stars": 35137,
-      "forks": 3326,
-      "homepage": "http://www.raylib.com",
-      "license": "Zlib",
-      "created_at": "2013-10-24T15:46:04Z",
-      "pushed_at": "2026-10-10T07:20:02Z",
-      "updated_at": "2026-10-10T08:36:53Z",
-      "open_issues": 11,
-      "summary": "raylib 是一个用 C 语言（C99）编写的简单易用的电子游戏编程库，灵感来自 Borland BGI 图形库和 XNA 框架，适合原型设计、工具开发、图形应用、嵌入式系统和教学。它不依赖外部库，内置 Windows、Linux、macOS、RPI、Android、HTML5 等多平台支持，通过 OpenGL 实现硬件加速，并提供独立的抽象层 rlgl 和软件渲染后端 rlsw。其核心能力包括完整 3D 支持、骨骼动画、着色器、多种字体与纹理格式、音频流播放、VR 立体渲染，以及 Vector、Matrix、Quaternion 数学模块 raymath。",
-      "windows": [
-        "monthly"
-      ],
-      "added_at": "2026-10-09T11:22:49+00:00",
-      "last_seen": "2026-10-10",
-      "seen_count": 5
-    },
-    {
-      "owner": "ValdikSS",
-      "name": "GoodbyeDPI",
-      "full_name": "ValdikSS/GoodbyeDPI",
-      "url": "https://github.com/ValdikSS/GoodbyeDPI",
-      "description": "GoodbyeDPI — Deep Packet Inspection circumvention utility (for Windows)",
-      "language": "C",
-      "stars": 28760,
-      "forks": 2231,
-      "homepage": "https://ntc.party/c/community-software/goodbyedpi",
-      "license": "Apache-2.0",
-      "created_at": "2017-05-16T18:48:52Z",
-      "pushed_at": "2026-01-19T12:59:23Z",
-      "updated_at": "2026-10-10T08:55:39Z",
-      "open_issues": 154,
-      "summary": "GoodbyeDPI 是一款面向 Windows 的深度包检测（DPI）绕过工具，使用 C 语言编写，需以管理员权限运行于 Windows 7 至 11。它针对运营商部署的 DPI 系统，帮助用户访问被屏蔽的网站。其核心能力分为两类：对被动 DPI，可拦截其伪造的 HTTP 302 重定向和 TCP Reset 数据包；对主动 DPI，则通过 TCP 分片、修改 Host 头大小写、插入额外空格、发送低 TTL 或错误校验和的伪造包等七种方法，干扰 DPI 的数据分类。程序依赖 WinDivert 驱动，通过 Windows 过滤平台将数据包重定向至用户态处理。",
-      "windows": [
-        "weekly",
-        "monthly"
-      ],
-      "added_at": "2026-10-09T11:22:49+00:00",
-      "last_seen": "2026-10-10",
-      "seen_count": 5
-    },
-    {
-      "owner": "xiaojieonly",
-      "name": "Ehviewer_CN_SXJ",
-      "full_name": "xiaojieonly/Ehviewer_CN_SXJ",
-      "url": "https://github.com/xiaojieonly/Ehviewer_CN_SXJ",
-      "description": "ehviewer，用爱发电，快乐前行",
-      "language": "C",
-      "stars": 27622,
-      "forks": 727,
-      "homepage": "",
-      "license": "NOASSERTION",
-      "created_at": "2020-11-09T06:14:31Z",
-      "pushed_at": "2026-10-08T08:48:47Z",
-      "updated_at": "2026-10-10T10:25:20Z",
-      "open_issues": 550,
-      "summary": "EhViewer_CN_SXJ 是一个面向 Android 平台的 E-Hentai 浏览器，使用 C 语言等开发，由社区维护并仅在 GitHub 更新。它主要解决在移动端浏览、搜索、下载和管理 E-Hentai 画廊内容的需求，提供阅读、下载归档导入、批量操作、本地相册导入、阅读刷新率设置、多标签搜索组合、下载拖拽排序与分类筛选等功能，并持续修复崩溃、内存溢出、图片解码等问题。项目支持通过 WebView 登录、Cookie 登录及 VPN 环境使用，适配多语言，代码逐步从 Java 迁移到 Kotlin，依赖 AOSP、greenDAO、okhttp、jsoup 等开源库。",
-      "windows": [
-        "weekly"
-      ],
-      "added_at": "2026-10-09T11:22:49+00:00",
-      "last_seen": "2026-10-10",
-      "seen_count": 5
-    },
-    {
-      "owner": "libuv",
-      "name": "libuv",
-      "full_name": "libuv/libuv",
-      "url": "https://github.com/libuv/libuv",
-      "description": "Cross-platform asynchronous I/O",
-      "language": "C",
-      "stars": 27238,
-      "forks": 3945,
-      "homepage": "https://libuv.org/",
-      "license": "MIT",
-      "created_at": "2013-11-30T00:29:56Z",
-      "pushed_at": "2026-10-10T10:06:22Z",
-      "updated_at": "2026-10-10T10:16:43Z",
-      "open_issues": 245,
-      "summary": "libuv 是一个用 C 语言编写的多平台支持库，专注于异步 I/O，最初为 Node.js 开发，也被 Luvit、Julia、uvloop 等项目使用。它解决了跨平台异步编程的难题，通过统一接口封装了 epoll、kqueue、IOCP 和 event ports 等系统机制，提供完整的事件循环。其核心能力包括异步 TCP/UDP 套接字、异步 DNS 解析、异步文件与文件系统操作、文件系统事件、TTY 处理、基于 Unix 域套接字或命名管道的 IPC、子进程管理、线程池、信号处理、高分辨率时钟以及线程与同步原语。",
-      "windows": [
-        "monthly"
-      ],
-      "added_at": "2026-10-09T11:22:49+00:00",
-      "last_seen": "2026-10-10",
-      "seen_count": 5
-    },
-    {
-      "owner": "lvgl",
-      "name": "lvgl",
-      "full_name": "lvgl/lvgl",
-      "url": "https://github.com/lvgl/lvgl",
-      "description": "LVGL is a free, full-featured embedded UI library for devices from small MCUs to 3D-capable MPUs, enhanced by LVGL Pro, a professional editor and tooling.",
-      "language": "C",
-      "stars": 24836,
-      "forks": 4387,
-      "homepage": "https://lvgl.io",
-      "license": "MIT",
-      "created_at": "2016-06-08T04:14:34Z",
-      "pushed_at": "2026-10-07T06:23:59Z",
-      "updated_at": "2026-10-10T07:50:30Z",
-      "open_issues": 148,
-      "summary": "LVGL 是一个用 C 语言编写的免费开源嵌入式图形界面库，可在任意厂商、任意平台的 MCU 和 MPU 上运行，且不依赖外部库。它主要解决资源受限设备上构建图形界面的问题，典型 UI 仅需约 100kB RAM、200–300kB Flash 和屏幕十分之一大小的缓冲区，最低可支持 32kB RAM 与 128kB Flash。其核心能力包括 30 多种内置控件、100 多项样式属性、Flexbox 与网格布局、数据绑定、多显示器支持，以及内置 2D 渲染引擎和基于 OpenGL 的 3D 渲染，支持 SVG、Lottie、UTF-8 多语言文本和多种 GPU 加速。",
-      "windows": [
-        "daily"
-      ],
-      "added_at": "2026-10-09T11:22:49+00:00",
-      "last_seen": "2026-10-10",
-      "seen_count": 5
-    },
-    {
-      "owner": "antirez",
-      "name": "ds4",
-      "full_name": "antirez/ds4",
-      "url": "https://github.com/antirez/ds4",
-      "description": "DeepSeek 4 Flash and PRO local inference engine for Metal, CUDA and ROCm",
-      "language": "C",
-      "stars": 23749,
-      "forks": 2293,
-      "homepage": "",
-      "license": "MIT",
-      "created_at": "2026-05-06T17:17:05Z",
-      "pushed_at": "2026-10-08T07:00:42Z",
-      "updated_at": "2026-10-10T10:35:37Z",
-      "open_issues": 770,
-      "summary": "DwarfStar（ds4）是面向消费级硬件的本地大模型推理引擎，用 C 语言编写，重点支持 DeepSeek V4 Flash、V4 PRO、GLM 5.x 及 Qwen3.8 Flash Next 等模型，并非通用 GGUF 运行器，需使用项目自产的 GGUF 文件。它解决在个人可拥有的设备上运行优秀大模型的问题，支持 Metal（96GB 以上 Mac，小内存可 SSD 流式加载）、NVIDIA CUDA（含多卡与 Ada Lovelace）及 Strix Halo 上的 ROCm。",
-      "windows": [
-        "weekly"
-      ],
-      "added_at": "2026-10-09T11:22:49+00:00",
-      "last_seen": "2026-10-10",
-      "seen_count": 5
-    },
-    {
-      "owner": "DarkFlippers",
-      "name": "unleashed-firmware",
-      "full_name": "DarkFlippers/unleashed-firmware",
-      "url": "https://github.com/DarkFlippers/unleashed-firmware",
-      "description": "Flipper Zero Unleashed Firmware",
-      "language": "C",
-      "stars": 22484,
-      "forks": 1959,
-      "homepage": "https://flipperunleashed.com",
-      "license": "GPL-3.0",
-      "created_at": "2022-03-16T12:46:45Z",
-      "pushed_at": "2026-10-10T10:02:57Z",
-      "updated_at": "2026-10-10T10:03:01Z",
-      "open_issues": 29,
-      "summary": "Unleashed Firmware 是 Flipper Zero 官方固件的开源分支，用 C 语言开发，在保持与原版 API 及应用完全兼容的前提下，加入了新功能并改进原有组件，是目前较稳定的第三方定制固件。它主要解决官方固件功能受限的问题，扩展了 Sub-GHz 协议支持，新增滚动码遥控、外部 CC1101 模块、额外频率配置等能力，并集成 TOTP、条形码生成、WAV 播放、GPS、WiFi 扫描、ESP32 Marauder 等插件。",
-      "windows": [
-        "monthly"
-      ],
-      "added_at": "2026-10-09T11:22:49+00:00",
-      "last_seen": "2026-10-10",
-      "seen_count": 5
-    },
-    {
-      "owner": "systemd",
-      "name": "systemd",
-      "full_name": "systemd/systemd",
-      "url": "https://github.com/systemd/systemd",
-      "description": "The systemd System and Service Manager ",
-      "language": "C",
-      "stars": 16808,
-      "forks": 4737,
-      "homepage": "https://systemd.io",
-      "license": "GPL-2.0",
-      "created_at": "2015-03-25T15:27:27Z",
-      "pushed_at": "2026-10-10T10:01:22Z",
-      "updated_at": "2026-10-10T09:54:44Z",
-      "open_issues": 3553,
-      "summary": "systemd 是 Linux 系统的系统与服务管理器，以 C 语言编写，负责在系统启动时初始化各项服务并持续管理其运行状态。它解决的是传统 init 系统在服务依赖、并行启动和运行状态追踪上的不足，通过统一的单元配置来组织服务、设备、挂载点等资源。其核心能力包括按依赖关系并行启动服务、按需激活、进程生命周期监控以及日志收集等。典型使用场景涵盖服务器、桌面发行版和嵌入式设备的系统引导与服务编排，主流 Linux 发行版多以其作为默认初始化系统。",
-      "windows": [
-        "monthly"
-      ],
-      "added_at": "2026-10-09T11:22:49+00:00",
-      "last_seen": "2026-10-10",
-      "seen_count": 5
-    },
-    {
-      "owner": "libsdl-org",
-      "name": "SDL",
-      "full_name": "libsdl-org/SDL",
-      "url": "https://github.com/libsdl-org/SDL",
-      "description": "Simple DirectMedia Layer",
-      "language": "C",
-      "stars": 16767,
-      "forks": 3054,
-      "homepage": "https://libsdl.org",
-      "license": "Zlib",
-      "created_at": "2021-01-15T19:55:54Z",
-      "pushed_at": "2026-10-10T01:29:09Z",
-      "updated_at": "2026-10-10T09:34:26Z",
-      "open_issues": 873,
-      "summary": "Simple DirectMedia Layer（简称 SDL）是一个用 C 语言编写的跨平台库，旨在让编写游戏、模拟器等多媒体系软件变得更容易。它解决的核心问题是：开发者无需为不同操作系统分别处理底层多媒体接口，就能获得统一的开发方式。SDL 提供对音频、输入、窗口等多媒体功能的抽象与封装，使同一套代码可以跨平台运行。它适合用于游戏开发、模拟器构建以及其他需要处理多媒体输入输出的程序，常作为底层库被上层框架或引擎调用。项目由 Sam Lantinga 发起，官网提供最新版本和额外信息，安装说明与快速入门可查阅 INSTALL.md。",
       "windows": [
         "monthly"
       ],
@@ -430,27 +222,444 @@
       "seen_count": 6
     },
     {
+      "owner": "JustVugg",
+      "name": "colibri",
+      "full_name": "JustVugg/colibri",
+      "url": "https://github.com/JustVugg/colibri",
+      "description": "Run frontier MoE models on hardware you already own — pure C, zero deps, experts streamed from disk. Tiny engine, immense model. 🐦",
+      "language": "C",
+      "stars": 41006,
+      "forks": 4504,
+      "homepage": "https://justvugg.github.io/colibri",
+      "license": "Apache-2.0",
+      "created_at": "2026-07-01T12:27:49Z",
+      "pushed_at": "2026-10-08T18:30:03Z",
+      "updated_at": "2026-10-10T22:05:26Z",
+      "open_issues": 101,
+      "summary": "colibri 是一个用纯 C 编写的 MoE 模型推理引擎，目标是让用户在已有硬件上运行前沿规模的专家混合模型。它利用 MoE 模型每个 token 只激活少量专家的特性，将稠密部分常驻内存，把路由专家留在磁盘上按需读取，并通过缓存学习常用专家，从而不必把整个模型塞进显存或内存。项目无需 GPU 也能运行，支持 Vulkan 和 CUDA 加速，每个模型家族对应一个源文件。目前内置十余个引擎，覆盖 GLM、Kimi、DeepSeek、Qwen、OLMoE 等语言模型，以及图像生成和决策类模型。",
+      "windows": [
+        "monthly"
+      ],
+      "added_at": "2026-10-09T11:22:49+00:00",
+      "last_seen": "2026-10-10",
+      "seen_count": 6
+    },
+    {
+      "owner": "jqlang",
+      "name": "jq",
+      "full_name": "jqlang/jq",
+      "url": "https://github.com/jqlang/jq",
+      "description": "Command-line JSON processor",
+      "language": "C",
+      "stars": 35778,
+      "forks": 4103,
+      "homepage": "https://jqlang.org",
+      "license": "NOASSERTION",
+      "created_at": "2012-07-18T19:57:25Z",
+      "pushed_at": "2026-10-10T12:50:10Z",
+      "updated_at": "2026-10-10T21:19:22Z",
+      "open_issues": 419,
+      "summary": "jq 是一个轻量且灵活的命令行 JSON 处理器，用可移植的 C 语言编写，运行时零依赖，常被比作针对 JSON 数据的 sed、awk 和 grep。它解决的是在命令行中处理结构化数据的难题，让用户能够方便地切片、过滤、映射和转换 JSON。其核心能力包括从 JSON 中提取字段、重组结构以及按条件筛选内容，例如从 package.json 文件中取出 version 字段。jq 提供预编译的独立可执行文件，也可通过 Docker 镜像快速运行，还支持从源码构建静态链接版本，构建依赖 libtool、make、automake 和 autoconf，并支持交叉编译。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-10T22:24:33+00:00",
+      "last_seen": "2026-10-10",
+      "seen_count": 1
+    },
+    {
+      "owner": "raysan5",
+      "name": "raylib",
+      "full_name": "raysan5/raylib",
+      "url": "https://github.com/raysan5/raylib",
+      "description": "A simple and easy-to-use library to enjoy videogames programming",
+      "language": "C",
+      "stars": 35142,
+      "forks": 3325,
+      "homepage": "http://www.raylib.com",
+      "license": "Zlib",
+      "created_at": "2013-10-24T15:46:04Z",
+      "pushed_at": "2026-10-10T19:36:02Z",
+      "updated_at": "2026-10-10T21:50:16Z",
+      "open_issues": 11,
+      "summary": "raylib 是一个用 C 语言（C99）编写的简单易用的电子游戏编程库，灵感来自 Borland BGI 图形库和 XNA 框架，适合原型设计、工具开发、图形应用、嵌入式系统和教学。它不依赖外部库，内置 Windows、Linux、macOS、RPI、Android、HTML5 等多平台支持，通过 OpenGL 实现硬件加速，并提供独立的抽象层 rlgl 和软件渲染后端 rlsw。其核心能力包括完整 3D 支持、骨骼动画、着色器、多种字体与纹理格式、音频流播放、VR 立体渲染，以及 Vector、Matrix、Quaternion 数学模块 raymath。",
+      "windows": [
+        "monthly"
+      ],
+      "added_at": "2026-10-09T11:22:49+00:00",
+      "last_seen": "2026-10-10",
+      "seen_count": 6
+    },
+    {
+      "owner": "kingToolbox",
+      "name": "WindTerm",
+      "full_name": "kingToolbox/WindTerm",
+      "url": "https://github.com/kingToolbox/WindTerm",
+      "description": "A professional cross-platform SSH/Sftp/Shell/Telnet/Tmux/Serial terminal.",
+      "language": "C",
+      "stars": 32424,
+      "forks": 2473,
+      "homepage": "https://kingtoolbox.github.io",
+      "license": "",
+      "created_at": "2019-10-09T19:56:09Z",
+      "pushed_at": "2025-03-11T19:12:09Z",
+      "updated_at": "2026-10-10T20:53:51Z",
+      "open_issues": 2455,
+      "summary": "WindTerm 是一款用 C 语言编写的跨平台终端工具，面向 DevOps 场景，集成了 SSH、Sftp、Shell、Telnet、Tmux 和串口等多种协议与功能。它主要解决开发者在远程连接、文件传输和终端操作中需要切换多个工具的问题，将远程会话管理、本地文件管理、Sftp/Scp 传输和终端模拟整合在一个界面中。核心能力包括支持 SSH v2、代理跳转、端口转发、X11 转发、ZModem 传输，以及 Windows、macOS 和 Linux 下的多种 Shell 环境；终端层面兼容 vt100 到 xterm-256-colors，支持 Unicode、真彩色和鼠标协议。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-10T22:24:33+00:00",
+      "last_seen": "2026-10-10",
+      "seen_count": 1
+    },
+    {
+      "owner": "coolsnowwolf",
+      "name": "lede",
+      "full_name": "coolsnowwolf/lede",
+      "url": "https://github.com/coolsnowwolf/lede",
+      "description": "Lean's LEDE source",
+      "language": "C",
+      "stars": 31592,
+      "forks": 19102,
+      "homepage": "",
+      "license": "NOASSERTION",
+      "created_at": "2017-09-06T07:39:03Z",
+      "pushed_at": "2026-10-08T19:19:24Z",
+      "updated_at": "2026-10-10T19:41:13Z",
+      "open_issues": 7,
+      "summary": "coolsnowwolf/lede 是 Lean 维护的 LEDE 源码仓库，主要用 C 语言编写，面向路由器与嵌入式网络设备提供可自行编译的固件代码。它解决的是通用固件难以适配特定硬件与功能需求的问题，让用户能按需定制系统。该仓库为国产龙芯 loongarch64 及飞腾腾锐 D2000 系列架构添加了支持，并包含 R24 全部源代码及 IPK 包，保证可编译成功。典型使用场景是在 Debian 或 Ubuntu LTS 上安装依赖、下载源码、更新 feeds 并选择配置后编译固件，输出位于 bin/targets，默认登录地址为 192.168.1.1，密码 password。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-10T22:24:33+00:00",
+      "last_seen": "2026-10-10",
+      "seen_count": 1
+    },
+    {
+      "owner": "openssl",
+      "name": "openssl",
+      "full_name": "openssl/openssl",
+      "url": "https://github.com/openssl/openssl",
+      "description": "General purpose TLS and crypto library",
+      "language": "C",
+      "stars": 30912,
+      "forks": 11522,
+      "homepage": "https://openssl-library.org/",
+      "license": "Apache-2.0",
+      "created_at": "2013-01-15T22:34:48Z",
+      "pushed_at": "2026-10-10T16:21:13Z",
+      "updated_at": "2026-10-10T18:51:33Z",
+      "open_issues": 1543,
+      "summary": "OpenSSL 是一个通用的 TLS 与密码学工具库，用 C 语言编写，为传输层安全协议提供实现基础。它主要解决网络通信中的加密与身份认证问题，核心组件包括 libssl、libcrypto 和 openssl 命令行工具。libssl 实现了 TLSv1.3、DTLSv1.3 及 QUIC v1 等协议，libcrypto 是可独立使用的通用密码学库，并包含符合 FIPS 标准的密码模块。命令行工具支持生成密钥参数、创建 X.509 证书与 CSR、计算消息摘要、加解密以及 SSL/TLS/DTLS 和 QUIC 客户端测试等任务。",
+      "windows": [
+        "daily",
+        "monthly"
+      ],
+      "added_at": "2026-10-10T22:24:33+00:00",
+      "last_seen": "2026-10-10",
+      "seen_count": 2
+    },
+    {
+      "owner": "ValdikSS",
+      "name": "GoodbyeDPI",
+      "full_name": "ValdikSS/GoodbyeDPI",
+      "url": "https://github.com/ValdikSS/GoodbyeDPI",
+      "description": "GoodbyeDPI — Deep Packet Inspection circumvention utility (for Windows)",
+      "language": "C",
+      "stars": 28765,
+      "forks": 2234,
+      "homepage": "https://ntc.party/c/community-software/goodbyedpi",
+      "license": "Apache-2.0",
+      "created_at": "2017-05-16T18:48:52Z",
+      "pushed_at": "2026-01-19T12:59:23Z",
+      "updated_at": "2026-10-10T19:40:38Z",
+      "open_issues": 154,
+      "summary": "GoodbyeDPI 是一款面向 Windows 的深度包检测（DPI）绕过工具，使用 C 语言编写，需以管理员权限运行于 Windows 7 至 11。它针对运营商部署的 DPI 系统，帮助用户访问被屏蔽的网站。其核心能力分为两类：对被动 DPI，可拦截其伪造的 HTTP 302 重定向和 TCP Reset 数据包；对主动 DPI，则通过 TCP 分片、修改 Host 头大小写、插入额外空格、发送低 TTL 或错误校验和的伪造包等七种方法，干扰 DPI 的数据分类。程序依赖 WinDivert 驱动，通过 Windows 过滤平台将数据包重定向至用户态处理。",
+      "windows": [
+        "weekly",
+        "monthly"
+      ],
+      "added_at": "2026-10-09T11:22:49+00:00",
+      "last_seen": "2026-10-10",
+      "seen_count": 6
+    },
+    {
+      "owner": "xiaojieonly",
+      "name": "Ehviewer_CN_SXJ",
+      "full_name": "xiaojieonly/Ehviewer_CN_SXJ",
+      "url": "https://github.com/xiaojieonly/Ehviewer_CN_SXJ",
+      "description": "ehviewer，用爱发电，快乐前行",
+      "language": "C",
+      "stars": 27636,
+      "forks": 728,
+      "homepage": "",
+      "license": "NOASSERTION",
+      "created_at": "2020-11-09T06:14:31Z",
+      "pushed_at": "2026-10-08T08:48:47Z",
+      "updated_at": "2026-10-10T22:00:33Z",
+      "open_issues": 550,
+      "summary": "EhViewer_CN_SXJ 是一个面向 Android 平台的 E-Hentai 浏览器，使用 C 语言等开发，由社区维护并仅在 GitHub 更新。它主要解决在移动端浏览、搜索、下载和管理 E-Hentai 画廊内容的需求，提供阅读、下载归档导入、批量操作、本地相册导入、阅读刷新率设置、多标签搜索组合、下载拖拽排序与分类筛选等功能，并持续修复崩溃、内存溢出、图片解码等问题。项目支持通过 WebView 登录、Cookie 登录及 VPN 环境使用，适配多语言，代码逐步从 Java 迁移到 Kotlin，依赖 AOSP、greenDAO、okhttp、jsoup 等开源库。",
+      "windows": [
+        "weekly"
+      ],
+      "added_at": "2026-10-09T11:22:49+00:00",
+      "last_seen": "2026-10-10",
+      "seen_count": 6
+    },
+    {
+      "owner": "libuv",
+      "name": "libuv",
+      "full_name": "libuv/libuv",
+      "url": "https://github.com/libuv/libuv",
+      "description": "Cross-platform asynchronous I/O",
+      "language": "C",
+      "stars": 27240,
+      "forks": 3946,
+      "homepage": "https://libuv.org/",
+      "license": "MIT",
+      "created_at": "2013-11-30T00:29:56Z",
+      "pushed_at": "2026-10-10T21:37:34Z",
+      "updated_at": "2026-10-10T21:37:47Z",
+      "open_issues": 243,
+      "summary": "libuv 是一个用 C 语言编写的多平台支持库，专注于异步 I/O，最初为 Node.js 开发，也被 Luvit、Julia、uvloop 等项目使用。它解决了跨平台异步编程的难题，通过统一接口封装了 epoll、kqueue、IOCP 和 event ports 等系统机制，提供完整的事件循环。其核心能力包括异步 TCP/UDP 套接字、异步 DNS 解析、异步文件与文件系统操作、文件系统事件、TTY 处理、基于 Unix 域套接字或命名管道的 IPC、子进程管理、线程池、信号处理、高分辨率时钟以及线程与同步原语。",
+      "windows": [
+        "monthly"
+      ],
+      "added_at": "2026-10-09T11:22:49+00:00",
+      "last_seen": "2026-10-10",
+      "seen_count": 6
+    },
+    {
+      "owner": "lvgl",
+      "name": "lvgl",
+      "full_name": "lvgl/lvgl",
+      "url": "https://github.com/lvgl/lvgl",
+      "description": "LVGL is a free, full-featured embedded UI library for devices from small MCUs to 3D-capable MPUs, enhanced by LVGL Pro, a professional editor and tooling.",
+      "language": "C",
+      "stars": 24843,
+      "forks": 4387,
+      "homepage": "https://lvgl.io",
+      "license": "MIT",
+      "created_at": "2016-06-08T04:14:34Z",
+      "pushed_at": "2026-10-07T06:23:59Z",
+      "updated_at": "2026-10-10T21:50:49Z",
+      "open_issues": 148,
+      "summary": "LVGL 是一个用 C 语言编写的免费开源嵌入式图形界面库，可在任意厂商、任意平台的 MCU 和 MPU 上运行，且不依赖外部库。它主要解决资源受限设备上构建图形界面的问题，典型 UI 仅需约 100kB RAM、200–300kB Flash 和屏幕十分之一大小的缓冲区，最低可支持 32kB RAM 与 128kB Flash。其核心能力包括 30 多种内置控件、100 多项样式属性、Flexbox 与网格布局、数据绑定、多显示器支持，以及内置 2D 渲染引擎和基于 OpenGL 的 3D 渲染，支持 SVG、Lottie、UTF-8 多语言文本和多种 GPU 加速。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-09T11:22:49+00:00",
+      "last_seen": "2026-10-10",
+      "seen_count": 6
+    },
+    {
+      "owner": "antirez",
+      "name": "ds4",
+      "full_name": "antirez/ds4",
+      "url": "https://github.com/antirez/ds4",
+      "description": "DeepSeek 4 Flash and PRO local inference engine for Metal, CUDA and ROCm",
+      "language": "C",
+      "stars": 23760,
+      "forks": 2294,
+      "homepage": "",
+      "license": "MIT",
+      "created_at": "2026-05-06T17:17:05Z",
+      "pushed_at": "2026-10-08T07:00:42Z",
+      "updated_at": "2026-10-10T20:48:29Z",
+      "open_issues": 771,
+      "summary": "DwarfStar（ds4）是面向消费级硬件的本地大模型推理引擎，用 C 语言编写，重点支持 DeepSeek V4 Flash、V4 PRO、GLM 5.x 及 Qwen3.8 Flash Next 等模型，并非通用 GGUF 运行器，需使用项目自产的 GGUF 文件。它解决在个人可拥有的设备上运行优秀大模型的问题，支持 Metal（96GB 以上 Mac，小内存可 SSD 流式加载）、NVIDIA CUDA（含多卡与 Ada Lovelace）及 Strix Halo 上的 ROCm。",
+      "windows": [
+        "weekly"
+      ],
+      "added_at": "2026-10-09T11:22:49+00:00",
+      "last_seen": "2026-10-10",
+      "seen_count": 6
+    },
+    {
+      "owner": "DarkFlippers",
+      "name": "unleashed-firmware",
+      "full_name": "DarkFlippers/unleashed-firmware",
+      "url": "https://github.com/DarkFlippers/unleashed-firmware",
+      "description": "Flipper Zero Unleashed Firmware",
+      "language": "C",
+      "stars": 22491,
+      "forks": 1960,
+      "homepage": "https://flipperunleashed.com",
+      "license": "GPL-3.0",
+      "created_at": "2022-03-16T12:46:45Z",
+      "pushed_at": "2026-10-10T12:36:17Z",
+      "updated_at": "2026-10-10T21:43:16Z",
+      "open_issues": 27,
+      "summary": "Unleashed Firmware 是 Flipper Zero 官方固件的开源分支，用 C 语言开发，在保持与原版 API 及应用完全兼容的前提下，加入了新功能并改进原有组件，是目前较稳定的第三方定制固件。它主要解决官方固件功能受限的问题，扩展了 Sub-GHz 协议支持，新增滚动码遥控、外部 CC1101 模块、额外频率配置等能力，并集成 TOTP、条形码生成、WAV 播放、GPS、WiFi 扫描、ESP32 Marauder 等插件。",
+      "windows": [
+        "monthly"
+      ],
+      "added_at": "2026-10-09T11:22:49+00:00",
+      "last_seen": "2026-10-10",
+      "seen_count": 6
+    },
+    {
+      "owner": "espressif",
+      "name": "esp-idf",
+      "full_name": "espressif/esp-idf",
+      "url": "https://github.com/espressif/esp-idf",
+      "description": "Espressif IoT Development Framework. Official development framework for Espressif SoCs.",
+      "language": "C",
+      "stars": 19201,
+      "forks": 8529,
+      "homepage": "",
+      "license": "Apache-2.0",
+      "created_at": "2016-08-17T10:40:35Z",
+      "pushed_at": "2026-10-10T17:11:35Z",
+      "updated_at": "2026-10-10T21:28:15Z",
+      "open_issues": 1724,
+      "summary": "ESP-IDF 是乐鑫为自家 SoC 提供的官方物联网开发框架，使用 C 语言编写，可在 Windows、Linux 和 macOS 上运行。它面向 ESP8266、ESP8285 之外的乐鑫芯片，帮助开发者完成从配置、编译到烧录、调试的完整嵌入式开发流程。框架内置 idf.py 命令行工具，支持 set-target 选择芯片、menuconfig 图形化配置、build 编译应用与引导程序并生成分区表，还能通过 flash 和 monitor 一键烧录并查看串口输出，必要时可单独编译烧录应用或擦除整片 Flash。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-10T22:24:33+00:00",
+      "last_seen": "2026-10-10",
+      "seen_count": 1
+    },
+    {
+      "owner": "reactos",
+      "name": "reactos",
+      "full_name": "reactos/reactos",
+      "url": "https://github.com/reactos/reactos",
+      "description": "A free Windows-compatible Operating System",
+      "language": "C",
+      "stars": 18176,
+      "forks": 2237,
+      "homepage": "https://reactos.org/",
+      "license": "GPL-2.0",
+      "created_at": "2017-10-03T08:04:52Z",
+      "pushed_at": "2026-10-10T22:26:10Z",
+      "updated_at": "2026-10-10T22:26:14Z",
+      "open_issues": 192,
+      "summary": "ReactOS 是一个用 C 语言编写的自由操作系统，目标是兼容为微软 Windows NT 系列（NT4、2000、XP、2003、Vista、7）编写的应用程序和驱动。它并非基于 Linux 的兼容层，而是从架构上复现 Windows 行为，其用户态部分大量借鉴 WINE，两者团队曾有密切合作。当前项目聚焦于 Windows Server 2003 兼容性，同时关注 Vista 及后续版本。它面向希望获得行为与 Windows 一致、可替代 Windows 的用户，而非与 Linux 竞争。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-10T22:24:33+00:00",
+      "last_seen": "2026-10-10",
+      "seen_count": 8
+    },
+    {
+      "owner": "semgrep",
+      "name": "semgrep",
+      "full_name": "semgrep/semgrep",
+      "url": "https://github.com/semgrep/semgrep",
+      "description": "Lightweight static analysis for many languages. Find bug variants with patterns that look like source code.",
+      "language": "C",
+      "stars": 16960,
+      "forks": 1098,
+      "homepage": "https://semgrep.dev",
+      "license": "LGPL-2.1",
+      "created_at": "2019-12-13T09:29:54Z",
+      "pushed_at": "2026-10-09T15:42:18Z",
+      "updated_at": "2026-10-10T22:20:41Z",
+      "open_issues": 947,
+      "summary": "Semgrep 是一款快速、开源的静态分析工具，用于搜索代码、发现缺陷并落实安全规范与编码标准。它支持 30 多种语言，可在 IDE、提交前检查以及 CI/CD 流程中运行。其核心思路是“语义化 grep”：普通 grep 只匹配字面字符串，而 Semgrep 能理解代码结构，例如搜索 2 时可匹配 x = 1; y = x + 1。规则写法与日常代码相似，无需操作抽象语法树、编写复杂正则或学习专用 DSL。它默认在本地分析代码，不上传源码。典型用途包括代码扫描、漏洞变体查找和安全护栏。",
+      "windows": [
+        "monthly"
+      ],
+      "added_at": "2026-10-10T22:24:33+00:00",
+      "last_seen": "2026-10-10",
+      "seen_count": 1
+    },
+    {
+      "owner": "systemd",
+      "name": "systemd",
+      "full_name": "systemd/systemd",
+      "url": "https://github.com/systemd/systemd",
+      "description": "The systemd System and Service Manager ",
+      "language": "C",
+      "stars": 16814,
+      "forks": 4741,
+      "homepage": "https://systemd.io",
+      "license": "GPL-2.0",
+      "created_at": "2015-03-25T15:27:27Z",
+      "pushed_at": "2026-10-10T22:03:20Z",
+      "updated_at": "2026-10-10T22:11:12Z",
+      "open_issues": 3549,
+      "summary": "systemd 是 Linux 系统的系统与服务管理器，以 C 语言编写，负责在系统启动时初始化各项服务并持续管理其运行状态。它解决的是传统 init 系统在服务依赖、并行启动和运行状态追踪上的不足，通过统一的单元配置来组织服务、设备、挂载点等资源。其核心能力包括按依赖关系并行启动服务、按需激活、进程生命周期监控以及日志收集等。典型使用场景涵盖服务器、桌面发行版和嵌入式设备的系统引导与服务编排，主流 Linux 发行版多以其作为默认初始化系统。",
+      "windows": [
+        "monthly"
+      ],
+      "added_at": "2026-10-09T11:22:49+00:00",
+      "last_seen": "2026-10-10",
+      "seen_count": 6
+    },
+    {
+      "owner": "libsdl-org",
+      "name": "SDL",
+      "full_name": "libsdl-org/SDL",
+      "url": "https://github.com/libsdl-org/SDL",
+      "description": "Simple DirectMedia Layer",
+      "language": "C",
+      "stars": 16771,
+      "forks": 3056,
+      "homepage": "https://libsdl.org",
+      "license": "Zlib",
+      "created_at": "2021-01-15T19:55:54Z",
+      "pushed_at": "2026-10-10T21:29:18Z",
+      "updated_at": "2026-10-10T21:29:34Z",
+      "open_issues": 876,
+      "summary": "Simple DirectMedia Layer（简称 SDL）是一个用 C 语言编写的跨平台库，旨在让编写游戏、模拟器等多媒体系软件变得更容易。它解决的核心问题是：开发者无需为不同操作系统分别处理底层多媒体接口，就能获得统一的开发方式。SDL 提供对音频、输入、窗口等多媒体功能的抽象与封装，使同一套代码可以跨平台运行。它适合用于游戏开发、模拟器构建以及其他需要处理多媒体输入输出的程序，常作为底层库被上层框架或引擎调用。项目由 Sam Lantinga 发起，官网提供最新版本和额外信息，安装说明与快速入门可查阅 INSTALL.md。",
+      "windows": [
+        "daily",
+        "monthly"
+      ],
+      "added_at": "2026-10-09T11:22:49+00:00",
+      "last_seen": "2026-10-10",
+      "seen_count": 7
+    },
+    {
       "owner": "zephyrproject-rtos",
       "name": "zephyr",
       "full_name": "zephyrproject-rtos/zephyr",
       "url": "https://github.com/zephyrproject-rtos/zephyr",
       "description": "Primary Git Repository for the Zephyr Project. Zephyr is a new generation, scalable, optimized, secure RTOS for multiple hardware architectures.",
       "language": "C",
-      "stars": 16741,
-      "forks": 10147,
+      "stars": 16743,
+      "forks": 10148,
       "homepage": "https://docs.zephyrproject.org",
       "license": "Apache-2.0",
       "created_at": "2016-05-26T17:54:19Z",
-      "pushed_at": "2026-10-10T04:53:02Z",
-      "updated_at": "2026-10-10T09:01:40Z",
-      "open_issues": 4222,
+      "pushed_at": "2026-10-10T20:48:02Z",
+      "updated_at": "2026-10-10T20:47:16Z",
+      "open_issues": 4235,
       "summary": "Zephyr 是一个面向资源受限设备设计的可扩展实时操作系统（RTOS），其内核 footprint 较小，强调安全性，并支持多种硬件架构，包括 ARM Cortex-A/R/M、Intel x86、ARC、Tensilica Xtensa、RISC-V、SPARC 和 MIPS，同时覆盖大量已支持的开发板。它主要解决嵌入式环境对实时性、资源占用和跨平台适配的需求，适用于从简单的环境传感器、LED 可穿戴设备到智能手表和物联网无线网关等场景。",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-09T11:22:49+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 5
+      "seen_count": 6
+    },
+    {
+      "owner": "FreeRDP",
+      "name": "FreeRDP",
+      "full_name": "FreeRDP/FreeRDP",
+      "url": "https://github.com/FreeRDP/FreeRDP",
+      "description": "FreeRDP is a free remote desktop protocol library and clients",
+      "language": "C",
+      "stars": 13806,
+      "forks": 15527,
+      "homepage": "http://www.freerdp.com/",
+      "license": "Apache-2.0",
+      "created_at": "2011-06-30T19:14:15Z",
+      "pushed_at": "2026-10-09T19:39:53Z",
+      "updated_at": "2026-10-10T14:33:41Z",
+      "open_issues": 191,
+      "summary": "FreeRDP 是远程桌面协议（RDP）的一个自由实现，以 C 语言编写，同时提供协议库和客户端程序。它解决的是跨平台访问 Windows 远程桌面服务的问题，让用户不必依赖特定厂商的客户端，就能在不同操作系统上连接和使用远程桌面环境。其核心能力在于完整实现 RDP 协议，并对外提供可供二次开发的库接口，开发者可以基于它构建自己的远程桌面应用。项目附带多个客户端，支持常见的远程桌面连接场景，例如从 Linux 或 macOS 访问 Windows 主机。",
+      "windows": [
+        "monthly"
+      ],
+      "added_at": "2026-10-10T22:24:33+00:00",
+      "last_seen": "2026-10-10",
+      "seen_count": 1
     },
     {
       "owner": "DaveGamble",
@@ -488,7 +697,7 @@
       "license": "NOASSERTION",
       "created_at": "2014-03-25T15:52:21Z",
       "pushed_at": "2026-10-10T06:51:52Z",
-      "updated_at": "2026-10-10T10:15:41Z",
+      "updated_at": "2026-10-10T16:32:05Z",
       "open_issues": 115,
       "summary": "LZ4 是一个用 C 语言实现的无损压缩算法，主打极快的压缩与解压速度。它在单核上压缩速度可超过 500 MB/s，解压速度可达数 GB/s，在多核系统上通常能逼近内存带宽上限。它支持通过“加速因子”动态调节压缩率与速度的权衡，并提供高压缩衍生版本 LZ4_HC，以更多 CPU 时间换取更高压缩率，但所有版本解压速度一致。LZ4 还支持字典压缩，可将任意文件作为字典（仅使用末尾 64KB），配合 Zstandard 字典构建器能显著提升小文件压缩效果。",
       "windows": [
@@ -496,7 +705,7 @@
       ],
       "added_at": "2026-10-09T11:22:49+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 5
+      "seen_count": 6
     },
     {
       "owner": "containers",
@@ -551,13 +760,13 @@
       "url": "https://github.com/n64decomp/sm64",
       "description": "A Super Mario 64 decompilation, brought to you by a bunch of clever folks.",
       "language": "C",
-      "stars": 8844,
+      "stars": 8848,
       "forks": 1638,
       "homepage": "https://discord.gg/DuYH3Fh",
       "license": "CC0-1.0",
       "created_at": "2019-06-08T04:30:49Z",
       "pushed_at": "2024-02-04T10:26:16Z",
-      "updated_at": "2026-10-10T07:52:02Z",
+      "updated_at": "2026-10-10T22:04:23Z",
       "open_issues": 29,
       "summary": "n64decomp/sm64 是对《超级马力欧 64》的完整反编译项目，覆盖日本、北美、欧洲、Shindou 和 iQue Player 五个版本，主要使用 C 语言编写。它解决的问题是：将原版游戏的机器码还原为可读、可修改的源代码，使开发者能够研究游戏内部结构并在此基础上进行改动。项目可构建出与原始 ROM 哈希一致的 sm64.jp.z64、sm64.us.z64、sm64.eu.z64、sm64.sh.z64 和 sm64.cn.z64，但仓库不包含全部素材，需要用户自备对应版本的原版 ROM 作为 baserom 来提取资源。",
       "windows": [
@@ -565,7 +774,7 @@
       ],
       "added_at": "2026-10-09T11:22:49+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 5
+      "seen_count": 6
     },
     {
       "owner": "EpicGames",
@@ -574,14 +783,14 @@
       "url": "https://github.com/EpicGames/raddebugger",
       "description": "A native, user-mode, multi-process, graphical debugger.",
       "language": "C",
-      "stars": 8303,
-      "forks": 396,
+      "stars": 8325,
+      "forks": 403,
       "homepage": "",
       "license": "MIT",
       "created_at": "2024-01-10T19:24:08Z",
       "pushed_at": "2026-10-07T20:56:17Z",
-      "updated_at": "2026-10-10T10:37:48Z",
-      "open_issues": 317,
+      "updated_at": "2026-10-10T21:27:29Z",
+      "open_issues": 318,
       "summary": "RAD Debugger 是 Epic Games 开源的原生用户态多进程图形调试器，目前仅支持本地 Windows x64 调试与 PDB 符号，未来计划扩展到 Linux 和 DWARF。它处于 ALPHA 阶段，核心目标是解决大型项目调试与链接效率问题：一方面通过自定义 RAD Debug Info（RDI）格式按需转换 PDB，避免原生格式在超大可执行文件下溢出 32 位表；另一方面提供 RAD Linker，命令行兼容 MSVC，面向巨型项目优化，测试中链接时间可快 50%，并支持大内存页进一步提速。项目还包含 radbin 工具用于格式转换与文本转储。",
       "windows": [
         "daily",
@@ -590,7 +799,7 @@
       ],
       "added_at": "2026-10-09T11:22:49+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 5
+      "seen_count": 6
     },
     {
       "owner": "moonlight-stream",
@@ -599,21 +808,21 @@
       "url": "https://github.com/moonlight-stream/moonlight-android",
       "description": "GameStream client for Android",
       "language": "C",
-      "stars": 7253,
-      "forks": 1617,
+      "stars": 7259,
+      "forks": 1620,
       "homepage": "",
       "license": "GPL-3.0",
       "created_at": "2013-09-21T05:00:00Z",
       "pushed_at": "2026-10-06T08:51:24Z",
-      "updated_at": "2026-10-10T06:03:46Z",
-      "open_issues": 404,
+      "updated_at": "2026-10-10T22:00:20Z",
+      "open_issues": 405,
       "summary": "Moonlight for Android 是一个面向 Android 设备的开源游戏串流客户端，主要作为 NVIDIA GameStream 和 Sunshine 的客户端使用。它解决的问题是让用户不必局限于 Windows PC 本地，就能把电脑上的完整游戏库串流到 Android 手机或平板上，无论是在家庭局域网内还是通过互联网远程连接。其核心能力在于接收并播放来自 PC 的游戏画面与操作输入，实现跨设备的游戏体验。项目主要使用 C 语言开发，构建时需要 Android Studio 和 Android NDK，并通过 git 子模块管理依赖。",
       "windows": [
         "monthly"
       ],
       "added_at": "2026-10-09T11:22:49+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 5
+      "seen_count": 6
     },
     {
       "owner": "hathach",
@@ -622,21 +831,21 @@
       "url": "https://github.com/hathach/tinyusb",
       "description": "An open source  cross-platform USB stack for embedded system",
       "language": "C",
-      "stars": 7188,
-      "forks": 1551,
+      "stars": 7190,
+      "forks": 1552,
       "homepage": "https://www.tinyusb.org",
       "license": "MIT",
       "created_at": "2012-11-26T06:24:00Z",
-      "pushed_at": "2026-10-10T03:30:27Z",
-      "updated_at": "2026-10-10T08:54:19Z",
-      "open_issues": 381,
+      "pushed_at": "2026-10-10T17:02:03Z",
+      "updated_at": "2026-10-10T21:35:57Z",
+      "open_issues": 383,
       "summary": "TinyUSB 是一个用 C 语言编写的开源跨平台 USB 协议栈，面向嵌入式系统，同时支持 USB 主机与设备模式。它针对内存安全和线程安全设计，不使用动态内存分配，所有缓冲区均为静态分配，并将中断事件统一推入队列，交由非中断上下文的任务函数处理，从而避免在 ISR 中执行复杂逻辑。该栈强调可移植性、小体积和实时性能，已支持 50 多种 MCU 系列，可运行于裸机、FreeRTOS、RT-Thread 和 Mynewt 等环境。",
       "windows": [
         "monthly"
       ],
       "added_at": "2026-10-09T11:22:49+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 5
+      "seen_count": 6
     },
     {
       "owner": "InterceptSuite",
@@ -645,21 +854,21 @@
       "url": "https://github.com/InterceptSuite/ProxyBridge",
       "description": "Proxifier Alternative to redirect any Windows/MacOS/Linux TCP and UDP traffic to HTTP/Socks5 proxy",
       "language": "C",
-      "stars": 6668,
-      "forks": 405,
+      "stars": 6675,
+      "forks": 408,
       "homepage": "https://interceptsuite.com/",
       "license": "MIT",
       "created_at": "2025-10-13T18:51:59Z",
-      "pushed_at": "2026-10-10T06:40:03Z",
-      "updated_at": "2026-10-10T10:17:28Z",
-      "open_issues": 49,
+      "pushed_at": "2026-10-10T17:19:46Z",
+      "updated_at": "2026-10-10T20:02:30Z",
+      "open_issues": 45,
       "summary": "ProxyBridge 是一款用 C 语言编写的开源通用代理客户端，可作为 Proxifier 的替代方案，在 Windows、macOS 和 Linux 上为应用程序提供透明代理路由。它解决的是那些本身不支持代理设置的软件无法走代理的问题，通过系统级拦截把指定进程的 TCP 和 UDP 流量重定向到 SOCKS5 或 HTTP 代理，应用无需做任何配置修改。",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-09T11:22:49+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 5
+      "seen_count": 6
     },
     {
       "owner": "HarbourMasters",
@@ -668,21 +877,21 @@
       "url": "https://github.com/HarbourMasters/Shipwright",
       "description": "",
       "language": "C",
-      "stars": 5553,
-      "forks": 898,
+      "stars": 5556,
+      "forks": 901,
       "homepage": "https://shipofharkinian.com",
       "license": "",
       "created_at": "2022-03-22T01:42:52Z",
-      "pushed_at": "2026-10-09T20:30:09Z",
-      "updated_at": "2026-10-10T04:44:27Z",
-      "open_issues": 384,
+      "pushed_at": "2026-10-10T21:13:58Z",
+      "updated_at": "2026-10-10T22:23:41Z",
+      "open_issues": 387,
       "summary": "Ship of Harkinian 是一个基于 C 语言开发的开源项目，旨在让《塞尔达传说：时之笛》在现代硬件上原生运行。它依赖 OOT 反编译项目提供的源码，并构建于自研库 libultraship 之上，该库模仿 N64 时代 libultra SDK 的功能。项目本身不包含受版权保护的资源，用户需自备合法 ROM，代码会从中提取资源并重新打包为 .o2r 归档文件。它支持 DirectX11、OpenGL 和 Metal 三种渲染后端，可在 Windows、Linux 和 macOS 上运行，并提供键鼠配置、自定义资产加载及 .otr 模组支持。",
       "windows": [
         "monthly"
       ],
       "added_at": "2026-10-09T11:22:49+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 5
+      "seen_count": 6
     },
     {
       "owner": "armory3d",
@@ -691,13 +900,13 @@
       "url": "https://github.com/armory3d/armorpaint",
       "description": "Graphics Creation Tools",
       "language": "C",
-      "stars": 5350,
+      "stars": 5352,
       "forks": 615,
       "homepage": "https://armorpaint.org",
       "license": "NOASSERTION",
       "created_at": "2017-02-06T23:03:08Z",
       "pushed_at": "2026-10-10T09:08:36Z",
-      "updated_at": "2026-10-10T09:08:43Z",
+      "updated_at": "2026-10-10T16:47:42Z",
       "open_issues": 96,
       "summary": "ArmorPaint 是一款用于 3D PBR 纹理绘制的图形创作工具，主要面向开发者开放源代码，旨在让更多人能够接触并参与其开发。它解决的是三维模型表面材质与纹理的绘制需求，核心能力围绕基于物理渲染的贴图创作展开。该项目使用 C 语言编写，可编译运行于 Windows、Linux、macOS、Android、iOS 以及 WASM 平台，编译时需要相应平台的编译器（如 Visual Studio 配合 clang 工具、Xcode、Android Studio 等）和 git。官方分发的二进制版本为付费形式，用以支持项目资金，而开发过程完全公开在此仓库中。",
       "windows": [
@@ -705,7 +914,7 @@
       ],
       "added_at": "2026-10-09T11:22:49+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 5
+      "seen_count": 6
     },
     {
       "owner": "skeeto",
@@ -731,19 +940,42 @@
       "seen_count": 5
     },
     {
+      "owner": "FreeRTOS",
+      "name": "FreeRTOS-Kernel",
+      "full_name": "FreeRTOS/FreeRTOS-Kernel",
+      "url": "https://github.com/FreeRTOS/FreeRTOS-Kernel",
+      "description": "FreeRTOS kernel files only, submoduled into https://github.com/FreeRTOS/FreeRTOS and various other repos.",
+      "language": "C",
+      "stars": 4550,
+      "forks": 1629,
+      "homepage": "https://www.FreeRTOS.org",
+      "license": "MIT",
+      "created_at": "2019-09-09T16:28:01Z",
+      "pushed_at": "2026-08-26T17:09:47Z",
+      "updated_at": "2026-10-10T19:43:05Z",
+      "open_issues": 99,
+      "summary": "FreeRTOS-Kernel 是 FreeRTOS 实时操作系统的内核源码与移植文件仓库，使用 C 语言编写，仅包含内核本身，并以子模块形式被 FreeRTOS/FreeRTOS 等仓库引用。它解决的是在资源受限的微控制器上运行实时任务调度的问题，核心代码由 list.c、queue.c 和 tasks.c 三个文件构成，另含可选的协程实现 croutine.c，以及针对不同微控制器和编译器的移植层与内核头文件。该仓库提供 CMake 的 FetchContent 与 git submodule 两种集成方式，并附带示例 FreeRTOSConfig.h 便于新项目起步。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-10T22:24:33+00:00",
+      "last_seen": "2026-10-10",
+      "seen_count": 1
+    },
+    {
       "owner": "pret",
       "name": "pokeemerald",
       "full_name": "pret/pokeemerald",
       "url": "https://github.com/pret/pokeemerald",
       "description": "Decompilation of Pokémon Emerald",
       "language": "C",
-      "stars": 3555,
+      "stars": 3557,
       "forks": 4774,
       "homepage": "",
       "license": "",
       "created_at": "2015-10-05T10:09:22Z",
       "pushed_at": "2026-10-01T19:02:13Z",
-      "updated_at": "2026-10-10T08:32:26Z",
+      "updated_at": "2026-10-10T20:09:38Z",
       "open_issues": 82,
       "summary": "pokeemerald 是 pret 团队对《宝可梦 绿宝石》游戏进行的反编译项目，使用 C 语言编写。其目标是将原版 GBA 游戏的机器码还原为可读、可修改的源代码，并最终能编译出与官方 ROM 完全一致的二进制文件，其 SHA1 校验值为 f3ae088181bf583e55daf962a92bb46f4f1d07b7。该项目解决了原版游戏难以直接修改和分析的问题，为研究游戏内部机制、修复漏洞、制作改版或本地化提供了基础。核心能力在于通过反编译得到结构清晰的 C 代码，开发者可在此基础上重新构建 ROM，而不必依赖逆向工程或十六进制编辑。",
       "windows": [
@@ -751,7 +983,30 @@
       ],
       "added_at": "2026-10-09T11:22:49+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 5
+      "seen_count": 6
+    },
+    {
+      "owner": "vedderb",
+      "name": "bldc",
+      "full_name": "vedderb/bldc",
+      "url": "https://github.com/vedderb/bldc",
+      "description": "The VESC motor control firmware",
+      "language": "C",
+      "stars": 3499,
+      "forks": 1972,
+      "homepage": "",
+      "license": "",
+      "created_at": "2014-01-09T14:18:46Z",
+      "pushed_at": "2026-10-02T11:25:10Z",
+      "updated_at": "2026-10-10T21:40:10Z",
+      "open_issues": 263,
+      "summary": "VESC 固件是面向直流有刷、无刷直流（BLDC）及磁场定向控制（FOC）电机控制器的开源固件源码，使用 C 语言编写，旨在为多种硬件板卡提供统一的电机控制方案。它支持几乎所有 VESC 硬件变体，用户可通过 make 命令查看目标设备列表，并在 conf_general.h 中调整编译选项。开发环境支持 Ubuntu、macOS 和 Windows，依赖 git、wget、make 等工具，也可通过 Nix 管理依赖并构建通用固件包。固件可借助 STLink SWD 调试器烧录，或经 VESC Tool 通过 USB 上传 .bin 文件，上传过程中需注意避免断电以防设备变砖。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-10T22:24:33+00:00",
+      "last_seen": "2026-10-10",
+      "seen_count": 1
     },
     {
       "owner": "stackia",
@@ -761,20 +1016,20 @@
       "description": "Multicast RTP/RTSP to Unicast HTTP stream converter, with built-in web player, status dashboard, fast channel change support, and more!",
       "language": "C",
       "stars": 2239,
-      "forks": 359,
+      "forks": 358,
       "homepage": "https://rtp2httpd.com",
       "license": "GPL-2.0",
       "created_at": "2023-09-09T16:00:41Z",
       "pushed_at": "2026-10-02T09:49:12Z",
       "updated_at": "2026-10-10T09:42:55Z",
-      "open_issues": 37,
+      "open_issues": 38,
       "summary": "rtp2httpd 是一个用 C 语言编写的 IPTV 流媒体转发服务器，主要将组播 RTP/UDP 和 RTSP 流转换为标准 HTTP 流，解决内网组播源无法被普通播放器直接访问的问题。它兼容 udpxy 的 URL 格式，支持 M3U/M3U8 播放列表自动转换，也能反向代理内网 HLS 源。在传输质量上，它支持乱序恢复和 Reed-Solomon FEC 前向纠错，并实现运营商 FCC 快速换台协议，可显著缩短起播与换台时间。项目内置 Web 播放器、状态监控面板和频道快照功能，能查看客户端连接、带宽与日志，并支持时移回看和 EPG。",
       "windows": [
         "monthly"
       ],
       "added_at": "2026-10-09T11:22:49+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 5
+      "seen_count": 6
     },
     {
       "owner": "matz",
@@ -806,14 +1061,14 @@
       "url": "https://github.com/willfaust/Madeira",
       "description": "Run x86-64 Windows PC games on jailed iOS via FEX-Emu + Wine + DXMT",
       "language": "C",
-      "stars": 1919,
-      "forks": 288,
+      "stars": 1952,
+      "forks": 292,
       "homepage": "",
       "license": "GPL-3.0",
       "created_at": "2026-03-07T17:25:50Z",
       "pushed_at": "2026-10-06T19:31:28Z",
-      "updated_at": "2026-10-10T10:41:15Z",
-      "open_issues": 84,
+      "updated_at": "2026-10-10T22:13:54Z",
+      "open_issues": 88,
       "summary": "Madeira 是一个在未越狱 iPhone 上运行 Windows PC 游戏的开源研究项目，基于 FEX-Emu、Wine 和 DXMT 构建，用 C 语言编写。由于 iOS 应用无法启动其他程序，它把 Wine 服务器等组件全部塞进单一进程运行，游戏无需修改即可直接启动。它提供带封面、搜索和 Windows 桌面会话的游戏库，支持登录 Steam 客户端浏览、安装和更新自有游戏，并能在启动和退出时同步 Steam Cloud 存档，冲突时不会静默覆盖。",
       "windows": [
         "weekly",
@@ -821,7 +1076,7 @@
       ],
       "added_at": "2026-10-09T11:22:49+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 5
+      "seen_count": 6
     },
     {
       "owner": "pnggroup",
@@ -853,13 +1108,13 @@
       "url": "https://github.com/coop-deluxe/sm64coopdx",
       "description": "An official continuation of https://github.com/djoslin0/sm64ex-coop on sm64coopdx for the enhancements and progress it already has.",
       "language": "C",
-      "stars": 1407,
+      "stars": 1408,
       "forks": 358,
       "homepage": "https://sm64coopdx.com",
       "license": "",
       "created_at": "2023-10-30T03:11:39Z",
       "pushed_at": "2026-10-08T20:06:15Z",
-      "updated_at": "2026-10-09T21:36:52Z",
+      "updated_at": "2026-10-10T18:41:49Z",
       "open_issues": 131,
       "summary": "sm64coopdx 是 Super Mario 64 PC 移植版的在线多人项目，由 Coop Deluxe 团队维护，延续自 djoslin0 的 sm64ex-coop。它解决了以往多人模组无法同步敌人和事件的问题，能够同步所有实体与关卡，让多名玩家在同一世界中实时互动。项目使用 C 语言开发，并通过 Lua API 提供模组支持，风格类似 Roblox 和 Garry's Mod，便于模组作者扩展功能。其目标已从最初的多人联机模组，逐渐演变为持续维护和改进项目本身，尤其是 Lua API。",
       "windows": [
@@ -868,7 +1123,7 @@
       ],
       "added_at": "2026-10-09T11:22:49+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 5
+      "seen_count": 6
     },
     {
       "owner": "WeebLabs",
@@ -900,13 +1155,13 @@
       "url": "https://github.com/tr4m0ryp/tr4mpass",
       "description": "Free, open-source iCloud activation lock bypass tool. Remove iCloud lock from iPhone 5s through iPhone 15 Pro (iOS 12-26.1). Fully offline -- no servers, no payments. Supports checkm8 (A5-A11) and session activation (A12+).",
       "language": "C",
-      "stars": 1195,
+      "stars": 1198,
       "forks": 305,
       "homepage": "",
       "license": "",
       "created_at": "2026-04-04T22:44:07Z",
       "pushed_at": "2026-09-19T10:28:02Z",
-      "updated_at": "2026-10-10T10:39:11Z",
+      "updated_at": "2026-10-10T20:46:54Z",
       "open_issues": 94,
       "summary": "tr4mpass 是一款用 C 语言编写的免费开源 iCloud 激活锁绕过工具，可在本地电脑上运行，无需服务器、付费或账号。它支持 iPhone 5s 至 iPhone 15 Pro、iOS 12 至 26.1，提供两条绕过路径：针对 A5 至 A11 芯片的 checkm8 硬件漏洞利用，以及针对 A12 及以后芯片的会话激活方式，后者通过操纵 DFU 模式下的设备身份并借助苹果激活协议改变锁定状态。工具附带脚本可自动安装依赖、构建程序、检测设备并引导进入 DFU 模式，在 macOS、Linux 及 WSL 上均可使用。",
       "windows": [
@@ -914,7 +1169,7 @@
       ],
       "added_at": "2026-10-09T11:22:49+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 5
+      "seen_count": 6
     },
     {
       "owner": "rexglue",
@@ -923,14 +1178,14 @@
       "url": "https://github.com/rexglue/rexglue-sdk",
       "description": "Xbox 360 Recompilation Runtime and Toolkit",
       "language": "C",
-      "stars": 1015,
-      "forks": 163,
+      "stars": 1020,
+      "forks": 166,
       "homepage": "",
       "license": "NOASSERTION",
       "created_at": "2026-01-22T21:41:25Z",
       "pushed_at": "2026-10-02T12:11:33Z",
-      "updated_at": "2026-10-10T10:29:42Z",
-      "open_issues": 54,
+      "updated_at": "2026-10-10T19:05:18Z",
+      "open_issues": 55,
       "summary": "ReXGlue 是一套面向 Xbox 360 的静态重编译运行时与工具包，核心思路是将 Xbox 360 的 PowerPC 代码提前转换为可移植的 C++ 源码，从而让游戏或程序以原生方式在现代平台上运行，而非在运行时解释或 JIT 编译指令。该项目基于 Xenia 模拟器的基础构建，并借鉴了 XenonRecomp 与 rexdex 重编译器的静态重编译方案，其代码生成分析与指令翻译逻辑大量参考了 XenonRecomp 的工作。项目主要使用 C 语言开发，提供 SDK 构建与发布版本，并配有快速入门指南、完整 CLI 参考和配置文件说明。",
       "windows": [
         "weekly",
@@ -938,7 +1193,7 @@
       ],
       "added_at": "2026-10-09T11:22:49+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 5
+      "seen_count": 6
     },
     {
       "owner": "etaHEN",
@@ -947,13 +1202,13 @@
       "url": "https://github.com/etaHEN/etaHEN",
       "description": "AIO HEN payload",
       "language": "C",
-      "stars": 760,
+      "stars": 762,
       "forks": 67,
       "homepage": "",
       "license": "GPL-3.0",
       "created_at": "2023-10-25T06:08:24Z",
       "pushed_at": "2026-05-04T03:14:05Z",
-      "updated_at": "2026-10-10T09:17:50Z",
+      "updated_at": "2026-10-10T19:48:01Z",
       "open_issues": 26,
       "summary": "etaHEN 是一个面向 PS5 的 AIO Homebrew enabler（一体化自制程序启用器），主要用 C 语言编写，通过漏洞利用向主机发送 payload，为运行自制软件和扩展功能提供基础环境。它解决的是 PS5 上启用自制程序、调试设置与系统功能扩展的问题，核心是 etaHEN toolbox，可替代调试设置，并集成插件管理、Homebrew Store 安装、Rest Mode 选项、Remote Play 菜单、ELF payload 菜单、外部硬盘管理、TestKit 菜单、Kstuff 菜单、游戏叠加菜单、作弊菜单、手柄快捷键、webMAN 游戏菜单、标题 ID 显示、蓝。",
       "windows": [
@@ -961,7 +1216,7 @@
       ],
       "added_at": "2026-10-09T11:22:49+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 6
+      "seen_count": 7
     },
     {
       "owner": "EchoStretch",
@@ -970,13 +1225,13 @@
       "url": "https://github.com/EchoStretch/kstuff-lite",
       "description": "",
       "language": "C",
-      "stars": 667,
+      "stars": 674,
       "forks": 48,
       "homepage": "",
       "license": "",
       "created_at": "2026-01-31T03:46:28Z",
       "pushed_at": "2026-09-23T23:23:44Z",
-      "updated_at": "2026-10-10T09:22:18Z",
+      "updated_at": "2026-10-10T22:02:37Z",
       "open_issues": 9,
       "summary": "kstuff-lite 是一个用 C 语言编写的底层内核工具项目，当前版本 1.11-opt，主要面向 PS5 平台的 UELF/KELF 加载与内核态代码执行场景。它围绕加密、FSELF、NPDRM 和加载器已有工作，重点降低 UELF 与 KELF 之间的切换开销，并让 FPU 与 CR0 的处理更安全高效。",
       "windows": [
@@ -985,7 +1240,30 @@
       ],
       "added_at": "2026-10-09T11:22:49+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 5
+      "seen_count": 6
+    },
+    {
+      "owner": "SlickAmogus",
+      "name": "silent-hill-decomp",
+      "full_name": "SlickAmogus/silent-hill-decomp",
+      "url": "https://github.com/SlickAmogus/silent-hill-decomp",
+      "description": "Multiplatform and Feature-rich Port based on PSX decompilation of Silent Hill 1 made with Claude and Psycross. Still in beta and is in active development.",
+      "language": "C",
+      "stars": 644,
+      "forks": 44,
+      "homepage": "https://sh1pc.com",
+      "license": "GPL-3.0",
+      "created_at": "2026-03-06T02:58:47Z",
+      "pushed_at": "2026-10-10T12:06:17Z",
+      "updated_at": "2026-10-10T21:03:12Z",
+      "open_issues": 21,
+      "summary": "silent-hill-decomp 是基于《寂静岭1》PSX 反编译代码构建的原生 PC 移植项目，用 C 语言编写，通过 PsyCross 兼容层实现硬件抽象，编译为真正的 Windows/Linux 可执行文件，而非模拟器或静态重编译。它让玩家无需原版主机即可运行游戏，同时保持原版逻辑、固定镜头与操作手感。项目提供可选增强：任意分辨率、宽屏、高帧率、PGXP 透视校正、多种手电筒与阴影模式、第三人称与第一人称等替代镜头、5.1/7.1 环绕声、鼠标菜单、快速存读档、内置控制台与作弊菜单、Mod 管理器及角色模型替换，并支持多区域光盘与粉丝翻译。",
+      "windows": [
+        "monthly"
+      ],
+      "added_at": "2026-10-10T22:24:33+00:00",
+      "last_seen": "2026-10-10",
+      "seen_count": 20
     },
     {
       "owner": "FoloToy",
@@ -994,13 +1272,13 @@
       "url": "https://github.com/FoloToy/ai-passport",
       "description": "FOLOTOY AI Passport develop resources for Agent",
       "language": "C",
-      "stars": 591,
-      "forks": 235,
+      "stars": 594,
+      "forks": 236,
       "homepage": "https://ai-passport.folotoy.cn",
       "license": "MIT",
       "created_at": "2026-07-31T05:27:45Z",
       "pushed_at": "2026-10-09T02:42:04Z",
-      "updated_at": "2026-10-10T09:22:47Z",
+      "updated_at": "2026-10-10T19:48:32Z",
       "open_issues": 6,
       "summary": "FoloToy AI Passport 是一个面向可穿戴 AI 的开源开发资源库，主要用 C 语言编写，为开发者提供构建智能体应用的硬件与软件基础。它解决的是可穿戴 AI 设备从零搭建门槛高、缺少统一参考实现的问题。核心特点在于其硬件能力契约明确：基于 ESP32-C3，配备 8 MB Flash、无 PSRAM、240×320 显示屏和三个物理按键，板级支持位于 components/bsp，应用页面、状态与任务位于 main，边界清晰。仓库的 main 分支是可运行的最小硬件测试基线，而非成品应用，衍生应用必须自行设计 UI，但可复用 BSP API 与非 UI 逻辑。",
       "windows": [
@@ -1008,7 +1286,7 @@
       ],
       "added_at": "2026-10-09T11:22:49+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 5
+      "seen_count": 6
     },
     {
       "owner": "itsPLK",
@@ -1017,21 +1295,21 @@
       "url": "https://github.com/itsPLK/ps5-payload-manager",
       "description": "A modern, web-based dashboard to easily manage, import, and automatically load payloads on your PS5.",
       "language": "C",
-      "stars": 473,
+      "stars": 479,
       "forks": 58,
       "homepage": "",
       "license": "GPL-3.0",
       "created_at": "2026-04-19T12:45:11Z",
       "pushed_at": "2026-09-29T10:34:22Z",
-      "updated_at": "2026-10-10T09:57:10Z",
-      "open_issues": 14,
+      "updated_at": "2026-10-10T16:41:20Z",
+      "open_issues": 16,
       "summary": "PS5 Payload Manager 是一个基于 Web 的 PS5 载荷管理面板，使用 C 语言开发。它解决的是 PS5 用户在导入、管理和自动加载 payload 时操作繁琐的问题。核心能力包括：通过浏览器在电脑、手机或 PS5 上管理载荷；支持从 USB 驱动器或云端仓库导入新载荷；可配置启动时自动加载的载荷列表；在 PS5 主屏幕安装“Payload Manager”快捷方式图标；还可选在启动时自动关闭 Disc Player，方便 BD-JB 用户。典型用法是配合 Y2JB、BD-JB 或 Lua 等 Autoloader 使用，将 pldmgr.",
       "windows": [
         "weekly"
       ],
       "added_at": "2026-10-09T11:22:49+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 5
+      "seen_count": 6
     }
   ]
 }

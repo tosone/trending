@@ -6,10 +6,10 @@
     "weekly",
     "monthly"
   ],
-  "generated_at": "2026-10-10T10:58:05+00:00",
+  "generated_at": "2026-10-10T22:29:35+00:00",
   "first_at": "2026-10-09T11:21:36+00:00",
-  "count": 78,
-  "added": 1,
+  "count": 85,
+  "added": 0,
   "repos": [
     {
       "owner": "EbookFoundation",
@@ -87,20 +87,20 @@
       "url": "https://github.com/NousResearch/hermes-agent",
       "description": "The agent that grows with you",
       "language": "Python",
-      "stars": 252399,
-      "forks": 54541,
+      "stars": 252534,
+      "forks": 54594,
       "pinned": true,
       "homepage": "https://hermes-agent.nousresearch.com",
       "license": "MIT",
       "created_at": "2025-07-22T22:22:28Z",
-      "pushed_at": "2026-10-10T10:23:30Z",
-      "updated_at": "2026-10-10T10:41:40Z",
-      "open_issues": 47691,
+      "pushed_at": "2026-10-10T22:16:56Z",
+      "updated_at": "2026-10-10T22:19:49Z",
+      "open_issues": 47854,
       "summary": "Hermes Agent 是 Nous Research 用 Python 开发的自改进 AI 智能体，主打随使用不断成长。它内置学习闭环：能从经验中自动创建技能并在使用中持续改进，主动提醒自己沉淀知识，检索历史会话，并借助 Honcho 辩证式用户建模跨会话加深对你的理解。它不绑定本地电脑，可跑在 5 美元 VPS、GPU 集群或空闲时近乎零成本的 Serverless 环境上，支持本地、Docker、SSH、Modal、Daytona 等七种终端后端。模型可自由切换，兼容 Nous Portal、OpenRouter、OpenAI 及自建端点。",
       "windows": [],
       "added_at": "2026-10-09T11:49:12+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "owner": "TheAlgorithms",
@@ -201,21 +201,21 @@
       "url": "https://github.com/huggingface/transformers",
       "description": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training. ",
       "language": "Python",
-      "stars": 166891,
-      "forks": 34775,
+      "stars": 167211,
+      "forks": 34796,
       "homepage": "https://huggingface.co/transformers",
       "license": "Apache-2.0",
       "created_at": "2018-10-29T13:56:00Z",
-      "pushed_at": "2026-10-09T12:25:57Z",
-      "updated_at": "2026-10-09T12:05:37Z",
-      "open_issues": 2337,
+      "pushed_at": "2026-10-10T17:50:34Z",
+      "updated_at": "2026-10-10T22:17:37Z",
+      "open_issues": 2346,
       "summary": "Transformers 是面向文本、视觉、音频、视频和多模态模型的模型定义框架，同时支持推理与训练。它把模型定义集中统一，使同一份定义能在生态中被广泛认可，从而与 Axolotl、Unsloth、DeepSpeed、FSDP、PyTorch-Lightning 等训练框架，vLLM、SGLang、TGI 等推理引擎，以及 llama.cpp、mlx 等建模库保持兼容。其核心特点包括统一 API、少量用户可见抽象、跨 PyTorch、JAX、TF2.0 的模型迁移能力，以及可独立于库使用的模型文件。Hugging Face Hub 上已有超过一百万个检查点，覆盖数百种模型架构。",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-09T12:38:51+00:00",
-      "last_seen": "2026-10-09",
-      "seen_count": 1
+      "last_seen": "2026-10-10",
+      "seen_count": 2
     },
     {
       "owner": "AUTOMATIC1111",
@@ -339,21 +339,45 @@
       "url": "https://github.com/pytorch/pytorch",
       "description": "Tensors and Dynamic neural networks in Python with strong GPU acceleration",
       "language": "Python",
-      "stars": 104018,
-      "forks": 31876,
+      "stars": 104126,
+      "forks": 31949,
       "homepage": "https://pytorch.org",
       "license": "NOASSERTION",
       "created_at": "2016-08-13T05:26:41Z",
-      "pushed_at": "2026-10-10T10:03:44Z",
-      "updated_at": "2026-10-10T10:21:20Z",
-      "open_issues": 17702,
+      "pushed_at": "2026-10-10T22:14:29Z",
+      "updated_at": "2026-10-10T22:15:30Z",
+      "open_issues": 17717,
       "summary": "PyTorch 是一个以 Python 为核心的张量计算与动态神经网络库，主要解决科学计算和深度学习中对 GPU 加速与灵活建模的需求。它提供类似 NumPy 的张量运算，支持在 CPU 或 GPU 上运行，并集成 Intel MKL、NVIDIA cuDNN、NCCL 等加速库以提升速度。其核心特点是基于磁带式自动微分的动态神经网络，网络行为可随时改变而无需重建结构；同时坚持 Python 优先，可自然结合 NumPy、SciPy、Cython 等包，并支持用 C/C++ 编写扩展。典型场景包括替代 NumPy 进行 GPU 加速计算，以及作为深度学习研究平台，兼顾灵活性与速度。",
       "windows": [
+        "daily",
         "monthly"
       ],
       "added_at": "2026-10-09T11:21:36+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 6
+      "seen_count": 7
+    },
+    {
+      "owner": "fastapi",
+      "name": "fastapi",
+      "full_name": "fastapi/fastapi",
+      "url": "https://github.com/fastapi/fastapi",
+      "description": "FastAPI framework, high performance, easy to learn, fast to code, ready for production",
+      "language": "Python",
+      "stars": 102972,
+      "forks": 10018,
+      "homepage": "https://fastapi.tiangolo.com/",
+      "license": "MIT",
+      "created_at": "2018-12-08T08:21:47Z",
+      "pushed_at": "2026-10-08T12:29:28Z",
+      "updated_at": "2026-10-10T21:57:13Z",
+      "open_issues": 87,
+      "summary": "FastAPI 是一个基于 Python 标准类型提示构建 API 的现代高性能 Web 框架，底层依赖 Starlette 处理 Web 部分、Pydantic 处理数据部分。它主要解决 Python 后端开发中代码重复、数据校验繁琐和文档维护成本高的问题：开发者只需用标准 Python 类型声明参数、请求体和响应模型，框架便自动完成数据校验、类型转换和 JSON 序列化，并在数据无效时返回清晰错误。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-10T22:23:47+00:00",
+      "last_seen": "2026-10-10",
+      "seen_count": 2
     },
     {
       "owner": "nvbn",
@@ -408,14 +432,14 @@
       "url": "https://github.com/Panniantong/Agent-Reach",
       "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
       "language": "Python",
-      "stars": 95258,
-      "forks": 8331,
+      "stars": 95466,
+      "forks": 8355,
       "homepage": "",
       "license": "MIT",
       "created_at": "2026-02-24T02:10:24Z",
       "pushed_at": "2026-10-08T08:31:08Z",
-      "updated_at": "2026-10-10T10:38:46Z",
-      "open_issues": 204,
+      "updated_at": "2026-10-10T22:22:20Z",
+      "open_issues": 206,
       "summary": "Agent Reach 是一个用 Python 编写的命令行工具，为 AI Agent 提供读取和搜索互联网内容的能力。它针对 Twitter、Reddit、YouTube、GitHub、Bilibili、小红书等平台各自存在的门槛——付费 API、反爬封锁、登录限制、数据清洗——预先选好并安装当前可用的接入方式，用户只需把一句安装指令复制给 Claude Code、Cursor 等 Agent，即可让它读取网页、提取 YouTube 字幕、搜索 Reddit 和 B站、查看 GitHub 仓库与 Issue、订阅 RSS。",
       "windows": [
         "weekly",
@@ -423,7 +447,7 @@
       ],
       "added_at": "2026-10-09T11:21:36+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 5
+      "seen_count": 6
     },
     {
       "owner": "3b1b",
@@ -478,21 +502,22 @@
       "url": "https://github.com/home-assistant/core",
       "description": ":house_with_garden: Open source home automation that puts local control and privacy first.",
       "language": "Python",
-      "stars": 91349,
-      "forks": 38852,
+      "stars": 91362,
+      "forks": 38861,
       "homepage": "https://www.home-assistant.io",
       "license": "Apache-2.0",
       "created_at": "2013-09-17T07:29:48Z",
-      "pushed_at": "2026-10-10T10:34:41Z",
-      "updated_at": "2026-10-10T10:34:53Z",
-      "open_issues": 3432,
+      "pushed_at": "2026-10-10T21:39:56Z",
+      "updated_at": "2026-10-10T22:00:36Z",
+      "open_issues": 3358,
       "summary": "Home Assistant 是一套以本地控制和隐私优先为理念的开源家庭自动化系统，主要使用 Python 编写，由全球范围的爱好者和 DIY 社区共同维护。它解决的是将不同品牌、不同协议的智能设备统一接入与联动的问题，避免数据依赖云端、隐私外泄以及设备各自为政。系统采用模块化架构，通过集成方式支持各类设备与操作，用户也可以自行创建组件来扩展功能。它可以运行在树莓派或本地服务器上，适合在家庭环境中搭建自动化场景，例如灯光、传感器等设备的集中管理与自动响应。官方提供演示、安装说明、教程和文档，遇到使用或开发问题可查阅帮助栏目。项目隶属于 Open Home Foundation。",
       "windows": [
+        "daily",
         "monthly"
       ],
       "added_at": "2026-10-09T11:21:36+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 6
+      "seen_count": 7
     },
     {
       "owner": "PaddlePaddle",
@@ -524,13 +549,13 @@
       "url": "https://github.com/D4Vinci/Scrapling",
       "description": "🕷️ An adaptive Web Scraping framework that handles everything from a single request to a full-scale crawl! Don't be shy, join here: https://discord.gg/EMgGbDceNQ and follow here for daily tips and tricks: https://x.com/Scrapling_dev",
       "language": "Python",
-      "stars": 86606,
-      "forks": 8874,
+      "stars": 86691,
+      "forks": 8881,
       "homepage": "https://scrapling.readthedocs.io/en/latest/",
       "license": "BSD-3-Clause",
       "created_at": "2024-10-13T20:29:53Z",
-      "pushed_at": "2026-10-08T20:28:21Z",
-      "updated_at": "2026-10-10T10:38:42Z",
+      "pushed_at": "2026-10-10T14:32:24Z",
+      "updated_at": "2026-10-10T22:18:03Z",
       "open_issues": 14,
       "summary": "Scrapling 是一个用 Python 编写的自适应网页抓取框架，覆盖从单次请求到大规模爬取的完整需求。它主要解决网页结构变动导致选择器失效、反爬系统拦截以及爬虫难以扩展的问题。其解析器能通过相似度算法在页面更新后自动重新定位元素；抓取器可绕过 Cloudflare Turnstile 等反爬机制，并支持 HTTP、动态浏览器和隐身抓取。爬虫框架提供类似 Scrapy 的 API、并发抓取、多会话、暂停续爬、代理轮换、自动限速和 robots.txt 合规，还支持流式输出与断点续爬。",
       "windows": [
@@ -538,7 +563,7 @@
       ],
       "added_at": "2026-10-09T11:21:36+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 6
+      "seen_count": 7
     },
     {
       "owner": "unclecode",
@@ -639,21 +664,21 @@
       "url": "https://github.com/datawhalechina/hello-agents",
       "description": "📚 《从零开始构建智能体》——从零开始的智能体原理与实践教程",
       "language": "Python",
-      "stars": 82386,
-      "forks": 10222,
+      "stars": 82448,
+      "forks": 10228,
       "homepage": "https://hello-agents.datawhale.cc",
       "license": "NOASSERTION",
       "created_at": "2025-09-07T09:50:24Z",
       "pushed_at": "2026-10-08T08:17:28Z",
-      "updated_at": "2026-10-10T10:41:23Z",
-      "open_issues": 109,
+      "updated_at": "2026-10-10T22:19:12Z",
+      "open_issues": 112,
       "summary": "Hello-Agents 是 Datawhale 社区推出的系统性智能体学习教程，以 Python 编写，旨在填补当前智能体领域系统性、重实践教程的空白。它不局限于 Dify、Coze 等流程驱动的软件工程类 Agent，而是聚焦真正由 AI 驱动的 AI Native Agent，带领读者从核心原理出发，理解经典范式并亲手构建多智能体应用。",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-09T11:21:36+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 6
+      "seen_count": 7
     },
     {
       "owner": "swisskyrepo",
@@ -725,6 +750,29 @@
       "seen_count": 1
     },
     {
+      "owner": "666ghj",
+      "name": "MiroFish",
+      "full_name": "666ghj/MiroFish",
+      "url": "https://github.com/666ghj/MiroFish",
+      "description": "A Simple and Universal Swarm Intelligence Engine, Predicting Anything. 简洁通用的群体智能引擎，预测万物",
+      "language": "Python",
+      "stars": 77819,
+      "forks": 11884,
+      "homepage": "https://mirofish.ai",
+      "license": "AGPL-3.0",
+      "created_at": "2025-11-26T04:23:02Z",
+      "pushed_at": "2026-10-01T18:28:51Z",
+      "updated_at": "2026-10-10T22:20:58Z",
+      "open_issues": 138,
+      "summary": "MiroFish 是一个基于多智能体技术的群体智能预测引擎，用 Python 编写。它从现实世界的种子信息（如突发新闻、政策草案或金融信号）中提取要素，自动构建高保真的平行数字世界，让数千个具备独立人格、长期记忆和行为逻辑的智能体在其中自由交互与社会演化。用户只需上传种子材料并用自然语言描述预测需求，即可从“上帝视角”动态注入变量，推演未来走向，最终获得详细的预测报告和一个可深度交互的数字世界。其工作流程包括图谱构建、环境搭建、双平台并行模拟、报告生成和深度交互，模拟引擎由 OASIS 驱动。",
+      "windows": [
+        "weekly"
+      ],
+      "added_at": "2026-10-09T11:21:36+00:00",
+      "last_seen": "2026-10-10",
+      "seen_count": 6
+    },
+    {
       "owner": "unslothai",
       "name": "unsloth",
       "full_name": "unslothai/unsloth",
@@ -777,43 +825,20 @@
       "url": "https://github.com/python/cpython",
       "description": "The Python programming language",
       "language": "Python",
-      "stars": 77604,
-      "forks": 37826,
+      "stars": 77609,
+      "forks": 37903,
       "pinned": true,
       "homepage": "https://www.python.org",
       "license": "NOASSERTION",
       "created_at": "2017-02-10T19:23:51Z",
-      "pushed_at": "2026-10-10T10:37:14Z",
-      "updated_at": "2026-10-10T10:17:21Z",
-      "open_issues": 9736,
+      "pushed_at": "2026-10-10T21:32:17Z",
+      "updated_at": "2026-10-10T22:20:03Z",
+      "open_issues": 9728,
       "summary": "CPython 是 Python 编程语言的官方参考实现，由 Python 软件基金会维护，当前开发版本为 3.16.0 alpha 0。它解决了 Python 代码的解释执行问题，将 Python 源码编译为字节码并在虚拟机中运行，同时提供完整的标准库和 C 扩展接口。其核心特点包括支持在 Unix、Linux、BSD、macOS、Windows 和 Cygwin 等平台构建，可通过 configure 脚本定制编译选项，并支持 Profile Guided Optimization 和 Link Time Optimization 等优化手段提升运行性能。",
       "windows": [],
       "added_at": "2026-10-09T11:30:10+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 5
-    },
-    {
-      "owner": "666ghj",
-      "name": "MiroFish",
-      "full_name": "666ghj/MiroFish",
-      "url": "https://github.com/666ghj/MiroFish",
-      "description": "A Simple and Universal Swarm Intelligence Engine, Predicting Anything. 简洁通用的群体智能引擎，预测万物",
-      "language": "Python",
-      "stars": 77566,
-      "forks": 11846,
-      "homepage": "https://mirofish.ai",
-      "license": "AGPL-3.0",
-      "created_at": "2025-11-26T04:23:02Z",
-      "pushed_at": "2026-10-01T18:28:51Z",
-      "updated_at": "2026-10-10T10:41:44Z",
-      "open_issues": 135,
-      "summary": "MiroFish 是一个基于多智能体技术的群体智能预测引擎，用 Python 编写。它从现实世界的种子信息（如突发新闻、政策草案或金融信号）中提取要素，自动构建高保真的平行数字世界，让数千个具备独立人格、长期记忆和行为逻辑的智能体在其中自由交互与社会演化。用户只需上传种子材料并用自然语言描述预测需求，即可从“上帝视角”动态注入变量，推演未来走向，最终获得详细的预测报告和一个可深度交互的数字世界。其工作流程包括图谱构建、环境搭建、双平台并行模拟、报告生成和深度交互，模拟引擎由 OASIS 驱动。",
-      "windows": [
-        "weekly"
-      ],
-      "added_at": "2026-10-09T11:21:36+00:00",
-      "last_seen": "2026-10-10",
-      "seen_count": 5
+      "seen_count": 6
     },
     {
       "owner": "Asabeneh",
@@ -983,21 +1008,21 @@
       "url": "https://github.com/asgeirtj/system_prompts_leaks",
       "description": "Documented system prompts from Anthropic - Claude Fable 5.1, Opus 5.5, Claude Design, Claude Code. OpenAI - ChatGPT GPT-6-Astra, Codex. Google - Gemini 3.8 Flash, 3.1 Pro, Antigravity. xAI - Grok, Grok Bot, Cursor, Kimi and more! Updated regularly.",
       "language": "Python",
-      "stars": 69300,
-      "forks": 11264,
+      "stars": 69336,
+      "forks": 11272,
       "homepage": "",
       "license": "CC0-1.0",
       "created_at": "2025-05-03T02:43:56Z",
-      "pushed_at": "2026-10-10T00:55:42Z",
-      "updated_at": "2026-10-10T10:26:48Z",
-      "open_issues": 55,
+      "pushed_at": "2026-10-10T18:25:44Z",
+      "updated_at": "2026-10-10T22:20:24Z",
+      "open_issues": 56,
       "summary": "system_prompts_leaks 是一个用 Python 维护的仓库，专门收集并整理全球主流聊天机器人与 AI 编程工具背后完整的系统提示词原文。它解决的是这些提示词通常不公开、研究者与开发者难以获取真实规则的问题，通过持续更新和接受 PR 的方式，把 Anthropic 的 Claude、OpenAI 的 ChatGPT 与 Codex、Google 的 Gemini、xAI 的 Grok、Cursor、Kimi、DeepSeek、Copilot 等产品的系统提示词逐字记录下来。",
       "windows": [
         "monthly"
       ],
       "added_at": "2026-10-09T11:21:36+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 6
+      "seen_count": 7
     },
     {
       "owner": "docling-project",
@@ -1006,21 +1031,21 @@
       "url": "https://github.com/docling-project/docling",
       "description": "Get your documents ready for gen AI",
       "language": "Python",
-      "stars": 68623,
-      "forks": 5033,
+      "stars": 68646,
+      "forks": 5037,
       "homepage": "https://docling-project.github.io/docling",
       "license": "MIT",
       "created_at": "2024-07-09T07:50:26Z",
-      "pushed_at": "2026-10-10T08:23:44Z",
-      "updated_at": "2026-10-10T10:28:43Z",
-      "open_issues": 1039,
+      "pushed_at": "2026-10-10T16:15:16Z",
+      "updated_at": "2026-10-10T20:01:54Z",
+      "open_issues": 1041,
       "summary": "Docling 是一个用 Python 编写的文档处理开源项目，目标是让各类文档为生成式 AI 应用做好准备。它解决的核心问题是：将格式各异的文档统一解析为结构化表示，便于后续接入 AI 生态。其能力覆盖 PDF、DOCX、PPTX、XLSX、HTML、EPUB、邮件、图片、音频、视频、LaTeX 等多种格式，并对 PDF 提供页面布局、阅读顺序、表格结构、公式、代码等深度理解。解析结果统一为 DoclingDocument 格式，可导出为 Markdown、HTML、JSON 等，并支持本地执行以满足敏感数据和离线环境需求。",
       "windows": [
         "monthly"
       ],
       "added_at": "2026-10-09T11:21:36+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 5
+      "seen_count": 6
     },
     {
       "owner": "scikit-learn",
@@ -1050,16 +1075,16 @@
       "name": "ai-engineering-from-scratch",
       "full_name": "rohitg00/ai-engineering-from-scratch",
       "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
-      "description": "Learn it. Build it. Ship it for others.",
+      "description": "Learn AI Engineering! Learn it. Build it. Ship it for others.",
       "language": "Python",
-      "stars": 66336,
-      "forks": 11615,
+      "stars": 66752,
+      "forks": 11692,
       "homepage": "https://aiengineeringfromscratch.com",
       "license": "MIT",
       "created_at": "2026-03-18T18:38:02Z",
-      "pushed_at": "2026-10-10T10:26:51Z",
-      "updated_at": "2026-10-10T10:33:23Z",
-      "open_issues": 62,
+      "pushed_at": "2026-10-10T17:36:32Z",
+      "updated_at": "2026-10-10T22:19:20Z",
+      "open_issues": 66,
       "summary": "这是一个从零开始系统学习 AI 工程的开源课程仓库，用 Python、TypeScript、Rust、Julia 四种语言编写，包含 20 个阶段、523 节课，约 342 小时内容。它要解决的是 AI 学习材料零散、难以贯通的问题：多数教程只教调 API 或跑通某个 demo，学习者说不清模型内部的损失曲线和注意力机制。该课程按线性代数到自主智能体的顺序逐层搭建，每个算法先用原始数学手写实现，再对照 PyTorch 等生产库，每节课都产出可复用成果，如提示词、技能、智能体或 MCP 服务器。",
       "windows": [
         "weekly",
@@ -1067,7 +1092,7 @@
       ],
       "added_at": "2026-10-09T11:21:36+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 5
+      "seen_count": 6
     },
     {
       "owner": "calesthio",
@@ -1076,21 +1101,21 @@
       "url": "https://github.com/calesthio/OpenMontage",
       "description": "World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn your AI coding assistant into a full video production studio.",
       "language": "Python",
-      "stars": 65974,
-      "forks": 8389,
+      "stars": 66123,
+      "forks": 8419,
       "homepage": "https://www.openmontage.video/",
       "license": "AGPL-3.0",
       "created_at": "2026-03-29T15:23:22Z",
       "pushed_at": "2026-10-03T16:28:55Z",
-      "updated_at": "2026-10-10T10:33:00Z",
-      "open_issues": 383,
+      "updated_at": "2026-10-10T22:18:28Z",
+      "open_issues": 389,
       "summary": "OpenMontage 是一个开源、由智能体驱动的视频制作系统，用 Python 编写。它把 AI 编程助手变成完整的视频工作室：用户用自然语言描述需求，智能体便负责调研、写脚本、生成素材、剪辑与合成。它提供 12 条制作流水线和 100 多个工具，并附带 700 多个智能体技能与制作知识文件。与仅靠静态图动画的取巧方式不同，它能从免费素材库和开放档案中检索真实动态片段，剪辑成时间线并渲染成片。系统支持从 YouTube、短视频或本地片段出发，分析节奏、场景与风格，给出差异化方案、工具路径与成本估算，并在生成素材前设置审批关卡。",
       "windows": [
         "weekly"
       ],
       "added_at": "2026-10-09T11:21:36+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 5
+      "seen_count": 6
     },
     {
       "owner": "BerriAI",
@@ -1099,21 +1124,22 @@
       "url": "https://github.com/BerriAI/litellm",
       "description": "The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and logging [Bedrock, Azure, OpenAI, Anthropic, OpenAI, VertexAI, vLLM, Nvidia NIM]",
       "language": "Python",
-      "stars": 60859,
-      "forks": 12207,
+      "stars": 60903,
+      "forks": 12215,
       "homepage": "https://docs.litellm.ai/docs/",
       "license": "NOASSERTION",
       "created_at": "2023-07-27T00:09:52Z",
-      "pushed_at": "2026-10-10T10:38:53Z",
-      "updated_at": "2026-10-10T10:35:30Z",
-      "open_issues": 5453,
+      "pushed_at": "2026-10-10T22:22:22Z",
+      "updated_at": "2026-10-10T22:22:26Z",
+      "open_issues": 5425,
       "summary": "LiteLLM 是一个开源 AI 网关，提供统一接口以 OpenAI 格式调用 100 多种大模型服务，涵盖 OpenAI、Anthropic、Gemini、Bedrock、Azure、VertexAI、vLLM、Nvidia NIM 等。它解决的是多供应商接入带来的碎片化问题：各家 SDK、鉴权方式、请求格式和错误类型各不相同，切换成本高。LiteLLM 提供统一 API 与 OpenAI 兼容层，使代码无需重写即可更换供应商。它有两种用法：作为 Python SDK 直接集成进代码，或部署为代理服务器作为团队级网关。",
       "windows": [
-        "daily"
+        "daily",
+        "monthly"
       ],
       "added_at": "2026-10-09T11:21:36+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 5
+      "seen_count": 6
     },
     {
       "owner": "hugohe3",
@@ -1122,13 +1148,13 @@
       "url": "https://github.com/hugohe3/ppt-master",
       "description": "AI turns documents or topics into real, native PowerPoint decks—with native shapes, transitions and animations, data-backed charts and tables on demand, audio narration from speaker notes, and support for your own .pptx templates. · by Hugo He",
       "language": "Python",
-      "stars": 58949,
-      "forks": 4655,
+      "stars": 59369,
+      "forks": 4676,
       "homepage": "https://hugohe3.github.io/ppt-master-examples/",
       "license": "MIT",
       "created_at": "2025-12-10T06:54:33Z",
       "pushed_at": "2026-10-08T07:45:46Z",
-      "updated_at": "2026-10-10T10:21:56Z",
+      "updated_at": "2026-10-10T22:19:03Z",
       "open_issues": 6,
       "summary": "PPT Master 是一个用 Python 编写的开源工具，它把文档或主题交给 AI，直接生成原生可编辑的 PowerPoint 文件，而不是扁平图片或套模板的填充稿。它输出的是真正的 PowerPoint 对象模型：幻灯片母版与版式继承、带调节手柄的原生形状与连接线、按需生成的数据图表和表格，以及完整的文字、图片、填充与效果体系，点击任意元素都能继续编辑。它先梳理论证结构再设计版式，并支持从参考材料中提炼品牌与版式模板、向已有 pptx 填充新内容、为成品添加原生切换、动画和基于演讲者备注的语音旁白。",
       "windows": [
@@ -1136,7 +1162,7 @@
       ],
       "added_at": "2026-10-09T11:21:36+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 5
+      "seen_count": 6
     },
     {
       "owner": "debpalash",
@@ -1145,21 +1171,22 @@
       "url": "https://github.com/debpalash/VoiceStudio",
       "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
       "language": "Python",
-      "stars": 56752,
-      "forks": 6366,
+      "stars": 57213,
+      "forks": 6412,
       "homepage": "https://voicestudio.sh",
       "license": "AGPL-3.0",
       "created_at": "2026-04-09T21:40:26Z",
-      "pushed_at": "2026-10-10T10:31:36Z",
-      "updated_at": "2026-10-10T10:36:14Z",
+      "pushed_at": "2026-10-10T20:59:32Z",
+      "updated_at": "2026-10-10T22:23:44Z",
       "open_issues": 59,
       "summary": "VoiceStudio 是一个用 Python 编写的开源、完全本地化的 ElevenLabs 替代方案，支持 646 种语言的语音克隆、语音设计、视频配音、听写、转录和有声书制作。它解决的是语音生成工具依赖云端服务、数据外泄和费用高昂的问题，默认由 k2-fsa/OmniVoice 引擎驱动，也可选用其他引擎，本地工作流直接运行在用户硬件上，远程服务为可选项，使用分析数据需经用户同意。典型场景包括克隆声音后输入文本生成语音、为视频配音、转录音频以及制作有声书。",
       "windows": [
+        "daily",
         "monthly"
       ],
       "added_at": "2026-10-09T11:21:36+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 5
+      "seen_count": 6
     },
     {
       "owner": "ayghri",
@@ -1237,21 +1264,21 @@
       "url": "https://github.com/vectorize-io/hindsight",
       "description": "Hindsight: Agent Memory That Learns",
       "language": "Python",
-      "stars": 47892,
-      "forks": 5988,
+      "stars": 48060,
+      "forks": 5991,
       "homepage": "https://hindsight.vectorize.io/",
       "license": "MIT",
       "created_at": "2025-10-30T11:49:48Z",
-      "pushed_at": "2026-10-09T18:39:34Z",
-      "updated_at": "2026-10-10T10:34:41Z",
-      "open_issues": 183,
+      "pushed_at": "2026-10-10T14:24:49Z",
+      "updated_at": "2026-10-10T22:15:28Z",
+      "open_issues": 190,
       "summary": "Hindsight 是一个用 Python 编写的智能体记忆系统，目标不是单纯回放对话历史，而是让智能体随时间积累并学习。它针对 RAG 和知识图谱在长期记忆任务上的不足，采用类生物记忆结构，将记忆分为世界事实、经历、观察和心智模型，并存入相互隔离的 bank 中。系统提供 retain、recall、reflect 三种操作：retain 借助 LLM 抽取事实、实体与关系；recall 并行执行语义、关键词、图和时间四路检索并融合重排；reflect 则对已有记忆做深度分析。后台还会把相关事实整合为带证据的观察，并生成可像数据库一样直接读取的心智模型和知识页面。",
       "windows": [
         "monthly"
       ],
       "added_at": "2026-10-09T11:21:36+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 5
+      "seen_count": 6
     },
     {
       "owner": "hiroi-sora",
@@ -1300,19 +1327,42 @@
       "seen_count": 5
     },
     {
+      "owner": "shiyu-coder",
+      "name": "Kronos",
+      "full_name": "shiyu-coder/Kronos",
+      "url": "https://github.com/shiyu-coder/Kronos",
+      "description": "Kronos: A Foundation Model for the Language of Financial Markets",
+      "language": "Python",
+      "stars": 40461,
+      "forks": 6743,
+      "homepage": "",
+      "license": "MIT",
+      "created_at": "2025-07-01T02:54:32Z",
+      "pushed_at": "2026-04-13T12:38:49Z",
+      "updated_at": "2026-10-10T22:09:50Z",
+      "open_issues": 281,
+      "summary": "Kronos 是首个面向金融 K 线序列的开源基础模型，基于全球 45 个以上交易所的数据训练，论文已被 AAAI 2026 接收。它针对金融数据高噪声的特点，采用两阶段框架：专用分词器先将多维 OHLCV 连续数据量化为分层离散 token，再用自回归 Transformer 预训练，从而统一支持多种量化任务。模型提供不同容量的预训练版本，可通过 KronosPredictor 在数行代码内完成预测，支持单序列与批量并行预测，并能处理缺失的成交量与成交额数据。",
+      "windows": [
+        "weekly"
+      ],
+      "added_at": "2026-10-10T22:23:47+00:00",
+      "last_seen": "2026-10-10",
+      "seen_count": 1
+    },
+    {
       "owner": "anthropics",
       "name": "financial-services",
       "full_name": "anthropics/financial-services",
       "url": "https://github.com/anthropics/financial-services",
       "description": "",
       "language": "Python",
-      "stars": 39227,
-      "forks": 5574,
+      "stars": 39288,
+      "forks": 5575,
       "homepage": "",
       "license": "Apache-2.0",
       "created_at": "2026-02-23T19:24:50Z",
       "pushed_at": "2026-09-21T21:10:41Z",
-      "updated_at": "2026-10-10T10:20:23Z",
+      "updated_at": "2026-10-10T22:19:25Z",
       "open_issues": 230,
       "summary": "Anthropic 开源的金融服务业参考实现，面向投资银行、股票研究、私募股权和财富管理等场景，提供智能体、技能与数据连接器。它要解决的是把 Claude 落到具体金融工作流中的工程化问题：同一套系统提示词和技能，既可打包为 Claude Cowork 插件安装，也可通过 Claude Managed Agents API 部署在自有工作流引擎之后。仓库包含命名明确的端到端智能体（如 Pitch Agent、Market Researcher、GL Reconciler）和按垂直行业打包的插件，后者提供 /comps、/dcf、/earnings 等斜杠命令与连接器。",
       "windows": [
@@ -1320,7 +1370,7 @@
       ],
       "added_at": "2026-10-09T11:21:36+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 5
+      "seen_count": 6
     },
     {
       "owner": "VectifyAI",
@@ -1329,13 +1379,13 @@
       "url": "https://github.com/VectifyAI/PageIndex",
       "description": "📑 PageIndex: Document Index for Vectorless, Reasoning-based RAG",
       "language": "Python",
-      "stars": 39039,
-      "forks": 3384,
+      "stars": 39049,
+      "forks": 3385,
       "homepage": "https://pageindex.ai",
       "license": "MIT",
       "created_at": "2025-04-01T10:53:54Z",
-      "pushed_at": "2026-10-10T10:35:42Z",
-      "updated_at": "2026-10-10T10:25:59Z",
+      "pushed_at": "2026-10-10T10:45:54Z",
+      "updated_at": "2026-10-10T21:52:17Z",
       "open_issues": 122,
       "summary": "PageIndex 是一个基于推理的无向量 RAG 引擎，用 Python 编写。它针对向量数据库在长而复杂的专业文档上检索准确率不足的问题：语义相似不等于相关，而相关需要推理。PageIndex 受 AlphaGo 启发，用层次化树索引取代向量索引，让大模型在树上推理检索，模拟人类专家翻阅长报告的方式。流程分两步：先为每份文档生成树结构索引，再用大模型推理在树上进行代理式搜索，实现可追溯、可解释、上下文感知的检索，无需向量库和分块。索引阶段用基础模型即可，成本约为每页 0.001 美元；查询阶段建议用最好的模型。",
       "windows": [
@@ -1343,7 +1393,30 @@
       ],
       "added_at": "2026-10-09T11:21:36+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 5
+      "seen_count": 6
+    },
+    {
+      "owner": "sgl-project",
+      "name": "sglang",
+      "full_name": "sgl-project/sglang",
+      "url": "https://github.com/sgl-project/sglang",
+      "description": "SGLang is a high-performance serving framework for large language models and multimodal models.",
+      "language": "Python",
+      "stars": 36969,
+      "forks": 9438,
+      "homepage": "https://sglang.io",
+      "license": "Apache-2.0",
+      "created_at": "2024-01-08T04:15:52Z",
+      "pushed_at": "2026-10-10T22:07:14Z",
+      "updated_at": "2026-10-10T21:46:52Z",
+      "open_issues": 5672,
+      "summary": "SGLang 是一个面向大语言模型、视觉语言模型和扩散模型的开源推理框架，主要解决智能体工作负载、大规模服务与强化学习采样中的高效推理问题。它由 LMSYS 托管，使用 Python 编写，仓库内还包含内置的图像与视频生成引擎 SGLang Diffusion。该框架支持多种硬件，覆盖 GPU、TPU、NPU、CPU 及 Apple Silicon 平台，并持续集成 AWS Trainium、寒武纪 MLU 等更多加速器。使用上可通过 Docker 镜像或 uv 安装，随后启动模型并发送请求，官方提供快速入门与 Cookbook 帮助按模型和硬件选择启动命令。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-10T22:23:47+00:00",
+      "last_seen": "2026-10-10",
+      "seen_count": 1
     },
     {
       "owner": "p-e-w",
@@ -1352,13 +1425,13 @@
       "url": "https://github.com/p-e-w/heretic",
       "description": "Fully automatic censorship removal for language models",
       "language": "Python",
-      "stars": 34421,
-      "forks": 3853,
+      "stars": 34491,
+      "forks": 3862,
       "homepage": "https://heretic-project.org",
       "license": "AGPL-3.0",
       "created_at": "2025-09-21T05:46:16Z",
       "pushed_at": "2026-10-07T12:46:53Z",
-      "updated_at": "2026-10-10T10:09:43Z",
+      "updated_at": "2026-10-10T22:21:25Z",
       "open_issues": 95,
       "summary": "Heretic 是一个用于移除语言模型审查（即“安全对齐”）的开源工具，基于 Python 编写。它结合方向消融（abliteration）与由 Optuna 驱动的 TPE 参数优化器，通过协同最小化拒绝回答次数和与原模型的 KL 散度，自动搜索高质量消融参数，从而在保留模型原有能力的同时去除审查，无需昂贵的后训练。该工具支持多数稠密模型、部分多模态模型、多种 MoE 架构以及 Qwen3.5 等混合模型，纯状态空间模型暂不支持。用户只需准备 Python 3.10+ 与 PyTorch 2.",
       "windows": [
@@ -1366,7 +1439,7 @@
       ],
       "added_at": "2026-10-09T11:21:36+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 5
+      "seen_count": 6
     },
     {
       "owner": "davila7",
@@ -1375,21 +1448,21 @@
       "url": "https://github.com/davila7/claude-code-templates",
       "description": "CLI tool for configuring and monitoring Claude Code",
       "language": "Python",
-      "stars": 32521,
-      "forks": 3740,
+      "stars": 32544,
+      "forks": 3743,
       "homepage": "https://aitmpl.com",
       "license": "MIT",
       "created_at": "2025-07-04T01:26:26Z",
-      "pushed_at": "2026-10-10T03:14:12Z",
-      "updated_at": "2026-10-10T10:12:46Z",
-      "open_issues": 367,
+      "pushed_at": "2026-10-10T21:46:54Z",
+      "updated_at": "2026-10-10T21:48:16Z",
+      "open_issues": 370,
       "summary": "Claude Code Templates 是一个用 Python 编写的命令行工具，用于配置和监控 Anthropic 的 Claude Code。它提供开箱即用的配置集合，涵盖 AI 代理、自定义命令、设置、钩子、外部集成（MCP）以及项目模板，帮助开发者减少手动配置成本，快速搭建和调整开发工作流。",
       "windows": [
         "monthly"
       ],
       "added_at": "2026-10-09T11:21:36+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 5
+      "seen_count": 6
     },
     {
       "owner": "tirth8205",
@@ -1421,22 +1494,23 @@
       "url": "https://github.com/anthropics/knowledge-work-plugins",
       "description": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
       "language": "Python",
-      "stars": 28554,
-      "forks": 3262,
+      "stars": 28773,
+      "forks": 3275,
       "homepage": "",
       "license": "Apache-2.0",
       "created_at": "2026-01-23T20:11:54Z",
-      "pushed_at": "2026-10-10T07:38:13Z",
-      "updated_at": "2026-10-10T10:41:14Z",
-      "open_issues": 140,
+      "pushed_at": "2026-10-10T22:02:39Z",
+      "updated_at": "2026-10-10T22:17:41Z",
+      "open_issues": 141,
       "summary": "anthropics/knowledge-work-plugins 是 Anthropic 开源的插件集合，主要面向知识工作者，用于 Claude Cowork，也兼容 Claude Code。它解决的是通用助手难以贴合具体岗位、团队和公司流程的问题：每个插件围绕某一职能打包技能、连接器、斜杠命令和子代理，让 Claude 按既定方式完成工作。",
       "windows": [
         "daily",
+        "weekly",
         "monthly"
       ],
       "added_at": "2026-10-09T11:21:36+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 5
+      "seen_count": 6
     },
     {
       "owner": "agentskills",
@@ -1491,21 +1565,21 @@
       "url": "https://github.com/NVIDIA/SkillSpector",
       "description": "Security scanner for AI agent skills. Detect vulnerabilities, malicious patterns, security risks, prompt injection, data exfiltration, and supply-chain risks in Claude Code, Codex, and MCP skills before you install them.",
       "language": "Python",
-      "stars": 19824,
-      "forks": 1735,
+      "stars": 19875,
+      "forks": 1740,
       "homepage": "https://docs.nvidia.com/skills/scanning-agent-skills",
       "license": "Apache-2.0",
       "created_at": "2026-03-21T00:28:43Z",
-      "pushed_at": "2026-10-10T03:23:54Z",
-      "updated_at": "2026-10-10T10:18:49Z",
-      "open_issues": 146,
+      "pushed_at": "2026-10-10T15:13:26Z",
+      "updated_at": "2026-10-10T22:09:51Z",
+      "open_issues": 147,
       "summary": "SkillSpector 是 NVIDIA 开源的 AI 智能体技能安全扫描器，用 Python 编写，用于在安装前检测 Claude Code、Codex、Gemini CLI、MCP 等技能中的漏洞与恶意模式。它针对技能以隐式信任执行、缺乏审查的问题，覆盖提示注入、数据外泄、权限提升、供应链、过度代理、输出处理、系统提示泄露、记忆投毒、工具滥用、YARA 签名、MCP 最小权限与工具投毒等 17 类共 71 种漏洞模式。工具支持扫描 Git 仓库、URL、zip、目录或单文件，采用静态分析与可选 LLM 语义评估两阶段流程，可通过 OSV.",
       "windows": [
         "monthly"
       ],
       "added_at": "2026-10-09T11:21:36+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 5
+      "seen_count": 6
     },
     {
       "owner": "earthtojake",
@@ -1514,21 +1588,44 @@
       "url": "https://github.com/earthtojake/text-to-cad",
       "description": "Give your agent CAD superpowers.",
       "language": "Python",
-      "stars": 18883,
-      "forks": 1862,
+      "stars": 18975,
+      "forks": 1872,
       "homepage": "https://www.texttocad.dev",
       "license": "MIT",
       "created_at": "2026-04-22T01:09:45Z",
-      "pushed_at": "2026-10-10T09:57:34Z",
-      "updated_at": "2026-10-10T10:38:46Z",
-      "open_issues": 26,
+      "pushed_at": "2026-10-10T21:25:13Z",
+      "updated_at": "2026-10-10T22:19:41Z",
+      "open_issues": 29,
       "summary": "text-to-cad 是一个用 Python 编写的插件，为 AI 代理赋予本地生成三维模型的能力。它面向需要快速产出 CAD 文件的开发者与工程师，解决的是让代理直接参与建模、制造检查与出图的流程问题。核心能力包括生成 STEP、GLB、STL、3MF 格式模型，执行面向制造的设计检查，生成工程图纸，并连接常见的 3D 打印、钣金和 CNC 加工服务。它支持 Claude Code、Codex、Cursor、Gemini、Grok 等具备插件或技能框架的代理，通过 uv 运行，安装后首次启动会下载 CAD 运行时。",
       "windows": [
         "weekly"
       ],
       "added_at": "2026-10-09T11:21:36+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 5
+      "seen_count": 6
+    },
+    {
+      "owner": "dortania",
+      "name": "OpenCore-Legacy-Patcher",
+      "full_name": "dortania/OpenCore-Legacy-Patcher",
+      "url": "https://github.com/dortania/OpenCore-Legacy-Patcher",
+      "description": "Experience macOS just like before",
+      "language": "Python",
+      "stars": 18546,
+      "forks": 2029,
+      "homepage": "https://dortania.github.io/OpenCore-Legacy-Patcher/",
+      "license": "NOASSERTION",
+      "created_at": "2020-11-24T01:54:56Z",
+      "pushed_at": "2026-10-08T01:07:16Z",
+      "updated_at": "2026-10-10T19:00:22Z",
+      "open_issues": 23,
+      "summary": "OpenCore Legacy Patcher 是一个基于 Python 的开源工具，围绕 Acidanthera 的 OpenCorePkg 和 Lilu 构建，用于在苹果已停止支持的旧款 Mac 上安装并运行 macOS Big Sur 及更新版本，最早可支持到 2007 年的机型。它通过 OpenCore 引导与补丁机制，解决旧硬件无法升级新系统的问题，支持 Penryn 及更新处理器，提供原生 OTA 系统更新、系统完整性保护、FileVault 2、安全启动与恢复模式等功能，并为 Metal 和非 Metal GPU 启用图形加速，解锁 Sidecar、AirPlay to Mac。",
+      "windows": [
+        "weekly"
+      ],
+      "added_at": "2026-10-10T22:23:47+00:00",
+      "last_seen": "2026-10-10",
+      "seen_count": 1
     },
     {
       "owner": "HunxByts",
@@ -1537,21 +1634,21 @@
       "url": "https://github.com/HunxByts/GhostTrack",
       "description": "Useful tool to track location or mobile number",
       "language": "Python",
-      "stars": 17989,
-      "forks": 2446,
+      "stars": 18088,
+      "forks": 2472,
       "homepage": "",
       "license": "",
       "created_at": "2023-04-15T07:20:47Z",
       "pushed_at": "2024-01-11T15:36:46Z",
-      "updated_at": "2026-10-10T10:29:26Z",
-      "open_issues": 131,
+      "updated_at": "2026-10-10T22:23:20Z",
+      "open_issues": 133,
       "summary": "GhostTrack 是一个用 Python 编写的开源情报收集工具，主要用于追踪位置或手机号码，可归入 OSINT（公开来源情报）或信息收集类工具。它针对的是在授权调查或安全研究场景下，需要从公开渠道快速获取目标线索的需求。核心能力集中在三个菜单模块：IP 追踪可结合 seeker 工具获取目标 IP，手机号码查询可检索该号码的相关信息，用户名查询则可搜索其在社交媒体上的公开信息。工具支持在 Linux（deb 包）和 Termux 环境中安装使用，适合在桌面或移动终端上运行。典型使用场景包括渗透测试前期的信息搜集、网络安全教学演示以及个人对自身公开信息暴露面的检查。",
       "windows": [
         "weekly"
       ],
       "added_at": "2026-10-09T11:21:36+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 5
+      "seen_count": 6
     },
     {
       "owner": "Robbyant",
@@ -1560,13 +1657,13 @@
       "url": "https://github.com/Robbyant/lingbot-map",
       "description": "[ECCV 2026 Best Paper Award Candidate] LingBot-Map: Geometric Context Transformer for Streaming 3D Reconstruction",
       "language": "Python",
-      "stars": 17890,
-      "forks": 1965,
+      "stars": 17945,
+      "forks": 1967,
       "homepage": "",
       "license": "Apache-2.0",
       "created_at": "2026-04-15T17:59:48Z",
-      "pushed_at": "2026-10-06T09:23:51Z",
-      "updated_at": "2026-10-10T10:40:44Z",
+      "pushed_at": "2026-10-10T13:11:29Z",
+      "updated_at": "2026-10-10T21:55:59Z",
       "open_issues": 83,
       "summary": "LingBot-Map 是 Robbyant 团队开源的流式三维重建基础模型，论文入选 ECCV 2026 最佳论文候选，主要用 Python 实现。它针对长序列视频的三维重建难题，提出几何上下文变换器，通过锚点上下文、位姿参考窗口和轨迹记忆，把坐标定位、稠密几何线索与长程漂移校正统一在一个流式框架内。模型采用前馈架构与分页 KV 缓存注意力，在 518×378 分辨率下可对超过一万帧的序列保持约 20 FPS 的稳定推理，并支持关键帧间隔、窗口化推理和天空遮罩等策略以控制显存与漂移。",
       "windows": [
@@ -1575,7 +1672,30 @@
       ],
       "added_at": "2026-10-09T11:21:36+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 5
+      "seen_count": 6
+    },
+    {
+      "owner": "microsoft",
+      "name": "TRELLIS.2",
+      "full_name": "microsoft/TRELLIS.2",
+      "url": "https://github.com/microsoft/TRELLIS.2",
+      "description": "Native and Compact Structured Latents for 3D Generation",
+      "language": "Python",
+      "stars": 11787,
+      "forks": 1430,
+      "homepage": "",
+      "license": "MIT",
+      "created_at": "2025-11-26T10:04:35Z",
+      "pushed_at": "2026-07-10T12:34:32Z",
+      "updated_at": "2026-10-10T22:23:13Z",
+      "open_issues": 158,
+      "summary": "TRELLIS.2 是微软开源的大型三维生成模型，参数量为 4B，主要解决从单张图像生成高保真三维资产的问题。它提出名为 O-Voxel 的“无场”稀疏体素结构，突破了等值面场的限制，能够处理开放表面、非流形几何和内部封闭结构等复杂拓扑，同时支持基础色、粗糙度、金属度和不透明度等表面属性建模，便于实现照片级渲染与透明效果。模型采用稀疏三维 VAE 将资产编码到紧凑潜空间，并使用标准 DiT 完成生成，兼顾分辨率与效率。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-10T22:23:47+00:00",
+      "last_seen": "2026-10-10",
+      "seen_count": 1
     },
     {
       "owner": "Tracer-Cloud",
@@ -1584,21 +1704,21 @@
       "url": "https://github.com/Tracer-Cloud/opensre",
       "description": "Build your own AI SRE agents. The open source toolkit for the AI era.",
       "language": "Python",
-      "stars": 11723,
-      "forks": 1716,
+      "stars": 11737,
+      "forks": 1720,
       "homepage": "https://discord.com/invite/opensre",
       "license": "Apache-2.0",
       "created_at": "2026-01-13T00:04:47Z",
-      "pushed_at": "2026-10-10T09:06:56Z",
-      "updated_at": "2026-10-10T09:07:58Z",
-      "open_issues": 62,
+      "pushed_at": "2026-10-10T14:08:57Z",
+      "updated_at": "2026-10-10T22:17:19Z",
+      "open_issues": 60,
       "summary": "OpenSRE 是一个用 Python 编写的开源框架，用于构建 AI SRE 智能体，并提供其训练与评估环境。它针对生产事故排查中证据分散在日志、指标、链路追踪、运行手册和聊天记录里的问题，让智能体在自有基础设施上运行。当用户提问或告警到达时，它会自动拉取相关上下文与关联数据，可选地对敏感标识做脱敏后再调用外部大模型，通过工具调用循环验证假设，给出带证据链接的回答，并可将摘要推送到 Slack、PagerDuty 或 Telegram。",
       "windows": [
         "weekly"
       ],
       "added_at": "2026-10-09T11:21:36+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 5
+      "seen_count": 6
     },
     {
       "owner": "multimodal-art-projection",
@@ -1607,21 +1727,21 @@
       "url": "https://github.com/multimodal-art-projection/YuE",
       "description": "YuE2: frontier music generation with symbolic planning, zero-shot covers, and agentic music editing.",
       "language": "Python",
-      "stars": 11100,
-      "forks": 1263,
+      "stars": 11140,
+      "forks": 1269,
       "homepage": "https://map-yue2.github.io/",
       "license": "Apache-2.0",
       "created_at": "2025-01-23T06:21:58Z",
       "pushed_at": "2026-10-06T07:30:39Z",
-      "updated_at": "2026-10-10T10:31:53Z",
-      "open_issues": 41,
+      "updated_at": "2026-10-10T22:11:32Z",
+      "open_issues": 43,
       "summary": "YuE2 是一个用 Python 实现的开源音乐生成项目，目标是把符号化的乐谱规划与音频渲染统一起来。它接收歌词和风格提示后，先生成旋律与和弦的乐谱方案，再据此合成带人声和伴奏的完整歌曲，因此创作过程是可读、可播放、可修改的，人和智能体都能检查和编辑乐谱。除从零创作外，它还支持零样本翻唱和基于对话的智能体编辑，翻唱时先用 SheetSage2 将录音转写为乐谱，再按新风格重新渲染。",
       "windows": [
         "monthly"
       ],
       "added_at": "2026-10-09T11:21:36+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 5
+      "seen_count": 6
     },
     {
       "owner": "jamwithai",
@@ -1676,21 +1796,21 @@
       "url": "https://github.com/tile-ai/tilelang",
       "description": " Domain-specific language designed to streamline the development of high-performance GPU/CPU/Accelerators kernels",
       "language": "Python",
-      "stars": 8552,
-      "forks": 875,
+      "stars": 8558,
+      "forks": 876,
       "homepage": "https://tilelang.com/",
       "license": "NOASSERTION",
       "created_at": "2024-10-03T09:25:45Z",
-      "pushed_at": "2026-10-10T05:58:12Z",
-      "updated_at": "2026-10-10T10:05:51Z",
-      "open_issues": 393,
+      "pushed_at": "2026-10-10T16:32:52Z",
+      "updated_at": "2026-10-10T21:36:21Z",
+      "open_issues": 396,
       "summary": "TileLang 是一个基于 Python 语法的领域特定语言，用于简化高性能 GPU、CPU 与 NPU 内核的开发，底层依托 TVM 编译器基础设施。它面向 GEMM、反量化 GEMM、FlashAttention、线性注意力等算子，让开发者用接近 Python 的写法表达分块、流水线与并行逻辑，同时保留接近底层的优化能力。其核心能力包括多后端编译架构，支持 CUDA、HIP、Metal 与华为昇腾 950 等目标，并提供自动调度与同步、SIMD/SIMT 向量编程、布局推断与诊断工具。典型用法是通过 @tilelang.jit 编译内核，用 T.Pipelined 描述数据搬运、T.",
       "windows": [
         "monthly"
       ],
       "added_at": "2026-10-09T11:21:36+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 5
+      "seen_count": 6
     },
     {
       "owner": "TencentCloud",
@@ -1699,21 +1819,44 @@
       "url": "https://github.com/TencentCloud/Octop",
       "description": "A smarter, self-hosted AI assistant — multi-user, multi-agent.",
       "language": "Python",
-      "stars": 8421,
-      "forks": 1030,
+      "stars": 8505,
+      "forks": 1036,
       "homepage": "https://octop.cloud",
       "license": "MIT",
       "created_at": "2026-07-08T12:54:20Z",
       "pushed_at": "2026-10-10T09:43:42Z",
-      "updated_at": "2026-10-10T10:34:26Z",
-      "open_issues": 710,
+      "updated_at": "2026-10-10T21:46:46Z",
+      "open_issues": 716,
       "summary": "Octop 是腾讯云开源的自托管 AI 助手，基于 Python 开发，主打多用户与多智能体协作。它把网页控制台、命令行、IM 渠道和定时任务整合进单一进程，所有对话、工作区与凭据都保存在本机 ~/.octop/ 目录下（默认 SQLite，可选 PostgreSQL），从而在保留隐私的前提下提供可并行运作的智能环境。",
       "windows": [
         "monthly"
       ],
       "added_at": "2026-10-09T11:21:36+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 5
+      "seen_count": 6
+    },
+    {
+      "owner": "BitterSecurity",
+      "name": "Decepticon",
+      "full_name": "BitterSecurity/Decepticon",
+      "url": "https://github.com/BitterSecurity/Decepticon",
+      "description": "Autonomous Hacking Agent for Red Team",
+      "language": "Python",
+      "stars": 5834,
+      "forks": 1103,
+      "homepage": "https://decepticon.red",
+      "license": "Apache-2.0",
+      "created_at": "2025-06-06T12:55:02Z",
+      "pushed_at": "2026-10-10T01:34:49Z",
+      "updated_at": "2026-10-10T21:54:11Z",
+      "open_issues": 25,
+      "summary": "Decepticon 是一个用 Python 编写的自主红队智能体，目标是执行贴近真实攻击链的渗透流程，而非仅跑一遍 nmap 再输出报告。它面向需要自动化红队演练的场景，在行动前会生成包含 RoE、ConOps、冲突消解计划和带 MITRE ATT&CK 映射的 OPPLAN 等完整交战文档，所有操作都在既定规则内进行。核心能力包括：按杀伤链阶段组织的 16 个专家智能体，每个目标使用独立上下文；在持久化 tmux 会话中运行 msfconsole、sliver-client 等交互式工具并自动识别提示符；命令全部在 Kali 沙箱中执行，与管理平面网络隔离。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-10T22:23:47+00:00",
+      "last_seen": "2026-10-10",
+      "seen_count": 1
     },
     {
       "owner": "NVIDIA",
@@ -1722,21 +1865,21 @@
       "url": "https://github.com/NVIDIA/Model-Optimizer",
       "description": "A unified library of SOTA model optimization techniques like quantization, distillation, pruning, neural architecture search, speculative decoding, etc. It compresses deep learning models for downstream deployment frameworks like TensorRT-LLM, TensorRT, vLLM, etc. to optimize inference speed.",
       "language": "Python",
-      "stars": 5257,
+      "stars": 5261,
       "forks": 738,
       "homepage": "https://nvidia.github.io/Model-Optimizer/",
       "license": "Apache-2.0",
       "created_at": "2024-04-23T19:00:54Z",
-      "pushed_at": "2026-10-10T08:35:51Z",
-      "updated_at": "2026-10-10T09:54:42Z",
-      "open_issues": 467,
+      "pushed_at": "2026-10-10T18:46:17Z",
+      "updated_at": "2026-10-10T18:40:25Z",
+      "open_issues": 466,
       "summary": "NVIDIA Model Optimizer 是一个面向深度学习模型的开源优化库，支持量化、剪枝、神经架构搜索、蒸馏、投机解码和稀疏化等前沿技术，目标是在保证精度的前提下压缩模型并提升推理速度。它接受 Hugging Face、PyTorch 或 ONNX 格式的输入，通过 Python API 组合多种优化手段，导出可直接部署的量化检查点，并与 Megatron-Bridge、Megatron-LM 和 Hugging Face Accelerate 集成以支持训练阶段所需的优化。",
       "windows": [
         "monthly"
       ],
       "added_at": "2026-10-09T11:21:36+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 5
+      "seen_count": 6
     },
     {
       "owner": "superdesigndev",
@@ -1745,21 +1888,21 @@
       "url": "https://github.com/superdesigndev/treg",
       "description": "OpenRouter for agent tools. Join community here: https://discord.gg/6mQYYfFMAn",
       "language": "Python",
-      "stars": 4952,
+      "stars": 4965,
       "forks": 403,
       "homepage": "https://treg.to",
       "license": "NOASSERTION",
       "created_at": "2026-07-15T13:38:07Z",
-      "pushed_at": "2026-10-10T10:21:12Z",
-      "updated_at": "2026-10-10T10:14:57Z",
-      "open_issues": 130,
+      "pushed_at": "2026-10-10T14:05:33Z",
+      "updated_at": "2026-10-10T22:21:25Z",
+      "open_issues": 131,
       "summary": "Treg 是一个面向智能体工具的开源注册与代理服务，用 Python 编写，定位类似 OpenRouter 但对象是工具而非模型。它解决的核心问题是：真实工作所需的工具往往被订阅墙、注册门槛或私有 API 挡住，而 treg 通过统一的基础 URL 和令牌，让智能体按调用付费使用数千个外部端点，涵盖 SEO 外链、社交趋势、人物与公司信息补全、广告、抓取、图像视频生成等，无需向各供应商注册。它同时支持团队自有工具，包括付费 API、OAuth 连接、厂商 CLI 和 SKILL.md 技能，凭据始终留在服务端注入，代理只做忠实转发。",
       "windows": [
         "monthly"
       ],
       "added_at": "2026-10-09T11:21:36+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 5
+      "seen_count": 6
     },
     {
       "owner": "danyuchn",
@@ -1768,13 +1911,13 @@
       "url": "https://github.com/danyuchn/asd-ste100-skill",
       "description": "ASD-STE100 Simplified Technical English rules, repurposed as a Claude Code skill for rewriting ambiguous agent-facing English.",
       "language": "Python",
-      "stars": 4284,
-      "forks": 245,
+      "stars": 4317,
+      "forks": 249,
       "homepage": "",
       "license": "MIT",
       "created_at": "2026-07-20T15:10:41Z",
       "pushed_at": "2026-10-04T06:18:56Z",
-      "updated_at": "2026-10-10T10:41:12Z",
+      "updated_at": "2026-10-10T21:59:50Z",
       "open_issues": 5,
       "summary": "ASD-STE100 Skill 是一个 Claude Code 技能，用 Python 实现，把航空航天与国防行业为飞机维修指令制定的受控语言标准 ASD-STE100 简化技术英语，转用于改写面向 AI 代理的英文文本。它针对的问题是：下游代理解析另一个代理的输出、工具描述、错误信息或代理间指令时，没有人类在回路中澄清歧义。技能提供严格与 STE 风格两种模式，逐句标记并改写歧义用词、复杂时态、被动语态、多指令句、过长名词簇、省略词、超长句、短语动词、名词化动作、分号、堆叠模糊语和营销形容词，且不丢失原文的事实、条件或范围限定；若简化会损失精度，则保留原句并标注取舍。",
       "windows": [
@@ -1782,7 +1925,30 @@
       ],
       "added_at": "2026-10-10T10:30:37+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 3
+      "seen_count": 4
+    },
+    {
+      "owner": "derv82",
+      "name": "wifit3",
+      "full_name": "derv82/wifit3",
+      "url": "https://github.com/derv82/wifit3",
+      "description": "Wifite but USB-only & cross-platform.",
+      "language": "Python",
+      "stars": 2171,
+      "forks": 202,
+      "homepage": "",
+      "license": "GPL-2.0",
+      "created_at": "2026-06-20T18:15:05Z",
+      "pushed_at": "2026-10-08T03:23:14Z",
+      "updated_at": "2026-10-10T22:19:05Z",
+      "open_issues": 13,
+      "summary": "wifit3 是一个用 Python 编写的独立 USB 无线审计工具，可在 Linux、Windows 和 macOS 上以相同方式运行，前提是至少连接一个受支持的 USB 网卡。它绕开操作系统原生 Wi-Fi 协议栈，自带轻量级 Python 版内核驱动，通过 USB 批量与控制传输直接操作硬件，从而避开 Linux 内核驱动版本问题和 Windows NDIS 限制，且不依赖 aircrack-ng 或 reaver。功能涵盖多网卡聚合抓包、2.",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-10T22:23:47+00:00",
+      "last_seen": "2026-10-10",
+      "seen_count": 40
     },
     {
       "owner": "Tencent-Hunyuan",

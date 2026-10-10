@@ -6,10 +6,10 @@
     "weekly",
     "monthly"
   ],
-  "generated_at": "2026-10-10T10:42:19+00:00",
+  "generated_at": "2026-10-10T22:24:58+00:00",
   "first_at": "2026-10-09T11:23:29+00:00",
-  "count": 63,
-  "added": 0,
+  "count": 64,
+  "added": 1,
   "repos": [
     {
       "owner": "sindresorhus",
@@ -110,14 +110,14 @@
       "url": "https://github.com/mattpocock/skills",
       "description": "Skills for Real Engineers. Straight from my .agents directory.",
       "language": "Shell",
-      "stars": 283516,
-      "forks": 23745,
+      "stars": 284363,
+      "forks": 23803,
       "homepage": "https://aihero.dev/skills",
       "license": "MIT",
       "created_at": "2026-02-03T11:15:53Z",
       "pushed_at": "2026-10-09T10:57:08Z",
-      "updated_at": "2026-10-10T10:41:51Z",
-      "open_issues": 163,
+      "updated_at": "2026-10-10T22:24:26Z",
+      "open_issues": 164,
       "summary": "面向真实工程而非“氛围编程”的 AI 代理技能集，来自作者日常使用的 .agents 目录，以 Shell 编写。它针对四类常见失败：需求错位、代理输出冗长、代码不可用、代码库退化为泥球。核心做法是用 /grill-me 和 /grill-with-docs 在动手前对齐意图并建立共享语言与 ADR，用 /tdd 的 red-green-refactor 循环和 /diagnosing-bugs 的诊断回路补齐反馈，用 /to-spec、/to-tickets、/implement 等把对话转成规格与工单并驱动实现，用 /improve-codebase-architecture 定期扫描深。",
       "windows": [
         "daily",
@@ -125,7 +125,7 @@
       ],
       "added_at": "2026-10-09T11:23:29+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 6
+      "seen_count": 7
     },
     {
       "owner": "996icu",
@@ -171,6 +171,29 @@
       ],
       "added_at": "2026-10-09T12:39:41+00:00",
       "last_seen": "2026-10-09",
+      "seen_count": 1
+    },
+    {
+      "owner": "multica-ai",
+      "name": "andrej-karpathy-skills",
+      "full_name": "multica-ai/andrej-karpathy-skills",
+      "url": "https://github.com/multica-ai/andrej-karpathy-skills",
+      "description": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
+      "language": "",
+      "stars": 218200,
+      "forks": 21978,
+      "homepage": "",
+      "license": "",
+      "created_at": "2026-01-27T03:53:13Z",
+      "pushed_at": "2026-04-20T10:05:04Z",
+      "updated_at": "2026-10-10T22:24:42Z",
+      "open_issues": 132,
+      "summary": "一份名为 CLAUDE.md 的配置文件，用于约束和改善 Claude Code 的编码行为，其内容源自 Andrej Karpathy 对 LLM 编程常见问题的观察。它针对三类典型毛病：模型擅自假设而不求证、过度设计代码与抽象、以及顺手改动自己并未真正理解的注释和代码。文件通过四条原则应对：先思考再编码，要求明确假设、呈现多种解释、必要时提出反对、困惑时停下来询问；简洁优先，只写解决问题所需的最少代码，不做未被要求的抽象和配置；外科手术式改动，只碰必须碰的部分，不顺手重构或清理他人代码；目标驱动执行，把命令式任务转成可验证的成功标准，让模型自行循环直至达成。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-10T22:24:58+00:00",
+      "last_seen": "2026-10-10",
       "seen_count": 1
     },
     {
@@ -295,21 +318,22 @@
       "url": "https://github.com/flutter/flutter",
       "description": "Flutter makes it easy and fast to build beautiful apps for mobile and beyond",
       "language": "Dart",
-      "stars": 179204,
-      "forks": 33375,
+      "stars": 179482,
+      "forks": 33587,
       "homepage": "https://flutter.dev",
       "license": "BSD-3-Clause",
       "created_at": "2015-03-06T22:54:58Z",
-      "pushed_at": "2026-10-09T08:37:00Z",
-      "updated_at": "2026-10-09T12:33:42Z",
-      "open_issues": 13307,
+      "pushed_at": "2026-10-10T21:53:27Z",
+      "updated_at": "2026-10-10T22:24:56Z",
+      "open_issues": 13319,
       "summary": "Flutter 是 Google 推出的开源 SDK，用单一代码库为移动端、Web 和桌面端构建界面。它解决的是跨平台开发中体验不一致、重复编写代码的问题，让开发者用一套 Dart 代码同时面向 iOS、Android、Web、Windows、macOS 和 Linux，也能作为其他平台的 UI 工具包嵌入。其核心能力包括分层架构与合成机制，可精细控制每个像素并自由叠加动画、视频、文本和控件；内置 Cupertino 与 Material 等完整组件库，支持自定义视觉组件。",
       "windows": [
-        "daily"
+        "daily",
+        "weekly"
       ],
       "added_at": "2026-10-09T12:39:41+00:00",
-      "last_seen": "2026-10-09",
-      "seen_count": 1
+      "last_seen": "2026-10-10",
+      "seen_count": 2
     },
     {
       "owner": "github",
@@ -1423,23 +1447,23 @@
       "name": "diagram-design",
       "full_name": "cathrynlavery/diagram-design",
       "url": "https://github.com/cathrynlavery/diagram-design",
-      "description": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Factory Droid, and Pi. 44 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
+      "description": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, and Pi. 44 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
       "language": "HTML",
-      "stars": 48412,
-      "forks": 3058,
+      "stars": 48863,
+      "forks": 3090,
       "homepage": "https://cathrynlavery.github.io/diagram-design/",
       "license": "MIT",
       "created_at": "2026-04-16T18:01:16Z",
-      "pushed_at": "2026-10-10T04:32:06Z",
-      "updated_at": "2026-10-10T10:39:59Z",
-      "open_issues": 81,
+      "pushed_at": "2026-10-10T21:10:14Z",
+      "updated_at": "2026-10-10T22:23:00Z",
+      "open_issues": 83,
       "summary": "diagram-design 是一套面向 Claude Code、Codex、GitHub Copilot、Factory Droid、Pi 等 Agent Skills 兼容宿主的编辑级图表设计技能，用自包含的 HTML + SVG 输出，无需构建步骤、JavaScript 或外部图片依赖。它针对的是 AI 生成图表常见的圆角方框套路和风格不统一问题，提供 42 种图表类型，涵盖架构图、流程图、时序图、ER 图、泳道图、甘特图、桑基图、鱼骨图、Wardley 地图、看板、用户旅程、UML 类图、数据库模式等，每种都附带极简浅色、极简深色和完整编辑三种静态变体，可直接在浏览器打开。",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-09T11:23:29+00:00",
       "last_seen": "2026-10-10",
-      "seen_count": 5
+      "seen_count": 6
     },
     {
       "owner": "twostraws",
