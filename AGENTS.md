@@ -109,7 +109,8 @@ new repos and stops. The workflow only installs the tools, pushes (with a fallba
 if pi left changes behind) and writes a per-run summary of the added repos. The step-by-step
 briefing for that run is `.github/prompts/update-trending.md`; when changing the data rules
 here, keep that prompt in sync. Run it by hand with `gh workflow run update-trending.yml`
-(`-f languages=… -f since=… -f limit=…`).
+(`-f languages=… -f since=… -f limit=…`), or add specific repos only with
+`-f repos=owner/repo,owner/repo`.
 
 ## Layout rules
 

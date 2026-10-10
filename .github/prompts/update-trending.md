@@ -5,19 +5,28 @@
 
 ## 参数
 
-本次运行的语言、榜单窗口和数量上限已经放在环境变量里，直接原样使用，不要改写成别的值：
+本次运行的语言、榜单窗口、数量上限和（可选的）指定仓库已经放在环境变量里，直接原样使用，不要改写成别的值：
 
 - `TRENDING_LANGUAGES`（默认 `all`）
 - `TRENDING_SINCE`（`all` / `daily` / `weekly` / `monthly`）
 - `TRENDING_LIMIT`（默认 `25`）
+- `TRENDING_REPOS`：为空 = 正常抓榜单；非空（如 `owner/repo,owner/repo`）= 只处理这几个仓库，不抓 trending
 
 ## 步骤
 
-1. 跑一次完整抓取（会抓总榜 + 各语言榜，合并进 `data/*.json`，只增不删、按 star 降序）：
+1. 跑一次抓取：
 
-   ```bash
-   python3 tools/fetch_trending.py --languages "$TRENDING_LANGUAGES" --since "$TRENDING_SINCE" --limit "$TRENDING_LIMIT"
-   ```
+   - `TRENDING_REPOS` 为空（常规跑法）：抓总榜 + 各语言榜，合并进 `data/*.json`（只增不删、按 star 降序）：
+
+     ```bash
+     python3 tools/fetch_trending.py --languages "$TRENDING_LANGUAGES" --since "$TRENDING_SINCE" --limit "$TRENDING_LIMIT"
+     ```
+
+   - `TRENDING_REPOS` 非空（手动点名几个仓库）：
+
+     ```bash
+     python3 tools/fetch_trending.py --repos "$TRENDING_REPOS"
+     ```
 
    抓取依赖已登录的 `gh`（`GH_TOKEN` 已在环境里），生成中文简介依赖 `DEEPSEEK_API_KEY`。如果脚本报错，把关键报错贴出来并停止，不要自己编数据。
 
@@ -46,7 +55,7 @@
    - 没有新增、只有老仓库刷新：提交信息用 `data: refresh trending`。
    - 完全没有变化就什么都不要提交。
 
-   **不要 `git push`**，也不要用 `--force`、`reset --hard`、修改 git config；推送由 workflow 负责。
+   **不要 `git push`**，也不要用 `--force`、`reset --hard`、修改 git config（身份已经配好了，直接 `git commit` 就行）；推送由 workflow 负责。
 
 6. 最后用一段中文汇报：本次有没有新仓库、各自的语言和 star、`tools/check.py` 是否通过、提交了什么（或为什么没提交）。
 

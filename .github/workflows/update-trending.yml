@@ -33,6 +33,9 @@ on:
       limit:
         description: 每个窗口每种语言最多取几个
         default: "25"
+      repos:
+        description: 可选：只处理这些仓库（owner/repo，逗号分隔，不抓 trending）；留空则正常抓榜单
+        default: ""
 
 concurrency:
   group: update-trending
@@ -50,6 +53,7 @@ jobs:
       TRENDING_LANGUAGES: ${{ inputs.languages || 'all' }}
       TRENDING_SINCE: ${{ inputs.since || 'all' }}
       TRENDING_LIMIT: ${{ inputs.limit || '25' }}
+      TRENDING_REPOS: ${{ inputs.repos || '' }}
       GH_VERSION: 2.102.0
       GH_SHA256: bb766f710eef8ede859c18578c72c327597cd4c8a85b06001b1f3843c6019386
       PI_VERSION: 1.1.0
@@ -69,6 +73,12 @@ jobs:
 
       - name: Record base revision
         run: echo "BASE_SHA=$(git rev-parse HEAD)" >> "$GITHUB_ENV"
+
+      - name: Configure git identity
+        # 早一点设置，pi 后面自己 commit 时就不用再拿 GIT_AUTHOR_* 绕过
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
       - name: Install gh ${{ env.GH_VERSION }}
         run: |
@@ -111,9 +121,7 @@ jobs:
       - name: Commit and push
         run: |
           set -euo pipefail
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-
+          # git 身份在 Configure git identity 那一步已经配好
           # pi 正常已经提交好了，这里只兜底它漏下的改动
           if ! git diff --quiet -- data || [ -n "$(git status --porcelain -- data)" ]; then
             echo "pi 没有提交，由 workflow 兜底提交。"
@@ -142,7 +150,7 @@ jobs:
           {
             echo "## GitHub Trending 更新"
             echo
-            echo "- 参数：\`languages=${TRENDING_LANGUAGES}\` \`since=${TRENDING_SINCE}\` \`limit=${TRENDING_LIMIT}\`"
+            echo "- 参数：\`languages=${TRENDING_LANGUAGES}\` \`since=${TRENDING_SINCE}\` \`limit=${TRENDING_LIMIT}\` \`repos=${TRENDING_REPOS:-(空)}\`"
             echo "- 推送：\`${PUSHED:-未执行}\`（0 = 没有新数据）"
             echo
             python3 - <<'PY'
