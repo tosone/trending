@@ -6,10 +6,10 @@
     "weekly",
     "monthly"
   ],
-  "generated_at": "2026-10-10T10:41:50+00:00",
+  "generated_at": "2026-10-10T10:57:16+00:00",
   "first_at": "2026-10-09T11:21:36+00:00",
-  "count": 76,
-  "added": 0,
+  "count": 77,
+  "added": 1,
   "repos": [
     {
       "owner": "EbookFoundation",
@@ -169,6 +169,29 @@
       ],
       "added_at": "2026-10-09T12:38:51+00:00",
       "last_seen": "2026-10-09",
+      "seen_count": 1
+    },
+    {
+      "owner": "anthropics",
+      "name": "skills",
+      "full_name": "anthropics/skills",
+      "url": "https://github.com/anthropics/skills",
+      "description": "Public repository for Agent Skills",
+      "language": "Python",
+      "stars": 180243,
+      "forks": 21331,
+      "homepage": "",
+      "license": "",
+      "created_at": "2025-09-22T15:53:31Z",
+      "pushed_at": "2026-10-09T18:45:52Z",
+      "updated_at": "2026-10-10T10:38:46Z",
+      "open_issues": 1396,
+      "summary": "Anthropic 的 skills 仓库公开了 Claude 技能系统的实现示例，技能本质上是包含指令、脚本和资源的文件夹，Claude 会按需动态加载，从而以可重复的方式完成特定任务。它解决的是让 Claude 掌握组织专属流程与规范的问题，例如按品牌规范生成文档、按内部工作流分析数据或自动化个人事务。仓库中的技能覆盖创意设计、开发技术、企业沟通和文档处理等方向，每个技能独立成文件夹，通过 SKILL.md 定义名称、描述与指令，并附有规范文件与模板。其中 docx、pdf、pptx、xlsx 等文档技能是 Claude 文档能力的底层实现，可作为复杂技能的参考。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-10T10:57:16+00:00",
+      "last_seen": "2026-10-10",
       "seen_count": 1
     },
     {
