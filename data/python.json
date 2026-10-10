@@ -6,9 +6,9 @@
     "weekly",
     "monthly"
   ],
-  "generated_at": "2026-10-10T10:57:16+00:00",
+  "generated_at": "2026-10-10T10:58:05+00:00",
   "first_at": "2026-10-09T11:21:36+00:00",
-  "count": 77,
+  "count": 78,
   "added": 1,
   "repos": [
     {
@@ -1437,6 +1437,29 @@
       "added_at": "2026-10-09T11:21:36+00:00",
       "last_seen": "2026-10-10",
       "seen_count": 5
+    },
+    {
+      "owner": "agentskills",
+      "name": "agentskills",
+      "full_name": "agentskills/agentskills",
+      "url": "https://github.com/agentskills/agentskills",
+      "description": "Specification and documentation for Agent Skills",
+      "language": "Python",
+      "stars": 26008,
+      "forks": 1956,
+      "homepage": "https://agentskills.io",
+      "license": "Apache-2.0",
+      "created_at": "2025-12-16T15:47:19Z",
+      "pushed_at": "2026-08-09T20:36:04Z",
+      "updated_at": "2026-10-10T09:59:50Z",
+      "open_issues": 97,
+      "summary": "Agent Skills 是一套用于为 AI 智能体扩展专业知识和能力的轻量级开放格式规范，由 Anthropic 最初开发并作为开放标准发布，现已被越来越多的智能体产品采纳。它要解决的问题是：智能体能力虽强，却常常缺乏可靠完成实际工作所需的上下文。其核心做法是把流程性知识和团队、用户特定背景打包成可移植、可版本控制的文件夹，每个技能就是一个包含 SKILL.md 的目录，文件内至少写明名称、描述和具体操作指令，还可附带脚本、参考资料和模板。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-10T10:58:05+00:00",
+      "last_seen": "2026-10-10",
+      "seen_count": 1
     },
     {
       "owner": "ifixai-ai",
