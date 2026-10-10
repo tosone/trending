@@ -1,0 +1,192 @@
+name: Update GitHub Trending
+
+# 定时抓一次 GitHub Trending：新上榜、还没收录的仓库会被补进 data/，然后推回 main，
+# 推送会触发 Deploy GitHub Trending 重新部署站点。
+#
+# 抓取与收录由 pi（DeepSeek 模型）驱动 tools/fetch_trending.py 完成，见
+# .github/prompts/update-trending.md；workflow 只负责装工具、校验、兜底提交与推送。
+#
+# 需要的 repository secrets：
+#   DEEPSEEK_API_KEY  pi 的模型调用 + tools/fetch_trending.py 生成中文简介（必填）
+#   GH_TOKEN          GitHub API token；gh 取元数据 / README、git push 都用它。
+#                     建议用带 contents:write 的 PAT。没配时退回内置 GITHUB_TOKEN，
+#                     但内置 token 的 push 不会触发 deploy-pages.yml，所以脚本会显式
+#                     dispatch 一次部署。
+
+on:
+  schedule:
+    - cron: "10 22 * * *" # 每天 06:10（北京时间）
+  workflow_dispatch:
+    inputs:
+      languages:
+        description: 逗号分隔的语言 key（all，或 javascript,go,...）
+        default: all
+      since:
+        description: 榜单窗口
+        type: choice
+        options:
+          - all
+          - daily
+          - weekly
+          - monthly
+        default: all
+      limit:
+        description: 每个窗口每种语言最多取几个
+        default: "25"
+
+concurrency:
+  group: update-trending
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+  actions: write
+
+jobs:
+  update:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 45
+    env:
+      TRENDING_LANGUAGES: ${{ inputs.languages || 'all' }}
+      TRENDING_SINCE: ${{ inputs.since || 'all' }}
+      TRENDING_LIMIT: ${{ inputs.limit || '25' }}
+      GH_VERSION: 2.102.0
+      GH_SHA256: bb766f710eef8ede859c18578c72c327597cd4c8a85b06001b1f3843c6019386
+      PI_VERSION: 1.1.0
+      PI_PROVIDER_NAME: deepseek
+      PI_MODEL_NAME: deepseek-flash
+      PI_TELEMETRY: "0"
+      PI_SKIP_VERSION_CHECK: "1"
+      DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+      GH_TOKEN: ${{ secrets.GH_TOKEN || secrets.GITHUB_TOKEN }}
+      HAS_PAT: ${{ secrets.GH_TOKEN != '' }}
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7
+        with:
+          persist-credentials: false # 推送时自己给 remote 配 token
+
+      - name: Record base revision
+        run: echo "BASE_SHA=$(git rev-parse HEAD)" >> "$GITHUB_ENV"
+
+      - name: Install gh ${{ env.GH_VERSION }}
+        run: |
+          set -euo pipefail
+          url="https://github.com/cli/cli/releases/download/v${GH_VERSION}/gh_${GH_VERSION}_linux_amd64.tar.gz"
+          curl -fsSL -o "$RUNNER_TEMP/gh.tar.gz" "$url"
+          echo "${GH_SHA256}  $RUNNER_TEMP/gh.tar.gz" | sha256sum -c -
+          mkdir -p "$RUNNER_TEMP/gh"
+          tar -xzf "$RUNNER_TEMP/gh.tar.gz" -C "$RUNNER_TEMP/gh" --strip-components=1
+          echo "$RUNNER_TEMP/gh/bin" >> "$GITHUB_PATH"
+
+      - name: Check gh
+        run: |
+          set -euo pipefail
+          gh --version | head -1
+          gh --version | head -1 | grep -q "gh version ${GH_VERSION}" || { echo "gh 版本不是 ${GH_VERSION}"; exit 1; }
+          gh api user --jq '"gh 已登录：" + .login' || echo "! gh token 只能匿名访问（没有 GH_TOKEN 或已失效）"
+
+      - name: Set up Node
+        uses: actions/setup-node@v7
+        with:
+          node-version: 24
+
+      - name: Install pi ${{ env.PI_VERSION }}
+        run: |
+          set -euo pipefail
+          npm install -g --ignore-scripts "@earendil-works/pi-coding-agent@${PI_VERSION}"
+          pi --version
+
+      - name: Fetch trending and add new repos (pi)
+        run: |
+          set -euo pipefail
+          pi --print --no-session --approve \
+            --provider "$PI_PROVIDER_NAME" --model "$PI_MODEL_NAME" \
+            "$(cat .github/prompts/update-trending.md)" 2>&1 | tee "$RUNNER_TEMP/pi.log"
+
+      - name: Validate data
+        run: python3 tools/check.py
+
+      - name: Commit and push
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          # pi 正常已经提交好了，这里只兜底它漏下的改动
+          if ! git diff --quiet -- data || [ -n "$(git status --porcelain -- data)" ]; then
+            echo "pi 没有提交，由 workflow 兜底提交。"
+            git add data
+            git commit -m "data: refresh trending boards"
+          fi
+
+          if git diff --quiet origin/main..HEAD; then
+            echo "PUSHED=0" >> "$GITHUB_ENV"
+            echo "data/ 没有变化，跳过推送。"
+          else
+            echo "PUSHED=1" >> "$GITHUB_ENV"
+            git remote set-url origin "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+            git push origin HEAD:main
+          fi
+
+      - name: Trigger Pages deploy
+        # 用 PAT 推送时，push 事件会自动触发 deploy-pages.yml；
+        # 用内置 GITHUB_TOKEN 推送不会，所以这里显式补一次。
+        if: env.PUSHED == '1' && env.HAS_PAT != 'true'
+        run: gh workflow run deploy-pages.yml --ref main
+
+      - name: Summary
+        if: always()
+        run: |
+          {
+            echo "## GitHub Trending 更新"
+            echo
+            echo "- 参数：\`languages=${TRENDING_LANGUAGES}\` \`since=${TRENDING_SINCE}\` \`limit=${TRENDING_LIMIT}\`"
+            echo "- 推送：\`${PUSHED:-未执行}\`（0 = 没有新数据）"
+            echo
+            python3 - <<'PY'
+          import json, os, subprocess
+
+          def repo_map(ref):
+              out = subprocess.run(
+                  ["git", "show", f"{ref}:data/all.json"],
+                  capture_output=True, text=True,
+              )
+              if out.returncode:
+                  return {}
+              return {r["full_name"]: r for r in json.loads(out.stdout)["repos"]}
+
+          old_txt = os.environ.get("BASE_SHA", "")
+          old, new = repo_map(old_txt), repo_map("HEAD")
+          added = sorted(set(new) - set(old))
+          if added:
+              print(f"### 本次新增 {len(added)} 个仓库")
+              print()
+              for name in added:
+                  r = new[name]
+                  print(f"- [{name}]({r['url']}) · {r.get('language') or '其他语言'} · ★{r.get('stars', 0)}")
+          else:
+              print("### 本次没有新增仓库")
+          removed = sorted(set(old) - set(new))
+          if removed:
+              print()
+              print("### 被移除（不应该发生，注意检查）")
+              print()
+              for name in removed:
+                  print(f"- {name}")
+          PY
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Pi log
+        if: always()
+        run: |
+          {
+            echo "<details><summary>pi 输出</summary>"
+            echo
+            echo '```'
+            cat "$RUNNER_TEMP/pi.log" 2>/dev/null || echo "（没有输出）"
+            echo '```'
+            echo
+            echo "</details>"
+          } >> "$GITHUB_STEP_SUMMARY"

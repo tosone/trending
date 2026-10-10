@@ -91,6 +91,26 @@ trending boards — it refreshes every trending repo's metadata and is far heavi
 To keep a repo collected on every full run, also add it to the `PINNED` list at the top of
 the script.
 
+## Automatic updates (GitHub Actions)
+
+Two workflows live in `.github/workflows/`:
+
+- `update-trending.yml` — every day at 22:10 UTC (06:10 Beijing) it runs on the pinned
+  toolchain (`gh` 2.102.0 from the cli/cli release tarball, checked by sha256, and pi
+  `1.1.0` from npm) and counts on two repository secrets: `DEEPSEEK_API_KEY` (pi's model
+  plus the script's Chinese summaries) and `GH_TOKEN` (a PAT used by `gh` for metadata /
+  READMEs and for `git push`; without it the run falls back to the built-in `GITHUB_TOKEN`).
+- `deploy-pages.yml` — deploys the static site. A push made with the built-in token does
+  **not** trigger it, so the update workflow dispatches it explicitly when no PAT is set.
+
+The update workflow is driven by **pi**: it runs `tools/fetch_trending.py`, checks
+`tools/check.py`, rewrites summaries that came out wrong with `--resummarize`, commits the
+new repos and stops. The workflow only installs the tools, pushes (with a fallback commit
+if pi left changes behind) and writes a per-run summary of the added repos. The step-by-step
+briefing for that run is `.github/prompts/update-trending.md`; when changing the data rules
+here, keep that prompt in sync. Run it by hand with `gh workflow run update-trending.yml`
+(`-f languages=… -f since=… -f limit=…`).
+
 ## Layout rules
 
 - Newspaper theme: paper background (`--paper`), double rules (`3px double var(--rule)`),
