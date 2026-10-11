@@ -6,10 +6,10 @@
     "weekly",
     "monthly"
   ],
-  "generated_at": "2026-10-10T22:25:58+00:00",
+  "generated_at": "2026-10-11T22:24:12+00:00",
   "first_at": "2026-10-09T10:50:04+00:00",
-  "count": 70,
-  "added": 0,
+  "count": 73,
+  "added": 3,
   "repos": [
     {
       "owner": "affaan-m",
@@ -18,21 +18,21 @@
       "url": "https://github.com/affaan-m/ECC",
       "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
       "language": "JavaScript",
-      "stars": 276479,
-      "forks": 41235,
+      "stars": 277176,
+      "forks": 41347,
       "homepage": "https://ecc.tools",
       "license": "MIT",
       "created_at": "2026-01-18T00:51:51Z",
-      "pushed_at": "2026-10-10T01:41:12Z",
-      "updated_at": "2026-10-10T22:23:10Z",
-      "open_issues": 230,
+      "pushed_at": "2026-10-11T22:01:08Z",
+      "updated_at": "2026-10-11T22:23:47Z",
+      "open_issues": 159,
       "summary": "ECC 是一套面向 AI 编码代理的运行框架性能优化系统，主要用 JavaScript 编写，为 Claude Code、Codex、Cursor、Opencode 等工具提供技能、本能、记忆、安全与调研优先的开发能力。它要解决的问题是：代理虽然能写代码，却缺少一套协调的工程流程，用户往往需要在每次提示中重复搭建规划、验证、审查和记忆机制。ECC 把这些流程一次性安装好，让代理在构建前先规划，用测试验证改动，从全新上下文审查自身工作，记住关键信息，并把重复的成功经验沉淀为可复用的技能和工作流。",
       "windows": [
         "monthly"
       ],
       "added_at": "2026-10-09T10:59:47+00:00",
-      "last_seen": "2026-10-10",
-      "seen_count": 11
+      "last_seen": "2026-10-11",
+      "seen_count": 12
     },
     {
       "owner": "react",
@@ -41,20 +41,20 @@
       "url": "https://github.com/react/react",
       "description": "The library for web and native user interfaces.",
       "language": "JavaScript",
-      "stars": 250824,
-      "forks": 51458,
+      "stars": 250875,
+      "forks": 51471,
       "pinned": true,
       "homepage": "https://react.dev",
       "license": "MIT",
       "created_at": "2013-05-24T16:15:54Z",
       "pushed_at": "2026-10-09T17:09:46Z",
-      "updated_at": "2026-10-10T22:07:29Z",
-      "open_issues": 1431,
+      "updated_at": "2026-10-11T22:08:58Z",
+      "open_issues": 1430,
       "summary": "React 是一个用于构建用户界面的 JavaScript 库，主要解决交互式 UI 开发中状态与视图同步的问题。它采用声明式写法，开发者只需为每个状态设计简单视图，数据变化时 React 会高效更新并渲染正确的组件，使代码更可预测、易理解和调试。其核心特点是组件化，通过封装管理自身状态的组件并组合成复杂界面，组件逻辑用 JavaScript 而非模板编写，便于传递数据和将状态与 DOM 分离。React 不假设技术栈，支持渐进式采用，可在现有项目中按需引入，也能借助 Node 在服务端渲染，或通过 React Native 构建移动应用。",
       "windows": [],
       "added_at": "2026-10-09T11:29:43+00:00",
-      "last_seen": "2026-10-10",
-      "seen_count": 6
+      "last_seen": "2026-10-11",
+      "seen_count": 7
     },
     {
       "owner": "trekhleb",
@@ -86,22 +86,22 @@
       "url": "https://github.com/DietrichGebert/ponytail",
       "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
       "language": "JavaScript",
-      "stars": 160407,
-      "forks": 8625,
+      "stars": 161078,
+      "forks": 8691,
       "homepage": "https://ponytail.dev",
       "license": "MIT",
       "created_at": "2026-06-12T00:52:37Z",
       "pushed_at": "2026-10-10T04:19:53Z",
-      "updated_at": "2026-10-10T22:21:14Z",
-      "open_issues": 48,
+      "updated_at": "2026-10-11T22:22:06Z",
+      "open_issues": 53,
       "summary": "Ponytail 是一个给 AI 编程代理注入“最懒资深开发”思维的提示词项目，用 JavaScript 编写，核心只有一份 SKILL.md 提示词，其余内容都是把它接入不同代理的适配层。它要解决的问题是代理倾向于堆砌代码：安装多余依赖、手写整块日历。Ponytail 让代理先读懂改动涉及的代码和真实数据流，再按“能少写就少写”的阶梯选择方案，例如复用已有 Input 组件和浏览器原生日期选择器，把 335 行压到 10 行。它强调懒而不失职，信任边界校验、错误处理、安全与无障碍不砍，含分支、循环、解析、金额或安全的逻辑会留下一个小测试，每次回复还会说明跳过了什么、有何风险。",
       "windows": [
         "weekly",
         "monthly"
       ],
       "added_at": "2026-10-09T10:59:47+00:00",
-      "last_seen": "2026-10-10",
-      "seen_count": 10
+      "last_seen": "2026-10-11",
+      "seen_count": 11
     },
     {
       "owner": "Snailclimb",
@@ -156,14 +156,14 @@
       "url": "https://github.com/vercel/next.js",
       "description": "The React Framework",
       "language": "JavaScript",
-      "stars": 143109,
-      "forks": 34501,
+      "stars": 143140,
+      "forks": 34618,
       "homepage": "https://nextjs.org",
       "license": "MIT",
       "created_at": "2016-10-05T23:32:51Z",
-      "pushed_at": "2026-10-10T17:41:08Z",
-      "updated_at": "2026-10-10T22:08:26Z",
-      "open_issues": 3617,
+      "pushed_at": "2026-10-11T20:40:47Z",
+      "updated_at": "2026-10-11T21:50:40Z",
+      "open_issues": 3601,
       "summary": "Next.js 是 Vercel 推出的 React 框架，用于构建全栈 Web 应用。它扩展了 React 的最新特性，并集成基于 Rust 的 JavaScript 工具链，以加快构建速度。该框架被全球一些大型公司采用，适合需要服务端渲染、静态生成与全栈能力的项目。开发者可通过官方提供的 Learn Next.js 课程入门，并在 Next.js Showcase 中查看实际案例。完整文档托管在 nextjs.org/docs。社区交流主要在 GitHub Discussions 和 Discord 服务器进行，所有渠道均适用行为准则。",
       "windows": [
         "daily",
@@ -171,8 +171,8 @@
         "monthly"
       ],
       "added_at": "2026-10-09T10:59:47+00:00",
-      "last_seen": "2026-10-10",
-      "seen_count": 11
+      "last_seen": "2026-10-11",
+      "seen_count": 12
     },
     {
       "owner": "Chalarangelo",
@@ -250,21 +250,21 @@
       "url": "https://github.com/axios/axios",
       "description": "Promise based HTTP client for the browser and node.js",
       "language": "JavaScript",
-      "stars": 109345,
-      "forks": 11898,
+      "stars": 109363,
+      "forks": 11900,
       "homepage": "https://axios-http.com",
       "license": "MIT",
       "created_at": "2014-08-18T22:30:27Z",
       "pushed_at": "2026-10-09T17:31:50Z",
-      "updated_at": "2026-10-10T16:09:50Z",
-      "open_issues": 105,
+      "updated_at": "2026-10-11T20:38:04Z",
+      "open_issues": 107,
       "summary": "Axios 是一个基于 Promise 的 HTTP 客户端，可同时运行在浏览器和 Node.js 环境中，主要解决前端与后端发起网络请求时接口不统一、异步流程难管理的问题。它支持在浏览器中发起 XMLHttpRequest、在 Node.js 中发起 http 请求，并提供统一的 Promise API 处理异步响应。",
       "windows": [
         "weekly"
       ],
       "added_at": "2026-10-10T22:23:27+00:00",
-      "last_seen": "2026-10-10",
-      "seen_count": 1
+      "last_seen": "2026-10-11",
+      "seen_count": 2
     },
     {
       "owner": "addyosmani",
@@ -273,17 +273,17 @@
       "url": "https://github.com/addyosmani/agent-skills",
       "description": "Production-grade engineering skills for AI coding agents.",
       "language": "JavaScript",
-      "stars": 104486,
-      "forks": 10909,
+      "stars": 104986,
+      "forks": 10959,
       "homepage": "https://skills.addy.ie",
       "license": "MIT",
       "created_at": "2026-02-15T20:20:26Z",
       "pushed_at": "2026-10-10T08:28:49Z",
-      "updated_at": "2026-10-10T22:22:19Z",
-      "open_issues": 126,
+      "updated_at": "2026-10-11T22:20:56Z",
+      "open_issues": 130,
       "summary": "Agent Skills 是一套面向 AI 编程代理的生产级工程技能包，由 Addy Osmani 维护，以 JavaScript 编写。它把资深工程师在软件开发各阶段使用的工作流、质量门禁和最佳实践固化成结构化技能，让 AI 代理在定义、规划、构建、验证、审查、发布等环节保持一致行为。仓库包含 25 个技能（24 个生命周期技能加一个元技能）和 9 个斜杠命令，命令会自动激活对应技能，技能也会根据任务类型自动触发，例如设计 API 时启用接口设计技能。每个技能由步骤、检查点和退出标准组成，并附有反合理化表格，用于反驳代理跳过测试等借口，同时要求以测试通过、构建输出等证据作为完成依据。",
-      "last_seen": "2026-10-10",
-      "seen_count": 14,
+      "last_seen": "2026-10-11",
+      "seen_count": 15,
       "added_at": "2026-10-09T10:50:04+00:00",
       "windows": [
         "daily",
@@ -478,6 +478,30 @@
       "seen_count": 10
     },
     {
+      "owner": "pbakaus",
+      "name": "impeccable",
+      "full_name": "pbakaus/impeccable",
+      "url": "https://github.com/pbakaus/impeccable",
+      "description": "The design language that makes your AI harness better at design.",
+      "language": "JavaScript",
+      "stars": 79859,
+      "forks": 4750,
+      "homepage": "https://impeccable.style",
+      "license": "Apache-2.0",
+      "created_at": "2025-11-16T01:52:04Z",
+      "pushed_at": "2026-10-11T19:03:37Z",
+      "updated_at": "2026-10-11T22:22:13Z",
+      "open_issues": 68,
+      "summary": "Impeccable 是一套面向 AI 编程代理的设计语言与技能包，用 JavaScript 编写，旨在解决大模型生成前端界面时反复出现的同质化问题，比如滥用 Inter 字体、紫蓝渐变、卡片嵌套卡片、彩色背景上叠灰字等。它通过 npx impeccable install 安装，并在 AI 工具内运行 /impeccable init，将受众、用途、约束、语气等产品事实记录到 PRODUCT.md，与视觉方向分离。",
+      "windows": [
+        "weekly",
+        "monthly"
+      ],
+      "added_at": "2026-10-09T10:59:47+00:00",
+      "last_seen": "2026-10-11",
+      "seen_count": 12
+    },
+    {
       "owner": "anuraghazra",
       "name": "github-readme-stats",
       "full_name": "anuraghazra/github-readme-stats",
@@ -499,30 +523,6 @@
       "added_at": "2026-10-09T12:39:06+00:00",
       "last_seen": "2026-10-09",
       "seen_count": 1
-    },
-    {
-      "owner": "pbakaus",
-      "name": "impeccable",
-      "full_name": "pbakaus/impeccable",
-      "url": "https://github.com/pbakaus/impeccable",
-      "description": "The design language that makes your AI harness better at design.",
-      "language": "JavaScript",
-      "stars": 79377,
-      "forks": 4721,
-      "homepage": "https://impeccable.style",
-      "license": "Apache-2.0",
-      "created_at": "2025-11-16T01:52:04Z",
-      "pushed_at": "2026-10-09T18:44:27Z",
-      "updated_at": "2026-10-10T22:21:46Z",
-      "open_issues": 69,
-      "summary": "Impeccable 是一套面向 AI 编程代理的设计语言与技能包，用 JavaScript 编写，旨在解决大模型生成前端界面时反复出现的同质化问题，比如滥用 Inter 字体、紫蓝渐变、卡片嵌套卡片、彩色背景上叠灰字等。它通过 npx impeccable install 安装，并在 AI 工具内运行 /impeccable init，将受众、用途、约束、语气等产品事实记录到 PRODUCT.md，与视觉方向分离。",
-      "windows": [
-        "weekly",
-        "monthly"
-      ],
-      "added_at": "2026-10-09T10:59:47+00:00",
-      "last_seen": "2026-10-10",
-      "seen_count": 11
     },
     {
       "owner": "FortAwesome",
@@ -668,15 +668,15 @@
       "name": "up",
       "full_name": "byoungd/up",
       "url": "https://github.com/byoungd/up",
-      "description": "人生进阶指南 韩先凯的人生进阶指南 英语学习指南 离谱的人生 AI时代终身学习：AI、学习、创业与成长。",
+      "description": "韩先凯的人生进阶指南 人生进阶指南 英语学习指南 离谱的人生 AI AI时代终身学习：AI、学习、创业与成长。",
       "language": "JavaScript",
-      "stars": 68193,
-      "forks": 6769,
+      "stars": 68281,
+      "forks": 6782,
       "homepage": "https://byoungd.github.io/up/",
       "license": "NOASSERTION",
       "created_at": "2017-05-30T07:18:52Z",
       "pushed_at": "2026-10-09T04:51:00Z",
-      "updated_at": "2026-10-10T21:59:16Z",
+      "updated_at": "2026-10-11T21:50:56Z",
       "open_issues": 29,
       "summary": "《人生进阶指南》是韩先凯（笔名离谱）持续更新的中英双语开放书稿，以 JavaScript 构建站点，提供可下载的 EPUB 与 PDF、可复制的工作表。它面向希望提升英语、学习 AI、完成真实项目或重建生活节律的普通人，解决的是在 AI 让答案变得廉价的时代里，如何保留判断、把建议变成作品并承担责任的问题。核心方法是一条循环：定义问题、保存基线、完成最小任务、记录证据、延迟复测、决定迁移，并区分研究结论、个人经验与待验证假设。内容涵盖英语能力训练、AI 协作学习、项目开发与资源层创业、人生复盘与恢复等。",
       "windows": [
@@ -684,8 +684,8 @@
         "monthly"
       ],
       "added_at": "2026-10-09T10:59:47+00:00",
-      "last_seen": "2026-10-10",
-      "seen_count": 11
+      "last_seen": "2026-10-11",
+      "seen_count": 12
     },
     {
       "owner": "chartjs",
@@ -809,21 +809,22 @@
       "url": "https://github.com/poteto/hiring-without-whiteboards",
       "description": "⭐️  Companies that don't have a broken hiring process",
       "language": "JavaScript",
-      "stars": 52560,
-      "forks": 3959,
+      "stars": 52586,
+      "forks": 3961,
       "homepage": "",
       "license": "MIT",
       "created_at": "2017-03-15T05:09:01Z",
       "pushed_at": "2026-09-24T04:48:39Z",
-      "updated_at": "2026-10-10T22:23:17Z",
+      "updated_at": "2026-10-11T21:26:42Z",
       "open_issues": 10,
       "summary": "hiring-without-whiteboards 是一份由社区维护的公司与团队清单，专门收录那些不采用“白板面试”的雇主。这里的“白板”是隐喻，指代与糟糕面试实践相关的计算机科学冷知识题，例如 HackerRank、LeetCode 一类刷题平台上的题目。该项目要解决的问题是：许多技术面试用脱离日常工作的谜题和脑筋急转弯筛选候选人，无法反映真实工程能力。清单中的公司改用贴近实际工作的方式，比如结对解决真实问题、带薪或不带薪的回家作业、设计讨论、技术面试加行为面试等。",
       "windows": [
-        "daily"
+        "daily",
+        "weekly"
       ],
       "added_at": "2026-10-10T22:23:27+00:00",
-      "last_seen": "2026-10-10",
-      "seen_count": 1
+      "last_seen": "2026-10-11",
+      "seen_count": 2
     },
     {
       "owner": "bilawalsidhu",
@@ -832,21 +833,22 @@
       "url": "https://github.com/bilawalsidhu/gods-eye-view",
       "description": "A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.",
       "language": "JavaScript",
-      "stars": 50256,
-      "forks": 10162,
+      "stars": 51529,
+      "forks": 10354,
       "homepage": "https://maptheworld.ai/",
       "license": "NOASSERTION",
       "created_at": "2026-06-22T23:37:22Z",
       "pushed_at": "2026-10-10T03:59:46Z",
-      "updated_at": "2026-10-10T22:22:10Z",
-      "open_issues": 301,
+      "updated_at": "2026-10-11T22:22:46Z",
+      "open_issues": 372,
       "summary": "God's Eye View 是一个运行在浏览器中的间谍卫星模拟器，基于 JavaScript 开发，将公开的实时数据源汇聚到同一个逼真的三维地球上。它解决的是信息分散问题：航班应答机、船舶信标、卫星轨道根数、地震仪和公共摄像头本就公开，但此前彼此孤立，该项目把它们放进同一视图，让用户在全球态势与单个飞机、船只或街道之间自由切换。核心能力包括驾驶舱视角跟随航班、点击追踪任意目标并显示轨迹与元数据、语音控制与语音标注、按机型渲染的 3D 飞机模型、CRT/NVG/FLIR 等传感器滤镜、检测框叠加、军事风格 HUD、天气与雷达动画、卫星过境查询、免密钥搜索以及可分享的场景链接。",
       "windows": [
+        "daily",
         "monthly"
       ],
       "added_at": "2026-10-09T10:59:47+00:00",
-      "last_seen": "2026-10-10",
-      "seen_count": 10
+      "last_seen": "2026-10-11",
+      "seen_count": 11
     },
     {
       "owner": "github",
@@ -924,21 +926,21 @@
       "url": "https://github.com/vercel-labs/agent-skills",
       "description": "Vercel's official collection of agent skills",
       "language": "JavaScript",
-      "stars": 32175,
-      "forks": 2822,
+      "stars": 32238,
+      "forks": 2823,
       "homepage": "https://skills.sh/vercel-labs/agent-skills",
       "license": "",
       "created_at": "2025-12-08T19:10:06Z",
       "pushed_at": "2026-08-28T13:36:31Z",
-      "updated_at": "2026-10-10T21:28:14Z",
+      "updated_at": "2026-10-11T22:14:51Z",
       "open_issues": 179,
       "summary": "Agent Skills 是 Vercel 官方推出的 AI 编码代理技能集合，以打包好的指令和脚本扩展代理能力，遵循 Agent Skills 格式。它解决的是 AI 代理在具体工程任务中缺乏针对性指导的问题，目前包含八个技能：vercel-optimize 先采集 Vercel 指标再定位问题路由，用于审计成本、性能、缓存与函数用量；react-best-practices 汇集 Vercel 工程团队的 40 多条 React 与 Next.",
       "windows": [
         "monthly"
       ],
       "added_at": "2026-10-09T10:59:47+00:00",
-      "last_seen": "2026-10-10",
-      "seen_count": 10
+      "last_seen": "2026-10-11",
+      "seen_count": 11
     },
     {
       "owner": "Anil-matcha",
@@ -970,21 +972,22 @@
       "url": "https://github.com/greensock/GSAP",
       "description": "GSAP (GreenSock Animation Platform), a JavaScript animation library for the modern web",
       "language": "JavaScript",
-      "stars": 29020,
-      "forks": 2244,
+      "stars": 29070,
+      "forks": 2250,
       "homepage": "https://gsap.com",
       "license": "",
       "created_at": "2012-09-21T18:03:25Z",
       "pushed_at": "2026-04-13T13:08:58Z",
-      "updated_at": "2026-10-10T21:50:13Z",
+      "updated_at": "2026-10-11T22:16:42Z",
       "open_issues": 7,
       "summary": "GSAP 是一个与框架无关的 JavaScript 动画库，核心是一个高速属性操纵器，能按时间精确更新数值，性能可达 jQuery 的 20 倍，且零依赖。它抹平了各浏览器之间的差异，让动画在主流浏览器中稳定运行，可对 CSS、SVG、canvas、React、Vue、WebGL、颜色、字符串、运动路径和普通对象等任何 JavaScript 能触及的内容做动画。其 ScrollTrigger 插件能用极简代码实现滚动驱动动画，gsap.matchMedia() 便于构建响应式且兼顾无障碍的动画，另有 morphing、文本拆分、FLIP、Observer 等可选插件与缓动函数。",
       "windows": [
-        "daily"
+        "daily",
+        "weekly"
       ],
       "added_at": "2026-10-10T22:23:27+00:00",
-      "last_seen": "2026-10-10",
-      "seen_count": 1
+      "last_seen": "2026-10-11",
+      "seen_count": 2
     },
     {
       "owner": "cloudflare",
@@ -993,17 +996,17 @@
       "url": "https://github.com/cloudflare/security-audit-skill",
       "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
       "language": "JavaScript",
-      "stars": 27728,
-      "forks": 1654,
+      "stars": 28300,
+      "forks": 1688,
       "homepage": "",
       "license": "MIT",
       "created_at": "2026-06-18T14:08:44Z",
       "pushed_at": "2026-09-14T19:29:02Z",
-      "updated_at": "2026-10-10T22:23:27Z",
-      "open_issues": 56,
+      "updated_at": "2026-10-11T22:22:13Z",
+      "open_issues": 58,
       "summary": "security-audit-skill 是 Cloudflare 开源的一款编码智能体技能，用 JavaScript 编写，可将通用编码智能体改造成安全审计员。它针对单仓库场景，把安全审计拆解为六个阶段：侦察、覆盖驱动的漏洞搜寻、候选验证、结构化输出、独立记录核验和目标中立的报告生成，并通过 coverage-ledger.json、findings.json 等机器可读文件与校验脚本保证结果可核查。其核心特点是采用对抗式验证，检查发现与发现漏洞的智能体相互独立，结论分为 confirmed、needs_validation 和 rejected 三类，且多次运行结果可累加，逐步提升覆盖率。",
-      "last_seen": "2026-10-10",
-      "seen_count": 13,
+      "last_seen": "2026-10-11",
+      "seen_count": 14,
       "added_at": "2026-10-09T10:50:04+00:00",
       "windows": [
         "daily",
@@ -1017,20 +1020,44 @@
       "url": "https://github.com/spicetify/cli",
       "description": "Command-line tool to customize Spotify client. Supports Windows, macOS, and Linux.",
       "language": "JavaScript",
-      "stars": 24877,
-      "forks": 960,
+      "stars": 24932,
+      "forks": 967,
       "homepage": "https://spicetify.app",
       "license": "LGPL-2.1",
       "created_at": "2018-12-01T19:55:18Z",
-      "pushed_at": "2026-10-08T17:26:15Z",
-      "updated_at": "2026-10-09T10:18:29Z",
+      "pushed_at": "2026-10-11T13:24:45Z",
+      "updated_at": "2026-10-11T21:47:02Z",
       "open_issues": 13,
       "summary": "Spicetify CLI 是一个用 JavaScript 编写的命令行工具，用于定制官方 Spotify 客户端，支持 Windows、macOS 和 Linux。它解决的是官方客户端界面与功能高度固定、用户难以按自己需求调整的问题。核心能力包括：修改用户界面各处的配色，注入 CSS 实现更深入的样式定制，注入扩展以扩展功能、操作界面和控制播放器，以及注入自定义应用。借助这些能力，用户可以在不更换客户端的前提下，改变 Spotify 的外观与交互方式，甚至接管客户端的部分控制权。典型使用场景是希望统一桌面主题风格、为客户端增加额外功能或快捷操作，以及在多平台上获得一致的定制体验。",
       "windows": [
-        "weekly"
+        "weekly",
+        "monthly"
       ],
       "added_at": "2026-10-09T10:59:47+00:00",
-      "last_seen": "2026-10-09",
+      "last_seen": "2026-10-11",
+      "seen_count": 2
+    },
+    {
+      "owner": "MagicMirrorOrg",
+      "name": "MagicMirror",
+      "full_name": "MagicMirrorOrg/MagicMirror",
+      "url": "https://github.com/MagicMirrorOrg/MagicMirror",
+      "description": "MagicMirror² is an open source modular smart mirror platform. With a growing list of installable modules, the MagicMirror² allows you to convert your hallway or bathroom mirror into your personal assistant.",
+      "language": "JavaScript",
+      "stars": 24049,
+      "forks": 4576,
+      "homepage": "https://magicmirror.builders",
+      "license": "MIT",
+      "created_at": "2014-02-19T15:48:09Z",
+      "pushed_at": "2026-10-11T20:28:30Z",
+      "updated_at": "2026-10-11T20:52:24Z",
+      "open_issues": 5,
+      "summary": "MagicMirror² 是一个开源模块化智能镜子平台，旨在把走廊或浴室里的普通镜子变成个人助理。它通过可安装的模块扩展功能，用户能按需组合信息展示。项目采用模块化插件系统，并以 Electron 作为应用封装，因此无需再搭建 Web 服务器或安装浏览器即可运行，主要语言为 JavaScript。它适合在家中镜面上显示日程、天气等日常信息，也适合开发者基于模块机制进行二次开发。官方提供完整文档网站、论坛、Discord 技术讨论和博客等资源，并欢迎代码之外的缺陷报告、文档和翻译等贡献。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-11T22:24:12+00:00",
+      "last_seen": "2026-10-11",
       "seen_count": 1
     },
     {
@@ -1040,17 +1067,17 @@
       "url": "https://github.com/tabler/tabler-icons",
       "description": "A set of over 6200 free MIT-licensed high-quality SVG icons for you to use in your web projects.",
       "language": "JavaScript",
-      "stars": 22191,
-      "forks": 1234,
+      "stars": 22218,
+      "forks": 1237,
       "homepage": "https://tabler.io/icons",
       "license": "MIT",
       "created_at": "2020-02-27T15:10:04Z",
       "pushed_at": "2026-10-10T00:05:51Z",
-      "updated_at": "2026-10-10T21:14:25Z",
+      "updated_at": "2026-10-11T21:46:34Z",
       "open_issues": 82,
       "summary": "Tabler Icons 是一套面向 Web 项目的高质量 SVG 图标集合，包含超过 6200 个图标，分为轮廓和填充两种风格，所有轮廓图标基于 24x24 网格、2px 描边设计，并可在其他描边宽度下保持良好渲染效果。它解决了开发者在界面中寻找统一、可定制图标资源的问题，图标以纯 SVG 文件形式提供，可直接作为图片、CSS 背景、内联元素或雪碧图使用，内联时还能继承 currentColor，便于通过 CSS 调整大小、颜色和描边。",
-      "last_seen": "2026-10-10",
-      "seen_count": 14,
+      "last_seen": "2026-10-11",
+      "seen_count": 15,
       "added_at": "2026-10-09T10:50:04+00:00",
       "windows": [
         "daily",
@@ -1064,21 +1091,21 @@
       "url": "https://github.com/liyupi/ai-guide",
       "description": "程序员鱼皮的 AI 资源大全 + Vibe Coding 零基础教程，分享 OpenClaw 保姆级教程、大模型玩法（DeepSeek / GPT / Gemini / Claude / GLM）、最新 AI 资讯、Prompt 提示词大全、AI 知识百科（Agent Skills / RAG / MCP / A2A）、AI 编程教程（Harness Engineering）、AI 工具用法（Cursor / Claude Code / TRAE / Codex / Copilot）、AI 开发框架教程（Spring AI / LangChain）、AI 产品变现指南，帮你快速掌握 AI 技术，走在时代前沿。本项目为开源文档 aiguide，已升级为鱼皮 AI 导航网站",
       "language": "JavaScript",
-      "stars": 20949,
-      "forks": 2307,
+      "stars": 20996,
+      "forks": 2308,
       "homepage": "https://ai.codefather.cn",
       "license": "NOASSERTION",
       "created_at": "2025-02-13T05:47:46Z",
       "pushed_at": "2026-09-28T03:09:27Z",
-      "updated_at": "2026-10-10T10:39:03Z",
+      "updated_at": "2026-10-11T19:22:02Z",
       "open_issues": 8,
       "summary": "鱼皮的 AI 知识库（aiguide）是一个免费开放的 AI 知识共享平台，旨在减少信息差，帮助不同背景的人平等获取 AI 工具与认知。它汇总热门 AI 工具的产品介绍、使用指南、测评、技巧、应用场景、变现与行业资讯，并重点提供《Vibe Coding 零基础入门教程》，覆盖基础必读、编程工具选择、项目实战、经验技巧、产品变现、编程学习与资源宝库，还配有视频课程和学习路径推荐。",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-09T11:01:40+00:00",
-      "last_seen": "2026-10-10",
-      "seen_count": 8
+      "last_seen": "2026-10-11",
+      "seen_count": 9
     },
     {
       "owner": "JoeanAmier",
@@ -1087,21 +1114,21 @@
       "url": "https://github.com/JoeanAmier/TikTokDownloader",
       "description": "抖音 / TikTok 平台作品下载/数据采集工具",
       "language": "JavaScript",
-      "stars": 16661,
-      "forks": 2802,
+      "stars": 16697,
+      "forks": 2807,
       "homepage": "https://discord.com/invite/ZYtmgKud9Y",
       "license": "GPL-3.0",
       "created_at": "2022-10-10T14:27:36Z",
       "pushed_at": "2026-09-22T13:49:13Z",
-      "updated_at": "2026-10-10T20:50:00Z",
+      "updated_at": "2026-10-11T20:33:41Z",
       "open_issues": 45,
       "summary": "DouK-Downloader（原 TikTokDownloader）是一款面向抖音与 TikTok 平台的作品下载和数据采集工具，主要解决用户批量获取视频、账号作品、合集及收藏内容的需求。它提供终端交互、Web API 接口两种使用方式，Web UI 模式尚在重构中，并计划在 6.0 版本彻底重构后支持 GUI 或 WebUI。程序支持通过配置文件管理账号，可手动输入、从剪贴板或浏览器读取 Cookie，并内置延时请求机制以降低对平台服务器的影响。用户既可直接下载 Releases 或 Actions 构建的可执行文件开箱即用，也可配置 Python 3.",
       "windows": [
         "monthly"
       ],
       "added_at": "2026-10-09T11:01:40+00:00",
-      "last_seen": "2026-10-10",
-      "seen_count": 9
+      "last_seen": "2026-10-11",
+      "seen_count": 10
     },
     {
       "owner": "mailcow",
@@ -1150,27 +1177,50 @@
       ]
     },
     {
+      "owner": "qist",
+      "name": "tvbox",
+      "full_name": "qist/tvbox",
+      "url": "https://github.com/qist/tvbox",
+      "description": "OK影视、tvbox配置文件，如果喜欢，请Fork自用。使用前请仔细阅读仓库说明，一旦使用将被视为你已了解。",
+      "language": "JavaScript",
+      "stars": 11874,
+      "forks": 4193,
+      "homepage": "",
+      "license": "",
+      "created_at": "2023-08-29T01:07:25Z",
+      "pushed_at": "2026-10-11T05:33:31Z",
+      "updated_at": "2026-10-11T22:19:48Z",
+      "open_issues": 27,
+      "summary": "qist/tvbox 是一套面向 OK影视、TVBox 和猫影视的配置文件集合，主要用 JavaScript 编写，解决的是用户自行搭建影视聚合客户端时缺少可用配置源的问题。仓库提供十余个 JSON 配置，如 0707.json、0821.json、0826.json、js.json、cat.json 等，分别对应不同 jar 包与点播、直播、解析线路组合，其中部分配置需要替换成自己的代理地址。猫影视使用上支持通过 GitHub 或 Gitee 私有仓库导入，V1.1.3 以上版本改用 nodejs 并调整了 proxy 设置，iOS 端用 db 替换 local。",
+      "windows": [
+        "monthly"
+      ],
+      "added_at": "2026-10-11T22:24:12+00:00",
+      "last_seen": "2026-10-11",
+      "seen_count": 1
+    },
+    {
       "owner": "laoma528",
       "name": "awesome-zhuiju-free",
       "full_name": "laoma528/awesome-zhuiju-free",
       "url": "https://github.com/laoma528/awesome-zhuiju-free",
       "description": "免费无广告的追剧资源指南，人工精选资源、每天检测资源有效性。收录在线影视、影视APP、网盘搜索、磁力BT、字幕、TVBox / 影视仓空壳软件/配置地址、IPTV直播源、会员拼团、影视相关开源项目。开源，社区共同维护。",
       "language": "JavaScript",
-      "stars": 11672,
-      "forks": 802,
+      "stars": 11783,
+      "forks": 812,
       "homepage": "https://zhuiju.me",
       "license": "CC-BY-4.0",
       "created_at": "2026-06-05T18:14:45Z",
-      "pushed_at": "2026-10-10T01:38:12Z",
-      "updated_at": "2026-10-10T21:10:36Z",
-      "open_issues": 13,
+      "pushed_at": "2026-10-11T14:03:05Z",
+      "updated_at": "2026-10-11T22:12:53Z",
+      "open_issues": 14,
       "summary": "Awesome Zhuiju Free 是一份免费无广告的追剧资源指南，以 JavaScript 编写并开源，由社区共同维护。它解决的是影视资源链接易失效、质量参差、风险不明的问题：人工精选在线影视、影视 APP、网盘搜索、磁力 BT、字幕、TVBox 与影视仓空壳软件及配置地址、IPTV 直播源、会员拼团和影视相关开源项目，并每天自动检测资源是否可用。每条记录展示推荐指数（由多、快、净、稳四项评分平均得出）、状态、检测时间，以及版权、安全、隐私、支付四类风险标记。资源主数据存于 resources/resources.json，验证与投诉记录分别保留在 reports 目录下。",
       "windows": [
         "monthly"
       ],
       "added_at": "2026-10-09T10:59:47+00:00",
-      "last_seen": "2026-10-10",
-      "seen_count": 10
+      "last_seen": "2026-10-11",
+      "seen_count": 11
     },
     {
       "owner": "WebKit",
@@ -1179,21 +1229,21 @@
       "url": "https://github.com/WebKit/WebKit",
       "description": "Home of the WebKit project, the browser engine used by Safari, Mail, App Store and many other applications on macOS, iOS and Linux.",
       "language": "JavaScript",
-      "stars": 10227,
-      "forks": 2246,
+      "stars": 10228,
+      "forks": 2249,
       "homepage": "",
       "license": "",
       "created_at": "2020-12-11T17:11:43Z",
-      "pushed_at": "2026-10-10T22:23:11Z",
-      "updated_at": "2026-10-10T22:23:17Z",
-      "open_issues": 2833,
+      "pushed_at": "2026-10-11T21:04:39Z",
+      "updated_at": "2026-10-11T21:04:45Z",
+      "open_issues": 2851,
       "summary": "WebKit 是一个跨平台浏览器引擎，为 macOS、iOS 和 Linux 上的 Safari、邮件、App Store 等众多应用提供渲染支持。它解决的核心问题是让应用能够嵌入网页浏览与内容展示能力，而无需自行实现完整的网页解析与渲染逻辑。该项目以 JavaScript 为主要语言，支持 Apple 平台、GTK、WPE 及 Windows 等多个移植版本。",
       "windows": [
         "monthly"
       ],
       "added_at": "2026-10-09T10:59:47+00:00",
-      "last_seen": "2026-10-10",
-      "seen_count": 10
+      "last_seen": "2026-10-11",
+      "seen_count": 11
     },
     {
       "owner": "mnfst",
@@ -1202,13 +1252,13 @@
       "url": "https://github.com/mnfst/awesome-free-llm-apis",
       "description": "List of Permanent Free LLM API  (API Keys)",
       "language": "JavaScript",
-      "stars": 9759,
-      "forks": 1040,
+      "stars": 9877,
+      "forks": 1052,
       "homepage": "",
       "license": "CC0-1.0",
       "created_at": "2026-03-21T18:14:07Z",
-      "pushed_at": "2026-10-10T14:01:47Z",
-      "updated_at": "2026-10-10T22:22:58Z",
+      "pushed_at": "2026-10-11T06:35:27Z",
+      "updated_at": "2026-10-11T22:03:05Z",
       "open_issues": 48,
       "summary": "awesome-free-llm-apis 是一份持续维护的免费大模型 API 清单，专门收录提供永久免费额度、可用于文本推理的接口，帮助开发者在不付费的前提下接入 LLM 能力。清单中的端点大多兼容 OpenAI SDK，每个条目都指向对应厂商的 API Key 申请页面，并按来源分为两类：一类是训练或微调模型的公司自营 API，如 Cohere、Google Gemini、Mistral AI、Z AI；另一类是托管开源权重模型的第三方推理平台，如 Cloudflare Workers AI、Groq、Hugging Face、OpenRouter、NVIDIA NIM、Ollama C。",
       "windows": [
@@ -1216,8 +1266,8 @@
         "monthly"
       ],
       "added_at": "2026-10-09T10:59:47+00:00",
-      "last_seen": "2026-10-10",
-      "seen_count": 10
+      "last_seen": "2026-10-11",
+      "seen_count": 11
     },
     {
       "owner": "DuarteSantos8",
@@ -1226,17 +1276,17 @@
       "url": "https://github.com/DuarteSantos8/openGym",
       "description": "Self-hosted gym & body-weight tracker — plan routines, log workouts (supersets, warm-ups, cardio), see which muscles are trained, fatigued or detrained, import from FitNotes/Strong/Hevy, passkey login. Your data, your server.",
       "language": "JavaScript",
-      "stars": 9196,
-      "forks": 1144,
+      "stars": 9751,
+      "forks": 1204,
       "homepage": "https://opengym.ch",
       "license": "AGPL-3.0",
       "created_at": "2026-07-18T20:41:24Z",
-      "pushed_at": "2026-10-10T16:22:23Z",
-      "updated_at": "2026-10-10T22:19:11Z",
-      "open_issues": 96,
+      "pushed_at": "2026-10-11T00:34:13Z",
+      "updated_at": "2026-10-11T22:21:57Z",
+      "open_issues": 107,
       "summary": "openGym 是一个可自托管的健身与体重追踪应用，用 JavaScript 编写，前端基于 React 19 与 Vite，后端为纯 node:http，数据以 JSON 形式存放在本地 ./data 目录，通过 Docker Compose 一键部署。它解决的是主流健身应用把用户数据锁在厂商服务器、依赖订阅且可能随时关停的问题：所有训练记录、体重与进度照片都留在自己的服务器上，支持 passkey 登录与多设备同步，离线也能使用。",
-      "last_seen": "2026-10-10",
-      "seen_count": 13,
+      "last_seen": "2026-10-11",
+      "seen_count": 14,
       "added_at": "2026-10-09T10:50:04+00:00",
       "windows": [
         "daily",
@@ -1273,13 +1323,13 @@
       "url": "https://github.com/Neet-Nestor/Telegram-Media-Downloader",
       "description": "A script allowing you to download images and videos from Telegram web even if the group restricts downloading.",
       "language": "JavaScript",
-      "stars": 6022,
+      "stars": 6030,
       "forks": 592,
       "homepage": "https://greasyfork.org/scripts/446342-telegram-media-downloader",
       "license": "GPL-3.0",
       "created_at": "2022-06-11T06:20:37Z",
       "pushed_at": "2026-03-09T06:52:52Z",
-      "updated_at": "2026-10-10T10:40:45Z",
+      "updated_at": "2026-10-11T21:00:01Z",
       "open_issues": 73,
       "summary": "Telegram Media Downloader 是一款基于 JavaScript 的用户脚本，用于在 Telegram 网页版中下载图片、GIF、音频和视频，即使所在群组或频道已关闭下载权限也能生效。它通过浏览器扩展管理器（如 Tampermonkey、Violentmonkey 等）安装，支持 Telegram WebK 和 WebZ 两个版本，其中语音消息下载等功能仅在 WebK 版本可用。对于允许保存内容的聊天，脚本不会干预，仍使用官方下载按钮；对于禁止下载的频道，它会重新添加下载按钮，视频下载时右下角还会显示进度条。",
       "windows": [
@@ -1287,8 +1337,8 @@
         "monthly"
       ],
       "added_at": "2026-10-09T10:59:47+00:00",
-      "last_seen": "2026-10-10",
-      "seen_count": 9
+      "last_seen": "2026-10-11",
+      "seen_count": 10
     },
     {
       "owner": "withmarbleapp",
@@ -1297,21 +1347,21 @@
       "url": "https://github.com/withmarbleapp/os-taxonomy",
       "description": "",
       "language": "JavaScript",
-      "stars": 4778,
-      "forks": 830,
+      "stars": 4804,
+      "forks": 831,
       "homepage": "",
       "license": "ODbL-1.0",
       "created_at": "2026-07-08T09:27:48Z",
       "pushed_at": "2026-07-08T14:18:23Z",
-      "updated_at": "2026-10-10T21:54:18Z",
+      "updated_at": "2026-10-11T17:25:21Z",
       "open_issues": 18,
       "summary": "Marble Skill Taxonomy 是一份面向小学阶段学习内容的开放结构化数据集，用 JavaScript 编写，以 UTF-8 JSON 形式存放在 data/ 目录。它把儿童在各学科中需要掌握的知识拆解为 1590 个细粒度“微主题”，覆盖 8 个学科，并用 3221 条有向无环的先修依赖边把它们连成一张学习图谱，每条边标注硬/软依赖及一行理由。每个微主题包含通俗描述、掌握证据标准、类型（概念、程序、表征、语言、元认知）、学科与领域、大致年龄区间，并对齐 NGSS、Common Core、英国国家课程等标准，另有 183 条按学科、领域、年龄段的家长向摘要。",
       "windows": [
         "weekly"
       ],
       "added_at": "2026-10-09T10:59:47+00:00",
-      "last_seen": "2026-10-10",
-      "seen_count": 10
+      "last_seen": "2026-10-11",
+      "seen_count": 11
     },
     {
       "owner": "anthropics",
@@ -1343,21 +1393,21 @@
       "url": "https://github.com/WorldFlowAI/everything-claude-code",
       "description": "Claude Code toolkit - agents, commands, skills, rules, and hooks for productive AI-assisted development",
       "language": "JavaScript",
-      "stars": 4430,
-      "forks": 669,
+      "stars": 4486,
+      "forks": 674,
       "homepage": "",
       "license": "",
       "created_at": "2026-01-23T12:41:36Z",
       "pushed_at": "2026-01-23T12:42:00Z",
-      "updated_at": "2026-10-10T22:20:20Z",
+      "updated_at": "2026-10-11T21:50:25Z",
       "open_issues": 12,
       "summary": "Everything Claude Code 是一套面向 Claude Code 的完整配置集合，由一位 Anthropic 黑客松获胜者整理，包含经过十余个月日常使用打磨的 agents、skills、hooks、commands、rules 和 MCP 配置，可直接作为插件安装或手动复制组件。它主要解决 AI 辅助开发中配置零散、跨平台兼容性差、包管理器识别混乱等问题：所有 hooks 和脚本用 Node.js 重写，支持 Windows、macOS 和 Linux，并能按环境变量、项目配置、package.json、锁文件等优先级自动检测 npm、pnpm、yarn 或 bun。",
       "windows": [
         "monthly"
       ],
       "added_at": "2026-10-09T10:59:47+00:00",
-      "last_seen": "2026-10-10",
-      "seen_count": 10
+      "last_seen": "2026-10-11",
+      "seen_count": 11
     },
     {
       "owner": "fleetbase",
@@ -1366,21 +1416,21 @@
       "url": "https://github.com/fleetbase/fleetbase",
       "description": "Modular logistics and supply chain operating system (LSOS)",
       "language": "JavaScript",
-      "stars": 4276,
-      "forks": 1117,
+      "stars": 4289,
+      "forks": 1123,
       "homepage": "https://fleetbase.io",
       "license": "AGPL-3.0",
       "created_at": "2022-09-23T09:36:08Z",
       "pushed_at": "2026-10-08T07:47:58Z",
-      "updated_at": "2026-10-10T21:38:14Z",
+      "updated_at": "2026-10-11T18:42:47Z",
       "open_issues": 17,
       "summary": "Fleetbase 是一个开源、模块化的物流与供应链操作系统，主要用 JavaScript 编写，旨在让需要运输货物、人员或设备的团队拥有自己掌控的软件。它把调度、车队管理、实时追踪、商贸、仓储和财务整合到一个平台中，并提供 REST API、Webhook 和扩展系统，每个模块既可独立运行又能相互集成。其功能包括看板式订单流转、实时运营地图、自定义订单流程与字段、车辆与司机分配及路线规划、服务区域与地理围栏、店铺与商品目录管理、收入与发票账本，以及可浏览安装免费或付费扩展的市场。",
       "windows": [
         "monthly"
       ],
       "added_at": "2026-10-09T10:59:47+00:00",
-      "last_seen": "2026-10-10",
-      "seen_count": 10
+      "last_seen": "2026-10-11",
+      "seen_count": 11
     },
     {
       "owner": "IRNova",
@@ -1389,21 +1439,21 @@
       "url": "https://github.com/IRNova/Nova-Proxy",
       "description": "یک پنل گرافیکی کاربردی برای ارائه اشتراک‌های Worker با پروکسی‌های ، Trojan و Warp به همراه زنجیره پروکسی، ارائه دهنده تنظیمات کامل DNS، IP تمیز و روتینگ پیشرفته برای کاربران تمامی پلتفرم‌ها با استفاده از هسته‌های Amnezia، Wireguard، Sing-box، Clash/Mihomo و Xray.",
       "language": "JavaScript",
-      "stars": 3356,
-      "forks": 792,
+      "stars": 3362,
+      "forks": 796,
       "homepage": "https://irnova.github.io/Nova-Proxy/Htmel/",
       "license": "NOASSERTION",
       "created_at": "2026-02-19T07:51:56Z",
       "pushed_at": "2026-10-09T13:26:00Z",
-      "updated_at": "2026-10-10T18:08:37Z",
+      "updated_at": "2026-10-11T19:36:53Z",
       "open_issues": 16,
       "summary": "Nova Proxy 是一个运行在 Cloudflare Workers 上的自托管代理面板，用户将其部署到自己的免费 Cloudflare 账户，从而独享带宽、域名与数据，无需共享服务器或中间商。它主要面向伊朗等高审查网络环境，帮助用户搭建抗封锁的代理服务。核心能力包括多用户管理（配额、到期、每日限额及独立订阅链接）、针对伊朗等网络的路由预设、浏览器内扫描最快 Cloudflare 干净 IP 的 Nova Radar、支持 Auto/Base64/Clash 的通用配置格式、可选的 WARP 节点以支持 UDP 通话、同时承载 VLESS 与 Trojan 的混合协议链接、GitHub。",
       "windows": [
         "weekly"
       ],
       "added_at": "2026-10-09T11:01:40+00:00",
-      "last_seen": "2026-10-10",
-      "seen_count": 9
+      "last_seen": "2026-10-11",
+      "seen_count": 10
     },
     {
       "owner": "chuspeeism",
@@ -1435,21 +1485,21 @@
       "url": "https://github.com/chaolucky18/xuexitongScript",
       "description": "学习通自动刷课脚本",
       "language": "JavaScript",
-      "stars": 2782,
-      "forks": 362,
+      "stars": 2804,
+      "forks": 368,
       "homepage": "",
       "license": "",
       "created_at": "2020-03-08T08:08:37Z",
       "pushed_at": "2026-07-13T09:54:25Z",
-      "updated_at": "2026-10-10T19:48:36Z",
+      "updated_at": "2026-10-11T17:11:11Z",
       "open_issues": 44,
       "summary": "xuexitongScript 是一个用 JavaScript 编写的学习通自动刷课脚本，当前以 v3_optimized.js 为唯一源码，油猴版本由构建脚本生成。它主要解决视频课程的自动播放与章节切换问题：进入视频页后自动识别 iframe 中的视频元素并调用 play()，播放中断时尝试恢复，普通播放失败则改用静音播放；视频结束后通过 nextUnit() 定位并进入下一小节；若先进入“学习目标”页，会点击顶部“2视频”标签切换到视频步骤；遇到章节测验页面则尝试受限跳转，最多三次以防循环。",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-09T11:01:40+00:00",
-      "last_seen": "2026-10-10",
-      "seen_count": 9
+      "last_seen": "2026-10-11",
+      "seen_count": 10
     },
     {
       "owner": "kanoqwq",
@@ -1458,21 +1508,21 @@
       "url": "https://github.com/kanoqwq/UFI-TOOLS",
       "description": "A functional tools for z*e devices (F50 | U30 Air)",
       "language": "JavaScript",
-      "stars": 2674,
-      "forks": 290,
+      "stars": 2704,
+      "forks": 301,
       "homepage": "",
       "license": "MIT",
       "created_at": "2025-03-21T01:13:27Z",
       "pushed_at": "2026-10-09T18:16:42Z",
-      "updated_at": "2026-10-10T10:37:04Z",
+      "updated_at": "2026-10-11T15:50:17Z",
       "open_issues": 38,
       "summary": "UFI-TOOLS 是一款面向中兴随身 WiFi（F50、U30 Air 等）及展锐/紫光平台 Android 设备的系统管理与扩展工具，主要用 JavaScript 编写。它针对这类设备原生管理能力有限的问题，提供远程管理、信号监控、系统控制和插件扩展等功能。核心能力包括免重启锁频段与锁小区、3G/4G/5G 网络模式切换、RSRP/SINR/PCI 等信号指标实时监测、短信收发与自动转发、内置 AT 命令终端、SSH 远程访问，以及一键获取系统权限、CPU 核心控制和电池定量停充等高级操作。",
       "windows": [
         "weekly"
       ],
       "added_at": "2026-10-09T10:59:47+00:00",
-      "last_seen": "2026-10-10",
-      "seen_count": 10
+      "last_seen": "2026-10-11",
+      "seen_count": 11
     },
     {
       "owner": "aunetx",
@@ -1504,22 +1554,22 @@
       "url": "https://github.com/hughhowey/neo",
       "description": "A novel-writing tool created by a novelist.",
       "language": "JavaScript",
-      "stars": 1391,
-      "forks": 178,
+      "stars": 1410,
+      "forks": 180,
       "homepage": "",
       "license": "MIT",
       "created_at": "2026-08-07T14:26:38Z",
       "pushed_at": "2026-10-09T19:43:21Z",
-      "updated_at": "2026-10-10T22:01:17Z",
-      "open_issues": 48,
+      "updated_at": "2026-10-11T21:49:13Z",
+      "open_issues": 55,
       "summary": "NEO 是一款由小说作者开发、面向长篇写作者的本地写作工具，基于 Electron 与 JavaScript 构建，运行于 macOS、Windows 和 Linux。它针对写作软件功能臃肿、干扰多的问题，把界面简化为一张白纸：回车分段、两下回车生成分节符、三下回车新建章节，章节自动编号，破折号、省略号和弯引号随输入自动转换。书稿以纯文件形式保存在本地 NEO Library 文件夹中，无需账号或订阅。核心功能包括书架式书库管理、索引卡大纲、Darlings 暂存段落、占位符待办、每日字数目标与进度图、封面生成，以及将多个书架绑定为合集。",
       "windows": [
         "weekly",
         "monthly"
       ],
       "added_at": "2026-10-09T10:59:47+00:00",
-      "last_seen": "2026-10-10",
-      "seen_count": 10
+      "last_seen": "2026-10-11",
+      "seen_count": 11
     },
     {
       "owner": "androoAGI",
@@ -1528,21 +1578,21 @@
       "url": "https://github.com/androoAGI/starnet",
       "description": "A living pixel-art station where real AI agents do real work. Local-first desktop agent harness - bring your own key, watch your crew actually run.",
       "language": "JavaScript",
-      "stars": 1318,
-      "forks": 251,
+      "stars": 1342,
+      "forks": 256,
       "homepage": "https://github.com/androoAGI/starnet-releases/releases/latest",
       "license": "MIT",
       "created_at": "2026-06-14T23:11:55Z",
       "pushed_at": "2026-10-09T04:35:03Z",
-      "updated_at": "2026-10-10T22:22:13Z",
-      "open_issues": 57,
+      "updated_at": "2026-10-11T21:49:07Z",
+      "open_issues": 58,
       "summary": "StarNet 是一个本地优先的桌面 AI 代理运行框架，用 JavaScript 编写，界面呈现为像素风格的太空站。它要解决的问题是让多个 AI 代理真正执行任务，而非播放模拟动画：模型调用通过本地 Node sidecar 流式进行，工具调用经过明确的能力与授权检查，代理的记忆、对话记录、花费、任务与日程都持久化在磁盘上。其核心设计原则是界面不得声称框架无法证明的状态，房间代表限定能力的团队，走廊代表授权的交接通道，摆放的物体对应真实的能力授予，画出的布局就是代理实际运行的工作流。多个代理可并发运行，各自拥有独立工作区和受限权限。",
       "windows": [
         "weekly"
       ],
       "added_at": "2026-10-09T10:59:47+00:00",
-      "last_seen": "2026-10-10",
-      "seen_count": 10
+      "last_seen": "2026-10-11",
+      "seen_count": 11
     },
     {
       "owner": "akiralereal",
@@ -1635,6 +1685,30 @@
       "windows": [
         "daily"
       ]
+    },
+    {
+      "owner": "MiaAI-Lab",
+      "name": "sparkDash",
+      "full_name": "MiaAI-Lab/sparkDash",
+      "url": "https://github.com/MiaAI-Lab/sparkDash",
+      "description": "sparkDash ⚡ — Multi-DGX Spark Monitoring Dashboard",
+      "language": "JavaScript",
+      "stars": 659,
+      "forks": 132,
+      "homepage": "https://mia-ai.net",
+      "license": "Apache-2.0",
+      "created_at": "2026-07-19T18:35:36Z",
+      "pushed_at": "2026-10-11T14:06:22Z",
+      "updated_at": "2026-10-11T22:17:24Z",
+      "open_issues": 14,
+      "summary": "sparkDash 是一个面向 NVIDIA DGX Spark（GB10）的实时监控面板，用 JavaScript 编写，可在单个浏览器窗口中同时查看一台或多台设备。它通过 SSH 采集并流式展示 GPU、CPU、统一内存、存储、网络以及本地大模型推理等指标，并允许在界面上直接添加、编辑、排序或删除被监控主机，无需重启或改动代码。除 Spark 外，任何装有 NVIDIA GPU 的 Linux 机器都可作为独立 GPU 主机接入，面板会区分系统内存与显存；被监控端也可运行 Linux、macOS 或 Windows。",
+      "windows": [
+        "daily",
+        "weekly"
+      ],
+      "added_at": "2026-10-11T22:24:12+00:00",
+      "last_seen": "2026-10-11",
+      "seen_count": 1
     }
   ]
 }

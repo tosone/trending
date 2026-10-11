@@ -6,9 +6,9 @@
     "weekly",
     "monthly"
   ],
-  "generated_at": "2026-10-10T22:24:58+00:00",
+  "generated_at": "2026-10-11T22:25:28+00:00",
   "first_at": "2026-10-09T11:23:29+00:00",
-  "count": 64,
+  "count": 65,
   "added": 1,
   "repos": [
     {
@@ -110,22 +110,22 @@
       "url": "https://github.com/mattpocock/skills",
       "description": "Skills for Real Engineers. Straight from my .agents directory.",
       "language": "Shell",
-      "stars": 284363,
-      "forks": 23803,
+      "stars": 286120,
+      "forks": 24001,
       "homepage": "https://aihero.dev/skills",
       "license": "MIT",
       "created_at": "2026-02-03T11:15:53Z",
       "pushed_at": "2026-10-09T10:57:08Z",
-      "updated_at": "2026-10-10T22:24:26Z",
-      "open_issues": 164,
+      "updated_at": "2026-10-11T22:24:05Z",
+      "open_issues": 166,
       "summary": "面向真实工程而非“氛围编程”的 AI 代理技能集，来自作者日常使用的 .agents 目录，以 Shell 编写。它针对四类常见失败：需求错位、代理输出冗长、代码不可用、代码库退化为泥球。核心做法是用 /grill-me 和 /grill-with-docs 在动手前对齐意图并建立共享语言与 ADR，用 /tdd 的 red-green-refactor 循环和 /diagnosing-bugs 的诊断回路补齐反馈，用 /to-spec、/to-tickets、/implement 等把对话转成规格与工单并驱动实现，用 /improve-codebase-architecture 定期扫描深。",
       "windows": [
         "daily",
         "weekly"
       ],
       "added_at": "2026-10-09T11:23:29+00:00",
-      "last_seen": "2026-10-10",
-      "seen_count": 7
+      "last_seen": "2026-10-11",
+      "seen_count": 8
     },
     {
       "owner": "996icu",
@@ -318,22 +318,22 @@
       "url": "https://github.com/flutter/flutter",
       "description": "Flutter makes it easy and fast to build beautiful apps for mobile and beyond",
       "language": "Dart",
-      "stars": 179482,
-      "forks": 33587,
+      "stars": 179789,
+      "forks": 33761,
       "homepage": "https://flutter.dev",
       "license": "BSD-3-Clause",
       "created_at": "2015-03-06T22:54:58Z",
-      "pushed_at": "2026-10-10T21:53:27Z",
-      "updated_at": "2026-10-10T22:24:56Z",
-      "open_issues": 13319,
+      "pushed_at": "2026-10-11T17:34:14Z",
+      "updated_at": "2026-10-11T22:16:32Z",
+      "open_issues": 13338,
       "summary": "Flutter 是 Google 推出的开源 SDK，用单一代码库为移动端、Web 和桌面端构建界面。它解决的是跨平台开发中体验不一致、重复编写代码的问题，让开发者用一套 Dart 代码同时面向 iOS、Android、Web、Windows、macOS 和 Linux，也能作为其他平台的 UI 工具包嵌入。其核心能力包括分层架构与合成机制，可精细控制每个像素并自由叠加动画、视频、文本和控件；内置 Cupertino 与 Material 等完整组件库，支持自定义视觉组件。",
       "windows": [
         "daily",
         "weekly"
       ],
       "added_at": "2026-10-09T12:39:41+00:00",
-      "last_seen": "2026-10-10",
-      "seen_count": 2
+      "last_seen": "2026-10-11",
+      "seen_count": 3
     },
     {
       "owner": "github",
@@ -1143,6 +1143,29 @@
       "seen_count": 1
     },
     {
+      "owner": "chrislgarry",
+      "name": "Apollo-11",
+      "full_name": "chrislgarry/Apollo-11",
+      "url": "https://github.com/chrislgarry/Apollo-11",
+      "description": "Original Apollo 11 Guidance Computer (AGC) source code for the command and lunar modules.",
+      "language": "Assembly",
+      "stars": 74197,
+      "forks": 8099,
+      "homepage": "",
+      "license": "NOASSERTION",
+      "created_at": "2014-04-03T15:45:02Z",
+      "pushed_at": "2026-07-15T02:29:53Z",
+      "updated_at": "2026-10-11T22:24:48Z",
+      "open_issues": 146,
+      "summary": "Apollo-11 仓库保存了阿波罗 11 号任务中指令舱与登月舱制导计算机（AGC）的原始汇编源码，分别对应 Comanche055（Colossus 2A）和 Luminary099（Luminary 1A）两个程序版本。这些代码由 Virtual AGC 与 MIT 博物馆完成数字化转录，目标是汇集并核对原始扫描件与转录文本之间的差异，便于研究者与爱好者查阅、比对和提交修正。仓库主要使用 Assembly 语言，并提供了 CONTRIBUTING.md 说明贡献流程；若需编译原始源码，可参考 Virtual AGC 项目。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-09T12:39:41+00:00",
+      "last_seen": "2026-10-11",
+      "seen_count": 2
+    },
+    {
       "owner": "danielmiessler",
       "name": "SecLists",
       "full_name": "danielmiessler/SecLists",
@@ -1227,29 +1250,6 @@
       "updated_at": "2026-10-09T06:35:27Z",
       "open_issues": 90,
       "summary": "Awesome Vue.js 是一份围绕 Vue.js 生态整理的中文可参考资源清单，主要解决开发者在学习、选型和日常开发中难以快速找到可靠资料与工具的问题。它按类别收录了官方文档、API 参考、风格指南、新闻通讯、招聘信息、社区与会议渠道，以及大量教程、示例、书籍、课程和博客文章。核心部分覆盖组件与库，包括 UI 布局、表格、通知、图表、日历、地图、表单、富文本编辑、文件上传等，还涉及路由、状态管理、GraphQL、TypeScript、HTTP 请求、国际化、WebSocket、支付集成、开发工具和脚手架等方向。",
-      "windows": [
-        "daily"
-      ],
-      "added_at": "2026-10-09T12:39:41+00:00",
-      "last_seen": "2026-10-09",
-      "seen_count": 1
-    },
-    {
-      "owner": "chrislgarry",
-      "name": "Apollo-11",
-      "full_name": "chrislgarry/Apollo-11",
-      "url": "https://github.com/chrislgarry/Apollo-11",
-      "description": "Original Apollo 11 Guidance Computer (AGC) source code for the command and lunar modules.",
-      "language": "Assembly",
-      "stars": 72943,
-      "forks": 8033,
-      "homepage": "",
-      "license": "NOASSERTION",
-      "created_at": "2014-04-03T15:45:02Z",
-      "pushed_at": "2026-07-15T02:29:53Z",
-      "updated_at": "2026-10-09T12:38:24Z",
-      "open_issues": 134,
-      "summary": "Apollo-11 仓库保存了阿波罗 11 号任务中指令舱与登月舱制导计算机（AGC）的原始汇编源码，分别对应 Comanche055（Colossus 2A）和 Luminary099（Luminary 1A）两个程序版本。这些代码由 Virtual AGC 与 MIT 博物馆完成数字化转录，目标是汇集并核对原始扫描件与转录文本之间的差异，便于研究者与爱好者查阅、比对和提交修正。仓库主要使用 Assembly 语言，并提供了 CONTRIBUTING.md 说明贡献流程；若需编译原始源码，可参考 Virtual AGC 项目。",
       "windows": [
         "daily"
       ],
@@ -1449,21 +1449,44 @@
       "url": "https://github.com/cathrynlavery/diagram-design",
       "description": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, and Pi. 44 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
       "language": "HTML",
-      "stars": 48863,
-      "forks": 3090,
+      "stars": 50226,
+      "forks": 3190,
       "homepage": "https://cathrynlavery.github.io/diagram-design/",
       "license": "MIT",
       "created_at": "2026-04-16T18:01:16Z",
       "pushed_at": "2026-10-10T21:10:14Z",
-      "updated_at": "2026-10-10T22:23:00Z",
-      "open_issues": 83,
+      "updated_at": "2026-10-11T22:24:32Z",
+      "open_issues": 87,
       "summary": "diagram-design 是一套面向 Claude Code、Codex、GitHub Copilot、Factory Droid、Pi 等 Agent Skills 兼容宿主的编辑级图表设计技能，用自包含的 HTML + SVG 输出，无需构建步骤、JavaScript 或外部图片依赖。它针对的是 AI 生成图表常见的圆角方框套路和风格不统一问题，提供 42 种图表类型，涵盖架构图、流程图、时序图、ER 图、泳道图、甘特图、桑基图、鱼骨图、Wardley 地图、看板、用户旅程、UML 类图、数据库模式等，每种都附带极简浅色、极简深色和完整编辑三种静态变体，可直接在浏览器打开。",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-09T11:23:29+00:00",
-      "last_seen": "2026-10-10",
-      "seen_count": 6
+      "last_seen": "2026-10-11",
+      "seen_count": 7
+    },
+    {
+      "owner": "lyogavin",
+      "name": "airllm",
+      "full_name": "lyogavin/airllm",
+      "url": "https://github.com/lyogavin/airllm",
+      "description": "AirLLM 70B inference with single 4GB GPU",
+      "language": "Jupyter Notebook",
+      "stars": 36416,
+      "forks": 3816,
+      "homepage": "",
+      "license": "Apache-2.0",
+      "created_at": "2023-06-12T16:28:41Z",
+      "pushed_at": "2026-10-11T06:19:49Z",
+      "updated_at": "2026-10-11T22:23:00Z",
+      "open_issues": 160,
+      "summary": "AirLLM 是一个用于大语言模型推理与微调的开源工具，核心思路是每次只在 GPU 上保留一个解码层，显存占用取决于单层大小而非模型总规模，因此无需量化、蒸馏或剪枝即可在单张 4GB 显卡上运行 70B 模型，甚至让 Kimi K3、DeepSeek-V3 等超大模型在数 GB 显存内跑起来。它支持 Llama、Qwen、DeepSeek、Mistral、Gemma、ChatGLM 等主流模型家族，通过 AutoModel 一行代码调用，并提供 4bit/8bit 分块量化压缩以提速约三倍、预取重叠加载与计算、CPU 推理和 MacOS 支持。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-11T22:25:28+00:00",
+      "last_seen": "2026-10-11",
+      "seen_count": 1
     },
     {
       "owner": "twostraws",

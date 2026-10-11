@@ -6,10 +6,10 @@
     "weekly",
     "monthly"
   ],
-  "generated_at": "2026-10-10T22:23:57+00:00",
+  "generated_at": "2026-10-11T22:26:19+00:00",
   "first_at": "2026-10-09T11:22:02+00:00",
-  "count": 64,
-  "added": 15,
+  "count": 70,
+  "added": 0,
   "repos": [
     {
       "owner": "krahets",
@@ -18,21 +18,21 @@
       "url": "https://github.com/krahets/hello-algo",
       "description": "《Hello 算法》：动画图解、一键运行的数据结构与算法教程。支持简中、繁中、English、日本語，提供 Python, Java, C++, C, C#, JS, Go, Swift, Rust, Ruby, Kotlin, TS, Dart 等代码实现",
       "language": "Java",
-      "stars": 130487,
-      "forks": 15502,
+      "stars": 130550,
+      "forks": 15503,
       "homepage": "https://www.hello-algo.com",
       "license": "NOASSERTION",
       "created_at": "2022-11-04T11:08:34Z",
-      "pushed_at": "2026-08-17T20:58:58Z",
-      "updated_at": "2026-10-09T12:25:39Z",
-      "open_issues": 42,
+      "pushed_at": "2026-10-10T21:51:10Z",
+      "updated_at": "2026-10-11T20:11:46Z",
+      "open_issues": 18,
       "summary": "《Hello 算法》是一本面向数据结构与算法初学者的开源免费教程，通过动画图解降低理解门槛，内容覆盖基础概念与底层实现。它解决了新手学习算法时资料晦涩、代码难以运行的问题，所有源代码支持一键运行，便于读者在动手练习中掌握算法原理。教程提供简体中文、繁体中文、英文、日文和俄文版本，并附有 Python、Java、C++、C、C#、JavaScript、Go、Swift、Rust、Ruby、Kotlin、TypeScript、Dart 等十余种编程语言的代码实现，适合算法入门者、在校学生及需要多语言参考的开发者使用。",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-09T12:39:32+00:00",
-      "last_seen": "2026-10-09",
-      "seen_count": 1
+      "last_seen": "2026-10-11",
+      "seen_count": 2
     },
     {
       "owner": "iluwatar",
@@ -41,21 +41,21 @@
       "url": "https://github.com/iluwatar/java-design-patterns",
       "description": "Design patterns implemented in Java",
       "language": "Java",
-      "stars": 94771,
-      "forks": 27370,
+      "stars": 94779,
+      "forks": 27362,
       "homepage": "https://java-design-patterns.com",
       "license": "NOASSERTION",
       "created_at": "2014-08-09T16:45:18Z",
       "pushed_at": "2026-10-08T12:44:21Z",
-      "updated_at": "2026-10-09T11:34:19Z",
-      "open_issues": 137,
+      "updated_at": "2026-10-11T20:27:26Z",
+      "open_issues": 141,
       "summary": "Java Design Patterns 是一个用 Java 实现经典设计模式的代码示例库，面向希望理解并应用设计模式的开发者。它解决的是设计模式学习过程中概念抽象、缺少可运行参考的问题，通过社区中经验丰富的程序员和架构师编写的源码，展示每种模式的具体实现方式。代码注释详尽，可作为编程教程使用，并基于主流开源 Java 技术构建。项目按创建型、行为型等类别组织，也支持按名称、性能或四人帮等标签检索，便于快速定位。适合在架构设计或系统开发时参考，帮助避免常见隐患、提升代码可读性。项目同时提供电子书，并鼓励开发者通过开发者 wiki 和聊天室参与贡献。",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-09T12:39:32+00:00",
-      "last_seen": "2026-10-09",
-      "seen_count": 1
+      "last_seen": "2026-10-11",
+      "seen_count": 2
     },
     {
       "owner": "macrozheng",
@@ -87,14 +87,14 @@
       "url": "https://github.com/NationalSecurityAgency/ghidra",
       "description": "Ghidra is a software reverse engineering (SRE) framework",
       "language": "Java",
-      "stars": 82700,
-      "forks": 9189,
+      "stars": 83408,
+      "forks": 9279,
       "homepage": "",
       "license": "Apache-2.0",
       "created_at": "2019-03-01T03:27:48Z",
       "pushed_at": "2026-10-09T10:30:16Z",
-      "updated_at": "2026-10-10T22:06:26Z",
-      "open_issues": 1994,
+      "updated_at": "2026-10-11T22:23:48Z",
+      "open_issues": 2042,
       "summary": "Ghidra 是由美国国家安全局研究理事会创建并维护的软件逆向工程框架，采用 Java 编写。它面向复杂逆向工程中的规模化与团队协作问题，提供可定制、可扩展的分析平台。其核心能力包括反汇编、汇编、反编译、图形化展示和脚本编写，支持多种处理器指令集与可执行格式，并可在交互与自动化两种模式下运行。用户能使用 Java 或 Python 开发自定义扩展组件和脚本。该框架可在 Windows、macOS 和 Linux 上运行，常用于分析恶意代码、挖掘网络与系统潜在漏洞。",
       "windows": [
         "daily",
@@ -102,8 +102,8 @@
         "monthly"
       ],
       "added_at": "2026-10-09T11:22:02+00:00",
-      "last_seen": "2026-10-10",
-      "seen_count": 7
+      "last_seen": "2026-10-11",
+      "seen_count": 8
     },
     {
       "owner": "spring-projects",
@@ -112,22 +112,22 @@
       "url": "https://github.com/spring-projects/spring-boot",
       "description": "Spring Boot helps you to create Spring-powered, production-grade applications and services with absolute minimum fuss.",
       "language": "Java",
-      "stars": 81582,
-      "forks": 44527,
+      "stars": 81586,
+      "forks": 44627,
       "homepage": "https://spring.io/projects/spring-boot",
       "license": "Apache-2.0",
       "created_at": "2012-10-19T15:02:57Z",
       "pushed_at": "2026-10-08T14:06:52Z",
-      "updated_at": "2026-10-10T19:07:46Z",
-      "open_issues": 498,
+      "updated_at": "2026-10-11T20:13:30Z",
+      "open_issues": 501,
       "summary": "Spring Boot 是 Spring 生态中用于快速构建生产级应用和服务的框架，基于 Java 编写。它通过对 Spring 平台采取约定优于配置的立场，解决传统 Spring 开发中配置繁琐、上手门槛高的问题，让开发者能迅速聚焦到真正需要的部分。其核心特点包括：提供更快且易于获取的入门体验，在默认配置不适用时可快速让路，并内置嵌入式服务器、安全、指标、健康检查、外部化配置等大型项目常见的非功能性能力，同时完全不依赖代码生成和 XML 配置。使用它既能创建通过 java -jar 启动的独立 Java 应用，也能进行传统的 WAR 部署，还提供运行 Spring 脚本的命令行工具。",
       "windows": [
         "weekly",
         "monthly"
       ],
       "added_at": "2026-10-09T11:22:02+00:00",
-      "last_seen": "2026-10-10",
-      "seen_count": 7
+      "last_seen": "2026-10-11",
+      "seen_count": 8
     },
     {
       "owner": "doocs",
@@ -159,22 +159,22 @@
       "url": "https://github.com/elastic/elasticsearch",
       "description": "Free and Open Source, Distributed, RESTful Search Engine",
       "language": "Java",
-      "stars": 78224,
-      "forks": 26116,
+      "stars": 78229,
+      "forks": 26119,
       "homepage": "https://www.elastic.co/products/elasticsearch",
       "license": "NOASSERTION",
       "created_at": "2010-02-08T13:20:56Z",
-      "pushed_at": "2026-10-10T17:40:18Z",
-      "updated_at": "2026-10-10T21:53:12Z",
-      "open_issues": 6171,
+      "pushed_at": "2026-10-11T21:41:26Z",
+      "updated_at": "2026-10-11T21:47:30Z",
+      "open_issues": 6174,
       "summary": "Elasticsearch 是一个用 Java 编写的分布式搜索与分析引擎，同时也可作为可扩展的数据存储和向量数据库，针对生产级工作负载的速度与相关性进行了优化。它基于 RESTful 接口，支持通过任意 HTTP 客户端或官方语言客户端（如 Python）发送请求，数据以 JSON 文档形式索引，可近实时地搜索海量数据集。其核心能力包括全文检索、向量搜索、日志与指标处理、应用性能监控和安全日志分析，并可与生成式 AI 应用集成，支持检索增强生成等场景。",
       "windows": [
         "daily",
         "monthly"
       ],
       "added_at": "2026-10-09T11:22:02+00:00",
-      "last_seen": "2026-10-10",
-      "seen_count": 7
+      "last_seen": "2026-10-11",
+      "seen_count": 8
     },
     {
       "owner": "MisterBooo",
@@ -252,22 +252,23 @@
       "url": "https://github.com/termux/termux-app",
       "description": "Termux - a terminal emulator application for Android OS extendible by variety of packages.",
       "language": "Java",
-      "stars": 62355,
-      "forks": 7838,
+      "stars": 62406,
+      "forks": 7859,
       "homepage": "https://f-droid.org/en/packages/com.termux",
       "license": "NOASSERTION",
       "created_at": "2015-10-23T09:42:46Z",
       "pushed_at": "2026-09-26T05:11:44Z",
-      "updated_at": "2026-10-10T22:12:32Z",
+      "updated_at": "2026-10-11T21:42:55Z",
       "open_issues": 634,
       "summary": "Termux 是一款面向 Android 系统的终端模拟器应用，同时提供 Linux 环境，使用 Java 开发。它让用户在移动设备上获得命令行操作能力，并通过安装各类软件包扩展功能。应用本身负责用户界面和终端模拟，可安装的软件包则由独立的 termux-packages 仓库维护。核心应用还配有 API、Boot、Float、Styling、Tasker、Widget 等可选插件。安装来源包括 F-Droid、GitHub Releases 和 Google Play 实验分支，不同来源的 APK 使用不同签名密钥，因共享 sharedUserId 而不可混装。",
       "windows": [
+        "daily",
         "weekly",
         "monthly"
       ],
       "added_at": "2026-10-09T11:22:02+00:00",
-      "last_seen": "2026-10-10",
-      "seen_count": 6
+      "last_seen": "2026-10-11",
+      "seen_count": 7
     },
     {
       "owner": "dbeaver",
@@ -299,21 +300,21 @@
       "url": "https://github.com/skylot/jadx",
       "description": "Dex to Java decompiler",
       "language": "Java",
-      "stars": 50822,
-      "forks": 5794,
+      "stars": 50837,
+      "forks": 5797,
       "homepage": "",
       "license": "Apache-2.0",
       "created_at": "2013-03-18T17:08:21Z",
-      "pushed_at": "2026-10-10T21:57:08Z",
-      "updated_at": "2026-10-10T21:57:42Z",
-      "open_issues": 455,
+      "pushed_at": "2026-10-10T23:29:52Z",
+      "updated_at": "2026-10-11T19:27:43Z",
+      "open_issues": 450,
       "summary": "jadx 是一款用 Java 编写的 Dex 到 Java 反编译器，提供命令行和图形界面两种工具，用于从 Android 的 Dex 和 Apk 文件中生成 Java 源代码。它主要解决 Android 应用逆向分析中阅读字节码困难的问题，可将 APK、dex、aar、aab 和 zip 文件中的 Dalvik 字节码反编译为 Java 代码，并能解码 AndroidManifest.xml 及 resources.arsc 中的资源，还内置了反混淆器。其图形界面 jadx-gui 支持语法高亮、跳转到声明、查找用法、全文搜索以及 smali 调试器。",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-10T22:23:57+00:00",
-      "last_seen": "2026-10-10",
-      "seen_count": 1
+      "last_seen": "2026-10-11",
+      "seen_count": 2
     },
     {
       "owner": "ReactiveX",
@@ -345,21 +346,21 @@
       "url": "https://github.com/jeecgboot/JeecgBoot",
       "description": "【低代码v2.0，一句话即可生成整个系统】企业级AI低代码平台，一键生成前后端代码甚至整个系统。 AI Skills 一句话画流程、设计表单、生成报表、大屏。内置 AI应用平台涵盖：AI聊天、知识库、流程编排、MCP插件等，兼容主流大模型。引领AI低代码「Skills 生成 → 在线配置 → 代码生成 → 手工合并->AI修改」开发模式，解决 Java 项目 90% 重复工作，提高效率又不失灵活。",
       "language": "Java",
-      "stars": 48147,
-      "forks": 16214,
+      "stars": 48174,
+      "forks": 16213,
       "homepage": "https://jeecg.com",
       "license": "Apache-2.0",
       "created_at": "2018-11-26T10:40:00Z",
       "pushed_at": "2026-09-22T14:26:15Z",
-      "updated_at": "2026-10-10T19:21:29Z",
+      "updated_at": "2026-10-11T20:48:14Z",
       "open_issues": 55,
       "summary": "JeecgBoot 是一款企业级 AI 低代码开发平台，以低代码开发、AI 应用平台和 AI 知识库为核心能力，主要解决 Java 项目中大量重复性开发工作的问题。平台通过 AI Skills 支持用自然语言一句话生成完整系统或业务模块，自动完成建表、前后端 CRUD 代码、菜单权限配置和页面渲染，并引领“AI 生成、在线配置、代码生成、手工合并”的开发模式，在提升效率的同时保留源码级扩展能力。其核心能力包括零代码在线应用搭建、支持单表与树表等多种模型的代码生成器、AI 流程编排、MCP 插件、知识库问答以及报表和大屏设计，兼容 ChatGPT、DeepSeek、Ollama 等主流大模型。",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-09T11:22:02+00:00",
-      "last_seen": "2026-10-10",
-      "seen_count": 6
+      "last_seen": "2026-10-11",
+      "seen_count": 7
     },
     {
       "owner": "TeamNewPipe",
@@ -368,21 +369,21 @@
       "url": "https://github.com/TeamNewPipe/NewPipe",
       "description": "A libre lightweight streaming front-end for Android.",
       "language": "Java",
-      "stars": 40047,
-      "forks": 3859,
+      "stars": 40071,
+      "forks": 3862,
       "homepage": "https://newpipe.net",
       "license": "GPL-3.0",
       "created_at": "2015-09-03T23:39:26Z",
-      "pushed_at": "2026-10-09T11:09:42Z",
-      "updated_at": "2026-10-10T22:17:08Z",
-      "open_issues": 1467,
+      "pushed_at": "2026-10-11T16:55:16Z",
+      "updated_at": "2026-10-11T22:15:03Z",
+      "open_issues": 1463,
       "summary": "NewPipe 是一款面向 Android 的自由轻量流媒体前端，用 Java 编写，目前处于测试阶段。它解决的是用户在不登录账号、不依赖 Google Play 服务等专有框架的情况下观看和收听网络媒体的问题：应用优先调用服务的官方 API，若接口受限或专有则解析网站或使用内部 API，因此无需注册即可使用。它支持 YouTube、YouTube Music、PeerTube、Bandcamp、SoundCloud 和 media.ccc.",
       "windows": [
         "weekly"
       ],
       "added_at": "2026-10-09T11:22:02+00:00",
-      "last_seen": "2026-10-10",
-      "seen_count": 7
+      "last_seen": "2026-10-11",
+      "seen_count": 8
     },
     {
       "owner": "YunaiV",
@@ -391,21 +392,21 @@
       "url": "https://github.com/YunaiV/ruoyi-vue-pro",
       "description": "🔥 官方推荐 🔥 RuoYi-Vue 全新 Pro 版本，优化重构所有功能。基于 Spring Boot + MyBatis Plus + Vue & Element 实现的后台管理系统 + 微信小程序，支持 RBAC 动态权限、数据权限、SaaS 多租户、Flowable 工作流、三方登录、支付、短信、商城、CRM、ERP、MES、IM、AI 大模型、IoT 物联网等功能。你的 ⭐️ Star ⭐️，是作者生发的动力！",
       "language": "Java",
-      "stars": 39640,
-      "forks": 8552,
+      "stars": 39663,
+      "forks": 8557,
       "homepage": "https://doc.iocoder.cn/",
       "license": "MIT",
       "created_at": "2021-01-24T03:18:25Z",
       "pushed_at": "2026-10-09T04:42:29Z",
-      "updated_at": "2026-10-10T17:20:29Z",
+      "updated_at": "2026-10-11T20:54:09Z",
       "open_issues": 27,
       "summary": "芋道 ruoyi-vue-pro 是基于 RuoYi-Vue 重构优化的开源后台管理系统，采用 Spring Boot 多模块架构与 MyBatis Plus、Redis，前端提供 Vue3 的 element-plus、vben 版本及 Vue2 的 element-ui 版本，移动端用 uni-app 一套代码适配 APP、小程序和 H5。它解决的是企业级应用从权限、流程到业务模块的重复搭建问题，内置 RBAC 动态权限、数据权限、SaaS 多租户、Flowable 工作流、代码生成器、WebSocket 实时通信，并集成三方登录、支付退款、短信与云存储。",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-09T11:22:02+00:00",
-      "last_seen": "2026-10-10",
-      "seen_count": 6
+      "last_seen": "2026-10-11",
+      "seen_count": 7
     },
     {
       "owner": "keycloak",
@@ -414,22 +415,22 @@
       "url": "https://github.com/keycloak/keycloak",
       "description": "Open Source Identity and Access Management For Modern Applications and Services",
       "language": "Java",
-      "stars": 37277,
-      "forks": 9031,
+      "stars": 37293,
+      "forks": 9036,
       "homepage": "https://www.keycloak.org",
       "license": "Apache-2.0",
       "created_at": "2013-07-02T13:38:51Z",
-      "pushed_at": "2026-10-10T15:25:16Z",
-      "updated_at": "2026-10-10T21:30:29Z",
-      "open_issues": 3243,
+      "pushed_at": "2026-10-11T15:58:43Z",
+      "updated_at": "2026-10-11T21:34:24Z",
+      "open_issues": 3244,
       "summary": "Keycloak 是一款开源的身份与访问管理工具，主要用 Java 编写，面向现代应用和服务。它解决的核心问题是让开发者无需自行处理用户存储和用户认证，就能以较小成本为应用添加登录功能并保护服务。其核心能力包括用户联邦、强认证、用户管理以及细粒度授权等。典型使用场景是为各类应用和服务统一提供认证与访问控制。技术上，它提供服务器和 Java 适配器，并有客户端库、Node.js 适配器及快速入门等配套项目。运行方式灵活，可从官网下载发行版解压后执行启动命令，也可直接使用 Docker 镜像。",
       "windows": [
         "weekly",
         "monthly"
       ],
       "added_at": "2026-10-09T11:22:02+00:00",
-      "last_seen": "2026-10-10",
-      "seen_count": 7
+      "last_seen": "2026-10-11",
+      "seen_count": 8
     },
     {
       "owner": "SeleniumHQ",
@@ -461,21 +462,21 @@
       "url": "https://github.com/apache/kafka",
       "description": "Apache Kafka - A distributed event streaming platform",
       "language": "Java",
-      "stars": 33927,
-      "forks": 15569,
+      "stars": 33935,
+      "forks": 15574,
       "homepage": "https://kafka.apache.org/",
       "license": "Apache-2.0",
       "created_at": "2011-08-15T18:06:16Z",
-      "pushed_at": "2026-10-09T23:04:32Z",
-      "updated_at": "2026-10-10T21:06:05Z",
-      "open_issues": 630,
+      "pushed_at": "2026-10-11T13:44:43Z",
+      "updated_at": "2026-10-11T20:44:34Z",
+      "open_issues": 634,
       "summary": "Apache Kafka 是一个开源的分布式事件流平台，由 Apache 软件基金会维护，主要使用 Java 编写，同时支持 Scala 2.13。它面向高吞吐量的数据管道、流式分析、数据集成以及关键业务应用，帮助企业在多个系统之间可靠地传输和处理持续产生的数据。Kafka 使用 Gradle 构建，要求 JDK 17 进行开发，客户端与 streams 模块的编译目标为 Java 11，其余模块为 Java 17，以兼顾兼容性。",
       "windows": [
         "monthly"
       ],
       "added_at": "2026-10-09T11:22:02+00:00",
-      "last_seen": "2026-10-10",
-      "seen_count": 6
+      "last_seen": "2026-10-11",
+      "seen_count": 7
     },
     {
       "owner": "xuxueli",
@@ -484,21 +485,21 @@
       "url": "https://github.com/xuxueli/xxl-job",
       "description": "A distributed task scheduling framework.（分布式任务调度平台XXL-JOB）",
       "language": "Java",
-      "stars": 30606,
-      "forks": 11497,
+      "stars": 30610,
+      "forks": 11496,
       "homepage": "http://www.xuxueli.com/xxl-job/",
       "license": "GPL-3.0",
       "created_at": "2015-11-28T12:59:34Z",
       "pushed_at": "2026-10-09T15:01:06Z",
-      "updated_at": "2026-10-10T09:12:01Z",
-      "open_issues": 66,
+      "updated_at": "2026-10-11T15:07:14Z",
+      "open_issues": 67,
       "summary": "XXL-JOB 是一个基于 Java 开发的分布式任务调度平台，核心设计目标是开发迅速、学习简单、轻量级且易扩展，支持开箱即用。它通过中心式调度中心与分布式执行器协作，解决集群环境下定时任务的高可用调度、分片执行与统一管理问题。平台提供 Web 界面进行任务 CRUD、动态启停与终止，支持 Cron、固定间隔、API、父子任务等多种触发策略，并具备调度过期补偿、阻塞处理、超时控制、失败重试与邮件告警等能力。执行器支持自动注册与集群部署，提供轮询、随机、一致性 HASH、故障转移等路由策略，以及分片广播和动态分片，便于大数据量业务协同处理。",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-09T11:22:02+00:00",
-      "last_seen": "2026-10-10",
-      "seen_count": 5
+      "last_seen": "2026-10-11",
+      "seen_count": 6
     },
     {
       "owner": "DrKLO",
@@ -507,21 +508,22 @@
       "url": "https://github.com/DrKLO/Telegram",
       "description": "Telegram for Android source",
       "language": "Java",
-      "stars": 30052,
-      "forks": 10205,
+      "stars": 30055,
+      "forks": 10216,
       "homepage": "",
       "license": "GPL-2.0",
       "created_at": "2013-10-25T14:08:10Z",
       "pushed_at": "2026-09-30T17:52:20Z",
-      "updated_at": "2026-10-10T20:37:51Z",
-      "open_issues": 616,
+      "updated_at": "2026-10-11T19:56:09Z",
+      "open_issues": 617,
       "summary": "Telegram for Android 是 Telegram 官方 Android 客户端的完整源代码，使用 Java 编写，面向希望了解或基于其构建即时通讯应用的开发者。它解决的是在移动端实现快速、安全消息传递的问题，核心能力包括消息收发、基于 MTProto 协议的通信，以及通过 Firebase 实现的消息推送。该仓库包含可编译的 Android 工程，需要 Android Studio、Android NDK 和 Android SDK 配合使用，并依赖 release.keystore、google-services.json 及 BuildVars.java 等配置完成构建。",
       "windows": [
+        "daily",
         "weekly"
       ],
       "added_at": "2026-10-09T11:22:02+00:00",
-      "last_seen": "2026-10-10",
-      "seen_count": 7
+      "last_seen": "2026-10-11",
+      "seen_count": 8
     },
     {
       "owner": "kestra-io",
@@ -530,22 +532,22 @@
       "url": "https://github.com/kestra-io/kestra",
       "description": "Event Driven Orchestration & Scheduling Platform for Mission Critical Applications",
       "language": "Java",
-      "stars": 29481,
-      "forks": 3322,
+      "stars": 29504,
+      "forks": 3326,
       "homepage": "https://go.kestra.io/home",
       "license": "Apache-2.0",
       "created_at": "2019-08-24T13:56:15Z",
-      "pushed_at": "2026-10-09T20:31:01Z",
-      "updated_at": "2026-10-10T21:15:16Z",
-      "open_issues": 848,
+      "pushed_at": "2026-10-10T22:58:34Z",
+      "updated_at": "2026-10-11T18:15:40Z",
+      "open_issues": 860,
       "summary": "Kestra 是一个用 Java 编写的开源事件驱动编排与调度平台，面向数据、AI 和基础设施工作流。它把定时任务与事件触发统一在声明式的 YAML 接口下，将基础设施即代码的实践引入数据管道和微服务流程，解决工作流分散、难以版本化和跨环境调度的问题。核心能力包括：同一份流程可在 YAML 编辑器、无代码编辑器和 AI Copilot 之间同步编辑，并支持 Git 版本控制；内置数百个插件，可执行 Python、Node.",
       "windows": [
         "weekly",
         "monthly"
       ],
       "added_at": "2026-10-09T11:22:02+00:00",
-      "last_seen": "2026-10-10",
-      "seen_count": 6
+      "last_seen": "2026-10-11",
+      "seen_count": 7
     },
     {
       "owner": "Anuken",
@@ -554,21 +556,21 @@
       "url": "https://github.com/Anuken/Mindustry",
       "description": "The automation tower defense RTS",
       "language": "Java",
-      "stars": 29313,
-      "forks": 3832,
+      "stars": 29322,
+      "forks": 3836,
       "homepage": "https://mindustrygame.github.io",
       "license": "GPL-3.0",
       "created_at": "2017-04-30T01:24:29Z",
-      "pushed_at": "2026-10-10T22:03:03Z",
-      "updated_at": "2026-10-10T21:21:30Z",
-      "open_issues": 31,
+      "pushed_at": "2026-10-11T08:45:09Z",
+      "updated_at": "2026-10-11T21:32:11Z",
+      "open_issues": 35,
       "summary": "Mindustry 是一款用 Java 编写的自动化塔防 RTS 游戏。它将塔防的阵地防守与即时战略的资源调度、生产链自动化结合起来，玩家需要搭建传送带、钻头、工厂等设施，构建防御工事并抵御敌人进攻。项目提供桌面、服务器和 Android 多平台构建方式，要求 JDK 17，通过 Gradle 命令即可运行、打包或生成 APK，服务器版本随每个发布版打包，也可自行编译。代码风格与 PR 规范见 CONTRIBUTING，新手可从 Mindustry-Suggestions 仓库中标记为 candidate 的议题入手。需要注意的是，mindustry.",
       "windows": [
         "weekly"
       ],
       "added_at": "2026-10-09T11:22:02+00:00",
-      "last_seen": "2026-10-10",
-      "seen_count": 6
+      "last_seen": "2026-10-11",
+      "seen_count": 7
     },
     {
       "owner": "OtterMind",
@@ -640,6 +642,29 @@
       "seen_count": 1
     },
     {
+      "owner": "apache",
+      "name": "flink",
+      "full_name": "apache/flink",
+      "url": "https://github.com/apache/flink",
+      "description": "Apache Flink",
+      "language": "Java",
+      "stars": 26400,
+      "forks": 14058,
+      "homepage": "https://flink.apache.org/",
+      "license": "Apache-2.0",
+      "created_at": "2014-06-07T07:00:10Z",
+      "pushed_at": "2026-10-11T16:18:25Z",
+      "updated_at": "2026-10-11T17:28:49Z",
+      "open_issues": 401,
+      "summary": "Apache Flink 是一个以流处理为核心的分布式计算框架，同时支持批处理与流处理程序。它主要解决大规模数据的实时与离线计算问题，提供 Java 编写的简洁流畅 API，并能在高吞吐与低事件延迟之间取得平衡。其核心能力包括基于 Dataflow 模型的事件时间与乱序处理、灵活窗口机制、精确一次的状态一致性保障以及自然反压。典型场景涵盖实时数据分析、复杂事件处理，并附带图计算、机器学习等批处理库，还可与 YARN、HDFS、HBase 等 Hadoop 生态组件集成，兼容 MapReduce。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-11T22:24:42+00:00",
+      "last_seen": "2026-10-11",
+      "seen_count": 1
+    },
+    {
       "owner": "libgdx",
       "name": "libgdx",
       "full_name": "libgdx/libgdx",
@@ -692,21 +717,21 @@
       "url": "https://github.com/apache/doris",
       "description": "Apache Doris is a real-time analytics and hybrid search database for AI agents.",
       "language": "Java",
-      "stars": 16061,
-      "forks": 3975,
+      "stars": 16071,
+      "forks": 3976,
       "homepage": "https://doris.apache.org",
       "license": "Apache-2.0",
       "created_at": "2017-08-10T12:13:30Z",
-      "pushed_at": "2026-10-10T11:28:39Z",
-      "updated_at": "2026-10-10T21:33:21Z",
-      "open_issues": 1352,
+      "pushed_at": "2026-10-11T08:51:48Z",
+      "updated_at": "2026-10-11T22:13:40Z",
+      "open_issues": 1371,
       "summary": "Apache Doris 是一款基于 MPP 架构的开源实时分析与搜索数据库，主要使用 Java 语言开发，并于 2022 年 6 月从 Apache 孵化器毕业成为顶级项目。它面向需要快速查询与统一检索的场景，解决结构化数据分析、湖仓查询加速以及跨文本和向量数据的混合搜索问题。其核心能力集中在实时分析、湖仓查询加速和混合搜索三方面，支持标准 SQL 分析，可同时处理结构化、文本与向量数据。部署上既支持存算一体，也支持存算分离，分离模式下无状态计算组运行在共享对象存储之上，便于按需扩展计算并隔离工作负载。",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-09T11:22:02+00:00",
-      "last_seen": "2026-10-10",
-      "seen_count": 6
+      "last_seen": "2026-10-11",
+      "seen_count": 7
     },
     {
       "owner": "quarkusio",
@@ -716,20 +741,20 @@
       "description": "Quarkus: Supersonic Subatomic Java. ",
       "language": "Java",
       "stars": 15942,
-      "forks": 3335,
+      "forks": 3337,
       "homepage": "https://quarkus.io",
       "license": "Apache-2.0",
       "created_at": "2018-07-06T00:44:20Z",
-      "pushed_at": "2026-10-10T13:50:29Z",
-      "updated_at": "2026-10-10T19:54:36Z",
-      "open_issues": 2842,
+      "pushed_at": "2026-10-11T21:07:25Z",
+      "updated_at": "2026-10-11T21:07:30Z",
+      "open_issues": 2853,
       "summary": "Quarkus 是一个面向云原生、以 Linux 容器为先的 Java 应用开发框架，主要用 Java 编写。它针对容器环境做了优化，能构建占用资源极少的 Java 应用，并遵循 Kubernetes 等环境下的 12 要素架构。其核心特点是把更多工作放到构建阶段完成，从而实现快速启动，同时支持 JVM 与原生两种运行方式：JVM 适合高吞吐场景，原生模式适合资源受限环境。它还统一了命令式与响应式编程模型，让阻塞式和非阻塞式开发共用一个编程模型。",
       "windows": [
         "monthly"
       ],
       "added_at": "2026-10-09T11:22:02+00:00",
-      "last_seen": "2026-10-10",
-      "seen_count": 6
+      "last_seen": "2026-10-11",
+      "seen_count": 7
     },
     {
       "owner": "LawnchairLauncher",
@@ -761,21 +786,21 @@
       "url": "https://github.com/trinodb/trino",
       "description": "Official repository of Trino, the distributed SQL query engine for big data, formerly known as PrestoSQL (https://trino.io)",
       "language": "Java",
-      "stars": 13318,
-      "forks": 3820,
+      "stars": 13320,
+      "forks": 3819,
       "homepage": "https://trino.io",
       "license": "Apache-2.0",
       "created_at": "2019-01-19T06:38:14Z",
-      "pushed_at": "2026-10-10T14:06:53Z",
-      "updated_at": "2026-10-10T14:06:58Z",
-      "open_issues": 2711,
+      "pushed_at": "2026-10-11T19:05:46Z",
+      "updated_at": "2026-10-11T19:06:06Z",
+      "open_issues": 2709,
       "summary": "Trino 是一个用 Java 编写的分布式 SQL 查询引擎，专为大数据分析场景设计，前身是 PrestoSQL。它解决的核心问题是让用户能够用标准 SQL 直接查询分布在多种异构数据源中的海量数据，而无需先做数据搬迁或转换。其核心能力在于分布式执行与联邦查询，通过连接器（connector）机制接入不同系统，并支持插件扩展。典型使用场景包括对数据仓库、关系数据库或对象存储中的数据进行交互式分析。",
       "windows": [
         "monthly"
       ],
       "added_at": "2026-10-10T22:23:57+00:00",
-      "last_seen": "2026-10-10",
-      "seen_count": 1
+      "last_seen": "2026-10-11",
+      "seen_count": 2
     },
     {
       "owner": "langchain4j",
@@ -824,43 +849,20 @@
       "seen_count": 7
     },
     {
-      "owner": "alibaba",
-      "name": "spring-ai-alibaba",
-      "full_name": "alibaba/spring-ai-alibaba",
-      "url": "https://github.com/alibaba/spring-ai-alibaba",
-      "description": "Agentic AI Framework for Java Developers",
-      "language": "Java",
-      "stars": 10991,
-      "forks": 2441,
-      "homepage": "https://java2ai.com",
-      "license": "Apache-2.0",
-      "created_at": "2024-09-09T01:35:50Z",
-      "pushed_at": "2026-10-07T13:48:56Z",
-      "updated_at": "2026-10-10T10:31:30Z",
-      "open_issues": 162,
-      "summary": "Spring AI Alibaba 是面向 Java 开发者的 Agentic AI 框架，用于构建智能体、工作流与多智能体应用。它基于 Spring AI 生态，提供 Agent Framework、Graph 运行时与一站式 Admin 平台三层结构：Agent Framework 内置上下文工程与 Human In The Loop，并支持 SequentialAgent、ParallelAgent、RoutingAgent、LoopAgent 等编排模式；Graph 作为底层运行时，负责持久化、工作流编排与流式输出，支持条件路由、嵌套图、并行执行与状态管理，并可导出 PlantUML。",
-      "windows": [
-        "daily"
-      ],
-      "added_at": "2026-10-09T11:22:02+00:00",
-      "last_seen": "2026-10-10",
-      "seen_count": 5
-    },
-    {
       "owner": "LaurieWired",
       "name": "GhidraMCP",
       "full_name": "LaurieWired/GhidraMCP",
       "url": "https://github.com/LaurieWired/GhidraMCP",
       "description": "MCP Server for Ghidra",
       "language": "Java",
-      "stars": 10898,
-      "forks": 1137,
+      "stars": 11061,
+      "forks": 1147,
       "homepage": "",
       "license": "Apache-2.0",
       "created_at": "2025-03-23T05:36:55Z",
       "pushed_at": "2026-10-10T20:08:37Z",
-      "updated_at": "2026-10-10T22:18:19Z",
-      "open_issues": 86,
+      "updated_at": "2026-10-11T22:02:53Z",
+      "open_issues": 87,
       "summary": "GhidraMCP 是一个面向 Ghidra 的 Model Context Protocol 服务器，用 Java 编写，通过 Ghidra 插件与 Python MCP 客户端配合，让大语言模型能够自主完成应用程序逆向工程。它把 Ghidra 的核心功能封装成 MCP 工具，供各类 MCP 客户端调用，解决的是 LLM 难以直接操作逆向工具的问题。核心能力包括在 Ghidra 中反编译和分析二进制文件、自动重命名方法和数据、列出方法、类、导入与导出。",
       "windows": [
         "daily",
@@ -868,7 +870,30 @@
         "monthly"
       ],
       "added_at": "2026-10-09T11:22:02+00:00",
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
+      "seen_count": 7
+    },
+    {
+      "owner": "alibaba",
+      "name": "spring-ai-alibaba",
+      "full_name": "alibaba/spring-ai-alibaba",
+      "url": "https://github.com/alibaba/spring-ai-alibaba",
+      "description": "Agentic AI Framework for Java Developers",
+      "language": "Java",
+      "stars": 10996,
+      "forks": 2443,
+      "homepage": "https://java2ai.com",
+      "license": "Apache-2.0",
+      "created_at": "2024-09-09T01:35:50Z",
+      "pushed_at": "2026-10-07T13:48:56Z",
+      "updated_at": "2026-10-11T19:36:42Z",
+      "open_issues": 160,
+      "summary": "Spring AI Alibaba 是面向 Java 开发者的 Agentic AI 框架，用于构建智能体、工作流与多智能体应用。它基于 Spring AI 生态，提供 Agent Framework、Graph 运行时与一站式 Admin 平台三层结构：Agent Framework 内置上下文工程与 Human In The Loop，并支持 SequentialAgent、ParallelAgent、RoutingAgent、LoopAgent 等编排模式；Graph 作为底层运行时，负责持久化、工作流编排与流式输出，支持条件路由、嵌套图、并行执行与状态管理，并可导出 PlantUML。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-09T11:22:02+00:00",
+      "last_seen": "2026-10-11",
       "seen_count": 6
     },
     {
@@ -878,20 +903,44 @@
       "url": "https://github.com/spring-projects/spring-ai",
       "description": "An Application Framework for AI Engineering",
       "language": "Java",
-      "stars": 9528,
-      "forks": 2959,
+      "stars": 9531,
+      "forks": 2961,
       "homepage": "https://spring.io/projects/spring-ai ",
       "license": "Apache-2.0",
       "created_at": "2023-06-27T18:57:29Z",
       "pushed_at": "2026-10-09T17:30:15Z",
-      "updated_at": "2026-10-10T21:06:03Z",
-      "open_issues": 1492,
+      "updated_at": "2026-10-11T15:30:09Z",
+      "open_issues": 1496,
       "summary": "Spring AI 是面向 Java 开发者的 AI 应用框架，为构建 AI 应用提供符合 Spring 生态习惯的 API 与抽象。它试图解决的核心问题是：如何把企业已有的数据和 API 与各类 AI 模型连接起来。框架将 Spring 的可移植性与模块化设计思路引入 AI 领域，强调以强类型数据结构和 API 作为应用的基本构件。",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-10T22:23:57+00:00",
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
+      "seen_count": 2
+    },
+    {
+      "owner": "PojavLauncherTeam",
+      "name": "PojavLauncher",
+      "full_name": "PojavLauncherTeam/PojavLauncher",
+      "url": "https://github.com/PojavLauncherTeam/PojavLauncher",
+      "description": "A Minecraft: Java Edition Launcher for Android and iOS based on Boardwalk. Succeeded by https://github.com/AngelAuraMC/Amethyst-Android",
+      "language": "Java",
+      "stars": 9424,
+      "forks": 2384,
+      "homepage": "",
+      "license": "LGPL-3.0",
+      "created_at": "2020-03-11T03:22:54Z",
+      "pushed_at": "2025-09-23T20:12:28Z",
+      "updated_at": "2026-10-11T19:36:28Z",
+      "open_issues": 121,
+      "archived": true,
+      "summary": "PojavLauncher 是一个基于 Boardwalk 的 Minecraft Java 版启动器，让玩家能在 Android 和 iOS 设备上运行 Java 版游戏。它解决了移动端无法直接运行 Java 版 Minecraft 的问题，支持从 rd-132211 到 1.21 快照的几乎所有版本，并兼容 Forge 和 Fabric 模组。项目使用 Java 开发，集成了 OpenJDK 8、17、21 的移动端移植，支持 OpenGL、OpenAL 及多架构，还提供无头与图形界面的模组安装器。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-11T22:24:42+00:00",
+      "last_seen": "2026-10-11",
       "seen_count": 1
     },
     {
@@ -916,6 +965,29 @@
       "added_at": "2026-10-09T11:22:02+00:00",
       "last_seen": "2026-10-10",
       "seen_count": 5
+    },
+    {
+      "owner": "cabaletta",
+      "name": "baritone",
+      "full_name": "cabaletta/baritone",
+      "url": "https://github.com/cabaletta/baritone",
+      "description": "google maps for block game",
+      "language": "Java",
+      "stars": 9285,
+      "forks": 2063,
+      "homepage": "",
+      "license": "LGPL-3.0",
+      "created_at": "2018-08-01T15:34:21Z",
+      "pushed_at": "2026-09-29T18:45:52Z",
+      "updated_at": "2026-10-11T19:36:00Z",
+      "open_issues": 920,
+      "summary": "Baritone 是一个用 Java 编写的 Minecraft 寻路机器人，被称为“方块游戏里的谷歌地图”。它解决的是在 Minecraft 世界中自动规划并执行移动路径的问题，最初是 MineBot 的重建版本，自 1.12.2 起持续更新，计算路径的速度远快于原版。其核心能力是通过聊天栏指令控制，例如输入 #goto 1000 500 可前往指定坐标，#mine diamond_ore 可自动挖掘钻石矿，#stop 用于停止，还支持在下界用烟花进行鞘翅飞行。它注重可靠性与性能，并提供文档完善的 API，允许开发者在符合条件的前提下将其作为库集成到自定义客户端中。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-11T22:24:42+00:00",
+      "last_seen": "2026-10-11",
+      "seen_count": 1
     },
     {
       "owner": "AntennaPod",
@@ -964,27 +1036,50 @@
       "seen_count": 6
     },
     {
+      "owner": "logisim-evolution",
+      "name": "logisim-evolution",
+      "full_name": "logisim-evolution/logisim-evolution",
+      "url": "https://github.com/logisim-evolution/logisim-evolution",
+      "description": "Digital logic design tool and simulator",
+      "language": "Java",
+      "stars": 7746,
+      "forks": 1033,
+      "homepage": "",
+      "license": "GPL-3.0",
+      "created_at": "2014-09-19T05:23:24Z",
+      "pushed_at": "2026-10-09T10:27:28Z",
+      "updated_at": "2026-10-11T21:01:05Z",
+      "open_issues": 127,
+      "summary": "Logisim-evolution 是一款用于设计和仿真数字逻辑电路的教育软件，基于 Java 开发，可跨平台运行，需要 Java 21 或更高版本。它主要解决数字电路教学与实验中的设计与验证问题，提供易用的电路设计器、逻辑仿真、时序图查看信号变化，并支持将电路部署到真实硬件上运行。其核心特点包括支持 VHDL 组件定义、TCL/TK 控制台交互、丰富的元件库（如 LED、TTL、开关、SoC），还允许启动时加载自定义库并支持多语言。典型使用场景是课堂教学、自学数字逻辑以及电子工程入门实践，用户可通过 Windows、macOS、Linux 的安装包或 JAR 文件直接运行。",
+      "windows": [
+        "monthly"
+      ],
+      "added_at": "2026-10-11T22:24:42+00:00",
+      "last_seen": "2026-10-11",
+      "seen_count": 1
+    },
+    {
       "owner": "zhukunpenglinyutong",
       "name": "jetbrains-cc-gui",
       "full_name": "zhukunpenglinyutong/jetbrains-cc-gui",
       "url": "https://github.com/zhukunpenglinyutong/jetbrains-cc-gui",
       "description": "Jetbrains Claude Code and Codex GUI Plugin",
       "language": "Java",
-      "stars": 6906,
+      "stars": 6914,
       "forks": 672,
       "homepage": "https://plugins.jetbrains.com/plugin/29342-cc-gui-claude-or-codex-",
       "license": "MIT",
       "created_at": "2025-11-20T03:41:05Z",
       "pushed_at": "2026-10-10T04:59:45Z",
-      "updated_at": "2026-10-10T18:22:04Z",
+      "updated_at": "2026-10-11T20:38:04Z",
       "open_issues": 532,
       "summary": "CC GUI 是一款基于 Java 开发的 IntelliJ IDEA 插件，原名 Claude Code GUI，为 Claude Code、OpenAI Codex 等 AI 编程命令行工具提供可视化界面，解决在 IDE 内直接调用 AI 编码助手时交互不便的问题。插件支持 Claude Code、OpenAI Codex，以及 Grok CLI、Kimi CLI、OpenCode、PI CLI、OMP CLI、DeepSeek Harness 等多个处于测试阶段的引擎。",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-09T11:22:02+00:00",
-      "last_seen": "2026-10-10",
-      "seen_count": 6
+      "last_seen": "2026-10-11",
+      "seen_count": 7
     },
     {
       "owner": "SuperMonster003",
@@ -1016,13 +1111,13 @@
       "url": "https://github.com/TGX-Android/Telegram-X",
       "description": "The main repository of Telegram X — official alternative Telegram client for Android.",
       "language": "Java",
-      "stars": 6067,
+      "stars": 6076,
       "forks": 1141,
       "homepage": "https://play.google.com/store/apps/details?id=org.thunderdog.challegram",
       "license": "GPL-3.0",
       "created_at": "2021-08-17T17:09:25Z",
       "pushed_at": "2026-10-08T15:29:03Z",
-      "updated_at": "2026-10-10T17:05:59Z",
+      "updated_at": "2026-10-11T19:39:34Z",
       "open_issues": 217,
       "summary": "Telegram X 是 Telegram 官方推出的 Android 替代客户端，基于 TDLib 和 MTProto 安全协议构建，以 Java 为主要语言，定位为流畅且具实验性的即时通讯工具。它解决的是官方主客户端之外对性能与交互体验有更高要求的用户需求，同时提供可复现的构建流程以验证 APK 未被注入额外代码。其核心特点包括完整的源码与构建说明、支持通过校验和比对确认 APK 来源、提供可复现公开构建的 Ubuntu 环境配置，以及面向贡献者的拉取请求模板与指南。典型使用场景为在 Android 设备上安装并日常使用 Telegram，或由开发者自行编译、验证官方 APK 的完整性。",
       "windows": [
@@ -1030,8 +1125,8 @@
         "monthly"
       ],
       "added_at": "2026-10-09T11:22:02+00:00",
-      "last_seen": "2026-10-10",
-      "seen_count": 7
+      "last_seen": "2026-10-11",
+      "seen_count": 8
     },
     {
       "owner": "agentscope-ai",
@@ -1040,21 +1135,21 @@
       "url": "https://github.com/agentscope-ai/agentscope-java",
       "description": "Build distributed, production-grade, long-running agents.",
       "language": "Java",
-      "stars": 5917,
-      "forks": 1461,
+      "stars": 5924,
+      "forks": 1465,
       "homepage": "https://java.agentscope.io/",
       "license": "Apache-2.0",
       "created_at": "2025-09-23T04:37:43Z",
-      "pushed_at": "2026-10-10T19:04:49Z",
-      "updated_at": "2026-10-10T22:00:02Z",
-      "open_issues": 906,
+      "pushed_at": "2026-10-11T14:41:25Z",
+      "updated_at": "2026-10-11T18:20:44Z",
+      "open_issues": 887,
       "summary": "AgentScope Java 2.0 是一个面向生产环境的 Java 智能体框架，用于构建分布式、可长期运行的企业级智能体。它解决的核心问题是让智能体从单轮推理走向可运维的生产系统：通过统一事件流（31 种类型事件）支持实时前端渲染与人机协同，通过允许、需审批、拒绝三态权限系统管控工具调用，通过 AOP 风格中间件在推理与行动循环上灵活扩展，并借助本地、Docker、Kubernetes 或云沙箱隔离运行工具。框架支持多智能体编排与跨副本会话恢复，会话与记忆可持久化到 Redis、MySQL、PostgreSQL 等存储，实现无状态水平扩展与多租户隔离。",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-10T22:23:57+00:00",
-      "last_seen": "2026-10-10",
-      "seen_count": 1
+      "last_seen": "2026-10-11",
+      "seen_count": 2
     },
     {
       "owner": "GeyserMC",
@@ -1064,12 +1159,12 @@
       "description": "A bridge/proxy allowing you to connect to Minecraft: Java Edition servers with Minecraft: Bedrock Edition.",
       "language": "Java",
       "stars": 5891,
-      "forks": 909,
+      "forks": 913,
       "homepage": "https://geysermc.org",
       "license": "MIT",
       "created_at": "2019-07-08T17:23:17Z",
-      "pushed_at": "2026-10-10T15:09:04Z",
-      "updated_at": "2026-10-10T18:13:06Z",
+      "pushed_at": "2026-10-11T10:38:51Z",
+      "updated_at": "2026-10-11T20:16:38Z",
       "open_issues": 331,
       "summary": "Geyser 是一个用 Java 编写的代理桥接工具，用于连接 Minecraft 基岩版与 Java 版服务器，目标是让基岩版玩家尽可能无缝地加入 Java 版服务器。它通过在网络层翻译两个版本之间的数据包来实现跨平台联机，弥补了两者长期无法互通的缺口。该项目属于开放协作项目，其协议翻译思路受到早期 DragonProxy 项目的启发。由于两个游戏本身存在差异，Geyser 并不能保证所有功能都完美运行，例如部分实体标志尚未支持，移动同步也仍在完善中，且存在一些因版本差异而无法修复的限制。使用上，用户可参照官方文档进行部署，项目提供了网站、文档、下载渠道、Discord 社区及测试服务器。",
       "windows": [
@@ -1077,8 +1172,8 @@
         "monthly"
       ],
       "added_at": "2026-10-09T11:22:02+00:00",
-      "last_seen": "2026-10-10",
-      "seen_count": 6
+      "last_seen": "2026-10-11",
+      "seen_count": 7
     },
     {
       "owner": "bethington",
@@ -1087,13 +1182,13 @@
       "url": "https://github.com/bethington/ghidra-mcp",
       "description": "Ghidra MCP Server — 200+ MCP tools for AI-powered reverse engineering. GUI plugin + headless server, lazy tool loading, convention enforcement, batch operations, Ghidra Server integration, and Docker deployment.",
       "language": "Java",
-      "stars": 5327,
-      "forks": 274,
+      "stars": 5442,
+      "forks": 288,
       "homepage": "",
       "license": "Apache-2.0",
       "created_at": "2025-08-30T06:40:03Z",
       "pushed_at": "2026-10-09T17:40:39Z",
-      "updated_at": "2026-10-10T22:19:34Z",
+      "updated_at": "2026-10-11T21:19:00Z",
       "open_issues": 30,
       "summary": "Ghidra MCP Server 是一个基于 Java 开发的生产级 Model Context Protocol 服务器，用于把 Ghidra 的反向工程能力接入 AI 工具与自动化框架。它针对多数同类实现只提供少量只读工具的问题，提供 209 个 MCP 工具，覆盖反编译、调用图、交叉引用、P-code 图数据流分析、结构体与枚举创建、字符串提取、导入导出分析、内存检查，以及重命名、注释、类型标注等写操作。",
       "windows": [
@@ -1102,8 +1197,8 @@
         "monthly"
       ],
       "added_at": "2026-10-09T11:22:02+00:00",
-      "last_seen": "2026-10-10",
-      "seen_count": 6
+      "last_seen": "2026-10-11",
+      "seen_count": 7
     },
     {
       "owner": "iflytek",
@@ -1112,21 +1207,21 @@
       "url": "https://github.com/iflytek/skillhub",
       "description": "Self-hosted, open-source agent skill registry for enterprises. Publish & version skill packages, govern with RBAC and audit logs, deploy   on-premise with Docker or Kubernetes.",
       "language": "Java",
-      "stars": 5169,
+      "stars": 5172,
       "forks": 841,
       "homepage": "https://skill.xfyun.cn",
       "license": "Apache-2.0",
       "created_at": "2026-03-11T12:17:05Z",
       "pushed_at": "2026-10-10T10:43:04Z",
-      "updated_at": "2026-10-10T18:47:33Z",
-      "open_issues": 37,
+      "updated_at": "2026-10-11T17:33:39Z",
+      "open_issues": 41,
       "summary": "SkillHub 是科大讯飞开源的企业级 Agent 技能注册中心，用 Java 编写，支持私有化部署。它为团队提供一个受治理的内部空间，用于发布、发现和管理可复用的技能包，解决企业内技能分散、缺乏版本与权限管理的问题。核心能力包括：语义化版本发布与标签管理、按命名空间和下载量等条件的全文检索、团队命名空间的成员与角色划分、基于 RBAC 的审核与审计日志、星标评分等社交功能，以及多 OAuth 身份与 API Token 的账户合并。存储可插拔，开发用本地文件系统，生产可切换 S3 或 MinIO。",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-10T22:23:57+00:00",
-      "last_seen": "2026-10-10",
-      "seen_count": 1
+      "last_seen": "2026-10-11",
+      "seen_count": 2
     },
     {
       "owner": "FCL-Team",
@@ -1135,21 +1230,44 @@
       "url": "https://github.com/FCL-Team/FoldCraftLauncher",
       "description": "Fold Craft Launcher, an Android Minecraft : Java Edition launcher.",
       "language": "Java",
-      "stars": 4891,
-      "forks": 329,
+      "stars": 4910,
+      "forks": 331,
       "homepage": "",
       "license": "GPL-3.0",
       "created_at": "2022-10-19T10:12:18Z",
-      "pushed_at": "2026-10-10T14:51:29Z",
-      "updated_at": "2026-10-10T18:50:27Z",
-      "open_issues": 315,
+      "pushed_at": "2026-10-11T05:19:14Z",
+      "updated_at": "2026-10-11T20:46:00Z",
+      "open_issues": 319,
       "summary": "Fold Craft Launcher 是一款面向 Android 平台的 Minecraft Java 版启动器，由 FCL-Team 基于 HMCL 核心功能、采用 Amethyst-Android 后端开发，主要用 Java 编写。它解决的是在移动设备上运行 Java 版 MC 的问题，支持全版本游戏（含最新快照）以及 Forge、NeoForge、LiteLoader、OptiFine、Fabric、Quilt、Cleanroom 等模组加载器。",
       "windows": [
         "weekly"
       ],
       "added_at": "2026-10-09T11:22:02+00:00",
-      "last_seen": "2026-10-10",
-      "seen_count": 6
+      "last_seen": "2026-10-11",
+      "seen_count": 7
+    },
+    {
+      "owner": "emanuele-f",
+      "name": "PCAPdroid",
+      "full_name": "emanuele-f/PCAPdroid",
+      "url": "https://github.com/emanuele-f/PCAPdroid",
+      "description": "No-root network monitor, firewall and PCAP dumper for Android",
+      "language": "Java",
+      "stars": 4898,
+      "forks": 558,
+      "homepage": "https://emanuele-f.github.io/PCAPdroid",
+      "license": "GPL-3.0",
+      "created_at": "2020-01-06T18:11:27Z",
+      "pushed_at": "2026-09-26T08:14:11Z",
+      "updated_at": "2026-10-11T17:32:46Z",
+      "open_issues": 42,
+      "summary": "PCAPdroid 是一款面向 Android 的免 root 网络监控、防火墙与 PCAP 抓包工具，使用 Java 编写。它通过模拟 VPN 在本地捕获流量，无需远程服务器，可记录并分析用户及系统应用的连接，统计各应用收发数据量，并从 DNS、TLS 和 HTTP 中提取主机与 IP 信息。它支持将流量保存为 PCAP 文件、通过 PCAP-over-IP 发送到 Wireshark 实时分析、解密 HTTPS/TLS 流量并导出 SSLKEYLOGFILE、检查 HTTP 请求并导出 HAR，还可借助离线数据库识别服务器国家与 ASN。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-11T22:24:42+00:00",
+      "last_seen": "2026-10-11",
+      "seen_count": 1
     },
     {
       "owner": "RikkaApps",
@@ -1158,21 +1276,21 @@
       "url": "https://github.com/RikkaApps/Sui",
       "description": "Modern super user interface implementation on Android.",
       "language": "Java",
-      "stars": 4287,
-      "forks": 465,
+      "stars": 4289,
+      "forks": 466,
       "homepage": "",
       "license": "GPL-3.0",
       "created_at": "2021-01-03T08:26:16Z",
       "pushed_at": "2024-08-12T04:30:55Z",
-      "updated_at": "2026-10-10T15:52:22Z",
+      "updated_at": "2026-10-11T22:04:19Z",
       "open_issues": 131,
       "summary": "Sui 是一个在 Android 上实现的现代超级用户接口（SUI），使用 Java 编写。它为 root 应用提供 Java API 和 Shizuku API，使应用能以 root 身份直接调用 Android API，并在 root 下启动自身的 AIDL 风格 Java 服务，从而简化 root 应用开发。其特点是不向 PATH 添加二进制文件，也不安装管理应用，因此不易被检测 root 的应用发现。Sui 并非完整的 root 方案，需依赖 Magisk 运行，非 Zygisk 版本还需 Riru。",
       "windows": [
         "monthly"
       ],
       "added_at": "2026-10-09T11:22:02+00:00",
-      "last_seen": "2026-10-10",
-      "seen_count": 6
+      "last_seen": "2026-10-11",
+      "seen_count": 7
     },
     {
       "owner": "nageoffer",
@@ -1204,21 +1322,21 @@
       "url": "https://github.com/MeteorDevelopment/meteor-client",
       "description": "Based Minecraft utility mod.",
       "language": "Java",
-      "stars": 3920,
-      "forks": 1698,
+      "stars": 3924,
+      "forks": 1701,
       "homepage": "https://meteorclient.com",
       "license": "GPL-3.0",
       "created_at": "2020-11-03T15:33:49Z",
-      "pushed_at": "2026-10-10T14:13:47Z",
-      "updated_at": "2026-10-10T19:29:20Z",
-      "open_issues": 819,
+      "pushed_at": "2026-10-11T18:17:50Z",
+      "updated_at": "2026-10-11T15:36:21Z",
+      "open_issues": 818,
       "summary": "Meteor Client 是一款基于 Minecraft Fabric 框架开发的实用工具模组，主要面向无政府状态服务器等场景，用 Java 编写。它解决的是玩家在这类服务器中需要额外辅助功能的问题，通过模组形式为游戏客户端提供一系列实用能力。项目使用 Fabric 与 Yarn 进行构建，开发者可克隆仓库后运行 ./gradlew build 完成编译，安装方式则参考其 wiki 指南。该模组适合希望在 Minecraft 中获取辅助功能的玩家使用，同时也接受社区贡献，要求提交的代码遵循既有风格、注重可读性，并为 Java 源文件保留许可头。",
       "windows": [
         "weekly"
       ],
       "added_at": "2026-10-09T11:22:02+00:00",
-      "last_seen": "2026-10-10",
-      "seen_count": 7
+      "last_seen": "2026-10-11",
+      "seen_count": 8
     },
     {
       "owner": "woheller69",
@@ -1273,13 +1391,13 @@
       "url": "https://github.com/AndroidIDEOfficial/AndroidIDE",
       "description": "AndroidIDE is an IDE for Android to develop full featured Android apps.",
       "language": "Java",
-      "stars": 3228,
-      "forks": 694,
+      "stars": 3233,
+      "forks": 698,
       "homepage": "https://m.androidide.com",
       "license": "GPL-3.0",
       "created_at": "2021-07-20T13:31:14Z",
       "pushed_at": "2024-10-18T06:15:49Z",
-      "updated_at": "2026-10-10T21:49:06Z",
+      "updated_at": "2026-10-11T07:33:42Z",
       "open_issues": 197,
       "archived": true,
       "summary": "AndroidIDE 是一款在 Android 设备上开发完整 Gradle 安卓应用的集成开发环境，主要使用 Java 编写。它让开发者无需电脑即可在手机上构建真实项目，支持 Gradle、JDK 11 和 JDK 17，并内置终端及必要软件包，可自定义构建与终端的环境变量。其 SDK Manager 通过终端调用，能查看类与成员的 API 信息，并实时读取应用日志。语言服务覆盖 Java 和 XML，Kotlin 尚未支持；UI 设计器已实现布局预览、资源引用解析、属性编辑器自动补全、拖拽和可视化属性编辑，并支持 Android 组件。此外还集成 Git。",
@@ -1289,8 +1407,8 @@
         "monthly"
       ],
       "added_at": "2026-10-09T11:22:02+00:00",
-      "last_seen": "2026-10-10",
-      "seen_count": 6
+      "last_seen": "2026-10-11",
+      "seen_count": 7
     },
     {
       "owner": "shmykelsa",
@@ -1299,21 +1417,21 @@
       "url": "https://github.com/shmykelsa/AAAD",
       "description": "The original application for downloading and installing apps made specifically for Android Auto outside of Google Play Store. Active since 2021.",
       "language": "Java",
-      "stars": 3078,
-      "forks": 342,
+      "stars": 3087,
+      "forks": 343,
       "homepage": "",
       "license": "MIT",
       "created_at": "2021-04-28T07:36:37Z",
       "pushed_at": "2026-09-27T11:50:15Z",
-      "updated_at": "2026-10-10T20:36:20Z",
+      "updated_at": "2026-10-11T21:31:28Z",
       "open_issues": 10,
       "summary": "AAAD（Android Auto Apps Downloader）是一个用 Java 编写的安卓应用，自 2021 年起持续维护，用于在 Google Play 商店之外下载并安装专为 Android Auto 打造的三方应用。它解决的核心问题是：自 2018 年起 Google 屏蔽了非官方 Android Auto 应用，普通用户即使自行安装 APK 也无法在车机上看到这些应用。AAAD 通过特定的安装方式让这些应用出现在 Android Auto 中，且无需 root、无需电脑、无需开启开发者选项或手动打补丁。用户只需在应用内选择目标应用，下载后按常规安卓流程安装即可。",
       "windows": [
         "weekly"
       ],
       "added_at": "2026-10-09T11:22:02+00:00",
-      "last_seen": "2026-10-10",
-      "seen_count": 6
+      "last_seen": "2026-10-11",
+      "seen_count": 7
     },
     {
       "owner": "sepinf-inc",
@@ -1322,21 +1440,21 @@
       "url": "https://github.com/sepinf-inc/IPED",
       "description": "IPED Digital Forensic Tool. It is an open source software that can be used to process and analyze digital evidence, often seized at crime scenes by law enforcement or in a corporate investigation by private examiners.",
       "language": "Java",
-      "stars": 3032,
-      "forks": 524,
+      "stars": 3034,
+      "forks": 525,
       "homepage": "",
       "license": "NOASSERTION",
       "created_at": "2015-06-12T11:26:40Z",
       "pushed_at": "2026-10-07T16:05:29Z",
-      "updated_at": "2026-10-10T21:49:03Z",
+      "updated_at": "2026-10-11T21:00:14Z",
       "open_issues": 387,
       "summary": "IPED 是一款用 Java 开发的开源数字取证工具，最初由巴西联邦警察的数字取证专家于 2012 年开发，2019 年正式公开代码，主要用于处理和分析执法现场或企业调查中获取的数字证据。它通过命令行批量创建案件，支持 Windows 和 Linux，可便携运行于移动存储设备，并提供集成的分析界面。其核心能力包括多线程高速处理、大案件支持、多种哈希与哈希集校验、文件类型分类、递归容器展开、磁盘镜像解析、图像视频图库、GPS 地理定位、正则搜索、内容与元数据索引、数据雕刻、OCR、加密检测、多语言识别、相似文档与图像检索、人脸识别、时间线分析、文件聚类以及通过 JavaScript 和 Pyt。",
       "windows": [
         "monthly"
       ],
       "added_at": "2026-10-09T11:22:02+00:00",
-      "last_seen": "2026-10-10",
-      "seen_count": 6
+      "last_seen": "2026-10-11",
+      "seen_count": 7
     },
     {
       "owner": "zalexdev",
@@ -1368,21 +1486,21 @@
       "url": "https://github.com/AndreyPavlenko/Fermata",
       "description": "",
       "language": "Java",
-      "stars": 1412,
+      "stars": 1413,
       "forks": 204,
       "homepage": "",
       "license": "GPL-3.0",
       "created_at": "2019-12-23T19:14:49Z",
       "pushed_at": "2026-09-20T14:37:33Z",
-      "updated_at": "2026-10-10T13:21:46Z",
-      "open_issues": 210,
+      "updated_at": "2026-10-11T16:27:19Z",
+      "open_issues": 211,
       "summary": "Fermata Media Player 是一款用 Java 编写的免费开源音视频及电视播放器，界面简洁直观，主要面向以文件夹和播放列表组织媒体文件的用户。它支持按文件夹播放、CUE 与 M3U 播放列表、收藏和书签，并能记住每个文件夹上次播放的曲目与进度。其 IPTV 插件支持 XMLTV EPG 和 Catchup，视频播放器可处理字幕和音轨（仅限 VLC 引擎）。音频方面提供均衡器、低音增强和虚拟化等效果，且可针对单个曲目或文件夹配置音效与播放速度。",
       "windows": [
         "monthly"
       ],
       "added_at": "2026-10-09T11:22:02+00:00",
-      "last_seen": "2026-10-10",
-      "seen_count": 6
+      "last_seen": "2026-10-11",
+      "seen_count": 7
     },
     {
       "owner": "MCRcortex",
@@ -1391,22 +1509,45 @@
       "url": "https://github.com/MCRcortex/voxy",
       "description": "An LoD rendering mod for minecraft",
       "language": "Java",
-      "stars": 1296,
-      "forks": 1345,
+      "stars": 1303,
+      "forks": 1363,
       "homepage": "https://modrinth.com/mod/voxy",
       "license": "NOASSERTION",
       "created_at": "2023-11-13T22:15:26Z",
-      "pushed_at": "2026-10-04T12:10:12Z",
-      "updated_at": "2026-10-10T19:58:43Z",
-      "open_issues": 236,
+      "pushed_at": "2026-10-11T16:08:24Z",
+      "updated_at": "2026-10-11T18:46:58Z",
+      "open_issues": 237,
       "summary": "Voxy 是一个面向 Minecraft 的 LoD（细节层次）渲染模组，使用 Java 语言开发。它要解决的核心问题是：在 Minecraft 这类由方块构成的开放世界中，当玩家视野拉远时，远处的大量方块若全部按完整细节渲染，会带来沉重的绘制负担。Voxy 通过 LoD 技术，让距离较远的区域以较低细节呈现，从而在保持可视距离的同时控制渲染开销。其官方描述非常简洁，仅说明它是一个 LoD 渲染模组，未披露具体版本、性能数据或额外功能。典型使用场景是配合 Minecraft 客户端，在需要远距离观察地形、建筑或探索时改善画面表现与运行流畅度。",
       "windows": [
         "weekly",
         "monthly"
       ],
       "added_at": "2026-10-09T11:22:02+00:00",
-      "last_seen": "2026-10-10",
-      "seen_count": 6
+      "last_seen": "2026-10-11",
+      "seen_count": 7
+    },
+    {
+      "owner": "MojoLauncher",
+      "name": "MojoLauncher",
+      "full_name": "MojoLauncher/MojoLauncher",
+      "url": "https://github.com/MojoLauncher/MojoLauncher",
+      "description": "A Minecraft: Java Edition launcher, based on PojavLauncher",
+      "language": "Java",
+      "stars": 1031,
+      "forks": 434,
+      "homepage": "",
+      "license": "LGPL-3.0",
+      "created_at": "2025-03-19T14:50:52Z",
+      "pushed_at": "2026-10-10T17:54:44Z",
+      "updated_at": "2026-10-11T10:19:21Z",
+      "open_issues": 194,
+      "summary": "MojoLauncher 是一款基于 PojavLauncher 的 Minecraft Java 版安卓启动器，用 Java 编写，目标是让安卓设备也能运行几乎全部 Minecraft 版本，从 rd-132211 到 26.x 快照（含战斗测试版）。它支持通过 Forge、Fabric 安装模组加载器，也能用 .jar 安装器装 OptiFine 等模组，并可直接导入 mrpack 或 CurseForge 整合包。启动器已实现实例系统、开箱即用的 1.21.5 支持，并正在推进 LTW 渲染改进、模组管理工具、MMC 实例导入和 Vintage Story 支持等路线图项目。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-11T22:24:42+00:00",
+      "last_seen": "2026-10-11",
+      "seen_count": 2
     },
     {
       "owner": "Keeperorowner",
@@ -1415,21 +1556,21 @@
       "url": "https://github.com/Keeperorowner/NagramXF",
       "description": "A fork of NagramX with additional features.",
       "language": "Java",
-      "stars": 955,
+      "stars": 956,
       "forks": 63,
       "homepage": "",
       "license": "GPL-3.0",
       "created_at": "2025-07-22T16:33:32Z",
       "pushed_at": "2026-10-05T10:35:46Z",
-      "updated_at": "2026-10-10T13:08:53Z",
+      "updated_at": "2026-10-11T15:56:22Z",
       "open_issues": 63,
       "summary": "NagramXF 是基于 NagramX 二次开发的第三方 Telegram 客户端分支，使用 Java 编写，在原有基础上加入了额外功能，并整合了 exteraGram 与 AyuGram 的大部分特性。它面向希望获得更丰富定制体验的 Telegram 用户，解决官方客户端功能受限、部分增强特性分散于多个分支的问题。项目提供 Telegram 频道与 GitHub Releases 两种分发渠道，编译时需自行从 Telegram 开发者门户获取 API 凭据，并在 local.properties 中配置，同时可替换 release.",
       "windows": [
         "monthly"
       ],
       "added_at": "2026-10-09T11:22:02+00:00",
-      "last_seen": "2026-10-10",
-      "seen_count": 6
+      "last_seen": "2026-10-11",
+      "seen_count": 7
     },
     {
       "owner": "yash-srivastava",
@@ -1461,21 +1602,21 @@
       "url": "https://github.com/zed-0xff/ZombieBuddy",
       "description": "Java agent framework for Project Zomboid that enables runtime bytecode patching using ByteBuddy. Annotation-based API for modding game classes without source code access.",
       "language": "Java",
-      "stars": 203,
+      "stars": 208,
       "forks": 52,
       "homepage": "",
       "license": "MIT",
       "created_at": "2025-12-03T13:34:00Z",
       "pushed_at": "2026-10-08T17:29:51Z",
-      "updated_at": "2026-10-10T12:28:57Z",
-      "open_issues": 25,
+      "updated_at": "2026-10-11T21:13:43Z",
+      "open_issues": 26,
       "summary": "ZombieBuddy 是一个面向《Project Zomboid》模组开发者的 Java agent 框架，基于 ByteBuddy 实现运行时字节码修改，让模组作者无需获取游戏源码即可改动游戏类。它解决了以往 Java 模组需要打包 .class 文件并手动替换游戏文件的问题：补丁在运行时自动加载应用，可精准定位到具体方法，多个模组能同时修改同一个类而不冲突，游戏更新后模组也更不容易失效。核心能力包括基于 @Patch 注解声明式打补丁、对已加载类进行重转换、自动扫描补丁类、将 Java 类与全局函数暴露给 Lua，以及支持 advice 和委托两种补丁方式，并提供可配置的日志级别。",
       "windows": [
         "weekly"
       ],
       "added_at": "2026-10-10T22:23:57+00:00",
-      "last_seen": "2026-10-10",
-      "seen_count": 1
+      "last_seen": "2026-10-11",
+      "seen_count": 2
     },
     {
       "owner": "Leclowndu93150",
