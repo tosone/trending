@@ -6,9 +6,9 @@
     "weekly",
     "monthly"
   ],
-  "generated_at": "2026-10-12T12:15:24+00:00",
+  "generated_at": "2026-10-12T12:42:45+00:00",
   "first_at": "2026-10-09T11:22:02+00:00",
-  "count": 73,
+  "count": 92,
   "added": 0,
   "repos": [
     {
@@ -1308,6 +1308,75 @@
       "seen_count": 5
     },
     {
+      "owner": "quartz-scheduler",
+      "name": "quartz",
+      "full_name": "quartz-scheduler/quartz",
+      "url": "https://github.com/quartz-scheduler/quartz",
+      "description": "Code for Quartz Scheduler",
+      "language": "Java",
+      "stars": 6754,
+      "forks": 1976,
+      "homepage": "http://www.quartz-scheduler.org",
+      "license": "Apache-2.0",
+      "created_at": "2016-03-07T14:05:37Z",
+      "pushed_at": "2026-10-12T04:33:28Z",
+      "updated_at": "2026-10-10T02:12:50Z",
+      "open_issues": 60,
+      "summary": "Quartz Scheduler 是一个功能丰富的开源作业调度库，使用 Java 编写，可集成到几乎任何 Java 应用中，既适用于小型独立程序，也能支撑大型电子商务系统。它主要解决在应用内部按计划触发任务的问题，让开发者无需自行实现复杂的定时逻辑。其核心能力是作业调度，支持将调度功能嵌入现有 Java 应用，帮助管理任务的执行时机。典型使用场景包括需要周期性或定时执行任务的 Java 服务端系统，例如电商系统中的后台作业处理。该项目通过 Azure Pipelines 进行构建，并提供社区贡献入口，方便开发者参与。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:42:20+00:00",
+      "last_seen": "2026-10-12",
+      "seen_count": 1
+    },
+    {
+      "owner": "gephi",
+      "name": "gephi",
+      "full_name": "gephi/gephi",
+      "url": "https://github.com/gephi/gephi",
+      "description": "Gephi - The Open Graph Viz Platform",
+      "language": "Java",
+      "stars": 6664,
+      "forks": 1610,
+      "homepage": "http://gephi.org",
+      "license": "GPL-3.0",
+      "created_at": "2011-10-22T03:14:46Z",
+      "pushed_at": "2026-10-12T08:36:43Z",
+      "updated_at": "2026-10-12T08:36:57Z",
+      "open_issues": 442,
+      "summary": "Gephi 是一个用于可视化和操作大型图网络的开源平台，支持 Windows、Mac OS X 和 Linux，界面提供包括中文在内的多种语言。它主要解决大规模网络数据难以直观理解和交互分析的问题，借助内置 OpenGL 引擎，能够实时完成布局、过滤、拖拽等操作，可处理多达百万级元素的网络。其界面围绕可视化设计，安装和上手较为简单，常被比作图分析领域的 Photoshop。架构上基于 Apache NetBeans 平台，采用模块化设计，开发者可通过编写良好的 API 扩展或复用功能，创建新的布局算法、指标、过滤器、工具或文件格式支持。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:42:20+00:00",
+      "last_seen": "2026-10-12",
+      "seen_count": 1
+    },
+    {
+      "owner": "apache",
+      "name": "flink-cdc",
+      "full_name": "apache/flink-cdc",
+      "url": "https://github.com/apache/flink-cdc",
+      "description": "Flink CDC is a streaming data integration tool",
+      "language": "Java",
+      "stars": 6482,
+      "forks": 2198,
+      "homepage": "https://nightlies.apache.org/flink/flink-cdc-docs-stable",
+      "license": "Apache-2.0",
+      "created_at": "2020-07-27T19:23:33Z",
+      "pushed_at": "2026-10-12T08:50:51Z",
+      "updated_at": "2026-10-12T08:51:17Z",
+      "open_issues": 92,
+      "summary": "Apache Flink CDC 是一个基于 Apache Flink 构建的分布式数据集成工具，面向实时与批量数据处理场景，主要解决端到端数据集成效率问题。它支持全库同步、分库分表同步、模式演进和数据转换等能力，并提供三层 API 以适应不同使用需求：YAML API 以声明式零代码方式定义数据管道，通过 flink-cdc.",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:42:20+00:00",
+      "last_seen": "2026-10-12",
+      "seen_count": 1
+    },
+    {
       "owner": "TGX-Android",
       "name": "Telegram-X",
       "full_name": "TGX-Android/Telegram-X",
@@ -1356,6 +1425,29 @@
       "seen_count": 5
     },
     {
+      "owner": "oshi",
+      "name": "oshi",
+      "full_name": "oshi/oshi",
+      "url": "https://github.com/oshi/oshi",
+      "description": "Native Operating System and Hardware Information",
+      "language": "Java",
+      "stars": 5267,
+      "forks": 913,
+      "homepage": "https://oshi.ooo",
+      "license": "MIT",
+      "created_at": "2012-02-10T12:46:48Z",
+      "pushed_at": "2026-10-12T04:00:37Z",
+      "updated_at": "2026-10-12T04:00:41Z",
+      "open_issues": 3,
+      "summary": "OSHI 是一个面向 Java 的原生操作系统与硬件信息库，基于 JNA 或 FFM 实现，无需额外安装本地库即可跨平台获取系统数据。它主要解决 Java 程序难以统一读取底层系统信息的问题，支持 Windows、macOS、Linux（含 Android）以及多种 UNIX 系统。核心能力涵盖操作系统版本与虚拟化检测、CPU 与内存使用、进程与线程详情、磁盘与分区、网络接口与路由、电池状态、USB 与蓝牙设备、显示器与显卡、GPU 利用率、传感器以及容器资源限制等。项目提供 JNA 和 FFM 两种原生访问实现，另有纯 Java 的 oshi.",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:42:20+00:00",
+      "last_seen": "2026-10-12",
+      "seen_count": 1
+    },
+    {
       "owner": "bethington",
       "name": "ghidra-mcp",
       "full_name": "bethington/ghidra-mcp",
@@ -1381,6 +1473,75 @@
       "seen_count": 5
     },
     {
+      "owner": "grobidOrg",
+      "name": "grobid",
+      "full_name": "grobidOrg/grobid",
+      "url": "https://github.com/grobidOrg/grobid",
+      "description": "A machine learning software for extracting information from scholarly documents",
+      "language": "Java",
+      "stars": 5169,
+      "forks": 566,
+      "homepage": "https://grobid.readthedocs.io",
+      "license": "Apache-2.0",
+      "created_at": "2012-09-13T15:48:54Z",
+      "pushed_at": "2026-10-11T12:13:01Z",
+      "updated_at": "2026-10-12T09:45:37Z",
+      "open_issues": 312,
+      "summary": "GROBID 是一个用 Java 编写的机器学习工具，用于从学术文献中提取和重构信息。它能将 PDF 等原始文档解析为结构化的 XML/TEI 文档，重点面向技术与科学出版物。核心能力包括：解析文章头部信息（标题、摘要、作者、机构、关键词等）、提取并解析参考文献与引用上下文、全文结构化（章节、段落、图表、脚注等）、识别 PDF 坐标以生成交互式文档，以及解析姓名、机构地址、日期，并可通过 CrossRef 等接口消解参考文献。它采用级联序列标注模型，结合文本与版面信息，默认使用 CRF，也可选用基于 DeLFT 的深度学习模型。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:42:20+00:00",
+      "last_seen": "2026-10-12",
+      "seen_count": 1
+    },
+    {
+      "owner": "OpenTSDB",
+      "name": "opentsdb",
+      "full_name": "OpenTSDB/opentsdb",
+      "url": "https://github.com/OpenTSDB/opentsdb",
+      "description": "A scalable, distributed Time Series Database.",
+      "language": "Java",
+      "stars": 5064,
+      "forks": 1230,
+      "homepage": "http://opentsdb.net",
+      "license": "LGPL-2.1",
+      "created_at": "2010-08-27T02:05:20Z",
+      "pushed_at": "2024-12-12T20:03:34Z",
+      "updated_at": "2026-10-09T21:26:36Z",
+      "open_issues": 538,
+      "summary": "OpenTSDB 是一个用 Java 编写的分布式、可扩展时间序列数据库，构建在 HBase 之上。它针对一个常见需求而设计：大规模存储、索引和提供来自计算机系统（如网络设备、操作系统和应用）的监控指标，并让这些数据易于访问和绘制图表。借助 HBase 的可扩展性，OpenTSDB 能够以高频率（每几秒一次）从数万台主机和应用中采集数千个指标，且不会删除或降采样数据，可轻松存储数千亿个数据点。它适用于需要长期保留原始监控数据、并对海量指标进行查询与可视化的场景，典型技术栈包括 HBase 作为底层存储。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:42:20+00:00",
+      "last_seen": "2026-10-12",
+      "seen_count": 1
+    },
+    {
+      "owner": "mock-server",
+      "name": "mockserver-monorepo",
+      "full_name": "mock-server/mockserver-monorepo",
+      "url": "https://github.com/mock-server/mockserver-monorepo",
+      "description": "MockServer is an HTTP(S) mock server and proxy for testing that lets you mock APIs, inspect and modify live traffic, and inject failures. It supports HTTP/1.1, HTTP/2, gRPC, WebSockets, TCP and more on a single port, with additional support for HTTP/3, message brokers, and AI/LLM APIs.",
+      "language": "Java",
+      "stars": 4988,
+      "forks": 1118,
+      "homepage": "https://www.mock-server.com",
+      "license": "Apache-2.0",
+      "created_at": "2013-02-26T06:09:52Z",
+      "pushed_at": "2026-10-12T11:55:52Z",
+      "updated_at": "2026-10-12T11:55:59Z",
+      "open_issues": 2,
+      "summary": "MockServer 是一个用 Java 编写的 HTTP(S) 模拟服务器与代理，用于测试应用所依赖的外部接口。它把模拟、录制和混沌测试集中在一个二进制程序里，无需为每种协议单独配置。其核心特点是单端口支持多协议，能根据连接的首字节自动识别 HTTP/1.1、HTTPS、HTTP/2、gRPC 与 gRPC-Web、WebSockets 和原始 TCP，并额外支持实验性的 HTTP/3、用于 MCP/A2A 模拟的 JSON-RPC，以及基于 AsyncAPI 的 Kafka/MQTT 测试。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:42:20+00:00",
+      "last_seen": "2026-10-12",
+      "seen_count": 1
+    },
+    {
       "owner": "FCL-Team",
       "name": "FoldCraftLauncher",
       "full_name": "FCL-Team/FoldCraftLauncher",
@@ -1402,6 +1563,29 @@
       "added_at": "2026-10-09T11:22:02+00:00",
       "last_seen": "2026-10-10",
       "seen_count": 5
+    },
+    {
+      "owner": "981011512",
+      "name": "--",
+      "full_name": "981011512/--",
+      "url": "https://github.com/981011512/--",
+      "description": "停车场系统源码，新能源充电桩系统，停车场小程序，智能停车，Parking system，【功能介绍】：①兼容市面上主流的多家相机，理论上兼容所有硬件，可灵活扩展，②相机识别后数据自动上传到云端并记录，校验相机唯一id和硬件序列号，防止非法数据录入，③用户手机查询停车记录详情可自主缴费(支持微信，支付宝，银行接口支付，支持每个停车场指定不同的商户进行收款)，支付后出场在免费时间内会自动抬杆。④支持app上查询附近停车场(导航，可用车位数，停车场费用，优惠券，评分，评论等)，可预约车位。⑤断电断网支持岗亭人员使用app可接管硬件进行停车记录的录入。 【技术架构】：后端开发语言java，框架oauth2+springboot2+dubble，数据库mysql/mongodb/redis，即时通讯底层框架netty4，安卓和ios均为原生开发，后台管理模板vue专业定制",
+      "language": "Java",
+      "stars": 4718,
+      "forks": 2231,
+      "homepage": "",
+      "license": "",
+      "created_at": "2020-06-18T22:47:21Z",
+      "pushed_at": "2025-04-20T02:08:03Z",
+      "updated_at": "2026-10-12T06:59:15Z",
+      "open_issues": 32,
+      "summary": "这是一个面向停车场与新能源充电桩场景的物联网管理平台源码，涵盖停车场小程序、智能停车收费、物业管理及自助缴费等功能。它主要解决传统停车系统硬件兼容性差、数据易被非法录入、缴费渠道单一等问题。核心能力包括兼容市面主流相机并校验设备唯一标识、云端记录停车数据、支持微信支付宝及银行支付且可按停车场配置收款商户、App查询附近停车场与预约车位、断网断电时岗亭端可接管录入。技术栈为Java，后端采用OAuth2、Spring Boot、Dubbo微服务，数据存储使用MySQL、MongoDB、Redis，即时通讯基于Netty4，客户端为安卓与iOS原生开发，后台管理使用Vue。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:42:20+00:00",
+      "last_seen": "2026-10-12",
+      "seen_count": 1
     },
     {
       "owner": "RikkaApps",
@@ -1471,6 +1655,29 @@
       "added_at": "2026-10-09T11:22:02+00:00",
       "last_seen": "2026-10-10",
       "seen_count": 6
+    },
+    {
+      "owner": "apache",
+      "name": "kylin",
+      "full_name": "apache/kylin",
+      "url": "https://github.com/apache/kylin",
+      "description": "Apache Kylin",
+      "language": "Java",
+      "stars": 3776,
+      "forks": 1501,
+      "homepage": "",
+      "license": "Apache-2.0",
+      "created_at": "2015-01-03T08:00:05Z",
+      "pushed_at": "2026-10-12T07:44:45Z",
+      "updated_at": "2026-10-12T04:55:16Z",
+      "open_issues": 79,
+      "summary": "Apache Kylin 是面向大数据的开源 OLAP 引擎，由 eBay 创建并于 2015 年成为 Apache 顶级项目，主要用 Java 编写。它通过多维建模构建星型或雪花型模型，以预计算方式生成索引（CUBE），使查询无需扫描全量数据，从而在万亿级记录上实现亚秒级延迟，并支持高并发。其核心概念包括维度、度量、预计算和索引，索引分为聚合索引与表索引。Kylin 5.0 引入内部表、基于查询历史的模型与索引推荐、集成 Gluten-ClickHouse 作为原生计算引擎，并支持 Kafka 流式数据源以实现流批混合分析，同时重构元数据存储与事务流程。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:42:12+00:00",
+      "last_seen": "2026-10-12",
+      "seen_count": 1
     },
     {
       "owner": "apache",
@@ -1566,6 +1773,190 @@
       "seen_count": 5
     },
     {
+      "owner": "Chora10",
+      "name": "Cknife",
+      "full_name": "Chora10/Cknife",
+      "url": "https://github.com/Chora10/Cknife",
+      "description": "Cknife",
+      "language": "Java",
+      "stars": 2421,
+      "forks": 858,
+      "homepage": "http://www.ms509.com",
+      "license": "",
+      "created_at": "2016-02-18T02:58:01Z",
+      "pushed_at": "2023-11-29T08:25:57Z",
+      "updated_at": "2026-10-11T06:26:03Z",
+      "open_issues": 25,
+      "summary": "Cknife（中文名“C刀”）是一款基于 Java 开发的跨平台网站管理工具，需 JRE1.7+ 环境运行。它面向已获授权的渗透测试人员、WAF 厂商和安全管理员，用于网站及服务器管理、WAF 防护能力验证等场景。工具支持 ASP、ASPX、PHP、JSP、JSPX 及自定义服务端脚本，提供文件管理、虚拟终端、数据库管理（含 MySQL、MSSQL、Oracle、ACCESS）等功能，并支持代理、自定义请求头与皮肤切换。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:42:12+00:00",
+      "last_seen": "2026-10-12",
+      "seen_count": 1
+    },
+    {
+      "owner": "gaul",
+      "name": "s3proxy",
+      "full_name": "gaul/s3proxy",
+      "url": "https://github.com/gaul/s3proxy",
+      "description": "Access other storage backends via the S3 API",
+      "language": "Java",
+      "stars": 2403,
+      "forks": 282,
+      "homepage": "",
+      "license": "Apache-2.0",
+      "created_at": "2014-07-27T20:32:24Z",
+      "pushed_at": "2026-10-02T00:26:31Z",
+      "updated_at": "2026-10-11T12:50:56Z",
+      "open_issues": 73,
+      "summary": "S3Proxy 是一个用 Java 编写的 S3 API 代理，让客户端通过标准 S3 接口访问其他存储后端。它支持 aws-s3、azureblob、google-cloud-storage、openstack-swift、sftp、本地文件系统和内存存储等后端，可用于把 S3 请求翻译到 Google Cloud、Azure、Swift 或 SFTP，也可在本地文件系统上模拟 S3 以便脱离亚马逊做测试。它支持通过中间件扩展行为，如桶别名、前缀限定、只读、延迟模拟和分片容器等，并能按桶或通配符把不同桶分配给不同后端。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:42:12+00:00",
+      "last_seen": "2026-10-12",
+      "seen_count": 1
+    },
+    {
+      "owner": "jenkinsci",
+      "name": "kubernetes-plugin",
+      "full_name": "jenkinsci/kubernetes-plugin",
+      "url": "https://github.com/jenkinsci/kubernetes-plugin",
+      "description": "Jenkins plugin to run dynamic agents in a Kubernetes/Docker environment",
+      "language": "Java",
+      "stars": 2313,
+      "forks": 1285,
+      "homepage": "https://plugins.jenkins.io/kubernetes/",
+      "license": "Apache-2.0",
+      "created_at": "2015-02-16T09:02:22Z",
+      "pushed_at": "2026-10-08T18:21:25Z",
+      "updated_at": "2026-10-09T12:40:09Z",
+      "open_issues": 409,
+      "summary": "Jenkins Kubernetes 插件用于在 Kubernetes 集群中运行动态代理，解决传统固定节点资源利用率低、扩展慢的问题。它基于“Scaling Docker with Kubernetes”思路，为每次构建创建独立的 Pod，构建结束后即停止，代理以 inbound 方式自动连接 Jenkins 控制器，并注入 JENKINS_URL、JENKINS_SECRET 等环境变量。插件支持通过界面或 podTemplate 步骤定义 Pod 模板，可在同一 Pod 内配置多个容器，用 container 步骤执行命令，并支持声明式流水线、重试机制和垃圾回收清理残留 Pod。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:41:05+00:00",
+      "last_seen": "2026-10-12",
+      "seen_count": 1
+    },
+    {
+      "owner": "OpenSPG",
+      "name": "openspg",
+      "full_name": "OpenSPG/openspg",
+      "url": "https://github.com/OpenSPG/openspg",
+      "description": "OpenSPG is a Knowledge Graph Engine developed by Ant Group in collaboration with OpenKG, based on the SPG (Semantic-enhanced Programmable Graph) framework.   Core Capabilities: 1) domain model constrained knowledge modeling, 2) facts and logic fused  representation, 3) natively support KAG...",
+      "language": "Java",
+      "stars": 2268,
+      "forks": 281,
+      "homepage": "https://spg.openkg.cn/en-US",
+      "license": "Apache-2.0",
+      "created_at": "2023-10-23T11:39:14Z",
+      "pushed_at": "2025-07-05T01:45:55Z",
+      "updated_at": "2026-10-12T02:42:52Z",
+      "open_issues": 62,
+      "summary": "OpenSPG 是蚂蚁集团与 OpenKG 合作开发的知识图谱引擎，基于 SPG（语义增强可编程图）框架构建，主要解决金融等场景下多领域知识图谱的建模、构建与推理问题。它融合了 LPG 的结构性与 RDF 的语义表达能力，支持领域模型约束的知识建模、事实与逻辑融合表示，并原生支持 KAG。核心能力包括：SPG-Schema 语义建模、SPG-Builder 知识构建（兼容大数据架构，支持结构化与非结构化知识）、SPG-Reasoner 逻辑规则推理（通过 KGDSL 实现可编程符号化规则）。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:41:05+00:00",
+      "last_seen": "2026-10-12",
+      "seen_count": 1
+    },
+    {
+      "owner": "iMeiji",
+      "name": "Toutiao",
+      "full_name": "iMeiji/Toutiao",
+      "url": "https://github.com/iMeiji/Toutiao",
+      "description": "一款第三方今日头条客户端, MVP + RxJava + Retrofit",
+      "language": "Java",
+      "stars": 2241,
+      "forks": 581,
+      "homepage": "",
+      "license": "Apache-2.0",
+      "created_at": "2016-12-16T14:22:30Z",
+      "pushed_at": "2019-01-19T18:04:58Z",
+      "updated_at": "2026-10-01T13:38:06Z",
+      "open_issues": 16,
+      "summary": "iMeiji/Toutiao 是一款基于 Java 开发的第三方今日头条 Android 客户端，采用 MVP、RxJava 与 Retrofit 架构，遵循 Material Design 设计规范。它聚合新闻、图片、视频、头条号与问答五类内容，去除了广告，提供较为纯粹的阅读体验。项目实现了自定义栏目排序、新闻详情日夜主题切换、评论展示、头条号订阅与历史文章查看、搜索推荐与历史记录、自定义主题色、视频播放、字体大小调节及内置多款 Logo 切换等功能。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:41:05+00:00",
+      "last_seen": "2026-10-12",
+      "seen_count": 1
+    },
+    {
+      "owner": "confluentinc",
+      "name": "examples",
+      "full_name": "confluentinc/examples",
+      "url": "https://github.com/confluentinc/examples",
+      "description": "Apache Kafka, Apache Flink and Confluent Platform examples and demos",
+      "language": "Java",
+      "stars": 2067,
+      "forks": 1117,
+      "homepage": "",
+      "license": "Apache-2.0",
+      "created_at": "2018-04-17T12:33:58Z",
+      "pushed_at": "2026-10-04T16:13:16Z",
+      "updated_at": "2026-10-05T12:32:22Z",
+      "open_issues": 109,
+      "summary": "confluentinc/examples 是 Confluent 维护的 Apache Kafka、Apache Flink 与 Confluent Platform 示例与演示集合，主要用 Java 编写，面向事件流处理场景。它解决的是开发者上手流式 ETL、连接器、流处理与安全配置时缺少可运行参考的问题。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:41:05+00:00",
+      "last_seen": "2026-10-12",
+      "seen_count": 1
+    },
+    {
+      "owner": "RameshMF",
+      "name": "spring-boot-tutorial",
+      "full_name": "RameshMF/spring-boot-tutorial",
+      "url": "https://github.com/RameshMF/spring-boot-tutorial",
+      "description": "100+ Spring Boot Articles, Tutorials, Video tutorials,  Projects, Guides, Source code examples etc",
+      "language": "Java",
+      "stars": 2028,
+      "forks": 1765,
+      "homepage": "http://www.javaguides.net/p/spring-boot-tutorial.html",
+      "license": "",
+      "created_at": "2018-09-17T07:25:55Z",
+      "pushed_at": "2024-08-26T16:16:12Z",
+      "updated_at": "2026-10-12T10:59:08Z",
+      "open_issues": 11,
+      "summary": "这是一个面向 Java 开发者的 Spring Boot 学习资源集合，汇集了 100 多篇教程、文章、视频和源码示例，覆盖从入门到项目实战的完整路径。它解决的是学习资料零散、缺少体系化示例的问题，内容按主题组织，包括 Spring Boot 基础与注解、REST API 开发、Web 应用开发、Spring Security 集成、配置方式、测试、PostgreSQL 与 MongoDB 接入等。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:41:05+00:00",
+      "last_seen": "2026-10-12",
+      "seen_count": 1
+    },
+    {
+      "owner": "chaychan",
+      "name": "TouTiao",
+      "full_name": "chaychan/TouTiao",
+      "url": "https://github.com/chaychan/TouTiao",
+      "description": "精仿今日头条",
+      "language": "Java",
+      "stars": 1816,
+      "forks": 577,
+      "homepage": "",
+      "license": "",
+      "created_at": "2017-07-18T08:42:40Z",
+      "pushed_at": "2022-11-09T03:41:14Z",
+      "updated_at": "2026-10-08T06:19:52Z",
+      "open_issues": 13,
+      "summary": "TouTiao 是一个用 Java 编写的 Android 开源项目，目标是精仿今日头条 App，数据通过抓取今日头条客户端获得，仅供学习交流。项目基于 RxJava、Retrofit 和 MVP 架构开发，主要帮助安卓初学者或开发者参考新闻类应用的实现方式。核心功能包括获取各频道新闻列表（含视频与非视频）、查看新闻详情与评论、本地数据库存储新闻数据以支持上拉加载历史内容、底部页签下拉刷新、视频列表不可见时自动停止播放，以及图片查看与保存。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:41:05+00:00",
+      "last_seen": "2026-10-12",
+      "seen_count": 1
+    },
+    {
       "owner": "zalexdev",
       "name": "strykerapp",
       "full_name": "zalexdev/strykerapp",
@@ -1612,6 +2003,29 @@
       "seen_count": 5
     },
     {
+      "owner": "WebJournal",
+      "name": "journaldev",
+      "full_name": "WebJournal/journaldev",
+      "url": "https://github.com/WebJournal/journaldev",
+      "description": "JournalDev Projects",
+      "language": "Java",
+      "stars": 1331,
+      "forks": 1922,
+      "homepage": "https://www.journaldev.com",
+      "license": "MIT",
+      "created_at": "2016-05-02T05:43:21Z",
+      "pushed_at": "2022-12-29T01:06:53Z",
+      "updated_at": "2026-10-04T06:52:27Z",
+      "open_issues": 266,
+      "summary": "WebJournal/journaldev 是 JournalDev 网站配套的 GitHub 代码仓库，主要用 Java 编写，用于集中托管该站点上发布的各类示例项目。JournalDev 已发布超过 500 个项目，目前正逐步迁移到 GitHub，该仓库正是这一迁移工作的载体，解决的是教程代码分散、不易查找和复用的问题。其核心特点在于以实际可运行的 Java 项目形式呈现示例，并允许社区参与：若某个项目尚未托管在此，可以提交 pull request 将代码推送过来；也可以更新相关依赖版本，让代码保持较新状态。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:41:05+00:00",
+      "last_seen": "2026-10-12",
+      "seen_count": 1
+    },
+    {
       "owner": "MCRcortex",
       "name": "voxy",
       "full_name": "MCRcortex/voxy",
@@ -1634,6 +2048,29 @@
       "added_at": "2026-10-09T11:22:02+00:00",
       "last_seen": "2026-10-10",
       "seen_count": 5
+    },
+    {
+      "owner": "devlive-community",
+      "name": "metaforge",
+      "full_name": "devlive-community/metaforge",
+      "url": "https://github.com/devlive-community/metaforge",
+      "description": "DataCap is integrated software for data transformation, integration, and visualization. Support a variety of data sources, file types, big data related database, relational database, NoSQL database, etc. Through the software can realize the management of multiple data sources, the data under the source of various operations conversion ...",
+      "language": "Java",
+      "stars": 1056,
+      "forks": 136,
+      "homepage": "https://datacap.devlive.org/",
+      "license": "Apache-2.0",
+      "created_at": "2022-09-17T06:24:42Z",
+      "pushed_at": "2026-09-21T12:12:28Z",
+      "updated_at": "2026-10-09T17:39:36Z",
+      "open_issues": 30,
+      "summary": "DataCap 是一款用 Java 编写的开源数据集成软件，面向数据转换、集成与可视化场景。它支持多种数据源，包括文件类型、大数据相关数据库、关系型数据库和 NoSQL 数据库，能够对多个数据源进行统一管理，并在数据源之上完成各类操作转换、生成数据图表以及监控数据源。其连接器可对接任何支持 SQL 的数据存储或数据引擎，例如 ClickHouse、MySQL、Presto 等主流数据库方案。用户克隆代码到本地后需按文档执行相应命令完成初始化。典型使用场景包括跨库数据查询与整合、数据可视化分析以及数据源运行状态监控，适合需要同时处理异构数据源并做进一步转换与展示的开发或数据人员。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:41:05+00:00",
+      "last_seen": "2026-10-12",
+      "seen_count": 1
     },
     {
       "owner": "Keeperorowner",
