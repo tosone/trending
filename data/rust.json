@@ -6,9 +6,9 @@
     "weekly",
     "monthly"
   ],
-  "generated_at": "2026-10-12T12:12:12+00:00",
+  "generated_at": "2026-10-12T12:15:24+00:00",
   "first_at": "2026-10-09T10:50:39+00:00",
-  "count": 98,
+  "count": 118,
   "added": 3,
   "repos": [
     {
@@ -1668,6 +1668,52 @@
       "seen_count": 1
     },
     {
+      "owner": "transact-rs",
+      "name": "sqlx",
+      "full_name": "transact-rs/sqlx",
+      "url": "https://github.com/transact-rs/sqlx",
+      "description": "🧰 The Rust SQL Toolkit. An async, pure Rust SQL crate featuring compile-time checked queries without a DSL. Supports PostgreSQL, MySQL, and SQLite.",
+      "language": "Rust",
+      "stars": 17562,
+      "forks": 1729,
+      "homepage": "",
+      "license": "Apache-2.0",
+      "created_at": "2019-12-28T10:40:57Z",
+      "pushed_at": "2026-10-04T03:49:35Z",
+      "updated_at": "2026-10-12T04:21:33Z",
+      "open_issues": 784,
+      "summary": "SQLx 是一个用 Rust 编写的异步 SQL 工具包，目标是让数据库操作在编译期就能得到校验，而不依赖 DSL 或 ORM。它直接接收普通 SQL 字符串，通过宏在编译时连接开发数据库验证查询合法性，因此能使用数据库自身支持的任意语法。核心特点包括：基于 async/await 构建，支持 PostgreSQL、MySQL、MariaDB 和 SQLite，运行时可选 tokio、async-std 或 actix，TLS 后端可选 native-tls 或 rustls；提供连接池、行流式读取、语句自动准备与缓存、嵌套事务与保存点、PostgreSQL 的 LISTEN/NOTIFY。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:14:39+00:00",
+      "last_seen": "2026-10-12",
+      "seen_count": 1
+    },
+    {
+      "owner": "tikv",
+      "name": "tikv",
+      "full_name": "tikv/tikv",
+      "url": "https://github.com/tikv/tikv",
+      "description": "Distributed transactional key-value database, originally created to complement TiDB",
+      "language": "Rust",
+      "stars": 16906,
+      "forks": 2359,
+      "homepage": "https://tikv.org",
+      "license": "Apache-2.0",
+      "created_at": "2015-12-31T04:51:32Z",
+      "pushed_at": "2026-10-12T06:04:49Z",
+      "updated_at": "2026-10-12T04:29:14Z",
+      "open_issues": 1875,
+      "summary": "TiKV 是一个开源的分布式事务型键值数据库，用 Rust 编写，最初由 PingCAP 创建以配合 TiDB。它解决的是传统 NoSQL 系统缺乏 ACID 事务支持的问题，既提供经典键值 API，也提供符合 ACID 的事务 API。其设计借鉴了 BigTable、Spanner、Percolator 以及 Raft 共识算法，通过 Rust 实现 Raft 并将共识状态存入 RocksDB 来保证数据一致性，同时引入 Placement Driver 实现自动分片和数据迁移。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:14:39+00:00",
+      "last_seen": "2026-10-12",
+      "seen_count": 1
+    },
+    {
       "owner": "longbridge",
       "name": "gpui-kit",
       "full_name": "longbridge/gpui-kit",
@@ -1690,6 +1736,29 @@
       "added_at": "2026-10-09T11:01:04+00:00",
       "last_seen": "2026-10-10",
       "seen_count": 9
+    },
+    {
+      "owner": "PyO3",
+      "name": "pyo3",
+      "full_name": "PyO3/pyo3",
+      "url": "https://github.com/PyO3/pyo3",
+      "description": "Rust bindings for the Python interpreter",
+      "language": "Rust",
+      "stars": 16222,
+      "forks": 1031,
+      "homepage": "https://pyo3.rs",
+      "license": "Apache-2.0",
+      "created_at": "2017-05-13T05:22:06Z",
+      "pushed_at": "2026-10-12T11:59:35Z",
+      "updated_at": "2026-10-12T11:59:43Z",
+      "open_issues": 398,
+      "summary": "PyO3 是 Python 解释器的 Rust 绑定库，用于在 Rust 与 Python 之间建立双向互操作。它主要解决两类问题：一是用 Rust 编写原生 Python 扩展模块，二是从 Rust 二进制程序中嵌入并调用 Python 代码。使用 PyO3 需要 Rust 1.85 或更高版本，支持 CPython 3.9 以上、PyPy 7.3（Python 3.11+）以及 GraalPy 25.4 以上。配合 maturin 工具可以快速生成、构建并发布基于 Rust 的 Python 包，也可选用 setuptools-rust 或手动配置。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:14:39+00:00",
+      "last_seen": "2026-10-12",
+      "seen_count": 1
     },
     {
       "owner": "tracel-ai",
@@ -1737,6 +1806,52 @@
       "added_at": "2026-10-09T11:01:04+00:00",
       "last_seen": "2026-10-10",
       "seen_count": 9
+    },
+    {
+      "owner": "rathole-org",
+      "name": "rathole",
+      "full_name": "rathole-org/rathole",
+      "url": "https://github.com/rathole-org/rathole",
+      "description": "A lightweight and high-performance reverse proxy for NAT traversal, written in Rust. An alternative to frp and ngrok.",
+      "language": "Rust",
+      "stars": 14326,
+      "forks": 843,
+      "homepage": "",
+      "license": "Apache-2.0",
+      "created_at": "2021-12-14T05:03:07Z",
+      "pushed_at": "2026-08-23T15:38:44Z",
+      "updated_at": "2026-10-12T09:44:58Z",
+      "open_issues": 98,
+      "summary": "rathole 是一个用 Rust 编写的轻量级高性能反向代理，用于 NAT 穿透，可将位于 NAT 后的设备服务暴露到公网，功能上类似 frp 和 ngrok。它通过一台具有公网 IP 的服务器转发流量，客户端与服务端各自持有配置，且每个服务必须配置令牌，支持 Noise 协议加密和 TLS，无需自签证书。其特点包括吞吐量高于 frp、连接数大时更稳定、内存占用低，二进制可小至约 500KiB，适合路由器等嵌入式设备；支持通过热重载配置文件动态增删服务。典型场景是在家中的 NAS 上暴露 SSH 等服务，用户可参照示例分别运行服务端与客户端，也可借助 systemd 示例作为后台服务运行。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:14:33+00:00",
+      "last_seen": "2026-10-12",
+      "seen_count": 1
+    },
+    {
+      "owner": "Canop",
+      "name": "broot",
+      "full_name": "Canop/broot",
+      "url": "https://github.com/Canop/broot",
+      "description": "A new way to see and navigate directory trees",
+      "language": "Rust",
+      "stars": 13066,
+      "forks": 324,
+      "homepage": "https://dystroy.org/broot",
+      "license": "MIT",
+      "created_at": "2018-11-15T20:09:19Z",
+      "pushed_at": "2026-10-10T14:39:54Z",
+      "updated_at": "2026-10-12T04:29:10Z",
+      "open_issues": 105,
+      "summary": "Broot 是一款用 Rust 编写的目录树浏览与文件查找工具，目标是替代传统 tree 和 ls 的繁琐输出。它默认过滤 .gitignore 中的文件，只展示有用内容，让大目录也能一目了然。用户输入少量字母即可模糊匹配目录并直接 cd 过去，搜索过程不阻塞，任意按键都会中断当前搜索。它支持正则、文件内容搜索以及逻辑组合条件，还能预览文件、在面板间复制移动、批量执行命令、查看 git 状态、按大小或日期排序并统计磁盘占用。常用操作包括 alt+enter 跳转目录、ctrl+→ 打开预览面板、:e 调用编辑器等，适合在终端中高效导航、检索和管理文件的开发者使用。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:14:33+00:00",
+      "last_seen": "2026-10-12",
+      "seen_count": 1
     },
     {
       "owner": "hydra-db",
@@ -1808,6 +1923,29 @@
       ]
     },
     {
+      "owner": "orf",
+      "name": "gping",
+      "full_name": "orf/gping",
+      "url": "https://github.com/orf/gping",
+      "description": "Ping, but with a graph",
+      "language": "Rust",
+      "stars": 12708,
+      "forks": 370,
+      "homepage": "",
+      "license": "MIT",
+      "created_at": "2015-10-17T14:34:25Z",
+      "pushed_at": "2026-10-06T10:32:55Z",
+      "updated_at": "2026-10-12T00:41:02Z",
+      "open_issues": 44,
+      "summary": "gping 是一个用 Rust 编写的命令行网络工具，把传统 ping 的文本输出变成了实时图形。它解决的是普通 ping 只能逐行显示延迟数字、难以直观看出网络波动趋势的问题。核心能力包括：同时为多个主机绘制 ping 时间曲线，通过 --cmd 参数对任意命令的执行时间进行图形化监控，支持自定义颜色，并可在 Windows、Mac 和 Linux 上运行。典型用法是直接执行 gping [host]，host 也可以是 curl google.com 这类命令（需配合 --cmd），还支持 aws:eu-west-1 这样的区域简写来 ping 特定云区域，目前仅支持 AWS。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:14:33+00:00",
+      "last_seen": "2026-10-12",
+      "seen_count": 1
+    },
+    {
       "owner": "Pumpkin-MC",
       "name": "Pumpkin",
       "full_name": "Pumpkin-MC/Pumpkin",
@@ -1829,6 +1967,122 @@
       "added_at": "2026-10-09T11:01:04+00:00",
       "last_seen": "2026-10-10",
       "seen_count": 9
+    },
+    {
+      "owner": "GitoxideLabs",
+      "name": "gitoxide",
+      "full_name": "GitoxideLabs/gitoxide",
+      "url": "https://github.com/GitoxideLabs/gitoxide",
+      "description": "An idiomatic, lean, fast & safe pure Rust implementation of Git",
+      "language": "Rust",
+      "stars": 12009,
+      "forks": 560,
+      "homepage": "",
+      "license": "Apache-2.0",
+      "created_at": "2018-06-07T17:33:00Z",
+      "pushed_at": "2026-10-12T12:10:09Z",
+      "updated_at": "2026-10-12T07:36:41Z",
+      "open_issues": 17,
+      "summary": "gitoxide 是用 Rust 编写的 Git 实现，目标是提供正确、高效且符合 Rust 习惯的库和命令行工具，用于构建面向未来的应用。它解决的是在 Rust 生态中需要一个纯 Rust、类型安全且性能良好的 Git 底层实现的问题，可作为 libgit2 和 GitPython 的替代选择。核心能力包括克隆、抓取、状态查看、提交、对象与引用读写、索引和配置读写、pathspec、revspec、.gitignore 与 .gitattributes 支持，以及 blame、blob 和 tree diff 等，push、merge、rebase、reset 等尚在计划中。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:14:33+00:00",
+      "last_seen": "2026-10-12",
+      "seen_count": 1
+    },
+    {
+      "owner": "seanmonstar",
+      "name": "reqwest",
+      "full_name": "seanmonstar/reqwest",
+      "url": "https://github.com/seanmonstar/reqwest",
+      "description": "An easy and powerful Rust HTTP Client",
+      "language": "Rust",
+      "stars": 11870,
+      "forks": 1420,
+      "homepage": "https://docs.rs/reqwest",
+      "license": "Apache-2.0",
+      "created_at": "2016-07-01T00:23:08Z",
+      "pushed_at": "2026-10-02T14:26:57Z",
+      "updated_at": "2026-10-12T11:10:57Z",
+      "open_issues": 473,
+      "summary": "reqwest 是一个面向 Rust 的人体工学 HTTP 客户端，目标是让开发者以较少样板代码完成网络请求。它同时提供异步和阻塞两种客户端，便于在不同并发模型下使用。核心能力包括：发送普通请求体，处理 JSON、urlencoded 和 multipart 数据；可自定义重定向策略；支持 HTTP 代理；通过 rustls 实现 HTTPS，也可选用系统原生 TLS；内置 Cookie 存储；并支持 WASM。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:14:40+00:00",
+      "last_seen": "2026-10-12",
+      "seen_count": 1
+    },
+    {
+      "owner": "shadowsocks",
+      "name": "shadowsocks-rust",
+      "full_name": "shadowsocks/shadowsocks-rust",
+      "url": "https://github.com/shadowsocks/shadowsocks-rust",
+      "description": "A Rust port of shadowsocks",
+      "language": "Rust",
+      "stars": 10928,
+      "forks": 1457,
+      "homepage": "https://shadowsocks.org/",
+      "license": "MIT",
+      "created_at": "2014-10-15T11:02:36Z",
+      "pushed_at": "2026-10-12T00:46:08Z",
+      "updated_at": "2026-10-12T11:24:52Z",
+      "open_issues": 67,
+      "summary": "shadowsocks-rust 是 shadowsocks 的 Rust 语言移植版本，一个用于绕过防火墙的快速隧道代理工具。它提供 sslocal 和 ssserver 两个核心程序，分别作为本地客户端和服务端运行。客户端支持 SOCKS5、HTTP、Tunnel、透明代理（redir）、DNS、TUN 等多种本地协议，并可通过配置自动选择延迟最低、可用性最高的服务器。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:14:40+00:00",
+      "last_seen": "2026-10-12",
+      "seen_count": 1
+    },
+    {
+      "owner": "sigoden",
+      "name": "dufs",
+      "full_name": "sigoden/dufs",
+      "url": "https://github.com/sigoden/dufs",
+      "description": "A file server that supports static serving, uploading, searching, accessing control, webdav...",
+      "language": "Rust",
+      "stars": 10894,
+      "forks": 601,
+      "homepage": "",
+      "license": "Apache-2.0",
+      "created_at": "2022-05-26T12:09:04Z",
+      "pushed_at": "2026-10-12T10:00:32Z",
+      "updated_at": "2026-10-12T10:40:06Z",
+      "open_issues": 11,
+      "summary": "Dufs 是一款用 Rust 编写的实用文件服务器，主要解决在本地或服务器上快速提供文件访问与管理能力的问题。它支持静态文件服务、文件夹打包为 zip 下载、拖拽上传文件与文件夹、创建、编辑和搜索文件，以及断点续传式的上传与下载。访问控制方面，它提供权限配置和用户名密码验证，并支持 https 与 WebDAV。典型用法包括以只读模式服务当前目录、开放上传或全部操作、服务单个文件或 React/Vue 单页应用、监听指定主机端口或 unix socket。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:14:40+00:00",
+      "last_seen": "2026-10-12",
+      "seen_count": 1
+    },
+    {
+      "owner": "messense",
+      "name": "aliyundrive-webdav",
+      "full_name": "messense/aliyundrive-webdav",
+      "url": "https://github.com/messense/aliyundrive-webdav",
+      "description": "阿里云盘 WebDAV 服务",
+      "language": "Rust",
+      "stars": 9746,
+      "forks": 1064,
+      "homepage": "",
+      "license": "MIT",
+      "created_at": "2021-08-18T13:53:39Z",
+      "pushed_at": "2026-02-20T14:17:37Z",
+      "updated_at": "2026-10-11T06:36:19Z",
+      "open_issues": 25,
+      "archived": true,
+      "summary": "aliyundrive-webdav 是一个用 Rust 编写的阿里云盘 WebDAV 服务，把阿里云盘挂载为标准的 WebDAV 接口，从而让 Infuse、nPlayer 等支持 WebDAV 的客户端 App 能够直接在电视上播放云盘中的视频。它的一个关键特点是支持客户端直接从阿里云盘获取文件播放，不经过运行本应用的服务器中转，同时也支持上传文件，但受 WebDAV 协议限制无法实现秒传。V2 版本基于阿里云盘开放平台接口实现，不再支持从阿里云盘 Web 和 App 版本获取的 refresh token。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:14:58+00:00",
+      "last_seen": "2026-10-12",
+      "seen_count": 1
     },
     {
       "owner": "pacifio",
@@ -1854,6 +2108,52 @@
       "seen_count": 9
     },
     {
+      "owner": "jely2002",
+      "name": "youtube-dl-gui",
+      "full_name": "jely2002/youtube-dl-gui",
+      "url": "https://github.com/jely2002/youtube-dl-gui",
+      "description": "Open Video Downloader - A cross-platform GUI for youtube-dl made in Rust with Tauri and Vue + Typescript.",
+      "language": "Rust",
+      "stars": 9373,
+      "forks": 664,
+      "homepage": "https://jely2002.github.io/youtube-dl-gui/",
+      "license": "AGPL-3.0",
+      "created_at": "2020-04-02T01:27:59Z",
+      "pushed_at": "2026-09-28T21:11:53Z",
+      "updated_at": "2026-10-12T11:28:29Z",
+      "open_issues": 86,
+      "summary": "Open Video Downloader 是一款跨平台的桌面应用，为 yt-dlp 提供图形界面，让用户无需接触命令行即可从数百个受支持网站下载视频、音频、字幕和元数据。它支持 Windows、macOS 和 Linux，可抓取完整视频或仅提取音轨，自动保存可用字幕与视频信息，并允许选择分辨率、帧率和 MP4、MKV 等输出格式。用户能一次性下载整个播放列表，自定义下载位置与文件名模板，借助智能队列平衡多个任务以避免电脑变慢，还支持浏览器 cookie、基础认证和视频密码。应用与 yt-dlp 均可自动更新，适配系统主题的明暗模式，并提供快捷键与通知。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:14:58+00:00",
+      "last_seen": "2026-10-12",
+      "seen_count": 1
+    },
+    {
+      "owner": "FalkorDB",
+      "name": "FalkorDB",
+      "full_name": "FalkorDB/FalkorDB",
+      "url": "https://github.com/FalkorDB/FalkorDB",
+      "description": "A super fast Graph Database uses GraphBLAS under the hood for its sparse adjacency matrix graph representation. Our goal is to provide the best Knowledge Graph for LLM (GraphRAG).",
+      "language": "Rust",
+      "stars": 9195,
+      "forks": 549,
+      "homepage": "https://www.falkordb.com/",
+      "license": "NOASSERTION",
+      "created_at": "2023-07-20T10:47:51Z",
+      "pushed_at": "2026-10-12T11:17:59Z",
+      "updated_at": "2026-10-12T12:14:58Z",
+      "open_issues": 996,
+      "summary": "FalkorDB 是一个用 Rust 实现的高性能图数据库，以 Redis 模块形式发布，底层借助 GraphBLAS 稀疏矩阵表示图的邻接矩阵，并用线性代数执行查询。它面向大语言模型场景，目标是提供适合 GraphRAG 的知识图谱，强调极低延迟的信息检索，同时支持多租户。数据库遵循属性图模型，节点和关系可带属性，兼容 OpenCypher 查询语言并包含自有扩展。用户可通过 Docker 快速启动实例，并从浏览器访问，也可使用 Python、Java、.NET、TypeScript、Rust、Go 等官方或社区客户端，或直接以 Redis 命令方式交互。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:14:58+00:00",
+      "last_seen": "2026-10-12",
+      "seen_count": 1
+    },
+    {
       "owner": "max-sixty",
       "name": "worktrunk",
       "full_name": "max-sixty/worktrunk",
@@ -1875,6 +2175,29 @@
       "added_at": "2026-10-09T11:01:04+00:00",
       "last_seen": "2026-10-10",
       "seen_count": 9
+    },
+    {
+      "owner": "sinelaw",
+      "name": "fresh",
+      "full_name": "sinelaw/fresh",
+      "url": "https://github.com/sinelaw/fresh",
+      "description": "Terminal based IDE & text editor: easy, powerful and fast",
+      "language": "Rust",
+      "stars": 9165,
+      "forks": 359,
+      "homepage": "https://getfresh.dev/",
+      "license": "GPL-3.0",
+      "created_at": "2024-12-24T19:50:15Z",
+      "pushed_at": "2026-10-12T04:29:51Z",
+      "updated_at": "2026-10-12T10:08:53Z",
+      "open_issues": 388,
+      "summary": "Fresh 是一款基于 Rust 编写的终端文本编辑器与 IDE，目标是把 VS Code、Sublime Text 那样直观的操作体验带进终端。它零配置即可使用，采用常见快捷键并支持鼠标、菜单和命令面板，无需切换模式或记忆特殊按键，降低了上手门槛。核心能力包括命令面板与模糊查找、多光标编辑、多任务编排（每个任务独立 worktree 并可切换）、主题与设置界面、交互式快捷键编辑器，以及文件浏览器、分屏和集成终端等。它能处理数 GB 的大文件而内存开销很小，输入延迟稳定。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:14:58+00:00",
+      "last_seen": "2026-10-12",
+      "seen_count": 1
     },
     {
       "owner": "akitaonrails",
@@ -1900,6 +2223,29 @@
       ]
     },
     {
+      "owner": "cross-rs",
+      "name": "cross",
+      "full_name": "cross-rs/cross",
+      "url": "https://github.com/cross-rs/cross",
+      "description": "“Zero setup” cross compilation and “cross testing” of Rust crates",
+      "language": "Rust",
+      "stars": 8331,
+      "forks": 462,
+      "homepage": "",
+      "license": "Apache-2.0",
+      "created_at": "2016-12-25T18:48:10Z",
+      "pushed_at": "2026-09-24T06:33:15Z",
+      "updated_at": "2026-10-11T20:06:49Z",
+      "open_issues": 265,
+      "summary": "cross-rs/cross 是一个用 Rust 编写的跨平台编译与测试工具，目标是让 Rust crate 的交叉编译和交叉测试实现“零配置”。它通过容器引擎（Docker 或 Podman）提供完整的环境、交叉工具链和交叉编译库，无需改动宿主系统安装，即可生成可移植性较强的二进制文件。其命令行接口与 Cargo 完全一致，支持 stable、beta、nightly 通道，并能在非 x86_64 架构上运行测试，测试依赖 QEMU 模拟。配置方式灵活，可在 Cargo.toml、Cross.toml、CROSS_CONFIG 环境变量或环境变量中指定。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:14:40+00:00",
+      "last_seen": "2026-10-12",
+      "seen_count": 1
+    },
+    {
       "owner": "deeplethe",
       "name": "utopia",
       "full_name": "deeplethe/utopia",
@@ -1921,6 +2267,121 @@
       "added_at": "2026-10-09T11:01:04+00:00",
       "last_seen": "2026-10-10",
       "seen_count": 10
+    },
+    {
+      "owner": "ducaale",
+      "name": "xh",
+      "full_name": "ducaale/xh",
+      "url": "https://github.com/ducaale/xh",
+      "description": "Friendly and fast tool for sending HTTP requests",
+      "language": "Rust",
+      "stars": 8128,
+      "forks": 147,
+      "homepage": "",
+      "license": "MIT",
+      "created_at": "2020-09-10T20:58:13Z",
+      "pushed_at": "2026-09-05T09:34:49Z",
+      "updated_at": "2026-10-12T02:01:15Z",
+      "open_issues": 39,
+      "summary": "xh 是一个用 Rust 编写的命令行 HTTP 请求工具，目标是复刻 HTTPie 的易用设计并提升性能。它解决了开发者发送和调试 HTTP 请求时命令行工具启动慢、依赖多的问题，提供单一静态链接二进制文件，支持 HTTP/2。xh 沿用 HTTPie 的请求项语法，可用 =、:= 设置 JSON 或表单字段，== 添加查询参数，@ 上传文件，: 增删请求头，并支持嵌套 JSON 路径和从文件或标准输入读取请求体。URL 可省略协议，冒号开头代表 localhost。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:14:40+00:00",
+      "last_seen": "2026-10-12",
+      "seen_count": 1
+    },
+    {
+      "owner": "prefix-dev",
+      "name": "pixi",
+      "full_name": "prefix-dev/pixi",
+      "url": "https://github.com/prefix-dev/pixi",
+      "description": "Powerful system-level package manager for Linux, macOS and Windows written in Rust – building on top of the Conda ecosystem.",
+      "language": "Rust",
+      "stars": 7848,
+      "forks": 577,
+      "homepage": "https://pixi.sh",
+      "license": "BSD-3-Clause",
+      "created_at": "2023-04-28T10:51:16Z",
+      "pushed_at": "2026-10-12T10:54:43Z",
+      "updated_at": "2026-10-12T11:46:15Z",
+      "open_issues": 667,
+      "summary": "Pixi 是一个用 Rust 编写的跨平台、多语言包管理器与工作流工具，构建在 Conda 生态之上，支持 Linux、macOS（含 Apple Silicon）和 Windows。它旨在为开发者提供类似 cargo 或 npm 的体验，但适用于任意语言，可用于管理 Python、C++、R 等依赖。其核心特点包括始终维护最新的锁文件、简洁的类 Cargo 命令行界面、支持按项目或全局安装工具，并完全基于 rattler 库实现。典型用法是初始化工作区、添加依赖、在环境中运行或激活命令，也可像 pipx 那样全局安装 Conda 包，并能在 GitHub Actions 中自动缓存环境。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:14:40+00:00",
+      "last_seen": "2026-10-12",
+      "seen_count": 1
+    },
+    {
+      "owner": "rustls",
+      "name": "rustls",
+      "full_name": "rustls/rustls",
+      "url": "https://github.com/rustls/rustls",
+      "description": "A modern TLS library in Rust",
+      "language": "Rust",
+      "stars": 7668,
+      "forks": 912,
+      "homepage": "",
+      "license": "NOASSERTION",
+      "created_at": "2016-05-02T20:50:44Z",
+      "pushed_at": "2026-10-12T11:54:14Z",
+      "updated_at": "2026-10-12T11:01:29Z",
+      "open_issues": 85,
+      "summary": "Rustls 是一个用 Rust 编写的现代 TLS 库，目标是提供良好的密码学安全性，默认无需额外配置即可达到该安全性，并且不暴露不安全特性或过时密码学算法。它同时为客户端和服务端实现 TLS 1.2 与 TLS 1.3。由于 TLS 依赖密码学原语，Rustls 通过 CryptoProvider 抽象来组织这些实现，自 0.24 起用户在构造 ClientConfig 或 ServerConfig 时必须显式提供 provider。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:14:40+00:00",
+      "last_seen": "2026-10-12",
+      "seen_count": 1
+    },
+    {
+      "owner": "mullvad",
+      "name": "mullvadvpn-app",
+      "full_name": "mullvad/mullvadvpn-app",
+      "url": "https://github.com/mullvad/mullvadvpn-app",
+      "description": "The Mullvad VPN client app for desktop and mobile",
+      "language": "Rust",
+      "stars": 7655,
+      "forks": 543,
+      "homepage": "https://mullvad.net/",
+      "license": "GPL-3.0",
+      "created_at": "2017-12-19T08:59:42Z",
+      "pushed_at": "2026-10-12T11:58:07Z",
+      "updated_at": "2026-10-12T11:01:06Z",
+      "open_issues": 160,
+      "summary": "Mullvad VPN 客户端应用，为桌面和移动平台提供隐私保护的 VPN 连接。它解决流量泄漏和隐私暴露问题，默认采用更安全、更私密的设置，用户需显式允许更宽松的规则。核心能力包括系统服务守护进程、图形界面和命令行界面，Android 复用底层隧道与安全服务，iOS 为独立实现。支持 macOS、Windows、Linux、Android 和 iOS，提供 WireGuard 用户空间实现、防火墙调试、DNS 配置和本地网络控制等环境变量。典型场景是用户通过官方签名发布版本或自行构建，在桌面或移动设备上建立加密隧道，并借助审计和 PGP 签名验证开发与发布过程的安全性。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:14:40+00:00",
+      "last_seen": "2026-10-12",
+      "seen_count": 1
+    },
+    {
+      "owner": "youki-dev",
+      "name": "youki",
+      "full_name": "youki-dev/youki",
+      "url": "https://github.com/youki-dev/youki",
+      "description": "A container runtime written in Rust",
+      "language": "Rust",
+      "stars": 7632,
+      "forks": 477,
+      "homepage": "https://youki-dev.github.io/youki/",
+      "license": "Apache-2.0",
+      "created_at": "2021-03-27T11:06:58Z",
+      "pushed_at": "2026-10-12T10:50:48Z",
+      "updated_at": "2026-10-12T11:02:48Z",
+      "open_issues": 162,
+      "summary": "youki 是一个用 Rust 编写的容器运行时，实现了 OCI runtime-spec，定位与 runc 类似。它主要解决容器运行时对系统调用处理复杂、内存占用较高等问题：Go 实现容器运行时需要特殊处理命名空间和 fork 等系统调用，而 Rust 在提供内存安全的同时能更自然地应对这些场景，因此 youki 有潜力比 runc 更快、更省内存，适合内存受限环境。它已通过 containerd 的端到端测试，并被多个生产环境采用。核心能力包括按 OCI 规范创建和运行容器、支持 rootless 无根模式，并配套 oci-spec-rs 项目。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:14:40+00:00",
+      "last_seen": "2026-10-12",
+      "seen_count": 1
     },
     {
       "owner": "alphaXiv",

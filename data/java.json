@@ -6,9 +6,9 @@
     "weekly",
     "monthly"
   ],
-  "generated_at": "2026-10-12T12:12:12+00:00",
+  "generated_at": "2026-10-12T12:15:24+00:00",
   "first_at": "2026-10-09T11:22:02+00:00",
-  "count": 61,
+  "count": 73,
   "added": 0,
   "repos": [
     {
@@ -800,6 +800,29 @@
       "seen_count": 1
     },
     {
+      "owner": "alibaba",
+      "name": "DataX",
+      "full_name": "alibaba/DataX",
+      "url": "https://github.com/alibaba/DataX",
+      "description": "DataX是阿里云DataWorks数据集成的开源版本。",
+      "language": "Java",
+      "stars": 17363,
+      "forks": 5658,
+      "homepage": "",
+      "license": "NOASSERTION",
+      "created_at": "2018-01-18T10:09:47Z",
+      "pushed_at": "2026-07-07T08:41:05Z",
+      "updated_at": "2026-10-12T10:22:30Z",
+      "open_issues": 1360,
+      "summary": "DataX 是阿里云 DataWorks 数据集成的开源版本，也是阿里巴巴集团内广泛使用的离线数据同步工具与平台，主要用 Java 编写。它要解决的是异构数据源之间的高效同步问题，通过将同步过程抽象为从源端读取的 Reader 插件和向目标端写入的 Writer 插件，理论上可支持任意数据源类型，新接入的数据源也能与已有数据源互通。目前它已覆盖 MySQL、Oracle、OceanBase、SqlServer、Postgre、HDFS、Hive、HBase、MaxCompute、Hologres、DRDS、databend 等主流 RDBMS、NoSQL 与大数据计算系统。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:14:43+00:00",
+      "last_seen": "2026-10-12",
+      "seen_count": 1
+    },
+    {
       "owner": "apache",
       "name": "doris",
       "full_name": "apache/doris",
@@ -846,6 +869,75 @@
       "seen_count": 5
     },
     {
+      "owner": "languagetool-org",
+      "name": "languagetool",
+      "full_name": "languagetool-org/languagetool",
+      "url": "https://github.com/languagetool-org/languagetool",
+      "description": "Style and Grammar Checker for 25+ Languages",
+      "language": "Java",
+      "stars": 15125,
+      "forks": 1587,
+      "homepage": "https://languagetool.org",
+      "license": "LGPL-2.1",
+      "created_at": "2013-08-08T16:37:22Z",
+      "pushed_at": "2026-10-12T04:58:38Z",
+      "updated_at": "2026-10-12T09:03:13Z",
+      "open_issues": 2153,
+      "summary": "LanguageTool 是一款基于 Java 的开源校对软件，支持英语、西班牙语、法语、德语、葡萄牙语、波兰语、荷兰语等 25 种以上语言。它专注于发现简单拼写检查无法识别的错误，例如语法和文体问题，从而帮助用户提升文本质量。核心能力在于多语言语法与风格检查，可通过 HTTP API 调用公共服务器，也能自行搭建服务器，或从 Java 代码中直接使用。典型场景包括写作辅助、内容审核以及集成到编辑工具中。构建时需 Java 17 和 Apache Maven，完整克隆超过 500 MiB，浅克隆则不到 60 MiB。社区还提供了多个 Docker 镜像方案，方便部署。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:14:43+00:00",
+      "last_seen": "2026-10-12",
+      "seen_count": 1
+    },
+    {
+      "owner": "elastic",
+      "name": "logstash",
+      "full_name": "elastic/logstash",
+      "url": "https://github.com/elastic/logstash",
+      "description": "Logstash - transport and process your logs, events, or other data",
+      "language": "Java",
+      "stars": 14965,
+      "forks": 3498,
+      "homepage": "https://www.elastic.co/products/logstash",
+      "license": "NOASSERTION",
+      "created_at": "2010-11-18T01:31:50Z",
+      "pushed_at": "2026-10-09T12:49:30Z",
+      "updated_at": "2026-10-11T07:41:26Z",
+      "open_issues": 2257,
+      "summary": "Logstash 是 Elastic Stack 中的服务端数据处理管道，用于从多种来源同时采集数据，经过转换后发送到指定的存储端，通常与 Beats、Elasticsearch 和 Kibana 配合使用。它拥有超过 200 个插件，覆盖输入、过滤和输出等环节，用户也可以自行编写插件，插件以独立 Ruby gem 形式发布。Logstash 核心使用 Java 编写，插件开发基于 JRuby，构建和测试依赖 JDK 21、JRuby 10.0.5.0、rake 与 bundler，测试使用 rspec 和 junit。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:14:43+00:00",
+      "last_seen": "2026-10-12",
+      "seen_count": 1
+    },
+    {
+      "owner": "opensearch-project",
+      "name": "OpenSearch",
+      "full_name": "opensearch-project/OpenSearch",
+      "url": "https://github.com/opensearch-project/OpenSearch",
+      "description": "🔎 Open source distributed and RESTful search engine.",
+      "language": "Java",
+      "stars": 13851,
+      "forks": 2998,
+      "homepage": "https://opensearch.org/docs/latest/opensearch/index/",
+      "license": "Apache-2.0",
+      "created_at": "2021-01-29T22:10:00Z",
+      "pushed_at": "2026-10-12T12:06:02Z",
+      "updated_at": "2026-10-12T11:59:34Z",
+      "open_issues": 3242,
+      "summary": "OpenSearch 是一个用 Java 编写的开源分布式搜索与可观测性套件，提供 RESTful 接口，用于处理大规模非结构化数据。它面向需要在海量数据中快速检索、分析和监控的场景，帮助用户从杂乱的数据中建立秩序。核心能力包括分布式搜索和可观测性，支持通过 REST API 进行交互，适合构建日志分析、全文检索、指标监控等应用。项目由 OpenSearch 基金会维护，社区提供论坛和 Slack 等支持渠道，并设有行为准则和安全问题报告流程。开发者可以参与贡献，维护者、发布管理和测试等职责也有明确分工。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:15:00+00:00",
+      "last_seen": "2026-10-12",
+      "seen_count": 1
+    },
+    {
       "owner": "LawnchairLauncher",
       "name": "lawnchair",
       "full_name": "LawnchairLauncher/lawnchair",
@@ -867,6 +959,53 @@
       "added_at": "2026-10-09T11:22:02+00:00",
       "last_seen": "2026-10-10",
       "seen_count": 5
+    },
+    {
+      "owner": "tink-crypto",
+      "name": "tink",
+      "full_name": "tink-crypto/tink",
+      "url": "https://github.com/tink-crypto/tink",
+      "description": "Tink is a multi-language, cross-platform, open source library that provides cryptographic APIs that are secure, easy to use correctly, and hard(er) to misuse.",
+      "language": "Java",
+      "stars": 13541,
+      "forks": 1194,
+      "homepage": "https://developers.google.com/tink",
+      "license": "Apache-2.0",
+      "created_at": "2014-06-06T16:21:09Z",
+      "pushed_at": "2024-04-17T11:08:35Z",
+      "updated_at": "2026-10-10T02:09:41Z",
+      "open_issues": 0,
+      "archived": true,
+      "summary": "Tink 是由 Google 密码学家和安全工程师开发的跨语言、跨平台加密库，提供安全且易于正确使用的加密 API，旨在降低常见加密误用风险。它源于 Google 产品团队的实际经验，通过以用户为中心的设计、严谨实现和大量测试，让开发者无需深厚密码学背景也能安全使用。Tink 支持 Java/Android、C++、Obj-C、Go 和 Python，这些语言均已通过实战检验并可用于生产环境，JavaScript/TypeScript 尚处 alpha 阶段。其文档涵盖 Java 和 Python 的常见用法，并提供多语言示例。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:15:00+00:00",
+      "last_seen": "2026-10-12",
+      "seen_count": 1
+    },
+    {
+      "owner": "trinodb",
+      "name": "trino",
+      "full_name": "trinodb/trino",
+      "url": "https://github.com/trinodb/trino",
+      "description": "Official repository of Trino, the distributed SQL query engine for big data, formerly known as PrestoSQL (https://trino.io)",
+      "language": "Java",
+      "stars": 13322,
+      "forks": 3821,
+      "homepage": "https://trino.io",
+      "license": "Apache-2.0",
+      "created_at": "2019-01-19T06:38:14Z",
+      "pushed_at": "2026-10-12T12:03:07Z",
+      "updated_at": "2026-10-12T12:03:14Z",
+      "open_issues": 2707,
+      "summary": "Trino 是一个用 Java 编写的分布式 SQL 查询引擎，前身是 PrestoSQL，专注于大数据的快速分析查询。它解决的是跨多种数据源进行统一 SQL 查询的问题，让用户无需搬移数据即可对海量数据做交互式分析。核心能力在于分布式执行 SQL，并可通过插件机制连接不同数据源，开发服务器默认集成了 TPCH 连接器，也支持自定义插件目录或 Maven 坐标加载插件。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:15:00+00:00",
+      "last_seen": "2026-10-12",
+      "seen_count": 1
     },
     {
       "owner": "langchain4j",
@@ -892,6 +1031,29 @@
       "seen_count": 5
     },
     {
+      "owner": "debezium",
+      "name": "debezium",
+      "full_name": "debezium/debezium",
+      "url": "https://github.com/debezium/debezium",
+      "description": "Change data capture for a variety of databases. Please log issues at https://github.com/debezium/dbz/issues.",
+      "language": "Java",
+      "stars": 13210,
+      "forks": 3080,
+      "homepage": "https://debezium.io",
+      "license": "Apache-2.0",
+      "created_at": "2016-01-22T20:17:05Z",
+      "pushed_at": "2026-10-12T11:46:14Z",
+      "updated_at": "2026-10-12T11:46:24Z",
+      "open_issues": 134,
+      "summary": "Debezium 是一个基于 Java 的开源变更数据捕获（CDC）平台，用于以低延迟方式监控多种数据库的行级变更，并只捕获已提交的更改，使应用无需关心事务回滚。它通过复用 Kafka 和 Kafka Connect 实现持久性、可靠性与容错能力，每个连接器监控一个上游数据库，将变更写入按表划分的 Kafka 主题，保证事件全序且可断点续传；也支持嵌入式连接器引擎，让应用直接接收事件。其统一的事件模型屏蔽了不同数据库管理系统的差异。典型场景包括缓存失效、简化单体应用的双写、多应用共享数据库、数据集成以及 CQRS。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:15:00+00:00",
+      "last_seen": "2026-10-12",
+      "seen_count": 1
+    },
+    {
       "owner": "ZCShou",
       "name": "GoGoGo",
       "full_name": "ZCShou/GoGoGo",
@@ -915,6 +1077,29 @@
       "seen_count": 6
     },
     {
+      "owner": "mission-peace",
+      "name": "interview",
+      "full_name": "mission-peace/interview",
+      "url": "https://github.com/mission-peace/interview",
+      "description": "Interview questions",
+      "language": "Java",
+      "stars": 11358,
+      "forks": 5139,
+      "homepage": "",
+      "license": "Apache-2.0",
+      "created_at": "2014-07-20T21:27:31Z",
+      "pushed_at": "2024-07-31T18:47:32Z",
+      "updated_at": "2026-10-10T18:14:53Z",
+      "open_issues": 171,
+      "summary": "mission-peace/interview 是一个用 Java 编写的面试题代码仓库，主要面向准备技术面试的开发者。它汇集了大量常见面试题的实现与解答，完整题目列表可通过其 GitHub wiki 页面查看。仓库解决了面试题分散、缺少可运行参考代码的问题，让学习者能直接阅读并调试每道题的 Java 实现。核心特点包括按题目组织的代码结构、配套的 JUnit 测试以及基于 Gradle 的构建方式。使用前需安装 JDK8、Git 以及 IntelliJ 或 Eclipse，通过 git clone 拉取仓库后，可运行 ./gradlew idea 或 .",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:14:58+00:00",
+      "last_seen": "2026-10-12",
+      "seen_count": 1
+    },
+    {
       "owner": "alibaba",
       "name": "spring-ai-alibaba",
       "full_name": "alibaba/spring-ai-alibaba",
@@ -936,6 +1121,29 @@
       "added_at": "2026-10-09T11:22:02+00:00",
       "last_seen": "2026-10-10",
       "seen_count": 5
+    },
+    {
+      "owner": "AutoMQ",
+      "name": "automq",
+      "full_name": "AutoMQ/automq",
+      "url": "https://github.com/AutoMQ/automq",
+      "description": "Diskless Kafka® on S3. 10x Cost-Effective. No Cross-AZ Traffic Cost. Autoscale in seconds. Single-digit ms latency. Multi-AZ Availability.",
+      "language": "Java",
+      "stars": 10908,
+      "forks": 790,
+      "homepage": "https://www.automq.com",
+      "license": "Apache-2.0",
+      "created_at": "2023-08-17T07:50:13Z",
+      "pushed_at": "2026-10-12T07:58:23Z",
+      "updated_at": "2026-10-12T07:58:26Z",
+      "open_issues": 64,
+      "summary": "AutoMQ 是基于对象存储构建的无盘 Kafka 实现，用 Java 编写，将 Apache Kafka 的有状态 broker 改造为共享存储架构，把数据写入 S3 或兼容 S3 的对象存储（如 MinIO），从而解决 Kafka 扩缩容困难、云上 EBS 存储与跨可用区流量成本高昂、资源过度预留等问题。其核心组件包括 S3 Storage Adapter、S3Stream 流式存储库、自动均衡器和机架感知路由，支持秒级弹性伸缩、零跨 AZ 流量费用、多 AZ 高可用，并保持与 Kafka 完全兼容。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:14:58+00:00",
+      "last_seen": "2026-10-12",
+      "seen_count": 1
     },
     {
       "owner": "LaurieWired",
@@ -963,6 +1171,29 @@
     },
     {
       "owner": "apache",
+      "name": "cassandra",
+      "full_name": "apache/cassandra",
+      "url": "https://github.com/apache/cassandra",
+      "description": "Open source transactional distributed database. Linear scalability and proven fault-tolerance on commodity hardware or cloud infrastructure without compromising performance.",
+      "language": "Java",
+      "stars": 10117,
+      "forks": 4119,
+      "homepage": "https://cassandra.apache.org/",
+      "license": "Apache-2.0",
+      "created_at": "2009-05-21T02:10:09Z",
+      "pushed_at": "2026-10-10T16:04:44Z",
+      "updated_at": "2026-10-12T04:49:16Z",
+      "open_issues": 553,
+      "summary": "Apache Cassandra 是一个高可扩展的分布式分区行存储数据库，使用 Java 编写。它通过分区机制将数据自动分布到多台机器上，并在集群增减节点时自动重新分区，对应用透明，从而在普通硬件或云基础设施上实现线性扩展和容错，同时保持性能。数据按行和列组织，需要主键，使用类似 SQL 的 Cassandra 查询语言 CQL 进行读写，可理解为去掉连接和子查询、增加集合类型的 SQL。典型场景包括需要跨多节点分布海量数据、要求高可用和弹性伸缩的应用。入门可在解压后运行 bin/cassandra -f 启动单节点，再用 bin/cqlsh 创建键空间和表、插入并查询数据。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:14:32+00:00",
+      "last_seen": "2026-10-12",
+      "seen_count": 1
+    },
+    {
+      "owner": "apache",
       "name": "iceberg",
       "full_name": "apache/iceberg",
       "url": "https://github.com/apache/iceberg",
@@ -983,6 +1214,29 @@
       "added_at": "2026-10-09T11:22:02+00:00",
       "last_seen": "2026-10-10",
       "seen_count": 5
+    },
+    {
+      "owner": "pentaho",
+      "name": "pentaho-kettle",
+      "full_name": "pentaho/pentaho-kettle",
+      "url": "https://github.com/pentaho/pentaho-kettle",
+      "description": "Pentaho Data Integration ( ETL ) a.k.a Kettle",
+      "language": "Java",
+      "stars": 8402,
+      "forks": 3575,
+      "homepage": "",
+      "license": "NOASSERTION",
+      "created_at": "2013-10-08T18:27:11Z",
+      "pushed_at": "2026-10-12T11:51:05Z",
+      "updated_at": "2026-10-12T11:51:17Z",
+      "open_issues": 75,
+      "summary": "Pentaho Data Integration（又称 Kettle）是一个基于 Java 的 ETL 工具，用于数据集成与转换。它解决的是从不同来源抽取、转换并加载数据的问题，帮助用户构建数据处理流程。项目采用 Maven 构建，要求 Maven 3+ 和 Java JDK 11。其结构划分为核心实现、数据库对话框、用户界面、PDI 引擎、引擎扩展、核心插件、集成测试和发行包等模块，最终可打包为桌面客户端等分发形式。核心能力包括数据抽取、转换和加载，支持单元测试与跨模块集成测试，并提供 checkstyle 检查以保障代码规范。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:14:31+00:00",
+      "last_seen": "2026-10-12",
+      "seen_count": 1
     },
     {
       "owner": "Suwayomi",
@@ -1006,6 +1260,29 @@
       "added_at": "2026-10-09T11:22:02+00:00",
       "last_seen": "2026-10-10",
       "seen_count": 5
+    },
+    {
+      "owner": "enso-org",
+      "name": "enso",
+      "full_name": "enso-org/enso",
+      "url": "https://github.com/enso-org/enso",
+      "description": "Enso Analytics is a self-service data prep and analysis platform designed for data teams.",
+      "language": "Java",
+      "stars": 7442,
+      "forks": 344,
+      "homepage": "https://ensoanalytics.com",
+      "license": "Apache-2.0",
+      "created_at": "2016-12-16T17:23:37Z",
+      "pushed_at": "2026-08-10T23:15:44Z",
+      "updated_at": "2026-10-09T18:55:12Z",
+      "open_issues": 326,
+      "summary": "Enso Analytics 是一个面向数据团队的自助式数据准备与分析平台，主要帮助财务、会计、收入运营等数据密集型岗位将复杂的数据流程转化为高效、可重复的工作流。它提供数据清洗、转换与混合能力，可处理结构化和非结构化数据，并支持数据分析、目录系统、部署自动化、实时反馈和版本历史等功能。用户可在本地用样本数据构建流程，再无缝迁移到 Snowflake 等生产环境，也能在云端或桌面端获得一致体验。典型场景包括预算与实际报告自动化、账目核对、税务数据整合以及销售佣金和 CRM 数据集成。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:14:31+00:00",
+      "last_seen": "2026-10-12",
+      "seen_count": 1
     },
     {
       "owner": "zhukunpenglinyutong",

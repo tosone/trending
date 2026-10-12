@@ -1,6 +1,6 @@
 {
   "title": "GitHub Trending",
-  "generated_at": "2026-10-12T12:12:40+00:00",
+  "generated_at": "2026-10-12T12:18:49+00:00",
   "since": [
     "daily",
     "weekly",
@@ -10,47 +10,47 @@
     {
       "key": "all",
       "label": "全部语言",
-      "count": 1068
+      "count": 1567
     },
     {
       "key": "javascript",
       "label": "JavaScript",
-      "count": 133
+      "count": 201
     },
     {
       "key": "typescript",
       "label": "TypeScript",
-      "count": 155
+      "count": 198
     },
     {
       "key": "python",
       "label": "Python",
-      "count": 144
+      "count": 184
     },
     {
       "key": "java",
       "label": "Java",
-      "count": 61
+      "count": 73
     },
     {
       "key": "go",
       "label": "Go",
-      "count": 168
+      "count": 317
     },
     {
       "key": "rust",
       "label": "Rust",
-      "count": 98
+      "count": 118
     },
     {
       "key": "c",
       "label": "C",
-      "count": 67
+      "count": 102
     },
     {
       "key": "cpp",
       "label": "C++",
-      "count": 81
+      "count": 120
     }
   ]
 }
