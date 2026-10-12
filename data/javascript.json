@@ -6,7 +6,7 @@
     "weekly",
     "monthly"
   ],
-  "generated_at": "2026-10-12T12:15:24+00:00",
+  "generated_at": "2026-10-12T12:38:41+00:00",
   "first_at": "2026-10-09T10:50:04+00:00",
   "count": 201,
   "added": 0,
@@ -2757,13 +2757,13 @@
       "pushed_at": "2026-10-05T04:15:42Z",
       "updated_at": "2026-10-12T10:11:40Z",
       "open_issues": 234,
-      "summary": "![Showdown][sd-logo] Showdown is a JavaScript Bidirectional Markdown HTML converter, based on the original works by John Gruber. Showdown can be used client side (in the browser) or server side (with Node.js). Showdown can convert Markdown to HTML and HTML to Markdown. Live DEMO As you know, ShowdownJS is a free library and it will remain free forever.",
+      "summary": "Showdown 是一个用 JavaScript 编写的双向 Markdown 与 HTML 转换器，基于 John Gruber 的原始工作。它解决的是在网页或服务端灵活处理 Markdown 与 HTML 互转的需求，既能将 Markdown 转为 HTML，也能反向把 HTML 转回 Markdown。核心能力包括浏览器端和 Node.js 服务端均可运行，支持通过 npm、Bower、NuGet 或 CDN 安装，并提供全局或转换器级别的选项设置、自定义扩展、元数据提取以及 GFM 等风格切换。典型使用场景包括在网页编辑器中实时预览 Markdown、在 Node.",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-12T12:14:14+00:00",
       "last_seen": "2026-10-12",
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "owner": "browserify",

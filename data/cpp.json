@@ -6,10 +6,10 @@
     "weekly",
     "monthly"
   ],
-  "generated_at": "2026-10-12T12:15:24+00:00",
+  "generated_at": "2026-10-12T12:38:46+00:00",
   "first_at": "2026-10-09T11:23:13+00:00",
-  "count": 120,
-  "added": 0,
+  "count": 121,
+  "added": 1,
   "repos": [
     {
       "owner": "tensorflow",
@@ -1915,13 +1915,13 @@
       "pushed_at": "2026-10-11T05:19:20Z",
       "updated_at": "2026-10-12T04:29:22Z",
       "open_issues": 926,
-      "summary": "= image:{logo}[K,32,32,link=\"{website}\",title=\"Kakoune logo by p0nce\"] Kakoune image:{cirrus-img}[link=\"{cirrus-url}\"] image:{srht-img}[link=\"{srht-url}\"] image:{irc-img}[link=\"{irc-url}\"] ifdef::env-github,env-browser[:outfilesuffix: .asciidoc] :logo: http://kakoune.org/img/kakoune_logo_32.png :website: https://kakoune.org :cirrus-img: https://api.cirrus-ci.com/github/mawww/kakoune.svg :cirrus-url: https://cirrus-ci",
+      "summary": "Kakoune 是一款用 C++ 编写的模态代码编辑器，目标是让文本编辑用更少的按键完成。它沿用 Vi 的“按键即编辑语言”模型，分为普通和插入两种模式，普通模式下按键用于操作选区而非直接输入。其核心是多重选区：几乎所有命令都围绕选区展开，支持用正则选出全部匹配、按正则拆分选区、保留或排除含匹配的选区，并提供对齐、旋转内容、大小写转换、缩进、把每个选区管道给外部过滤器等操作。编辑器采用客户端-服务器架构，同一会话可连接多个客户端，配合 tmux、zellij、kitty、wezterm 或窗口管理器管理分屏。它还具备语法高亮、自动补全、宏、钩子和上下文帮助。",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-12T12:15:02+00:00",
       "last_seen": "2026-10-12",
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "owner": "google",
@@ -2081,6 +2081,29 @@
         "daily"
       ],
       "added_at": "2026-10-12T12:15:02+00:00",
+      "last_seen": "2026-10-12",
+      "seen_count": 1
+    },
+    {
+      "owner": "TarsCloud",
+      "name": "Tars",
+      "full_name": "TarsCloud/Tars",
+      "url": "https://github.com/TarsCloud/Tars",
+      "description": "Tars is a high-performance RPC framework based on name service and Tars protocol, also integrated administration platform, and implemented hosting-service via flexible schedule.",
+      "language": "C++",
+      "stars": 10080,
+      "forks": 2068,
+      "homepage": "",
+      "license": "BSD-3-Clause",
+      "created_at": "2017-01-18T07:51:52Z",
+      "pushed_at": "2026-07-18T07:34:15Z",
+      "updated_at": "2026-10-12T09:20:37Z",
+      "open_issues": 48,
+      "summary": "Tars 是 Linux 基金会旗下的高性能 RPC 框架，基于名字服务和 Tars 协议，并集成了管理平台，通过灵活调度实现服务托管。它源自腾讯自 2008 年起使用的 TAF（Total Application Framework），主要解决分布式应用的开发、部署、运维和测试问题。框架提供可扩展的编解码协议、高性能 RPC 通信、名字服务、监控、统计和配置等能力，支持 C++、Java、Nodejs、PHP、Go 等语言，可运行于 Linux、Mac 和 Windows。开发者可基于它快速构建可靠的微服务应用，实现高效的服务管理。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:38:46+00:00",
       "last_seen": "2026-10-12",
       "seen_count": 1
     },
