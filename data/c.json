@@ -6,9 +6,9 @@
     "weekly",
     "monthly"
   ],
-  "generated_at": "2026-10-12T11:59:32+00:00",
+  "generated_at": "2026-10-12T12:12:12+00:00",
   "first_at": "2026-10-09T11:22:49+00:00",
-  "count": 44,
+  "count": 67,
   "added": 0,
   "repos": [
     {
@@ -153,6 +153,52 @@
       "seen_count": 1
     },
     {
+      "owner": "git",
+      "name": "git",
+      "full_name": "git/git",
+      "url": "https://github.com/git/git",
+      "description": "Git Source Code Mirror - This is a publish-only repository but pull requests can be turned into patches to the mailing list via GitGitGadget (https://gitgitgadget.github.io/). Please follow Documentation/SubmittingPatches procedure for any of your improvements.",
+      "language": "C",
+      "stars": 63827,
+      "forks": 28513,
+      "homepage": "",
+      "license": "NOASSERTION",
+      "created_at": "2008-07-23T14:21:26Z",
+      "pushed_at": "2026-10-12T00:52:30Z",
+      "updated_at": "2026-10-12T11:59:10Z",
+      "open_issues": 402,
+      "summary": "Git 是一个快速、可扩展的分布式版本控制系统，由 Linus Torvalds 最初编写，主要使用 C 语言开发。它提供异常丰富的命令集，既支持高层操作，也能完整访问内部机制，用于解决代码和文件的版本追踪、协作与历史管理问题。其核心特点包括分布式架构、对大规模项目的可扩展性，以及覆盖日常使用与底层操作的完整工具链。典型场景包括软件开发中的提交、分支、合并与补丁协作，也适用于需要版本管理的其他文本或文件集合。用户可通过 gittutorial 和 giteveryday 等文档快速上手，CVS 用户还能参考迁移指南。开发讨论与补丁提交通过 Git 邮件列表进行，安全相关问题则走私有披露渠道。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:11:32+00:00",
+      "last_seen": "2026-10-12",
+      "seen_count": 1
+    },
+    {
+      "owner": "tmux",
+      "name": "tmux",
+      "full_name": "tmux/tmux",
+      "url": "https://github.com/tmux/tmux",
+      "description": "tmux source code",
+      "language": "C",
+      "stars": 49912,
+      "forks": 2943,
+      "homepage": "",
+      "license": "ISC",
+      "created_at": "2015-06-03T23:32:55Z",
+      "pushed_at": "2026-10-12T11:40:08Z",
+      "updated_at": "2026-10-12T11:40:12Z",
+      "open_issues": 35,
+      "summary": "tmux 是一个终端复用器，用 C 语言编写，允许在单一屏幕上创建、访问和控制多个终端。它解决的核心问题是终端会话的持久化与多路复用：会话可以与屏幕分离并在后台继续运行，之后随时重新连接，从而避免因网络中断或关闭窗口导致任务丢失。tmux 可运行于 OpenBSD、FreeBSD、NetBSD、Linux、macOS 和 Solaris，依赖 libevent 2.x 与 ncurses，构建时需要 C 编译器、make、pkg-config 以及 yacc 或 bison，并可选通过 utempter 更新 utmp。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:11:32+00:00",
+      "last_seen": "2026-10-12",
+      "seen_count": 1
+    },
+    {
       "owner": "DeusData",
       "name": "codebase-memory-mcp",
       "full_name": "DeusData/codebase-memory-mcp",
@@ -222,6 +268,98 @@
       "seen_count": 5
     },
     {
+      "owner": "php",
+      "name": "php-src",
+      "full_name": "php/php-src",
+      "url": "https://github.com/php/php-src",
+      "description": "The PHP Interpreter",
+      "language": "C",
+      "stars": 40441,
+      "forks": 8171,
+      "homepage": "https://www.php.net",
+      "license": "BSD-3-Clause",
+      "created_at": "2011-06-16T01:52:25Z",
+      "pushed_at": "2026-10-12T10:44:23Z",
+      "updated_at": "2026-10-12T10:45:10Z",
+      "open_issues": 2135,
+      "summary": "PHP 解释器的官方源码仓库，主要使用 C 语言编写。PHP 是一种通用的脚本语言，尤其适合 Web 开发，以快速、灵活和务实著称，从个人博客到全球热门网站都有它的身影。该仓库解决的核心问题是提供 PHP 语言的完整实现，包括解释器本身、大量内置扩展以及构建和测试所需的工具链。它支持在 Windows、Ubuntu、Fedora、macOS 等系统上从源码构建，依赖 autoconf、bison、re2c 等工具，并可选用 libxml2 和 libsqlite3。仓库自带详尽的测试套件，通过 make test 运行，支持并行测试和按目录筛选。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:11:49+00:00",
+      "last_seen": "2026-10-12",
+      "seen_count": 1
+    },
+    {
+      "owner": "wg",
+      "name": "wrk",
+      "full_name": "wg/wrk",
+      "url": "https://github.com/wg/wrk",
+      "description": "Modern HTTP benchmarking tool",
+      "language": "C",
+      "stars": 40413,
+      "forks": 3029,
+      "homepage": "",
+      "license": "NOASSERTION",
+      "created_at": "2012-03-20T11:12:28Z",
+      "pushed_at": "2023-12-30T10:33:51Z",
+      "updated_at": "2026-10-12T00:05:25Z",
+      "open_issues": 203,
+      "summary": "wrk 是一款用 C 语言编写的现代 HTTP 基准测试工具，主要解决在单台多核 CPU 上生成高并发负载的需求。它将多线程设计与 epoll、kqueue 等可扩展的事件通知机制结合，从而在单机环境下产生可观的请求压力。其核心能力包括：通过命令行参数控制线程数、连接数、测试时长，并支持添加自定义请求头、记录超时以及输出详细的延迟统计。此外，wrk 允许使用可选的 LuaJIT 脚本完成 HTTP 请求生成、响应处理和自定义报告，脚本示例存放在 scripts 目录中。典型用法如 wrk -t12 -c400 -d30s 加目标地址，即用 12 个线程保持 400 个连接运行 30 秒。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:11:49+00:00",
+      "last_seen": "2026-10-12",
+      "seen_count": 1
+    },
+    {
+      "owner": "mpv-player",
+      "name": "mpv",
+      "full_name": "mpv-player/mpv",
+      "url": "https://github.com/mpv-player/mpv",
+      "description": "🎥 Command line media player",
+      "language": "C",
+      "stars": 37346,
+      "forks": 3578,
+      "homepage": "https://mpv.io",
+      "license": "NOASSERTION",
+      "created_at": "2012-10-13T08:08:44Z",
+      "pushed_at": "2026-10-11T14:45:33Z",
+      "updated_at": "2026-10-12T10:39:06Z",
+      "open_issues": 1162,
+      "summary": "mpv 是一款面向命令行的自由媒体播放器，用 C 语言编写，基于 MPlayer 项目演化而来。它解决的是在终端环境下播放多种媒体格式的需求，支持广泛的媒体文件格式、音视频编解码器和字幕类型。其核心特点是以命令行驱动，视频输出依赖着色器进行渲染与缩放，而非 GPU 固定功能硬件，硬件解码需通过 --hwdec 选项显式启用。它可在 Linux、Windows 10 1607 及以上、macOS 10.15 及以上运行，编译依赖 meson 及 FFmpeg、libplacebo、libass 等库，Lua 为可选依赖，用于 OSC 伪图形界面和 youtube-dl 集成。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:11:49+00:00",
+      "last_seen": "2026-10-12",
+      "seen_count": 1
+    },
+    {
+      "owner": "jqlang",
+      "name": "jq",
+      "full_name": "jqlang/jq",
+      "url": "https://github.com/jqlang/jq",
+      "description": "Command-line JSON processor",
+      "language": "C",
+      "stars": 35788,
+      "forks": 4315,
+      "homepage": "https://jqlang.org",
+      "license": "NOASSERTION",
+      "created_at": "2012-07-18T19:57:25Z",
+      "pushed_at": "2026-10-12T04:40:40Z",
+      "updated_at": "2026-10-12T10:50:59Z",
+      "open_issues": 420,
+      "summary": "jq 是一款轻量且灵活的命令行 JSON 处理器，由 C 语言编写，可移植且无运行时依赖。它面向 JSON 数据，作用类似于 sed、awk、grep 等工具处理文本的方式，帮助用户对结构化数据进行切片、过滤、映射和转换。jq 提供官方文档和在线试用环境，安装方式包括从 GitHub 发布页下载独立可执行文件、使用 Docker 镜像，或从源码构建，构建时依赖 libtool、make、automake 和 autoconf，也支持交叉编译。典型场景如从 package.json 文件中提取版本号，既可本地运行，也可通过挂载卷在 Docker 中执行。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:11:49+00:00",
+      "last_seen": "2026-10-12",
+      "seen_count": 1
+    },
+    {
       "owner": "raysan5",
       "name": "raylib",
       "full_name": "raysan5/raylib",
@@ -243,6 +381,75 @@
       "added_at": "2026-10-09T11:22:49+00:00",
       "last_seen": "2026-10-10",
       "seen_count": 5
+    },
+    {
+      "owner": "nothings",
+      "name": "stb",
+      "full_name": "nothings/stb",
+      "url": "https://github.com/nothings/stb",
+      "description": "stb single-file public domain libraries for C/C++",
+      "language": "C",
+      "stars": 34819,
+      "forks": 8098,
+      "homepage": "https://nothings.org",
+      "license": "NOASSERTION",
+      "created_at": "2014-05-25T16:51:23Z",
+      "pushed_at": "2026-08-02T06:42:09Z",
+      "updated_at": "2026-10-12T09:42:19Z",
+      "open_issues": 434,
+      "summary": "stb 是一组面向 C/C++ 的单文件库，作者为 Sean T. Barrett。它把图像、音频、字体、容器等常用功能各自封装进一个头文件，使用时只需在某个源文件中定义对应宏并包含该文件，即可将实现直接编译进项目，省去单独构建和链接库的步骤。核心能力包括：stb_image 解码 JPG、PNG、TGA、BMP、PSD、GIF、HDR、PIC 等格式，stb_image_write 写出 PNG、TGA、BMP，stb_image_resize2 缩放图像，stb_truetype 解析并栅格化 TrueType 字体，stb_ds 提供类型安全的动态数组和哈希表。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:11:49+00:00",
+      "last_seen": "2026-10-12",
+      "seen_count": 1
+    },
+    {
+      "owner": "openssl",
+      "name": "openssl",
+      "full_name": "openssl/openssl",
+      "url": "https://github.com/openssl/openssl",
+      "description": "General purpose TLS and crypto library",
+      "language": "C",
+      "stars": 30926,
+      "forks": 11523,
+      "homepage": "https://openssl-library.org/",
+      "license": "Apache-2.0",
+      "created_at": "2013-01-15T22:34:48Z",
+      "pushed_at": "2026-10-12T08:06:15Z",
+      "updated_at": "2026-10-12T08:09:47Z",
+      "open_issues": 1548,
+      "summary": "OpenSSL 是一套通用且功能完整的开源工具包，主要用 C 语言编写，实现了 TLS、DTLS 和 QUIC 协议，并建立在通用加密库之上。它解决的问题是为网络通信提供可靠的加密与安全传输能力，同时提供可独立使用的密码学基础功能。核心组件包括 libssl（支持至 TLSv1.3、DTLSv1.3 和 QUIC v1 的协议实现）、libcrypto（通用加密库，也可单独使用）以及 openssl 命令行工具，后者可用于生成密钥参数、创建 X.509 证书与 CSR、计算消息摘要、加解密、SSL/TLS/DTLS 客户端与服务端测试、QUIC 客户端测试以及处理 S/MIME 邮件等。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:11:45+00:00",
+      "last_seen": "2026-10-12",
+      "seen_count": 1
+    },
+    {
+      "owner": "asmvik",
+      "name": "yabai",
+      "full_name": "asmvik/yabai",
+      "url": "https://github.com/asmvik/yabai",
+      "description": "A tiling window manager for macOS based on binary space partitioning",
+      "language": "C",
+      "stars": 29728,
+      "forks": 784,
+      "homepage": "",
+      "license": "MIT",
+      "created_at": "2019-05-04T15:00:50Z",
+      "pushed_at": "2026-06-14T12:40:07Z",
+      "updated_at": "2026-10-12T11:12:15Z",
+      "open_issues": 266,
+      "summary": "yabai 是一款用 C 语言编写的 macOS 平铺窗口管理工具，定位为系统自带窗口管理器的扩展。它主要解决 macOS 原生窗口管理在多窗口场景下布局混乱、切换效率低的问题，通过二叉空间分割算法自动调整窗口布局，让用户专注于窗口内容而非手动拖拽排列。其核心能力包括平铺式窗口管理、焦点跟随鼠标、禁用切换空间时的动画，以及突破系统最多 16 个空间的限制等。用户可通过直观的命令行界面控制窗口、空间和显示器，并可选用 skhd 等第三方软件绑定自定义快捷键。安装与配置方法可查阅其 wiki 和示例目录，文档也提供了进一步说明。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:11:45+00:00",
+      "last_seen": "2026-10-12",
+      "seen_count": 1
     },
     {
       "owner": "ValdikSS",
@@ -269,6 +476,29 @@
       "seen_count": 5
     },
     {
+      "owner": "facebook",
+      "name": "zstd",
+      "full_name": "facebook/zstd",
+      "url": "https://github.com/facebook/zstd",
+      "description": "Zstandard - Fast real-time compression algorithm",
+      "language": "C",
+      "stars": 28008,
+      "forks": 2629,
+      "homepage": "http://www.zstd.net",
+      "license": "NOASSERTION",
+      "created_at": "2015-01-24T00:22:38Z",
+      "pushed_at": "2026-10-06T01:11:59Z",
+      "updated_at": "2026-10-12T11:27:31Z",
+      "open_issues": 410,
+      "summary": "Zstandard（简称 zstd）是 Meta 开源的快速无损压缩算法，用 C 语言实现，目标是在实时压缩场景下达到 zlib 级别的速度并取得更好的压缩比。其核心是 Huff0 与 FSE 提供的高速熵编码阶段，格式已稳定并记录于 RFC8878，本仓库是参考实现，同时提供 C 库和命令行工具，可生成与解码 .zst、.gz、.xz、.lz4 文件。压缩级别可细粒度调节，解压速度在各设置下大致保持稳定；负级别以牺牲压缩比换取更快的压缩与解压。针对小数据，它提供训练模式生成字典，显著提升小样本的压缩率。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:11:45+00:00",
+      "last_seen": "2026-10-12",
+      "seen_count": 1
+    },
+    {
       "owner": "xiaojieonly",
       "name": "Ehviewer_CN_SXJ",
       "full_name": "xiaojieonly/Ehviewer_CN_SXJ",
@@ -292,6 +522,29 @@
       "seen_count": 5
     },
     {
+      "owner": "valkey-io",
+      "name": "valkey",
+      "full_name": "valkey-io/valkey",
+      "url": "https://github.com/valkey-io/valkey",
+      "description": "A flexible distributed key-value database that is optimized for caching and other realtime workloads.",
+      "language": "C",
+      "stars": 27403,
+      "forks": 1362,
+      "homepage": "https://valkey.io",
+      "license": "BSD-3-Clause",
+      "created_at": "2024-03-22T00:42:17Z",
+      "pushed_at": "2026-10-12T09:20:53Z",
+      "updated_at": "2026-10-12T10:43:43Z",
+      "open_issues": 947,
+      "summary": "Valkey 是一个高性能的数据结构服务器，主要面向键值类工作负载，由 Redis 开源项目在新许可条款变更前分叉而来。它支持多种原生数据结构，并提供可扩展的插件系统，用于添加新的数据结构和访问模式，适合缓存及其他实时场景。项目使用 C 语言编写，可在 Linux、macOS 及多种 BSD 系统上编译运行，支持大小端和 32/64 位架构。构建方式灵活，可通过 Makefile 选项启用 TLS、RDMA、systemd、Zstandard 压缩等特性，也可禁用 Lua 引擎。默认在 Linux 上使用 jemalloc 分配器，并利用处理器时钟优化单调时间获取。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:11:45+00:00",
+      "last_seen": "2026-10-12",
+      "seen_count": 1
+    },
+    {
       "owner": "libuv",
       "name": "libuv",
       "full_name": "libuv/libuv",
@@ -313,6 +566,52 @@
       "added_at": "2026-10-09T11:22:49+00:00",
       "last_seen": "2026-10-10",
       "seen_count": 5
+    },
+    {
+      "owner": "ggreer",
+      "name": "the_silver_searcher",
+      "full_name": "ggreer/the_silver_searcher",
+      "url": "https://github.com/ggreer/the_silver_searcher",
+      "description": "A code-searching tool similar to ack, but faster.",
+      "language": "C",
+      "stars": 27128,
+      "forks": 1434,
+      "homepage": "http://geoff.greer.fm/ag/",
+      "license": "Apache-2.0",
+      "created_at": "2011-11-19T19:50:47Z",
+      "pushed_at": "2024-06-16T19:37:41Z",
+      "updated_at": "2026-10-12T00:18:39Z",
+      "open_issues": 564,
+      "summary": "The Silver Searcher（命令名 ag）是一个用 C 语言编写的代码搜索工具，定位与 ack 类似，但更强调速度。它主要解决在大型代码库中快速查找字符串或正则表达式的问题。核心特点包括：利用 Pthreads 并行搜索多个 CPU 核心，使用 mmap 映射文件而非读入缓冲区，字面量搜索采用 Boyer-Moore 算法，正则搜索借助 PCRE 的 JIT 编译器，并预先对忽略文件中的非正则模式做数组加载与二分查找。它会自动读取 .gitignore 和 .hgignore，也支持通过 .ignore 文件补充排除规则。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:11:45+00:00",
+      "last_seen": "2026-10-12",
+      "seen_count": 1
+    },
+    {
+      "owner": "fastfetch-cli",
+      "name": "fastfetch",
+      "full_name": "fastfetch-cli/fastfetch",
+      "url": "https://github.com/fastfetch-cli/fastfetch",
+      "description": "A maintained, feature-rich and performance oriented, neofetch like system information tool.",
+      "language": "C",
+      "stars": 24987,
+      "forks": 925,
+      "homepage": "",
+      "license": "MIT",
+      "created_at": "2021-02-18T21:25:19Z",
+      "pushed_at": "2026-10-12T10:25:28Z",
+      "updated_at": "2026-10-12T10:33:18Z",
+      "open_issues": 102,
+      "summary": "Fastfetch 是一个用 C 语言编写的系统信息获取工具，功能类似 neofetch，但更注重性能与可定制性，目前仍在积极维护。它支持 Linux、macOS、Windows 8.1+、Android、FreeBSD、OpenBSD、NetBSD、DragonFly、Haiku 和 SunOS 等平台，可解决 neofetch 停止维护后用户对系统信息展示工具的需求。其核心能力包括以美观方式展示系统信息、通过 JSONC 配置文件自定义输出、使用格式字符串控制模块显示内容，以及支持自定义 ASCII 艺术或图片 Logo。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:11:48+00:00",
+      "last_seen": "2026-10-12",
+      "seen_count": 1
     },
     {
       "owner": "lvgl",
@@ -361,6 +660,75 @@
       "seen_count": 5
     },
     {
+      "owner": "timescale",
+      "name": "timescaledb",
+      "full_name": "timescale/timescaledb",
+      "url": "https://github.com/timescale/timescaledb",
+      "description": "A time-series database for high-performance real-time analytics packaged as a Postgres extension",
+      "language": "C",
+      "stars": 23675,
+      "forks": 1168,
+      "homepage": "https://www.tigerdata.com/",
+      "license": "NOASSERTION",
+      "created_at": "2017-03-07T20:03:41Z",
+      "pushed_at": "2026-10-12T12:11:44Z",
+      "updated_at": "2026-10-12T12:02:48Z",
+      "open_issues": 428,
+      "summary": "TimescaleDB 是一个以 PostgreSQL 扩展形式提供的时间序列数据库，主要用 C 语言编写，用于对时序和事件数据进行高性能实时分析。它把时序能力直接叠加在 PostgreSQL 之上，让用户沿用熟悉的 SQL 和客户端工具，同时获得针对海量时间数据的存储与查询优化。核心机制包括超表，按时间自动将数据切分为块以缩小查询扫描范围；列式存储，实现高压缩比和向量化查询，并支持直接写入列存；连续聚合，在后台增量刷新预聚合结果，相比普通物化视图无需每次全量重建；以及 time_bucket 等时序聚合函数。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:11:48+00:00",
+      "last_seen": "2026-10-12",
+      "seen_count": 1
+    },
+    {
+      "owner": "pgvector",
+      "name": "pgvector",
+      "full_name": "pgvector/pgvector",
+      "url": "https://github.com/pgvector/pgvector",
+      "description": "Open-source vector similarity search for Postgres",
+      "language": "C",
+      "stars": 23316,
+      "forks": 1348,
+      "homepage": "",
+      "license": "NOASSERTION",
+      "created_at": "2021-04-20T21:13:52Z",
+      "pushed_at": "2026-10-08T04:39:04Z",
+      "updated_at": "2026-10-12T10:49:38Z",
+      "open_issues": 17,
+      "summary": "pgvector 是一个为 Postgres 提供向量相似度搜索的扩展，用 C 语言编写。它让向量数据可以和业务数据一起存储，支持精确与近似最近邻搜索，涵盖单精度、半精度、二进制和稀疏向量，并提供 L2、内积、余弦、L1、汉明和 Jaccard 等距离函数。用户可以用任意语言的 Postgres 客户端操作，同时保留事务、时间点恢复和 JOIN 等数据库特性。它支持 HNSW 和 IVFFlat 两类近似索引，可通过量化、迭代索引扫描、过滤、多租户隔离、二进制量化、稀疏向量和混合搜索等方式扩展。典型场景包括基于 Postgres 构建语义检索、推荐或检索增强生成应用，无需引入独立的向量数据库。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:11:48+00:00",
+      "last_seen": "2026-10-12",
+      "seen_count": 1
+    },
+    {
+      "owner": "TheAlgorithms",
+      "name": "C",
+      "full_name": "TheAlgorithms/C",
+      "url": "https://github.com/TheAlgorithms/C",
+      "description": "Collection of various algorithms in mathematics, machine learning, computer science, physics, etc implemented in C for educational purposes.",
+      "language": "C",
+      "stars": 22524,
+      "forks": 4779,
+      "homepage": "https://thealgorithms.github.io/C",
+      "license": "GPL-3.0",
+      "created_at": "2016-07-16T10:17:03Z",
+      "pushed_at": "2024-08-07T21:56:16Z",
+      "updated_at": "2026-10-12T09:28:53Z",
+      "open_issues": 23,
+      "summary": "TheAlgorithms/C 是一个用 C 语言实现各类算法的开源代码集合，面向教学与学习场景，覆盖计算机科学、数学与统计、数据科学、机器学习、工程等多个领域。它解决的是算法学习资料零散、实现方式单一的问题：同一目标往往提供多种算法策略与优化版本，便于对比理解。其核心特点包括：代码仅依赖标准 C 库，无需外部库即可编译运行；每个程序内置自检，确保实现正确；严格遵循 C11 标准，可移植到 ESP32、ARM Cortex 等嵌入式平台；源码附详细文档，并随每次提交在 macOS 与 Ubuntu 上编译测试。典型使用场景是教师备课、学生自学算法原理，或开发者参考模块化实现将其用于其他应用。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:11:48+00:00",
+      "last_seen": "2026-10-12",
+      "seen_count": 1
+    },
+    {
       "owner": "DarkFlippers",
       "name": "unleashed-firmware",
       "full_name": "DarkFlippers/unleashed-firmware",
@@ -382,6 +750,168 @@
       "added_at": "2026-10-09T11:22:49+00:00",
       "last_seen": "2026-10-10",
       "seen_count": 5
+    },
+    {
+      "owner": "jarun",
+      "name": "nnn",
+      "full_name": "jarun/nnn",
+      "url": "https://github.com/jarun/nnn",
+      "description": "n³ The unorthodox terminal file manager",
+      "language": "C",
+      "stars": 22062,
+      "forks": 826,
+      "homepage": "",
+      "license": "BSD-2-Clause",
+      "created_at": "2016-08-20T14:10:14Z",
+      "pushed_at": "2026-10-07T00:00:32Z",
+      "updated_at": "2026-10-12T11:15:43Z",
+      "open_issues": 1,
+      "summary": "nnn 是一款用 C 编写的终端文件管理器，体积约 150KB，几乎无需配置，主打轻量与快速。它面向习惯命令行的用户，解决在终端中高效浏览、筛选和操作文件的需求。核心能力包括磁盘用量分析、批量重命名、文件选择器、应用启动，以及通过插件扩展的实时预览、磁盘挂载、查找列表、文件差异和上传等功能。它支持过滤、类型导航、上下文标签、书签、会话、远程挂载和 cd on quit，兼容模糊、正则和字符串搜索，并提供多种排序与预览方式。技术上遵循 POSIX 与 Linux 内核编码风格，内存占用通常低于 3.",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:11:48+00:00",
+      "last_seen": "2026-10-12",
+      "seen_count": 1
+    },
+    {
+      "owner": "gentilkiwi",
+      "name": "mimikatz",
+      "full_name": "gentilkiwi/mimikatz",
+      "url": "https://github.com/gentilkiwi/mimikatz",
+      "description": "A little tool to play with Windows security",
+      "language": "C",
+      "stars": 21899,
+      "forks": 4178,
+      "homepage": "http://blog.gentilkiwi.com/mimikatz",
+      "license": "",
+      "created_at": "2014-04-06T18:30:02Z",
+      "pushed_at": "2026-04-17T17:48:27Z",
+      "updated_at": "2026-10-12T10:16:19Z",
+      "open_issues": 198,
+      "summary": "mimikatz 是一款用 C 语言编写的 Windows 安全实验工具，作者最初为学习 C 语言并探索 Windows 安全机制而开发。它主要解决从内存中提取凭据的问题，能够获取明文密码、哈希值、PIN 码和 Kerberos 票据，并支持哈希传递、票据传递以及构建黄金票据等操作。除凭据提取外，它还涉及加密、终端服务器和事件等模块，相关细节记录在 GitHub Wiki 和作者博客中。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:11:48+00:00",
+      "last_seen": "2026-10-12",
+      "seen_count": 1
+    },
+    {
+      "owner": "allinurl",
+      "name": "goaccess",
+      "full_name": "allinurl/goaccess",
+      "url": "https://github.com/allinurl/goaccess",
+      "description": "GoAccess is a real-time web log analyzer and interactive viewer that runs in a terminal in *nix systems or through your browser.",
+      "language": "C",
+      "stars": 21037,
+      "forks": 1202,
+      "homepage": "https://goaccess.io",
+      "license": "MIT",
+      "created_at": "2013-07-14T03:42:08Z",
+      "pushed_at": "2026-10-01T12:56:06Z",
+      "updated_at": "2026-10-12T09:46:30Z",
+      "open_issues": 450,
+      "summary": "GoAccess 是一款用 C 编写的实时 Web 日志分析器与交互式查看器，可在 *nix 系统的终端中运行，也能通过浏览器访问。它面向系统管理员、DevOps 工程师和安全人员，解决的是快速查看 HTTP 统计、监控流量、发现异常和排查问题的需求。其核心能力包括：终端面板每 200 毫秒、HTML 输出每秒刷新；只需 ncurses 一个依赖；支持 Apache、Nginx、Amazon S3、CloudFront、Caddy JSON 等几乎所有日志格式及自定义格式；可跟踪请求响应时间、按虚拟主机统计、解析 UTM 参数、区分 AI 爬虫与 Fediverse 流量、报告 TLS 协商。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:11:42+00:00",
+      "last_seen": "2026-10-12",
+      "seen_count": 1
+    },
+    {
+      "owner": "microsoftarchive",
+      "name": "redis",
+      "full_name": "microsoftarchive/redis",
+      "url": "https://github.com/microsoftarchive/redis",
+      "description": "Redis is an in-memory database that persists on disk. The data model is key-value, but many different kind of values are supported: Strings, Lists, Sets, Sorted Sets, Hashes",
+      "language": "C",
+      "stars": 21002,
+      "forks": 5309,
+      "homepage": "http://redis.io",
+      "license": "NOASSERTION",
+      "created_at": "2012-02-09T22:49:05Z",
+      "pushed_at": "2019-07-18T18:36:51Z",
+      "updated_at": "2026-10-09T08:19:35Z",
+      "open_issues": 198,
+      "archived": true,
+      "summary": "微软归档的 Redis Windows 移植版，基于 Redis 源码为 Windows 平台构建，官方仅支持 64 位版本，也可自行从源码编译 32 位。它解决的是 Redis 原生面向 UNIX 系统、无法直接在 Windows 上运行的问题，通过替换 UNIX fork() 接口、引入虚拟文件描述符映射层，并在 3.0 中改用 jemalloc 管理堆内存，使 Redis 能在 Windows 上以内存数据库方式运行并持久化到磁盘。其数据模型为键值结构，支持字符串、列表、集合、有序集合和哈希等多种值类型。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:11:42+00:00",
+      "last_seen": "2026-10-12",
+      "seen_count": 1
+    },
+    {
+      "owner": "karpathy",
+      "name": "llama2.c",
+      "full_name": "karpathy/llama2.c",
+      "url": "https://github.com/karpathy/llama2.c",
+      "description": "Inference Llama 2 in one file of pure C",
+      "language": "C",
+      "stars": 20174,
+      "forks": 2645,
+      "homepage": "",
+      "license": "MIT",
+      "created_at": "2023-07-23T05:15:06Z",
+      "pushed_at": "2024-08-06T09:44:40Z",
+      "updated_at": "2026-10-10T21:33:39Z",
+      "open_issues": 191,
+      "summary": "llama2.c 是一个用纯 C 语言实现 Llama 2 推理的开源项目，核心是约 700 行的 run.c 文件，无需依赖即可运行。它解决的是在极简环境下推理小型 Llama 2 模型的问题，配套 PyTorch 训练脚本，形成训练加推理的完整方案。项目支持加载 Meta 官方 Llama 2 及 Code Llama 模型，但当前仅支持 fp32 推理，7B 以上模型受指针运算整数溢出限制尚不可用。典型用法是下载 TinyStories 数据集训练的 15M 或 42M 参数模型，编译后直接生成文本，也可通过命令行参数控制温度、top-p 采样和提示词。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:11:42+00:00",
+      "last_seen": "2026-10-12",
+      "seen_count": 1
+    },
+    {
+      "owner": "espressif",
+      "name": "esp-idf",
+      "full_name": "espressif/esp-idf",
+      "url": "https://github.com/espressif/esp-idf",
+      "description": "Espressif IoT Development Framework. Official development framework for Espressif SoCs.",
+      "language": "C",
+      "stars": 19211,
+      "forks": 8534,
+      "homepage": "",
+      "license": "Apache-2.0",
+      "created_at": "2016-08-17T10:40:35Z",
+      "pushed_at": "2026-10-10T17:11:35Z",
+      "updated_at": "2026-10-12T08:39:26Z",
+      "open_issues": 1730,
+      "summary": "ESP-IDF 是乐鑫官方的物联网开发框架，用于在 Windows、Linux 和 macOS 上开发乐鑫 SoC 应用，主要使用 C 语言。它解决的是从项目配置、编译、烧录到串口监控的完整开发流程问题：通过 idf.py set-target 设定芯片目标，menuconfig 进行文本化配置，build 编译应用、引导程序并生成分区表，flash 烧录，monitor 查看串口输出，还能用 erase-flash 擦除整片闪存。框架自带 examples 目录下的示例工程，可复制到外部作为自有项目起点，并支持仅编译烧录应用、自动重建等日常操作。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:11:42+00:00",
+      "last_seen": "2026-10-12",
+      "seen_count": 1
+    },
+    {
+      "owner": "nicbarker",
+      "name": "clay",
+      "full_name": "nicbarker/clay",
+      "url": "https://github.com/nicbarker/clay",
+      "description": "High performance UI layout library in C.",
+      "language": "C",
+      "stars": 18244,
+      "forks": 739,
+      "homepage": "https://nicbarker.com/clay",
+      "license": "Zlib",
+      "created_at": "2024-07-21T01:40:27Z",
+      "pushed_at": "2026-05-20T02:17:59Z",
+      "updated_at": "2026-10-12T09:15:15Z",
+      "open_issues": 281,
+      "summary": "Clay 是一个用 C 语言编写的高性能 2D UI 布局库，核心是单文件 clay.h，约 4.8k 行且零依赖，甚至不链接标准库。它解决的是复杂响应式界面的布局问题，提供类似 Flexbox 的布局模型，支持文本换行、滚动容器和宽高比缩放，并带有过渡动画 API。其布局性能达到微秒级，采用静态 arena 内存管理，不使用 malloc/free，8192 个元素约占 3.5MB 内存。它使用类似 React 的嵌套声明式语法，但本质仍是 C 宏，可在布局代码中自由使用循环和条件。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:11:42+00:00",
+      "last_seen": "2026-10-12",
+      "seen_count": 1
     },
     {
       "owner": "systemd",

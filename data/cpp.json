@@ -6,9 +6,9 @@
     "weekly",
     "monthly"
   ],
-  "generated_at": "2026-10-12T11:59:37+00:00",
+  "generated_at": "2026-10-12T12:12:12+00:00",
   "first_at": "2026-10-09T11:23:13+00:00",
-  "count": 47,
+  "count": 81,
   "added": 0,
   "repos": [
     {
@@ -265,6 +265,98 @@
       "seen_count": 1
     },
     {
+      "owner": "nlohmann",
+      "name": "json",
+      "full_name": "nlohmann/json",
+      "url": "https://github.com/nlohmann/json",
+      "description": "JSON for Modern C++",
+      "language": "C++",
+      "stars": 50752,
+      "forks": 7516,
+      "homepage": "https://json.nlohmann.me",
+      "license": "MIT",
+      "created_at": "2013-07-04T08:47:49Z",
+      "pushed_at": "2026-10-12T07:35:33Z",
+      "updated_at": "2026-10-12T07:34:03Z",
+      "open_issues": 28,
+      "summary": "nlohmann/json 是一个面向现代 C++ 的 JSON 库，核心目标是让 JSON 在 C++ 中像在 Python 里那样成为一等数据类型。它解决的是 C++ 缺乏原生 JSON 支持、手动解析和序列化繁琐的问题。整个库仅由单个头文件 json.hpp 组成，基于 C++11 编写，无需依赖、子项目或复杂构建系统，可直接集成进现有工程，也收录于主流包管理器。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:11:49+00:00",
+      "last_seen": "2026-10-12",
+      "seen_count": 1
+    },
+    {
+      "owner": "ClickHouse",
+      "name": "ClickHouse",
+      "full_name": "ClickHouse/ClickHouse",
+      "url": "https://github.com/ClickHouse/ClickHouse",
+      "description": "ClickHouse® is a real-time analytics database management system",
+      "language": "C++",
+      "stars": 50366,
+      "forks": 9087,
+      "homepage": "https://clickhouse.com",
+      "license": "Apache-2.0",
+      "created_at": "2016-06-02T08:28:18Z",
+      "pushed_at": "2026-10-12T12:11:20Z",
+      "updated_at": "2026-10-12T12:05:07Z",
+      "open_issues": 8269,
+      "summary": "ClickHouse 是一个用 C++ 编写的开源列式数据库管理系统，专为实时分析场景设计，能够即时生成数据分析报表。它解决的是传统数据库在面对大规模数据分析查询时速度慢、响应不及时的问题，通过列式存储与向量化执行等机制，让用户在数据写入后即可快速完成聚合与统计类查询。它支持在 Linux、macOS 和 FreeBSD 上安装，也可直接使用官方提供的云服务快速开始查询。典型使用场景包括实时报表、日志与事件分析、可观测性数据处理等，常与数据工程、AI 应用及监控技术栈配合使用。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:11:49+00:00",
+      "last_seen": "2026-10-12",
+      "seen_count": 1
+    },
+    {
+      "owner": "zhongyang219",
+      "name": "TrafficMonitor",
+      "full_name": "zhongyang219/TrafficMonitor",
+      "url": "https://github.com/zhongyang219/TrafficMonitor",
+      "description": "这是一个用于显示当前网速、CPU及内存利用率的桌面悬浮窗软件，并支持任务栏显示，支持更换皮肤。",
+      "language": "C++",
+      "stars": 46520,
+      "forks": 3814,
+      "homepage": "",
+      "license": "NOASSERTION",
+      "created_at": "2017-07-30T02:51:17Z",
+      "pushed_at": "2026-09-27T07:42:03Z",
+      "updated_at": "2026-10-12T09:48:01Z",
+      "open_issues": 1359,
+      "summary": "TrafficMonitor 是一款面向 Windows 平台的桌面悬浮窗软件，使用 C++ 编写，用于实时显示当前网速、CPU 和内存利用率。它可以将信息嵌入任务栏显示，并支持更换皮肤、历史流量统计、硬件信息监控和插件系统。如果电脑有多个网卡，还能自动或手动选择网络连接。典型使用场景是希望在桌面或任务栏随时查看网络与系统资源占用的用户。软件提供标准版和 Lite 版，标准版包含温度监控等硬件监控功能且需要管理员权限，Lite 版则不需要；从 1.86 版本起 Lite 版也支持显卡和硬盘利用率监控，温度监控已迁移到硬件监控插件。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:11:49+00:00",
+      "last_seen": "2026-10-12",
+      "seen_count": 1
+    },
+    {
+      "owner": "grpc",
+      "name": "grpc",
+      "full_name": "grpc/grpc",
+      "url": "https://github.com/grpc/grpc",
+      "description": "C++ based gRPC (C++, Python, Ruby, Objective-C, PHP, C#)",
+      "language": "C++",
+      "stars": 45368,
+      "forks": 11377,
+      "homepage": "https://grpc.io",
+      "license": "Apache-2.0",
+      "created_at": "2014-12-08T18:58:53Z",
+      "pushed_at": "2026-10-12T11:28:07Z",
+      "updated_at": "2026-10-12T12:01:31Z",
+      "open_issues": 1363,
+      "summary": "gRPC 是一个现代、高性能的远程过程调用框架，支持客户端与服务器应用透明通信，旨在简化互联系统的构建。其核心由共享的 C++ 库实现，并在此基础上提供 C++、Python、Ruby、Objective-C、PHP 和 C# 等多语言运行时，Java、Go、Node、Dart、Swift 等语言则有独立仓库。它解决了跨语言服务间高效通信的问题，支持通过各语言包管理器安装依赖，如 pip install grpcio、npm install @grpc/grpc-js 等。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:11:49+00:00",
+      "last_seen": "2026-10-12",
+      "seen_count": 1
+    },
+    {
       "owner": "zen-browser",
       "name": "desktop",
       "full_name": "zen-browser/desktop",
@@ -286,6 +378,29 @@
       "added_at": "2026-10-09T11:23:13+00:00",
       "last_seen": "2026-10-10",
       "seen_count": 5
+    },
+    {
+      "owner": "Light-City",
+      "name": "CPlusPlusThings",
+      "full_name": "Light-City/CPlusPlusThings",
+      "url": "https://github.com/Light-City/CPlusPlusThings",
+      "description": "C++那些事",
+      "language": "C++",
+      "stars": 43532,
+      "forks": 8794,
+      "homepage": "https://light-city.github.io/stories_things/",
+      "license": "",
+      "created_at": "2019-07-14T08:45:45Z",
+      "pushed_at": "2026-05-16T06:05:14Z",
+      "updated_at": "2026-10-12T11:53:28Z",
+      "open_issues": 10,
+      "summary": "《C++ 那些事》是一份面向 C++ 初学者到进阶开发者的中文学习仓库，主要解决入门者不知如何深入 C++、面试者需要系统梳理知识点的问题。内容覆盖基础语法与关键字剖析（如 const、static、virtual、sizeof、引用与指针等），并延伸到 C++11/14/17/20 新特性、STL 源码剖析、设计模式、并发编程与 C++ 惯用法。仓库提供配套代码示例和实战练习，包括十日狂练、运算符重载、模板与异常等专题，还整理了多线程、RAII、智能指针、内存模型等主题。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:11:26+00:00",
+      "last_seen": "2026-10-12",
+      "seen_count": 1
     },
     {
       "owner": "aria2",
@@ -311,6 +426,29 @@
       "seen_count": 5
     },
     {
+      "owner": "duckdb",
+      "name": "duckdb",
+      "full_name": "duckdb/duckdb",
+      "url": "https://github.com/duckdb/duckdb",
+      "description": "DuckDB is an analytical in-process SQL database management system",
+      "language": "C++",
+      "stars": 42122,
+      "forks": 3908,
+      "homepage": "http://www.duckdb.org",
+      "license": "MIT",
+      "created_at": "2018-06-26T15:04:45Z",
+      "pushed_at": "2026-10-12T11:55:41Z",
+      "updated_at": "2026-10-12T11:55:44Z",
+      "open_issues": 1069,
+      "summary": "DuckDB 是一个用 C++ 编写的高性能分析型进程内 SQL 数据库管理系统，可直接嵌入应用程序运行，无需独立的数据库服务进程。它面向数据分析场景，解决在本地或应用内部进行快速查询与聚合的问题，提供远超基础 SQL 的丰富方言，支持任意与嵌套相关子查询、窗口函数、排序规则以及数组、结构体、映射等复杂类型，并附带若干简化 SQL 使用的扩展。它既可作为独立命令行工具使用，也提供 Python、R、Java、Wasm 等客户端，并与 pandas、dplyr 等包深度集成。导入 CSV 和 Parquet 文件只需在 FROM 子句中引用文件即可。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:11:26+00:00",
+      "last_seen": "2026-10-12",
+      "seen_count": 1
+    },
+    {
       "owner": "LizardByte",
       "name": "Sunshine",
       "full_name": "LizardByte/Sunshine",
@@ -332,6 +470,121 @@
       "added_at": "2026-10-09T11:23:13+00:00",
       "last_seen": "2026-10-10",
       "seen_count": 5
+    },
+    {
+      "owner": "facebookresearch",
+      "name": "faiss",
+      "full_name": "facebookresearch/faiss",
+      "url": "https://github.com/facebookresearch/faiss",
+      "description": "A library for efficient similarity search and clustering of dense vectors.",
+      "language": "C++",
+      "stars": 41135,
+      "forks": 4550,
+      "homepage": "https://faiss.ai",
+      "license": "MIT",
+      "created_at": "2017-02-07T16:07:05Z",
+      "pushed_at": "2026-10-12T05:30:35Z",
+      "updated_at": "2026-10-12T09:17:24Z",
+      "open_issues": 341,
+      "summary": "Faiss 是 Meta 基础人工智能研究团队开发的稠密向量相似性搜索与聚类库，用 C++ 编写并提供完整的 Python/numpy 封装。它把实例表示为向量并用整数标识，通过 L2 距离或点积（含归一化向量的余弦相似度）判断相似性，解决大规模向量集合中高效检索近邻的问题。Faiss 提供多种索引结构，在搜索时间、搜索质量、内存占用、训练与添加耗时等方面各有取舍；基于二进制向量和紧凑量化编码的方法只保留压缩表示，可在单台服务器内存中扩展到数十亿向量，HNSW、NSG 等则在原始向量之上增加索引结构以提升效率。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:11:26+00:00",
+      "last_seen": "2026-10-12",
+      "seen_count": 1
+    },
+    {
+      "owner": "google",
+      "name": "leveldb",
+      "full_name": "google/leveldb",
+      "url": "https://github.com/google/leveldb",
+      "description": "LevelDB is a fast key-value storage library written at Google that provides an ordered mapping from string keys to string values.",
+      "language": "C++",
+      "stars": 39487,
+      "forks": 8230,
+      "homepage": "",
+      "license": "BSD-3-Clause",
+      "created_at": "2014-08-27T21:17:52Z",
+      "pushed_at": "2026-10-08T19:15:30Z",
+      "updated_at": "2026-10-12T10:20:42Z",
+      "open_issues": 421,
+      "summary": "LevelDB 是 Google 用 C++ 编写的嵌入式键值存储库，提供从字符串键到字符串值的有序映射。它解决的是应用需要在本地高效存取有序数据的问题：键和值可为任意字节数组，数据按键排序存储，并支持自定义比较函数覆盖默认顺序。核心操作包括 Put、Get、Delete，支持原子批量写入、一致性快照以及前后向迭代，数据默认用 Snappy 压缩，也支持 Zstd。文件系统等外部交互通过虚拟接口暴露，便于定制。它适用于需要本地持久化、对读写性能有要求的场景，常被用作上层数据库或存储引擎的底层组件。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:11:26+00:00",
+      "last_seen": "2026-10-12",
+      "seen_count": 1
+    },
+    {
+      "owner": "huihut",
+      "name": "interview",
+      "full_name": "huihut/interview",
+      "url": "https://github.com/huihut/interview",
+      "description": "📚 C/C++ 技术面试基础知识总结，包括语言、程序库、数据结构、算法、系统、网络、链接装载库等知识及面试经验、招聘、内推等信息。This repository is a summary of the basic knowledge of recruiting job seekers and beginners in the direction of C/C++ technology, including language, program library, data structure, algorithm, system, network, link loading library, interview experience, recruitment, recommendation, etc.",
+      "language": "C++",
+      "stars": 38244,
+      "forks": 8058,
+      "homepage": "https://interview.huihut.com",
+      "license": "NOASSERTION",
+      "created_at": "2018-02-09T09:49:48Z",
+      "pushed_at": "2026-09-17T07:18:55Z",
+      "updated_at": "2026-10-12T06:58:47Z",
+      "open_issues": 1,
+      "summary": "huihut/interview 是一份面向 C/C++ 技术方向求职者与初学者的面试基础知识总结，内容以 C++ 为主，同时覆盖 C 语言、程序库、数据结构、算法、操作系统、计算机网络、网络编程、数据库、设计模式、链接装载库等主题。它解决的是面试复习中知识点零散、缺乏体系的问题，将语言特性与系统知识按目录组织，便于系统梳理。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:11:26+00:00",
+      "last_seen": "2026-10-12",
+      "seen_count": 1
+    },
+    {
+      "owner": "aristocratos",
+      "name": "btop",
+      "full_name": "aristocratos/btop",
+      "url": "https://github.com/aristocratos/btop",
+      "description": "A monitor of resources",
+      "language": "C++",
+      "stars": 34944,
+      "forks": 1205,
+      "homepage": "",
+      "license": "Apache-2.0",
+      "created_at": "2021-05-06T18:40:21Z",
+      "pushed_at": "2026-10-07T14:45:21Z",
+      "updated_at": "2026-10-12T11:27:33Z",
+      "open_issues": 576,
+      "summary": "btop 是一款用 C++ 编写的资源监视器，用于实时查看处理器、内存、磁盘、网络和进程的使用情况与统计数据，是 bashtop 和 bpytop 的 C++ 延续版本。它通过终端界面呈现信息，提供类似游戏菜单的操作方式，支持完整鼠标操作、进程筛选与排序切换、进程树视图、向进程发送信号、暂停进程列表、查看单个进程详细状态，以及网络流量自动缩放图表、磁盘 IO 速度、电池电量显示和自定义预设。界面支持 24 位真彩色，也可降级到 256 色或 TTY 模式，主题文件与 bpytop、bashtop 通用。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:11:26+00:00",
+      "last_seen": "2026-10-12",
+      "seen_count": 1
+    },
+    {
+      "owner": "TheAlgorithms",
+      "name": "C-Plus-Plus",
+      "full_name": "TheAlgorithms/C-Plus-Plus",
+      "url": "https://github.com/TheAlgorithms/C-Plus-Plus",
+      "description": "Collection of various algorithms in mathematics, machine learning, computer science and physics implemented in C++ for educational purposes.",
+      "language": "C++",
+      "stars": 34762,
+      "forks": 7881,
+      "homepage": "https://thealgorithms.github.io/C-Plus-Plus",
+      "license": "MIT",
+      "created_at": "2016-07-16T10:19:45Z",
+      "pushed_at": "2026-10-03T10:34:43Z",
+      "updated_at": "2026-10-12T10:38:41Z",
+      "open_issues": 28,
+      "summary": "TheAlgorithms/C-Plus-Plus 是一个用 C++ 实现各类算法的开源代码集合，面向教学与学习场景。它覆盖数学、统计学、数据科学、机器学习、计算机科学与工程等多个领域，旨在为教师和学生提供可参考的学习资源。其核心特点包括：源码配有详细注释和说明，便于理解算法原理；每个实现都是原子的，仅依赖 STL，无需外部库即可编译运行；代码遵循 C++17 标准，可移植到 ESP32、ARM Cortex 等嵌入式平台；程序内置自检机制，确保实现正确；同一目标可能提供多种算法策略与优化版本。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:11:26+00:00",
+      "last_seen": "2026-10-12",
+      "seen_count": 1
     },
     {
       "owner": "FreeCAD",
@@ -380,6 +633,52 @@
       "seen_count": 5
     },
     {
+      "owner": "carbon-language",
+      "name": "carbon-lang",
+      "full_name": "carbon-language/carbon-lang",
+      "url": "https://github.com/carbon-language/carbon-lang",
+      "description": "Carbon Language's main repository: documents, design, implementation, and related tools. (NOTE: Carbon Language is experimental; see README)",
+      "language": "C++",
+      "stars": 33902,
+      "forks": 1683,
+      "homepage": "http://docs.carbon-lang.dev/",
+      "license": "NOASSERTION",
+      "created_at": "2020-04-27T21:45:16Z",
+      "pushed_at": "2026-10-12T02:47:43Z",
+      "updated_at": "2026-10-12T08:06:33Z",
+      "open_issues": 276,
+      "summary": "Carbon 是面向 C++ 的实验性后继语言，主仓库包含设计文档、语言实现与相关工具。它针对 C++ 代码库庞大、技术债累积、演进困难的问题，选择不直接继承 C 与 C++ 的旧有包袱，而是以现代泛型、模块化组织和一致语法为基础重新设计。其核心能力包括：性能对标 C++，通过 LLVM 提供底层位与地址访问；与现有 C++ 代码双向无缝互操作，可从继承、模板到构建系统逐步迁移；提供定义检查的泛型系统，并保留可选模板以兼容 C++；规划内存安全子集与从 C++ 到 Carbon 的机械化迁移工具。典型场景是希望保留 C++ 生态投资、又需要更易读语法和更安全基础的性能敏感型项目。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:11:26+00:00",
+      "last_seen": "2026-10-12",
+      "seen_count": 1
+    },
+    {
+      "owner": "SerenityOS",
+      "name": "serenity",
+      "full_name": "SerenityOS/serenity",
+      "url": "https://github.com/SerenityOS/serenity",
+      "description": "The Serenity Operating System 🐞",
+      "language": "C++",
+      "stars": 33897,
+      "forks": 3534,
+      "homepage": "https://serenityos.org",
+      "license": "BSD-2-Clause",
+      "created_at": "2018-12-02T19:28:41Z",
+      "pushed_at": "2026-10-12T07:21:48Z",
+      "updated_at": "2026-10-12T09:36:59Z",
+      "open_issues": 746,
+      "summary": "SerenityOS 是一个面向 64 位 x86、Arm 和 RISC-V 计算机的类 Unix 图形操作系统，使用 C++ 编写。它旨在融合 90 年代末生产力软件的美学风格与 2000 年代末类 Unix 系统的高级用户可访问性，所有组件均从零构建，不依赖额外依赖。其核心能力包括现代 64 位抢占式多线程内核、支持 JavaScript 和 WebAssembly 的浏览器、硬件保护与 W^X 内存等安全特性、WindowServer 等系统服务与 IPC、良好的 POSIX 兼容性、ext2 文件系统、IPv4/TCP/UDP 网络栈，以及涵盖加密、OpenGL、音频、GUI 的库和。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:11:02+00:00",
+      "last_seen": "2026-10-12",
+      "seen_count": 1
+    },
+    {
       "owner": "shadps4-emu",
       "name": "shadPS4",
       "full_name": "shadps4-emu/shadPS4",
@@ -402,6 +701,52 @@
       "added_at": "2026-10-09T11:23:13+00:00",
       "last_seen": "2026-10-10",
       "seen_count": 6
+    },
+    {
+      "owner": "facebook",
+      "name": "rocksdb",
+      "full_name": "facebook/rocksdb",
+      "url": "https://github.com/facebook/rocksdb",
+      "description": "A library that provides an embeddable, persistent key-value store for fast storage.",
+      "language": "C++",
+      "stars": 32189,
+      "forks": 6955,
+      "homepage": "http://rocksdb.org",
+      "license": "GPL-2.0",
+      "created_at": "2012-11-30T06:16:18Z",
+      "pushed_at": "2026-10-11T20:17:03Z",
+      "updated_at": "2026-10-12T10:20:34Z",
+      "open_issues": 1727,
+      "summary": "RocksDB 是 Facebook 数据库工程团队开发维护的嵌入式持久化键值存储库，基于 Google 的 LevelDB 早期工作构建，主要使用 C++ 编写。它面向闪存和内存存储场景，为快速键值服务器提供核心构建模块，尤其适合在闪存驱动器上存储数据。其核心采用日志结构合并树（LSM）设计，可在写放大、读放大和空间放大之间灵活权衡，并支持多线程压缩，因而适合在单个数据库中存储数 TB 级数据。公共接口位于 include/ 目录，调用方不应依赖其他头文件的内部细节。典型用法可参考仓库中的 examples 目录，更多说明见 GitHub wiki。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:11:02+00:00",
+      "last_seen": "2026-10-12",
+      "seen_count": 1
+    },
+    {
+      "owner": "dragonflydb",
+      "name": "dragonfly",
+      "full_name": "dragonflydb/dragonfly",
+      "url": "https://github.com/dragonflydb/dragonfly",
+      "description": "A modern replacement for Redis and Memcached",
+      "language": "C++",
+      "stars": 31783,
+      "forks": 1279,
+      "homepage": "https://www.dragonflydb.io/",
+      "license": "NOASSERTION",
+      "created_at": "2021-12-11T10:00:42Z",
+      "pushed_at": "2026-10-12T11:58:41Z",
+      "updated_at": "2026-10-12T11:43:11Z",
+      "open_issues": 334,
+      "summary": "Dragonfly 是一个用 C++ 编写的内存数据存储，目标是作为 Redis 和 Memcached 的现代替代品。它完全兼容两者的 API，迁移时无需修改代码，主要解决传统单线程存储在吞吐、延迟和资源占用上的瓶颈。其核心能力包括：在相同负载下提供更高吞吐量、更低尾延迟，并在基准测试中比 Redis 节省最多 80% 的资源；支持 Redis 常用参数和 Memcached 协议，还提供自适应缓存、快照、集群模式、HTTP 控制台及 Prometheus 指标。典型场景是缓存、会话存储和需要高并发读写的在线服务，适合希望在不改代码的前提下提升性能、降低内存成本的团队。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:11:02+00:00",
+      "last_seen": "2026-10-12",
+      "seen_count": 1
     },
     {
       "owner": "78",
@@ -427,6 +772,75 @@
       "seen_count": 5
     },
     {
+      "owner": "gabime",
+      "name": "spdlog",
+      "full_name": "gabime/spdlog",
+      "url": "https://github.com/gabime/spdlog",
+      "description": "Fast C++ logging library.",
+      "language": "C++",
+      "stars": 29681,
+      "forks": 5386,
+      "homepage": "",
+      "license": "NOASSERTION",
+      "created_at": "2014-11-01T01:28:53Z",
+      "pushed_at": "2026-10-02T18:58:12Z",
+      "updated_at": "2026-10-12T09:38:26Z",
+      "open_issues": 58,
+      "summary": "spdlog 是一个用 C++ 编写的高性能日志库，主要解决 C++ 应用中日志记录的性能与灵活性问题。它提供 header-only 和编译两种使用方式，后者可显著缩短编译时间。核心特点包括：基于 fmt 库的丰富格式化能力、可选的异步模式、多线程与单线程日志器、运行期与编译期日志级别过滤，以及多种日志目标，如轮转文件、每日文件、彩色控制台、syslog、Windows 事件日志和调试器输出等。它还支持从命令行参数或环境变量加载日志级别、环形缓冲区回溯调试信息、自定义格式与回调。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:11:02+00:00",
+      "last_seen": "2026-10-12",
+      "seen_count": 1
+    },
+    {
+      "owner": "notepad-plus-plus",
+      "name": "notepad-plus-plus",
+      "full_name": "notepad-plus-plus/notepad-plus-plus",
+      "url": "https://github.com/notepad-plus-plus/notepad-plus-plus",
+      "description": "Notepad++ official repository",
+      "language": "C++",
+      "stars": 29531,
+      "forks": 5386,
+      "homepage": "https://notepad-plus-plus.org/",
+      "license": "NOASSERTION",
+      "created_at": "2015-03-28T00:05:08Z",
+      "pushed_at": "2026-10-10T23:09:04Z",
+      "updated_at": "2026-10-12T11:39:10Z",
+      "open_issues": 2915,
+      "summary": "Notepad++ 是一款面向 Windows 环境的免费源代码编辑器和记事本替代工具，使用 C++ 编写，支持多种编程语言与自然语言。它主要解决 Windows 自带记事本功能有限的问题，为开发者和普通用户提供更强大的文本编辑能力。其核心特点包括语法高亮、多语言支持，并可在微软仍支持的所有 Windows 系统上运行。典型使用场景是编写和查看代码、编辑配置文件或处理日常文本。项目源码开放，欢迎贡献，并遵循相应的贡献规则。自 7.6.5 版本起，官方发布使用 GPG 密钥签名，便于用户验证文件完整性。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:11:02+00:00",
+      "last_seen": "2026-10-12",
+      "seen_count": 1
+    },
+    {
+      "owner": "ossrs",
+      "name": "srs",
+      "full_name": "ossrs/srs",
+      "url": "https://github.com/ossrs/srs",
+      "description": "SRS is a simple, high-performance, AI-driven real-time media server supporting RTMP, WebRTC, HLS, HTTP-FLV, HTTP-TS, SRT, MPEG-DASH, and GB28181, with codec support for H.264, H.265, AV1, VP9, AAC, Opus, and G.711.",
+      "language": "C++",
+      "stars": 29330,
+      "forks": 5702,
+      "homepage": "https://ossrs.io",
+      "license": "MIT",
+      "created_at": "2015-04-29T06:59:32Z",
+      "pushed_at": "2026-10-11T12:57:29Z",
+      "updated_at": "2026-10-12T07:10:22Z",
+      "open_issues": 8,
+      "summary": "SRS（Simple Realtime Server）是一款用 C++ 编写的高性能实时媒体服务器，支持 RTMP、WebRTC、HLS、HTTP-FLV、HTTP-TS、SRT、MPEG-DASH 和 GB28181 等多种协议，并兼容 H.264、H.265、AV1、VP9、AAC、Opus 和 G.711 等编解码格式，可运行在 Linux 与 macOS 的 x86_64、ARMv7、AArch64、Apple M1、RISC-V、LoongArch 和 MIPS 架构上。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:11:02+00:00",
+      "last_seen": "2026-10-12",
+      "seen_count": 1
+    },
+    {
       "owner": "keepassxreboot",
       "name": "keepassxc",
       "full_name": "keepassxreboot/keepassxc",
@@ -450,6 +864,98 @@
       "seen_count": 5
     },
     {
+      "owner": "envoyproxy",
+      "name": "envoy",
+      "full_name": "envoyproxy/envoy",
+      "url": "https://github.com/envoyproxy/envoy",
+      "description": "Cloud-native high-performance edge/middle/service proxy",
+      "language": "C++",
+      "stars": 29067,
+      "forks": 5653,
+      "homepage": "https://www.envoyproxy.io",
+      "license": "Apache-2.0",
+      "created_at": "2016-08-08T15:07:24Z",
+      "pushed_at": "2026-10-12T04:27:24Z",
+      "updated_at": "2026-10-12T11:24:14Z",
+      "open_issues": 1845,
+      "summary": "Envoy 是一个由 CNCF 托管、用 C++ 编写的云原生高性能边缘、中间和服务代理。它面向容器封装、动态调度和微服务架构，为服务间通信提供统一的代理层，解决分布式系统中流量管理、可观测性与安全策略落地的问题。其核心能力包括通用数据平面 API，可动态下发配置，并支持热重启，避免重启时中断连接；同时提供线程模型与统计架构，便于在高并发场景下保持稳定与可观测。典型使用场景是作为微服务网格中的数据平面代理，部署在边缘或服务之间，配合控制平面实现流量路由、负载均衡与安全通信。项目还提供性能测试框架、过滤器扩展示例以及独立的数据平面 API 定义仓库，方便开发者扩展和集成。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:11:02+00:00",
+      "last_seen": "2026-10-12",
+      "seen_count": 1
+    },
+    {
+      "owner": "dmlc",
+      "name": "xgboost",
+      "full_name": "dmlc/xgboost",
+      "url": "https://github.com/dmlc/xgboost",
+      "description": "Scalable, Portable and Distributed Gradient Boosting (GBDT, GBRT or GBM) Library,  for Python, R, Java, Scala, C and more. Runs on single machine, Hadoop, Spark, Dask, Flink and DataFlow",
+      "language": "C++",
+      "stars": 28854,
+      "forks": 8938,
+      "homepage": "https://xgboost.readthedocs.io/",
+      "license": "Apache-2.0",
+      "created_at": "2014-02-06T17:28:03Z",
+      "pushed_at": "2026-10-12T10:12:36Z",
+      "updated_at": "2026-10-12T10:40:56Z",
+      "open_issues": 454,
+      "summary": "XGBoost 是一个优化的分布式梯度提升库，核心用 C++ 实现，并提供 Python、R、Java、Scala、C 等多种语言接口。它基于梯度提升框架实现机器学习算法，提供并行树提升（也称 GBDT、GBRT 或 GBM），能够快速且准确地解决诸多数据科学问题。其设计强调高效、灵活与可移植，同一份代码可运行在单机以及 Kubernetes、Hadoop、SGE、Dask、Spark、PySpark 等主流分布式环境，支持处理超过数十亿样本的问题。XGBoost 源自华盛顿大学的研究项目，由活跃的社区成员共同开发和维护，适用于需要在大规模数据上进行树模型训练与预测的场景。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:11:02+00:00",
+      "last_seen": "2026-10-12",
+      "seen_count": 1
+    },
+    {
+      "owner": "ml-explore",
+      "name": "mlx",
+      "full_name": "ml-explore/mlx",
+      "url": "https://github.com/ml-explore/mlx",
+      "description": "MLX: An array framework for Apple silicon",
+      "language": "C++",
+      "stars": 28732,
+      "forks": 2330,
+      "homepage": "https://ml-explore.github.io/mlx/",
+      "license": "MIT",
+      "created_at": "2023-11-28T23:33:45Z",
+      "pushed_at": "2026-10-12T06:44:28Z",
+      "updated_at": "2026-10-12T12:04:02Z",
+      "open_issues": 109,
+      "summary": "MLX 是 Apple 机器学习研究团队推出的面向 Apple silicon 的数组框架，主要解决在苹果芯片上高效进行机器学习训练与部署的问题。它提供贴近 NumPy 的 Python API，并配有完整的 C++、C 和 Swift 接口，同时通过 mlx.nn、mlx.optimizers 等高层包提供类似 PyTorch 的体验，便于构建复杂模型。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:11:02+00:00",
+      "last_seen": "2026-10-12",
+      "seen_count": 1
+    },
+    {
+      "owner": "mongodb",
+      "name": "mongo",
+      "full_name": "mongodb/mongo",
+      "url": "https://github.com/mongodb/mongo",
+      "description": "The MongoDB Database",
+      "language": "C++",
+      "stars": 28632,
+      "forks": 5823,
+      "homepage": "https://www.mongodb.com/",
+      "license": "NOASSERTION",
+      "created_at": "2009-01-15T16:15:18Z",
+      "pushed_at": "2026-10-12T08:56:36Z",
+      "updated_at": "2026-10-12T09:12:50Z",
+      "open_issues": 36,
+      "summary": "MongoDB 是一个以 C++ 编写的开源数据库系统，官方定位为文档型数据库，核心组件包括数据库服务器 mongod 和分片路由 mongos。它主要解决应用数据存储与管理问题，支持通过分片实现水平扩展，并提供命令行工具与 Compass 图形界面进行运维和查询。用户可通过 Homebrew、Docker 镜像或官方下载页面获取社区版，并安装 mongosh 作为交互式 Shell。其客户端驱动覆盖大多数主流编程语言，便于在各类技术栈中集成。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:11:02+00:00",
+      "last_seen": "2026-10-12",
+      "seen_count": 1
+    },
+    {
       "owner": "typesense",
       "name": "typesense",
       "full_name": "typesense/typesense",
@@ -471,6 +977,98 @@
       "added_at": "2026-10-09T11:23:13+00:00",
       "last_seen": "2026-10-10",
       "seen_count": 5
+    },
+    {
+      "owner": "mozilla-ai",
+      "name": "llamafile",
+      "full_name": "mozilla-ai/llamafile",
+      "url": "https://github.com/mozilla-ai/llamafile",
+      "description": "Distribute and run LLMs with a single file.",
+      "language": "C++",
+      "stars": 26226,
+      "forks": 1649,
+      "homepage": "https://docs.mozilla.ai/llamafile",
+      "license": "NOASSERTION",
+      "created_at": "2023-09-10T21:12:32Z",
+      "pushed_at": "2026-10-12T00:26:41Z",
+      "updated_at": "2026-10-12T08:43:12Z",
+      "open_issues": 213,
+      "summary": "llamafile 是 Mozilla 旗下的一个项目，目标是把开放大语言模型的部署与运行简化为单个可执行文件。它将 llama.cpp 与 Cosmopolitan Libc 结合，把模型权重、推理代码和运行时打包在一起，用户无需安装依赖，即可在多数操作系统和 CPU 架构上本地运行 LLM，主要使用 C++ 编写。其核心价值在于降低分发和使用门槛，让开发者和终端用户都能直接运行模型。项目还包含 whisperfile，基于 whisper.cpp 提供单文件语音转文字工具，支持音频转录与翻译。从 0.10.0 版本起，项目改用新的构建系统，以便与 llama.",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:11:42+00:00",
+      "last_seen": "2026-10-12",
+      "seen_count": 1
+    },
+    {
+      "owner": "changkun",
+      "name": "modern-cpp-tutorial",
+      "full_name": "changkun/modern-cpp-tutorial",
+      "url": "https://github.com/changkun/modern-cpp-tutorial",
+      "description": "📚 Modern C++ Tutorial: C++11 to C++26 On the Fly | https://changkun.de/modern-cpp/",
+      "language": "C++",
+      "stars": 25885,
+      "forks": 3118,
+      "homepage": "https://changkun.de/modern-cpp/",
+      "license": "MIT",
+      "created_at": "2016-08-19T14:39:15Z",
+      "pushed_at": "2026-10-08T13:31:59Z",
+      "updated_at": "2026-10-12T12:08:47Z",
+      "open_issues": 0,
+      "summary": "Modern C++ Tutorial 是一本面向已熟悉传统 C++（C++98 或更早）读者的开源教程，系统介绍从 C++11 到 C++26 的现代 C++ 特性。它解决的是有经验的开发者快速上手新标准、理解特性来龙去脉的问题。全书按主题分章，读者可按目录挑选感兴趣的内容学习，每章配有大量示例代码和少量习题，代码与习题答案均按章号组织在仓库中。教程不仅讲写法，还简要交代每项特性的历史背景，帮助理解其设计动机。作者鼓励读者在新项目中直接使用现代 C++，并逐步迁移旧项目。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:11:42+00:00",
+      "last_seen": "2026-10-12",
+      "seen_count": 1
+    },
+    {
+      "owner": "fmtlib",
+      "name": "fmt",
+      "full_name": "fmtlib/fmt",
+      "url": "https://github.com/fmtlib/fmt",
+      "description": "A modern formatting library",
+      "language": "C++",
+      "stars": 25875,
+      "forks": 3083,
+      "homepage": "https://fmt.dev",
+      "license": "MIT",
+      "created_at": "2012-12-07T16:26:46Z",
+      "pushed_at": "2026-10-11T22:29:11Z",
+      "updated_at": "2026-10-12T10:58:16Z",
+      "open_issues": 15,
+      "summary": "{fmt} 是一个用 C++ 编写的现代格式化库，为 C 标准输入输出和 C++ iostreams 提供快速且安全的替代方案。它解决了传统格式化方式在性能、类型安全和易用性上的不足，实现了 C++20 的 std::format 与 C++23 的 std::print，语法接近 Python 的 format。其核心特点包括：支持位置参数以便本地化、基于 Dragonbox 算法的浮点格式化、可移植的 Unicode 支持、安全的 printf 实现、对用户自定义类型的扩展能力，以及编译期格式字符串检查。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:11:42+00:00",
+      "last_seen": "2026-10-12",
+      "seen_count": 1
+    },
+    {
+      "owner": "sqlitebrowser",
+      "name": "sqlitebrowser",
+      "full_name": "sqlitebrowser/sqlitebrowser",
+      "url": "https://github.com/sqlitebrowser/sqlitebrowser",
+      "description": "Official home of the DB Browser for SQLite (DB4S) project. Previously known as \"SQLite Database Browser\" and \"Database Browser for SQLite\". Website at: ",
+      "language": "C++",
+      "stars": 24690,
+      "forks": 2375,
+      "homepage": "https://sqlitebrowser.org",
+      "license": "NOASSERTION",
+      "created_at": "2014-05-04T01:54:44Z",
+      "pushed_at": "2026-10-11T12:57:40Z",
+      "updated_at": "2026-10-12T11:02:14Z",
+      "open_issues": 833,
+      "summary": "DB Browser for SQLite（DB4S）是一款用 C++ 编写的可视化开源工具，用于创建、设计和编辑 SQLite 兼容的数据库文件。它面向希望创建、搜索和编辑数据库的用户与开发者，通过类似电子表格的界面降低使用门槛，无需掌握复杂的 SQL 命令。其核心功能包括创建和压缩数据库文件，创建、修改和删除表与索引，浏览、编辑、添加和删除记录，搜索记录，以文本或 CSV 格式导入导出记录和表，导入导出 SQL 转储文件，执行 SQL 查询并查看结果，查看 SQL 命令日志，以及基于表或查询数据绘制简单图表。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:11:42+00:00",
+      "last_seen": "2026-10-12",
+      "seen_count": 1
     },
     {
       "owner": "simdjson",
@@ -520,6 +1118,52 @@
       "seen_count": 5
     },
     {
+      "owner": "PaddlePaddle",
+      "name": "Paddle",
+      "full_name": "PaddlePaddle/Paddle",
+      "url": "https://github.com/PaddlePaddle/Paddle",
+      "description": "PArallel Distributed Deep LEarning: Machine Learning Framework from Industrial Practice （『飞桨』核心框架，深度学习&机器学习高性能单机、分布式训练和跨平台部署）",
+      "language": "C++",
+      "stars": 24121,
+      "forks": 6020,
+      "homepage": "http://www.paddlepaddle.org/",
+      "license": "Apache-2.0",
+      "created_at": "2016-08-15T06:59:08Z",
+      "pushed_at": "2026-10-12T11:36:28Z",
+      "updated_at": "2026-10-12T11:36:38Z",
+      "open_issues": 1477,
+      "summary": "飞桨（PaddlePaddle）是2016年正式开源的深度学习与机器学习框架，源自工业实践，主要用C++编写，覆盖核心框架、基础模型库、端到端开发套件、工具组件及服务平台。它面向工业级开发与训练成本高、部署链路割裂等问题，提供统一动态/静态图与自动并行能力，仅需基于单卡配置做少量张量切分标注即可自动搜索高效分布式并行策略；同时支持大模型训练与推理一体化，实现代码复用。框架还具备高阶自动微分、复数运算、傅里叶变换等科学计算能力，并内置神经网络编译器，兼顾训练效率与灵活推理。通过统一异构多芯片适配方案，以标准化接口屏蔽不同芯片软件栈差异，实现可插拔架构。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:11:42+00:00",
+      "last_seen": "2026-10-12",
+      "seen_count": 1
+    },
+    {
+      "owner": "redis",
+      "name": "RedisDesktopManager",
+      "full_name": "redis/RedisDesktopManager",
+      "url": "https://github.com/redis/RedisDesktopManager",
+      "description": "",
+      "language": "C++",
+      "stars": 23228,
+      "forks": 3230,
+      "homepage": "https://resp.app",
+      "license": "NOASSERTION",
+      "created_at": "2013-08-05T07:51:08Z",
+      "pushed_at": "2024-07-10T07:40:01Z",
+      "updated_at": "2026-10-12T10:07:46Z",
+      "open_issues": 69,
+      "summary": "RESP.app 是一款面向 Redis 的图形化管理工具，前身为 RedisDesktopManager，使用 C++ 编写。它主要解决开发者在使用 Redis 时依赖命令行操作、查看和编辑数据不够直观的问题，通过图形界面提供对 Redis 数据库的可视化访问。该工具与 Redis 官方展开合作，目标是改善 Redis 社区开发者的使用体验，提升基于 Redis 进行开发时的效率。用户可以通过它连接 Redis 实例，浏览键值数据，执行常见的管理与调试操作，适合在本地开发、测试环境或日常运维中辅助排查数据问题。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:11:42+00:00",
+      "last_seen": "2026-10-12",
+      "seen_count": 1
+    },
+    {
       "owner": "k4yt3x",
       "name": "video2x",
       "full_name": "k4yt3x/video2x",
@@ -564,6 +1208,29 @@
       "added_at": "2026-10-09T11:23:13+00:00",
       "last_seen": "2026-10-10",
       "seen_count": 5
+    },
+    {
+      "owner": "lettier",
+      "name": "3d-game-shaders-for-beginners",
+      "full_name": "lettier/3d-game-shaders-for-beginners",
+      "url": "https://github.com/lettier/3d-game-shaders-for-beginners",
+      "description": "🎮 A step-by-step guide to implementing SSAO, depth of field, lighting, normal mapping, and more for your 3D game.",
+      "language": "C++",
+      "stars": 19948,
+      "forks": 1485,
+      "homepage": "https://lettier.github.io/3d-game-shaders-for-beginners/index.html",
+      "license": "",
+      "created_at": "2019-05-12T22:08:45Z",
+      "pushed_at": "2023-06-25T21:58:57Z",
+      "updated_at": "2026-10-12T10:55:01Z",
+      "open_issues": 18,
+      "summary": "3D Game Shaders For Beginners 是一份面向 3D 游戏开发者的着色技术分步指南，主要用 C++ 编写，并以 Panda3D 引擎和 OpenGL 着色语言（GLSL）作为示例实现。它解决的是如何为游戏加入纹理、光照、阴影、法线贴图、发光、环境光遮蔽、反射与折射等视觉效果的问题，内容涵盖 Blinn-Phong 光照、菲涅尔因子、边缘光、卡通着色、延迟渲染、雾、模糊、泛光、SSAO、运动模糊、色差、屏幕空间反射与折射、泡沫、流动贴图、描边、景深、色调分离、像素化、锐化、膨胀、胶片颗粒、查找表以及伽马校正等具体技术。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:11:50+00:00",
+      "last_seen": "2026-10-12",
+      "seen_count": 1
     },
     {
       "owner": "Niko1221",
@@ -613,6 +1280,52 @@
       "seen_count": 5
     },
     {
+      "owner": "uNetworking",
+      "name": "uWebSockets",
+      "full_name": "uNetworking/uWebSockets",
+      "url": "https://github.com/uNetworking/uWebSockets",
+      "description": "Simple, secure & standards compliant web server for the most demanding of applications",
+      "language": "C++",
+      "stars": 18999,
+      "forks": 1869,
+      "homepage": "",
+      "license": "Apache-2.0",
+      "created_at": "2016-03-21T04:39:40Z",
+      "pushed_at": "2026-10-05T20:01:09Z",
+      "updated_at": "2026-10-10T21:21:41Z",
+      "open_issues": 54,
+      "summary": "µWebSockets 是一个用 C++ 编写的 Web 服务器，面向对性能和资源占用有较高要求的实时应用。它同时支持 HTTP 与 WebSocket，内置带通配符和参数的路由器，并提供高效的发布/订阅功能，可满足实时通信场景的需求。项目在安全方面投入较多，参与 Google OSS-Fuzz 并保持较高的模糊测试覆盖率，代码在严格的警告级别下编译。它完全兼容 Autobahn 测试套件，并被多家大型加密货币交易所用于处理每日数十亿美元的交易量。除 C++ 外，它还提供与 Node.js 后端的无缝集成，便于快速开发。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:11:50+00:00",
+      "last_seen": "2026-10-12",
+      "seen_count": 1
+    },
+    {
+      "owner": "facebook",
+      "name": "hhvm",
+      "full_name": "facebook/hhvm",
+      "url": "https://github.com/facebook/hhvm",
+      "description": "A virtual machine for executing programs written in Hack.",
+      "language": "C++",
+      "stars": 18666,
+      "forks": 3069,
+      "homepage": "https://hhvm.com",
+      "license": "NOASSERTION",
+      "created_at": "2010-01-02T01:17:06Z",
+      "pushed_at": "2026-10-12T04:42:43Z",
+      "updated_at": "2026-10-12T04:43:04Z",
+      "open_issues": 555,
+      "summary": "HHVM 是 Facebook 开发的一款开源虚拟机，专门用于执行以 Hack 语言编写的程序。它通过即时编译（JIT）方式，在保持开发灵活性的同时提升运行性能。HHVM 通常需要配合 Web 服务器使用，既支持内置的 Proxygen，也可运行在 nginx 或 Apache 等基于 FastCGI 的服务器之上。安装方式包括预编译包和源码编译，运行独立程序时只需将文件传给 hhvm 命令即可，部署网站则需安装服务器、启动服务并访问入口文件。该项目主要面向使用 Hack 语言的开发者，适用于需要兼顾开发效率与执行性能的 Web 应用场景，其生态还包含类型检查器和标准库等组件。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:11:50+00:00",
+      "last_seen": "2026-10-12",
+      "seen_count": 1
+    },
+    {
       "owner": "doitsujin",
       "name": "dxvk",
       "full_name": "doitsujin/dxvk",
@@ -634,6 +1347,75 @@
       "added_at": "2026-10-09T11:23:13+00:00",
       "last_seen": "2026-10-10",
       "seen_count": 5
+    },
+    {
+      "owner": "abseil",
+      "name": "abseil-cpp",
+      "full_name": "abseil/abseil-cpp",
+      "url": "https://github.com/abseil/abseil-cpp",
+      "description": "Abseil Common Libraries (C++)",
+      "language": "C++",
+      "stars": 18161,
+      "forks": 3204,
+      "homepage": "https://abseil.io",
+      "license": "Apache-2.0",
+      "created_at": "2017-09-20T15:10:30Z",
+      "pushed_at": "2026-10-12T02:31:47Z",
+      "updated_at": "2026-10-12T09:33:58Z",
+      "open_issues": 244,
+      "summary": "Abseil 是 Google 从自身 C++ 代码库中提炼并开源的通用库集合，兼容 C++17，用于补充标准库的不足。它并非要替代标准库，而是提供标准库中缺失或需要特殊处理的组件，这些代码已在 Google 内部经过大规模生产环境验证。其核心能力覆盖多个方面：base 提供基础初始化，algorithm 扩展算法与容器版本，container 包含 Swiss table 无序容器，strings 提供字符串工具，synchronization 提供 absl::Mutex 等并发原语，status 提供 absl::Status 与 absl::StatusOr 错误处理抽象，此外还有。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:11:50+00:00",
+      "last_seen": "2026-10-12",
+      "seen_count": 1
+    },
+    {
+      "owner": "haoel",
+      "name": "leetcode",
+      "full_name": "haoel/leetcode",
+      "url": "https://github.com/haoel/leetcode",
+      "description": "LeetCode Problems' Solutions ",
+      "language": "C++",
+      "stars": 18067,
+      "forks": 4899,
+      "homepage": "",
+      "license": "",
+      "created_at": "2014-10-20T03:22:04Z",
+      "pushed_at": "2024-01-17T16:23:10Z",
+      "updated_at": "2026-10-11T11:54:06Z",
+      "open_issues": 54,
+      "summary": "haoel/leetcode 是一个收集 LeetCode 题目解答的开源仓库，主要使用 C++ 编写。它面向正在准备算法面试或希望系统练习编程题的人，提供可直接参考的题解代码，帮助理解题目思路和实现方式。仓库内容按类别组织，包含 LeetCode Algorithm 和 LeetCode Shell 两部分，前者覆盖常规算法题，后者针对 Shell 相关题目；此外还包含 LintCode 的题解。README 中标注了部分题目需要购买 LeetCode 书籍才能查看，说明仓库在整理时对资源获取方式做了提示。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:11:50+00:00",
+      "last_seen": "2026-10-12",
+      "seen_count": 1
+    },
+    {
+      "owner": "upx",
+      "name": "upx",
+      "full_name": "upx/upx",
+      "url": "https://github.com/upx/upx",
+      "description": "UPX - the Ultimate Packer for eXecutables",
+      "language": "C++",
+      "stars": 17939,
+      "forks": 1533,
+      "homepage": "https://upx.github.io",
+      "license": "NOASSERTION",
+      "created_at": "2016-08-31T11:23:13Z",
+      "pushed_at": "2026-10-12T07:12:04Z",
+      "updated_at": "2026-10-12T11:48:42Z",
+      "open_issues": 24,
+      "summary": "UPX 是一款用 C++ 编写的可执行文件压缩器，支持 Windows 程序与 DLL、Linux 可执行文件等多种格式。它通过压缩程序文件本身，通常可将体积减少约 50% 至 70%，从而降低磁盘占用、网络加载与下载分发成本。经其压缩的程序和库保持完全自包含，运行方式与压缩前一致，在多数支持的格式上不会带来运行时或内存开销。使用时只需执行 upx program.exe，追求更高压缩率可尝试 --best 或 --brute 参数，完整文档见 doc/upx-doc.txt。它适用于发布体积敏感的分发场景，但需注意其继承所处理文件的安全上下文，因此仅应对可信文件使用。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:11:50+00:00",
+      "last_seen": "2026-10-12",
+      "seen_count": 1
     },
     {
       "owner": "wolfpld",

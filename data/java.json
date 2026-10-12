@@ -6,9 +6,9 @@
     "weekly",
     "monthly"
   ],
-  "generated_at": "2026-10-12T11:59:44+00:00",
+  "generated_at": "2026-10-12T12:12:12+00:00",
   "first_at": "2026-10-09T11:22:02+00:00",
-  "count": 49,
+  "count": 61,
   "added": 0,
   "repos": [
     {
@@ -269,6 +269,52 @@
       "seen_count": 5
     },
     {
+      "owner": "dbeaver",
+      "name": "dbeaver",
+      "full_name": "dbeaver/dbeaver",
+      "url": "https://github.com/dbeaver/dbeaver",
+      "description": "Free universal database tool and SQL client",
+      "language": "Java",
+      "stars": 52033,
+      "forks": 4404,
+      "homepage": "https://dbeaver.io",
+      "license": "Apache-2.0",
+      "created_at": "2015-10-21T08:26:28Z",
+      "pushed_at": "2026-10-12T11:30:04Z",
+      "updated_at": "2026-10-12T12:11:25Z",
+      "open_issues": 3350,
+      "summary": "DBeaver 是一款免费、跨平台的通用数据库工具与 SQL 客户端，主要用 Java 编写，面向开发者、SQL 程序员、数据库管理员和分析师。它解决的核心问题是：用一个统一界面连接并操作种类繁多的数据库，而不必为每种数据库单独安装工具。其核心能力包括模式编辑器、SQL 编辑器、数据编辑器、AI 聊天、ER 图、数据导入导出与迁移、SQL 执行计划、数据库管理工具、仪表盘、空间数据查看器、代理与 SSH 隧道以及自定义驱动编辑器。社区版开箱即支持超过一百种数据库驱动，任何提供 JDBC 或 ODBC 驱动的数据库基本都能接入。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:11:45+00:00",
+      "last_seen": "2026-10-12",
+      "seen_count": 1
+    },
+    {
+      "owner": "google",
+      "name": "guava",
+      "full_name": "google/guava",
+      "url": "https://github.com/google/guava",
+      "description": "Google core libraries for Java",
+      "language": "Java",
+      "stars": 51917,
+      "forks": 11212,
+      "homepage": "https://guava.dev/",
+      "license": "Apache-2.0",
+      "created_at": "2014-05-29T16:23:17Z",
+      "pushed_at": "2026-10-09T21:19:24Z",
+      "updated_at": "2026-10-12T11:44:18Z",
+      "open_issues": 749,
+      "summary": "Guava 是 Google 开源的 Java 核心库集合，主要解决 Java 标准库在集合、并发、I/O 等常见场景下能力不足或写法繁琐的问题。它提供了多种新集合类型（如 Multimap、Multiset）、不可变集合、图结构库，以及并发、I/O、哈希、基本类型和字符串等工具类，在 Google 内部及众多公司的 Java 项目中广泛使用。Guava 分为 JRE 和 Android 两个版本，前者要求 JDK 1.8 及以上，后者供 Android 或需兼容 Android 的库使用，Maven 坐标为 com.google.",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:11:45+00:00",
+      "last_seen": "2026-10-12",
+      "seen_count": 1
+    },
+    {
       "owner": "jeecgboot",
       "name": "JeecgBoot",
       "full_name": "jeecgboot/JeecgBoot",
@@ -290,6 +336,29 @@
       "added_at": "2026-10-09T11:22:02+00:00",
       "last_seen": "2026-10-10",
       "seen_count": 5
+    },
+    {
+      "owner": "apache",
+      "name": "dubbo",
+      "full_name": "apache/dubbo",
+      "url": "https://github.com/apache/dubbo",
+      "description": "The java implementation of Apache Dubbo. An RPC and microservice framework.",
+      "language": "Java",
+      "stars": 41580,
+      "forks": 26336,
+      "homepage": "https://dubbo.apache.org/",
+      "license": "Apache-2.0",
+      "created_at": "2012-06-19T07:56:02Z",
+      "pushed_at": "2026-10-10T10:11:51Z",
+      "updated_at": "2026-10-12T09:03:38Z",
+      "open_issues": 1029,
+      "summary": "Apache Dubbo 是 Apache 旗下的 Java 版 RPC 与微服务框架，提供多语言实现，涵盖 Java、Go、Python、PHP、Erlang、Rust 及 Node.js/Web。它面向企业级微服务场景，解决服务间通信、服务发现、流量管理、可观测性、安全与工具支持等问题。消费者通过注册中心（如 Zookeeper、Nacos）动态发现提供者实例，并依据策略管理流量，通信可选用 Triple（兼容 gRPC）、Dubbo2（TCP）、REST 或自定义协议。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:11:31+00:00",
+      "last_seen": "2026-10-12",
+      "seen_count": 1
     },
     {
       "owner": "TeamNewPipe",
@@ -338,6 +407,29 @@
       "seen_count": 5
     },
     {
+      "owner": "eugenp",
+      "name": "tutorials",
+      "full_name": "eugenp/tutorials",
+      "url": "https://github.com/eugenp/tutorials",
+      "description": "Getting Started with Spring Boot 3: ",
+      "language": "Java",
+      "stars": 37322,
+      "forks": 53169,
+      "homepage": "https://bit.ly/github-ls",
+      "license": "MIT",
+      "created_at": "2013-04-29T18:26:36Z",
+      "pushed_at": "2026-10-12T07:07:17Z",
+      "updated_at": "2026-10-12T07:11:45Z",
+      "open_issues": 20,
+      "summary": "eugenp/tutorials 是一个以 Java 和 Spring 生态为核心的教程代码集合，包含大量小而聚焦的独立模块，每个模块通常只覆盖一个明确的开发主题，重点围绕 Spring、Spring Boot 与 Spring Security，同时也涉及 Java 的其他方面。它解决的是学习者在分散示例中难以系统获取可运行代码的问题，通过 Maven 构建配置将众多项目按 JDK 版本和测试类型划分为 default、default-jdk8、default-heavy、integration 等共 17 个 profile，便于按需构建。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:11:31+00:00",
+      "last_seen": "2026-10-12",
+      "seen_count": 1
+    },
+    {
       "owner": "keycloak",
       "name": "keycloak",
       "full_name": "keycloak/keycloak",
@@ -360,6 +452,29 @@
       "added_at": "2026-10-09T11:22:02+00:00",
       "last_seen": "2026-10-10",
       "seen_count": 6
+    },
+    {
+      "owner": "doocs",
+      "name": "leetcode",
+      "full_name": "doocs/leetcode",
+      "url": "https://github.com/doocs/leetcode",
+      "description": "🔥LeetCode solutions in any programming language | 多种编程语言实现 LeetCode、《剑指 Offer（第 2 版）》、《程序员面试金典（第 6 版）》题解",
+      "language": "Java",
+      "stars": 36676,
+      "forks": 9495,
+      "homepage": "https://leetcode.doocs.org",
+      "license": "CC-BY-SA-4.0",
+      "created_at": "2018-09-16T14:03:03Z",
+      "pushed_at": "2026-10-12T08:01:51Z",
+      "updated_at": "2026-10-12T08:04:43Z",
+      "open_issues": 1,
+      "summary": "doocs/leetcode 是一个由 Doocs 开源社区维护的题解仓库，收录 LeetCode、《剑指 Offer（第 2 版）》、《剑指 Offer（专项突击版）》、《程序员面试金典（第 6 版）》等题目的解答，题解以 Java 为主，同时覆盖 Python、C++、Go、TypeScript、Rust 等多种编程语言。仓库按算法专题组织内容，涵盖二分查找、排序、前缀和与差分、双指针、单调栈与单调队列、字符串哈希、BFS 与 DFS、回溯与剪枝、记忆化搜索、各类动态规划模型、并查集、树状数组与线段树、最短路与最小生成树等方向，便于按知识点系统刷题。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:11:31+00:00",
+      "last_seen": "2026-10-12",
+      "seen_count": 1
     },
     {
       "owner": "apache",
@@ -408,6 +523,29 @@
       "seen_count": 5
     },
     {
+      "owner": "ityouknow",
+      "name": "spring-boot-examples",
+      "full_name": "ityouknow/spring-boot-examples",
+      "url": "https://github.com/ityouknow/spring-boot-examples",
+      "description": "about learning Spring Boot via examples. Spring Boot 教程、技术栈示例代码，快速简单上手教程。 ",
+      "language": "Java",
+      "stars": 30470,
+      "forks": 12124,
+      "homepage": "http://www.ityouknow.com/spring-boot.html",
+      "license": "",
+      "created_at": "2016-11-05T05:32:33Z",
+      "pushed_at": "2023-11-18T16:32:16Z",
+      "updated_at": "2026-10-11T03:57:24Z",
+      "open_issues": 17,
+      "summary": "spring-boot-examples 是一个面向 Java 开发者的 Spring Boot 学习示例集合，以最小依赖、最简单实用为原则，帮助初学者快速掌握各组件的使用。仓库覆盖从 Hello World、banner 定制、单元测试与打包，到定时任务、WebFlux 响应式编程、文件上传、Thymeleaf 模板、JPA 与 MyBatis 多数据源、邮件发送、RabbitMQ、MongoDB、Redis、Memcached 集成以及 Docker 和 Docker Compose 部署等常见场景，所有示例均已更新到 Spring Boot 3.0，并保留 1.X、2.",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:11:50+00:00",
+      "last_seen": "2026-10-12",
+      "seen_count": 1
+    },
+    {
       "owner": "DrKLO",
       "name": "Telegram",
       "full_name": "DrKLO/Telegram",
@@ -429,6 +567,29 @@
       "added_at": "2026-10-09T11:22:02+00:00",
       "last_seen": "2026-10-10",
       "seen_count": 6
+    },
+    {
+      "owner": "alibaba",
+      "name": "canal",
+      "full_name": "alibaba/canal",
+      "url": "https://github.com/alibaba/canal",
+      "description": "阿里巴巴 MySQL binlog 增量订阅&消费组件 ",
+      "language": "Java",
+      "stars": 29737,
+      "forks": 7620,
+      "homepage": "",
+      "license": "Apache-2.0",
+      "created_at": "2013-01-13T10:59:52Z",
+      "pushed_at": "2026-07-30T07:40:52Z",
+      "updated_at": "2026-10-12T03:45:57Z",
+      "open_issues": 1258,
+      "summary": "canal 是阿里巴巴开源的 MySQL binlog 增量订阅与消费组件，核心用途是解析 MySQL 增量日志，提供增量数据的订阅和消费能力。它模拟 MySQL slave 的交互协议，向 master 发送 dump 请求，接收并解析 binary log，从而把数据变更以增量方式对外提供。它主要解决跨机房同步、数据库镜像、实时备份、索引构建与维护、缓存刷新以及带业务逻辑的增量数据处理等问题，支持 MySQL 5.1 至 8.0 多个版本。canal 采用 client-server 模式，交互协议基于 protobuf 3.",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:11:50+00:00",
+      "last_seen": "2026-10-12",
+      "seen_count": 1
     },
     {
       "owner": "kestra-io",
@@ -522,6 +683,121 @@
       "added_at": "2026-10-09T11:22:02+00:00",
       "last_seen": "2026-10-10",
       "seen_count": 5
+    },
+    {
+      "owner": "jenkinsci",
+      "name": "jenkins",
+      "full_name": "jenkinsci/jenkins",
+      "url": "https://github.com/jenkinsci/jenkins",
+      "description": "Jenkins automation server",
+      "language": "Java",
+      "stars": 26642,
+      "forks": 9835,
+      "homepage": "https://www.jenkins.io",
+      "license": "MIT",
+      "created_at": "2010-11-22T21:21:23Z",
+      "pushed_at": "2026-10-12T11:20:15Z",
+      "updated_at": "2026-10-12T11:20:21Z",
+      "open_issues": 3590,
+      "summary": "Jenkins 是一款领先的开源自动化服务器，使用 Java 构建，提供超过 2000 个插件，用于自动化开发工作流。它主要解决重复性任务耗费人力的问题，帮助团队将精力集中在更需要人类判断的工作上。其核心能力包括构建项目、运行测试以尽早发现缺陷、进行静态代码分析以及部署，从而优化开发流程、节省时间。Jenkins 提供 WAR 文件、Docker 镜像、原生软件包和安装程序等多种官方发行方式，并设有每周发布和长期支持两条发布线。典型使用场景涵盖持续集成与持续交付流程，适用于各类需要自动化构建、测试和部署的软件开发团队。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:11:08+00:00",
+      "last_seen": "2026-10-12",
+      "seen_count": 1
+    },
+    {
+      "owner": "apache",
+      "name": "flink",
+      "full_name": "apache/flink",
+      "url": "https://github.com/apache/flink",
+      "description": "Apache Flink",
+      "language": "Java",
+      "stars": 26401,
+      "forks": 14056,
+      "homepage": "https://flink.apache.org/",
+      "license": "Apache-2.0",
+      "created_at": "2014-06-07T07:00:10Z",
+      "pushed_at": "2026-10-12T11:16:37Z",
+      "updated_at": "2026-10-12T09:39:18Z",
+      "open_issues": 398,
+      "summary": "Apache Flink 是一个开源的流处理框架，同时具备强大的流处理和批处理能力。它以流式运行时为核心，既能运行批处理程序，也能运行数据流程序，主要解决大规模数据的实时与离线计算问题。其核心特点包括：提供简洁流畅的 Java API，支持高吞吐与低事件延迟，基于 Dataflow 模型在 DataStream API 中支持事件时间和乱序处理，提供灵活的窗口机制（时间、计数、会话、自定义触发器）并兼容不同时间语义，具备精确一次处理的容错保证和自然反压能力。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:11:08+00:00",
+      "last_seen": "2026-10-12",
+      "seen_count": 1
+    },
+    {
+      "owner": "Netflix",
+      "name": "Hystrix",
+      "full_name": "Netflix/Hystrix",
+      "url": "https://github.com/Netflix/Hystrix",
+      "description": "Hystrix is a latency and fault tolerance library designed to isolate points of access to remote systems, services and 3rd party libraries, stop cascading failure and enable resilience in complex distributed systems where failure is inevitable.",
+      "language": "Java",
+      "stars": 24483,
+      "forks": 4666,
+      "homepage": "",
+      "license": "",
+      "created_at": "2012-11-19T20:14:46Z",
+      "pushed_at": "2025-12-17T03:21:02Z",
+      "updated_at": "2026-10-11T01:07:38Z",
+      "open_issues": 58,
+      "summary": "Hystrix 是 Netflix 开源的 Java 延迟与容错库，用于隔离对远程系统、服务和第三方库的访问点，阻止故障级联，并在故障不可避免的复杂分布式系统中提供弹性。它通过线程和信号量隔离配合断路器实现快速失败与优雅降级，支持实时监控与配置变更，并提供并发感知的请求缓存和请求合并批处理。典型场景是微服务架构中调用外部依赖时的熔断与降级保护。该库目前处于维护模式，不再积极开发，Netflix 建议新项目考虑 resilience4j 等活跃方案。使用需 Java 6 或更高版本，可通过 Maven 等构建工具引入。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:11:08+00:00",
+      "last_seen": "2026-10-12",
+      "seen_count": 1
+    },
+    {
+      "owner": "didi",
+      "name": "DoKit",
+      "full_name": "didi/DoKit",
+      "url": "https://github.com/didi/DoKit",
+      "description": "一款面向泛前端产品研发全生命周期的效率平台。",
+      "language": "Java",
+      "stars": 20418,
+      "forks": 3185,
+      "homepage": "",
+      "license": "Apache-2.0",
+      "created_at": "2018-08-14T10:32:07Z",
+      "pushed_at": "2026-10-12T07:27:30Z",
+      "updated_at": "2026-10-12T11:55:50Z",
+      "open_issues": 275,
+      "summary": "DoKit 是滴滴开源的泛前端产品研发全生命周期效率平台，主要用 Java 开发，覆盖 Android、iOS、小程序、Flutter 和 Web 等端。它解决的是各 App 重复实现线下测试工具、入口分散、难以统一管理的问题，让业务测试代码统一收口。核心能力包括常用工具（App 信息查看、沙盒浏览、MockGPS、H5 任意门、Crash 查看、DBView 等）、性能检测（帧率、CPU、内存、流量、卡顿、启动耗时、内存泄漏等）、视觉工具（颜色吸管、组件检查、对齐标尺）以及 Weex、微信小程序专项工具，并支持自定义业务工具集成到面板。搭配 dokit.",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:11:46+00:00",
+      "last_seen": "2026-10-12",
+      "seen_count": 1
+    },
+    {
+      "owner": "antlr",
+      "name": "antlr4",
+      "full_name": "antlr/antlr4",
+      "url": "https://github.com/antlr/antlr4",
+      "description": "ANTLR (ANother Tool for Language Recognition) is a powerful parser generator for reading, processing, executing, or translating structured text or binary files.",
+      "language": "Java",
+      "stars": 19026,
+      "forks": 3469,
+      "homepage": "http://antlr.org",
+      "license": "BSD-3-Clause",
+      "created_at": "2010-02-04T01:36:28Z",
+      "pushed_at": "2026-02-16T21:29:09Z",
+      "updated_at": "2026-10-12T04:48:52Z",
+      "open_issues": 1097,
+      "summary": "ANTLR v4 是一款用 Java 编写的解析器生成器，用于读取、处理、执行或翻译结构化文本与二进制文件。它从语法描述出发，自动生成能构建语法树的解析器，并生成监听器或访问器接口，便于对感兴趣的短语做出响应，广泛用于构建语言、工具和框架。其显著特点是同时支持 Cpp、CSharp、Dart、Java、JavaScript、PHP、Python3、Swift、TypeScript、Go 共十种目标语言，并保证各目标间的一致性，每次发布都会同步更新工具与全部运行时。版本策略上，次版本更新可能包含破坏性变更，补丁版本才保证向后兼容。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:11:46+00:00",
+      "last_seen": "2026-10-12",
+      "seen_count": 1
     },
     {
       "owner": "apache",

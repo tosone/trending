@@ -6,9 +6,9 @@
     "weekly",
     "monthly"
   ],
-  "generated_at": "2026-10-12T11:59:40+00:00",
+  "generated_at": "2026-10-12T12:12:12+00:00",
   "first_at": "2026-10-09T10:50:39+00:00",
-  "count": 54,
+  "count": 98,
   "added": 3,
   "repos": [
     {
@@ -311,6 +311,144 @@
       "seen_count": 1
     },
     {
+      "owner": "alacritty",
+      "name": "alacritty",
+      "full_name": "alacritty/alacritty",
+      "url": "https://github.com/alacritty/alacritty",
+      "description": "A cross-platform, OpenGL terminal emulator.",
+      "language": "Rust",
+      "stars": 65939,
+      "forks": 3637,
+      "homepage": "https://alacritty.org",
+      "license": "Apache-2.0",
+      "created_at": "2016-02-18T05:02:30Z",
+      "pushed_at": "2026-10-05T12:48:27Z",
+      "updated_at": "2026-10-12T10:39:22Z",
+      "open_issues": 342,
+      "summary": "Alacritty 是一款用 Rust 编写的跨平台 OpenGL 终端模拟器，支持 BSD、Linux、macOS 和 Windows。它通过调用其他应用而非重新实现其功能，在保持高性能的同时提供灵活的配置选项。其核心能力在于利用 GPU 加速渲染，并借助 vtebench 在吞吐量上通常优于同类工具。它不内置标签页或分屏，这些交由窗口管理器或终端复用器处理，也没有图形化配置编辑器。配置文件需用户自行创建，通常位于 XDG 配置目录或用户主目录下的 alacritty.toml 中。它适合追求低延迟、高帧率且习惯自行组合工具链的开发者，要求至少支持 OpenGL ES 2.",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:11:19+00:00",
+      "last_seen": "2026-10-12",
+      "seen_count": 1
+    },
+    {
+      "owner": "warpdotdev",
+      "name": "warp",
+      "full_name": "warpdotdev/warp",
+      "url": "https://github.com/warpdotdev/warp",
+      "description": "Warp is an agentic development environment, born out of the terminal.",
+      "language": "Rust",
+      "stars": 65432,
+      "forks": 5635,
+      "homepage": "https://warp.dev",
+      "license": "AGPL-3.0",
+      "created_at": "2021-07-08T18:48:08Z",
+      "pushed_at": "2026-10-11T20:32:19Z",
+      "updated_at": "2026-10-12T12:06:20Z",
+      "open_issues": 5384,
+      "summary": "Warp 是一个以终端为起点构建的智能体开发环境，主要用 Rust 编写。它把编码智能体直接内置到终端中，同时允许用户接入 Claude Code、Codex、Gemini CLI 等自有命令行智能体，从而在熟悉的终端界面里完成开发任务。该项目还提供 Warp Factories，用代码定义云端软件工厂，支持在任意模型或框架上部署，并内置评估、基准测试与自我改进能力，可用于自动化处理问题分类、编写规格、实现改动和审查 PR 等流程。仓库由 OpenAI 作为创始赞助方，智能体管理工作流由 GPT 模型驱动。开发者可通过 build.warp.",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:11:19+00:00",
+      "last_seen": "2026-10-12",
+      "seen_count": 1
+    },
+    {
+      "owner": "tw93",
+      "name": "Pake",
+      "full_name": "tw93/Pake",
+      "url": "https://github.com/tw93/Pake",
+      "description": "🤱🏻 Turn any website into a tiny, fast desktop app.",
+      "language": "Rust",
+      "stars": 62020,
+      "forks": 12771,
+      "homepage": "",
+      "license": "GPL-3.0",
+      "created_at": "2022-10-14T09:32:57Z",
+      "pushed_at": "2026-10-11T00:10:54Z",
+      "updated_at": "2026-10-12T11:49:09Z",
+      "open_issues": 0,
+      "summary": "Pake 是一个用 Rust 编写的命令行工具，能把任意网页打包成体积小巧的桌面应用，支持 macOS、Windows 和 Linux。它主要解决用 Electron 打包网页应用时安装包过大、内存占用高的问题：基于 Tauri 构建，安装包通常不到 10 MB，比 Electron 方案小近 20 倍，运行也更快。使用上，新手可直接下载现成包或在线构建，开发者安装 CLI 后一条命令即可打包，并自定义图标、窗口设置；它还支持快捷键、沉浸式窗口、拖拽、样式定制和去广告。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:11:19+00:00",
+      "last_seen": "2026-10-12",
+      "seen_count": 1
+    },
+    {
+      "owner": "sharkdp",
+      "name": "bat",
+      "full_name": "sharkdp/bat",
+      "url": "https://github.com/sharkdp/bat",
+      "description": "A cat(1) clone with wings.",
+      "language": "Rust",
+      "stars": 60771,
+      "forks": 4175,
+      "homepage": "",
+      "license": "Apache-2.0",
+      "created_at": "2018-04-21T10:52:23Z",
+      "pushed_at": "2026-10-07T19:49:04Z",
+      "updated_at": "2026-10-12T12:10:28Z",
+      "open_issues": 547,
+      "summary": "bat 是一个用 Rust 编写的 cat 命令替代工具，在保留文件拼接等基础功能的同时，增加了语法高亮和 Git 集成能力。它能识别大量编程与标记语言，并在输出中标注相对索引的修改内容，还可用 -A 选项显示不可打印字符。当输出超过一屏时，bat 会自动调用分页器，也可设为从不分页以贴近 cat 的行为；检测到非交互终端时则回退为纯文本输出。典型用法包括查看单个或多个文件、从标准输入读取并自动或手动指定语法、配合 fzf 做预览、与 find、fd、ripgrep、tail -f、git show、git diff 等工具组合，以及作为 man 的着色分页器。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:11:19+00:00",
+      "last_seen": "2026-10-12",
+      "seen_count": 1
+    },
+    {
+      "owner": "starship",
+      "name": "starship",
+      "full_name": "starship/starship",
+      "url": "https://github.com/starship/starship",
+      "description": "☄🌌️  The minimal, blazing-fast, and infinitely customizable prompt for any shell!",
+      "language": "Rust",
+      "stars": 60228,
+      "forks": 2701,
+      "homepage": "https://starship.rs",
+      "license": "ISC",
+      "created_at": "2019-04-02T03:23:12Z",
+      "pushed_at": "2026-10-12T08:23:00Z",
+      "updated_at": "2026-10-12T11:17:12Z",
+      "open_issues": 1059,
+      "summary": "Starship 是一款用 Rust 编写的命令行提示符工具，适用于各类 shell 和操作系统。它主要解决默认提示符信息有限、样式单一且难以跨环境统一的问题。其核心能力包括极快的响应速度、对提示符每个细节的可配置性，以及跨 shell、跨平台的通用性。它能智能地根据当前目录和上下文展示相关信息，并支持多种常用开发工具。使用前需在终端中启用 Nerd Font，安装后通过简单配置即可在 Bash、Zsh、Fish 等 shell 中初始化。用户既可以沿用默认样式，也能借助配置文档和他人预设进行深度定制。项目欢迎各水平贡献者参与，尤其需要非英语语言的文档翻译支持。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:11:19+00:00",
+      "last_seen": "2026-10-12",
+      "seen_count": 1
+    },
+    {
+      "owner": "meilisearch",
+      "name": "meilisearch",
+      "full_name": "meilisearch/meilisearch",
+      "url": "https://github.com/meilisearch/meilisearch",
+      "description": "A lightning-fast search engine API bringing AI-powered hybrid search to your sites and applications.",
+      "language": "Rust",
+      "stars": 59547,
+      "forks": 2726,
+      "homepage": "https://www.meilisearch.com",
+      "license": "NOASSERTION",
+      "created_at": "2018-04-23T11:45:28Z",
+      "pushed_at": "2026-10-12T09:22:13Z",
+      "updated_at": "2026-10-12T09:16:36Z",
+      "open_issues": 320,
+      "summary": "Meilisearch 是一款用 Rust 编写的开源搜索引擎，提供 API 接口，可快速嵌入网站、应用与工作流，帮助开发者构建搜索体验。它解决的是在应用中实现相关、即时搜索的问题，核心能力包括混合搜索（结合语义与全文检索）、50 毫秒内的即时搜索、容错拼写、过滤与分面搜索、排序、同义词、地理搜索、多语言支持、API 密钥权限管理、多租户、对话式搜索、个性化、搜索规则、文档关联以及复制与分片。它提供 RESTful API 和多种 SDK 与插件，支持与 LangChain 和 MCP 集成，便于接入现有技术栈。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:11:19+00:00",
+      "last_seen": "2026-10-12",
+      "seen_count": 1
+    },
+    {
       "owner": "bevyengine",
       "name": "bevy",
       "full_name": "bevyengine/bevy",
@@ -332,6 +470,75 @@
       "added_at": "2026-10-09T11:01:04+00:00",
       "last_seen": "2026-10-10",
       "seen_count": 10
+    },
+    {
+      "owner": "helix-editor",
+      "name": "helix",
+      "full_name": "helix-editor/helix",
+      "url": "https://github.com/helix-editor/helix",
+      "description": "A post-modern modal text editor.",
+      "language": "Rust",
+      "stars": 46560,
+      "forks": 3829,
+      "homepage": "https://helix-editor.com",
+      "license": "MPL-2.0",
+      "created_at": "2020-06-01T04:26:56Z",
+      "pushed_at": "2026-09-29T02:36:33Z",
+      "updated_at": "2026-10-12T11:57:38Z",
+      "open_issues": 1729,
+      "summary": "Helix 是一款用 Rust 编写的后现代模态文本编辑器，编辑模型深受 Kakoune 影响，并借鉴了 Neovim 的思路。它主要面向习惯模态编辑的开发者，解决在终端中进行高效代码编辑与多光标操作的需求。核心特点包括类 Vim 的模态编辑、多选区、内置语言服务器支持，以及借助 tree-sitter 实现的智能增量语法高亮与代码编辑。它主要运行于终端，作者也在探索基于 wgpu 的自定义渲染器。快捷键与键位映射可在官网文档中查阅，目前仅部分语言提供缩进定义，可查看 runtime/queries 下的 indents.scm。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:11:19+00:00",
+      "last_seen": "2026-10-12",
+      "seen_count": 1
+    },
+    {
+      "owner": "janhq",
+      "name": "jan",
+      "full_name": "janhq/jan",
+      "url": "https://github.com/janhq/jan",
+      "description": "Jan is an open source alternative to ChatGPT that runs 100% offline on your computer.",
+      "language": "Rust",
+      "stars": 44907,
+      "forks": 3086,
+      "homepage": "https://jan.ai/",
+      "license": "NOASSERTION",
+      "created_at": "2023-08-17T02:17:10Z",
+      "pushed_at": "2026-10-12T11:09:23Z",
+      "updated_at": "2026-10-12T11:52:17Z",
+      "open_issues": 564,
+      "summary": "Jan 是一款可完全离线运行的 ChatGPT 替代品，旨在让用户在本地掌控大语言模型的使用，兼顾隐私与便利。它支持从 HuggingFace 下载并运行 Llama、Gemma、Qwen、GPT-oss 等本地模型，也能通过 OpenAI、Anthropic、Mistral、Groq、MiniMax 等服务接入云端模型。用户可以创建面向特定任务的定制助手，并通过 localhost:1337 的 OpenAI 兼容 API 供其他应用调用，同时借助模型上下文协议（MCP）获得智能体能力。项目以 Rust 为主要语言，基于 Tauri 和 llama.",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:11:19+00:00",
+      "last_seen": "2026-10-12",
+      "seen_count": 1
+    },
+    {
+      "owner": "sharkdp",
+      "name": "fd",
+      "full_name": "sharkdp/fd",
+      "url": "https://github.com/sharkdp/fd",
+      "description": "A simple, fast and user-friendly alternative to 'find'",
+      "language": "Rust",
+      "stars": 44765,
+      "forks": 1152,
+      "homepage": "",
+      "license": "Apache-2.0",
+      "created_at": "2017-05-09T21:27:10Z",
+      "pushed_at": "2026-10-07T17:42:40Z",
+      "updated_at": "2026-10-12T11:51:22Z",
+      "open_issues": 203,
+      "summary": "fd 是一个用 Rust 编写的文件系统搜索工具，定位为 find 的简单、快速且用户友好的替代品。它不追求覆盖 find 的全部功能，而是为多数常见场景提供合理的默认行为。其核心特点包括：语法直观，直接使用 fd PATTERN 而非 find -iname；默认支持正则表达式和 glob 模式；通过并行化目录遍历实现高速搜索；用颜色区分文件类型；支持并行执行命令；智能大小写匹配；默认忽略隐藏文件和 .gitignore 中的模式。典型用法涵盖按文件名、扩展名或路径搜索，结合 -x/-X 对结果批量执行外部命令，以及用 -E 排除特定目录或文件。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:11:02+00:00",
+      "last_seen": "2026-10-12",
+      "seen_count": 1
     },
     {
       "owner": "vercel-labs",
@@ -380,6 +587,52 @@
       "seen_count": 9
     },
     {
+      "owner": "GyulyVGC",
+      "name": "sniffnet",
+      "full_name": "GyulyVGC/sniffnet",
+      "url": "https://github.com/GyulyVGC/sniffnet",
+      "description": "Comfortably monitor your network traffic 🕵️‍♂️",
+      "language": "Rust",
+      "stars": 41458,
+      "forks": 1962,
+      "homepage": "https://sniffnet.app",
+      "license": "Apache-2.0",
+      "created_at": "2022-07-31T21:55:56Z",
+      "pushed_at": "2026-10-12T10:54:52Z",
+      "updated_at": "2026-10-12T11:15:55Z",
+      "open_issues": 65,
+      "summary": "Sniffnet 是一款用 Rust 编写的跨平台网络流量监控工具，帮助用户直观地观察本机网络通信情况。它允许选择网卡并设置过滤条件，实时查看流量强度图表与整体统计，识别本地网络连接，定位远程主机的归属地与 ASN，并解析域名及 6000 多种上层服务、协议乃至木马和蠕虫。用户还能看到哪些程序在占用带宽，收藏常用主机、服务和程序，导入导出 PCAP 抓包报告，设置自定义通知，导入 IP 黑名单以标记可疑连接，并支持自定义主题。界面基于 Rust 的 iced 库构建，地理位置与 ASN 数据由 MaxMind 提供。适合需要排查网络异常、了解流量构成或学习网络协议的普通用户与开发者。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:11:02+00:00",
+      "last_seen": "2026-10-12",
+      "seen_count": 1
+    },
+    {
+      "owner": "nushell",
+      "name": "nushell",
+      "full_name": "nushell/nushell",
+      "url": "https://github.com/nushell/nushell",
+      "description": "A new type of shell",
+      "language": "Rust",
+      "stars": 40652,
+      "forks": 2298,
+      "homepage": "https://www.nushell.sh/",
+      "license": "MIT",
+      "created_at": "2019-05-10T16:59:42Z",
+      "pushed_at": "2026-10-11T19:29:37Z",
+      "updated_at": "2026-10-12T11:50:31Z",
+      "open_issues": 1458,
+      "summary": "Nushell 是一款用 Rust 编写的全新类型 shell，目标是把命令行中的数据当作结构化信息来处理，而不再是原始的文本流。它从 PowerShell、函数式编程语言和现代 CLI 工具中汲取灵感，将目录列表、文件内容等输入视为表格或结构化数据，并允许通过管道在命令之间传递。管道中的命令分为产生流、过滤流和消费输出三类，用竖线连接即可从左到右组合，例如用 ls 列出内容、用 where 过滤、用 table 展示。它还能把 .toml 等格式的文件或 URL 内容加载为结构化数据并逐层深入查看。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:11:02+00:00",
+      "last_seen": "2026-10-12",
+      "seen_count": 1
+    },
+    {
       "owner": "ajeetdsouza",
       "name": "zoxide",
       "full_name": "ajeetdsouza/zoxide",
@@ -401,6 +654,144 @@
       "windows": [
         "daily"
       ]
+    },
+    {
+      "owner": "spacedriveapp",
+      "name": "spacedrive",
+      "full_name": "spacedriveapp/spacedrive",
+      "url": "https://github.com/spacedriveapp/spacedrive",
+      "description": "Spacedrive is an open source cross-platform file explorer, powered by a virtual distributed filesystem written in Rust.",
+      "language": "Rust",
+      "stars": 39140,
+      "forks": 1358,
+      "homepage": "https://spacedrive.com",
+      "license": "Apache-2.0",
+      "created_at": "2021-09-27T05:09:04Z",
+      "pushed_at": "2026-10-09T13:22:02Z",
+      "updated_at": "2026-10-12T10:51:26Z",
+      "open_issues": 64,
+      "summary": "Spacedrive 是一款用 Rust 编写的开源跨平台文件浏览器，核心是虚拟分布式文件系统。它想解决的问题是：个人文件和行为数据不该只存放在自己无法掌控的云基础设施上。它把本地磁盘、可移动介质、NAS、私有服务器、离线归档以及可选的云服务统一成一个私有文件系统，每个来源都有可移植的存储，包含可刷新的索引和无法从文件本身重建的持久断言，因此断开硬盘后目录仍可搜索，来源迁移时元数据也能随之移动。它提供实时索引与监视、跨来源搜索、基于 BLAKE3 的稳定标识与重复检测、可冻结的历史快照，并把完整性、冗余、备份状态纳入文件系统层面。每次改动文件的操作都会先验证再预览，由守护进程执行并报告偏差。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:11:02+00:00",
+      "last_seen": "2026-10-12",
+      "seen_count": 1
+    },
+    {
+      "owner": "lapce",
+      "name": "lapce",
+      "full_name": "lapce/lapce",
+      "url": "https://github.com/lapce/lapce",
+      "description": "Lightning-fast and Powerful Code Editor written in Rust",
+      "language": "Rust",
+      "stars": 38907,
+      "forks": 1347,
+      "homepage": "https://lap.dev/lapce/",
+      "license": "Apache-2.0",
+      "created_at": "2018-02-06T08:41:06Z",
+      "pushed_at": "2026-10-09T00:41:19Z",
+      "updated_at": "2026-10-12T11:54:48Z",
+      "open_issues": 897,
+      "summary": "Lapce 是一款用纯 Rust 编写的代码编辑器，界面基于 Floem 构建，并借鉴 Xi-Editor 的 Rope Science 实现快速计算，渲染则依赖 wgpu。它主要解决开发者对编辑性能与功能集成的需求，内置 LSP 支持，可提供代码补全、诊断和代码操作等智能功能；模态编辑作为一等公民，支持类似 Vim 的操作并可切换。它还内置远程开发支持，让用户获得接近本地的体验，同时利用远程系统的完整能力，并配套 Lapdev 管理远程开发环境。插件可用能编译为 WASI 格式的语言编写，如 C、Rust 和 AssemblyScript。内置终端让用户无需离开编辑器即可在工作区执行命令。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:11:02+00:00",
+      "last_seen": "2026-10-12",
+      "seen_count": 1
+    },
+    {
+      "owner": "firecracker-microvm",
+      "name": "firecracker",
+      "full_name": "firecracker-microvm/firecracker",
+      "url": "https://github.com/firecracker-microvm/firecracker",
+      "description": "Secure and fast microVMs for serverless computing.",
+      "language": "Rust",
+      "stars": 37315,
+      "forks": 2669,
+      "homepage": "http://firecracker-microvm.io",
+      "license": "Apache-2.0",
+      "created_at": "2017-10-19T06:18:47Z",
+      "pushed_at": "2026-10-09T13:46:25Z",
+      "updated_at": "2026-10-12T12:05:07Z",
+      "open_issues": 97,
+      "summary": "Firecracker 是面向无服务器计算场景的轻量级虚拟机技术，用 Rust 编写，核心是一个基于 Linux KVM 的虚拟机监视器，用于创建和运行 microVM。它把硬件虚拟化的安全隔离与容器的启动速度和灵活性结合起来，支持安全的多租户容器与函数工作负载。其设计刻意精简，剔除不必要的设备和面向客户机的功能，以缩小内存占用和攻击面，从而提升安全性、缩短启动时间并提高硬件利用率。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:11:02+00:00",
+      "last_seen": "2026-10-12",
+      "seen_count": 1
+    },
+    {
+      "owner": "casey",
+      "name": "just",
+      "full_name": "casey/just",
+      "url": "https://github.com/casey/just",
+      "description": "🤖 Just a command runner",
+      "language": "Rust",
+      "stars": 36219,
+      "forks": 860,
+      "homepage": "https://just.systems",
+      "license": "CC0-1.0",
+      "created_at": "2016-06-17T06:08:08Z",
+      "pushed_at": "2026-10-08T21:12:48Z",
+      "updated_at": "2026-10-12T09:03:22Z",
+      "open_issues": 172,
+      "summary": "just 是一个用 Rust 编写的命令运行器，用于保存和运行项目专属命令。它把命令写在名为 justfile 的文件中，语法受 make 启发，但定位是命令运行器而非构建系统，因此避开了 make 的复杂性和怪癖，也不需要 .PHONY。它支持 Linux、macOS、Windows 及主流 Unix，无需额外依赖；配方可接受命令行参数，包括标志和选项，并支持丰富的表达式语言和内置函数。错误信息具体且带源码上下文，未知配方和循环依赖会在运行前静态报错。它能加载 .env 文件，可从任意子目录调用，支持模块与导入组织多个 justfile，还能用 Python、Node.",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:11:02+00:00",
+      "last_seen": "2026-10-12",
+      "seen_count": 1
+    },
+    {
+      "owner": "zellij-org",
+      "name": "zellij",
+      "full_name": "zellij-org/zellij",
+      "url": "https://github.com/zellij-org/zellij",
+      "description": "A terminal workspace with batteries included",
+      "language": "Rust",
+      "stars": 35709,
+      "forks": 1485,
+      "homepage": "https://zellij.dev",
+      "license": "MIT",
+      "created_at": "2020-09-01T14:04:28Z",
+      "pushed_at": "2026-10-12T10:25:37Z",
+      "updated_at": "2026-10-12T10:00:44Z",
+      "open_issues": 1920,
+      "summary": "Zellij 是一款用 Rust 编写的终端工作区，常被归类为终端复用器，面向开发者、运维人员以及习惯在终端中工作的人群。它试图在简单与强大之间取得平衡，既提供开箱即用的体验，也支持深度定制。其核心能力包括布局配置、通过布局实现个人自动化、真正的多人协作，以及浮动窗格、堆叠窗格等独特交互方式。它还提供插件系统，允许用任何能编译为 WebAssembly 的语言编写插件，并内置 Web 客户端，使终端不再是必需。安装方式包括系统包、预编译二进制或通过 cargo 编译，也可在不安装的情况下先行试用。典型场景是管理多个终端会话、组织窗格与标签、与他人共享终端环境。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:11:02+00:00",
+      "last_seen": "2026-10-12",
+      "seen_count": 1
+    },
+    {
+      "owner": "qdrant",
+      "name": "qdrant",
+      "full_name": "qdrant/qdrant",
+      "url": "https://github.com/qdrant/qdrant",
+      "description": "Qdrant - High-performance, massive-scale Vector Database and Vector Search Engine for the next generation of AI. Also available in the cloud https://cloud.qdrant.io/",
+      "language": "Rust",
+      "stars": 35046,
+      "forks": 2734,
+      "homepage": "https://qdrant.tech",
+      "license": "Apache-2.0",
+      "created_at": "2020-05-30T21:37:01Z",
+      "pushed_at": "2026-10-12T11:58:19Z",
+      "updated_at": "2026-10-12T11:43:47Z",
+      "open_issues": 768,
+      "summary": "Qdrant 是一个用 Rust 编写的高性能向量相似度搜索引擎与向量数据库，面向新一代 AI 应用。它提供生产级服务与便捷 API，用于存储、搜索和管理带附加负载（payload）的向量点，并针对扩展过滤支持做了专门优化，适用于神经网络或语义匹配、分面搜索等场景。其核心能力包括稠密、稀疏与多向量搜索，支持基于 JSON 负载的丰富条件过滤、混合搜索与多种融合策略，还提供向量量化与磁盘存储以降低内存占用，以及分片复制、零停机扩缩容的分布式部署。特色功能涵盖分面、推荐、发现、搜索相关性调优、多租户、可观测性、查询规划与负载索引、SIMD 硬件加速、GPU 索引加速、异步 I/O 和预写日志。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:11:02+00:00",
+      "last_seen": "2026-10-12",
+      "seen_count": 1
     },
     {
       "owner": "jdx",
@@ -449,6 +840,75 @@
       "seen_count": 10
     },
     {
+      "owner": "fish-shell",
+      "name": "fish-shell",
+      "full_name": "fish-shell/fish-shell",
+      "url": "https://github.com/fish-shell/fish-shell",
+      "description": "The user-friendly command line shell.",
+      "language": "Rust",
+      "stars": 34297,
+      "forks": 2385,
+      "homepage": "https://fishshell.com",
+      "license": "NOASSERTION",
+      "created_at": "2012-05-10T03:00:55Z",
+      "pushed_at": "2026-10-12T03:09:24Z",
+      "updated_at": "2026-10-12T10:19:50Z",
+      "open_issues": 565,
+      "summary": "fish 是一款面向 macOS、Linux 及其他类 Unix 系统的智能且用户友好的命令行 shell，主要使用 Rust 编写。它旨在解决传统 shell 配置繁琐、交互体验不够直观的问题，开箱即用，无需额外配置即可获得语法高亮、输入时自动建议和智能 Tab 补全等能力。它的基本用法与 bash、zsh 类似，但在若干交互细节上做了改进，官方教程中专门列出了这些差异。用户可通过官网下载安装，也可用 Cargo 从源码构建，构建时可选关闭翻译或嵌入 man 手册。日常使用中，可在 fish 内运行 help 查看文档，或访问在线手册。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:11:02+00:00",
+      "last_seen": "2026-10-12",
+      "seen_count": 1
+    },
+    {
+      "owner": "swc-project",
+      "name": "swc",
+      "full_name": "swc-project/swc",
+      "url": "https://github.com/swc-project/swc",
+      "description": "Rust-based platform for the Web",
+      "language": "Rust",
+      "stars": 34203,
+      "forks": 1570,
+      "homepage": "https://swc.rs",
+      "license": "Apache-2.0",
+      "created_at": "2017-12-22T11:40:14Z",
+      "pushed_at": "2026-10-12T06:40:42Z",
+      "updated_at": "2026-10-12T12:02:46Z",
+      "open_issues": 399,
+      "summary": "SWC 是一个用 Rust 编写的超高速 TypeScript / JavaScript 编译器，目标是让 Web 开发更快。它同时提供 Rust 库和 JavaScript 库两种形态，Rust 用户可从 parser 入手，JavaScript 用户则可参考官网文档。它主要解决 JavaScript 和 TypeScript 代码的编译与转换效率问题，可作为 Babel 的替代方案，官网提供了与 Babel 的对比及性能基准。使用上，Node v10 以上即可运行，开发则需 Node v20 以上；Rust 侧各 crate 的 MSRV 为 1.",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:11:02+00:00",
+      "last_seen": "2026-10-12",
+      "seen_count": 1
+    },
+    {
+      "owner": "TabbyML",
+      "name": "tabby",
+      "full_name": "TabbyML/tabby",
+      "url": "https://github.com/TabbyML/tabby",
+      "description": "Self-hosted AI coding assistant",
+      "language": "Rust",
+      "stars": 33910,
+      "forks": 1793,
+      "homepage": "https://tabbyml.com",
+      "license": "NOASSERTION",
+      "created_at": "2023-03-16T09:18:01Z",
+      "pushed_at": "2026-06-30T20:38:02Z",
+      "updated_at": "2026-10-12T07:28:47Z",
+      "open_issues": 337,
+      "summary": "Tabby 是一个自托管的 AI 编程助手，用 Rust 编写，定位为 GitHub Copilot 的开源本地部署替代方案。它解决的是开发者希望在不依赖云服务、不上传代码到第三方的前提下获得 AI 辅助编码能力的问题。其核心特点包括：自包含架构，无需数据库管理系统或云服务即可运行；提供 OpenAPI 接口，便于与现有基础设施（如云端 IDE）集成；支持消费级 GPU，降低了硬件门槛。功能上，Tabby 支持将 GitLab Merge Request 索引为上下文，可通过 REST API 引入自有文档，并将问答引擎的消息转化为可持久化、可分享的页面，聊天侧边栏还提供更丰富的 @ 菜单。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:11:02+00:00",
+      "last_seen": "2026-10-12",
+      "seen_count": 1
+    },
+    {
       "owner": "cjpais",
       "name": "Handy",
       "full_name": "cjpais/Handy",
@@ -470,6 +930,29 @@
       "added_at": "2026-10-09T11:01:04+00:00",
       "last_seen": "2026-10-10",
       "seen_count": 9
+    },
+    {
+      "owner": "dandavison",
+      "name": "delta",
+      "full_name": "dandavison/delta",
+      "url": "https://github.com/dandavison/delta",
+      "description": "A syntax-highlighting pager for git, diff, grep, rg --json, and blame output",
+      "language": "Rust",
+      "stars": 32484,
+      "forks": 594,
+      "homepage": "https://dandavison.github.io/delta/",
+      "license": "MIT",
+      "created_at": "2019-06-24T15:00:13Z",
+      "pushed_at": "2026-10-10T22:37:00Z",
+      "updated_at": "2026-10-12T10:15:52Z",
+      "open_issues": 467,
+      "summary": "Delta 是一个用 Rust 编写的语法高亮分页器，用于美化 git、diff、grep、rg --json 和 blame 的输出。它解决的是代码演进过程中频繁查看差异时，默认 diff 输出可读性差、样式单调的问题。核心能力包括：基于 bat 主题的语法高亮、利用 Levenshtein 算法实现词级差异标注、并排视图与自动换行、行号显示、在大型 diff 和 log -p 视图间用 n 和 N 跳转、改进的合并冲突与 git blame 展示、对 rg 和 git grep 等 grep 输出的高亮，以及支持 Git 的 --color-moved 特性。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:11:40+00:00",
+      "last_seen": "2026-10-12",
+      "seen_count": 1
     },
     {
       "owner": "lbjlaq",
@@ -495,6 +978,52 @@
       "seen_count": 9
     },
     {
+      "owner": "jj-vcs",
+      "name": "jj",
+      "full_name": "jj-vcs/jj",
+      "url": "https://github.com/jj-vcs/jj",
+      "description": "A Git-compatible VCS that is both simple and powerful",
+      "language": "Rust",
+      "stars": 31986,
+      "forks": 1245,
+      "homepage": "https://jj-vcs.dev",
+      "license": "Apache-2.0",
+      "created_at": "2020-12-18T04:05:27Z",
+      "pushed_at": "2026-10-12T07:04:25Z",
+      "updated_at": "2026-10-12T11:49:18Z",
+      "open_issues": 1258,
+      "summary": "Jujutsu（命令为 jj）是一个用 Rust 编写的 Git 兼容版本控制系统，目标是既简单又强大。它把用户界面和版本控制算法与底层存储解耦，目前以 Git 仓库作为存储层，因此能与现有 Git 工具和平台配合使用，但分支等高层元数据存放在 Git 之外。它借鉴了 Git、Mercurial、Sapling 和 Darcs 的设计，例如 revset 选择提交、无显式暂存区、匿名分支，并把冲突作为一等对象。其特色包括工作副本即提交、操作日志与撤销、自动变基与冲突传播。它还实验性支持并发复制下的安全存储。适合希望用更简洁模型管理代码、又不想脱离 Git 生态的开发者。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:11:40+00:00",
+      "last_seen": "2026-10-12",
+      "seen_count": 1
+    },
+    {
+      "owner": "atuinsh",
+      "name": "atuin",
+      "full_name": "atuinsh/atuin",
+      "url": "https://github.com/atuinsh/atuin",
+      "description": "✨ Making your shell magical",
+      "language": "Rust",
+      "stars": 31979,
+      "forks": 998,
+      "homepage": "https://atuin.sh",
+      "license": "MIT",
+      "created_at": "2020-10-04T23:01:58Z",
+      "pushed_at": "2026-10-12T07:49:37Z",
+      "updated_at": "2026-10-12T11:12:11Z",
+      "open_issues": 421,
+      "summary": "Atuin 用 SQLite 数据库替代传统的 shell 历史记录，并为每条命令保存退出码、执行时长、时间、工作目录、主机名和会话等上下文信息。它解决的是历史记录分散、难以检索和跨设备不同步的问题：通过可选的端到端加密同步，同一份历史可以在不同终端、会话和机器间共享，用户既可使用官方服务器，也可自建服务，或完全关闭同步。核心功能包括将 ctrl-r 和上方向键绑定为全屏搜索界面，支持按当前会话、目录或全局切换过滤模式，用 Alt- 快速跳转，回车执行、Tab 编辑，还能统计最常用命令等。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:11:40+00:00",
+      "last_seen": "2026-10-12",
+      "seen_count": 1
+    },
+    {
       "owner": "ankitects",
       "name": "anki",
       "full_name": "ankitects/anki",
@@ -518,6 +1047,29 @@
       "seen_count": 10
     },
     {
+      "owner": "influxdata",
+      "name": "influxdb",
+      "full_name": "influxdata/influxdb",
+      "url": "https://github.com/influxdata/influxdb",
+      "description": "Scalable datastore for metrics, events, and real-time analytics",
+      "language": "Rust",
+      "stars": 31758,
+      "forks": 3722,
+      "homepage": "https://influxdata.com",
+      "license": "Apache-2.0",
+      "created_at": "2013-09-26T14:31:10Z",
+      "pushed_at": "2026-10-12T11:48:14Z",
+      "updated_at": "2026-10-12T08:08:39Z",
+      "open_issues": 2179,
+      "summary": "InfluxDB 3 Core 是 InfluxData 推出的开源时序数据库，用 Rust 编写，基于 Apache Arrow、DataFusion 和 Parquet 构建，用于采集、处理、转换和存储事件与时序数据。它面向需要实时写入和快速查询响应的场景，例如传感器监控、服务器与网络监控、应用性能监控、金融市场与交易分析以及行为分析，尤其适合支撑仪表盘和交互式界面这类近实时数据监控需求。其特点包括无盘架构并支持对象存储（也可用本地磁盘且无依赖）、Parquet 文件持久化、内置 Python 虚拟机用于插件和触发器，同时兼容 InfluxDB 1.x 与 2.",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:11:40+00:00",
+      "last_seen": "2026-10-12",
+      "seen_count": 1
+    },
+    {
       "owner": "emilk",
       "name": "egui",
       "full_name": "emilk/egui",
@@ -539,6 +1091,29 @@
       "windows": [
         "daily"
       ]
+    },
+    {
+      "owner": "chroma-core",
+      "name": "chroma",
+      "full_name": "chroma-core/chroma",
+      "url": "https://github.com/chroma-core/chroma",
+      "description": "Search infrastructure for AI",
+      "language": "Rust",
+      "stars": 29484,
+      "forks": 2561,
+      "homepage": "https://www.trychroma.com/",
+      "license": "Apache-2.0",
+      "created_at": "2022-10-05T17:58:44Z",
+      "pushed_at": "2026-10-12T05:00:51Z",
+      "updated_at": "2026-10-12T06:49:42Z",
+      "open_issues": 930,
+      "summary": "Chroma 是面向 AI 的开源数据基础设施，用 Rust 编写，为 AI 应用提供搜索能力。它解决的是向量检索、混合检索与全文检索的底层支撑问题，让开发者不必自行搭建和维护复杂的搜索系统。其核心 API 只有四个函数，上手门槛低，官方提供 Google Colab 示例可快速体验。除自托管外，还有托管服务 Chroma Cloud，提供无服务器的向量、混合与全文搜索，可快速创建数据库并试用。典型场景包括为 AI 应用接入语义检索、关键词检索或两者结合的搜索能力，技术栈上同时提供 Python 和 npm 包，方便在不同语言环境中集成。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:11:40+00:00",
+      "last_seen": "2026-10-12",
+      "seen_count": 1
     },
     {
       "owner": "trycua",
@@ -587,6 +1162,75 @@
       "seen_count": 9
     },
     {
+      "owner": "niri-wm",
+      "name": "niri",
+      "full_name": "niri-wm/niri",
+      "url": "https://github.com/niri-wm/niri",
+      "description": "A scrollable-tiling Wayland compositor.",
+      "language": "Rust",
+      "stars": 28361,
+      "forks": 1194,
+      "homepage": "https://niri-wm.github.io/niri/",
+      "license": "GPL-3.0",
+      "created_at": "2023-08-10T10:53:14Z",
+      "pushed_at": "2026-10-12T06:01:58Z",
+      "updated_at": "2026-10-12T11:57:33Z",
+      "open_issues": 447,
+      "summary": "niri 是一款用 Rust 编写的可滚动平铺 Wayland 合成器，它把窗口按列排列在一条向右无限延伸的条带上，新开窗口不会挤压已有窗口，每台显示器拥有独立的窗口条带，窗口不会溢出到相邻屏幕。工作区像 GNOME 那样动态生成并垂直排列，显示器断开时工作区会迁移，重新连接后又能回到原位。它内置概览、截图界面、标签分组、触摸板与鼠标手势、渐变边框、背景模糊、自定义着色器动画和配置热重载，并支持屏幕阅读器。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:11:40+00:00",
+      "last_seen": "2026-10-12",
+      "seen_count": 1
+    },
+    {
+      "owner": "cloudflare",
+      "name": "pingora",
+      "full_name": "cloudflare/pingora",
+      "url": "https://github.com/cloudflare/pingora",
+      "description": "A library for building fast, reliable and evolvable network services.",
+      "language": "Rust",
+      "stars": 27612,
+      "forks": 1768,
+      "homepage": "",
+      "license": "Apache-2.0",
+      "created_at": "2023-05-05T20:03:08Z",
+      "pushed_at": "2026-09-11T22:39:10Z",
+      "updated_at": "2026-10-12T11:48:05Z",
+      "open_issues": 310,
+      "summary": "Pingora 是 Cloudflare 用 Rust 编写的网络服务框架，用于构建快速、可靠且可编程的网络系统。它已在生产环境中长期承载每秒超过 4000 万次互联网请求，主要解决用 C/C++ 编写网络服务时内存安全风险高、性能与可定制性难以兼顾的问题。其核心能力包括异步 Rust 支持、端到端 HTTP 1/2 代理、基于 OpenSSL、BoringSSL、s2n-tls 或实验性 rustls 的 TLS、gRPC 与 WebSocket 代理、优雅重载、可定制的负载均衡与故障转移策略，以及对多种可观测性工具的支持。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:11:40+00:00",
+      "last_seen": "2026-10-12",
+      "seen_count": 1
+    },
+    {
+      "owner": "tokio-rs",
+      "name": "axum",
+      "full_name": "tokio-rs/axum",
+      "url": "https://github.com/tokio-rs/axum",
+      "description": "HTTP routing and request-handling library for Rust that focuses on ergonomics and modularity",
+      "language": "Rust",
+      "stars": 27450,
+      "forks": 1507,
+      "homepage": "",
+      "license": "MIT",
+      "created_at": "2021-05-30T09:22:25Z",
+      "pushed_at": "2026-10-11T11:57:08Z",
+      "updated_at": "2026-10-12T11:50:42Z",
+      "open_issues": 88,
+      "summary": "axum 是面向 Rust 的 HTTP 路由与请求处理库，重点在于易用性和模块化。它通过无宏 API 将请求路由到处理函数，借助提取器以声明式方式解析请求，并提供简单可预测的错误处理模型，让生成响应所需的样板代码尽可能少。与其他框架不同，axum 没有自建中间件系统，而是直接基于 tower::Service，因此能免费获得超时、追踪、压缩、授权等能力，并可与 hyper 或 tonic 编写的应用共享中间件。它构建在 hyper 之上，额外开销很小。该库使用 forbid(unsafe_code) 保证全部为安全 Rust，最低支持 Rust 1.80。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:11:40+00:00",
+      "last_seen": "2026-10-12",
+      "seen_count": 1
+    },
+    {
       "owner": "t8y2",
       "name": "dbx",
       "full_name": "t8y2/dbx",
@@ -609,6 +1253,98 @@
       "added_at": "2026-10-09T11:01:04+00:00",
       "last_seen": "2026-10-10",
       "seen_count": 9
+    },
+    {
+      "owner": "tursodatabase",
+      "name": "turso",
+      "full_name": "tursodatabase/turso",
+      "url": "https://github.com/tursodatabase/turso",
+      "description": "A SQL database in Rust: SQLite-compatible, now also speaking Postgres (experimental). The LLVM of databases.",
+      "language": "Rust",
+      "stars": 24728,
+      "forks": 1434,
+      "homepage": "",
+      "license": "MIT",
+      "created_at": "2023-08-26T09:21:36Z",
+      "pushed_at": "2026-10-12T12:11:16Z",
+      "updated_at": "2026-10-12T09:14:20Z",
+      "open_issues": 1275,
+      "summary": "Turso Database 是一个用 Rust 编写的进程内 SQL 数据库，兼容 SQLite，并已进入生产环境使用。它把 SQL 编译为 VDBE 虚拟机的字节码再执行，这一设计让同一引擎可以承载多种 SQL 方言：SQLite 是主要前端，Postgres 方言与线协议作为实验性前端加入，未来还会扩展。它解决的是在保持 SQLite 兼容的同时，为数据库提供统一、现代且可靠内核的问题。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:11:52+00:00",
+      "last_seen": "2026-10-12",
+      "seen_count": 1
+    },
+    {
+      "owner": "uutils",
+      "name": "coreutils",
+      "full_name": "uutils/coreutils",
+      "url": "https://github.com/uutils/coreutils",
+      "description": "Cross-platform Rust rewrite of the GNU coreutils",
+      "language": "Rust",
+      "stars": 24230,
+      "forks": 2085,
+      "homepage": "https://uutils.org",
+      "license": "MIT",
+      "created_at": "2013-08-02T16:22:56Z",
+      "pushed_at": "2026-10-12T09:46:12Z",
+      "updated_at": "2026-10-12T09:46:17Z",
+      "open_issues": 1174,
+      "summary": "uutils/coreutils 是用 Rust 重写的 GNU coreutils 跨平台实现，目标是在 Linux、macOS、BSD、Windows、WASI 等系统上提供一致的命令行工具集，让脚本能方便地在不同平台间迁移。它力求成为 GNU 工具的替代品，把与 GNU 的行为差异视为缺陷，要求标准输出和错误码完全一致，同时提供更友好的错误提示：在终端下以编译器风格报告解析错误并标出问题参数，在脚本和管道中仍输出 GNU 的原始信息。项目支持 UTF-8 国际化，持续优化性能，并在合适场景下增加扩展功能，例如进度显示。它已随 Ubuntu 25.",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:11:52+00:00",
+      "last_seen": "2026-10-12",
+      "seen_count": 1
+    },
+    {
+      "owner": "slint-ui",
+      "name": "slint",
+      "full_name": "slint-ui/slint",
+      "url": "https://github.com/slint-ui/slint",
+      "description": "Slint is an open-source declarative GUI toolkit to build native user interfaces for Rust, C++, JavaScript, or Python apps.",
+      "language": "Rust",
+      "stars": 24154,
+      "forks": 1031,
+      "homepage": "https://slint.dev",
+      "license": "NOASSERTION",
+      "created_at": "2020-05-04T08:53:03Z",
+      "pushed_at": "2026-10-12T11:36:26Z",
+      "updated_at": "2026-10-12T11:24:10Z",
+      "open_issues": 834,
+      "summary": "Slint 是一个开源的声明式 GUI 工具包，用于为嵌入式系统、桌面和移动平台构建原生用户界面。它通过 .slint 标记语言将界面设计与业务逻辑分离，开发者可用 Rust、C++、JavaScript 或 Python 编写逻辑，设计师则能并行工作。其设计目标包括可扩展、轻量、直观和原生，.slint 文件会被提前编译为机器码，并针对不同语言生成对应代码，运行时提供 femtovg、Skia 或软件渲染后端。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:11:52+00:00",
+      "last_seen": "2026-10-12",
+      "seen_count": 1
+    },
+    {
+      "owner": "eza-community",
+      "name": "eza",
+      "full_name": "eza-community/eza",
+      "url": "https://github.com/eza-community/eza",
+      "description": "A modern alternative to ls",
+      "language": "Rust",
+      "stars": 23535,
+      "forks": 542,
+      "homepage": "https://eza.rocks",
+      "license": "EUPL-1.2",
+      "created_at": "2023-07-28T08:35:55Z",
+      "pushed_at": "2026-08-06T19:53:22Z",
+      "updated_at": "2026-10-12T11:29:34Z",
+      "open_issues": 466,
+      "summary": "eza 是用 Rust 编写的现代文件列表命令行工具，目标是替代 Unix 和 Linux 系统自带的 ls。它在保留 ls 基本用途的同时，通过更合理的默认行为和更丰富的功能改善使用体验。eza 用颜色区分文件类型和元数据，能识别符号链接、扩展属性以及 Git 状态，并且体积小、速度快，只以单个二进制文件分发。相比 exa，它修复了 2021 年引入的网格显示问题，新增超链接支持、挂载点详情、SELinux 上下文输出、Git 仓库状态、人类可读的相对日期、明亮终端配色以及多项安全修复，还提供 theme.yml 配置文件来自定义颜色和图标。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:11:52+00:00",
+      "last_seen": "2026-10-12",
+      "seen_count": 1
     },
     {
       "owner": "AprilNEA",
@@ -634,6 +1370,29 @@
       ]
     },
     {
+      "owner": "vectordotdev",
+      "name": "vector",
+      "full_name": "vectordotdev/vector",
+      "url": "https://github.com/vectordotdev/vector",
+      "description": "A high-performance observability data pipeline.",
+      "language": "Rust",
+      "stars": 22691,
+      "forks": 2320,
+      "homepage": "https://vector.dev",
+      "license": "MPL-2.0",
+      "created_at": "2018-08-27T16:57:34Z",
+      "pushed_at": "2026-10-11T13:02:58Z",
+      "updated_at": "2026-10-12T11:25:49Z",
+      "open_issues": 2497,
+      "summary": "Vector 是一个用 Rust 编写的高性能可观测性数据管道，由 Datadog 社区开源工程团队维护。它解决的核心问题是帮助用户自主掌控日志与指标数据：通过采集、转换和路由，将数据发送到当前或未来可能使用的任意厂商，从而降低可观测性成本、实现数据增强与安全控制，并避免被单一供应商锁定。其设计原则包括可靠性、端到端部署（既可作为代理也可作为聚合器）以及统一处理日志、指标（测试版）和未来支持的追踪数据。典型场景涵盖削减总成本、无痛切换供应商、提升数据质量、整合代理以减轻代理疲劳，以及改善整体可观测性性能与可靠性。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:11:52+00:00",
+      "last_seen": "2026-10-12",
+      "seen_count": 1
+    },
+    {
       "owner": "RustPython",
       "name": "RustPython",
       "full_name": "RustPython/RustPython",
@@ -654,6 +1413,259 @@
       "added_at": "2026-10-09T11:30:46+00:00",
       "last_seen": "2026-10-10",
       "seen_count": 4
+    },
+    {
+      "owner": "gleam-lang",
+      "name": "gleam",
+      "full_name": "gleam-lang/gleam",
+      "url": "https://github.com/gleam-lang/gleam",
+      "description": "⭐️ A friendly language for building type-safe, scalable systems!",
+      "language": "Rust",
+      "stars": 21988,
+      "forks": 1034,
+      "homepage": "https://gleam.run",
+      "license": "Apache-2.0",
+      "created_at": "2016-06-30T20:52:30Z",
+      "pushed_at": "2026-10-12T10:03:25Z",
+      "updated_at": "2026-10-12T09:43:30Z",
+      "open_issues": 231,
+      "summary": "Gleam 是一门友好的编程语言，用于构建类型安全且可扩展的系统。它旨在解决在大型或长期演进的软件系统中，类型安全与开发体验难以兼顾的问题，让开发者能更轻松地编写可靠、易维护的代码。其核心能力在于提供静态类型系统，帮助在编译阶段发现错误，同时保持语言本身的简洁与易用。Gleam 编译器本身使用 Rust 编写，这为其工具链的稳定性和运行效率提供了基础。它适合用于构建需要长期维护、对正确性要求较高的后端服务或分布式系统，并能与现有技术栈配合使用。该项目由社区驱动，没有公司实体拥有，而是依靠赞助者支持，核心团队和项目本身都欢迎开发者通过赞助方式提供帮助。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:11:52+00:00",
+      "last_seen": "2026-10-12",
+      "seen_count": 1
+    },
+    {
+      "owner": "gitbutlerapp",
+      "name": "gitbutler",
+      "full_name": "gitbutlerapp/gitbutler",
+      "url": "https://github.com/gitbutlerapp/gitbutler",
+      "description": "The GitButler version control client, backed by Git, powered by Tauri/Rust/Svelte",
+      "language": "Rust",
+      "stars": 21801,
+      "forks": 1031,
+      "homepage": "https://gitbutler.com",
+      "license": "NOASSERTION",
+      "created_at": "2023-01-31T14:56:22Z",
+      "pushed_at": "2026-10-12T02:08:29Z",
+      "updated_at": "2026-10-12T05:51:29Z",
+      "open_issues": 475,
+      "summary": "GitButler 是一个基于 Git 的版本控制客户端，提供图形界面与命令行两种形态，后端用 Rust 编写，桌面端基于 Tauri，界面使用 Svelte 与 TypeScript。它面向现代开发与 AI 辅助工作流，试图解决原生 Git 在分支管理和提交操作上的繁琐问题。核心能力包括堆叠分支与并行分支，让用户无需频繁切换即可同时推进多条工作线；支持拖拽或命令完成取消提交、改写、修改、移动、拆分与压缩提交，无需再依赖交互式 rebase；提供撤销时间线记录所有操作，可随时回退；冲突被作为一等公民处理，变基总能完成，冲突提交可稍后按任意顺序解决。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:11:14+00:00",
+      "last_seen": "2026-10-12",
+      "seen_count": 1
+    },
+    {
+      "owner": "bee-san",
+      "name": "Ciphey",
+      "full_name": "bee-san/Ciphey",
+      "url": "https://github.com/bee-san/Ciphey",
+      "description": "⚡ Automatically decrypt encryptions without knowing the key or cipher, decode encodings, and crack hashes ⚡",
+      "language": "Rust",
+      "stars": 21670,
+      "forks": 1447,
+      "homepage": "",
+      "license": "MIT",
+      "created_at": "2019-07-16T20:20:39Z",
+      "pushed_at": "2026-10-12T08:56:55Z",
+      "updated_at": "2026-10-12T10:40:01Z",
+      "open_issues": 64,
+      "summary": "Ciphey 是一款用 Rust 编写的自动解密与解码工具，用户只需粘贴一段经过编码或加密的文本，无需提供密钥、算法名称或任何提示，它就能推断出处理方式并返回明文。它支持 Base64、十六进制、凯撒/ROT13、维吉尼亚、摩斯码等二十多种解码器与破解器，可处理多层嵌套，并通过 A* 搜索优先尝试最有希望的解码链，各解码器借助 Rayon 并行运行，结果还会缓存以加速重复输入。除了解码，它还能借助 LemmeKnow 识别密码、令牌、IP、邮箱、钱包地址、CTF flag 等一百多种格式，并支持用正则或词表指定已知片段。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:11:14+00:00",
+      "last_seen": "2026-10-12",
+      "seen_count": 1
+    },
+    {
+      "owner": "huggingface",
+      "name": "candle",
+      "full_name": "huggingface/candle",
+      "url": "https://github.com/huggingface/candle",
+      "description": "Minimalist ML framework for Rust",
+      "language": "Rust",
+      "stars": 21163,
+      "forks": 1799,
+      "homepage": "",
+      "license": "Apache-2.0",
+      "created_at": "2023-06-19T16:06:31Z",
+      "pushed_at": "2026-10-05T12:07:17Z",
+      "updated_at": "2026-10-12T09:52:03Z",
+      "open_issues": 923,
+      "summary": "Candle 是 Hugging Face 推出的 Rust 极简机器学习框架，重点在于性能与易用性，支持 GPU 加速。它主要解决生产环境中部署模型时框架体积过大、依赖 Python 导致性能开销和 GIL 瓶颈的问题，目标是实现无服务器推理和轻量级二进制部署。核心能力包括：语法风格接近 PyTorch，支持模型训练和自定义算子（如 flash-attention v2）；后端覆盖优化 CPU（可选 MKL 或 Accelerate）、CUDA 多卡 NCCL 以及 WASM 浏览器运行；内置大量模型实现，涵盖 LLaMA、Mistral、Mixtral、Gemma、Phi、Qwen、St。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:11:14+00:00",
+      "last_seen": "2026-10-12",
+      "seen_count": 1
+    },
+    {
+      "owner": "nikivdev",
+      "name": "code",
+      "full_name": "nikivdev/code",
+      "url": "https://github.com/nikivdev/code",
+      "description": "",
+      "language": "Rust",
+      "stars": 21106,
+      "forks": 830,
+      "homepage": "https://nikiv.dev",
+      "license": "MIT",
+      "created_at": "2016-03-04T12:26:34Z",
+      "pushed_at": "2026-04-15T17:07:22Z",
+      "updated_at": "2026-10-12T12:09:29Z",
+      "open_issues": 0,
+      "summary": "Flow 是一个用 Rust 编写的命令行工具，目标是让项目从开发到发布的流程更顺畅。它通过统一的 f 命令整合了环境检查、测试和部署等环节，比如 f setup 检查工作区与工具链，f test 运行测试套件，f deploy 构建并安装本地 CLI。安装方面提供 macOS 和 Linux 的发布包，安装脚本会校验 SHA-256 校验和，也支持从源码构建，通过 vendor 脚本拉取固定版本的依赖快照，再用 FLOW_PROFILE=release 生成优化后的发布二进制并安装到 ~/bin。升级机制支持稳定版与 canary 构建之间切换，并可通过环境变量指定仓库或令牌。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:11:14+00:00",
+      "last_seen": "2026-10-12",
+      "seen_count": 1
+    },
+    {
+      "owner": "xi-editor",
+      "name": "xi-editor",
+      "full_name": "xi-editor/xi-editor",
+      "url": "https://github.com/xi-editor/xi-editor",
+      "description": "A modern editor with a backend written in Rust.",
+      "language": "Rust",
+      "stars": 19807,
+      "forks": 706,
+      "homepage": "https://xi-editor.io",
+      "license": "Apache-2.0",
+      "created_at": "2016-04-26T23:03:23Z",
+      "pushed_at": "2024-03-19T00:11:37Z",
+      "updated_at": "2026-10-12T04:29:10Z",
+      "open_issues": 154,
+      "summary": "Xi-editor 是一个用 Rust 编写的现代文本编辑器核心，采用前后端分离架构：后端负责文件缓冲和所有可能耗时的编辑操作，前端负责界面呈现与文本绘制。它旨在解决编辑器性能、可靠性与可定制性问题，目标包括所有编辑操作在 16 毫秒内完成、不崩溃不卡顿不丢工作、支持 Unicode 与原生界面技术，并通过持久化 rope 数据结构和异步操作高效处理大文件。前端与后端、后端与插件之间使用 JSON 消息通信，插件可用任意语言通过管道编写。该仓库仅含核心，需搭配 xi-mac、xi-gtk、xi-term 等前端使用，适合希望基于其核心开发编辑器或插件的开发者。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:11:14+00:00",
+      "last_seen": "2026-10-12",
+      "seen_count": 1
+    },
+    {
+      "owner": "Orange-OpenSource",
+      "name": "hurl",
+      "full_name": "Orange-OpenSource/hurl",
+      "url": "https://github.com/Orange-OpenSource/hurl",
+      "description": "Hurl, run and test HTTP requests with plain text.",
+      "language": "Rust",
+      "stars": 19246,
+      "forks": 748,
+      "homepage": "https://hurl.dev",
+      "license": "Apache-2.0",
+      "created_at": "2020-08-25T14:50:56Z",
+      "pushed_at": "2026-10-12T09:56:47Z",
+      "updated_at": "2026-10-12T09:49:35Z",
+      "open_issues": 199,
+      "summary": "Hurl 是一款用 Rust 编写的命令行工具，通过简洁的纯文本格式定义并执行 HTTP 请求，既能获取数据，也能测试 HTTP 会话。它解决了接口调试与自动化测试中脚本繁琐、可读性差的问题，让请求链、变量捕获和响应断言都能用接近自然语言的方式表达。核心能力包括：链式执行多个请求并捕获值供后续引用，支持 JSONPath、XPath、状态码、响应头、Cookie、证书、哈希及耗时等多类断言，可处理 REST、SOAP、GraphQL 以及 HTML、XML、JSON 等格式。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:11:14+00:00",
+      "last_seen": "2026-10-12",
+      "seen_count": 1
+    },
+    {
+      "owner": "bytecodealliance",
+      "name": "wasmtime",
+      "full_name": "bytecodealliance/wasmtime",
+      "url": "https://github.com/bytecodealliance/wasmtime",
+      "description": "A lightweight WebAssembly runtime that is fast, secure, and standards-compliant",
+      "language": "Rust",
+      "stars": 18712,
+      "forks": 1858,
+      "homepage": "https://wasmtime.dev/",
+      "license": "Apache-2.0",
+      "created_at": "2017-08-29T14:01:55Z",
+      "pushed_at": "2026-10-12T00:46:56Z",
+      "updated_at": "2026-10-12T04:53:40Z",
+      "open_issues": 863,
+      "summary": "Wasmtime 是 Bytecode Alliance 推出的独立 WebAssembly 运行时，用 Rust 编写，目标是快速、安全且符合标准地执行 Wasm 代码。它解决了在不同环境中高效、可控地运行 WebAssembly 模块的问题，既可独立运行，也可嵌入到其他程序中。核心能力包括：基于 Cranelift 优化编译器生成高质量机器码，支持运行时即时编译和提前编译；注重正确性与安全性，经过 RFC 流程、持续模糊测试和正式验证；提供可配置的 CPU 与内存控制；支持 WASI 标准接口；并通过官方测试套件，实现 C API 及后续提案。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:11:14+00:00",
+      "last_seen": "2026-10-12",
+      "seen_count": 1
+    },
+    {
+      "owner": "asciinema",
+      "name": "asciinema",
+      "full_name": "asciinema/asciinema",
+      "url": "https://github.com/asciinema/asciinema",
+      "description": "Terminal session recorder, streamer and player 📹",
+      "language": "Rust",
+      "stars": 17873,
+      "forks": 1044,
+      "homepage": "https://asciinema.org",
+      "license": "GPL-3.0",
+      "created_at": "2011-11-21T21:45:44Z",
+      "pushed_at": "2026-08-14T09:03:57Z",
+      "updated_at": "2026-10-12T11:53:27Z",
+      "open_issues": 12,
+      "summary": "asciinema 是一个用 Rust 编写的命令行终端会话录制、直播与回放工具。与录制屏幕视频的软件不同，它直接运行在终端内部，把会话输出保存为轻量的 asciicast 格式文件，或实时推流给观众。录制内容可在终端中回放，支持调速、循环、限制空闲时间、逐步骤导航和标记暂停，也能嵌入网页或发布到 asciinema 服务器分享。它支持本地与远程直播、边录边播、zstd 压缩、格式转换与拼接、会话中暂停和打标记、元数据采集、配置文件、无头模式，以及从文件、标准输入或 HTTP(S) 地址读取。适用于 GNU/Linux、macOS 和 FreeBSD，常用于演示、教学和 CI 场景。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:11:14+00:00",
+      "last_seen": "2026-10-12",
+      "seen_count": 1
+    },
+    {
+      "owner": "denisidoro",
+      "name": "navi",
+      "full_name": "denisidoro/navi",
+      "url": "https://github.com/denisidoro/navi",
+      "description": "An interactive cheatsheet tool for the command-line",
+      "language": "Rust",
+      "stars": 17759,
+      "forks": 577,
+      "homepage": "",
+      "license": "Apache-2.0",
+      "created_at": "2019-09-20T13:38:20Z",
+      "pushed_at": "2026-09-20T10:07:15Z",
+      "updated_at": "2026-10-12T04:49:09Z",
+      "open_issues": 114,
+      "summary": "navi 是一款用 Rust 编写的命令行交互式速查表工具，帮助用户浏览并执行命令。它解决的是记不住各种 CLI 用法、需要反复复制中间命令输出的问题。用户可以使用自建或下载的速查表，参数建议值会以列表形式动态展示。底层依赖 fzf 或 skim，既能作为普通命令运行，也能作为 shell 部件（类似 Ctrl-R）或 Tmux 部件使用，还支持别名和脚本调用。速查表以 .cheat 文件描述，默认存放在 ~/.local/share/navi/cheats/，可从 git 仓库导入、浏览精选速查表，也能兼容 tldr、cheat.",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:11:14+00:00",
+      "last_seen": "2026-10-12",
+      "seen_count": 1
+    },
+    {
+      "owner": "rui314",
+      "name": "mold",
+      "full_name": "rui314/mold",
+      "url": "https://github.com/rui314/mold",
+      "description": "mold 🦠: A Modern Linker in Rust 🦀",
+      "language": "Rust",
+      "stars": 17625,
+      "forks": 576,
+      "homepage": "",
+      "license": "MIT",
+      "created_at": "2020-09-29T05:12:48Z",
+      "pushed_at": "2026-10-11T06:01:59Z",
+      "updated_at": "2026-10-12T11:48:26Z",
+      "open_issues": 186,
+      "summary": "mold 是一款用 Rust 编写的高性能 Unix 链接器，可作为现有链接器的直接替代品，目标是加快编译构建速度。在编译型语言如 C、C++、Rust 的构建流程中，链接阶段往往耗时明显，mold 通过大规模并行化以及高效的数据结构与算法来缩短这一过程，尤其适合频繁的调试、编辑、重建循环。作者是 LLVM lld 的原开发者，mold 自 2021 年起投入生产使用，现已成为许多大型开源项目的默认链接器，并被多家公司内部采用。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:11:14+00:00",
+      "last_seen": "2026-10-12",
+      "seen_count": 1
     },
     {
       "owner": "longbridge",
