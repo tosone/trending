@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>GitHub Trending · 开源热榜</title>
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
-<link rel="stylesheet" href="assets/trending.css?v=4">
+<link rel="stylesheet" href="assets/trending.css?v=5">
 </head>
 <body class="index">
 
@@ -189,7 +189,7 @@
   function boardHeadHtml(){
     return `
       <header class="board-head">
-        <h1>${esc(curDoc.label)}<span class="cn">Star 榜</span></h1>
+        <h1>${esc(curDoc.label)}</h1>
         <div class="en">GitHub Trending${'<span class="sep">◆</span>'}更新于 ${fmtDate(curDoc.generated_at)}</div>
       </header>
       <div class="board-tools">
