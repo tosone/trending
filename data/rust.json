@@ -6,10 +6,10 @@
     "weekly",
     "monthly"
   ],
-  "generated_at": "2026-10-10T10:42:07+00:00",
+  "generated_at": "2026-10-12T11:59:40+00:00",
   "first_at": "2026-10-09T10:50:39+00:00",
-  "count": 51,
-  "added": 0,
+  "count": 54,
+  "added": 3,
   "repos": [
     {
       "owner": "clash-verge-rev",
@@ -18,21 +18,21 @@
       "url": "https://github.com/clash-verge-rev/clash-verge-rev",
       "description": "A modern GUI client based on Tauri, designed to run in Windows, macOS and Linux for tailored proxy experience",
       "language": "Rust",
-      "stars": 150282,
-      "forks": 10802,
+      "stars": 150793,
+      "forks": 10846,
       "homepage": "https://www.clashverge.dev",
       "license": "GPL-3.0",
       "created_at": "2023-11-21T18:24:03Z",
-      "pushed_at": "2026-10-10T09:27:21Z",
-      "updated_at": "2026-10-10T10:40:21Z",
-      "open_issues": 509,
+      "pushed_at": "2026-10-12T11:05:08Z",
+      "updated_at": "2026-10-12T11:59:32Z",
+      "open_issues": 502,
       "summary": "Clash Verge Rev 是基于 Tauri 2 框架开发的 Clash Meta 图形界面客户端，使用 Rust 编写，是 Clash Verge 项目的延续，支持 Windows、macOS 和 Linux 系统。它内置 Clash.Meta（mihomo）内核，并允许切换 Alpha 版本内核，为用户提供定制化的代理体验。该客户端解决了代理配置与节点管理的可视化需求，主要功能包括配置文件管理与增强（支持 Merge 和 Script 及语法提示）、系统代理与守卫、TUN 虚拟网卡模式、可视化节点和规则编辑，以及 WebDav 配置备份同步。",
       "windows": [
         "monthly"
       ],
       "added_at": "2026-10-09T11:01:04+00:00",
-      "last_seen": "2026-10-10",
-      "seen_count": 9
+      "last_seen": "2026-10-12",
+      "seen_count": 10
     },
     {
       "owner": "farion1231",
@@ -133,21 +133,21 @@
       "url": "https://github.com/tauri-apps/tauri",
       "description": "Build smaller, faster, and more secure desktop and mobile applications with a web frontend.",
       "language": "Rust",
-      "stars": 111700,
-      "forks": 4049,
+      "stars": 111794,
+      "forks": 4062,
       "homepage": "https://tauri.app",
       "license": "Apache-2.0",
       "created_at": "2019-07-13T09:09:37Z",
-      "pushed_at": "2026-10-09T03:27:32Z",
-      "updated_at": "2026-10-09T12:33:01Z",
-      "open_issues": 1490,
+      "pushed_at": "2026-10-12T11:09:55Z",
+      "updated_at": "2026-10-12T11:50:39Z",
+      "open_issues": 1492,
       "summary": "Tauri 是一个用 Rust 构建的框架，用于为各大主流操作系统生成体积小、启动快且更安全的桌面与移动应用。它解决的是传统桌面应用打包笨重、资源占用高的问题：前端部分可自由选用任何能编译为 HTML、JS 和 CSS 的框架来搭建界面，后端则是 Rust 编写的二进制程序，并通过 API 与前端交互。界面渲染依赖 WRY 统一调用系统 WebView，在 macOS 和 iOS 上使用 WKWebView，Windows 上使用 WebView2，Linux 上使用 WebKitGTK，Android 上使用系统 WebView，窗口管理则由 tao 负责。",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-09T12:39:37+00:00",
-      "last_seen": "2026-10-09",
-      "seen_count": 1
+      "last_seen": "2026-10-12",
+      "seen_count": 2
     },
     {
       "owner": "denoland",
@@ -156,21 +156,21 @@
       "url": "https://github.com/denoland/deno",
       "description": "A modern runtime for JavaScript and TypeScript.",
       "language": "Rust",
-      "stars": 108706,
-      "forks": 6402,
+      "stars": 108758,
+      "forks": 6453,
       "homepage": "https://deno.com",
       "license": "MIT",
       "created_at": "2018-05-15T01:34:26Z",
       "pushed_at": "2026-10-07T13:56:06Z",
-      "updated_at": "2026-10-09T12:09:47Z",
-      "open_issues": 1677,
+      "updated_at": "2026-10-12T11:57:08Z",
+      "open_issues": 1696,
       "summary": "Deno 是一个面向 JavaScript、TypeScript 和 WebAssembly 的现代运行时，使用 Rust 构建，底层基于 V8 和 Tokio，默认启用安全机制并注重开发体验。它主要解决传统 JavaScript 运行时在安全性和 TypeScript 支持上的不足，让开发者无需额外配置即可直接运行 TypeScript 代码。其核心特点包括默认安全、内置 TypeScript 支持以及对 WebAssembly 的运行能力。典型使用场景是构建 Web 服务器，例如创建一个 server.ts 文件并运行命令即可在本地启动服务。",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-09T12:39:37+00:00",
-      "last_seen": "2026-10-09",
-      "seen_count": 1
+      "last_seen": "2026-10-12",
+      "seen_count": 2
     },
     {
       "owner": "ruvnet",
@@ -193,6 +193,75 @@
       ],
       "added_at": "2026-10-09T12:39:37+00:00",
       "last_seen": "2026-10-09",
+      "seen_count": 1
+    },
+    {
+      "owner": "oven-sh",
+      "name": "bun",
+      "full_name": "oven-sh/bun",
+      "url": "https://github.com/oven-sh/bun",
+      "description": "Incredibly fast JavaScript runtime, bundler, test runner, and package manager – all in one",
+      "language": "Rust",
+      "stars": 96204,
+      "forks": 5114,
+      "homepage": "https://bun.com",
+      "license": "NOASSERTION",
+      "created_at": "2021-04-14T00:48:17Z",
+      "pushed_at": "2026-10-12T11:44:53Z",
+      "updated_at": "2026-10-12T10:22:25Z",
+      "open_issues": 9610,
+      "summary": "Bun 是一个面向 JavaScript 与 TypeScript 应用的一体化工具包，以单个可执行文件 bun 的形式分发。它的核心是 Bun 运行时，用 Rust 编写、底层基于 JavaScriptCore，定位为 Node.js 的直接替代品，可显著降低启动时间与内存占用。除运行时外，bun 命令行还内置测试运行器、脚本运行器和兼容 Node.js 的包管理器，开发者无需为开发环境准备大量 node_modules，仅需 bun 即可，且内置工具速度明显快于现有方案，在既有 Node.js 项目中几乎无需改动即可使用。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T11:59:40+00:00",
+      "last_seen": "2026-10-12",
+      "seen_count": 1
+    },
+    {
+      "owner": "zed-industries",
+      "name": "zed",
+      "full_name": "zed-industries/zed",
+      "url": "https://github.com/zed-industries/zed",
+      "description": "Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.",
+      "language": "Rust",
+      "stars": 91622,
+      "forks": 11021,
+      "homepage": "https://zed.dev",
+      "license": "NOASSERTION",
+      "created_at": "2021-02-20T03:01:06Z",
+      "pushed_at": "2026-10-12T11:39:30Z",
+      "updated_at": "2026-10-12T11:55:04Z",
+      "open_issues": 3031,
+      "summary": "Zed 是由 Atom 和 Tree-sitter 的创作者打造的高性能多人协作代码编辑器，使用 Rust 编写，目标是让编码速度跟上思维节奏。它主要解决传统编辑器在响应速度与实时协作上的不足，通过 Rust 带来的底层性能优势，提供流畅的编辑体验，并原生支持多人同时编辑同一份代码。目前 Zed 可在 macOS、Linux 和 Windows 上直接下载，或通过本地包管理器安装，Web 平台尚在讨论中。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T11:59:40+00:00",
+      "last_seen": "2026-10-12",
+      "seen_count": 1
+    },
+    {
+      "owner": "astral-sh",
+      "name": "uv",
+      "full_name": "astral-sh/uv",
+      "url": "https://github.com/astral-sh/uv",
+      "description": "An extremely fast Python package and project manager, written in Rust.",
+      "language": "Rust",
+      "stars": 90640,
+      "forks": 3648,
+      "homepage": "https://docs.astral.sh/uv",
+      "license": "Apache-2.0",
+      "created_at": "2023-10-02T20:24:11Z",
+      "pushed_at": "2026-10-12T11:50:16Z",
+      "updated_at": "2026-10-12T11:30:19Z",
+      "open_issues": 3012,
+      "summary": "uv 是一个用 Rust 编写的 Python 包与项目管理器，目标是替代 pip、pip-tools、pipx、poetry、pyenv、twine、virtualenv 等工具。它比 pip 快 10 到 100 倍，提供统一锁文件的项目管理、支持内联依赖元数据的脚本运行、Python 版本安装与切换，以及以 Python 包形式发布的工具运行与安装。它包含兼容 pip 的命令行接口，便于在现有工作流中直接迁移并获得性能提升，同时支持 Cargo 风格的工作区、全局缓存去重、macOS、Linux 和 Windows。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T11:59:40+00:00",
+      "last_seen": "2026-10-12",
       "seen_count": 1
     },
     {

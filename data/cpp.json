@@ -6,7 +6,7 @@
     "weekly",
     "monthly"
   ],
-  "generated_at": "2026-10-10T10:42:17+00:00",
+  "generated_at": "2026-10-12T11:59:37+00:00",
   "first_at": "2026-10-09T11:23:13+00:00",
   "count": 47,
   "added": 0,
@@ -18,21 +18,21 @@
       "url": "https://github.com/tensorflow/tensorflow",
       "description": "An Open Source Machine Learning Framework for Everyone",
       "language": "C++",
-      "stars": 200582,
-      "forks": 78862,
+      "stars": 200884,
+      "forks": 79207,
       "homepage": "https://tensorflow.org",
       "license": "Apache-2.0",
       "created_at": "2015-11-07T01:19:20Z",
-      "pushed_at": "2026-10-10T09:11:15Z",
-      "updated_at": "2026-10-10T09:57:01Z",
-      "open_issues": 3277,
+      "pushed_at": "2026-10-12T11:51:52Z",
+      "updated_at": "2026-10-12T11:54:35Z",
+      "open_issues": 3403,
       "summary": "TensorFlow 是由 Google Brain 团队的研究人员和工程师开发的端到端开源机器学习平台，主要使用 C++ 编写，旨在帮助研究者推进机器学习领域的前沿进展，同时让开发者能够便捷地构建和部署由机器学习驱动的应用。它提供了涵盖工具、库和社区资源的完整生态系统，并支持稳定的 Python 和 C++ API，以及其他语言的非向后兼容保证 API。TensorFlow 可安装于 pip 包，支持 CUDA 加速的 GPU 以及通过设备插件支持 DirectX 和 macOS Metal，也提供仅 CPU 的精简包和用于测试的 nightly 版本。",
       "windows": [
         "monthly"
       ],
       "added_at": "2026-10-09T11:23:13+00:00",
-      "last_seen": "2026-10-10",
-      "seen_count": 6
+      "last_seen": "2026-10-12",
+      "seen_count": 7
     },
     {
       "owner": "ggml-org",
@@ -41,21 +41,21 @@
       "url": "https://github.com/ggml-org/llama.cpp",
       "description": "LLM inference in C/C++",
       "language": "C++",
-      "stars": 130706,
-      "forks": 24256,
+      "stars": 130916,
+      "forks": 24334,
       "homepage": "https://llama.app",
       "license": "MIT",
       "created_at": "2023-03-10T18:58:00Z",
-      "pushed_at": "2026-10-10T09:22:38Z",
-      "updated_at": "2026-10-10T10:21:52Z",
-      "open_issues": 2496,
+      "pushed_at": "2026-10-12T11:44:47Z",
+      "updated_at": "2026-10-12T11:56:32Z",
+      "open_issues": 2527,
       "summary": "llama.cpp 是一个用 C/C++ 实现的 LLM 推理项目，目标是在尽量少的配置下，让大语言模型和多模态模型能在本地或云端多种硬件上高效运行。它基于 ggml 库构建，不依赖外部库，针对 Apple 芯片通过 ARM NEON、Accelerate 和 Metal 优化，对 x86 提供 AVX、AVX2、AVX512 和 AMX 支持，对 RISC-V 也有相应指令集支持。项目支持 1.",
       "windows": [
         "monthly"
       ],
       "added_at": "2026-10-09T11:23:13+00:00",
-      "last_seen": "2026-10-10",
-      "seen_count": 6
+      "last_seen": "2026-10-12",
+      "seen_count": 7
     },
     {
       "owner": "react",
@@ -64,21 +64,21 @@
       "url": "https://github.com/react/react-native",
       "description": "A framework for building native applications using React",
       "language": "C++",
-      "stars": 126608,
-      "forks": 25302,
+      "stars": 126637,
+      "forks": 25310,
       "homepage": "https://reactnative.dev",
       "license": "MIT",
       "created_at": "2015-01-09T18:10:16Z",
-      "pushed_at": "2026-10-09T12:37:46Z",
-      "updated_at": "2026-10-09T12:21:30Z",
-      "open_issues": 1147,
+      "pushed_at": "2026-10-12T11:43:57Z",
+      "updated_at": "2026-10-12T11:47:37Z",
+      "open_issues": 1163,
       "summary": "React Native 是一个用 React 构建原生应用的框架，核心理念是“一次学习，随处编写”，让开发者用 JavaScript 编写代码，再由原生代码渲染，从而为 Android、iOS 等平台创建原生应用。它解决的是跨平台开发中既要复用逻辑又要保留原生体验的问题：其基础组件直接渲染为各平台的原生 UI，手势、文字缩放和无障碍行为都符合对应系统的习惯，同时声明式 UI、组件、Hooks 和 Suspense 可在多端复用。",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-09T12:39:21+00:00",
-      "last_seen": "2026-10-09",
-      "seen_count": 1
+      "last_seen": "2026-10-12",
+      "seen_count": 2
     },
     {
       "owner": "electron",
@@ -87,21 +87,21 @@
       "url": "https://github.com/electron/electron",
       "description": ":electron: Build cross-platform desktop apps with JavaScript, HTML, and CSS",
       "language": "C++",
-      "stars": 123246,
-      "forks": 17589,
+      "stars": 123288,
+      "forks": 17598,
       "homepage": "https://electronjs.org",
       "license": "MIT",
       "created_at": "2013-04-12T01:47:36Z",
-      "pushed_at": "2026-10-09T05:25:31Z",
-      "updated_at": "2026-10-09T12:09:42Z",
-      "open_issues": 730,
+      "pushed_at": "2026-10-12T09:34:40Z",
+      "updated_at": "2026-10-12T11:58:10Z",
+      "open_issues": 745,
       "summary": "Electron 是一个基于 Node.js 和 Chromium 的框架，让开发者用 JavaScript、HTML 和 CSS 编写跨平台桌面应用。它解决了桌面软件开发通常需要分别针对不同操作系统编写原生代码的问题，通过前端技术栈即可构建 macOS、Windows 和 Linux 应用。其核心能力在于将 Chromium 的渲染引擎与 Node.js 运行时结合，使网页技术能够直接调用系统资源。",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-09T12:39:21+00:00",
-      "last_seen": "2026-10-09",
-      "seen_count": 1
+      "last_seen": "2026-10-12",
+      "seen_count": 2
     },
     {
       "owner": "godotengine",
@@ -133,21 +133,21 @@
       "url": "https://github.com/microsoft/terminal",
       "description": "The new Windows Terminal and the original Windows console host, all in the same place!",
       "language": "C++",
-      "stars": 105115,
-      "forks": 9656,
+      "stars": 105144,
+      "forks": 9660,
       "homepage": "",
       "license": "MIT",
       "created_at": "2017-08-11T18:38:22Z",
-      "pushed_at": "2026-10-08T22:12:33Z",
-      "updated_at": "2026-10-09T11:37:47Z",
-      "open_issues": 1772,
+      "pushed_at": "2026-10-09T21:11:18Z",
+      "updated_at": "2026-10-12T10:51:02Z",
+      "open_issues": 1781,
       "summary": "Windows Terminal 是微软推出的现代终端应用，与经典的控制台主机 conhost.exe 共存于同一仓库，主要用 C++ 编写。它解决了传统 Windows 控制台长期受限于向后兼容而难以加入标签页、Unicode 文本和表情符号等问题。核心能力包括多标签、富文本、全球化支持、可配置性以及主题与样式定制，同时注重速度与资源占用。仓库还包含 conhost.exe 源码、两者共享的组件、ColorTool 及控制台 API 示例。共享组件如基于 DirectWrite 的文本渲染引擎、支持 UTF-16 与 UTF-8 的缓冲区、VT 解析器等可被其他终端实现复用。",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-09T12:39:21+00:00",
-      "last_seen": "2026-10-09",
-      "seen_count": 1
+      "last_seen": "2026-10-12",
+      "seen_count": 2
     },
     {
       "owner": "opencv",
@@ -156,21 +156,21 @@
       "url": "https://github.com/opencv/opencv",
       "description": "Open Source Computer Vision Library",
       "language": "C++",
-      "stars": 91125,
-      "forks": 57039,
+      "stars": 91158,
+      "forks": 57044,
       "homepage": "https://opencv.org",
       "license": "Apache-2.0",
       "created_at": "2012-07-19T09:40:17Z",
-      "pushed_at": "2026-10-09T11:10:45Z",
-      "updated_at": "2026-10-09T12:37:18Z",
-      "open_issues": 2784,
+      "pushed_at": "2026-10-12T10:57:17Z",
+      "updated_at": "2026-10-12T11:50:01Z",
+      "open_issues": 2800,
       "summary": "OpenCV 是一个开源的计算机视觉库，主要用 C++ 编写，提供图像处理与计算机视觉相关的通用算法和工具。它解决的是让开发者不必从零实现底层视觉运算的问题，覆盖从图像读取、变换到特征提取、目标检测等常见任务。其核心能力包括跨平台的图像与视频处理、矩阵运算以及多种视觉算法的实现，并配有官方文档、问答论坛和课程资源，便于学习和排查问题。典型使用场景包括机器人视觉、图像分析、视频监控、增强现实以及结合深度学习模型做推理等，常与 C++ 或 Python 等技术栈配合使用。项目还提供扩展功能模块，并鼓励社区提交基于 OpenCV 的项目、参与志愿活动或通过 OpenCV.ai 获取开发服务。",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-09T12:39:21+00:00",
-      "last_seen": "2026-10-09",
-      "seen_count": 1
+      "last_seen": "2026-10-12",
+      "seen_count": 2
     },
     {
       "owner": "bitcoin",
@@ -179,21 +179,21 @@
       "url": "https://github.com/bitcoin/bitcoin",
       "description": "Bitcoin Core integration/staging tree",
       "language": "C++",
-      "stars": 90329,
-      "forks": 39425,
+      "stars": 90351,
+      "forks": 39415,
       "homepage": "https://bitcoincore.org/en/download",
       "license": "MIT",
       "created_at": "2010-12-19T15:16:43Z",
-      "pushed_at": "2026-10-09T04:18:43Z",
-      "updated_at": "2026-10-09T11:58:13Z",
-      "open_issues": 755,
+      "pushed_at": "2026-10-12T04:07:14Z",
+      "updated_at": "2026-10-12T11:47:48Z",
+      "open_issues": 758,
       "summary": "Bitcoin Core 是比特币协议的官方实现，以 C++ 编写，作为集成与暂存代码库维护。它连接比特币点对点网络，下载并完整验证区块与交易，从而让节点独立校验链上数据，无需依赖第三方。除核心验证功能外，它还内置钱包和图形界面，图形界面可按需选择编译。该项目主要面向运行全节点、参与网络共识与交易验证的场景，开发者也可基于其代码进行研究与二次开发。代码通过单元测试、Python 编写的回归与集成测试以及覆盖 Windows、Linux、macOS 的持续集成流程保障质量，并借助 Transifex 管理多语言翻译。主分支持续构建与测试，正式稳定版本从发布分支打标签生成。",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-09T12:39:21+00:00",
-      "last_seen": "2026-10-09",
-      "seen_count": 1
+      "last_seen": "2026-10-12",
+      "seen_count": 2
     },
     {
       "owner": "tesseract-ocr",

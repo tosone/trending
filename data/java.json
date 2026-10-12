@@ -6,7 +6,7 @@
     "weekly",
     "monthly"
   ],
-  "generated_at": "2026-10-10T10:41:55+00:00",
+  "generated_at": "2026-10-12T11:59:44+00:00",
   "first_at": "2026-10-09T11:22:02+00:00",
   "count": 49,
   "added": 0,
@@ -41,21 +41,21 @@
       "url": "https://github.com/iluwatar/java-design-patterns",
       "description": "Design patterns implemented in Java",
       "language": "Java",
-      "stars": 94771,
-      "forks": 27370,
+      "stars": 94784,
+      "forks": 27364,
       "homepage": "https://java-design-patterns.com",
       "license": "NOASSERTION",
       "created_at": "2014-08-09T16:45:18Z",
       "pushed_at": "2026-10-08T12:44:21Z",
-      "updated_at": "2026-10-09T11:34:19Z",
-      "open_issues": 137,
+      "updated_at": "2026-10-12T10:56:07Z",
+      "open_issues": 141,
       "summary": "Java Design Patterns 是一个用 Java 实现经典设计模式的代码示例库，面向希望理解并应用设计模式的开发者。它解决的是设计模式学习过程中概念抽象、缺少可运行参考的问题，通过社区中经验丰富的程序员和架构师编写的源码，展示每种模式的具体实现方式。代码注释详尽，可作为编程教程使用，并基于主流开源 Java 技术构建。项目按创建型、行为型等类别组织，也支持按名称、性能或四人帮等标签检索，便于快速定位。适合在架构设计或系统开发时参考，帮助避免常见隐患、提升代码可读性。项目同时提供电子书，并鼓励开发者通过开发者 wiki 和聊天室参与贡献。",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-09T12:39:32+00:00",
-      "last_seen": "2026-10-09",
-      "seen_count": 1
+      "last_seen": "2026-10-12",
+      "seen_count": 2
     },
     {
       "owner": "macrozheng",
@@ -159,21 +159,21 @@
       "url": "https://github.com/elastic/elasticsearch",
       "description": "Free and Open Source, Distributed, RESTful Search Engine",
       "language": "Java",
-      "stars": 78223,
-      "forks": 26115,
+      "stars": 78230,
+      "forks": 26118,
       "homepage": "https://www.elastic.co/products/elasticsearch",
       "license": "NOASSERTION",
       "created_at": "2010-02-08T13:20:56Z",
-      "pushed_at": "2026-10-10T10:07:19Z",
-      "updated_at": "2026-10-10T09:47:37Z",
-      "open_issues": 6167,
+      "pushed_at": "2026-10-12T11:54:01Z",
+      "updated_at": "2026-10-12T11:35:37Z",
+      "open_issues": 6170,
       "summary": "Elasticsearch 是一个用 Java 编写的分布式搜索与分析引擎，同时也可作为可扩展的数据存储和向量数据库，针对生产级工作负载的速度与相关性进行了优化。它基于 RESTful 接口，支持通过任意 HTTP 客户端或官方语言客户端（如 Python）发送请求，数据以 JSON 文档形式索引，可近实时地搜索海量数据集。其核心能力包括全文检索、向量搜索、日志与指标处理、应用性能监控和安全日志分析，并可与生成式 AI 应用集成，支持检索增强生成等场景。",
       "windows": [
         "monthly"
       ],
       "added_at": "2026-10-09T11:22:02+00:00",
-      "last_seen": "2026-10-10",
-      "seen_count": 6
+      "last_seen": "2026-10-12",
+      "seen_count": 7
     },
     {
       "owner": "MisterBooo",

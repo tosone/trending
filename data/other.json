@@ -6,11 +6,34 @@
     "weekly",
     "monthly"
   ],
-  "generated_at": "2026-10-10T10:42:19+00:00",
+  "generated_at": "2026-10-12T11:59:45+00:00",
   "first_at": "2026-10-09T11:23:29+00:00",
-  "count": 63,
-  "added": 0,
+  "count": 64,
+  "added": 1,
   "repos": [
+    {
+      "owner": "codecrafters-io",
+      "name": "build-your-own-x",
+      "full_name": "codecrafters-io/build-your-own-x",
+      "url": "https://github.com/codecrafters-io/build-your-own-x",
+      "description": "Master programming by recreating your favorite technologies from scratch.",
+      "language": "Markdown",
+      "stars": 552685,
+      "forks": 51872,
+      "homepage": "https://codecrafters.io",
+      "license": "",
+      "created_at": "2018-05-09T12:03:18Z",
+      "pushed_at": "2026-07-14T19:25:58Z",
+      "updated_at": "2026-10-12T11:55:45Z",
+      "open_issues": 675,
+      "summary": "这是一个汇集了从零重建各类技术教程的 Markdown 索引仓库，旨在解决开发者想深入理解某个系统内部原理却不知从何下手的问题。它按技术领域分类，覆盖 3D 渲染器、AI 模型、区块链、数据库、Docker、模拟器、前端框架、游戏、Git、操作系统、编程语言、正则引擎、搜索引擎、Shell、文本编辑器、Web 浏览器与服务器等三十余个方向，每个方向下按编程语言列出具体教程链接，涉及 C、C++、C#、Go、Java、JavaScript、Python、Rust、Haskell、Ruby、TypeScript 等。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T11:59:45+00:00",
+      "last_seen": "2026-10-12",
+      "seen_count": 1
+    },
     {
       "owner": "sindresorhus",
       "name": "awesome",
@@ -18,21 +41,21 @@
       "url": "https://github.com/sindresorhus/awesome",
       "description": "😎 Awesome lists about all kinds of interesting topics [NOTE: Pull requests are temporarily disabled until I have a chance to catch up with the existing ones]",
       "language": "",
-      "stars": 516583,
-      "forks": 37360,
+      "stars": 517920,
+      "forks": 37431,
       "homepage": "",
       "license": "CC0-1.0",
       "created_at": "2014-07-11T13:42:37Z",
       "pushed_at": "2026-09-02T02:10:47Z",
-      "updated_at": "2026-10-09T12:38:42Z",
-      "open_issues": 106,
+      "updated_at": "2026-10-12T11:59:18Z",
+      "open_issues": 105,
       "summary": "sindresorhus/awesome 是一个汇集各类“awesome 列表”的索引仓库，把分散在 GitHub 上的优质资源清单按主题整理在一起，方便开发者按需查找。它解决的问题是资源发现成本高：面对海量仓库和文章，用户往往不知道该从哪里入手，而该仓库通过分类目录提供入口。内容覆盖平台、编程语言、前端与后端开发、计算机科学、大数据、数据库、安全、测试等多个方向，其中平台部分包含 Node.",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-09T12:39:41+00:00",
-      "last_seen": "2026-10-09",
-      "seen_count": 1
+      "last_seen": "2026-10-12",
+      "seen_count": 2
     },
     {
       "owner": "jwasham",
@@ -64,21 +87,21 @@
       "url": "https://github.com/awesome-selfhosted/awesome-selfhosted",
       "description": "A list of Free Software network services and web applications which can be hosted on your own servers",
       "language": "",
-      "stars": 324857,
-      "forks": 15203,
+      "stars": 325747,
+      "forks": 15255,
       "homepage": "https://awesome-selfhosted.net/",
       "license": "NOASSERTION",
       "created_at": "2015-06-01T02:33:17Z",
-      "pushed_at": "2026-10-06T18:10:01Z",
-      "updated_at": "2026-10-09T12:37:08Z",
+      "pushed_at": "2026-10-12T10:22:57Z",
+      "updated_at": "2026-10-12T11:59:37Z",
       "open_issues": 0,
       "summary": "Awesome-Selfhosted 是一份面向自托管场景的软件清单，收录可在自有服务器上部署的自由软件网络服务与 Web 应用，帮助用户摆脱对 SaaSS 提供商的依赖。仓库按功能划分出上百个类别，涵盖分析、备份、博客、日历通讯录、邮件、社交论坛、视频会议、内容管理、数据库、DNS、文档管理、电商、身份认证、订阅阅读、文件同步、游戏、物联网、知识管理、媒体流、监控、笔记、密码管理、照片相册、远程访问、搜索引擎、软件开发、任务管理、VPN、Web 服务器与 Wiki 等，每个条目附有简要说明、技术栈标签和源码链接。除主列表外，还单独维护非自由软件页面、许可证列表与反特性说明。",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-09T12:39:41+00:00",
-      "last_seen": "2026-10-09",
-      "seen_count": 2
+      "last_seen": "2026-10-12",
+      "seen_count": 3
     },
     {
       "owner": "obra",
@@ -110,13 +133,13 @@
       "url": "https://github.com/mattpocock/skills",
       "description": "Skills for Real Engineers. Straight from my .agents directory.",
       "language": "Shell",
-      "stars": 283516,
-      "forks": 23745,
+      "stars": 287188,
+      "forks": 24097,
       "homepage": "https://aihero.dev/skills",
       "license": "MIT",
       "created_at": "2026-02-03T11:15:53Z",
-      "pushed_at": "2026-10-09T10:57:08Z",
-      "updated_at": "2026-10-10T10:41:51Z",
+      "pushed_at": "2026-10-12T08:46:48Z",
+      "updated_at": "2026-10-12T11:58:49Z",
       "open_issues": 163,
       "summary": "面向真实工程而非“氛围编程”的 AI 代理技能集，来自作者日常使用的 .agents 目录，以 Shell 编写。它针对四类常见失败：需求错位、代理输出冗长、代码不可用、代码库退化为泥球。核心做法是用 /grill-me 和 /grill-with-docs 在动手前对齐意图并建立共享语言与 ADR，用 /tdd 的 red-green-refactor 循环和 /diagnosing-bugs 的诊断回路补齐反馈，用 /to-spec、/to-tickets、/implement 等把对话转成规格与工单并驱动实现，用 /improve-codebase-architecture 定期扫描深。",
       "windows": [
@@ -124,8 +147,8 @@
         "weekly"
       ],
       "added_at": "2026-10-09T11:23:29+00:00",
-      "last_seen": "2026-10-10",
-      "seen_count": 6
+      "last_seen": "2026-10-12",
+      "seen_count": 7
     },
     {
       "owner": "996icu",
@@ -134,21 +157,21 @@
       "url": "https://github.com/996icu/996.ICU",
       "description": "Repo for counting stars and contributing. Press F to pay respect to glorious developers.",
       "language": "",
-      "stars": 277105,
-      "forks": 20692,
+      "stars": 277133,
+      "forks": 20709,
       "homepage": "https://996.icu",
       "license": "NOASSERTION",
       "created_at": "2019-03-26T07:31:14Z",
       "pushed_at": "2025-08-22T06:01:29Z",
-      "updated_at": "2026-10-09T12:32:38Z",
+      "updated_at": "2026-10-12T11:35:34Z",
       "open_issues": 16689,
       "summary": "996.ICU 是一个由 IT 从业者发起的 GitHub 仓库，旨在反对国内科技公司盛行的“996”工作制，即每天早 9 点上班、晚 9 点下班、每周工作 6 天。该仓库通过收集和整理实行 996 的公司名单及证据，帮助开发者识别加班严重的雇主，同时提供 955.WLB 等社区项目作为工作生活平衡公司的参考。其核心特点包括发起反 996 倡议、推动相关开源许可条款的讨论、汇集媒体报道与行业声音，并衍生出 996.LIST、996.Leave、996.Petition 等子项目，覆盖公司排名、海外求职、请愿和职业健康等方向。",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-09T12:39:41+00:00",
-      "last_seen": "2026-10-09",
-      "seen_count": 2
+      "last_seen": "2026-10-12",
+      "seen_count": 3
     },
     {
       "owner": "trimstray",
@@ -203,21 +226,21 @@
       "url": "https://github.com/ohmyzsh/ohmyzsh",
       "description": "🙃   A delightful community-driven (with 2,500+ contributors) framework for managing your zsh configuration. Includes 300+ optional plugins (rails, git, macOS, hub, docker, homebrew, node, php, python, etc), 140+ themes to spice up your morning, and an auto-update tool that makes it easy to keep up with the latest updates from the community.",
       "language": "Shell",
-      "stars": 190061,
-      "forks": 28753,
+      "stars": 190101,
+      "forks": 29154,
       "homepage": "https://ohmyz.sh",
       "license": "MIT",
       "created_at": "2009-08-28T18:15:37Z",
-      "pushed_at": "2026-10-09T05:46:48Z",
-      "updated_at": "2026-10-09T12:18:33Z",
-      "open_issues": 306,
+      "pushed_at": "2026-10-12T10:55:11Z",
+      "updated_at": "2026-10-12T10:55:52Z",
+      "open_issues": 290,
       "summary": "Oh My Zsh 是一个由社区驱动的 zsh 配置管理框架，用 Shell 编写，拥有超过 2500 名贡献者。它解决的是 zsh 配置繁琐、插件与主题难以统一管理的问题，让用户无需从零搭建即可获得开箱即用的终端环境。核心能力包括 300 多个可选插件（涵盖 rails、git、macOS、hub、docker、homebrew、node、php、python 等）和 140 多个主题，并内置自动更新工具，方便跟进社区最新改动。典型使用场景是开发者日常在终端中执行命令、管理 Git 仓库或使用 Docker 等工具时，通过启用插件获得别名和增强功能，并通过修改 ~/.zshrc 切换主题。",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-09T12:39:41+00:00",
-      "last_seen": "2026-10-09",
-      "seen_count": 1
+      "last_seen": "2026-10-12",
+      "seen_count": 2
     },
     {
       "owner": "jackfrued",
@@ -272,21 +295,21 @@
       "url": "https://github.com/getify/You-Dont-Know-JS",
       "description": "A book series (2 published editions) on the JS language.",
       "language": "",
-      "stars": 184804,
-      "forks": 33379,
+      "stars": 184820,
+      "forks": 33387,
       "homepage": "https://www.amazon.com/dp/B085XXCJ7X",
       "license": "NOASSERTION",
       "created_at": "2013-11-16T02:37:24Z",
       "pushed_at": "2026-02-15T04:36:44Z",
-      "updated_at": "2026-10-09T10:59:37Z",
+      "updated_at": "2026-10-12T10:54:25Z",
       "open_issues": 2,
       "summary": "《You Don't Know JS Yet》是 Kyle Simpson 编写的 JavaScript 语言深度书系第二版，旨在帮助开发者理解 JS 的核心机制而非停留在表面用法。它解决的是开发者对作用域、闭包、对象、类型等基础概念理解不牢、容易误用的问题。书系按推荐顺序包括《Get Started》《Scope & Closures》以及电子书《The Unbooks》，其中《Objects & Classes》已稳定，《Types & Grammar》为初稿，异步与 ES.Next 两本已取消。内容可在线免费阅读，也通过 Leanpub 和 Amazon 发售。",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-09T12:39:41+00:00",
-      "last_seen": "2026-10-09",
-      "seen_count": 1
+      "last_seen": "2026-10-12",
+      "seen_count": 2
     },
     {
       "owner": "flutter",
@@ -295,21 +318,21 @@
       "url": "https://github.com/flutter/flutter",
       "description": "Flutter makes it easy and fast to build beautiful apps for mobile and beyond",
       "language": "Dart",
-      "stars": 179204,
-      "forks": 33375,
+      "stars": 179875,
+      "forks": 33835,
       "homepage": "https://flutter.dev",
       "license": "BSD-3-Clause",
       "created_at": "2015-03-06T22:54:58Z",
-      "pushed_at": "2026-10-09T08:37:00Z",
-      "updated_at": "2026-10-09T12:33:42Z",
-      "open_issues": 13307,
+      "pushed_at": "2026-10-12T09:06:45Z",
+      "updated_at": "2026-10-12T11:59:32Z",
+      "open_issues": 13343,
       "summary": "Flutter 是 Google 推出的开源 SDK，用单一代码库为移动端、Web 和桌面端构建界面。它解决的是跨平台开发中体验不一致、重复编写代码的问题，让开发者用一套 Dart 代码同时面向 iOS、Android、Web、Windows、macOS 和 Linux，也能作为其他平台的 UI 工具包嵌入。其核心能力包括分层架构与合成机制，可精细控制每个像素并自由叠加动画、视频、文本和控件；内置 Cupertino 与 Material 等完整组件库，支持自定义视觉组件。",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-09T12:39:41+00:00",
-      "last_seen": "2026-10-09",
-      "seen_count": 1
+      "last_seen": "2026-10-12",
+      "seen_count": 2
     },
     {
       "owner": "github",
@@ -341,21 +364,21 @@
       "url": "https://github.com/twbs/bootstrap",
       "description": "The most popular HTML, CSS, and JavaScript framework for developing responsive, mobile first projects on the web.",
       "language": "MDX",
-      "stars": 174791,
-      "forks": 78542,
+      "stars": 174816,
+      "forks": 78558,
       "homepage": "https://getbootstrap.com",
       "license": "MIT",
       "created_at": "2011-07-29T21:19:00Z",
-      "pushed_at": "2026-10-08T18:04:19Z",
-      "updated_at": "2026-10-09T12:34:49Z",
-      "open_issues": 225,
+      "pushed_at": "2026-10-11T16:15:51Z",
+      "updated_at": "2026-10-12T11:35:58Z",
+      "open_issues": 238,
       "summary": "Bootstrap 是一套用于开发现代网页的前端框架，提供 HTML、CSS 和 JavaScript 组件，目标是让响应式、移动优先的网站开发更快更简单。它解决的是跨设备布局适配与常见界面组件重复实现的问题，开发者可直接使用其编译好的 CSS 与 JS 文件，也可通过 npm、Yarn、Bun、Composer 或 NuGet 安装。框架同时提供压缩版本和 source map，打包的 JS 已包含 Floating UI 与 Vanilla Calendar Pro，CSS 借助逻辑属性同时支持从左到右和从右到左布局，只需在 HTML 元素上设置 dir 属性。",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-09T12:39:41+00:00",
-      "last_seen": "2026-10-09",
-      "seen_count": 1
+      "last_seen": "2026-10-12",
+      "seen_count": 2
     },
     {
       "owner": "f",
@@ -387,21 +410,21 @@
       "url": "https://github.com/jlevy/the-art-of-command-line",
       "description": "Master the command line, in one page",
       "language": "",
-      "stars": 162400,
-      "forks": 14827,
+      "stars": 162437,
+      "forks": 14841,
       "homepage": "",
       "license": "",
       "created_at": "2015-05-20T15:11:03Z",
       "pushed_at": "2024-06-25T18:13:44Z",
-      "updated_at": "2026-10-09T12:35:00Z",
+      "updated_at": "2026-10-12T11:52:01Z",
       "open_issues": 256,
       "summary": "《The Art of Command Line》是一份面向 Linux 命令行使用者的单页指南，旨在帮助初学者和有经验的工程师提升命令行操作能力。它覆盖 Bash 基础、日常使用技巧、文件与数据处理、系统调试、实用单行命令，以及 macOS 和 Windows 专属内容，并附有延伸资源。内容强调广度、具体示例与简洁，既包含标准 Unix 命令，也涉及需额外安装的工具，重点针对交互式 Bash，同时适用于其他 shell 和脚本场景。典型用途包括查阅 man 文档、管理进程与网络、使用 grep 正则、配置别名与 shell 环境，以及通过 xargs、ssh、git 等工具提高日常工作效率。",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-09T12:39:41+00:00",
-      "last_seen": "2026-10-09",
-      "seen_count": 1
+      "last_seen": "2026-10-12",
+      "seen_count": 2
     },
     {
       "owner": "ripienaar",
@@ -502,21 +525,21 @@
       "url": "https://github.com/justjavac/free-programming-books-zh_CN",
       "description": ":books: 免费的计算机编程类中文书籍，欢迎投稿",
       "language": "",
-      "stars": 119083,
-      "forks": 28253,
+      "stars": 119149,
+      "forks": 28248,
       "homepage": "http://weibo.com/justjavac",
       "license": "GPL-3.0",
       "created_at": "2013-11-04T01:59:19Z",
       "pushed_at": "2026-07-29T00:39:06Z",
-      "updated_at": "2026-10-09T12:30:37Z",
+      "updated_at": "2026-10-12T11:14:14Z",
       "open_issues": 6,
       "summary": "这是一个由社区维护的免费中文编程书籍索引，汇集了面向中文读者的计算机类开放书籍与教程链接。它解决的核心问题是：中文学习者在寻找高质量、可免费获取的技术资料时，往往分散在博客、GitBook、官方文档翻译等各处，缺乏统一入口。仓库按语言无关类与语言相关类组织，前者涵盖操作系统、AI、分布式系统、编译原理、数据库、Web、算法等主题，后者覆盖 Android、C/C++、Go、Java、JavaScript、Python、Rust、Kotlin 等数十种语言与技术栈，并包含读书笔记、测试相关等补充分类。每个条目直接指向对应书籍或文档，部分失效链接会标注提醒。",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-09T12:39:41+00:00",
-      "last_seen": "2026-10-09",
-      "seen_count": 1
+      "last_seen": "2026-10-12",
+      "seen_count": 2
     },
     {
       "owner": "jaywcjlove",
@@ -525,21 +548,21 @@
       "url": "https://github.com/jaywcjlove/awesome-mac",
       "description": " This project is dedicated to collecting high-quality macOS software and organizing them systematically by different categories for easy search and use.",
       "language": "Swift",
-      "stars": 115679,
-      "forks": 9232,
+      "stars": 115915,
+      "forks": 9304,
       "homepage": "https://git.io/macx",
       "license": "CC0-1.0",
       "created_at": "2016-07-17T15:33:47Z",
-      "pushed_at": "2026-10-09T02:33:27Z",
-      "updated_at": "2026-10-09T12:29:35Z",
-      "open_issues": 1211,
+      "pushed_at": "2026-10-12T05:48:33Z",
+      "updated_at": "2026-10-12T11:32:44Z",
+      "open_issues": 1289,
       "summary": "awesome-mac 是一份面向 macOS 用户的软件精选清单，由社区持续维护，目标是把高质量的应用按类别系统整理，方便查找和使用。它解决的是 Mac 软件信息分散、质量参差、难以快速筛选的问题。清单覆盖读写工具、开发者工具、设计与产品、AI 工具、音视频、下载管理、云存储、输入法、浏览器、安全与代理、实用工具、游戏、远程登录、QuickLook 插件以及第三方应用市场等大类，其中文本编辑器、办公套件、Markdown 工具、终端应用、窗口管理、密码管理等又细分出子类。",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-09T12:39:41+00:00",
-      "last_seen": "2026-10-09",
-      "seen_count": 1
+      "last_seen": "2026-10-12",
+      "seen_count": 2
     },
     {
       "owner": "d3",
@@ -548,21 +571,21 @@
       "url": "https://github.com/d3/d3",
       "description": "Bring data to life with SVG, Canvas and HTML. :bar_chart::chart_with_upwards_trend::tada:",
       "language": "Shell",
-      "stars": 113726,
-      "forks": 22639,
+      "stars": 113734,
+      "forks": 22636,
       "homepage": "https://d3js.org",
       "license": "ISC",
       "created_at": "2010-09-27T17:22:42Z",
       "pushed_at": "2026-05-28T14:43:01Z",
-      "updated_at": "2026-10-09T12:21:20Z",
+      "updated_at": "2026-10-12T10:13:15Z",
       "open_issues": 19,
       "summary": "D3 是一个免费开源的 JavaScript 数据可视化库，全称 Data-Driven Documents，用于将数据转化为动态图形。它基于 SVG、Canvas 和 HTML 等 Web 标准，采用底层操作方式，让开发者能够直接控制图形元素，从而获得较高的灵活性。它主要解决的是在网页中根据数据生成和更新可视化图表的问题，适合需要定制化视觉效果或交互逻辑的场景。D3 常被用作更高级图表库的底层基础，十余年来支撑了大量获奖和具有影响力的可视化作品，并形成了活跃的全球数据实践者社区。其官方资源包括文档、示例、版本发布和获取帮助的渠道。",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-09T12:39:41+00:00",
-      "last_seen": "2026-10-09",
-      "seen_count": 1
+      "last_seen": "2026-10-12",
+      "seen_count": 2
     },
     {
       "owner": "papers-we-love",
@@ -611,6 +634,29 @@
       "seen_count": 1
     },
     {
+      "owner": "ruanyf",
+      "name": "weekly",
+      "full_name": "ruanyf/weekly",
+      "url": "https://github.com/ruanyf/weekly",
+      "description": "科技爱好者周刊，每周五发布",
+      "language": "",
+      "stars": 105937,
+      "forks": 4501,
+      "homepage": "",
+      "license": "",
+      "created_at": "2018-10-13T12:36:07Z",
+      "pushed_at": "2026-10-10T13:37:34Z",
+      "updated_at": "2026-10-12T11:58:31Z",
+      "open_issues": 9485,
+      "summary": "科技爱好者周刊是阮一峰维护的每周五发布的科技内容精选合集，自2018年4月创刊号起已持续更新至四百多期。它解决的是信息过载环境下，读者难以系统筛选高质量科技资讯的问题，每期围绕一个主题展开，涵盖人工智能、软件开发、互联网商业、硬件产品、职业发展等方向，并附有值得分享的文章、软件和资源推荐。周刊还设有《谁在招人》讨论区，提供免费的程序员招聘信息，供发布工作或实习岗位。读者可通过提交 issue 投稿，适合科技从业者、程序员及对技术趋势感兴趣的读者定期阅读，用以追踪行业动态、获取职业机会和拓展技术视野。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-09T12:39:41+00:00",
+      "last_seen": "2026-10-12",
+      "seen_count": 2
+    },
+    {
       "owner": "goldbergyoni",
       "name": "nodebestpractices",
       "full_name": "goldbergyoni/nodebestpractices",
@@ -634,50 +680,27 @@
       "seen_count": 1
     },
     {
-      "owner": "ruanyf",
-      "name": "weekly",
-      "full_name": "ruanyf/weekly",
-      "url": "https://github.com/ruanyf/weekly",
-      "description": "科技爱好者周刊，每周五发布",
-      "language": "",
-      "stars": 105544,
-      "forks": 4488,
-      "homepage": "",
-      "license": "",
-      "created_at": "2018-10-13T12:36:07Z",
-      "pushed_at": "2026-10-08T15:14:30Z",
-      "updated_at": "2026-10-09T12:36:04Z",
-      "open_issues": 9429,
-      "summary": "科技爱好者周刊是阮一峰维护的每周五发布的科技内容精选合集，自2018年4月创刊号起已持续更新至四百多期。它解决的是信息过载环境下，读者难以系统筛选高质量科技资讯的问题，每期围绕一个主题展开，涵盖人工智能、软件开发、互联网商业、硬件产品、职业发展等方向，并附有值得分享的文章、软件和资源推荐。周刊还设有《谁在招人》讨论区，提供免费的程序员招聘信息，供发布工作或实习岗位。读者可通过提交 issue 投稿，适合科技从业者、程序员及对技术趋势感兴趣的读者定期阅读，用以追踪行业动态、获取职业机会和拓展技术视野。",
-      "windows": [
-        "daily"
-      ],
-      "added_at": "2026-10-09T12:39:41+00:00",
-      "last_seen": "2026-10-09",
-      "seen_count": 1
-    },
-    {
       "owner": "neovim",
       "name": "neovim",
       "full_name": "neovim/neovim",
       "url": "https://github.com/neovim/neovim",
       "description": "Vim-fork focused on extensibility and usability",
       "language": "Vim Script",
-      "stars": 102948,
-      "forks": 7167,
+      "stars": 103025,
+      "forks": 7171,
       "homepage": "https://neovim.io",
       "license": "NOASSERTION",
       "created_at": "2014-01-31T13:39:22Z",
-      "pushed_at": "2026-10-09T12:39:32Z",
-      "updated_at": "2026-10-09T12:39:44Z",
-      "open_issues": 1952,
+      "pushed_at": "2026-10-12T11:45:20Z",
+      "updated_at": "2026-10-12T11:45:27Z",
+      "open_issues": 1956,
       "summary": "Neovim 是 Vim 的一个分支，目标是对 Vim 进行大幅重构，以简化维护、鼓励贡献、让多位开发者分担工作，并在不修改核心的前提下支持高级 UI，同时最大化可扩展性。它兼容大多数 Vim 插件，包括 Ruby 和 Python 插件，并提供现代 GUI、多语言 API 访问（涵盖 C/C++、C#、Go、Java、JavaScript、Lua、Python、Rust 等）、可嵌入可脚本化的终端模拟器、异步任务控制、多实例共享数据以及 XDG 基础目录支持。用户可通过各平台预编译包或源码构建安装，从 Vim 迁移可参考内置帮助。",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-09T12:39:41+00:00",
-      "last_seen": "2026-10-09",
-      "seen_count": 1
+      "last_seen": "2026-10-12",
+      "seen_count": 2
     },
     {
       "owner": "Anduin2017",
@@ -686,21 +709,21 @@
       "url": "https://github.com/Anduin2017/HowToCook",
       "description": "Programmer's guide about how to cook at home.",
       "language": "",
-      "stars": 102591,
-      "forks": 11112,
+      "stars": 102730,
+      "forks": 11119,
       "homepage": "https://howtocook.aiursoft.com",
       "license": "Unlicense",
       "created_at": "2020-02-29T10:43:49Z",
-      "pushed_at": "2026-09-23T03:41:08Z",
-      "updated_at": "2026-10-09T12:38:56Z",
-      "open_issues": 467,
+      "pushed_at": "2026-10-11T09:56:35Z",
+      "updated_at": "2026-10-12T10:09:46Z",
+      "open_issues": 469,
       "summary": "程序员做饭指南是一个面向程序员的家庭烹饪开源菜谱库，旨在解决网上菜谱写法随意、材料与步骤描述不清晰的问题。项目用更精准、结构化的方式整理常见菜品的做法，覆盖素菜、荤菜、水产、早餐、主食、汤与粥、饮料、酱料、甜品等多个分类，并包含厨房准备、洗碗、去腥、焯水、炒煎、凉拌、腌蒸煮等基础技能，以及糖色炒制、油温判断等进阶内容。菜谱以模板形式组织，便于社区贡献者复制修改并提交 Pull request。用户可直接访问在线网站浏览可视化菜谱，也可通过 Docker 在本地部署 Web 服务。项目还衍生出图像化菜谱、MCP 工具、菜谱 API 和烹饪 App 等作品，适合想在家按清晰步骤做饭的程序员使用。",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-09T12:39:41+00:00",
-      "last_seen": "2026-10-09",
-      "seen_count": 1
+      "last_seen": "2026-10-12",
+      "seen_count": 2
     },
     {
       "owner": "mtdvio",
@@ -870,21 +893,21 @@
       "url": "https://github.com/TapXWorld/ChinaTextbook",
       "description": "所有小初高、大学PDF教材。",
       "language": "Roff",
-      "stars": 82677,
-      "forks": 18751,
+      "stars": 82771,
+      "forks": 18775,
       "homepage": "",
       "license": "",
       "created_at": "2020-01-05T04:11:06Z",
       "pushed_at": "2025-10-18T13:39:24Z",
-      "updated_at": "2026-10-09T12:38:01Z",
+      "updated_at": "2026-10-12T11:54:53Z",
       "open_issues": 131,
       "summary": "ChinaTextbook 是一个集中收录小学、初中、高中及大学 PDF 教材的资源库，内容以数学为主，涵盖一年级至六年级、初一至初三、高中及高等数学、线性代数、离散数学、概率论等大学课程。项目发起的原因是，尽管国内教育网站已提供免费资源，但普通人获取仍受限，有人借机销售带私人水印的资源，因此作者将资源集中开源，以促进义务教育普及、消除地区间教育贫困，并帮助海外华人子女继续了解国内教育。由于 GitHub 对单文件上传有限制，超过 50MB 的文件被拆分为每个 35MB 的多个文件，仓库提供 mergePDFs-windows-amd64.",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-09T12:39:41+00:00",
-      "last_seen": "2026-10-09",
-      "seen_count": 1
+      "last_seen": "2026-10-12",
+      "seen_count": 2
     },
     {
       "owner": "tonsky",
@@ -893,21 +916,21 @@
       "url": "https://github.com/tonsky/FiraCode",
       "description": "Free monospaced font with programming ligatures",
       "language": "Clojure",
-      "stars": 82091,
-      "forks": 3189,
+      "stars": 82095,
+      "forks": 3190,
       "homepage": "",
       "license": "OFL-1.1",
       "created_at": "2014-11-11T19:32:38Z",
       "pushed_at": "2026-07-28T17:02:16Z",
-      "updated_at": "2026-10-09T11:34:20Z",
+      "updated_at": "2026-10-12T11:53:56Z",
       "open_issues": 428,
       "summary": "Fira Code 是一款免费等宽字体，专为编程场景设计，核心特性是编程连字。程序员日常书写大量由多个字符组成的符号，例如箭头、比较符和逻辑运算符，人脑阅读这些字符序列时不如单一图形直观。Fira Code 通过连字将常见符号组合渲染为更易识别的单一字形，同时提供丰富的箭头样式，并允许自由组合起始、中间和结尾片段来调整长度。除连字外，它还针对标点和高频字母对做了微调，并提供字符变体、样式集以及 zero、onum、calt 等字体特性供选择。该字体对 ASCII 制表符、Powerline 和终端界面支持良好，还是首个提供进度条专用字形的编程字体，Unicode 覆盖也适合数学写作。",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-09T12:39:41+00:00",
-      "last_seen": "2026-10-09",
-      "seen_count": 1
+      "last_seen": "2026-10-12",
+      "seen_count": 2
     },
     {
       "owner": "dair-ai",

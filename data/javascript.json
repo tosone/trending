@@ -6,10 +6,10 @@
     "weekly",
     "monthly"
   ],
-  "generated_at": "2026-10-10T10:41:39+00:00",
+  "generated_at": "2026-10-12T11:59:32+00:00",
   "first_at": "2026-10-09T10:50:04+00:00",
-  "count": 65,
-  "added": 0,
+  "count": 66,
+  "added": 1,
   "repos": [
     {
       "owner": "affaan-m",
@@ -41,20 +41,20 @@
       "url": "https://github.com/react/react",
       "description": "The library for web and native user interfaces.",
       "language": "JavaScript",
-      "stars": 250812,
-      "forks": 51454,
+      "stars": 250902,
+      "forks": 51479,
       "pinned": true,
       "homepage": "https://react.dev",
       "license": "MIT",
       "created_at": "2013-05-24T16:15:54Z",
-      "pushed_at": "2026-10-09T17:09:46Z",
-      "updated_at": "2026-10-10T10:26:26Z",
-      "open_issues": 1430,
+      "pushed_at": "2026-10-12T11:59:31Z",
+      "updated_at": "2026-10-12T11:54:33Z",
+      "open_issues": 1428,
       "summary": "React 是一个用于构建用户界面的 JavaScript 库，主要解决交互式 UI 开发中状态与视图同步的问题。它采用声明式写法，开发者只需为每个状态设计简单视图，数据变化时 React 会高效更新并渲染正确的组件，使代码更可预测、易理解和调试。其核心特点是组件化，通过封装管理自身状态的组件并组合成复杂界面，组件逻辑用 JavaScript 而非模板编写，便于传递数据和将状态与 DOM 分离。React 不假设技术栈，支持渐进式采用，可在现有项目中按需引入，也能借助 Node 在服务端渲染，或通过 React Native 构建移动应用。",
       "windows": [],
       "added_at": "2026-10-09T11:29:43+00:00",
-      "last_seen": "2026-10-10",
-      "seen_count": 5
+      "last_seen": "2026-10-12",
+      "seen_count": 6
     },
     {
       "owner": "trekhleb",
@@ -133,21 +133,21 @@
       "url": "https://github.com/airbnb/javascript",
       "description": "JavaScript Style Guide",
       "language": "JavaScript",
-      "stars": 148096,
-      "forks": 26547,
+      "stars": 148087,
+      "forks": 26540,
       "homepage": "",
       "license": "MIT",
       "created_at": "2012-11-01T23:13:50Z",
       "pushed_at": "2026-04-16T19:24:09Z",
-      "updated_at": "2026-10-09T12:16:07Z",
+      "updated_at": "2026-10-12T11:51:21Z",
       "open_issues": 168,
       "summary": "Airbnb JavaScript Style Guide 是一份面向 JavaScript 开发者的代码风格规范，旨在为团队协作和长期维护提供一套“大体上合理”的编码约定。它解决的是代码风格不统一带来的可读性差、审查成本高和潜在错误等问题，通过明确规则约束写法。核心内容覆盖类型、引用、对象、数组、解构、字符串、函数、箭头函数、类与构造函数、模块、迭代器与生成器、变量、比较运算符、代码块、注释、命名规范等，并针对 ES6+ 新特性给出推荐写法，同时提供对应的 ESLint 规则提示。",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-09T12:39:06+00:00",
-      "last_seen": "2026-10-09",
-      "seen_count": 1
+      "last_seen": "2026-10-12",
+      "seen_count": 2
     },
     {
       "owner": "vercel",
@@ -156,22 +156,22 @@
       "url": "https://github.com/vercel/next.js",
       "description": "The React Framework",
       "language": "JavaScript",
-      "stars": 143101,
-      "forks": 34430,
+      "stars": 143147,
+      "forks": 34680,
       "homepage": "https://nextjs.org",
       "license": "MIT",
       "created_at": "2016-10-05T23:32:51Z",
-      "pushed_at": "2026-10-10T10:20:19Z",
-      "updated_at": "2026-10-10T10:21:22Z",
-      "open_issues": 3613,
+      "pushed_at": "2026-10-12T11:58:59Z",
+      "updated_at": "2026-10-12T11:35:18Z",
+      "open_issues": 3620,
       "summary": "Next.js 是 Vercel 推出的 React 框架，用于构建全栈 Web 应用。它扩展了 React 的最新特性，并集成基于 Rust 的 JavaScript 工具链，以加快构建速度。该框架被全球一些大型公司采用，适合需要服务端渲染、静态生成与全栈能力的项目。开发者可通过官方提供的 Learn Next.js 课程入门，并在 Next.js Showcase 中查看实际案例。完整文档托管在 nextjs.org/docs。社区交流主要在 GitHub Discussions 和 Discord 服务器进行，所有渠道均适用行为准则。",
       "windows": [
         "weekly",
         "monthly"
       ],
       "added_at": "2026-10-09T10:59:47+00:00",
-      "last_seen": "2026-10-10",
-      "seen_count": 10
+      "last_seen": "2026-10-12",
+      "seen_count": 11
     },
     {
       "owner": "Chalarangelo",
@@ -203,21 +203,21 @@
       "url": "https://github.com/nodejs/node",
       "description": "Node.js JavaScript runtime ✨🐢🚀✨",
       "language": "JavaScript",
-      "stars": 122257,
-      "forks": 39185,
+      "stars": 122320,
+      "forks": 39599,
       "homepage": "https://nodejs.org",
       "license": "NOASSERTION",
       "created_at": "2014-11-26T19:57:11Z",
-      "pushed_at": "2026-10-08T21:47:17Z",
-      "updated_at": "2026-10-09T11:33:35Z",
-      "open_issues": 1188,
+      "pushed_at": "2026-10-12T09:13:53Z",
+      "updated_at": "2026-10-12T11:46:39Z",
+      "open_issues": 1193,
       "summary": "Node.js 是一个开源、跨平台的 JavaScript 运行时环境，让 JavaScript 能够脱离浏览器在服务器端运行，解决了 JavaScript 仅限前端使用的局限。它采用开放治理模式，由 OpenJS 基金会提供支持，遵循语义化版本发布。其版本分为 Current、LTS 和 Nightly 三类：Current 每六个月发布一次大版本，允许破坏性变更；偶数大版本会转为 LTS，获得十二个月活跃支持与十八个月维护支持，强调稳定性与安全性；Nightly 则每日构建，供谨慎试用。",
       "windows": [
         "monthly"
       ],
       "added_at": "2026-10-09T10:59:47+00:00",
-      "last_seen": "2026-10-09",
-      "seen_count": 2
+      "last_seen": "2026-10-12",
+      "seen_count": 3
     },
     {
       "owner": "mrdoob",
@@ -243,23 +243,46 @@
       "seen_count": 1
     },
     {
+      "owner": "axios",
+      "name": "axios",
+      "full_name": "axios/axios",
+      "url": "https://github.com/axios/axios",
+      "description": "Promise based HTTP client for the browser and node.js",
+      "language": "JavaScript",
+      "stars": 109360,
+      "forks": 11910,
+      "homepage": "https://axios-http.com",
+      "license": "MIT",
+      "created_at": "2014-08-18T22:30:27Z",
+      "pushed_at": "2026-10-12T10:59:45Z",
+      "updated_at": "2026-10-12T11:53:12Z",
+      "open_issues": 109,
+      "summary": "Axios 是一个基于 Promise 的 HTTP 客户端，可同时运行在浏览器和 Node.js 环境中。它主要解决前后端发起网络请求时的统一调用问题：浏览器端使用 XMLHttpRequest，Node.js 端使用 http 模块，并统一封装为 Promise API，便于用 async/await 处理异步请求。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T11:59:32+00:00",
+      "last_seen": "2026-10-12",
+      "seen_count": 1
+    },
+    {
       "owner": "addyosmani",
       "name": "agent-skills",
       "full_name": "addyosmani/agent-skills",
       "url": "https://github.com/addyosmani/agent-skills",
       "description": "Production-grade engineering skills for AI coding agents.",
       "language": "JavaScript",
-      "stars": 104293,
-      "forks": 10883,
+      "stars": 105307,
+      "forks": 10992,
       "homepage": "https://skills.addy.ie",
       "license": "MIT",
       "created_at": "2026-02-15T20:20:26Z",
       "pushed_at": "2026-10-10T08:28:49Z",
-      "updated_at": "2026-10-10T10:38:23Z",
-      "open_issues": 118,
+      "updated_at": "2026-10-12T11:58:49Z",
+      "open_issues": 131,
       "summary": "Agent Skills 是一套面向 AI 编程代理的生产级工程技能包，由 Addy Osmani 维护，以 JavaScript 编写。它把资深工程师在软件开发各阶段使用的工作流、质量门禁和最佳实践固化成结构化技能，让 AI 代理在定义、规划、构建、验证、审查、发布等环节保持一致行为。仓库包含 25 个技能（24 个生命周期技能加一个元技能）和 9 个斜杠命令，命令会自动激活对应技能，技能也会根据任务类型自动触发，例如设计 API 时启用接口设计技能。每个技能由步骤、检查点和退出标准组成，并附有反合理化表格，用于反驳代理跳过测试等借口，同时要求以测试通过、构建输出等证据作为完成依据。",
-      "last_seen": "2026-10-10",
-      "seen_count": 13,
+      "last_seen": "2026-10-12",
+      "seen_count": 14,
       "added_at": "2026-10-09T10:50:04+00:00",
       "windows": [
         "daily",
@@ -274,21 +297,21 @@
       "url": "https://github.com/react/create-react-app",
       "description": "Set up a modern web app by running one command.",
       "language": "JavaScript",
-      "stars": 103225,
-      "forks": 26879,
+      "stars": 103219,
+      "forks": 26872,
       "homepage": "https://create-react-app.dev/",
       "license": "MIT",
       "created_at": "2016-07-17T14:55:11Z",
       "pushed_at": "2025-02-15T01:32:11Z",
-      "updated_at": "2026-10-09T03:56:40Z",
-      "open_issues": 2409,
+      "updated_at": "2026-10-12T11:09:20Z",
+      "open_issues": 2408,
       "summary": "Create React App 是一个用于快速搭建 React 单页应用脚手架的命令行工具，只需运行一条命令即可生成项目结构并完成依赖安装，无需手动配置 webpack、Babel 或 ESLint。它把构建工具预配置并隐藏起来，让开发者专注于编写代码，同时提供开发服务器、单元测试运行器、生产构建打包以及渐进式 Web 应用支持等能力。项目支持 JavaScript、TypeScript 和 Flow 语法，兼容 macOS、Windows 和 Linux，要求 Node 14.0.0 及以上版本。它适合学习 React、创建新的单页应用或为组件库编写示例。",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-09T12:39:06+00:00",
-      "last_seen": "2026-10-09",
-      "seen_count": 1
+      "last_seen": "2026-10-12",
+      "seen_count": 2
     },
     {
       "owner": "mui",
@@ -297,21 +320,21 @@
       "url": "https://github.com/mui/material-ui",
       "description": "Material UI: Comprehensive React component library that implements Google's Material Design. Free forever.",
       "language": "JavaScript",
-      "stars": 99157,
-      "forks": 32507,
+      "stars": 99193,
+      "forks": 32506,
       "homepage": "https://mui.com/material-ui/",
       "license": "MIT",
       "created_at": "2014-08-18T19:11:54Z",
-      "pushed_at": "2026-10-09T11:58:40Z",
-      "updated_at": "2026-10-09T11:57:54Z",
-      "open_issues": 1461,
+      "pushed_at": "2026-10-12T11:59:06Z",
+      "updated_at": "2026-10-12T11:59:10Z",
+      "open_issues": 1513,
       "summary": "Material UI 是一套面向 React 的综合性组件库，独立实现了 Google 的 Material Design 设计体系。它经过十余年开发和数千名开源贡献者的持续打磨，被众多产品团队用于构建界面，主要解决 React 应用中表单、按钮、导航、布局等常见 UI 元素的统一实现与样式一致性问题。其核心功能由 MUI X 扩展，后者提供面向复杂场景的高级组件。该库以 JavaScript 为主要语言，配套完整文档、示例项目和更新日志，并提供路线图说明后续计划。使用中若遇到与代码库修改无关的用法问题，官方建议前往 Stack Overflow 提问。",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-09T12:39:06+00:00",
-      "last_seen": "2026-10-09",
-      "seen_count": 1
+      "last_seen": "2026-10-12",
+      "seen_count": 2
     },
     {
       "owner": "microsoft",
@@ -343,21 +366,21 @@
       "url": "https://github.com/ryanmcdermott/clean-code-javascript",
       "description": "Clean Code concepts adapted for JavaScript",
       "language": "JavaScript",
-      "stars": 94741,
-      "forks": 12566,
+      "stars": 94730,
+      "forks": 12565,
       "homepage": "",
       "license": "MIT",
       "created_at": "2016-11-25T22:25:41Z",
       "pushed_at": "2024-07-29T07:24:37Z",
-      "updated_at": "2026-10-09T12:06:28Z",
-      "open_issues": 123,
+      "updated_at": "2026-10-12T10:36:31Z",
+      "open_issues": 124,
       "summary": "clean-code-javascript 是一份将 Robert C. Martin 所著《Clean Code》中的软件工程原则适配到 JavaScript 的实践指南，作者是 ryanmcdermott。它并非代码风格规范，而是一套帮助开发者写出可读、可复用、易重构代码的准则。内容涵盖变量命名、函数设计、对象与数据结构、类、SOLID 原则、测试、并发、错误处理、格式化与注释等主题。核心特点在于每条原则都配有“坏”与“好”的代码对照，便于直观理解，例如使用可搜索的变量名、限制函数参数数量、让函数只做一件事、避免副作用和重复代码、用默认参数替代短路求值等。",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-09T12:39:06+00:00",
-      "last_seen": "2026-10-09",
-      "seen_count": 1
+      "last_seen": "2026-10-12",
+      "seen_count": 2
     },
     {
       "owner": "Leonxlnx",
@@ -390,21 +413,21 @@
       "url": "https://github.com/louislam/uptime-kuma",
       "description": "A fancy self-hosted monitoring tool",
       "language": "JavaScript",
-      "stars": 92263,
-      "forks": 8532,
+      "stars": 92351,
+      "forks": 8547,
       "homepage": "https://uptime.kuma.pet",
       "license": "MIT",
       "created_at": "2021-07-03T01:02:42Z",
-      "pushed_at": "2026-10-09T11:12:31Z",
-      "updated_at": "2026-10-09T12:37:41Z",
-      "open_issues": 830,
+      "pushed_at": "2026-10-12T00:07:39Z",
+      "updated_at": "2026-10-12T11:57:22Z",
+      "open_issues": 833,
       "summary": "Uptime Kuma 是一款易于自建、界面美观的监控工具，主要用来解决个人或团队对服务可用性进行持续监测的需求。它支持对 HTTP(s)、TCP、HTTP(s) 关键词、JSON 查询、Websocket、Ping、DNS 记录、Push、Steam 游戏服务器和 Docker 容器等多种目标进行监测，默认每 20 秒检查一次。其响应式界面基于 Vue 3 和 Bootstrap 5 构建，并通过 WebSocket 与单页应用通信，提供多语言、多状态页、状态页域名映射、Ping 图表、证书信息、代理和 2FA 等功能。",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-09T12:39:06+00:00",
-      "last_seen": "2026-10-09",
-      "seen_count": 1
+      "last_seen": "2026-10-12",
+      "seen_count": 2
     },
     {
       "owner": "sveltejs",
@@ -413,21 +436,21 @@
       "url": "https://github.com/sveltejs/svelte",
       "description": "web development for the rest of us",
       "language": "JavaScript",
-      "stars": 88372,
-      "forks": 7534,
+      "stars": 88444,
+      "forks": 7929,
       "homepage": "https://svelte.dev",
       "license": "MIT",
       "created_at": "2016-11-20T18:13:05Z",
-      "pushed_at": "2026-10-09T04:28:45Z",
-      "updated_at": "2026-10-09T12:25:52Z",
-      "open_issues": 1130,
+      "pushed_at": "2026-10-12T08:31:51Z",
+      "updated_at": "2026-10-12T10:59:20Z",
+      "open_issues": 1141,
       "summary": "Svelte 是一种构建 Web 应用的新方式，它本质上是一个编译器，将你编写的声明式组件转换为高效的 JavaScript 代码，从而精准地更新 DOM。它主要解决的是传统前端框架在运行时进行大量虚拟 DOM 比对所带来的开销问题，通过编译阶段完成大部分工作，让最终运行在浏览器中的代码更轻量、直接。其核心能力在于将声明式组件编译为外科手术式更新 DOM 的原生 JavaScript，而非依赖运行时框架。典型使用场景包括构建交互式网页应用和用户界面，技术栈以 JavaScript 为主，适合希望以更简洁的声明式写法获得高效 DOM 更新效果的 Web 开发项目。",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-09T12:39:06+00:00",
-      "last_seen": "2026-10-09",
-      "seen_count": 1
+      "last_seen": "2026-10-12",
+      "seen_count": 2
     },
     {
       "owner": "tt-a1i",
@@ -436,22 +459,22 @@
       "url": "https://github.com/tt-a1i/archify",
       "description": "Turn any idea, plan, or codebase into a beautiful interactive diagram. An agent skill for Claude Code, Codex, and more.",
       "language": "JavaScript",
-      "stars": 81481,
-      "forks": 5502,
+      "stars": 82353,
+      "forks": 5555,
       "homepage": "https://archify.si",
       "license": "MIT",
       "created_at": "2026-04-15T05:27:37Z",
-      "pushed_at": "2026-10-10T10:39:16Z",
-      "updated_at": "2026-10-10T10:41:19Z",
-      "open_issues": 231,
+      "pushed_at": "2026-10-12T04:54:47Z",
+      "updated_at": "2026-10-12T11:58:27Z",
+      "open_issues": 279,
       "summary": "Archify 是一个开源智能体技能，用 JavaScript 编写，可接入 Claude Code、Codex CLI、Cursor、OpenCode 等工具。它把一段想法、计划或代码仓库描述，转换成可交互的 HTML 图表，用于理解、规划和分享。用户只需向 AI 智能体描述需求，例如“添加认证”“高亮缓存未命中路径”，即可在对话中持续迭代；也可以让智能体读取仓库，生成有源码依据的架构图。输出是自包含的 HTML 文件，下载后用浏览器打开即可查看节点详情、追踪路径和来源链接，无需安装 Archify，转发给他人也能保留交互。",
       "windows": [
         "daily",
         "monthly"
       ],
       "added_at": "2026-10-09T10:59:47+00:00",
-      "last_seen": "2026-10-10",
-      "seen_count": 9
+      "last_seen": "2026-10-12",
+      "seen_count": 10
     },
     {
       "owner": "anuraghazra",
@@ -460,21 +483,21 @@
       "url": "https://github.com/anuraghazra/github-readme-stats",
       "description": ":zap: Dynamically generated stats for your github readmes",
       "language": "JavaScript",
-      "stars": 79826,
-      "forks": 38110,
+      "stars": 79831,
+      "forks": 38126,
       "homepage": "https://github-readme-stats.vercel.app",
       "license": "MIT",
       "created_at": "2020-07-09T10:34:22Z",
       "pushed_at": "2026-10-01T01:02:55Z",
-      "updated_at": "2026-10-09T12:32:41Z",
+      "updated_at": "2026-10-12T11:25:47Z",
       "open_issues": 294,
       "summary": "GitHub Readme Stats 是一个用 JavaScript 编写的工具，用于在 GitHub 个人主页 README 中动态生成统计数据卡片。它通过 Vercel 部署的接口，将用户名等参数拼接到图片链接中，即可展示星标数、提交数、拉取请求、议题、贡献等公开仓库统计，还支持隐藏或显示特定项、显示图标、指定年份提交数以及切换内置主题。除统计卡外，它还提供额外置顶仓库、置顶 Gist 和常用语言卡片，并支持透明主题、渐变背景、多语言区域设置和自定义标题等参数。由于公共实例受速率限制和流量影响，官方建议自托管或使用 GitHub Actions 工作流生成卡片。",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-09T12:39:06+00:00",
-      "last_seen": "2026-10-09",
-      "seen_count": 1
+      "last_seen": "2026-10-12",
+      "seen_count": 2
     },
     {
       "owner": "pbakaus",
@@ -507,21 +530,21 @@
       "url": "https://github.com/FortAwesome/Font-Awesome",
       "description": "The iconic SVG, font, and CSS toolkit",
       "language": "JavaScript",
-      "stars": 76957,
-      "forks": 12164,
+      "stars": 76959,
+      "forks": 12161,
       "homepage": "https://fontawesome.com",
       "license": "NOASSERTION",
       "created_at": "2012-02-17T14:19:43Z",
       "pushed_at": "2026-07-15T18:15:53Z",
-      "updated_at": "2026-10-09T09:14:18Z",
+      "updated_at": "2026-10-12T11:47:57Z",
       "open_issues": 318,
       "summary": "Font Awesome 是互联网上广泛使用的图标库与工具包，为设计师、开发者和内容创作者提供 SVG、字体和 CSS 三种形式的图标资源。它解决的是在网页和桌面应用中快速、统一地引入图标的问题，开发者无需自行绘制或维护图标素材。其核心能力在于以多种文件类型分发图标，既可作为 SVG 和 JS 使用，也可打包为网页与桌面字体文件，并配套 CSS 工具类，便于通过类名直接调用。项目使用 JavaScript 编写，遵循语义化版本规范，当前版本为 7，版本 6 进入长期支持阶段，仅修复关键缺陷，版本 3、4、5 已停止维护。",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-09T12:39:06+00:00",
-      "last_seen": "2026-10-09",
-      "seen_count": 1
+      "last_seen": "2026-10-12",
+      "seen_count": 2
     },
     {
       "owner": "typicode",

@@ -6,7 +6,7 @@
     "weekly",
     "monthly"
   ],
-  "generated_at": "2026-10-10T10:42:12+00:00",
+  "generated_at": "2026-10-12T11:59:32+00:00",
   "first_at": "2026-10-09T11:22:49+00:00",
   "count": 44,
   "added": 0,
@@ -18,21 +18,21 @@
       "url": "https://github.com/torvalds/linux",
       "description": "Linux kernel source tree",
       "language": "C",
-      "stars": 251351,
-      "forks": 67197,
+      "stars": 251616,
+      "forks": 67650,
       "homepage": "",
       "license": "NOASSERTION",
       "created_at": "2011-09-04T22:48:12Z",
-      "pushed_at": "2026-10-09T04:46:28Z",
-      "updated_at": "2026-10-09T12:34:32Z",
+      "pushed_at": "2026-10-12T03:05:31Z",
+      "updated_at": "2026-10-12T11:42:21Z",
       "open_issues": 3,
       "summary": "Linux 内核是任何 Linux 操作系统的核心，负责管理硬件、系统资源，并为上层软件提供基础服务。它用 C 语言编写，源码树即本仓库。内核解决的问题是充当硬件与应用程序之间的抽象层，使操作系统能在多种架构上稳定运行。其核心能力涵盖内存管理、调度器、网络栈、文件系统、RCU、锁原语与电源管理等子系统。典型使用场景包括：开发者提交补丁或编写驱动、研究人员分析内核架构、安全人员做加固与漏洞分析、维护者管理稳定版本与回移、系统管理员配置调优与排错、发行版维护者打包内核，以及硬件厂商为新设备编写驱动。",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-09T12:39:16+00:00",
-      "last_seen": "2026-10-09",
-      "seen_count": 1
+      "last_seen": "2026-10-12",
+      "seen_count": 2
     },
     {
       "owner": "Genymobile",
@@ -89,22 +89,22 @@
       "url": "https://github.com/obsproject/obs-studio",
       "description": "OBS Studio - Free and open source software for live streaming and screen recording",
       "language": "C",
-      "stars": 77231,
-      "forks": 10561,
+      "stars": 77368,
+      "forks": 10602,
       "homepage": "https://obsproject.com",
       "license": "GPL-2.0",
       "created_at": "2013-10-01T02:40:31Z",
       "pushed_at": "2026-10-10T01:13:10Z",
-      "updated_at": "2026-10-10T10:38:01Z",
-      "open_issues": 1146,
+      "updated_at": "2026-10-12T11:58:01Z",
+      "open_issues": 1150,
       "summary": "OBS Studio 是一款用 C 语言编写的自由开源软件，专注于视频内容的采集、合成、编码、录制与直播推流。它解决的是将多个视频源实时整合并高效输出到文件或直播平台的需求，常用于游戏直播、屏幕录制、在线教学和会议演示等场景。其核心能力包括多源画面合成、实时编码与推流，并支持通过插件和 API 扩展功能，开发者可参考官方文档进行二次开发。项目提供网站、论坛、Wiki 文档和缺陷追踪等资源，翻译工作通过 Crowdin 协作完成，代码贡献需遵循相应的编码与提交规范。",
       "windows": [
         "daily",
         "weekly"
       ],
       "added_at": "2026-10-09T11:22:49+00:00",
-      "last_seen": "2026-10-10",
-      "seen_count": 7
+      "last_seen": "2026-10-12",
+      "seen_count": 8
     },
     {
       "owner": "redis",
