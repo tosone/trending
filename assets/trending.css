@@ -273,8 +273,11 @@ body.index{
 }
 .rc-foot .stars{color:var(--ink-soft)}
 .rc-foot .stars b{color:var(--accent);font-weight:800}
-.rc-foot .upd{margin-left:auto;white-space:nowrap}
-.rc-foot .upd b{color:var(--ink-soft);font-weight:700}
+.rc-foot .dates{
+  margin-left:auto;display:flex;flex-wrap:wrap;justify-content:flex-end;
+  align-items:center;gap:4px 9px;white-space:nowrap;
+}
+.rc-foot .dates b{color:var(--ink-soft);font-weight:700}
 
 .empty{height:100%;display:flex;flex-direction:column;align-items:center;justify-content:center;
        gap:10px;color:var(--ink-light);font-family:var(--sans);font-size:12.4px;text-align:center;line-height:2}

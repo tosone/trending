@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>GitHub Trending · 开源热榜</title>
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
-<link rel="stylesheet" href="assets/trending.css">
+<link rel="stylesheet" href="assets/trending.css?v=4">
 </head>
 <body class="index">
 
@@ -32,7 +32,7 @@
         </div>
       </div>
 
-      <div class="list-head"><span>仓库 / Star</span><span id="listHint"></span></div>
+      <div class="list-head"><span>仓库 / <span id="listSortNote">收录</span></span><span id="listHint"></span></div>
       <div class="timeline" id="timeline"></div>
     </aside>
 
@@ -41,7 +41,8 @@
         <span id="readerTitle">正在读取…</span>
         <div class="sorts" id="sorts">
           <span class="lbl">排序</span>
-          <button data-sort="stars" aria-pressed="true">Star<span class="arw">↓</span></button>
+          <button data-sort="added" aria-pressed="true">收录时间<span class="arw">↓</span></button>
+          <button data-sort="stars" aria-pressed="false">Star<span class="arw">↓</span></button>
           <button data-sort="updated" aria-pressed="false">最近更新<span class="arw">↓</span></button>
         </div>
       </div>
@@ -66,12 +67,13 @@
     all:'var(--lang-all)'
   };
   const SORTS = {
+    added:  {label:'收录时间', get:r => Date.parse(r.added_at || 0) || 0},
     stars:  {label:'Star',     get:r => r.stars || 0},
     updated:{label:'最近更新', get:r => Date.parse(r.pushed_at || r.updated_at || 0) || 0}
   };
   const cache = {};
   let catalog = null, curLang = null, curDoc = null;
-  let sortKey = 'stars', sortDir = -1;   // -1 降序，1 升序
+  let sortKey = 'added', sortDir = -1;   // 默认按收录时间倒序；-1 降序，1 升序
   let query = '';                        // 搜索词，只匹配仓库名（不含 owner）
 
   const esc = s => String(s == null ? '' : s)
@@ -134,6 +136,9 @@
     return q ? repos.filter(r => (r.full_name || '').toLowerCase().includes(q)) : repos;
   }
   function drawSorts(){
+    const label = SORTS[sortKey].label;
+    const note = $('listSortNote');
+    if (note) note.textContent = label === '收录时间' ? '收录' : label;
     [...$('sorts').querySelectorAll('button')].forEach(btn => {
       const on = btn.dataset.sort === sortKey;
       btn.setAttribute('aria-pressed', String(on));
@@ -157,11 +162,10 @@
   function cardHtml(r, i){
     const color = LANG_COLOR[r.language] || 'var(--ink-faint)';
     const upd = r.pushed_at || r.updated_at;
-    const added = r.added_at ? `收录于 ${fmtDate(r.added_at)}` : '';
     return `
       <article class="repo-card" id="card-${esc(r.full_name).replace(/\//g,'-')}" data-full="${esc(r.full_name)}">
         <div class="rc-head">
-          <span class="rc-rank"${added ? ` title="${esc(added)}"` : ''}>${String(i + 1).padStart(2,'0')}</span>
+          <span class="rc-rank">${String(i + 1).padStart(2,'0')}</span>
           <h3 class="rc-title">
             <a href="${esc(r.url)}" target="_blank" rel="noopener">
               <span class="ow">${esc(r.owner)}</span><span class="sl">/</span>${esc(r.name)}
@@ -172,7 +176,10 @@
         <p class="rc-summary">${esc(r.summary || r.description || 'README 暂缺。')}</p>
         <div class="rc-foot">
           <span class="stars">★ <b>${fmtStars(r.stars)}</b></span>
-          <span class="upd">更新于 <b title="${esc(relDate(upd))}">${fmtDate(upd)}</b></span>
+          <span class="dates">
+            <span>更新于 <b title="${esc(relDate(upd))}">${fmtDate(upd)}</b></span>
+            <span>收录于 <b>${fmtDate(r.added_at)}</b></span>
+          </span>
         </div>
       </article>`;
   }
