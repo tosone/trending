@@ -6,9 +6,9 @@
     "weekly",
     "monthly"
   ],
-  "generated_at": "2026-10-12T12:42:45+00:00",
+  "generated_at": "2026-10-12T14:19:35+00:00",
   "first_at": "2026-10-09T11:22:49+00:00",
-  "count": 198,
+  "count": 215,
   "added": 0,
   "repos": [
     {
@@ -81,6 +81,31 @@
       "added_at": "2026-10-09T11:22:49+00:00",
       "last_seen": "2026-10-10",
       "seen_count": 6
+    },
+    {
+      "owner": "ventoy",
+      "name": "Ventoy",
+      "full_name": "ventoy/Ventoy",
+      "url": "https://github.com/ventoy/Ventoy",
+      "description": "A new bootable USB solution.",
+      "language": "C",
+      "stars": 79922,
+      "forks": 4977,
+      "homepage": "https://www.ventoy.net",
+      "license": "GPL-3.0",
+      "created_at": "2020-03-10T15:19:19Z",
+      "pushed_at": "2026-10-09T05:20:44Z",
+      "updated_at": "2026-10-11T21:01:29Z",
+      "open_issues": 1004,
+      "summary": "Ventoy 是一个用 C 语言编写的开源可启动 U 盘制作工具，主要解决传统方式下每换一个系统镜像就要重新格式化并写入 U 盘的麻烦。它允许用户直接把 ISO、WIM、IMG、VHD(x)、EFI 等镜像文件复制到 U 盘或本地磁盘中，启动时由 Ventoy 提供菜单进行选择，无需反复格式化，也无需解压镜像。",
+      "windows": [
+        "daily",
+        "weekly",
+        "monthly"
+      ],
+      "added_at": "2026-10-10T22:24:33+00:00",
+      "last_seen": "2026-10-11",
+      "seen_count": 2
     },
     {
       "owner": "obsproject",
@@ -406,6 +431,52 @@
       "seen_count": 1
     },
     {
+      "owner": "kingToolbox",
+      "name": "WindTerm",
+      "full_name": "kingToolbox/WindTerm",
+      "url": "https://github.com/kingToolbox/WindTerm",
+      "description": "A professional cross-platform SSH/Sftp/Shell/Telnet/Tmux/Serial terminal.",
+      "language": "C",
+      "stars": 32424,
+      "forks": 2473,
+      "homepage": "https://kingtoolbox.github.io",
+      "license": "",
+      "created_at": "2019-10-09T19:56:09Z",
+      "pushed_at": "2025-03-11T19:12:09Z",
+      "updated_at": "2026-10-10T20:53:51Z",
+      "open_issues": 2455,
+      "summary": "WindTerm 是一款用 C 语言编写的跨平台终端工具，面向 DevOps 场景，集成了 SSH、Sftp、Shell、Telnet、Tmux 和串口等多种协议与功能。它主要解决开发者在远程连接、文件传输和终端操作中需要切换多个工具的问题，将远程会话管理、本地文件管理、Sftp/Scp 传输和终端模拟整合在一个界面中。核心能力包括支持 SSH v2、代理跳转、端口转发、X11 转发、ZModem 传输，以及 Windows、macOS 和 Linux 下的多种 Shell 环境；终端层面兼容 vt100 到 xterm-256-colors，支持 Unicode、真彩色和鼠标协议。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-10T22:24:33+00:00",
+      "last_seen": "2026-10-10",
+      "seen_count": 1
+    },
+    {
+      "owner": "coolsnowwolf",
+      "name": "lede",
+      "full_name": "coolsnowwolf/lede",
+      "url": "https://github.com/coolsnowwolf/lede",
+      "description": "Lean's LEDE source",
+      "language": "C",
+      "stars": 31592,
+      "forks": 19102,
+      "homepage": "",
+      "license": "NOASSERTION",
+      "created_at": "2017-09-06T07:39:03Z",
+      "pushed_at": "2026-10-08T19:19:24Z",
+      "updated_at": "2026-10-10T19:41:13Z",
+      "open_issues": 7,
+      "summary": "coolsnowwolf/lede 是 Lean 维护的 LEDE 源码仓库，主要用 C 语言编写，面向路由器与嵌入式网络设备提供可自行编译的固件代码。它解决的是通用固件难以适配特定硬件与功能需求的问题，让用户能按需定制系统。该仓库为国产龙芯 loongarch64 及飞腾腾锐 D2000 系列架构添加了支持，并包含 R24 全部源代码及 IPK 包，保证可编译成功。典型使用场景是在 Debian 或 Ubuntu LTS 上安装依赖、下载源码、更新 feeds 并选择配置后编译固件，输出位于 bin/targets，默认登录地址为 192.168.1.1，密码 password。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-10T22:24:33+00:00",
+      "last_seen": "2026-10-10",
+      "seen_count": 1
+    },
+    {
       "owner": "openssl",
       "name": "openssl",
       "full_name": "openssl/openssl",
@@ -588,6 +659,29 @@
       ],
       "added_at": "2026-10-12T12:11:45+00:00",
       "last_seen": "2026-10-12",
+      "seen_count": 1
+    },
+    {
+      "owner": "radareorg",
+      "name": "radare2",
+      "full_name": "radareorg/radare2",
+      "url": "https://github.com/radareorg/radare2",
+      "description": "UNIX-like reverse engineering framework and command-line toolset",
+      "language": "C",
+      "stars": 24995,
+      "forks": 3346,
+      "homepage": "https://www.radare.org",
+      "license": "NOASSERTION",
+      "created_at": "2012-07-03T07:42:26Z",
+      "pushed_at": "2026-10-11T17:36:28Z",
+      "updated_at": "2026-10-11T20:27:11Z",
+      "open_issues": 790,
+      "summary": "Radare2 是一套面向 Unix 环境的逆向工程框架与命令行工具集，用 C 语言编写，提供库、工具和插件来简化逆向分析任务。它从早期的十六进制编辑器发展为功能完整的底层命令行工具，可编辑本地文件、查看内核内存、在本地或通过远程 gdb/windbg 调试程序，并支持用内置 JavaScript 解释器或 r2pipe 编写脚本。其架构与文件格式支持广泛，覆盖 x86、ARM、MIPS、RISC-V、WebAssembly 等众多指令集，以及 ELF、PE、Mach-O、DEX、WASM 等格式，还能在用户态挂载 NTFS、EXT、APFS 等文件系统。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-11T22:25:13+00:00",
+      "last_seen": "2026-10-11",
       "seen_count": 1
     },
     {
@@ -914,6 +1008,52 @@
       "seen_count": 1
     },
     {
+      "owner": "reactos",
+      "name": "reactos",
+      "full_name": "reactos/reactos",
+      "url": "https://github.com/reactos/reactos",
+      "description": "A free Windows-compatible Operating System",
+      "language": "C",
+      "stars": 18180,
+      "forks": 2239,
+      "homepage": "https://reactos.org/",
+      "license": "GPL-2.0",
+      "created_at": "2017-10-03T08:04:52Z",
+      "pushed_at": "2026-10-11T21:15:37Z",
+      "updated_at": "2026-10-11T21:15:42Z",
+      "open_issues": 185,
+      "summary": "ReactOS 是一个用 C 语言编写的自由操作系统，目标是兼容为微软 Windows NT 系列（NT4、2000、XP、2003、Vista、7）编写的应用程序和驱动。它并非基于 Linux 的兼容层，而是从架构上复现 Windows 行为，其用户态部分大量借鉴 WINE，两者团队曾有密切合作。当前项目聚焦于 Windows Server 2003 兼容性，同时关注 Vista 及后续版本。它面向希望获得行为与 Windows 一致、可替代 Windows 的用户，而非与 Linux 竞争。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-10T22:24:33+00:00",
+      "last_seen": "2026-10-11",
+      "seen_count": 9
+    },
+    {
+      "owner": "semgrep",
+      "name": "semgrep",
+      "full_name": "semgrep/semgrep",
+      "url": "https://github.com/semgrep/semgrep",
+      "description": "Lightweight static analysis for many languages. Find bug variants with patterns that look like source code.",
+      "language": "C",
+      "stars": 16976,
+      "forks": 1099,
+      "homepage": "https://semgrep.dev",
+      "license": "LGPL-2.1",
+      "created_at": "2019-12-13T09:29:54Z",
+      "pushed_at": "2026-10-09T15:42:18Z",
+      "updated_at": "2026-10-11T21:17:08Z",
+      "open_issues": 948,
+      "summary": "Semgrep 是一款快速、开源的静态分析工具，用于搜索代码、发现缺陷并落实安全规范与编码标准。它支持 30 多种语言，可在 IDE、提交前检查以及 CI/CD 流程中运行。其核心思路是“语义化 grep”：普通 grep 只匹配字面字符串，而 Semgrep 能理解代码结构，例如搜索 2 时可匹配 x = 1; y = x + 1。规则写法与日常代码相似，无需操作抽象语法树、编写复杂正则或学习专用 DSL。它默认在本地分析代码，不上传源码。典型用途包括代码扫描、漏洞变体查找和安全护栏。",
+      "windows": [
+        "monthly"
+      ],
+      "added_at": "2026-10-10T22:24:33+00:00",
+      "last_seen": "2026-10-11",
+      "seen_count": 2
+    },
+    {
       "owner": "systemd",
       "name": "systemd",
       "full_name": "systemd/systemd",
@@ -1003,6 +1143,53 @@
       ],
       "added_at": "2026-10-12T12:15:02+00:00",
       "last_seen": "2026-10-12",
+      "seen_count": 1
+    },
+    {
+      "owner": "duixcom",
+      "name": "Duix-Avatar",
+      "full_name": "duixcom/Duix-Avatar",
+      "url": "https://github.com/duixcom/Duix-Avatar",
+      "description": "🚀 Truly open-source AI avatar(digital human) toolkit for offline video generation and digital human cloning.",
+      "language": "C",
+      "stars": 15850,
+      "forks": 2699,
+      "homepage": "https://www.duix.com/",
+      "license": "NOASSERTION",
+      "created_at": "2024-12-24T03:00:26Z",
+      "pushed_at": "2026-04-21T07:06:36Z",
+      "updated_at": "2026-10-11T21:26:13Z",
+      "open_issues": 423,
+      "summary": "Duix.Avatar 是 Duix.com 推出的离线 AI 数字人工具包，用 C 语言开发，支持在本地完成视频合成与数字人克隆。它面向希望低成本制作数字人视频的用户，通过 AI 算法克隆外貌与声音，再以文本或语音驱动虚拟形象生成视频，全程无需联网，数据留在本地。核心能力包括高精度面部与声音克隆、文本转语音驱动、音画同步合成，并支持英日韩中法德阿拉伯和西班牙八种语言脚本。技术上依赖 Docker 部署，提供 Windows 和 Ubuntu 22.04 两种安装方式，需 NVIDIA 显卡和较大磁盘空间，服务端包含语音识别、语音合成和视频生成等镜像，客户端提供安装包。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-11T22:25:13+00:00",
+      "last_seen": "2026-10-11",
+      "seen_count": 2
+    },
+    {
+      "owner": "acidanthera",
+      "name": "OpenCorePkg",
+      "full_name": "acidanthera/OpenCorePkg",
+      "url": "https://github.com/acidanthera/OpenCorePkg",
+      "description": "OpenCore bootloader",
+      "language": "C",
+      "stars": 15523,
+      "forks": 2308,
+      "homepage": "",
+      "license": "BSD-3-Clause",
+      "created_at": "2019-04-03T19:14:29Z",
+      "pushed_at": "2026-10-10T21:00:31Z",
+      "updated_at": "2026-10-11T18:09:14Z",
+      "open_issues": 15,
+      "summary": "OpenCorePkg 是 Acidanthera 团队维护的 OpenCore 引导加载程序及其开发 SDK，主要用 C 语言编写。它面向需要为 Apple 特定 UEFI 驱动提供补充功能的场景，解决在非苹果硬件或黑苹果环境中引导、驱动注入与系统补丁等问题。其核心能力包括 Apple 磁盘映像加载、键盘输入聚合、PE 映像签名验证与安全启动补充代码、音频管理与屏幕阅读支持、ACPI 和 SMBIOS 操作、CPU 信息收集、SHA-256 与 RSA 等密码学原语、zlib 与 lzvn 等解压原语、Plist 配置解析、PNG 图像处理、文本与图形输出，以及 XNU 内核驱动注入和补丁。",
+      "windows": [
+        "daily",
+        "weekly"
+      ],
+      "added_at": "2026-10-11T22:25:13+00:00",
+      "last_seen": "2026-10-11",
       "seen_count": 1
     },
     {
@@ -1120,6 +1307,29 @@
       "added_at": "2026-10-12T12:14:46+00:00",
       "last_seen": "2026-10-12",
       "seen_count": 1
+    },
+    {
+      "owner": "FreeRDP",
+      "name": "FreeRDP",
+      "full_name": "FreeRDP/FreeRDP",
+      "url": "https://github.com/FreeRDP/FreeRDP",
+      "description": "FreeRDP is a free remote desktop protocol library and clients",
+      "language": "C",
+      "stars": 13812,
+      "forks": 15529,
+      "homepage": "http://www.freerdp.com/",
+      "license": "Apache-2.0",
+      "created_at": "2011-06-30T19:14:15Z",
+      "pushed_at": "2026-10-09T19:39:53Z",
+      "updated_at": "2026-10-11T16:00:06Z",
+      "open_issues": 195,
+      "summary": "FreeRDP 是远程桌面协议（RDP）的一个自由实现，以 C 语言编写，同时提供协议库和客户端程序。它解决的是跨平台访问 Windows 远程桌面服务的问题，让用户不必依赖特定厂商的客户端，就能在不同操作系统上连接和使用远程桌面环境。其核心能力在于完整实现 RDP 协议，并对外提供可供二次开发的库接口，开发者可以基于它构建自己的远程桌面应用。项目附带多个客户端，支持常见的远程桌面连接场景，例如从 Linux 或 macOS 访问 Windows 主机。",
+      "windows": [
+        "monthly"
+      ],
+      "added_at": "2026-10-10T22:24:33+00:00",
+      "last_seen": "2026-10-11",
+      "seen_count": 2
     },
     {
       "owner": "cesanta",
@@ -2666,6 +2876,29 @@
       "seen_count": 1
     },
     {
+      "owner": "FreeRTOS",
+      "name": "FreeRTOS-Kernel",
+      "full_name": "FreeRTOS/FreeRTOS-Kernel",
+      "url": "https://github.com/FreeRTOS/FreeRTOS-Kernel",
+      "description": "FreeRTOS kernel files only, submoduled into https://github.com/FreeRTOS/FreeRTOS and various other repos.",
+      "language": "C",
+      "stars": 4550,
+      "forks": 1629,
+      "homepage": "https://www.FreeRTOS.org",
+      "license": "MIT",
+      "created_at": "2019-09-09T16:28:01Z",
+      "pushed_at": "2026-08-26T17:09:47Z",
+      "updated_at": "2026-10-10T19:43:05Z",
+      "open_issues": 99,
+      "summary": "FreeRTOS-Kernel 是 FreeRTOS 实时操作系统的内核源码与移植文件仓库，使用 C 语言编写，仅包含内核本身，并以子模块形式被 FreeRTOS/FreeRTOS 等仓库引用。它解决的是在资源受限的微控制器上运行实时任务调度的问题，核心代码由 list.c、queue.c 和 tasks.c 三个文件构成，另含可选的协程实现 croutine.c，以及针对不同微控制器和编译器的移植层与内核头文件。该仓库提供 CMake 的 FetchContent 与 git submodule 两种集成方式，并附带示例 FreeRTOSConfig.h 便于新项目起步。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-10T22:24:33+00:00",
+      "last_seen": "2026-10-10",
+      "seen_count": 1
+    },
+    {
       "owner": "antirez",
       "name": "linenoise",
       "full_name": "antirez/linenoise",
@@ -2917,6 +3150,29 @@
       ],
       "added_at": "2026-10-12T12:40:52+00:00",
       "last_seen": "2026-10-12",
+      "seen_count": 1
+    },
+    {
+      "owner": "vedderb",
+      "name": "bldc",
+      "full_name": "vedderb/bldc",
+      "url": "https://github.com/vedderb/bldc",
+      "description": "The VESC motor control firmware",
+      "language": "C",
+      "stars": 3499,
+      "forks": 1972,
+      "homepage": "",
+      "license": "",
+      "created_at": "2014-01-09T14:18:46Z",
+      "pushed_at": "2026-10-02T11:25:10Z",
+      "updated_at": "2026-10-10T21:40:10Z",
+      "open_issues": 263,
+      "summary": "VESC 固件是面向直流有刷、无刷直流（BLDC）及磁场定向控制（FOC）电机控制器的开源固件源码，使用 C 语言编写，旨在为多种硬件板卡提供统一的电机控制方案。它支持几乎所有 VESC 硬件变体，用户可通过 make 命令查看目标设备列表，并在 conf_general.h 中调整编译选项。开发环境支持 Ubuntu、macOS 和 Windows，依赖 git、wget、make 等工具，也可通过 Nix 管理依赖并构建通用固件包。固件可借助 STLink SWD 调试器烧录，或经 VESC Tool 通过 USB 上传 .bin 文件，上传过程中需注意避免断电以防设备变砖。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-10T22:24:33+00:00",
+      "last_seen": "2026-10-10",
       "seen_count": 1
     },
     {
@@ -3263,6 +3519,29 @@
       "added_at": "2026-10-12T12:40:52+00:00",
       "last_seen": "2026-10-12",
       "seen_count": 1
+    },
+    {
+      "owner": "FWGS",
+      "name": "xash3d-fwgs",
+      "full_name": "FWGS/xash3d-fwgs",
+      "url": "https://github.com/FWGS/xash3d-fwgs",
+      "description": "Xash3D FWGS engine",
+      "language": "C",
+      "stars": 2838,
+      "forks": 511,
+      "homepage": "",
+      "license": "",
+      "created_at": "2018-04-02T21:33:02Z",
+      "pushed_at": "2026-10-11T21:48:41Z",
+      "updated_at": "2026-10-11T21:34:07Z",
+      "open_issues": 433,
+      "summary": "Xash3D FWGS 是一个用 C 语言编写的游戏引擎，基于 Unkle Mike 原版 Xash3D 深度改造，目标是兼容并扩展 Half-Life 引擎，同时为游戏开发者提供熟悉的工作流。它解决了原引擎在现代平台和编译器上的适配问题，支持 Windows、Linux、BSD、Android 等系统，覆盖 x86 与 ARM 架构。核心能力包括支持 Steam Half-Life（HLSDK 2.5）、多主服务器与 IPv6 的多人联机、无头专用服务器、语音聊天，以及 OpenGL、GLESv1/v2 和软件渲染等多种渲染后端。它还提供 .",
+      "windows": [
+        "weekly"
+      ],
+      "added_at": "2026-10-11T22:25:13+00:00",
+      "last_seen": "2026-10-11",
+      "seen_count": 6
     },
     {
       "owner": "EZLippi",
@@ -4490,6 +4769,29 @@
       "seen_count": 1
     },
     {
+      "owner": "tarwin",
+      "name": "tinyjsapp",
+      "full_name": "tarwin/tinyjsapp",
+      "url": "https://github.com/tarwin/tinyjsapp",
+      "description": "Build native apps in JS. Backend, frontend. ~5Mb.",
+      "language": "C",
+      "stars": 897,
+      "forks": 28,
+      "homepage": "",
+      "license": "MIT",
+      "created_at": "2026-07-12T18:25:30Z",
+      "pushed_at": "2026-10-08T22:54:24Z",
+      "updated_at": "2026-10-11T21:54:32Z",
+      "open_issues": 10,
+      "summary": "tinyjs 用 JavaScript 构建原生桌面应用，后端基于 txiki.js，前端由系统 WebKit 渲染，打包后约 6 MB，只有两个实际文件，不依赖 Electron、Node 或内置 Chromium。它省去了 HTTP 服务器和端口，页面与后端通过私有临时目录中的 Unix 域套接字通信。后端是普通 JavaScript，可访问文件、套接字、进程和 FFI；前端是普通 HTML/CSS/JS，支持多文件与 WebGPU。它提供原生菜单、对话框、托盘、通知、拖放真实文件路径和窗口控制，开发时支持热重载，构建产出已签名的 .app 并支持自动更新。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-11T22:25:13+00:00",
+      "last_seen": "2026-10-11",
+      "seen_count": 1
+    },
+    {
       "owner": "etaHEN",
       "name": "etaHEN",
       "full_name": "etaHEN/etaHEN",
@@ -4537,6 +4839,29 @@
       "seen_count": 5
     },
     {
+      "owner": "SlickAmogus",
+      "name": "silent-hill-decomp",
+      "full_name": "SlickAmogus/silent-hill-decomp",
+      "url": "https://github.com/SlickAmogus/silent-hill-decomp",
+      "description": "Multiplatform and Feature-rich Port based on PSX decompilation of Silent Hill 1 made with Claude and Psycross. Still in beta and is in active development.",
+      "language": "C",
+      "stars": 644,
+      "forks": 44,
+      "homepage": "https://sh1pc.com",
+      "license": "GPL-3.0",
+      "created_at": "2026-03-06T02:58:47Z",
+      "pushed_at": "2026-10-10T12:06:17Z",
+      "updated_at": "2026-10-10T21:03:12Z",
+      "open_issues": 21,
+      "summary": "silent-hill-decomp 是基于《寂静岭1》PSX 反编译代码构建的原生 PC 移植项目，用 C 语言编写，通过 PsyCross 兼容层实现硬件抽象，编译为真正的 Windows/Linux 可执行文件，而非模拟器或静态重编译。它让玩家无需原版主机即可运行游戏，同时保持原版逻辑、固定镜头与操作手感。项目提供可选增强：任意分辨率、宽屏、高帧率、PGXP 透视校正、多种手电筒与阴影模式、第三人称与第一人称等替代镜头、5.1/7.1 环绕声、鼠标菜单、快速存读档、内置控制台与作弊菜单、Mod 管理器及角色模型替换，并支持多区域光盘与粉丝翻译。",
+      "windows": [
+        "monthly"
+      ],
+      "added_at": "2026-10-10T22:24:33+00:00",
+      "last_seen": "2026-10-10",
+      "seen_count": 20
+    },
+    {
       "owner": "FoloToy",
       "name": "ai-passport",
       "full_name": "FoloToy/ai-passport",
@@ -4560,6 +4885,29 @@
       "seen_count": 5
     },
     {
+      "owner": "lyssadev",
+      "name": "Spotilol",
+      "full_name": "lyssadev/Spotilol",
+      "url": "https://github.com/lyssadev/Spotilol",
+      "description": "A android app that wraps Spotify's web player with built-in adblocker",
+      "language": "C",
+      "stars": 530,
+      "forks": 25,
+      "homepage": "https://spotilol.vercel.app",
+      "license": "",
+      "created_at": "2026-07-13T17:30:30Z",
+      "pushed_at": "2026-10-10T22:04:59Z",
+      "updated_at": "2026-10-11T18:14:10Z",
+      "open_issues": 6,
+      "summary": "Spotilol 是一款 Android 应用，把 Spotify 网页播放器封装进 WebView，并内置广告拦截，无需 root 或第三方修改版即可用 Spotify 账号正常收听。它由 lyssadev 将 deviato 的 Spotifuck 从 smali 移植为 Kotlin，主要解决网页播放器在移动端体验差、广告干扰多的问题。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-11T22:25:13+00:00",
+      "last_seen": "2026-10-11",
+      "seen_count": 1
+    },
+    {
       "owner": "itsPLK",
       "name": "ps5-payload-manager",
       "full_name": "itsPLK/ps5-payload-manager",
@@ -4581,6 +4929,52 @@
       "added_at": "2026-10-09T11:22:49+00:00",
       "last_seen": "2026-10-10",
       "seen_count": 5
+    },
+    {
+      "owner": "sp00nznet",
+      "name": "ps3recomp",
+      "full_name": "sp00nznet/ps3recomp",
+      "url": "https://github.com/sp00nznet/ps3recomp",
+      "description": "Static recompilation runtime libraries for PlayStation 3 titles. ",
+      "language": "C",
+      "stars": 382,
+      "forks": 41,
+      "homepage": "",
+      "license": "MIT",
+      "created_at": "2026-03-11T05:07:12Z",
+      "pushed_at": "2026-10-07T21:36:34Z",
+      "updated_at": "2026-10-11T19:26:15Z",
+      "open_issues": 27,
+      "summary": "ps3recomp 是一套面向 PlayStation 3 游戏的静态重编译运行时库，用 C 编写。它不采用模拟器式的运行时解释或动态重编译，而是把 PS3 的 PowerPC/SPU 指令提前翻译成 C/C++，再由本机编译器生成原生可执行文件，从而摆脱运行时翻译开销，降低硬件门槛，并让重编译后的代码更易修改和长期保存。项目提供运行时库、系统桩和分析工具，SPU 部分按镜像分别重编译，本地存储转为数组，DMA 转为 memcpy，通道转为跨线程消息队列；HLE 模块已覆盖 97 个完整模块和 1 个部分模块。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-11T22:25:13+00:00",
+      "last_seen": "2026-10-11",
+      "seen_count": 1
+    },
+    {
+      "owner": "sp00nznet",
+      "name": "xboxrecomp",
+      "full_name": "sp00nznet/xboxrecomp",
+      "url": "https://github.com/sp00nznet/xboxrecomp",
+      "description": "Turn any Xbox game binary into a native Windows executable. No emulation. No interpreter. Just raw, recompiled C.",
+      "language": "C",
+      "stars": 174,
+      "forks": 44,
+      "homepage": "",
+      "license": "MIT",
+      "created_at": "2026-03-06T09:08:23Z",
+      "pushed_at": "2026-10-07T21:49:36Z",
+      "updated_at": "2026-10-11T18:31:54Z",
+      "open_issues": 25,
+      "summary": "xboxrecomp 是一套面向初代 Xbox（2001–2005）游戏的静态重编译工具链，用 C 语言编写，可将零售 XBE 可执行文件中的 x86 机器码逐函数翻译为等价 C 代码，再经 MSVC 编译成原生 x86-64 Windows 程序，运行时无需模拟器或解释器。它提供运行时库、内核层、D3D8 抽象、NV2A 翻译器以及解析、反汇编、函数识别、ABI 分析和重编译的 Python 流水线，各模块依据 XBE 自身推导布局与行为，并以《Burnout 3: Takedown》作为参考标题验证。相比模拟器，其优势在于原生性能、可读可改的 C 输出、可移植性以及游戏保存价值。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-11T22:25:13+00:00",
+      "last_seen": "2026-10-11",
+      "seen_count": 1
     }
   ]
 }

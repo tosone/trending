@@ -6,9 +6,9 @@
     "weekly",
     "monthly"
   ],
-  "generated_at": "2026-10-12T12:42:45+00:00",
+  "generated_at": "2026-10-12T14:19:35+00:00",
   "first_at": "2026-10-09T11:23:13+00:00",
-  "count": 194,
+  "count": 208,
   "added": 1,
   "repos": [
     {
@@ -495,6 +495,30 @@
       "seen_count": 1
     },
     {
+      "owner": "microsoft",
+      "name": "BitNet",
+      "full_name": "microsoft/BitNet",
+      "url": "https://github.com/microsoft/BitNet",
+      "description": "Official inference framework for 1-bit LLMs",
+      "language": "C++",
+      "stars": 40693,
+      "forks": 3790,
+      "homepage": "",
+      "license": "MIT",
+      "created_at": "2024-08-05T09:07:38Z",
+      "pushed_at": "2026-07-27T05:52:06Z",
+      "updated_at": "2026-10-11T22:24:11Z",
+      "open_issues": 335,
+      "summary": "bitnet.cpp 是微软发布的 1-bit 大语言模型官方推理框架，主要解决低比特模型在本地设备上高效运行的问题。它提供针对 CPU 和 GPU 优化的计算内核，支持 BitNet b1.58 等 1.58 位模型的无损推理，并计划支持 NPU。在 ARM 与 x86 CPU 上，它相比全精度模型有明显加速并大幅降低能耗，还能在单颗 CPU 上运行 100B 级模型。框架同时覆盖语言模型与嵌入模型，官方发布了 2.4B 参数的 BitNet-b1.58-2B-4T 以及 0.6B、270M 的 1-bit 嵌入模型，并兼容 Falcon3、Llama3 等社区模型。",
+      "windows": [
+        "daily",
+        "weekly"
+      ],
+      "added_at": "2026-10-11T22:25:23+00:00",
+      "last_seen": "2026-10-11",
+      "seen_count": 2
+    },
+    {
       "owner": "google",
       "name": "leveldb",
       "full_name": "google/leveldb",
@@ -538,6 +562,29 @@
       ],
       "added_at": "2026-10-12T12:11:26+00:00",
       "last_seen": "2026-10-12",
+      "seen_count": 1
+    },
+    {
+      "owner": "google-ai-edge",
+      "name": "mediapipe",
+      "full_name": "google-ai-edge/mediapipe",
+      "url": "https://github.com/google-ai-edge/mediapipe",
+      "description": "Cross-platform, customizable ML solutions for live and streaming media.",
+      "language": "C++",
+      "stars": 37215,
+      "forks": 6187,
+      "homepage": "https://ai.google.dev/edge/mediapipe",
+      "license": "Apache-2.0",
+      "created_at": "2019-06-13T19:16:41Z",
+      "pushed_at": "2026-10-10T03:26:22Z",
+      "updated_at": "2026-10-10T19:46:14Z",
+      "open_issues": 369,
+      "summary": "MediaPipe 是 Google 推出的跨平台机器学习解决方案框架，主要用 C++ 编写，面向实时和流媒体场景。它提供 MediaPipe Tasks 跨平台 API 与预训练模型，覆盖视觉、文本和音频任务，可部署到 Android、iOS、Web、桌面、边缘设备及 IoT 上。开发者既能直接调用现成方案，也能借助 Model Maker 用自有数据定制模型，或通过 MediaPipe Studio 在浏览器中可视化、评估和基准测试。其底层 MediaPipe Framework 提供 Packet、Graph、Calculator 等概念，用于构建高效的端侧机器学习流水线。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-10T22:24:52+00:00",
+      "last_seen": "2026-10-10",
       "seen_count": 1
     },
     {
@@ -703,6 +750,29 @@
       "seen_count": 6
     },
     {
+      "owner": "telegramdesktop",
+      "name": "tdesktop",
+      "full_name": "telegramdesktop/tdesktop",
+      "url": "https://github.com/telegramdesktop/tdesktop",
+      "description": "Telegram Desktop messaging app",
+      "language": "C++",
+      "stars": 33203,
+      "forks": 7375,
+      "homepage": "https://desktop.telegram.org/",
+      "license": "GPL-3.0",
+      "created_at": "2014-05-02T12:36:31Z",
+      "pushed_at": "2026-10-10T13:03:13Z",
+      "updated_at": "2026-10-11T20:39:28Z",
+      "open_issues": 991,
+      "summary": "Telegram Desktop 是 Telegram 官方推出的桌面客户端，基于 Telegram API 和 MTProto 安全协议开发，使用 C++ 编写，提供完整的源代码和构建说明。它解决的是在桌面环境下使用 Telegram 即时通讯服务的需求，让用户无需依赖网页版或移动端即可收发消息。该客户端支持 Windows 7 及以上版本（含 32 位和 64 位便携版）、macOS 10.13 及以上，以及 Linux 的 64 位静态构建、Snap 和 Flatpak 包。对于更早的系统，4.9.9 版本是最后支持 macOS 10.12 和旧版 glibc Linux 的版本。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-10T22:24:52+00:00",
+      "last_seen": "2026-10-11",
+      "seen_count": 2
+    },
+    {
       "owner": "facebook",
       "name": "rocksdb",
       "full_name": "facebook/rocksdb",
@@ -793,6 +863,29 @@
       "added_at": "2026-10-12T12:11:02+00:00",
       "last_seen": "2026-10-12",
       "seen_count": 1
+    },
+    {
+      "owner": "deskflow",
+      "name": "deskflow",
+      "full_name": "deskflow/deskflow",
+      "url": "https://github.com/deskflow/deskflow",
+      "description": "Share a single keyboard and mouse between multiple computers.",
+      "language": "C++",
+      "stars": 29605,
+      "forks": 4940,
+      "homepage": "https://deskflow.org",
+      "license": "GPL-2.0",
+      "created_at": "2014-10-12T23:18:57Z",
+      "pushed_at": "2026-10-11T15:11:27Z",
+      "updated_at": "2026-10-11T21:31:30Z",
+      "open_issues": 220,
+      "summary": "Deskflow 是一款用 C++ 编写的键盘鼠标共享工具，让用户用一套键鼠同时控制多台电脑，相当于不含视频切换的软件 KVM。它支持 Windows、macOS、Linux 及 FreeBSD 等系统，默认启用 TLS 加密，并支持 Wayland 与剪贴板共享。使用时需在 macOS 上授予辅助功能权限，Windows 需安装 VC++ 运行库，Linux 端则依赖 libei、libportal 和 Qt 6.7+。它与 Synergy、Input Leap、Barrier 等分支保持网络兼容，适合在多机办公环境中无缝切换操作。",
+      "windows": [
+        "monthly"
+      ],
+      "added_at": "2026-10-10T22:24:52+00:00",
+      "last_seen": "2026-10-11",
+      "seen_count": 2
     },
     {
       "owner": "notepad-plus-plus",
@@ -1141,6 +1234,29 @@
       "seen_count": 1
     },
     {
+      "owner": "Tencent",
+      "name": "ncnn",
+      "full_name": "Tencent/ncnn",
+      "url": "https://github.com/Tencent/ncnn",
+      "description": "ncnn is a high-performance neural network inference framework optimized for the mobile platform",
+      "language": "C++",
+      "stars": 23937,
+      "forks": 4523,
+      "homepage": "",
+      "license": "NOASSERTION",
+      "created_at": "2017-06-30T10:55:37Z",
+      "pushed_at": "2026-10-11T16:01:46Z",
+      "updated_at": "2026-10-11T21:22:12Z",
+      "open_issues": 1232,
+      "summary": "ncnn 是腾讯开源的高性能神经网络推理框架，用 C++ 编写，面向移动端、嵌入式和桌面端部署优化。它没有第三方运行时依赖，也不需要 BLAS 或 NNPACK，支持 CPU 与 Vulkan GPU 后端，并针对 ARM NEON 和多核调度做了优化，内存占用低，支持多输入多输出与多分支图结构。开发者可通过 pnnx 将 PyTorch 和 ONNX 模型转换为 ncnn 模型，再借助 C++ API 或 Python 绑定调用，部署到手机、PC、浏览器和边缘设备。它覆盖分类、检测、分割、人脸、姿态和 OCR 等经典模型，已在 QQ、微信、Qzone 等腾讯应用中实际使用。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-11T22:25:23+00:00",
+      "last_seen": "2026-10-11",
+      "seen_count": 1
+    },
+    {
       "owner": "redis",
       "name": "RedisDesktopManager",
       "full_name": "redis/RedisDesktopManager",
@@ -1185,6 +1301,29 @@
       "added_at": "2026-10-09T11:23:13+00:00",
       "last_seen": "2026-10-10",
       "seen_count": 5
+    },
+    {
+      "owner": "catchorg",
+      "name": "Catch2",
+      "full_name": "catchorg/Catch2",
+      "url": "https://github.com/catchorg/Catch2",
+      "description": "A modern, C++-native, test framework for unit-tests, TDD and BDD - using C++14, C++17 and later (C++11 support is in v2.x branch, and C++03 on the Catch1.x branch)",
+      "language": "C++",
+      "stars": 21518,
+      "forks": 3489,
+      "homepage": "https://discord.gg/4CWS9zD",
+      "license": "BSL-1.0",
+      "created_at": "2010-11-08T18:22:56Z",
+      "pushed_at": "2026-10-08T12:51:11Z",
+      "updated_at": "2026-10-10T21:17:19Z",
+      "open_issues": 448,
+      "summary": "Catch2 是一个面向 C++ 的现代化单元测试框架，主要解决 C++ 项目在单元测试、TDD 和 BDD 实践中的测试编写与组织问题。它的核心特点是使用简单自然：测试名称不必是合法标识符，断言写法接近普通 C++ 布尔表达式，并通过 section 机制在测试内部局部地共享 setup 和 teardown 代码，减少重复。除单元测试外，它还提供基础的微基准测试功能和简洁的 BDD 宏，基准测试默认不运行，需用 [!benchmark] 标签显式触发。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-10T22:24:52+00:00",
+      "last_seen": "2026-10-10",
+      "seen_count": 1
     },
     {
       "owner": "Atmosphere-NX",
@@ -1418,6 +1557,29 @@
       "seen_count": 1
     },
     {
+      "owner": "apache",
+      "name": "arrow",
+      "full_name": "apache/arrow",
+      "url": "https://github.com/apache/arrow",
+      "description": "Apache Arrow is the universal columnar format and multi-language toolbox for fast data interchange and in-memory analytics",
+      "language": "C++",
+      "stars": 17246,
+      "forks": 4362,
+      "homepage": "https://arrow.apache.org/",
+      "license": "Apache-2.0",
+      "created_at": "2016-02-17T08:00:23Z",
+      "pushed_at": "2026-10-09T07:32:12Z",
+      "updated_at": "2026-10-11T17:16:51Z",
+      "open_issues": 2465,
+      "summary": "Apache Arrow 是一个通用的列式内存格式与多语言工具箱，旨在解决异构数据系统间高效交换数据与内存分析的问题。它定义了一套标准且高效的列式内存表示，支持平铺与嵌套数据类型，并在此基础上提供 Arrow IPC 序列化格式，用于进程间及异构环境通信。其核心组件还包括面向数据库与查询引擎的 ADBC 接口、基于 IPC 的 Arrow Flight RPC 协议，以及 C++、Python、R、Ruby、Java、Go、Rust 等多语言库。",
+      "windows": [
+        "monthly"
+      ],
+      "added_at": "2026-10-10T22:24:52+00:00",
+      "last_seen": "2026-10-11",
+      "seen_count": 2
+    },
+    {
       "owner": "yhirose",
       "name": "cpp-httplib",
       "full_name": "yhirose/cpp-httplib",
@@ -1553,6 +1715,30 @@
       ],
       "added_at": "2026-10-12T12:14:58+00:00",
       "last_seen": "2026-10-12",
+      "seen_count": 1
+    },
+    {
+      "owner": "google-deepmind",
+      "name": "mujoco",
+      "full_name": "google-deepmind/mujoco",
+      "url": "https://github.com/google-deepmind/mujoco",
+      "description": "Multi-Joint dynamics with Contact. A general purpose physics simulator.",
+      "language": "C++",
+      "stars": 15587,
+      "forks": 1825,
+      "homepage": "https://mujoco.org",
+      "license": "Apache-2.0",
+      "created_at": "2021-08-27T12:25:48Z",
+      "pushed_at": "2026-10-10T21:23:55Z",
+      "updated_at": "2026-10-10T21:24:00Z",
+      "open_issues": 279,
+      "summary": "MuJoCo（Multi-Joint dynamics with Contact）是 Google DeepMind 维护的通用物理引擎，用 C++ 编写，主要面向机器人学、生物力学、图形动画和机器学习等领域，用于对关节结构与环境交互进行快速而准确的仿真。它提供 C API，运行时仿真模块针对性能优化，基于内置 XML 编译器预分配的低层数据结构运行，并包含基于 OpenGL 的原生交互式可视化界面和大量物理相关计算工具函数。除核心库外，还提供 Python 绑定和 Unity 插件，并有基于 JAX 的 MJX 分支及可微物理教程。",
+      "windows": [
+        "daily",
+        "monthly"
+      ],
+      "added_at": "2026-10-10T22:24:52+00:00",
+      "last_seen": "2026-10-10",
       "seen_count": 1
     },
     {
@@ -2174,6 +2360,29 @@
       ],
       "added_at": "2026-10-12T12:14:49+00:00",
       "last_seen": "2026-10-12",
+      "seen_count": 1
+    },
+    {
+      "owner": "diasurgical",
+      "name": "DevilutionX",
+      "full_name": "diasurgical/DevilutionX",
+      "url": "https://github.com/diasurgical/DevilutionX",
+      "description": "Diablo build for modern operating systems",
+      "language": "C++",
+      "stars": 9812,
+      "forks": 1057,
+      "homepage": "",
+      "license": "NOASSERTION",
+      "created_at": "2018-08-02T17:19:01Z",
+      "pushed_at": "2026-10-10T18:20:43Z",
+      "updated_at": "2026-10-10T19:39:05Z",
+      "open_issues": 486,
+      "summary": "DevilutionX 是经典动作角色扮演游戏《暗黑破坏神》及其资料片《地狱火》的 C++ 移植版，目标是让这款老游戏能在现代操作系统上顺畅运行。它解决了原版游戏难以在新系统上启动和兼容的问题，同时修复了大量引擎缺陷，并加入了一些可选的人性化改进，例如默认关闭但可在设置中开启的生命条与经验条，以及可关闭的宽屏支持。使用前需要自备原版游戏数据文件，如 DIABDAT.MPQ，也可用共享版文件体验部分内容。它适合想在当代设备上重温原版暗黑的老玩家，也为模组开发者提供了完整源码和工具。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-10T22:24:52+00:00",
+      "last_seen": "2026-10-10",
       "seen_count": 1
     },
     {
@@ -2801,6 +3010,53 @@
       "seen_count": 6
     },
     {
+      "owner": "mg-chao",
+      "name": "snow-apps",
+      "full_name": "mg-chao/snow-apps",
+      "url": "https://github.com/mg-chao/snow-apps",
+      "description": "Snow Apps repository, providing source code for Snow Shot and Snow Image Viewer.",
+      "language": "C++",
+      "stars": 5748,
+      "forks": 354,
+      "homepage": "https://snowshot.top",
+      "license": "NOASSERTION",
+      "created_at": "2025-02-26T07:04:51Z",
+      "pushed_at": "2026-10-11T13:02:36Z",
+      "updated_at": "2026-10-11T22:18:12Z",
+      "open_issues": 8,
+      "summary": "Snow Apps 是一个以 C++ 为主要语言的开源仓库，集中提供 Snow Shot 和 Snow Image Viewer 两款应用的源代码。其中 Snow Shot 面向 Windows 与 macOS 平台分发：Windows 用户可从发布页下载安装包，或通过 WinGet 社区仓库安装包含默认 OCR 资源的离线 x64 包，也可在进入 Scoop 官方 Extras 桶后安装便携版；macOS 方面支持运行 macOS 15 及以上的 Apple Silicon 设备通过 Homebrew 安装稳定版。",
+      "windows": [
+        "daily",
+        "weekly"
+      ],
+      "added_at": "2026-10-11T22:25:23+00:00",
+      "last_seen": "2026-10-11",
+      "seen_count": 1
+    },
+    {
+      "owner": "praydog",
+      "name": "REFramework",
+      "full_name": "praydog/REFramework",
+      "url": "https://github.com/praydog/REFramework",
+      "description": "Mod loader, scripting platform, and VR support for all RE Engine games",
+      "language": "C++",
+      "stars": 5620,
+      "forks": 663,
+      "homepage": "https://reframework.praydog.com/",
+      "license": "MIT",
+      "created_at": "2019-01-31T16:17:50Z",
+      "pushed_at": "2026-10-11T01:46:07Z",
+      "updated_at": "2026-10-11T21:06:20Z",
+      "open_issues": 681,
+      "summary": "REFramework 是一个面向所有 RE Engine 游戏的模组加载器、脚本平台与 VR 支持框架，使用 C++ 编写，灵感与部分代码源自 Kanan。它主要解决 RE Engine 游戏模组加载、脚本扩展和 VR 化的问题。核心能力包括 Lua 脚本 API 与插件系统、通用 6DOF VR 支持、RE2/RE3/RE7/RE8 的运动控制、第一人称模式、手动 flashlight、自由相机、场景时间缩放、FOV 调节、暗角禁用、超宽屏与宽高比修复、GUI 隐藏等，同时修复 RE8 启动崩溃、卡顿及第三方 DLL 引发的崩溃。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-11T22:25:23+00:00",
+      "last_seen": "2026-10-11",
+      "seen_count": 1
+    },
+    {
       "owner": "nghttp2",
       "name": "nghttp2",
       "full_name": "nghttp2/nghttp2",
@@ -3264,6 +3520,29 @@
       "seen_count": 1
     },
     {
+      "owner": "ran-j",
+      "name": "PS2Recomp",
+      "full_name": "ran-j/PS2Recomp",
+      "url": "https://github.com/ran-j/PS2Recomp",
+      "description": "Playstation 2 Static Recompiler & Runtime Tool to make native PC ports",
+      "language": "C++",
+      "stars": 3372,
+      "forks": 165,
+      "homepage": "",
+      "license": "GPL-3.0",
+      "created_at": "2025-04-12T06:48:01Z",
+      "pushed_at": "2026-10-10T18:59:38Z",
+      "updated_at": "2026-10-11T22:05:57Z",
+      "open_issues": 86,
+      "summary": "PS2Recomp 是一个实验性的 PlayStation 2 静态重编译器与运行时工具，用 C++ 编写，目标是把 PS2 游戏 ELF 二进制转换为可在 PC 上原生运行的代码。它通过解析 ELF 提取函数、符号与重定位信息，将 MIPS R5900 指令逐条翻译为等价的 C++ 操作，并生成配套运行时来执行这些代码，从而绕开传统模拟器的指令解释开销。项目包含分析器、重编译器、运行时和 IOP 模拟等模块，支持 MMI 与 VU0 宏指令、单文件或多文件输出、可配置的桩函数与指令补丁，以及基于指令的 syscall 处理。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-11T22:25:23+00:00",
+      "last_seen": "2026-10-11",
+      "seen_count": 1
+    },
+    {
       "owner": "Kitt-AI",
       "name": "snowboy",
       "full_name": "Kitt-AI/snowboy",
@@ -3284,6 +3563,29 @@
       ],
       "added_at": "2026-10-12T12:41:35+00:00",
       "last_seen": "2026-10-12",
+      "seen_count": 1
+    },
+    {
+      "owner": "duckdb",
+      "name": "ducklake",
+      "full_name": "duckdb/ducklake",
+      "url": "https://github.com/duckdb/ducklake",
+      "description": "DuckLake is an integrated data lake and catalog format",
+      "language": "C++",
+      "stars": 3285,
+      "forks": 275,
+      "homepage": "https://ducklake.select",
+      "license": "MIT",
+      "created_at": "2025-03-03T16:01:19Z",
+      "pushed_at": "2026-10-10T19:35:07Z",
+      "updated_at": "2026-10-10T21:27:42Z",
+      "open_issues": 48,
+      "summary": "DuckLake 是 DuckDB 的扩展，也是一种基于 SQL 和 Parquet 的开放式 Lakehouse 格式。它将元数据存放在目录数据库中，将实际数据存放在 Parquet 文件里，从而把数据湖的存储与数据目录整合在一起。通过该扩展，DuckDB 可以直接读写 DuckLake 中的数据。使用时，用户通过 ATTACH 语法挂载 DuckLake 数据库，之后即可用标准 SQL 创建、修改和查询表，例如把元数据存入 metadata.ducklake 文件、把数据存入 file_path 目录下的 Parquet 文件。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-10T22:24:52+00:00",
+      "last_seen": "2026-10-10",
       "seen_count": 1
     },
     {
@@ -4395,6 +4697,29 @@
       "added_at": "2026-10-09T11:23:13+00:00",
       "last_seen": "2026-10-10",
       "seen_count": 5
+    },
+    {
+      "owner": "safijari",
+      "name": "openpuck",
+      "full_name": "safijari/openpuck",
+      "url": "https://github.com/safijari/openpuck",
+      "description": "Opensource firmware for NRF52840 Pro Micro that copycats the Steam Controller 2 Puck and adds an Xbox and Switch mode",
+      "language": "C++",
+      "stars": 1026,
+      "forks": 91,
+      "homepage": "https://safijari.github.io/openpuck/",
+      "license": "AGPL-3.0",
+      "created_at": "2026-06-06T05:45:07Z",
+      "pushed_at": "2026-09-14T02:26:22Z",
+      "updated_at": "2026-10-11T20:49:04Z",
+      "open_issues": 80,
+      "summary": "OpenPuck 是面向 NRF52840 Pro Micro 的开源固件，用 C++ 编写，模仿 Steam Controller 2 的 Puck 无线接收器。它针对两个现实问题：Puck 不单独售卖，且手柄依赖 Steam Input，离开 Steam 基本无法使用。刷入固件后，设备默认以 Puck 身份通过 USB 与 Steam 通信，可正常配对，延迟接近官方 Puck。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-11T22:25:23+00:00",
+      "last_seen": "2026-10-11",
+      "seen_count": 1
     },
     {
       "owner": "gta-reversed",

@@ -6,9 +6,9 @@
     "weekly",
     "monthly"
   ],
-  "generated_at": "2026-10-12T12:42:45+00:00",
+  "generated_at": "2026-10-12T14:19:35+00:00",
   "first_at": "2026-10-09T11:21:36+00:00",
-  "count": 246,
+  "count": 258,
   "added": 9,
   "repos": [
     {
@@ -1023,6 +1023,29 @@
       "seen_count": 5
     },
     {
+      "owner": "ComposioHQ",
+      "name": "awesome-claude-skills",
+      "full_name": "ComposioHQ/awesome-claude-skills",
+      "url": "https://github.com/ComposioHQ/awesome-claude-skills",
+      "description": "A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows",
+      "language": "Python",
+      "stars": 76879,
+      "forks": 9040,
+      "homepage": "",
+      "license": "",
+      "created_at": "2025-10-17T07:15:01Z",
+      "pushed_at": "2026-09-18T07:16:11Z",
+      "updated_at": "2026-10-11T22:05:48Z",
+      "open_issues": 1687,
+      "summary": "Awesome Claude Skills 是一份精选清单，收录了 1000 多个可直接用于生产的 Claude Skills 与插件，覆盖 Claude.ai、Claude Code 以及 Codex、Cursor、Gemini CLI、Antigravity 等编码代理。它解决的核心问题是：让 AI 代理不只生成文本，还能按既定流程完成具体任务。Skill 本质是可复用的指令包，每个文件夹含带 YAML 元数据的 SKILL.md，可附带脚本与参考资料，采用渐进式加载，会话开始时仅读取名称与描述，相关时才载入正文，因此单个代理可承载数百个技能而不挤占上下文。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-11T22:24:31+00:00",
+      "last_seen": "2026-10-11",
+      "seen_count": 1
+    },
+    {
       "owner": "Asabeneh",
       "name": "30-Days-Of-Python",
       "full_name": "Asabeneh/30-Days-Of-Python",
@@ -1461,6 +1484,29 @@
       "seen_count": 1
     },
     {
+      "owner": "Alishahryar1",
+      "name": "free-claude-code",
+      "full_name": "Alishahryar1/free-claude-code",
+      "url": "https://github.com/Alishahryar1/free-claude-code",
+      "description": "Use Claude Code, Codex, VSCode, Pi, and OpenCode (and 6 other harnesses) for free (1.3B+ free tokens) from your terminal, app, IDE, or phone, and now from the browser with native browser sessions (multi-harness + multi-model) like OpenClaw (voice supported + ToS friendly)",
+      "language": "Python",
+      "stars": 58036,
+      "forks": 9228,
+      "homepage": "",
+      "license": "NOASSERTION",
+      "created_at": "2026-01-28T19:02:30Z",
+      "pushed_at": "2026-10-11T21:35:05Z",
+      "updated_at": "2026-10-11T22:19:49Z",
+      "open_issues": 301,
+      "summary": "Free Claude Code 是一个用 Python 编写的独立开源工具，它把多个免费或付费的模型提供方统一到一个可搜索的界面里，让 Claude Code、Codex、Pi、OpenCode、Cline、Aider、VS Code Chat 等十一种编码代理共用同一套模型目录，从而降低使用成本并避免账号风险。它聚合了 61 家遵循服务条款的提供方，每月可提供超过 13 亿免费 token，并支持免费、付费、订阅和本地模型。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-11T22:24:31+00:00",
+      "last_seen": "2026-10-11",
+      "seen_count": 1
+    },
+    {
       "owner": "soimort",
       "name": "you-get",
       "full_name": "soimort/you-get",
@@ -1783,6 +1829,29 @@
       "seen_count": 1
     },
     {
+      "owner": "MadsLorentzen",
+      "name": "ai-job-search",
+      "full_name": "MadsLorentzen/ai-job-search",
+      "url": "https://github.com/MadsLorentzen/ai-job-search",
+      "description": "The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it.",
+      "language": "Python",
+      "stars": 46092,
+      "forks": 15921,
+      "homepage": "",
+      "license": "MIT",
+      "created_at": "2026-03-18T14:33:04Z",
+      "pushed_at": "2026-10-08T19:23:59Z",
+      "updated_at": "2026-10-11T22:04:35Z",
+      "open_issues": 14,
+      "summary": "ai-job-search 是一套运行在本地、基于 Claude Code 的求职申请框架，用 Python 编写。它把求职流程拆成结构化命令：/setup 读取简历、LinkedIn 导出等材料建立个人档案，/scrape 从招聘网站抓取并去重、按匹配度排序职位，/apply 完成匹配度评估、定制简历与求职信、由第二个代理审阅并修订，/interview 依据申请存档生成面试准备包和模拟面试，此外还有 /rank 批量打分、/outcome 记录结果并跟进、/notion-sync 与 /gmail-sync 同步状态等十余个扩展命令。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-11T22:24:31+00:00",
+      "last_seen": "2026-10-11",
+      "seen_count": 1
+    },
+    {
       "owner": "getsentry",
       "name": "sentry",
       "full_name": "getsentry/sentry",
@@ -1849,6 +1918,29 @@
       ],
       "added_at": "2026-10-12T12:11:40+00:00",
       "last_seen": "2026-10-12",
+      "seen_count": 1
+    },
+    {
+      "owner": "shiyu-coder",
+      "name": "Kronos",
+      "full_name": "shiyu-coder/Kronos",
+      "url": "https://github.com/shiyu-coder/Kronos",
+      "description": "Kronos: A Foundation Model for the Language of Financial Markets",
+      "language": "Python",
+      "stars": 40461,
+      "forks": 6743,
+      "homepage": "",
+      "license": "MIT",
+      "created_at": "2025-07-01T02:54:32Z",
+      "pushed_at": "2026-04-13T12:38:49Z",
+      "updated_at": "2026-10-10T22:09:50Z",
+      "open_issues": 281,
+      "summary": "Kronos 是首个面向金融 K 线序列的开源基础模型，基于全球 45 个以上交易所的数据训练，论文已被 AAAI 2026 接收。它针对金融数据高噪声的特点，采用两阶段框架：专用分词器先将多维 OHLCV 连续数据量化为分层离散 token，再用自回归 Transformer 预训练，从而统一支持多种量化任务。模型提供不同容量的预训练版本，可通过 KronosPredictor 在数行代码内完成预测，支持单序列与批量并行预测，并能处理缺失的成交量与成交额数据。",
+      "windows": [
+        "weekly"
+      ],
+      "added_at": "2026-10-10T22:23:47+00:00",
+      "last_seen": "2026-10-10",
       "seen_count": 1
     },
     {
@@ -3006,6 +3098,29 @@
       "seen_count": 1
     },
     {
+      "owner": "dortania",
+      "name": "OpenCore-Legacy-Patcher",
+      "full_name": "dortania/OpenCore-Legacy-Patcher",
+      "url": "https://github.com/dortania/OpenCore-Legacy-Patcher",
+      "description": "Experience macOS just like before",
+      "language": "Python",
+      "stars": 18572,
+      "forks": 2034,
+      "homepage": "https://dortania.github.io/OpenCore-Legacy-Patcher/",
+      "license": "NOASSERTION",
+      "created_at": "2020-11-24T01:54:56Z",
+      "pushed_at": "2026-10-11T05:17:11Z",
+      "updated_at": "2026-10-11T22:22:53Z",
+      "open_issues": 23,
+      "summary": "OpenCore Legacy Patcher 是一个基于 Python 的开源工具，围绕 Acidanthera 的 OpenCorePkg 和 Lilu 构建，用于在苹果已停止支持的旧款 Mac 上安装并运行 macOS Big Sur 及更新版本，最早可支持到 2007 年的机型。它通过 OpenCore 引导与补丁机制，解决旧硬件无法升级新系统的问题，支持 Penryn 及更新处理器，提供原生 OTA 系统更新、系统完整性保护、FileVault 2、安全启动与恢复模式等功能，并为 Metal 和非 Metal GPU 启用图形加速，解锁 Sidecar、AirPlay to Mac。",
+      "windows": [
+        "weekly"
+      ],
+      "added_at": "2026-10-10T22:23:47+00:00",
+      "last_seen": "2026-10-11",
+      "seen_count": 2
+    },
+    {
       "owner": "xming521",
       "name": "WeClone",
       "full_name": "xming521/WeClone",
@@ -3467,6 +3582,29 @@
       "seen_count": 1
     },
     {
+      "owner": "microsoft",
+      "name": "TRELLIS.2",
+      "full_name": "microsoft/TRELLIS.2",
+      "url": "https://github.com/microsoft/TRELLIS.2",
+      "description": "Native and Compact Structured Latents for 3D Generation",
+      "language": "Python",
+      "stars": 11851,
+      "forks": 1443,
+      "homepage": "",
+      "license": "MIT",
+      "created_at": "2025-11-26T10:04:35Z",
+      "pushed_at": "2026-07-10T12:34:32Z",
+      "updated_at": "2026-10-11T22:21:10Z",
+      "open_issues": 159,
+      "summary": "TRELLIS.2 是微软开源的大型三维生成模型，参数量为 4B，主要解决从单张图像生成高保真三维资产的问题。它提出名为 O-Voxel 的“无场”稀疏体素结构，突破了等值面场的限制，能够处理开放表面、非流形几何和内部封闭结构等复杂拓扑，同时支持基础色、粗糙度、金属度和不透明度等表面属性建模，便于实现照片级渲染与透明效果。模型采用稀疏三维 VAE 将资产编码到紧凑潜空间，并使用标准 DiT 完成生成，兼顾分辨率与效率。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-10T22:23:47+00:00",
+      "last_seen": "2026-10-11",
+      "seen_count": 2
+    },
+    {
       "owner": "Tracer-Cloud",
       "name": "opensre",
       "full_name": "Tracer-Cloud/opensre",
@@ -3786,6 +3924,29 @@
       ],
       "added_at": "2026-10-12T12:14:45+00:00",
       "last_seen": "2026-10-12",
+      "seen_count": 1
+    },
+    {
+      "owner": "XiaoYouChR",
+      "name": "Ghost-Downloader-3",
+      "full_name": "XiaoYouChR/Ghost-Downloader-3",
+      "url": "https://github.com/XiaoYouChR/Ghost-Downloader-3",
+      "description": "The only downloader you need. 下载器的集大成者。",
+      "language": "Python",
+      "stars": 9715,
+      "forks": 636,
+      "homepage": "https://gd.xychr.com/",
+      "license": "GPL-3.0",
+      "created_at": "2023-08-16T04:23:44Z",
+      "pushed_at": "2026-10-08T14:10:50Z",
+      "updated_at": "2026-10-11T22:09:56Z",
+      "open_issues": 85,
+      "summary": "Ghost Downloader 3 是一款用 Python 编写的跨平台下载工具，目标是成为“下载器的集大成者”。它把 HTTP、磁力/BT、FTP、M3U8、MPEG-DASH、eD2k 等协议整合到一个应用里，还支持 YouTube、Bilibili 的分辨率与字幕选择、播放列表和多分P下载，以及 GitHub、HuggingFace 的镜像加速。针对弱网环境，它采用智能分块且无需合并文件、自动检测带宽，并借助真实浏览器 TLS 指纹规避反爬检测。浏览器扩展能嗅探页面媒体并跟随视频显示下载按钮，认证状态可延续到桌面端。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-11T22:24:31+00:00",
+      "last_seen": "2026-10-11",
       "seen_count": 1
     },
     {
@@ -4134,6 +4295,29 @@
       "seen_count": 1
     },
     {
+      "owner": "repowise-dev",
+      "name": "repowise",
+      "full_name": "repowise-dev/repowise",
+      "url": "https://github.com/repowise-dev/repowise",
+      "description": "Codebase intelligence for AI and humans: code health scores, auto-generated docs, git analytics, dead code detection, and architectural decisions via MCP.",
+      "language": "Python",
+      "stars": 7528,
+      "forks": 842,
+      "homepage": "https://repowise.dev",
+      "license": "AGPL-3.0",
+      "created_at": "2026-03-23T09:12:28Z",
+      "pushed_at": "2026-10-11T21:09:01Z",
+      "updated_at": "2026-10-11T22:14:35Z",
+      "open_issues": 300,
+      "summary": "Repowise 是一个用 Python 编写的代码库智能索引工具，面向 AI 编码代理和人类开发者。它在本地一次性索引代码、调用图、Git 历史、测试、文档和设计决策，让代理不必在每次任务中反复搜索和重读文件。它提供十种任务形态的 MCP 工具，可接入 Claude Code、Codex、Cursor、VS Code 等支持 MCP 的代理，回答谁调用了某函数、改动会破坏什么、哪些代码已死、该先修什么以及为何这样设计。核心能力包括代码健康评分、自动生成文档、Git 分析、死代码检测和架构决策记录，其中图、风险、健康、测试和死代码分析不调用大模型，无需 API 密钥。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-11T22:24:31+00:00",
+      "last_seen": "2026-10-11",
+      "seen_count": 1
+    },
+    {
       "owner": "traceloop",
       "name": "openllmetry",
       "full_name": "traceloop/openllmetry",
@@ -4154,6 +4338,29 @@
       ],
       "added_at": "2026-10-12T12:14:45+00:00",
       "last_seen": "2026-10-12",
+      "seen_count": 1
+    },
+    {
+      "owner": "SnailSploit",
+      "name": "Claude-Red",
+      "full_name": "SnailSploit/Claude-Red",
+      "url": "https://github.com/SnailSploit/Claude-Red",
+      "description": "claude-red is a curated library of offensive security skills designed for the Claude skills system. Each skill is a structured SKILL.md file that primes Claude with expert-level methodology for a specific attack surface — from SQLi to shellcode, EDR evasion to exploit development.",
+      "language": "Python",
+      "stars": 7425,
+      "forks": 967,
+      "homepage": "",
+      "license": "MIT",
+      "created_at": "2026-03-04T05:52:35Z",
+      "pushed_at": "2026-09-19T23:46:22Z",
+      "updated_at": "2026-10-11T22:20:25Z",
+      "open_issues": 15,
+      "summary": "claude-red 是一套面向 Claude Skills 系统的进攻性安全技能库，由 SnailSploit 作者 Kai Aizen 维护，主要语言为 Python。它把红队与渗透测试方法论整理成结构化的 SKILL.md 文件，每个文件针对一个具体攻击面，注入 Claude 后即可让其以领域专家方式工作，覆盖 SQL 注入、shellcode、EDR 规避、ADCS 滥用等方向。技能按对话触发条件按需加载，未使用的技能不占用上下文。",
+      "windows": [
+        "monthly"
+      ],
+      "added_at": "2026-10-11T22:24:31+00:00",
+      "last_seen": "2026-10-11",
       "seen_count": 1
     },
     {
@@ -4407,6 +4614,29 @@
       ],
       "added_at": "2026-10-12T12:42:01+00:00",
       "last_seen": "2026-10-12",
+      "seen_count": 1
+    },
+    {
+      "owner": "BitterSecurity",
+      "name": "Decepticon",
+      "full_name": "BitterSecurity/Decepticon",
+      "url": "https://github.com/BitterSecurity/Decepticon",
+      "description": "Autonomous Hacking Agent for Red Team",
+      "language": "Python",
+      "stars": 5834,
+      "forks": 1103,
+      "homepage": "https://decepticon.red",
+      "license": "Apache-2.0",
+      "created_at": "2025-06-06T12:55:02Z",
+      "pushed_at": "2026-10-10T01:34:49Z",
+      "updated_at": "2026-10-10T21:54:11Z",
+      "open_issues": 25,
+      "summary": "Decepticon 是一个用 Python 编写的自主红队智能体，目标是执行贴近真实攻击链的渗透流程，而非仅跑一遍 nmap 再输出报告。它面向需要自动化红队演练的场景，在行动前会生成包含 RoE、ConOps、冲突消解计划和带 MITRE ATT&CK 映射的 OPPLAN 等完整交战文档，所有操作都在既定规则内进行。核心能力包括：按杀伤链阶段组织的 16 个专家智能体，每个目标使用独立上下文；在持久化 tmux 会话中运行 msfconsole、sliver-client 等交互式工具并自动识别提示符；命令全部在 Kali 沙箱中执行，与管理平面网络隔离。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-10T22:23:47+00:00",
+      "last_seen": "2026-10-10",
       "seen_count": 1
     },
     {
@@ -5034,6 +5264,29 @@
       "seen_count": 1
     },
     {
+      "owner": "littledivy",
+      "name": "mimic",
+      "full_name": "littledivy/mimic",
+      "url": "https://github.com/littledivy/mimic",
+      "description": "Intercept any app, then call it from Python like a library",
+      "language": "Python",
+      "stars": 2604,
+      "forks": 292,
+      "homepage": "",
+      "license": "MIT",
+      "created_at": "2026-07-13T05:13:00Z",
+      "pushed_at": "2026-07-26T16:04:20Z",
+      "updated_at": "2026-10-11T22:23:38Z",
+      "open_issues": 5,
+      "summary": "mimic 是一个用 Python 编写的工具，它能拦截任意 App 的网络流量，并借助 AI 根据捕获到的请求生成可直接调用的 Python 客户端，让你像使用库一样调用目标 App 的接口。它解决的是手写客户端繁琐的问题：多数 App 的请求都依赖同一组稳定的认证信息，如 bearer token、设备 ID、会话 ID 和 cookie，只需从一次真实请求中捕获这些值，就能复用到后续请求。生成的客户端基于 mimic.App，是普通 Python 代码，可自由编辑，提供具名方法、请求体模板以及移动端 API 常见的多步调用链。",
+      "windows": [
+        "weekly"
+      ],
+      "added_at": "2026-10-11T22:24:31+00:00",
+      "last_seen": "2026-10-11",
+      "seen_count": 1
+    },
+    {
       "owner": "chatdoc-com",
       "name": "OCRFlux",
       "full_name": "chatdoc-com/OCRFlux",
@@ -5239,6 +5492,29 @@
       "added_at": "2026-10-12T12:41:48+00:00",
       "last_seen": "2026-10-12",
       "seen_count": 1
+    },
+    {
+      "owner": "derv82",
+      "name": "wifit3",
+      "full_name": "derv82/wifit3",
+      "url": "https://github.com/derv82/wifit3",
+      "description": "Wifite but USB-only & cross-platform.",
+      "language": "Python",
+      "stars": 2171,
+      "forks": 202,
+      "homepage": "",
+      "license": "GPL-2.0",
+      "created_at": "2026-06-20T18:15:05Z",
+      "pushed_at": "2026-10-08T03:23:14Z",
+      "updated_at": "2026-10-10T22:19:05Z",
+      "open_issues": 13,
+      "summary": "wifit3 是一个用 Python 编写的独立 USB 无线审计工具，可在 Linux、Windows 和 macOS 上以相同方式运行，前提是至少连接一个受支持的 USB 网卡。它绕开操作系统原生 Wi-Fi 协议栈，自带轻量级 Python 版内核驱动，通过 USB 批量与控制传输直接操作硬件，从而避开 Linux 内核驱动版本问题和 Windows NDIS 限制，且不依赖 aircrack-ng 或 reaver。功能涵盖多网卡聚合抓包、2.",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-10T22:23:47+00:00",
+      "last_seen": "2026-10-10",
+      "seen_count": 40
     },
     {
       "owner": "FeeiCN",

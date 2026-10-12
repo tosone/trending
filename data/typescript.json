@@ -6,9 +6,9 @@
     "weekly",
     "monthly"
   ],
-  "generated_at": "2026-10-12T12:42:45+00:00",
+  "generated_at": "2026-10-12T14:19:35+00:00",
   "first_at": "2026-10-09T10:50:16+00:00",
-  "count": 268,
+  "count": 277,
   "added": 8,
   "repos": [
     {
@@ -284,6 +284,29 @@
       ],
       "added_at": "2026-10-12T11:59:25+00:00",
       "last_seen": "2026-10-12",
+      "seen_count": 1
+    },
+    {
+      "owner": "immich-app",
+      "name": "immich",
+      "full_name": "immich-app/immich",
+      "url": "https://github.com/immich-app/immich",
+      "description": "High performance self-hosted photo and video management solution.",
+      "language": "TypeScript",
+      "stars": 115969,
+      "forks": 7177,
+      "homepage": "https://immich.app",
+      "license": "AGPL-3.0",
+      "created_at": "2022-02-03T15:56:27Z",
+      "pushed_at": "2026-10-10T21:48:51Z",
+      "updated_at": "2026-10-10T22:11:24Z",
+      "open_issues": 706,
+      "summary": "Immich 是一个用 TypeScript 编写的高性能自托管照片和视频管理方案，目标是让用户在自己的服务器上集中存放、浏览和管理个人媒体库，而不必依赖第三方云服务。它解决的是照片视频散落在多台设备、难以统一备份和检索的问题。核心能力包括自托管部署、移动端应用支持，以及通过官方文档提供的安装指南快速搭建服务；项目还提供在线演示，移动端可将服务器地址指向演示站点体验。它适合希望掌握数据主权、愿意自行维护服务器的用户，例如家庭媒体库、个人影像归档等场景。技术栈以 TypeScript 为主，官方文档站点为 immich.app，并提醒用户对重要照片和视频遵循 3-2-1 备份原则。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-10T22:23:37+00:00",
+      "last_seen": "2026-10-10",
       "seen_count": 1
     },
     {
@@ -1026,6 +1049,30 @@
       "seen_count": 1
     },
     {
+      "owner": "remotion-dev",
+      "name": "remotion",
+      "full_name": "remotion-dev/remotion",
+      "url": "https://github.com/remotion-dev/remotion",
+      "description": "🎥      Make videos programmatically with React",
+      "language": "TypeScript",
+      "stars": 63276,
+      "forks": 4983,
+      "homepage": "https://remotion.dev",
+      "license": "NOASSERTION",
+      "created_at": "2020-06-23T19:49:10Z",
+      "pushed_at": "2026-10-11T20:36:17Z",
+      "updated_at": "2026-10-11T22:22:30Z",
+      "open_issues": 190,
+      "summary": "Remotion 是一个用 React 以编程方式制作视频的 TypeScript 工具库。它把 React 代码当作视频的唯一真实来源，让开发者能连接数据、用代码管理复杂逻辑，从而解决批量生成、数据驱动视频难以用传统剪辑软件高效处理的问题。核心能力包括：借助编码智能体把想法变成视频、通过拖拽交互式编辑与制作动画、构建可复用的动画资产库、在自有基础设施上批量渲染海量视频，以及发布简单工具或复杂视频编辑器。它提供超过一千页文档，涵盖安装、模板、组件、特效、字幕、字体、渲染、Node.js API、Lambda、Vercel、客户端渲染、播放器和编辑器起步套件等，并支持在任意环节切换工作流。",
+      "windows": [
+        "daily",
+        "monthly"
+      ],
+      "added_at": "2026-10-10T22:23:37+00:00",
+      "last_seen": "2026-10-11",
+      "seen_count": 2
+    },
+    {
       "owner": "socketio",
       "name": "socket.io",
       "full_name": "socketio/socket.io",
@@ -1186,6 +1233,29 @@
       "added_at": "2026-10-12T12:11:02+00:00",
       "last_seen": "2026-10-12",
       "seen_count": 1
+    },
+    {
+      "owner": "appwrite",
+      "name": "appwrite",
+      "full_name": "appwrite/appwrite",
+      "url": "https://github.com/appwrite/appwrite",
+      "description": "The open-source cloud for agents & devs. Including Auth, Databases, Storage, Functions, Messaging, Hosting, Realtime, WAF and more",
+      "language": "TypeScript",
+      "stars": 57626,
+      "forks": 5776,
+      "homepage": "https://appwrite.io",
+      "license": "BSD-3-Clause",
+      "created_at": "2019-04-08T16:36:25Z",
+      "pushed_at": "2026-10-10T21:21:34Z",
+      "updated_at": "2026-10-10T22:11:14Z",
+      "open_issues": 779,
+      "summary": "Appwrite 是一个面向 AI 代理与开发者的开源云平台，用 TypeScript 编写，提供构建和扩展应用所需的后端能力。它把身份认证、数据库、存储、函数、消息推送、实时通信、前端托管和防火墙等模块整合在一起，让开发者无需自行拼装多个后端服务。平台以 MCP 和代理优先为设计思路，内置 MCP 支持，Cursor、Claude Code、Codex 等编码代理可通过托管 MCP 服务器直接操作真实的 Appwrite 项目，无需手动管理 API 密钥。它既提供托管云服务，也支持在自有基础设施上自托管，通过 Docker 一条命令即可完成安装。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-10T22:23:37+00:00",
+      "last_seen": "2026-10-10",
+      "seen_count": 2
     },
     {
       "owner": "agalwood",
@@ -1439,6 +1509,29 @@
       "windows": [
         "daily"
       ]
+    },
+    {
+      "owner": "Yeachan-Heo",
+      "name": "oh-my-claudecode",
+      "full_name": "Yeachan-Heo/oh-my-claudecode",
+      "url": "https://github.com/Yeachan-Heo/oh-my-claudecode",
+      "description": "Teams-first Multi-agent orchestration for Claude Code",
+      "language": "TypeScript",
+      "stars": 39773,
+      "forks": 3561,
+      "homepage": "https://oh-my-claudecode.dev",
+      "license": "MIT",
+      "created_at": "2026-01-09T03:36:29Z",
+      "pushed_at": "2026-10-10T17:26:27Z",
+      "updated_at": "2026-10-10T20:23:04Z",
+      "open_issues": 21,
+      "summary": "oh-my-claudecode 是一个面向 Claude Code 的多智能体编排工具，用 TypeScript 编写，主打团队优先的协作模式，目标是让用户无需学习 Claude Code 的复杂用法即可直接使用。它解决的是多智能体任务调度与并行执行的问题，通过自然语言接口和智能默认配置降低使用门槛。核心能力包括团队流水线编排（team-plan、team-prd、team-exec、team-verify、team-fix 循环）、autopilot 命名阶段配置、以及通过 tmux 启动 Codex、Gemini、Cursor 等外部 CLI 工作进程，任务完成后进程自动退出。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-10T22:23:37+00:00",
+      "last_seen": "2026-10-10",
+      "seen_count": 1
     },
     {
       "owner": "bytedance",
@@ -2986,6 +3079,29 @@
       "seen_count": 1
     },
     {
+      "owner": "hicccc77",
+      "name": "WeFlow",
+      "full_name": "hicccc77/WeFlow",
+      "url": "https://github.com/hicccc77/WeFlow",
+      "description": "WeFlow - 一个本地的微信聊天记录导出和年度报告应用",
+      "language": "TypeScript",
+      "stars": 14953,
+      "forks": 624,
+      "homepage": "https://weflow.top",
+      "license": "NOASSERTION",
+      "created_at": "2026-01-07T13:40:57Z",
+      "pushed_at": "2026-10-09T14:03:54Z",
+      "updated_at": "2026-10-11T17:02:30Z",
+      "open_issues": 99,
+      "summary": "WeFlow 是一个用 TypeScript 编写的本地微信聊天记录查看、分析与导出工具，所有处理都在本机完成。它主要解决聊天记录难以留存、检索和二次利用的问题，让用户能够实时浏览聊天内容，预览并解密朋友圈中的图片、视频和实况，同时提供统计分析与群聊画像、年度报告与可视化概览，并支持将记录导出为 HTML 等格式。面向开发者，它还提供本地 HTTP API 服务，默认监听 127.0.0.1:5031，可返回原始 JSON 或 ChatLab 标准格式，便于与其他工具集成或二次开发。需要注意的是，项目依赖自行设计的第三方原生解密组件，相关说明见文档。",
+      "windows": [
+        "weekly"
+      ],
+      "added_at": "2026-10-10T22:23:37+00:00",
+      "last_seen": "2026-10-11",
+      "seen_count": 2
+    },
+    {
       "owner": "dexie",
       "name": "Dexie.js",
       "full_name": "dexie/Dexie.js",
@@ -3815,6 +3931,29 @@
       ],
       "added_at": "2026-10-12T12:14:54+00:00",
       "last_seen": "2026-10-12",
+      "seen_count": 1
+    },
+    {
+      "owner": "Tencent",
+      "name": "BrowserSkill",
+      "full_name": "Tencent/BrowserSkill",
+      "url": "https://github.com/Tencent/BrowserSkill",
+      "description": "Let AI agents use your real, logged-in browser without interrupting your work. CLI + extension for browser automation across any shell-capable AI agent.",
+      "language": "TypeScript",
+      "stars": 8632,
+      "forks": 615,
+      "homepage": "",
+      "license": "MIT",
+      "created_at": "2026-06-22T07:24:40Z",
+      "pushed_at": "2026-10-10T14:41:48Z",
+      "updated_at": "2026-10-11T20:33:19Z",
+      "open_issues": 70,
+      "summary": "BrowserSkill 是腾讯开源的 TypeScript 项目，让 AI 智能体直接使用你已登录的 Chrome 或 Edge 浏览器，而无需打断你手头的工作。它由 bsk CLI 与浏览器扩展组成，可配合 Cursor、Claude Code、Codex 等支持 shell 的智能体使用，DeepSeek Harness 另有专用插件。任务在独立的可见 Agent 窗口中运行，也可临时借用现有标签页并在结束后归还。核心能力包括读取页面、填写表单、整页长截图、网站调试取证（请求、控制台、性能与接口分析、请求重放）以及远程模式，让浏览器留在本地、智能体跑在服务器上。",
+      "windows": [
+        "monthly"
+      ],
+      "added_at": "2026-10-11T22:24:21+00:00",
+      "last_seen": "2026-10-11",
       "seen_count": 1
     },
     {
@@ -4972,6 +5111,29 @@
       "seen_count": 1
     },
     {
+      "owner": "zenbu-labs",
+      "name": "terminal-browser",
+      "full_name": "zenbu-labs/terminal-browser",
+      "url": "https://github.com/zenbu-labs/terminal-browser",
+      "description": "A browser inside your terminal",
+      "language": "TypeScript",
+      "stars": 3785,
+      "forks": 180,
+      "homepage": "https://terminal-browser.com",
+      "license": "MIT",
+      "created_at": "2026-07-06T16:31:11Z",
+      "pushed_at": "2026-10-07T07:57:10Z",
+      "updated_at": "2026-10-10T21:12:52Z",
+      "open_issues": 91,
+      "summary": "terminal-browser 是一个用 TypeScript 编写的、在终端里运行真实浏览器的工具。它借助支持 kitty 图形协议的终端（如 ghostty、kitty、vscode 等）显示像素，通过 Electron 离屏渲染 API 从 GPU 读取 Chromium 生成的画面，只向终端发送变化区域的补丁以保持流畅，并监听鼠标、键盘和触控板事件合成输入。它解决了在终端环境中访问网页、让编码代理与网页同处一个终端标签的问题，支持 SSH 预览远程机器上的网站、嵌入现有 TUI，以及让代理直接操作浏览器。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-10T22:23:37+00:00",
+      "last_seen": "2026-10-10",
+      "seen_count": 1
+    },
+    {
       "owner": "phiresky",
       "name": "sql.js-httpvfs",
       "full_name": "phiresky/sql.js-httpvfs",
@@ -5480,6 +5642,29 @@
       "seen_count": 1
     },
     {
+      "owner": "CopilotKit",
+      "name": "OpenIntelligentUI",
+      "full_name": "CopilotKit/OpenIntelligentUI",
+      "url": "https://github.com/CopilotKit/OpenIntelligentUI",
+      "description": "Open-Source Generative UI Framework",
+      "language": "TypeScript",
+      "stars": 2646,
+      "forks": 303,
+      "homepage": "https://opengenerativeui.copilotkit.ai/",
+      "license": "MIT",
+      "created_at": "2026-03-12T20:40:06Z",
+      "pushed_at": "2026-10-09T16:02:43Z",
+      "updated_at": "2026-10-11T22:20:14Z",
+      "open_issues": 66,
+      "summary": "Open Intelligent UI 是一个基于 TypeScript 的开源生成式 UI 框架，用 CopilotKit 和 AG-UI 构建，把聊天问答变成可交互的解释、对比和工具。它解决的问题是：普通聊天只能返回文字，而这里由智能体根据任务自行选择直接文本、原生组件或自定义交互界面。核心能力包括三维演示、表格与图表对比、即时计算器、地图行程等，自定义 UI 通过 generateSandboxedUi 将 HTML、CSS 和 JavaScript 流式注入隔离 iframe，沙箱内的控件可经校验的桥接回传数值并触发新一轮智能体运行。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-11T22:24:21+00:00",
+      "last_seen": "2026-10-11",
+      "seen_count": 1
+    },
+    {
       "owner": "cartesiancs",
       "name": "map3d",
       "full_name": "cartesiancs/map3d",
@@ -5662,6 +5847,29 @@
       ],
       "added_at": "2026-10-12T12:41:30+00:00",
       "last_seen": "2026-10-12",
+      "seen_count": 1
+    },
+    {
+      "owner": "getnao",
+      "name": "nao",
+      "full_name": "getnao/nao",
+      "url": "https://github.com/getnao/nao",
+      "description": "👾 nao is an open source analytics agent. (1) Create context with nao-core cli, (2) deploy nao chat interface for everyone",
+      "language": "TypeScript",
+      "stars": 1905,
+      "forks": 282,
+      "homepage": "https://docs.getnao.io",
+      "license": "NOASSERTION",
+      "created_at": "2025-12-30T18:33:25Z",
+      "pushed_at": "2026-10-09T18:40:34Z",
+      "updated_at": "2026-10-11T20:24:36Z",
+      "open_issues": 267,
+      "summary": "nao 是一个开源分析智能体框架，用 TypeScript 编写，目标是让数据团队构建并部署可对话的数据分析代理。它通过 nao-core 命令行工具创建代理上下文，把数据、元数据、建模、规则、文档、工具和 MCP 等内容以文件系统式结构组织起来，不限定数据仓库、技术栈或 LLM。部署后，业务用户可以用自然语言提问，直接在聊天界面获得分析结果并创建可视化，同时能看到推理过程和来源，还能对回答给出反馈。数据团队可在部署前用单元测试评估代理表现，对上下文做版本管理并跟踪性能变化，支持自托管和自有 LLM 密钥。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-11T22:24:21+00:00",
+      "last_seen": "2026-10-11",
       "seen_count": 1
     },
     {

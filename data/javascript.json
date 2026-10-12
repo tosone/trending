@@ -6,9 +6,9 @@
     "weekly",
     "monthly"
   ],
-  "generated_at": "2026-10-12T12:42:45+00:00",
+  "generated_at": "2026-10-12T14:19:35+00:00",
   "first_at": "2026-10-09T10:50:04+00:00",
-  "count": 342,
+  "count": 348,
   "added": 0,
   "repos": [
     {
@@ -963,6 +963,30 @@
       "seen_count": 1
     },
     {
+      "owner": "poteto",
+      "name": "hiring-without-whiteboards",
+      "full_name": "poteto/hiring-without-whiteboards",
+      "url": "https://github.com/poteto/hiring-without-whiteboards",
+      "description": "⭐️  Companies that don't have a broken hiring process",
+      "language": "JavaScript",
+      "stars": 52586,
+      "forks": 3961,
+      "homepage": "",
+      "license": "MIT",
+      "created_at": "2017-03-15T05:09:01Z",
+      "pushed_at": "2026-09-24T04:48:39Z",
+      "updated_at": "2026-10-11T21:26:42Z",
+      "open_issues": 10,
+      "summary": "hiring-without-whiteboards 是一份由社区维护的公司与团队清单，专门收录那些不采用“白板面试”的雇主。这里的“白板”是隐喻，指代与糟糕面试实践相关的计算机科学冷知识题，例如 HackerRank、LeetCode 一类刷题平台上的题目。该项目要解决的问题是：许多技术面试用脱离日常工作的谜题和脑筋急转弯筛选候选人，无法反映真实工程能力。清单中的公司改用贴近实际工作的方式，比如结对解决真实问题、带薪或不带薪的回家作业、设计讨论、技术面试加行为面试等。",
+      "windows": [
+        "daily",
+        "weekly"
+      ],
+      "added_at": "2026-10-10T22:23:27+00:00",
+      "last_seen": "2026-10-11",
+      "seen_count": 2
+    },
+    {
       "owner": "prettier",
       "name": "prettier",
       "full_name": "prettier/prettier",
@@ -1446,6 +1470,29 @@
       "seen_count": 1
     },
     {
+      "owner": "freestylefly",
+      "name": "awesome-gpt-image-2",
+      "full_name": "freestylefly/awesome-gpt-image-2",
+      "url": "https://github.com/freestylefly/awesome-gpt-image-2",
+      "description": "Prompt as Code | GPT Image 2 / 2.5 提示词与案例库，530+ 个案例、20+ 套工业级模板与可复用 Skills，新增 2.5 同提示词对比专区，附完整提示词与生成记录，持续更新。",
+      "language": "JavaScript",
+      "stars": 34266,
+      "forks": 3265,
+      "homepage": "https://gpt-image2.canghe.ai",
+      "license": "MIT",
+      "created_at": "2026-04-25T09:19:13Z",
+      "pushed_at": "2026-10-09T14:23:36Z",
+      "updated_at": "2026-10-10T21:57:12Z",
+      "open_issues": 27,
+      "summary": "awesome-gpt-image-2 是一个面向 GPT Image 2 / 2.5 的提示词与案例库，核心思路是「Prompt as Code」，把社区里零散的出图经验整理成结构化、可复用的资产。它收录了 530 多个案例和 20 多套工业级模板，覆盖 UI 界面、图表信息图、海报排版、电商产品、品牌标识、建筑空间、摄影写实、插画艺术、人物角色、场景叙事、国风历史、文档出版等十余个分类，每个案例都附带完整提示词与生成记录。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-10T22:23:27+00:00",
+      "last_seen": "2026-10-10",
+      "seen_count": 3
+    },
+    {
       "owner": "gethomepage",
       "name": "homepage",
       "full_name": "gethomepage/homepage",
@@ -1628,6 +1675,30 @@
       "added_at": "2026-10-12T12:11:31+00:00",
       "last_seen": "2026-10-12",
       "seen_count": 1
+    },
+    {
+      "owner": "greensock",
+      "name": "GSAP",
+      "full_name": "greensock/GSAP",
+      "url": "https://github.com/greensock/GSAP",
+      "description": "GSAP (GreenSock Animation Platform), a JavaScript animation library for the modern web",
+      "language": "JavaScript",
+      "stars": 29070,
+      "forks": 2250,
+      "homepage": "https://gsap.com",
+      "license": "",
+      "created_at": "2012-09-21T18:03:25Z",
+      "pushed_at": "2026-04-13T13:08:58Z",
+      "updated_at": "2026-10-11T22:16:42Z",
+      "open_issues": 7,
+      "summary": "GSAP 是一个与框架无关的 JavaScript 动画库，核心是一个高速属性操纵器，能按时间精确更新数值，性能可达 jQuery 的 20 倍，且零依赖。它抹平了各浏览器之间的差异，让动画在主流浏览器中稳定运行，可对 CSS、SVG、canvas、React、Vue、WebGL、颜色、字符串、运动路径和普通对象等任何 JavaScript 能触及的内容做动画。其 ScrollTrigger 插件能用极简代码实现滚动驱动动画，gsap.matchMedia() 便于构建响应式且兼顾无障碍的动画，另有 morphing、文本拆分、FLIP、Observer 等可选插件与缓动函数。",
+      "windows": [
+        "daily",
+        "weekly"
+      ],
+      "added_at": "2026-10-10T22:23:27+00:00",
+      "last_seen": "2026-10-11",
+      "seen_count": 2
     },
     {
       "owner": "swagger-api",
@@ -2068,6 +2139,29 @@
       ],
       "added_at": "2026-10-12T12:11:21+00:00",
       "last_seen": "2026-10-12",
+      "seen_count": 1
+    },
+    {
+      "owner": "MagicMirrorOrg",
+      "name": "MagicMirror",
+      "full_name": "MagicMirrorOrg/MagicMirror",
+      "url": "https://github.com/MagicMirrorOrg/MagicMirror",
+      "description": "MagicMirror² is an open source modular smart mirror platform. With a growing list of installable modules, the MagicMirror² allows you to convert your hallway or bathroom mirror into your personal assistant.",
+      "language": "JavaScript",
+      "stars": 24049,
+      "forks": 4576,
+      "homepage": "https://magicmirror.builders",
+      "license": "MIT",
+      "created_at": "2014-02-19T15:48:09Z",
+      "pushed_at": "2026-10-11T20:28:30Z",
+      "updated_at": "2026-10-11T20:52:24Z",
+      "open_issues": 5,
+      "summary": "MagicMirror² 是一个开源模块化智能镜子平台，旨在把走廊或浴室里的普通镜子变成个人助理。它通过可安装的模块扩展功能，用户能按需组合信息展示。项目采用模块化插件系统，并以 Electron 作为应用封装，因此无需再搭建 Web 服务器或安装浏览器即可运行，主要语言为 JavaScript。它适合在家中镜面上显示日程、天气等日常信息，也适合开发者基于模块机制进行二次开发。官方提供完整文档网站、论坛、Discord 技术讨论和博客等资源，并欢迎代码之外的缺陷报告、文档和翻译等贡献。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-11T22:24:12+00:00",
+      "last_seen": "2026-10-11",
       "seen_count": 1
     },
     {
@@ -3179,6 +3273,29 @@
       "windows": [
         "daily"
       ]
+    },
+    {
+      "owner": "qist",
+      "name": "tvbox",
+      "full_name": "qist/tvbox",
+      "url": "https://github.com/qist/tvbox",
+      "description": "OK影视、tvbox配置文件，如果喜欢，请Fork自用。使用前请仔细阅读仓库说明，一旦使用将被视为你已了解。",
+      "language": "JavaScript",
+      "stars": 11874,
+      "forks": 4193,
+      "homepage": "",
+      "license": "",
+      "created_at": "2023-08-29T01:07:25Z",
+      "pushed_at": "2026-10-11T05:33:31Z",
+      "updated_at": "2026-10-11T22:19:48Z",
+      "open_issues": 27,
+      "summary": "qist/tvbox 是一套面向 OK影视、TVBox 和猫影视的配置文件集合，主要用 JavaScript 编写，解决的是用户自行搭建影视聚合客户端时缺少可用配置源的问题。仓库提供十余个 JSON 配置，如 0707.json、0821.json、0826.json、js.json、cat.json 等，分别对应不同 jar 包与点播、直播、解析线路组合，其中部分配置需要替换成自己的代理地址。猫影视使用上支持通过 GitHub 或 Gitee 私有仓库导入，V1.1.3 以上版本改用 nodejs 并调整了 proxy 设置，iOS 端用 db 替换 local。",
+      "windows": [
+        "monthly"
+      ],
+      "added_at": "2026-10-11T22:24:12+00:00",
+      "last_seen": "2026-10-11",
+      "seen_count": 1
     },
     {
       "owner": "tj",
@@ -7927,6 +8044,30 @@
       "windows": [
         "daily"
       ]
+    },
+    {
+      "owner": "MiaAI-Lab",
+      "name": "sparkDash",
+      "full_name": "MiaAI-Lab/sparkDash",
+      "url": "https://github.com/MiaAI-Lab/sparkDash",
+      "description": "sparkDash ⚡ — Multi-DGX Spark Monitoring Dashboard",
+      "language": "JavaScript",
+      "stars": 659,
+      "forks": 132,
+      "homepage": "https://mia-ai.net",
+      "license": "Apache-2.0",
+      "created_at": "2026-07-19T18:35:36Z",
+      "pushed_at": "2026-10-11T14:06:22Z",
+      "updated_at": "2026-10-11T22:17:24Z",
+      "open_issues": 14,
+      "summary": "sparkDash 是一个面向 NVIDIA DGX Spark（GB10）的实时监控面板，用 JavaScript 编写，可在单个浏览器窗口中同时查看一台或多台设备。它通过 SSH 采集并流式展示 GPU、CPU、统一内存、存储、网络以及本地大模型推理等指标，并允许在界面上直接添加、编辑、排序或删除被监控主机，无需重启或改动代码。除 Spark 外，任何装有 NVIDIA GPU 的 Linux 机器都可作为独立 GPU 主机接入，面板会区分系统内存与显存；被监控端也可运行 Linux、macOS 或 Windows。",
+      "windows": [
+        "daily",
+        "weekly"
+      ],
+      "added_at": "2026-10-11T22:24:12+00:00",
+      "last_seen": "2026-10-11",
+      "seen_count": 1
     }
   ]
 }

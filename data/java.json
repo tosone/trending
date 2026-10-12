@@ -6,9 +6,9 @@
     "weekly",
     "monthly"
   ],
-  "generated_at": "2026-10-12T12:42:45+00:00",
+  "generated_at": "2026-10-12T14:19:35+00:00",
   "first_at": "2026-10-09T11:22:02+00:00",
-  "count": 92,
+  "count": 109,
   "added": 0,
   "repos": [
     {
@@ -315,6 +315,52 @@
       "seen_count": 1
     },
     {
+      "owner": "skylot",
+      "name": "jadx",
+      "full_name": "skylot/jadx",
+      "url": "https://github.com/skylot/jadx",
+      "description": "Dex to Java decompiler",
+      "language": "Java",
+      "stars": 50837,
+      "forks": 5797,
+      "homepage": "",
+      "license": "Apache-2.0",
+      "created_at": "2013-03-18T17:08:21Z",
+      "pushed_at": "2026-10-10T23:29:52Z",
+      "updated_at": "2026-10-11T19:27:43Z",
+      "open_issues": 450,
+      "summary": "jadx 是一款用 Java 编写的 Dex 到 Java 反编译器，提供命令行和图形界面两种工具，用于从 Android 的 Dex 和 Apk 文件中生成 Java 源代码。它主要解决 Android 应用逆向分析中阅读字节码困难的问题，可将 APK、dex、aar、aab 和 zip 文件中的 Dalvik 字节码反编译为 Java 代码，并能解码 AndroidManifest.xml 及 resources.arsc 中的资源，还内置了反混淆器。其图形界面 jadx-gui 支持语法高亮、跳转到声明、查找用法、全文搜索以及 smali 调试器。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-10T22:23:57+00:00",
+      "last_seen": "2026-10-11",
+      "seen_count": 2
+    },
+    {
+      "owner": "ReactiveX",
+      "name": "RxJava",
+      "full_name": "ReactiveX/RxJava",
+      "url": "https://github.com/ReactiveX/RxJava",
+      "description": "RxJava – Reactive Extensions for the JVM – a library for composing asynchronous and event-based programs using observable sequences for the Java VM.",
+      "language": "Java",
+      "stars": 48258,
+      "forks": 7585,
+      "homepage": "https://dsc.gg/rxjava",
+      "license": "Apache-2.0",
+      "created_at": "2013-01-08T20:11:48Z",
+      "pushed_at": "2026-10-05T05:02:37Z",
+      "updated_at": "2026-10-10T18:53:19Z",
+      "open_issues": 11,
+      "summary": "RxJava 是 Reactive Extensions 在 Java 虚拟机上的实现，用于以可观察序列的方式组合异步和基于事件的程序。它扩展了观察者模式，使其支持数据或事件序列，并引入操作符，让开发者能以声明式方式组合序列，同时屏蔽底层线程、同步、线程安全和并发数据结构等细节。其核心类型包括支持背压的 Flowable、不支持背压的 Observable，以及 Single、Completable、Maybe 和基于虚拟线程阻塞的 Streamable。背压机制让异步流程中的各步骤能表达可处理的数据量，从而约束内存占用。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-10T22:23:57+00:00",
+      "last_seen": "2026-10-10",
+      "seen_count": 1
+    },
+    {
       "owner": "jeecgboot",
       "name": "JeecgBoot",
       "full_name": "jeecgboot/JeecgBoot",
@@ -474,6 +520,29 @@
       ],
       "added_at": "2026-10-12T12:11:31+00:00",
       "last_seen": "2026-10-12",
+      "seen_count": 1
+    },
+    {
+      "owner": "SeleniumHQ",
+      "name": "selenium",
+      "full_name": "SeleniumHQ/selenium",
+      "url": "https://github.com/SeleniumHQ/selenium",
+      "description": "A browser automation framework and ecosystem.",
+      "language": "Java",
+      "stars": 34522,
+      "forks": 8716,
+      "homepage": "https://selenium.dev",
+      "license": "Apache-2.0",
+      "created_at": "2013-01-14T21:40:56Z",
+      "pushed_at": "2026-10-10T19:15:25Z",
+      "updated_at": "2026-10-10T19:30:09Z",
+      "open_issues": 186,
+      "summary": "Selenium 是一个浏览器自动化框架与生态项目，核心目标是为 Web 浏览器自动化提供基础设施。它实现了 W3C WebDriver 规范，提供与平台和语言无关的编程接口，兼容所有主流浏览器，因此可用于跨浏览器的自动化测试与操作。项目以 Java 为主要语言，采用 Bazel 构建，并通过 Rake 包装命令（./go）简化构建、测试与发布流程，依赖统一在 MODULE.bazel 中管理。开发者可使用 IntelliJ 配合 Bazel 插件进行开发，并借助 Google Java Format 等工具完成代码格式化。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-10T22:23:57+00:00",
+      "last_seen": "2026-10-10",
       "seen_count": 1
     },
     {
@@ -685,6 +754,29 @@
       "seen_count": 5
     },
     {
+      "owner": "OpenAPITools",
+      "name": "openapi-generator",
+      "full_name": "OpenAPITools/openapi-generator",
+      "url": "https://github.com/OpenAPITools/openapi-generator",
+      "description": "OpenAPI Generator allows generation of API client libraries (SDK generation), server stubs, documentation and configuration automatically given an OpenAPI Spec (v2, v3)",
+      "language": "Java",
+      "stars": 26784,
+      "forks": 7705,
+      "homepage": "https://openapi-generator.tech",
+      "license": "Apache-2.0",
+      "created_at": "2018-05-12T09:57:56Z",
+      "pushed_at": "2026-10-09T12:51:17Z",
+      "updated_at": "2026-10-10T08:58:37Z",
+      "open_issues": 5749,
+      "summary": "OpenAPI Generator 是一个基于 Java 的命令行工具与代码生成框架，能够根据 OpenAPI 规范（支持 2.0 与 3.0，并对 3.1 提供 beta 支持）自动生成 API 客户端库、服务端桩代码、文档和配置。它解决的是手写 SDK 与接口代码重复、易出错的问题，让开发者只需维护一份规范文件即可同步产出多语言代码。其核心能力在于覆盖大量语言与框架的生成器模板，并支持通过 Maven、Gradle 插件、Docker 镜像、Homebrew、NPM、pip 等多种方式安装与集成，可嵌入 CI/CD 流程。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-10T22:23:57+00:00",
+      "last_seen": "2026-10-10",
+      "seen_count": 1
+    },
+    {
       "owner": "jenkinsci",
       "name": "jenkins",
       "full_name": "jenkinsci/jenkins",
@@ -728,6 +820,29 @@
       ],
       "added_at": "2026-10-12T12:11:08+00:00",
       "last_seen": "2026-10-12",
+      "seen_count": 1
+    },
+    {
+      "owner": "libgdx",
+      "name": "libgdx",
+      "full_name": "libgdx/libgdx",
+      "url": "https://github.com/libgdx/libgdx",
+      "description": "Desktop/Android/HTML5/iOS Java game development framework",
+      "language": "Java",
+      "stars": 25476,
+      "forks": 6517,
+      "homepage": "http://www.libgdx.com/",
+      "license": "Apache-2.0",
+      "created_at": "2012-08-10T19:34:38Z",
+      "pushed_at": "2026-10-06T14:04:50Z",
+      "updated_at": "2026-10-10T20:36:46Z",
+      "open_issues": 343,
+      "summary": "libGDX 是一个基于 OpenGL（ES）的跨平台 Java 游戏开发框架，面向 Windows、Linux、macOS、Android、网页浏览器和 iOS。它解决的是同一套 Java 代码需要覆盖桌面、移动端和网页等多平台的问题，提供稳定成熟的环境以支持快速原型和迭代开发。与其他框架不同，libGDX 不强制特定的设计或编码风格，开发者可以按自己的偏好组织游戏。它内置了开发多平台 2D 和 3D 游戏所需的工具与功能，并拥有活跃的第三方生态，相关库和工具可简化开发任务。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-10T22:23:57+00:00",
+      "last_seen": "2026-10-10",
       "seen_count": 1
     },
     {
@@ -1193,6 +1308,53 @@
       "seen_count": 1
     },
     {
+      "owner": "spring-projects",
+      "name": "spring-ai",
+      "full_name": "spring-projects/spring-ai",
+      "url": "https://github.com/spring-projects/spring-ai",
+      "description": "An Application Framework for AI Engineering",
+      "language": "Java",
+      "stars": 9531,
+      "forks": 2961,
+      "homepage": "https://spring.io/projects/spring-ai ",
+      "license": "Apache-2.0",
+      "created_at": "2023-06-27T18:57:29Z",
+      "pushed_at": "2026-10-09T17:30:15Z",
+      "updated_at": "2026-10-11T15:30:09Z",
+      "open_issues": 1496,
+      "summary": "Spring AI 是面向 Java 开发者的 AI 应用框架，为构建 AI 应用提供符合 Spring 生态习惯的 API 与抽象。它试图解决的核心问题是：如何把企业已有的数据和 API 与各类 AI 模型连接起来。框架将 Spring 的可移植性与模块化设计思路引入 AI 领域，强调以强类型数据结构和 API 作为应用的基本构件。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-10T22:23:57+00:00",
+      "last_seen": "2026-10-11",
+      "seen_count": 2
+    },
+    {
+      "owner": "PojavLauncherTeam",
+      "name": "PojavLauncher",
+      "full_name": "PojavLauncherTeam/PojavLauncher",
+      "url": "https://github.com/PojavLauncherTeam/PojavLauncher",
+      "description": "A Minecraft: Java Edition Launcher for Android and iOS based on Boardwalk. Succeeded by https://github.com/AngelAuraMC/Amethyst-Android",
+      "language": "Java",
+      "stars": 9424,
+      "forks": 2384,
+      "homepage": "",
+      "license": "LGPL-3.0",
+      "created_at": "2020-03-11T03:22:54Z",
+      "pushed_at": "2025-09-23T20:12:28Z",
+      "updated_at": "2026-10-11T19:36:28Z",
+      "open_issues": 121,
+      "archived": true,
+      "summary": "PojavLauncher 是一个基于 Boardwalk 的 Minecraft Java 版启动器，让玩家能在 Android 和 iOS 设备上运行 Java 版游戏。它解决了移动端无法直接运行 Java 版 Minecraft 的问题，支持从 rd-132211 到 1.21 快照的几乎所有版本，并兼容 Forge 和 Fabric 模组。项目使用 Java 开发，集成了 OpenJDK 8、17、21 的移动端移植，支持 OpenGL、OpenAL 及多架构，还提供无头与图形界面的模组安装器。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-11T22:24:42+00:00",
+      "last_seen": "2026-10-11",
+      "seen_count": 1
+    },
+    {
       "owner": "apache",
       "name": "iceberg",
       "full_name": "apache/iceberg",
@@ -1214,6 +1376,29 @@
       "added_at": "2026-10-09T11:22:02+00:00",
       "last_seen": "2026-10-10",
       "seen_count": 5
+    },
+    {
+      "owner": "cabaletta",
+      "name": "baritone",
+      "full_name": "cabaletta/baritone",
+      "url": "https://github.com/cabaletta/baritone",
+      "description": "google maps for block game",
+      "language": "Java",
+      "stars": 9285,
+      "forks": 2063,
+      "homepage": "",
+      "license": "LGPL-3.0",
+      "created_at": "2018-08-01T15:34:21Z",
+      "pushed_at": "2026-09-29T18:45:52Z",
+      "updated_at": "2026-10-11T19:36:00Z",
+      "open_issues": 920,
+      "summary": "Baritone 是一个用 Java 编写的 Minecraft 寻路机器人，被称为“方块游戏里的谷歌地图”。它解决的是在 Minecraft 世界中自动规划并执行移动路径的问题，最初是 MineBot 的重建版本，自 1.12.2 起持续更新，计算路径的速度远快于原版。其核心能力是通过聊天栏指令控制，例如输入 #goto 1000 500 可前往指定坐标，#mine diamond_ore 可自动挖掘钻石矿，#stop 用于停止，还支持在下界用烟花进行鞘翅飞行。它注重可靠性与性能，并提供文档完善的 API，允许开发者在符合条件的前提下将其作为库集成到自定义客户端中。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-11T22:24:42+00:00",
+      "last_seen": "2026-10-11",
+      "seen_count": 1
     },
     {
       "owner": "pentaho",
@@ -1239,6 +1424,29 @@
       "seen_count": 1
     },
     {
+      "owner": "AntennaPod",
+      "name": "AntennaPod",
+      "full_name": "AntennaPod/AntennaPod",
+      "url": "https://github.com/AntennaPod/AntennaPod",
+      "description": "A podcast manager for Android",
+      "language": "Java",
+      "stars": 8213,
+      "forks": 1816,
+      "homepage": "https://antennapod.org",
+      "license": "GPL-3.0",
+      "created_at": "2012-07-31T10:25:08Z",
+      "pushed_at": "2026-10-04T09:48:49Z",
+      "updated_at": "2026-10-10T07:22:58Z",
+      "open_issues": 376,
+      "summary": "AntennaPod 是一款面向 Android 平台的播客管理应用，使用 Java 开发，其官方仓库提供了完整源码。它主要解决用户在 Android 设备上订阅、收听和管理播客的需求，以易用和灵活为设计目标。应用支持播客订阅、播放与下载等基础功能，并允许用户通过论坛反馈问题、提交缺陷报告或功能请求。项目设有 Beta 测试计划，鼓励用户参与测试，以便在稳定版发布前发现并修复问题。社区还会定期举行电话会议讨论相关事务。翻译工作通过 Weblate 平台协作完成，构建方式与常规 Android 项目一致，具体步骤可参考仓库内说明。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-10T22:23:57+00:00",
+      "last_seen": "2026-10-10",
+      "seen_count": 1
+    },
+    {
       "owner": "Suwayomi",
       "name": "Suwayomi-Server",
       "full_name": "Suwayomi/Suwayomi-Server",
@@ -1260,6 +1468,29 @@
       "added_at": "2026-10-09T11:22:02+00:00",
       "last_seen": "2026-10-10",
       "seen_count": 5
+    },
+    {
+      "owner": "logisim-evolution",
+      "name": "logisim-evolution",
+      "full_name": "logisim-evolution/logisim-evolution",
+      "url": "https://github.com/logisim-evolution/logisim-evolution",
+      "description": "Digital logic design tool and simulator",
+      "language": "Java",
+      "stars": 7746,
+      "forks": 1033,
+      "homepage": "",
+      "license": "GPL-3.0",
+      "created_at": "2014-09-19T05:23:24Z",
+      "pushed_at": "2026-10-09T10:27:28Z",
+      "updated_at": "2026-10-11T21:01:05Z",
+      "open_issues": 127,
+      "summary": "Logisim-evolution 是一款用于设计和仿真数字逻辑电路的教育软件，基于 Java 开发，可跨平台运行，需要 Java 21 或更高版本。它主要解决数字电路教学与实验中的设计与验证问题，提供易用的电路设计器、逻辑仿真、时序图查看信号变化，并支持将电路部署到真实硬件上运行。其核心特点包括支持 VHDL 组件定义、TCL/TK 控制台交互、丰富的元件库（如 LED、TTL、开关、SoC），还允许启动时加载自定义库并支持多语言。典型使用场景是课堂教学、自学数字逻辑以及电子工程入门实践，用户可通过 Windows、macOS、Linux 的安装包或 JAR 文件直接运行。",
+      "windows": [
+        "monthly"
+      ],
+      "added_at": "2026-10-11T22:24:42+00:00",
+      "last_seen": "2026-10-11",
+      "seen_count": 1
     },
     {
       "owner": "enso-org",
@@ -1377,6 +1608,29 @@
       "seen_count": 1
     },
     {
+      "owner": "SuperMonster003",
+      "name": "AutoJs6",
+      "full_name": "SuperMonster003/AutoJs6",
+      "url": "https://github.com/SuperMonster003/AutoJs6",
+      "description": "安卓平台 JavaScript 自动化工具 (Auto.js 二次开发项目)",
+      "language": "Java",
+      "stars": 6455,
+      "forks": 1785,
+      "homepage": "https://docs.autojs6.com",
+      "license": "MPL-2.0",
+      "created_at": "2021-12-01T05:27:22Z",
+      "pushed_at": "2026-03-16T14:48:05Z",
+      "updated_at": "2026-10-10T14:32:15Z",
+      "open_issues": 344,
+      "summary": "AutoJs6 是 Android 平台支持无障碍服务的 JavaScript 自动化工具，基于 2017 年发布、2020 年停止维护的 Auto.js 最终版本进行二次开发，自 2021 年底起持续开源免费。它主要解决在安卓设备上实现自动化操作与脚本开发的问题，核心能力包括：作为 JavaScript IDE 提供代码补全、变量重命名与格式化；基于无障碍服务执行点击、滑动等自动化操作；支持选择器 API、布局分析、录制回放、屏幕截图与图片找色匹配；支持 E4X 编写界面、打包脚本为 APK、Root 权限扩展以及作为 Tasker 插件使用。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-10T22:23:57+00:00",
+      "last_seen": "2026-10-10",
+      "seen_count": 1
+    },
+    {
       "owner": "TGX-Android",
       "name": "Telegram-X",
       "full_name": "TGX-Android/Telegram-X",
@@ -1399,6 +1653,29 @@
       "added_at": "2026-10-09T11:22:02+00:00",
       "last_seen": "2026-10-10",
       "seen_count": 6
+    },
+    {
+      "owner": "agentscope-ai",
+      "name": "agentscope-java",
+      "full_name": "agentscope-ai/agentscope-java",
+      "url": "https://github.com/agentscope-ai/agentscope-java",
+      "description": "Build distributed, production-grade, long-running agents.",
+      "language": "Java",
+      "stars": 5924,
+      "forks": 1465,
+      "homepage": "https://java.agentscope.io/",
+      "license": "Apache-2.0",
+      "created_at": "2025-09-23T04:37:43Z",
+      "pushed_at": "2026-10-11T14:41:25Z",
+      "updated_at": "2026-10-11T18:20:44Z",
+      "open_issues": 887,
+      "summary": "AgentScope Java 2.0 是一个面向生产环境的 Java 智能体框架，用于构建分布式、可长期运行的企业级智能体。它解决的核心问题是让智能体从单轮推理走向可运维的生产系统：通过统一事件流（31 种类型事件）支持实时前端渲染与人机协同，通过允许、需审批、拒绝三态权限系统管控工具调用，通过 AOP 风格中间件在推理与行动循环上灵活扩展，并借助本地、Docker、Kubernetes 或云沙箱隔离运行工具。框架支持多智能体编排与跨副本会话恢复，会话与记忆可持久化到 Redis、MySQL、PostgreSQL 等存储，实现无状态水平扩展与多租户隔离。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-10T22:23:57+00:00",
+      "last_seen": "2026-10-11",
+      "seen_count": 2
     },
     {
       "owner": "GeyserMC",
@@ -1473,6 +1750,29 @@
       "seen_count": 5
     },
     {
+      "owner": "iflytek",
+      "name": "skillhub",
+      "full_name": "iflytek/skillhub",
+      "url": "https://github.com/iflytek/skillhub",
+      "description": "Self-hosted, open-source agent skill registry for enterprises. Publish & version skill packages, govern with RBAC and audit logs, deploy   on-premise with Docker or Kubernetes.",
+      "language": "Java",
+      "stars": 5172,
+      "forks": 841,
+      "homepage": "https://skill.xfyun.cn",
+      "license": "Apache-2.0",
+      "created_at": "2026-03-11T12:17:05Z",
+      "pushed_at": "2026-10-10T10:43:04Z",
+      "updated_at": "2026-10-11T17:33:39Z",
+      "open_issues": 41,
+      "summary": "SkillHub 是科大讯飞开源的企业级 Agent 技能注册中心，用 Java 编写，支持私有化部署。它为团队提供一个受治理的内部空间，用于发布、发现和管理可复用的技能包，解决企业内技能分散、缺乏版本与权限管理的问题。核心能力包括：语义化版本发布与标签管理、按命名空间和下载量等条件的全文检索、团队命名空间的成员与角色划分、基于 RBAC 的审核与审计日志、星标评分等社交功能，以及多 OAuth 身份与 API Token 的账户合并。存储可插拔，开发用本地文件系统，生产可切换 S3 或 MinIO。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-10T22:23:57+00:00",
+      "last_seen": "2026-10-11",
+      "seen_count": 2
+    },
+    {
       "owner": "grobidOrg",
       "name": "grobid",
       "full_name": "grobidOrg/grobid",
@@ -1539,6 +1839,29 @@
       ],
       "added_at": "2026-10-12T12:42:20+00:00",
       "last_seen": "2026-10-12",
+      "seen_count": 1
+    },
+    {
+      "owner": "emanuele-f",
+      "name": "PCAPdroid",
+      "full_name": "emanuele-f/PCAPdroid",
+      "url": "https://github.com/emanuele-f/PCAPdroid",
+      "description": "No-root network monitor, firewall and PCAP dumper for Android",
+      "language": "Java",
+      "stars": 4898,
+      "forks": 558,
+      "homepage": "https://emanuele-f.github.io/PCAPdroid",
+      "license": "GPL-3.0",
+      "created_at": "2020-01-06T18:11:27Z",
+      "pushed_at": "2026-09-26T08:14:11Z",
+      "updated_at": "2026-10-11T17:32:46Z",
+      "open_issues": 42,
+      "summary": "PCAPdroid 是一款面向 Android 的免 root 网络监控、防火墙与 PCAP 抓包工具，使用 Java 编写。它通过模拟 VPN 在本地捕获流量，无需远程服务器，可记录并分析用户及系统应用的连接，统计各应用收发数据量，并从 DNS、TLS 和 HTTP 中提取主机与 IP 信息。它支持将流量保存为 PCAP 文件、通过 PCAP-over-IP 发送到 Wireshark 实时分析、解密 HTTPS/TLS 流量并导出 SSLKEYLOGFILE、检查 HTTP 请求并导出 HAR，还可借助离线数据库识别服务器国家与 ASN。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-11T22:24:42+00:00",
+      "last_seen": "2026-10-11",
       "seen_count": 1
     },
     {
@@ -1677,6 +2000,29 @@
       ],
       "added_at": "2026-10-12T12:42:12+00:00",
       "last_seen": "2026-10-12",
+      "seen_count": 1
+    },
+    {
+      "owner": "woheller69",
+      "name": "FreeDroidWarn",
+      "full_name": "woheller69/FreeDroidWarn",
+      "url": "https://github.com/woheller69/FreeDroidWarn",
+      "description": "",
+      "language": "Java",
+      "stars": 3600,
+      "forks": 139,
+      "homepage": "",
+      "license": "Apache-2.0",
+      "created_at": "2025-08-26T11:53:34Z",
+      "pushed_at": "2026-09-09T06:05:41Z",
+      "updated_at": "2026-10-10T20:11:49Z",
+      "open_issues": 13,
+      "summary": "FreeDroidWarn 是一个用 Java 编写的 Android 库，针对 Google 计划从 2026/2027 年起要求所有认证设备上的应用开发者提交身份验证的新规，提供一段弃用警告对话框。开发者可将该库集成到自己的项目中，在应用内提示用户：由于开发者不同意向 Google 提交个人身份信息，该应用届时将无法在装有 Google Play 服务的认证设备上运行。其核心能力是弹出包含说明文字和反对理由的警告弹窗，并引导用户前往 Keep Android Open 了解更多信息。",
+      "windows": [
+        "weekly"
+      ],
+      "added_at": "2026-10-10T22:23:57+00:00",
+      "last_seen": "2026-10-10",
       "seen_count": 1
     },
     {
@@ -2073,6 +2419,29 @@
       "seen_count": 1
     },
     {
+      "owner": "MojoLauncher",
+      "name": "MojoLauncher",
+      "full_name": "MojoLauncher/MojoLauncher",
+      "url": "https://github.com/MojoLauncher/MojoLauncher",
+      "description": "A Minecraft: Java Edition launcher, based on PojavLauncher",
+      "language": "Java",
+      "stars": 1031,
+      "forks": 434,
+      "homepage": "",
+      "license": "LGPL-3.0",
+      "created_at": "2025-03-19T14:50:52Z",
+      "pushed_at": "2026-10-10T17:54:44Z",
+      "updated_at": "2026-10-11T10:19:21Z",
+      "open_issues": 194,
+      "summary": "MojoLauncher 是一款基于 PojavLauncher 的 Minecraft Java 版安卓启动器，用 Java 编写，目标是让安卓设备也能运行几乎全部 Minecraft 版本，从 rd-132211 到 26.x 快照（含战斗测试版）。它支持通过 Forge、Fabric 安装模组加载器，也能用 .jar 安装器装 OptiFine 等模组，并可直接导入 mrpack 或 CurseForge 整合包。启动器已实现实例系统、开箱即用的 1.21.5 支持，并正在推进 LTW 渲染改进、模组管理工具、MMC 实例导入和 Vintage Story 支持等路线图项目。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-11T22:24:42+00:00",
+      "last_seen": "2026-10-11",
+      "seen_count": 2
+    },
+    {
       "owner": "Keeperorowner",
       "name": "NagramXF",
       "full_name": "Keeperorowner/NagramXF",
@@ -2117,6 +2486,29 @@
       "added_at": "2026-10-09T11:22:02+00:00",
       "last_seen": "2026-10-10",
       "seen_count": 5
+    },
+    {
+      "owner": "zed-0xff",
+      "name": "ZombieBuddy",
+      "full_name": "zed-0xff/ZombieBuddy",
+      "url": "https://github.com/zed-0xff/ZombieBuddy",
+      "description": "Java agent framework for Project Zomboid that enables runtime bytecode patching using ByteBuddy. Annotation-based API for modding game classes without source code access.",
+      "language": "Java",
+      "stars": 208,
+      "forks": 52,
+      "homepage": "",
+      "license": "MIT",
+      "created_at": "2025-12-03T13:34:00Z",
+      "pushed_at": "2026-10-08T17:29:51Z",
+      "updated_at": "2026-10-11T21:13:43Z",
+      "open_issues": 26,
+      "summary": "ZombieBuddy 是一个面向《Project Zomboid》模组开发者的 Java agent 框架，基于 ByteBuddy 实现运行时字节码修改，让模组作者无需获取游戏源码即可改动游戏类。它解决了以往 Java 模组需要打包 .class 文件并手动替换游戏文件的问题：补丁在运行时自动加载应用，可精准定位到具体方法，多个模组能同时修改同一个类而不冲突，游戏更新后模组也更不容易失效。核心能力包括基于 @Patch 注解声明式打补丁、对已加载类进行重转换、自动扫描补丁类、将 Java 类与全局函数暴露给 Lua，以及支持 advice 和委托两种补丁方式，并提供可配置的日志级别。",
+      "windows": [
+        "weekly"
+      ],
+      "added_at": "2026-10-10T22:23:57+00:00",
+      "last_seen": "2026-10-11",
+      "seen_count": 2
     },
     {
       "owner": "Leclowndu93150",
