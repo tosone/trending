@@ -51,7 +51,7 @@
 
 5. 只在 `data/` 有变化时提交：
 
-   - 有新增仓库：`git add data`，提交信息用 `data: add owner/repo, owner/repo`（只列新增的，最多列 3 个，其余写「等 N 个」）。
+   - 有新增仓库：`git add data`，提交信息用 `data: add owner/repo, owner/repo and N more`（只列新增的，最多列 3 个，其余写 `and N more`；提交标题一律用英文，不要出现中文）。
    - 没有新增、只有老仓库刷新：提交信息用 `data: refresh trending`。
    - 完全没有变化就什么都不要提交。
 
