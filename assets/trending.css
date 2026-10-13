@@ -234,6 +234,16 @@ body.index{
 }
 .board-tools .result b{color:var(--accent);font-weight:700}
 
+/* 领域筛选 */
+.domain-bar{display:flex;flex-wrap:wrap;gap:6px;margin:-8px 0 18px}
+.dchip{
+  appearance:none;cursor:pointer;background:transparent;border:1px solid var(--rule-soft);
+  color:var(--ink-light);font-family:var(--sans);font-size:10.5px;font-weight:700;
+  letter-spacing:.04em;padding:4px 9px;line-height:1;
+}
+.dchip:hover{color:var(--ink);border-color:var(--rule)}
+.dchip.on{background:var(--accent);border-color:var(--accent);color:#f5eff0}
+
 /* 卡片 */
 .cards{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}
 .repo-card{
@@ -274,6 +284,12 @@ body.index{
   align-items:center;gap:4px 9px;white-space:nowrap;
 }
 .rc-foot .dates b{color:var(--ink-soft);font-weight:700}
+.rc-foot .rc-tags{display:inline-flex;gap:5px}
+.rc-foot .tg{
+  font-family:var(--sans);font-size:9.5px;font-weight:700;letter-spacing:.04em;
+  color:var(--ink-light);border:1px solid var(--rule-soft);padding:2px 6px;line-height:1;
+}
+.rc-foot .tg.dom{color:var(--accent);border-color:#ddb9b5}
 
 .empty{height:100%;display:flex;flex-direction:column;align-items:center;justify-content:center;
        gap:10px;color:var(--ink-light);font-family:var(--sans);font-size:12.4px;text-align:center;line-height:2}

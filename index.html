@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>GitHub Trending · 开源热榜</title>
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
-<link rel="stylesheet" href="assets/trending.css?v=5">
+<link rel="stylesheet" href="assets/trending.css?v=6">
 </head>
 <body class="index">
 
@@ -75,6 +75,9 @@
   let catalog = null, curLang = null, curDoc = null;
   let sortKey = 'added', sortDir = -1;   // 默认按收录时间倒序；-1 降序，1 升序
   let query = '';                        // 搜索词，只匹配仓库名（不含 owner）
+  let curDomain = '';                    // 领域筛选；'' 表示全部
+  const DOMAINS = ['web','mobile','desktop','devops','ai','data','networking','security',
+    'systems','devtools','media','graphics','blockchain','productivity','learning','embedded','other'];
 
   const esc = s => String(s == null ? '' : s)
     .replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
@@ -132,8 +135,10 @@
   }
   function visibleRepos(){
     const q = query.trim().toLowerCase();
-    const repos = sortedRepos();
-    return q ? repos.filter(r => (r.full_name || '').toLowerCase().includes(q)) : repos;
+    let repos = sortedRepos();
+    if (curDomain) repos = repos.filter(r => (r.domains || []).includes(curDomain));
+    if (q) repos = repos.filter(r => (r.full_name || '').toLowerCase().includes(q));
+    return repos;
   }
   function drawSorts(){
     const label = SORTS[sortKey].label;
@@ -176,6 +181,10 @@
         <p class="rc-summary">${esc(r.summary || r.description || 'README 暂缺。')}</p>
         <div class="rc-foot">
           <span class="stars">★ <b>${fmtStars(r.stars)}</b></span>
+          <span class="rc-tags">
+            ${r.primary_tag ? `<span class="tg">${esc(r.primary_tag)}</span>` : ''}
+            ${r.primary_domain ? `<span class="tg dom">${esc(r.primary_domain)}</span>` : ''}
+          </span>
           <span class="dates">
             <span>更新于 <b title="${esc(relDate(upd))}">${fmtDate(upd)}</b></span>
             <span>收录于 <b>${fmtDate(r.added_at)}</b></span>
@@ -201,6 +210,7 @@
         </label>
         <span class="result" id="resultCount"></span>
       </div>
+      <div class="domain-bar" id="domainBar"></div>
       <div class="cards" id="cards"></div>`;
   }
 
@@ -213,9 +223,19 @@
       : `<div class="empty" style="height:auto;padding:40px 0"><b>没有匹配的仓库</b>
            <span>没有匹配「${esc(query.trim())}」的仓库。</span></div>`;
     const rc = $('resultCount');
-    if (rc) rc.innerHTML = query.trim()
-      ? `匹配 <b>${repos.length}</b> / ${curDoc.repos.length}`
+    const filtering = query.trim() || curDomain;
+    if (rc) rc.innerHTML = filtering
+      ? `筛出 <b>${repos.length}</b> / ${curDoc.repos.length}`
       : `共 <b>${curDoc.repos.length}</b> 个`;
+  }
+
+  function drawDomainBar(){
+    const bar = $('domainBar');
+    if (!bar) return;
+    const items = ['', ...DOMAINS];
+    bar.innerHTML = items.map(d =>
+      `<button type="button" class="dchip${d === curDomain ? ' on' : ''}" data-dom="${esc(d)}">${d || '全部'}</button>`
+    ).join('');
   }
 
   function drawBoard(){
@@ -238,6 +258,16 @@
       $reader.scrollTop = 0;
       input.focus();
     });
+    $('domainBar').addEventListener('click', e => {
+      const chip = e.target.closest('.dchip');
+      if (!chip) return;
+      curDomain = chip.dataset.dom || '';
+      drawDomainBar();
+      drawList();
+      drawCards();
+      $reader.scrollTop = 0;
+    });
+    drawDomainBar();
     drawCards();
   }
 
@@ -310,6 +340,7 @@
     }
     drawReaderTitle();
     query = '';
+    curDomain = '';
     drawList();
     drawBoard();
     $timeline.scrollTop = 0;   // 切语言后左右两侧都回到顶部
