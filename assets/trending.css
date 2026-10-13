@@ -271,7 +271,7 @@ body.index{
   font-family:var(--sans);font-size:10px;color:var(--ink-light);letter-spacing:.04em;
 }
 .rc-lang .dot{width:9px;height:9px;border-radius:50%}
-.rc-summary{margin:12px 0 14px;font-size:13.8px;line-height:1.92;color:var(--ink-soft);text-align:justify}
+.rc-summary{margin:12px 0 14px;font-size:13.8px;line-height:1.92;color:var(--ink-soft);text-align:justify;overflow-wrap:anywhere}
 .rc-foot{
   margin-top:auto;display:flex;flex-wrap:wrap;align-items:center;gap:6px 16px;
   padding-top:10px;border-top:1px dotted #b6ac96;
