@@ -11,6 +11,7 @@ Checks:
   - count == len(repos)
   - repos are sorted by stars descending
   - every repo has a summary and a pushed_at
+  - every repo has kind tags (tags/primary_tag) and domain tags (domains/primary_domain)
 """
 
 from __future__ import annotations
@@ -66,6 +67,12 @@ def main() -> int:
                 break
             if not repo.get("pushed_at"):
                 errors.append(f"{path.name}: {name} has no pushed_at")
+                break
+            if not repo.get("tags") or repo.get("primary_tag") not in repo.get("tags", []):
+                errors.append(f"{path.name}: {name} has bad kind tags")
+                break
+            if not repo.get("domains") or repo.get("primary_domain") not in repo.get("domains", []):
+                errors.append(f"{path.name}: {name} has bad domain tags")
                 break
 
     print(f"languages: {len(langs)} · all: {total} repos")

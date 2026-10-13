@@ -39,6 +39,7 @@ import os
 import re
 import subprocess
 import sys
+import time
 import urllib.error
 import urllib.request
 from datetime import datetime, timezone
@@ -172,6 +173,7 @@ def enrich(repo: dict, need_readme: bool = True) -> dict:
         repo["pushed_at"] = meta.get("pushed_at") or ""
         repo["updated_at"] = meta.get("updated_at") or ""
         repo["open_issues"] = meta.get("open_issues_count", 0)
+        repo["topics"] = meta.get("topics") or []
         if meta.get("archived"):
             repo["archived"] = True
 
@@ -299,25 +301,19 @@ def _clamp_cn(text: str, limit: int = 300) -> str:
     return (head[: cut + 1] if cut > limit * 0.5 else head.rstrip("，,、 ") + "。")
 
 
-def call_llm(repo: dict) -> str | None:
+def _chat(prompt: str, temperature: float, max_tokens: int, attempt: int = 0) -> str | None:
+    """调用 OpenAI 兼容接口，返回文本；没有 key 或调用失败时返回 None。"""
     key = os.environ.get("DEEPSEEK_API_KEY") or os.environ.get("OPENAI_API_KEY")
     if not key:
         return None
     base = os.environ.get("DEEPSEEK_BASE_URL", "https://api.deepseek.com").rstrip("/")
     model = os.environ.get("DEEPSEEK_MODEL", "deepseek-chat")
-    readme = (repo.get("readme") or "")[:9000]
-    prompt = SUMMARY_PROMPT.format(
-        full_name=repo["full_name"],
-        description=repo.get("description") or "（无）",
-        language=repo.get("language") or "",
-        readme=readme or "（README 为空）",
-    )
     payload = json.dumps(
         {
             "model": model,
             "messages": [{"role": "user", "content": prompt}],
-            "temperature": 0.4,
-            "max_tokens": 700,
+            "temperature": temperature,
+            "max_tokens": max_tokens,
         }
     ).encode()
     req = urllib.request.Request(
@@ -328,11 +324,28 @@ def call_llm(repo: dict) -> str | None:
     try:
         with urllib.request.urlopen(req, timeout=120) as resp:
             data = json.loads(resp.read().decode("utf-8", "replace"))
-        text = data["choices"][0]["message"]["content"]
-        return _clamp_cn(text) or None
-    except (urllib.error.URLError, KeyError, json.JSONDecodeError, TimeoutError) as e:
-        print(f"    ! 简介生成失败 {repo['full_name']}: {e}", file=sys.stderr)
+        return data["choices"][0]["message"]["content"]
+    except urllib.error.HTTPError as e:
+        # 429/5xx 是临时的，退避重试；其它（如 401/402）直接失败
+        if e.code in (429, 500, 502, 503) and attempt < 3:
+            time.sleep(3 * (attempt + 1))
+            return _chat(prompt, temperature, max_tokens, attempt + 1)
+        print(f"    ! 模型调用失败: {e}", file=sys.stderr)
         return None
+    except (urllib.error.URLError, KeyError, json.JSONDecodeError, TimeoutError) as e:
+        print(f"    ! 模型调用失败: {e}", file=sys.stderr)
+        return None
+
+
+def call_llm(repo: dict) -> str | None:
+    prompt = SUMMARY_PROMPT.format(
+        full_name=repo["full_name"],
+        description=repo.get("description") or "（无）",
+        language=repo.get("language") or "",
+        readme=(repo.get("readme") or "")[:9000] or "（README 为空）",
+    )
+    text = _chat(prompt, 0.4, 700)
+    return _clamp_cn(text) if text else None
 
 
 def summarize(repo: dict, use_llm: bool) -> str:
@@ -341,6 +354,126 @@ def summarize(repo: dict, use_llm: bool) -> str:
         if text:
             return text
     return _fallback_summary(repo)
+
+
+# ── 标签（kind + domain）─────────────────────────────────────────────────────
+# 两个维度都写入仓库对象：tags / primary_tag（形式），domains / primary_domain（领域）。
+TAG_KINDS = ["app", "tool", "library", "framework", "plugin", "template", "doc",
+             "asset", "model", "config", "example", "other"]
+TAG_DOMAINS = ["web", "mobile", "desktop", "devops", "ai", "data", "networking",
+               "security", "systems", "devtools", "media", "graphics", "blockchain",
+               "productivity", "learning", "embedded", "other"]
+
+TAG_PROMPT = """你是开源仓库分类器。给下面仓库打标签。
+
+仓库：{full_name}
+官方描述：{description}
+主要语言：{language}
+GitHub topics：{topics}
+
+A. kind（形式/用途），从下面选 1~3 个，第一个是最主要形式：
+ app=面向最终用户、可独立运行的程序/服务/客户端
+ tool=命令行工具
+ library=被别的程序引用的库/SDK（你调用它）
+ framework=应用框架（它调用你）
+ plugin=插件/扩展/集成（依附宿主程序运行）
+ template=脚手架/模板/样板工程
+ doc=文档/教程/书/清单/速查表/路线图
+ asset=字体/图标/主题/CSS 等资源
+ model=模型权重/数据集
+ config=dotfiles/环境配置/安装脚本
+ example=示例/demo 代码
+ other=其他
+
+B. domain（领域），从下面选 1~3 个，第一个是最主要领域：
+ {domains}
+
+domain 判定规则（务必遵守）：
+ - 填「仓库解决的问题所在的领域」，不是它用什么技术栈。
+ - devtools 只给「面向开发者本人的工具」：编辑器/IDE、构建/包管理、代码生成、lint/格式化、测试、debug/profiler、通用 CLI。严禁把普通库或文档塞进 devtools 兜底。
+ - 普通库/框架按其用途领域归类，而不是 devtools。
+ - devops=部署/容器/K8s/CI-CD/监控/IaC/服务网格；web=网站/前端/后端 Web/CMS/API；data=数据库/存储/数据处理/分析；ai=大模型/机器学习/智能体/推理；systems=操作系统/内核/终端/shell/编译工具链/底层库/语言运行时；networking=网络协议/代理/网关/DNS/P2P/消息队列；security=安全/渗透/密钥/漏洞；media=音视频/图像/编解码/播放器；graphics=图形/渲染/3D/游戏引擎；productivity=笔记/办公/自托管日常/密码/知识管理；learning=教程/面试/算法题/课程/路线图；embedded=嵌入式/IoT/单片机/固件；other=其他。
+ - 如果 kind 含 doc（文档/清单/教程），domain 优先用 learning 或它讲的领域。
+
+参考锚点（务必与之一致）：
+ lodash/lodash -> {{"kind":["library"],"primary_kind":"library","domain":["web"],"primary_domain":"web"}}
+ gin-gonic/gin -> library / web
+ numpy/numpy -> library / data
+ junegunn/fzf -> tool / devtools
+ vim/vim -> app / devtools
+ jellyfin/jellyfin -> app / media
+ lua/lua -> app / systems
+ avelino/awesome-go -> doc / learning
+
+只输出一行 JSON，不要解释：
+{{"kind":["..."],"primary_kind":"...","domain":["..."],"primary_domain":"..."}}
+"""
+
+
+def _parse_tag_json(text: str | None) -> dict | None:
+    if not text:
+        return None
+    s = re.sub(r"^```(?:json)?|```$", "", text.strip(), flags=re.M).strip()
+    m = re.search(r"\{.*\}", s, re.S)
+    if not m:
+        return None
+    try:
+        d = json.loads(m.group(0))
+    except json.JSONDecodeError:
+        return None
+    kind = [k for k in (d.get("kind") or []) if k in TAG_KINDS]
+    domain = [x for x in (d.get("domain") or []) if x in TAG_DOMAINS]
+    if not kind:
+        kind = [d["primary_kind"]] if d.get("primary_kind") in TAG_KINDS else ["other"]
+    if not domain:
+        domain = [d["primary_domain"]] if d.get("primary_domain") in TAG_DOMAINS else ["other"]
+    primary_kind = d.get("primary_kind") if d.get("primary_kind") in kind else kind[0]
+    primary_domain = d.get("primary_domain") if d.get("primary_domain") in domain else domain[0]
+    return {"kind": kind, "primary_kind": primary_kind,
+            "domain": domain, "primary_domain": primary_domain}
+
+
+def _fallback_tags(repo: dict) -> dict:
+    """没有大模型时，按名字/描述/topics 里的关键词粗略分类。"""
+    text = " ".join([
+        repo.get("full_name") or "", repo.get("description") or "",
+        " ".join(repo.get("topics") or []),
+    ]).lower()
+    kind = "other"
+    if any(w in text for w in ("awesome", "tutorial", "guide", "book", "cheatsheet", "roadmap", "curated")):
+        kind = "doc"
+    elif any(w in text for w in ("boilerplate", "starter", "template", "scaffold")):
+        kind = "template"
+    elif any(w in text for w in ("font", "icon", "theme", "css framework")):
+        kind = "asset"
+    elif any(w in text for w in ("command-line", "command line", "cli", "terminal")):
+        kind = "tool"
+    elif "framework" in text:
+        kind = "framework"
+    elif any(w in text for w in ("library", "sdk", "binding", "client")):
+        kind = "library"
+    elif any(w in text for w in ("server", "app", "platform", "editor")):
+        kind = "app"
+    return {"kind": [kind], "primary_kind": kind, "domain": ["other"], "primary_domain": "other"}
+
+
+def classify_tags(repo: dict, use_llm: bool) -> None:
+    parsed = None
+    if use_llm:
+        prompt = TAG_PROMPT.format(
+            full_name=repo["full_name"],
+            description=repo.get("description") or "（无）",
+            language=repo.get("language") or "",
+            topics=", ".join(repo.get("topics") or []) or "（无）",
+            domains=", ".join(TAG_DOMAINS),
+        )
+        parsed = _parse_tag_json(_chat(prompt, 0.0, 200))
+    if not parsed:
+        parsed = _fallback_tags(repo)
+    repo["tags"] = parsed["kind"]
+    repo["primary_tag"] = parsed["primary_kind"]
+    repo["domains"] = parsed["domain"]
+    repo["primary_domain"] = parsed["primary_domain"]
 
 
 # ── 主流程 ───────────────────────────────────────────────────────────────────
@@ -432,13 +565,20 @@ def merge_into(
         fresh = list(pool.map(lambda r: enrich(r, force_summary or is_new(r)), fresh))
 
     def finish(repo: dict) -> dict:
-        repo["summary"] = summarize(repo, use_llm)
+        if force_summary or not repo.get("summary"):
+            repo["summary"] = summarize(repo, use_llm)
+        if force_summary or not repo.get("tags"):
+            classify_tags(repo, use_llm)
         repo.pop("readme", None)
+        repo.pop("topics", None)
         return repo
 
-    to_summarize = fresh if force_summary else [r for r in fresh if is_new(r)]
+    # 新仓库要写简介 + 标签；老仓库只在缺标签时补标签
+    to_finish = fresh if force_summary else [
+        r for r in fresh if is_new(r) or not r.get("tags")
+    ]
     with futures.ThreadPoolExecutor(max_workers=10) as pool:
-        list(pool.map(finish, to_summarize))
+        list(pool.map(finish, to_finish))
 
     # 合并：老仓库保留，新仓库入列
     by = {r["full_name"]: r for r in old_repos}
@@ -459,6 +599,11 @@ def merge_into(
             old.setdefault("summary", "")
             if force_summary and repo.get("summary"):
                 old["summary"] = repo["summary"]   # 强制重写的简介要写回去
+            if (force_summary or not old.get("tags")) and repo.get("tags"):
+                old["tags"] = repo["tags"]
+                old["primary_tag"] = repo["primary_tag"]
+                old["domains"] = repo["domains"]
+                old["primary_domain"] = repo["primary_domain"]
             if full in PINNED_SET:
                 old["pinned"] = True
         else:
@@ -537,6 +682,37 @@ def rebuild_all(wins: list[str]) -> None:
     })
 
 
+def retag(names: list[str], use_llm: bool) -> int:
+    """给 data 里缺标签的仓库补 kind/domain 标签；names 非空时只重打这几个。"""
+    wanted = set(names)
+    for slug in [*LANGUAGES, "other"]:
+        path = DATA / f"{slug}.json"
+        if not path.exists():
+            continue
+        doc = load_json(path)
+        repos = doc.get("repos", [])
+        targets = ([r for r in repos if r["full_name"] in wanted] if wanted
+                   else [r for r in repos
+                         if not r.get("tags") or r.get("primary_domain") == "other"])
+        if not targets:
+            continue
+        print(f"[{slug}] 补标签 {len(targets)} 个…", file=sys.stderr)
+        with futures.ThreadPoolExecutor(max_workers=6) as pool:
+            list(pool.map(lambda r: enrich(r, need_readme=False), targets))
+        with futures.ThreadPoolExecutor(max_workers=4) as pool:
+            list(pool.map(lambda r: classify_tags(r, use_llm), targets))
+        for r in targets:
+            r.pop("topics", None)
+        repos.sort(key=lambda r: r.get("stars", 0), reverse=True)
+        doc["repos"] = repos
+        doc["count"] = len(repos)
+        doc["generated_at"] = datetime.now(timezone.utc).isoformat(timespec="seconds")
+        write_doc(path, doc)
+    rebuild_all(list(WINDOW_ORDER))
+    print("标签补齐完成。", file=sys.stderr)
+    return 0
+
+
 def main() -> int:
     ap = argparse.ArgumentParser(description="抓取 GitHub Trending 并向已有列表合并")
     ap.add_argument("--languages", default="all", help="逗号分隔，默认 all")
@@ -549,6 +725,7 @@ def main() -> int:
     ap.add_argument("--only-pinned", action="store_true", help="只处理 PINNED 里的仓库，不抓 trending")
     ap.add_argument("--no-summary", action="store_true", help="跳过中文简介生成")
     ap.add_argument("--resummarize", action="store_true", help="重写简介（只配合 --repos / --only-pinned）")
+    ap.add_argument("--retag", action="store_true", help="给缺标签的仓库补 kind/domain 标签，不抓 trending")
     args = ap.parse_args()
 
     if args.resummarize and not (args.repos or args.only_pinned):
@@ -570,6 +747,12 @@ def main() -> int:
         use_llm = False
 
     DATA.mkdir(exist_ok=True)
+
+    # ── 模式 0：只补标签（--retag），不抓 trending ──
+    if args.retag:
+        names = [s.strip() for s in args.repos.split(",") if s.strip()] if args.repos else []
+        print(f"[retag] {'指定 ' + str(len(names)) + ' 个仓库' if names else '所有缺标签的仓库'}", file=sys.stderr)
+        return retag(names, use_llm)
 
     # ── 模式 A：只处理指定仓库（--repos）或固定仓库（--only-pinned），不抓 trending ──
     if args.repos or args.only_pinned:

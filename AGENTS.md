@@ -51,6 +51,13 @@ tools/fetch_trending.py   fetch trending + README + generate Chinese summaries
   file; their `windows` is empty and they carry `pinned: true`.
 - Every repo must have `summary` (≤300 Chinese characters) and `pushed_at` (the footer's
   sort key).
+- Every repo also carries two tag axes, both English slugs: `tags` / `primary_tag` (form:
+  `app` `tool` `library` `framework` `plugin` `template` `doc` `asset` `model` `config`
+  `example` `other`) and `domains` / `primary_domain` (area: `web` `mobile` `desktop`
+  `devops` `ai` `data` `networking` `security` `systems` `devtools` `media` `graphics`
+  `blockchain` `productivity` `learning` `embedded` `other`). Tags are produced by the tool
+  exactly like summaries — new repos get them, existing ones keep them; `--retag` (optionally
+  with `--repos`) recomputes them. The page filters by `domains`.
 - **Data accumulates**: by default all three windows `daily` / `weekly` / `monthly` are
   fetched, deduped by repo, and merged into the list — never rebuilt or pruned. Existing
   repos only refresh live fields such as stars / update time; only new entries get a
@@ -134,6 +141,9 @@ here, keep that prompt in sync. Run it by hand with `gh workflow run update-tren
   another. Scroll a card into view with `scrollIntoView`, and highlight with `aria-current`.
 - The search box (`.board-tools .search`) filters by `full_name` (owner + repo,
   case-insensitive) and filters both the left list and the cards at once.
+- The domain bar (`.domain-bar` / `.dchip`) is a single-select filter over `domains`; the
+  selected chip also filters the left list and the cards, and the result count switches to
+  "筛出 N / total". Cards show `primary_tag` and `primary_domain` as small chips in the footer.
 - Responsive breakpoints: at `1080px` the cards collapse to one column, at `900px` the left
   column becomes a drawer, at `640px` the reader bar wraps to two rows.
 - On narrow screens use `grid-template-columns:minmax(0,1fr)`, not `1fr` (the auto minimum
