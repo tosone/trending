@@ -15,7 +15,7 @@ name: Update GitHub Trending
 
 on:
   schedule:
-    - cron: "10 22 * * *" # 每天 06:10（北京时间）
+    - cron: "10 22 1 * *" # 每月 1 号 22:10 UTC（次日 06:10 北京时间）
   workflow_dispatch:
     inputs:
       languages:

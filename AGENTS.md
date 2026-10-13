@@ -105,7 +105,7 @@ the script.
 
 Two workflows live in `.github/workflows/`:
 
-- `update-trending.yml` — every day at 22:10 UTC (06:10 Beijing) it runs on the pinned
+- `update-trending.yml` — on the 1st of each month (22:10 UTC, 06:10 Beijing the next day) it runs on the pinned
   toolchain (`gh` 2.102.0 from the cli/cli release tarball, checked by sha256, and pi
   `1.1.0` from npm) and counts on two repository secrets: `DEEPSEEK_API_KEY` (pi's model
   plus the script's Chinese summaries) and `GH_TOKEN` (a PAT used by `gh` for metadata /
