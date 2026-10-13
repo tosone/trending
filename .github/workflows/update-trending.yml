@@ -126,7 +126,7 @@ jobs:
           if ! git diff --quiet -- data || [ -n "$(git status --porcelain -- data)" ]; then
             echo "pi 没有提交，由 workflow 兜底提交。"
             git add data
-            git commit -m "data: refresh trending boards"
+            git commit -m "chore(data): refresh trending boards"
           fi
 
           if git diff --quiet origin/main..HEAD; then

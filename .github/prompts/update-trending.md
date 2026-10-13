@@ -51,8 +51,8 @@
 
 5. 只在 `data/` 有变化时提交：
 
-   - 有新增仓库：`git add data`，提交信息用 `data: add owner/repo, owner/repo and N more`（只列新增的，最多列 3 个，其余写 `and N more`；提交标题一律用英文，不要出现中文）。
-   - 没有新增、只有老仓库刷新：提交信息用 `data: refresh trending`。
+   - 有新增仓库：`git add data`，提交信息用 `chore(data): add owner/repo, owner/repo and N more`（只列新增的，最多列 3 个，其余写 `and N more`；提交标题一律用英文，不要出现中文）。
+   - 没有新增、只有老仓库刷新：提交信息用 `chore(data): refresh trending`。
    - 完全没有变化就什么都不要提交。
 
    **不要 `git push`**，也不要用 `--force`、`reset --hard`、修改 git config（身份已经配好了，直接 `git commit` 就行）；推送由 workflow 负责。
