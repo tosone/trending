@@ -34,6 +34,7 @@ from __future__ import annotations
 import argparse
 import concurrent.futures as futures
 import html
+import http.client
 import json
 import os
 import re
@@ -297,8 +298,19 @@ def _clamp_cn(text: str, limit: int = 300) -> str:
     if len(text) <= limit:
         return text
     head = text[: limit - 1]
-    cut = max(head.rfind("。"), head.rfind("！"), head.rfind("？"), head.rfind("."))
-    return (head[: cut + 1] if cut > limit * 0.5 else head.rstrip("，,、 ") + "。")
+    cut = max(head.rfind("。"), head.rfind("！"), head.rfind("？"))
+    if cut > limit * 0.5:
+        return head[: cut + 1]
+    # 英文句点只在后面跟空格或到达结尾时才算句末，否则会切断
+    # Node.js / v1.3.0 / index.html / _config.yml 这类记号
+    for m in re.finditer(r"[.!?](?=\s)", head):
+        cut = m.start()
+    if cut > limit * 0.5:
+        return head[: cut + 1]
+    # 兜底：退到最后一个空格，避免把单词或版本号切成半截
+    space = head.rfind(" ")
+    body = head[:space] if space > limit * 0.5 else head
+    return body.rstrip("，,、;；:： ") + "。"
 
 
 def _chat(prompt: str, temperature: float, max_tokens: int, attempt: int = 0) -> str | None:
@@ -332,7 +344,14 @@ def _chat(prompt: str, temperature: float, max_tokens: int, attempt: int = 0) ->
             return _chat(prompt, temperature, max_tokens, attempt + 1)
         print(f"    ! 模型调用失败: {e}", file=sys.stderr)
         return None
-    except (urllib.error.URLError, KeyError, json.JSONDecodeError, TimeoutError) as e:
+    except (urllib.error.URLError, TimeoutError, ConnectionError, http.client.HTTPException) as e:
+        # 连接被重置 / 读响应被截断也是临时的，退避重试
+        if attempt < 3:
+            time.sleep(3 * (attempt + 1))
+            return _chat(prompt, temperature, max_tokens, attempt + 1)
+        print(f"    ! 模型调用失败: {e}", file=sys.stderr)
+        return None
+    except (KeyError, json.JSONDecodeError) as e:
         print(f"    ! 模型调用失败: {e}", file=sys.stderr)
         return None
 
@@ -790,7 +809,10 @@ def main() -> int:
                 file=sys.stderr,
             )
         if other:
-            other_doc = merge_into(DATA / "other.json", other, OTHER_LABEL, wins, use_llm)
+            other_doc = merge_into(
+                DATA / "other.json", other, OTHER_LABEL, wins, use_llm,
+                force_summary=args.resummarize,
+            )
             write_doc(DATA / "other.json", other_doc)
             print(f"[other] 写入 data/other.json（{other_doc['count']} 个）", file=sys.stderr)
 
