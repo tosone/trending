@@ -72,7 +72,8 @@
     updated:{label:'最近更新', get:r => Date.parse(r.pushed_at || r.updated_at || 0) || 0}
   };
   const cache = {};
-  let catalog = null, curLang = null, curDoc = null;
+  let catalog = null, curLang = null, curDoc = null, loadTicket = 0;
+  const docJobs = {};
   let sortKey = 'added', sortDir = -1;   // 默认按收录时间倒序；-1 降序，1 升序
   let query = '';                        // 搜索词，只匹配仓库名（不含 owner）
   let curDomain = '';                    // 领域筛选；'' 表示全部
@@ -154,7 +155,10 @@
   /* ── 左栏列表 ─────────────────────────────────────────────────────────── */
   function drawList(){
     const repos = visibleRepos();   // 已排序 + 搜索过滤
-    $listHint.textContent = repos.length + ' 个';
+    const total = curDoc.count || repos.length;
+    $listHint.textContent = curDoc.loaded < total
+      ? `${curDoc.loaded}/${total}`
+      : repos.length + ' 个';
     $timeline.innerHTML = repos.map((r, i) => `
       <button class="repo-row" data-full="${esc(r.full_name)}" title="${esc(r.full_name)}" aria-current="false">
         <span class="rk">${String(i + 1).padStart(2,'0')}</span>
@@ -225,8 +229,8 @@
     const rc = $('resultCount');
     const filtering = query.trim() || curDomain;
     if (rc) rc.innerHTML = filtering
-      ? `筛出 <b>${repos.length}</b> / ${curDoc.repos.length}`
-      : `共 <b>${curDoc.repos.length}</b> 个`;
+      ? `筛出 <b>${repos.length}</b> / ${curDoc.count || curDoc.repos.length}`
+      : `共 <b>${curDoc.count || curDoc.repos.length}</b> 个`;
   }
 
   function drawDomainBar(){
@@ -272,7 +276,7 @@
   }
 
   function drawReaderTitle(){
-    const n = curDoc.repos.length;
+    const n = curDoc.count || curDoc.repos.length;
     $title.innerHTML = `<b>${esc(curDoc.label)}</b><span class="sp">◆</span>`
       + `<span class="rb-date">${n} 个仓库 · 更新于 ${fmtDate(curDoc.generated_at)}</span>`;
     $barMeta.innerHTML = `更新于 <b>${fmtDate(curDoc.generated_at)}</b>`;
@@ -316,33 +320,79 @@
   }
 
   /* ── 载入一种语言 ─────────────────────────────────────────────────────── */
-  async function loadDoc(key){
-    if (cache[key]) return cache[key];
-    const r = await fetch(`data/${key}.json`, {cache:'no-cache'});
+  async function fetchJSON(url){
+    const r = await fetch(url, {cache:'no-cache'});
     if (!r.ok) throw new Error('HTTP ' + r.status);
-    return (cache[key] = await r.json());
+    return r.json();
+  }
+
+  /* 每份榜单是「索引 + 分片」：data/<key>.json 只有元信息和 chunks 列表，
+     真正的仓库按 300 个一片放在 data/<key>.<n>.json。先拿第一片渲染，
+     其余并行补齐后重绘一次。 */
+  function loadDoc(key, onFirst){
+    if (docJobs[key]){                        // 已加载过或还在加载：先画现状，再等同一个 job
+      const known = cache[key];
+      if (known && onFirst) onFirst(known);
+      return docJobs[key];
+    }
+    const job = (async () => {
+      const idx = await fetchJSON(`data/${key}.json`);
+      const doc = Object.assign({}, idx, {repos: [], loaded: 0});
+      cache[key] = doc;
+      const names = doc.chunks || [];
+      if (!names.length) return doc;          // 未分片的旧文件
+      const first = await fetchJSON(`data/${names[0]}`);
+      doc.repos.push(...first.repos);
+      doc.loaded = first.repos.length;
+      onFirst && onFirst(doc);
+      await Promise.all(names.slice(1).map(async name => {
+        const part = await fetchJSON(`data/${name}`);
+        doc.repos.push(...part.repos);
+        doc.loaded += part.repos.length;
+        return part;
+      }));
+      return doc;
+    })();
+    docJobs[key] = job;
+    job.catch(() => { delete docJobs[key]; delete cache[key]; });   // 失败别留半个文档
+    return job;
   }
 
   async function showLang(key){
     stopScroll();
     curLang = key;
+    const ticket = ++loadTicket;             // 切语言后丢弃上一轮的回调
     const entry = catalog.languages.find(l => l.key === key);
     setLangFace(entry || {key, label:key, count:0});
     buildMenu();
     drawSorts();
+    query = '';
+    curDomain = '';
+    const paint = () => {
+      if (ticket !== loadTicket) return;
+      drawReaderTitle();
+      drawList();
+      drawCards();
+    };
     try {
-      curDoc = await loadDoc(key);
+      curDoc = await loadDoc(key, doc => {     // 第一片到了就先画
+        if (ticket !== loadTicket) return;
+        curDoc = doc;
+        drawReaderTitle();
+        drawList();
+        drawBoard();
+        paint();
+      });
     } catch (e) {
+      if (ticket !== loadTicket) return;
       $reader.innerHTML = `<div class="empty"><b>读不到 data/${esc(key)}.json</b>
         <span>数据文件不存在，或页面需要用一个本地服务打开。</span>
         <code>python3 -m http.server 8137</code></div>`;
       return;
     }
-    drawReaderTitle();
-    query = '';
-    curDomain = '';
-    drawList();
-    drawBoard();
+    if (ticket !== loadTicket) return;
+    curDoc = cache[key] || curDoc;
+    paint();
     $timeline.scrollTop = 0;   // 切语言后左右两侧都回到顶部
     $reader.scrollTop = 0;
   }

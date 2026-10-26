@@ -31,14 +31,22 @@ index.html            the only page; rendering only, no styles or data
 assets/trending.css   all layout styling; do not write a second copy of the CSS in the page
 assets/fonts/         self-hosted Maple Mono NF CN (fonts.css is @import-ed)
 data/catalog.json     language registry (drives the dropdown; first entry is the "all" summary)
-data/all.json         deduped summary of all languages + other languages (shown by default)
-data/other.json       repos from the overall board whose language is not covered (only in all, not in the dropdown)
-data/<language>.json  per-language repo data
+data/all.json         index of the deduped all-language board (shown by default)
+data/other.json       index of repos from the overall board whose language is not covered (only in all, not in the dropdown)
+data/<language>.json  index of one language's board
+data/<key>.<n>.json   the actual repos: every board is cut into 300-repo chunks (all.1.json, all.2.json, …)
 tools/fetch_trending.py   fetch trending + README + generate Chinese summaries
 ```
 
 ## Data rules
 
+- **Every board is chunked.** `data/<key>.json` is only an index — `language`, `label`,
+  `count`, `generated_at`, `first_at`, `chunk_size` and a `chunks` list — and holds no repos.
+  The repos live in `data/<key>.<n>.json`, 300 per file, cut from the stars-descending list.
+  `all.json` has 11 chunks, `go.json` 3, most languages 1–2. The tool reads and writes this
+  layout on its own (`load_doc` / `write_doc`), so `--repos`, `--retag`, `--refresh` and a
+  full run all reassemble the chunks first; `--rewrite` re-cuts existing files offline.
+  The page fetches the index, paints the first chunk, then loads the rest in parallel.
 - 8 languages are covered: `javascript` / `typescript` / `python` / `java` / `go` / `rust` /
   `c` / `cpp`, each in `data/<key>.json`; `data/all.json` is the deduped summary of every
   language plus `other.json`, registered as the first catalog entry, and opened by default.

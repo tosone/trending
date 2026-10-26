@@ -8,8 +8,10 @@ Used by CI (see .github/workflows/deploy-pages.yml) and runnable locally:
 Checks:
   - data/catalog.json exists and lists languages
   - every catalog language has a matching data/<key>.json (or data/all.json)
-  - count == len(repos)
-  - repos are sorted by stars descending
+  - that file is an index (no repos) listing data/<key>.<n>.json chunks,
+    each chunk present and count == len(chunk repos)
+  - sum of chunk counts == index count
+  - repos are sorted by stars descending across the chunks
   - every repo has a summary and a pushed_at
   - every repo has kind tags (tags/primary_tag) and domain tags (domains/primary_domain)
 """
@@ -50,7 +52,27 @@ def main() -> int:
             errors.append(f"catalog lists {label} ({key}) but {path.name} is missing")
             continue
         doc = load(path)
-        repos = doc.get("repos", [])
+        if "repos" in doc:
+            errors.append(f"{path.name}: still holds repos, expected an index of chunks")
+            repos = doc.get("repos", [])
+        else:
+            repos = []
+            for name in doc.get("chunks", []):
+                chunk_path = DATA / name
+                if not chunk_path.exists():
+                    errors.append(f"{path.name}: chunk {name} is missing")
+                    continue
+                part = load(chunk_path)
+                chunk_repos = part.get("repos", [])
+                if part.get("count") != len(chunk_repos):
+                    errors.append(
+                        f"{name}: count={part.get('count')} != repos={len(chunk_repos)}"
+                    )
+                if len(chunk_repos) > doc.get("chunk_size", 300):
+                    errors.append(f"{name}: {len(chunk_repos)} repos exceeds chunk_size")
+                repos.extend(chunk_repos)
+            if not doc.get("chunks"):
+                errors.append(f"{path.name}: index lists no chunks")
         if doc.get("count") != len(repos):
             errors.append(f"{path.name}: count={doc.get('count')} != repos={len(repos)}")
         if key == "all":

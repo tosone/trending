@@ -62,6 +62,7 @@
 ## 硬性要求
 
 - 不要手工编辑 `data/*.json` 的结构，也不要手写 `data/all.json`、`data/other.json` 的内容 —— 它们只由脚本生成。
+- 每份榜单都是「索引 + 分片」：`data/<key>.json` 只有元信息和 `chunks` 列表，仓库在 `data/<key>.<n>.json`（300 个一片）。改数据一律走 `tools/fetch_trending.py`，不要只改分片或只改索引。
 - 不要引入新依赖、构建步骤、后端、CDN 或远程字体。
 - 简介只写 README 里的事实；不写许可证，不写「今日新增 star」。
 - 只在需要新增仓库时改动 `data/`（脚本的运行产物除外）；不要动 `index.html`、`assets/`、`tools/`。

@@ -602,6 +602,32 @@ def load_json(path: Path) -> dict:
         print(f"! {path.name} 读取失败，按空列表重建", file=sys.stderr)
         return {}
 
+# 一份榜单拆成「索引 + 分片」：data/all.json 只留元信息 + chunks 列表，
+# 仓库数据每 CHUNK_SIZE 个一片，落在 data/all.1.json、data/all.2.json …
+CHUNK_SIZE = 300
+
+
+def chunk_name(path: Path, page: int) -> str:
+    return f"{path.stem}.{page}{path.suffix}"
+
+
+def load_doc(path: Path) -> dict:
+    """读一份榜单：分片文件会自动拼回 repos（旧的不分片文件也照读）。"""
+    doc = load_json(path)
+    if not doc or "repos" in doc or not doc.get("chunks"):
+        return doc
+    repos: list[dict] = []
+    parts: list[dict] = []
+    for name in doc["chunks"]:
+        part = load_json(DATA / name)
+        parts.append(part)
+        repos.extend(part.get("repos", []))
+    merged = dict(doc)
+    merged["repos"] = repos
+    merged.pop("chunks", None)
+    merged.pop("chunk_size", None)
+    return merged
+
 
 WINDOW_ORDER = ("daily", "weekly", "monthly")
 WINDOW_LABEL = {"daily": "今日", "weekly": "本周", "monthly": "本月"}
@@ -655,7 +681,7 @@ def merge_into(
     now_iso = now.isoformat(timespec="seconds")
     today = now.date().isoformat()
 
-    existing = load_json(path)
+    existing = load_doc(path)
     old_repos = existing.get("repos", [])
     first_at = existing.get("first_at") or existing.get("generated_at") or now_iso
     known = {r["full_name"] for r in old_repos}
@@ -757,7 +783,37 @@ def merge_into(
 
 
 def write_doc(path: Path, doc: dict) -> None:
-    path.write_text(json.dumps(doc, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    """写一份榜单；有 repos 时拆成索引（path）+ 分片（<key>.<n>.json）。"""
+    write = lambda p, d: p.write_text(
+        json.dumps(d, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
+    )
+    repos = doc.get("repos")
+    if repos is None:
+        write(path, doc)
+        return
+
+    pages = [repos[i:i + CHUNK_SIZE] for i in range(0, len(repos), CHUNK_SIZE)] or [[]]
+    names: list[str] = []
+    for page, part in enumerate(pages, 1):
+        name = chunk_name(path, page)
+        write(DATA / name, {
+            "language": doc.get("language"),
+            "label": doc.get("label"),
+            "page": page,
+            "pages": len(pages),
+            "count": len(part),
+            "repos": part,
+        })
+        names.append(name)
+
+    for stale in path.parent.glob(f"{path.stem}.*{path.suffix}"):
+        if stale.name not in names:      # 仓库变少时删掉多余分片
+            stale.unlink()
+
+    index = {k: v for k, v in doc.items() if k != "repos"}
+    index["chunk_size"] = CHUNK_SIZE
+    index["chunks"] = names
+    write(path, index)
 
 
 def rebuild_all(wins: list[str]) -> None:
@@ -766,10 +822,10 @@ def rebuild_all(wins: list[str]) -> None:
     for slug in LANGUAGES:
         path = DATA / f"{slug}.json"
         if path.exists():
-            docs.append(load_json(path))
+            docs.append(load_doc(path))
     other_path = DATA / "other.json"
     if other_path.exists():
-        docs.append(load_json(other_path))
+        docs.append(load_doc(other_path))
 
     merged: dict[str, dict] = {}
     for d in docs:
@@ -816,7 +872,7 @@ def refresh_all(workers: int = 6) -> int:
         path = DATA / f"{slug}.json"
         if not path.exists():
             continue
-        doc = load_json(path)
+        doc = load_doc(path)
         repos = doc.get("repos", [])
         if not repos:
             continue
@@ -896,6 +952,25 @@ def regroup(docs: dict[str, dict]) -> int:
     return moved
 
 
+def rewrite_all() -> int:
+    """不联网：把 data/ 里每份榜单按 CHUNK_SIZE 重写成「索引 + 分片」。"""
+    for slug in [*LANGUAGES, "other"]:
+        path = DATA / f"{slug}.json"
+        if not path.exists():
+            continue
+        doc = load_doc(path)
+        repos = doc.get("repos", [])
+        if not repos:
+            continue
+        doc["count"] = len(repos)
+        write_doc(path, doc)
+        pages = (len(repos) + CHUNK_SIZE - 1) // CHUNK_SIZE
+        print(f"[{slug}] {len(repos)} 个 → {pages} 片", file=sys.stderr)
+    rebuild_all(list(WINDOW_ORDER))
+    print("重写完成（索引 + 分片）。", file=sys.stderr)
+    return 0
+
+
 def retag(names: list[str], use_llm: bool) -> int:
     """给 data 里缺标签的仓库补 kind/domain 标签；names 非空时只重打这几个。"""
     wanted = set(names)
@@ -903,7 +978,7 @@ def retag(names: list[str], use_llm: bool) -> int:
         path = DATA / f"{slug}.json"
         if not path.exists():
             continue
-        doc = load_json(path)
+        doc = load_doc(path)
         repos = doc.get("repos", [])
         targets = ([r for r in repos if r["full_name"] in wanted] if wanted
                    else [r for r in repos
@@ -941,6 +1016,10 @@ def main() -> int:
     ap.add_argument("--resummarize", action="store_true", help="重写简介（只配合 --repos / --only-pinned）")
     ap.add_argument("--retag", action="store_true", help="给缺标签的仓库补 kind/domain 标签，不抓 trending")
     ap.add_argument(
+        "--rewrite", action="store_true",
+        help="不联网：按 300 个一片把 data/ 里的榜单重写成「索引 + 分片」",
+    )
+    ap.add_argument(
         "--refresh", action="store_true",
         help="只刷新已收录仓库的元数据（star / fork / 更新时间…），走 GraphQL 批量，不抓 trending",
     )
@@ -965,6 +1044,10 @@ def main() -> int:
         use_llm = False
 
     DATA.mkdir(exist_ok=True)
+
+    # ── 模式 0：只重写分片（--rewrite），不联网 ──
+    if args.rewrite:
+        return rewrite_all()
 
     # ── 模式 0：只刷新元数据（--refresh），不抓 trending、不动简介 ──
     if args.refresh:
