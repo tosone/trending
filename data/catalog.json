@@ -1,6 +1,6 @@
 {
   "title": "GitHub Trending",
-  "generated_at": "2026-10-26T07:51:32+00:00",
+  "generated_at": "2026-10-26T07:54:52+00:00",
   "since": [
     "daily",
     "weekly",
@@ -10,7 +10,7 @@
     {
       "key": "all",
       "label": "全部语言",
-      "count": 2895
+      "count": 2957
     },
     {
       "key": "javascript",
@@ -25,12 +25,12 @@
     {
       "key": "python",
       "label": "Python",
-      "count": 293
+      "count": 294
     },
     {
       "key": "java",
       "label": "Java",
-      "count": 109
+      "count": 170
     },
     {
       "key": "go",

@@ -6,10 +6,10 @@
     "weekly",
     "monthly"
   ],
-  "generated_at": "2026-10-26T07:49:29+00:00",
+  "generated_at": "2026-10-26T07:54:03+00:00",
   "first_at": "2026-10-09T11:21:36+00:00",
-  "count": 293,
-  "added": 35,
+  "count": 294,
+  "added": 1,
   "repos": [
     {
       "owner": "public-apis",
@@ -4094,6 +4094,39 @@
         "ai"
       ],
       "primary_domain": "ai"
+    },
+    {
+      "owner": "Gathin23",
+      "name": "cleanyourtv",
+      "full_name": "Gathin23/cleanyourtv",
+      "url": "https://github.com/Gathin23/cleanyourtv",
+      "description": "Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home.",
+      "language": "Python",
+      "stars": 36635,
+      "forks": 4378,
+      "homepage": "https://cleanyour.tv",
+      "license": "NOASSERTION",
+      "created_at": "2026-10-17T08:12:35Z",
+      "pushed_at": "2026-10-26T06:52:13Z",
+      "updated_at": "2026-10-26T07:54:03Z",
+      "open_issues": 178,
+      "summary": "cleanyourtv 是一个用 Python 编写的开源工具集，用于通过 Wi-Fi 对 Android TV 或 Google TV 进行精简去臃肿，并替换为类似 Apple TV 风格的简洁主屏幕。它利用电视与手机相同的调试桥，在开发者选项中开启 USB 调试并授权电脑后，即可使用标准 Android 工具操作，无需 root、无需线缆，也不卸载任何应用，并保留一行命令恢复原状的能力。项目包含禁用脚本、恢复脚本、启动器构建安装脚本以及隐私审计工具，后者可基于电视实际返回的信息列出语音、内容识别和遥测相关候选包及其证据，而非仅凭包名猜测。",
+      "tags": [
+        "app",
+        "tool"
+      ],
+      "primary_tag": "app",
+      "domains": [
+        "mobile",
+        "productivity"
+      ],
+      "primary_domain": "mobile",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-26T07:54:03+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 1
     },
     {
       "owner": "microsoft",

@@ -6,10 +6,10 @@
     "weekly",
     "monthly"
   ],
-  "generated_at": "2026-10-26T07:45:30+00:00",
+  "generated_at": "2026-10-26T07:54:39+00:00",
   "first_at": "2026-10-09T10:50:04+00:00",
   "count": 386,
-  "added": 38,
+  "added": 0,
   "repos": [
     {
       "owner": "affaan-m",
@@ -1576,7 +1576,7 @@
       "pushed_at": "2026-10-25T15:28:43Z",
       "updated_at": "2026-10-26T01:50:29Z",
       "open_issues": 461,
-      "summary": "PDF.js 是由 Mozilla 支持、社区驱动的开源 PDF 阅读器，使用 HTML5 和 JavaScript 构建，目标是在 Web 标准之上提供通用的 PDF 解析与渲染平台。它解决的核心问题是让浏览器无需依赖原生插件即可打开和显示 PDF 文件，Firefox 19 及以上版本已内置该阅读器，Chrome 也可通过官方扩展使用。项目提供在线演示、PDF 内部结构调试器，以及以 pdfjs-dist 名义发布到 NPM 的预构建版本，可通过 jsDelivr、cdnjs、unpkg 等 CDN 引入，方便在 Web 应用中集成。开发者可以克隆仓库、安装 Node.",
+      "summary": "PDF.js 是由 Mozilla 支持、社区驱动的开源 PDF 阅读器，基于 HTML5 与 JavaScript 构建，目标是提供一个通用、基于 Web 标准的 PDF 解析与渲染平台。它解决的核心问题是在浏览器中直接打开和显示 PDF 文档，无需依赖原生插件。该项目内置 Firefox 19 及以上版本，同时提供 Chrome 扩展，也可通过 pdfjs-dist 包在 Web 应用中集成，或经 jsDelivr、cdnjs、unpkg 等 CDN 引入。",
       "tags": [
         "library"
       ],
@@ -1591,7 +1591,7 @@
       ],
       "added_at": "2026-10-26T07:45:30+00:00",
       "last_seen": "2026-10-26",
-      "seen_count": 1
+      "seen_count": 3
     },
     {
       "owner": "chinese-poetry",
@@ -1769,7 +1769,7 @@
       "pushed_at": "2023-10-23T21:01:40Z",
       "updated_at": "2026-10-26T02:54:56Z",
       "open_issues": 72,
-      "summary": "hacker-scripts 是一个基于真实故事整理出来的脚本合集，主角是一位把终端当家的构建工程师，凡是耗时超过 90 秒的事情他都会写脚本自动化。仓库用 JavaScript 编写，也欢迎 Python、Perl、Shell 等其他实现。核心是几个带黑色幽默的脚本：smack-my-bitch-up.sh 在晚上 9 点后检测到服务器上仍有该用户登录的 SSH 会话时，随机挑选理由给妻子发“加班”短信；kumar-asshole.",
+      "summary": "hacker-scripts 是一个基于真实故事整理出来的脚本合集，源自一位习惯把重复操作自动化的工程师留下的“遗产”。它要解决的是日常琐事占用时间的问题：凡是超过 90 秒能完成的事，他都写成脚本交给机器。仓库用 JavaScript 编写，包含几个颇具代表性的脚本：smack-my-bitch-up.sh 在晚上 9 点后检测到服务器上仍有该用户登录的 SSH 会话时，随机挑选理由给妻子发“加班”短信；kumar-asshole.sh 则负责替人回复邮件。",
       "tags": [
         "example"
       ],
@@ -1783,7 +1783,7 @@
       ],
       "added_at": "2026-10-26T07:45:30+00:00",
       "last_seen": "2026-10-26",
-      "seen_count": 1
+      "seen_count": 3
     },
     {
       "owner": "bigskysoftware",
@@ -2119,7 +2119,7 @@
       "pushed_at": "2026-10-23T18:49:29Z",
       "updated_at": "2026-10-26T05:45:21Z",
       "open_issues": 23,
-      "summary": "zx 是 Google 开源的一个用于编写更好脚本的工具，主要语言为 JavaScript。Bash 适合简单任务，但面对更复杂的脚本时，许多人更愿意使用更便利的编程语言，JavaScript 是理想选择，而 Node.js 标准库在使用前需要额外处理。zx 在 child_process 之上提供了跨平台的实用封装，能对参数进行转义并给出合理默认值，让开发者兼顾两者的优势。它支持 Linux、macOS 和 Windows，可运行于 Node.js、Bun、Deno 和 GraalVM Node.",
+      "summary": "zx 是 Google 开源的一款用于编写更好脚本的工具，主要语言为 JavaScript。它面向的是这样一类场景：Bash 适合简单任务，但编写较复杂脚本时，很多人更愿意使用更方便的编程语言，JavaScript 是理想选择，然而 Node.js 标准库在使用前需要额外处理。zx 在 child_process 之上提供了跨平台的实用封装，能对参数进行转义并给出合理默认值，从而兼顾两者的优势。它支持 Linux、macOS 和 Windows，可运行于 Node.js、Bun、Deno 和 GraalVM 等运行时。",
       "tags": [
         "library",
         "tool"
@@ -2135,7 +2135,7 @@
       ],
       "added_at": "2026-10-26T07:45:30+00:00",
       "last_seen": "2026-10-26",
-      "seen_count": 1
+      "seen_count": 3
     },
     {
       "owner": "Leaflet",
@@ -2185,7 +2185,7 @@
       "updated_at": "2026-10-26T07:08:53Z",
       "open_issues": 6,
       "archived": true,
-      "summary": "eDEX-UI 是一个跨平台的全屏终端模拟器与系统监控工具，界面风格模仿科幻电影中的计算机交互界面，主要灵感来自《创：战纪》。它试图在保持未来感外观的同时兼顾实际可用性，把科幻式的用户体验带入日常使用。核心能力包括：支持标签页、颜色、鼠标事件以及 curses 类应用的功能完整的终端；实时监控 CPU、内存、交换分区、进程等系统状态，以及 GeoIP、活动连接和传输速率等网络信息；完整支持触摸屏并提供屏幕键盘；目录查看器会跟随终端当前工作目录；还支持通过主题、屏幕键盘布局和 CSS 注入进行深度定制，并可选配音效。它基于 JavaScript 开发，使用 xterm.",
+      "summary": "eDEX-UI 是一个跨平台的全屏终端模拟器与系统监控工具，界面风格模仿科幻电影中的计算机交互界面，主要灵感来自《创：战纪》。它试图在保持未来感外观的同时兼顾实际可用性，解决的是普通终端在视觉呈现与系统状态可视化上的不足。核心能力包括：支持标签页、颜色、鼠标事件及 curses 类应用的完整终端功能；实时监控 CPU、内存、交换分区、进程以及网络连接、传输速率和 GeoIP 信息；完整支持触摸屏并提供屏幕键盘；目录查看器可跟随终端当前工作目录；还支持通过主题、键盘布局和 CSS 注入进行深度定制，并可选配音效。",
       "tags": [
         "app"
       ],
@@ -2200,7 +2200,7 @@
       ],
       "added_at": "2026-10-26T07:45:30+00:00",
       "last_seen": "2026-10-26",
-      "seen_count": 1
+      "seen_count": 3
     },
     {
       "owner": "sudheerj",
@@ -2731,7 +2731,7 @@
       "pushed_at": "2026-10-24T09:02:40Z",
       "updated_at": "2026-10-26T07:08:11Z",
       "open_issues": 244,
-      "summary": "DrawDB 是一个基于浏览器的免费数据库实体关系图（ERD）编辑器与 SQL 生成工具，主要用 JavaScript 编写。它面向需要快速设计数据库结构但不想安装桌面软件或注册账号的用户，打开网页即可通过点击操作绘制表与关系图，并支持 SQL 脚本的导入导出、迁移生成以及编辑器外观定制。由于无需登录，适合临时建模、教学演示或团队讨论时快速出图；若需要分享文件，可按 .env.sample 配置服务端与环境变量启用共享功能，也可通过 Docker 镜像启动并在容器启动时传入服务端地址，无需重新构建。项目支持本地开发与构建，贡献指南见 CONTRIBUTING.",
+      "summary": "DrawDB 是一款免费、简单且直观的在线数据库实体关系图（ERD）编辑器与 SQL 生成工具，基于 JavaScript 开发，直接在浏览器中运行。它主要解决数据库设计阶段建模与脚本同步的问题：用户通过少量点击即可绘制数据库结构图，并支持 SQL 脚本的导入与导出、迁移脚本生成以及编辑器外观自定义，全程无需注册账号。其特点在于开箱即用、无需登录，同时提供可选的分享功能，需按 .env.sample 配置服务端与环境变量，Docker 镜像启动时传入服务端地址即可启用，无需重新构建。典型使用场景包括数据库表结构设计与评审、ERD 文档维护、由图表生成 SQL 或反向导入现有脚本。",
       "tags": [
         "app"
       ],
@@ -2746,7 +2746,7 @@
       ],
       "added_at": "2026-10-26T07:45:30+00:00",
       "last_seen": "2026-10-26",
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "owner": "preactjs",
