@@ -1,6 +1,6 @@
 {
   "title": "GitHub Trending",
-  "generated_at": "2026-10-26T08:02:10+00:00",
+  "generated_at": "2026-10-26T08:29:12+00:00",
   "since": [
     "daily",
     "weekly",
@@ -15,7 +15,7 @@
     {
       "key": "javascript",
       "label": "JavaScript",
-      "count": 386
+      "count": 387
     },
     {
       "key": "typescript",
@@ -25,7 +25,7 @@
     {
       "key": "python",
       "label": "Python",
-      "count": 294
+      "count": 295
     },
     {
       "key": "java",
@@ -35,22 +35,22 @@
     {
       "key": "go",
       "label": "Go",
-      "count": 665
+      "count": 666
     },
     {
       "key": "rust",
       "label": "Rust",
-      "count": 200
+      "count": 199
     },
     {
       "key": "c",
       "label": "C",
-      "count": 264
+      "count": 262
     },
     {
       "key": "cpp",
       "label": "C++",
-      "count": 249
+      "count": 250
     }
   ]
 }
