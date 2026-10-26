@@ -101,6 +101,25 @@ trending boards — it refreshes every trending repo's metadata and is far heavi
 To keep a repo collected on every full run, also add it to the `PINNED` list at the top of
 the script.
 
+## Refreshing stars and other live fields
+
+To bring every collected repo's `stars` / `forks` / `pushed_at` / `open_issues` / … up to
+date without touching summaries, tags or the trending boards:
+
+```bash
+python3 tools/fetch_trending.py --refresh
+```
+
+It walks all of `data/`, refreshes the live fields, bumps `last_seen` / `seen_count`, re-sorts
+by stars and rebuilds `all.json` + `catalog.json` (a full 3130-repo pass takes about a minute).
+It goes through the GraphQL API in batches of 100 aliases (~1 rate-limit point per batch),
+**not** one REST call per repo — the REST quota is 5000 requests/hour, so a per-repo loop
+dies half way through and leaves the later files untouched. Repos that no longer resolve
+(renamed, deleted, made private) are kept as they are and listed at the end.
+
+A repo whose `language` changed is moved to the matching `data/<language>.json` (or
+`data/other.json`), so one repo is never stored twice.
+
 ## Automatic updates (GitHub Actions)
 
 Two workflows live in `.github/workflows/`:

@@ -160,6 +160,72 @@ def gh_text(args: list[str]) -> str | None:
     return r.stdout if r.returncode == 0 else None
 
 
+def gh_graphql(query: str, attempt: int = 0) -> dict | None:
+    """发一条 GraphQL 查询，返回 data；限流时等一下重试。"""
+    body = json.dumps({"query": query})
+    try:
+        r = subprocess.run(
+            ["gh", "api", "graphql", "--input", "-"],
+            input=body,
+            capture_output=True,
+            text=True,
+            timeout=120,
+        )
+    except (subprocess.TimeoutExpired, FileNotFoundError):
+        return None
+    # 单个 alias 查不到时 gh 会以非 0 退出，但 stdout 里仍有其它节点的数据，要照用
+    try:
+        payload = json.loads(r.stdout) if r.stdout.strip() else None
+    except json.JSONDecodeError:
+        payload = None
+    if payload is None:
+        if r.returncode != 0:
+            print(f"    ! GraphQL 失败: {r.stderr.strip()[:200]}", file=sys.stderr)
+        return None
+    if payload.get("errors"):
+        print(f"    ! GraphQL 部分错误: {str(payload['errors'])[:160]}", file=sys.stderr)
+    data = payload.get("data")
+    # 单个 alias 失败时 GitHub 仍会把其余节点放在 data 里，有 data 就用 data
+    return data if isinstance(data, dict) else None
+
+
+def fetch_meta_batch(names: list[str]) -> dict[str, dict]:
+    """一次取 META_BATCH 个仓库的元数据，返回 full_name → 字段字典。"""
+    lines = ["query {"]
+    for i, full in enumerate(names):
+        owner, _, name = full.partition("/")
+        lines.append(
+            f"  r{i}: repository(owner: {json.dumps(owner)}, name: {json.dumps(name)}) "
+            f"{META_FRAGMENT}"
+        )
+    lines.append("}")
+    data = gh_graphql("\n".join(lines))
+    if not data:
+        return {}
+
+    out: dict[str, dict] = {}
+    for i, full in enumerate(names):
+        node = data.get(f"r{i}")
+        if not node:
+            continue          # 改名 / 删除 / 私有，保持原记录
+        meta = {
+            "description": node.get("description") or "",
+            "stars": node.get("stargazerCount") or 0,
+            "forks": node.get("forkCount") or 0,
+            "language": (node.get("primaryLanguage") or {}).get("name") or "",
+            "homepage": node.get("homepageUrl") or "",
+            "license": (node.get("licenseInfo") or {}).get("spdxId") or "",
+            "created_at": node.get("createdAt") or "",
+            "pushed_at": node.get("pushedAt") or "",
+            "updated_at": node.get("updatedAt") or "",
+            "open_issues": (node.get("openIssues") or {}).get("totalCount") or 0,
+        }
+        if node.get("isArchived"):
+            meta["archived"] = True
+        out[full] = meta
+    return out
+
+
 def enrich(repo: dict, need_readme: bool = True) -> dict:
     full = repo["full_name"]
     meta = gh_json([f"repos/{full}"])
@@ -177,6 +243,9 @@ def enrich(repo: dict, need_readme: bool = True) -> dict:
         repo["topics"] = meta.get("topics") or []
         if meta.get("archived"):
             repo["archived"] = True
+    else:
+        # 查不到（改名 / 删除 / 限流）：标一下，合并时不要拿空值盖掉已有数据
+        repo["_unresolved"] = True
 
     if need_readme:
         readme = gh_text([f"repos/{full}/readme", "-H", "Accept: application/vnd.github.raw"])
@@ -505,6 +574,24 @@ REFRESH_FIELDS = (
     "open_issues", "archived",
 )
 
+# 批量刷新元数据用 GraphQL：一次 100 个别名，约 1 个 rate-limit point
+# （REST 是每个仓库 1 次请求，3130 个仓库会直接打爆 5000/小时的额度）
+META_FRAGMENT = """{
+  nameWithOwner
+  stargazerCount
+  forkCount
+  description
+  primaryLanguage { name }
+  homepageUrl
+  licenseInfo { spdxId }
+  createdAt
+  pushedAt
+  updatedAt
+  openIssues: issues(states: OPEN) { totalCount }
+  isArchived
+}"""
+META_BATCH = 100
+
 
 def load_json(path: Path) -> dict:
     if not path.exists():
@@ -602,12 +689,16 @@ def merge_into(
     # 合并：老仓库保留，新仓库入列
     by = {r["full_name"]: r for r in old_repos}
     added = 0
+    skipped: list[str] = []
     for repo in fresh:
         full = repo["full_name"]
         repo.pop("readme", None)
         hits = windows_of(repo)
         if full in by:
             old = by[full]
+            if repo.get("_unresolved"):
+                repo.pop("_unresolved", None)
+                continue          # 本次没查到，保留原记录不动
             for key in REFRESH_FIELDS:
                 if key in repo:
                     old[key] = repo[key]
@@ -626,6 +717,10 @@ def merge_into(
             if full in PINNED_SET:
                 old["pinned"] = True
         else:
+            if repo.get("_unresolved"):
+                repo.pop("_unresolved", None)
+                skipped.append(full)   # 新仓库没查到，不要以空值入列
+                continue
             repo["windows"] = hits
             repo["added_at"] = now_iso
             repo["last_seen"] = today
@@ -640,9 +735,15 @@ def merge_into(
         repo.pop("stars_today", None)   # 不再记录/展示「今日新增 star」
         repo.pop("topics", None)        # 不再记录话题标签
         repo.pop("authors", None)       # 不再记录贡献者头像
+        repo.pop("_unresolved", None)
         if not repo.get("windows") and not repo.get("pinned"):
             repo["windows"] = ["daily"]  # 早期只抓过今日榜的仓库补个默认值
     repos.sort(key=lambda r: r.get("stars", 0), reverse=True)
+    if skipped:
+        print(
+            f"    ! {len(skipped)} 个新仓库查不到，已跳过：{', '.join(skipped)}",
+            file=sys.stderr,
+        )
     return {
         "language": path.stem,
         "label": label,
@@ -701,6 +802,100 @@ def rebuild_all(wins: list[str]) -> None:
     })
 
 
+def refresh_all(workers: int = 6) -> int:
+    """只刷新已收录仓库的实时字段（star / fork / 更新时间…），不抓 trending。"""
+    wins = list(WINDOW_ORDER)
+    now = datetime.now(timezone.utc)
+    now_iso = now.isoformat(timespec="seconds")
+    today = now.date().isoformat()
+    ok = total = 0
+    missing: list[str] = []
+    docs: dict[str, dict] = {}
+
+    for slug in [*LANGUAGES, "other"]:
+        path = DATA / f"{slug}.json"
+        if not path.exists():
+            continue
+        doc = load_json(path)
+        repos = doc.get("repos", [])
+        if not repos:
+            continue
+        names = [r["full_name"] for r in repos]
+        batches = [names[i:i + META_BATCH] for i in range(0, len(names), META_BATCH)]
+        metas: dict[str, dict] = {}
+        with futures.ThreadPoolExecutor(max_workers=workers) as pool:
+            for part in pool.map(fetch_meta_batch, batches):
+                metas.update(part)
+        for repo in repos:
+            meta = metas.get(repo["full_name"])
+            if not meta:
+                missing.append(repo["full_name"])
+                continue
+            repo.update({k: v for k, v in meta.items() if k in REFRESH_FIELDS})
+            if not meta.get("archived"):
+                repo.pop("archived", None)
+            repo["last_seen"] = today
+            repo["seen_count"] = repo.get("seen_count", 1) + 1
+            ok += 1
+        repos.sort(key=lambda r: r.get("stars", 0), reverse=True)
+        doc["repos"] = repos
+        doc["count"] = len(repos)
+        doc["generated_at"] = now_iso
+        docs[slug] = doc
+        write_doc(path, doc)
+        total += len(repos)
+        print(f"[{slug}] 刷新 {len(metas)}/{len(repos)} 个", file=sys.stderr)
+
+    moved = regroup(docs)
+    if moved:
+        print(f"归位 {moved} 个语言已变化的仓库", file=sys.stderr)
+    rebuild_all(wins)
+    print(f"完成：{ok}/{total} 个仓库已刷新。", file=sys.stderr)
+    if missing:
+        head = ", ".join(missing[:20]) + (" …" if len(missing) > 20 else "")
+        print(f"! {len(missing)} 个查不到，保持原样：{head}", file=sys.stderr)
+    return 0
+
+
+def regroup(docs: dict[str, dict]) -> int:
+    """按刷新后的 language 把仓库归到对应文件，一个仓库只留一份。
+
+    上一轮如果某个仓库的 language 变了（或者先按其他语言加了进来），它会同时
+    存在于两个文件里；这里以 language 为准重新分配，语言对不上且又没变过的仓库
+    原地不动。返回移动（或删除重复）的个数。
+    """
+    before = {full: slug for slug, doc in docs.items() for full in
+              (r["full_name"] for r in doc["repos"])}
+    seen: set[str] = set()
+    out: dict[str, list[dict]] = {slug: [] for slug in docs}
+    moved = 0
+    for slug, doc in docs.items():
+        for repo in doc["repos"]:
+            full = repo["full_name"]
+            if full in seen:
+                moved += 1          # 跨文件重复，丢掉后一份
+                continue
+            seen.add(full)
+            lang = (repo.get("language") or "").strip()
+            target = SLUG_BY_LABEL.get(lang, "other") if lang else slug
+            if target not in out:
+                target = slug
+            if target != slug:
+                moved += 1
+            out[target].append(repo)
+    for slug, repos in out.items():
+        doc = docs[slug]
+        if len(repos) == len(doc["repos"]) and all(
+            a["full_name"] == b["full_name"] for a, b in zip(repos, doc["repos"])
+        ):
+            continue
+        repos.sort(key=lambda r: r.get("stars", 0), reverse=True)
+        doc["repos"] = repos
+        doc["count"] = len(repos)
+        write_doc(DATA / f"{slug}.json", doc)
+    return moved
+
+
 def retag(names: list[str], use_llm: bool) -> int:
     """给 data 里缺标签的仓库补 kind/domain 标签；names 非空时只重打这几个。"""
     wanted = set(names)
@@ -745,6 +940,10 @@ def main() -> int:
     ap.add_argument("--no-summary", action="store_true", help="跳过中文简介生成")
     ap.add_argument("--resummarize", action="store_true", help="重写简介（只配合 --repos / --only-pinned）")
     ap.add_argument("--retag", action="store_true", help="给缺标签的仓库补 kind/domain 标签，不抓 trending")
+    ap.add_argument(
+        "--refresh", action="store_true",
+        help="只刷新已收录仓库的元数据（star / fork / 更新时间…），走 GraphQL 批量，不抓 trending",
+    )
     args = ap.parse_args()
 
     if args.resummarize and not (args.repos or args.only_pinned):
@@ -766,6 +965,10 @@ def main() -> int:
         use_llm = False
 
     DATA.mkdir(exist_ok=True)
+
+    # ── 模式 0：只刷新元数据（--refresh），不抓 trending、不动简介 ──
+    if args.refresh:
+        return refresh_all()
 
     # ── 模式 0：只补标签（--retag），不抓 trending ──
     if args.retag:
