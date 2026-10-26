@@ -6,10 +6,10 @@
     "weekly",
     "monthly"
   ],
-  "generated_at": "2026-10-13T03:43:09+00:00",
+  "generated_at": "2026-10-26T07:49:29+00:00",
   "first_at": "2026-10-09T11:21:36+00:00",
-  "count": 258,
-  "added": 9,
+  "count": 293,
+  "added": 35,
   "repos": [
     {
       "owner": "public-apis",
@@ -18,21 +18,21 @@
       "url": "https://github.com/public-apis/public-apis",
       "description": "A collective list of free APIs",
       "language": "Python",
-      "stars": 488043,
-      "forks": 54103,
+      "stars": 492211,
+      "forks": 54799,
       "homepage": "https://APILayer.com/?utm_source=Github&utm_medium=Referral&utm_campaign=Public-apis-repo",
       "license": "MIT",
       "created_at": "2016-03-20T23:49:42Z",
-      "pushed_at": "2026-10-11T20:42:26Z",
-      "updated_at": "2026-10-13T03:29:09Z",
-      "open_issues": 2142,
+      "pushed_at": "2026-10-24T09:30:33Z",
+      "updated_at": "2026-10-26T07:44:17Z",
+      "open_issues": 2375,
       "summary": "Public APIs 是一份由社区成员和 APILayer 团队共同人工维护的免费 API 集合清单，主要用 Python 编写。它解决的是开发者在寻找可用接口时信息分散、质量参差的问题，把散落各处的公开 API 按主题整理成统一索引。清单覆盖动物、动漫、区块链、书籍、加密货币、货币汇率、数据校验、开发工具、地理编码、政府、健康、机器学习、音乐、新闻、开放数据、专利、摄影、科学数学、安全、社交、体育、测试数据、文本分析、交通、视频、天气等数十个分类，每条记录标注描述、认证方式、是否支持 HTTPS 与 CORS，方便快速筛选。",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-12T11:59:18+00:00",
-      "last_seen": "2026-10-12",
-      "seen_count": 1,
+      "last_seen": "2026-10-26",
+      "seen_count": 2,
       "tags": [
         "doc"
       ],
@@ -50,21 +50,21 @@
       "url": "https://github.com/EbookFoundation/free-programming-books",
       "description": ":books: Freely available programming books",
       "language": "Python",
-      "stars": 398881,
-      "forks": 66931,
+      "stars": 400137,
+      "forks": 67004,
       "homepage": "https://ebookfoundation.github.io/free-programming-books/",
       "license": "CC-BY-4.0",
       "created_at": "2013-10-11T06:50:37Z",
-      "pushed_at": "2026-10-12T16:52:07Z",
-      "updated_at": "2026-10-13T03:31:19Z",
-      "open_issues": 81,
+      "pushed_at": "2026-10-25T00:26:40Z",
+      "updated_at": "2026-10-26T07:32:48Z",
+      "open_issues": 97,
       "summary": "free-programming-books 是由 Free Ebook Foundation 维护的免费编程学习资源清单，最初克隆自 StackOverflow 的免费编程书籍列表，后迁移至 GitHub 进行协作更新，现已成为该平台最受欢迎的仓库之一。它解决的是学习资源分散、难以系统查找的问题，将免费书籍、速查表、在线课程、互动编程资源、习题与竞赛编程、播客与 screencast、编程练习场等按类型和语言分类整理。资源覆盖英语及中文、法语、德语、日语、俄语、西班牙语等数十种语言，用户可按编程语言或主题检索，也可通过配套搜索页面快速定位。",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-09T12:38:51+00:00",
-      "last_seen": "2026-10-09",
-      "seen_count": 1,
+      "last_seen": "2026-10-26",
+      "seen_count": 2,
       "tags": [
         "doc"
       ],
@@ -81,21 +81,21 @@
       "url": "https://github.com/donnemartin/system-design-primer",
       "description": "Learn how to design large-scale systems. Prep for the system design interview.  Includes Anki flashcards.",
       "language": "Python",
-      "stars": 373974,
-      "forks": 58849,
+      "stars": 375597,
+      "forks": 58993,
       "homepage": "",
       "license": "NOASSERTION",
       "created_at": "2017-02-26T16:15:28Z",
       "pushed_at": "2026-09-15T01:10:09Z",
-      "updated_at": "2026-10-13T03:20:59Z",
-      "open_issues": 624,
+      "updated_at": "2026-10-26T07:31:42Z",
+      "open_issues": 631,
       "summary": "System Design Primer 是一份面向大规模系统设计学习与面试准备的开源指南，主要语言为 Python。它解决的是系统设计知识分散、缺乏体系化整理的问题，将网络上的相关资源组织成结构清晰的索引。核心内容包括：性能与可扩展性、延迟与吞吐量、可用性与一致性、CAP 定理、一致性模式、可用性模式、DNS、CDN、负载均衡、反向代理、应用层、数据库、缓存、异步、通信与安全等主题，并配有 Anki 记忆卡片帮助巩固概念。它还提供系统设计面试的应对步骤，从梳理用例与约束、高层设计、核心组件设计到扩展设计，并附有 Pastebin、Twitter 时间线、网页爬虫、Mint.",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-09T12:38:51+00:00",
-      "last_seen": "2026-10-09",
-      "seen_count": 1,
+      "last_seen": "2026-10-26",
+      "seen_count": 2,
       "tags": [
         "doc"
       ],
@@ -112,21 +112,21 @@
       "url": "https://github.com/vinta/awesome-python",
       "description": "The definitive list that answers \"I want to do X in Python, which tool should I use?\"",
       "language": "Python",
-      "stars": 326955,
-      "forks": 28940,
+      "stars": 330326,
+      "forks": 29010,
       "homepage": "https://awesome-python.com/",
       "license": "NOASSERTION",
       "created_at": "2014-06-27T21:00:06Z",
-      "pushed_at": "2026-10-12T10:22:02Z",
-      "updated_at": "2026-10-13T03:33:42Z",
-      "open_issues": 17,
+      "pushed_at": "2026-10-26T04:44:34Z",
+      "updated_at": "2026-10-26T07:46:51Z",
+      "open_issues": 19,
       "summary": "Awesome Python 是一份面向 Python 开发者的技术选型清单，用分类目录的方式回答“想在 Python 里做某件事，该用哪个工具”。它覆盖 AI 与机器学习、Web 开发、HTTP 与爬虫、数据库与存储、数据与科学计算、开发者工具、DevOps、命令行与图形界面、文本与文档处理、多媒体、Python 语言特性、工具链以及安全等大类，并在每个类别下给出具体项目，例如 AI 领域的 langchain、pydantic-ai、transformers、vllm，深度学习方向的 pytorch、jax、keras，机器学习方向的 scikit-learn、xgboost、light。",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-09T12:38:51+00:00",
-      "last_seen": "2026-10-09",
-      "seen_count": 1,
+      "last_seen": "2026-10-26",
+      "seen_count": 2,
       "tags": [
         "doc"
       ],
@@ -144,21 +144,21 @@
       "url": "https://github.com/practical-tutorials/project-based-learning",
       "description": "Curated list of project-based tutorials",
       "language": "Python",
-      "stars": 286532,
-      "forks": 36619,
+      "stars": 288004,
+      "forks": 36721,
       "homepage": "",
       "license": "MIT",
       "created_at": "2017-04-12T05:07:46Z",
-      "pushed_at": "2026-10-12T07:22:00Z",
-      "updated_at": "2026-10-13T03:34:07Z",
-      "open_issues": 241,
+      "pushed_at": "2026-10-26T07:13:08Z",
+      "updated_at": "2026-10-26T07:28:26Z",
+      "open_issues": 238,
       "summary": "Project-based Learning 是一份按编程语言分类的项目式教程清单，面向希望通过从零构建应用来学习编程的开发者。它解决的是学习资料零散、缺乏实践路径的问题，把分散在各处的教程按语言和技术栈整理在一起。清单覆盖 C/C++、C#、Go、Java、JavaScript、Python、Rust、Swift 等二十多种语言，内容从写解释器、操作系统、数据库、Redis、编译器、TCP/IP 协议栈，到用 React、Vue、Django、Flask、Angular 构建 Web 应用，以及用 Phaser、LÖVE、OpenGL 开发游戏。",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-12T11:59:18+00:00",
-      "last_seen": "2026-10-12",
-      "seen_count": 1,
+      "last_seen": "2026-10-26",
+      "seen_count": 2,
       "tags": [
         "doc"
       ],
@@ -175,20 +175,20 @@
       "url": "https://github.com/NousResearch/hermes-agent",
       "description": "The agent that grows with you",
       "language": "Python",
-      "stars": 253185,
-      "forks": 54875,
+      "stars": 257157,
+      "forks": 56334,
       "pinned": true,
       "homepage": "https://hermes-agent.nousresearch.com",
       "license": "MIT",
       "created_at": "2025-07-22T22:22:28Z",
-      "pushed_at": "2026-10-13T03:25:53Z",
-      "updated_at": "2026-10-13T03:34:09Z",
-      "open_issues": 48168,
+      "pushed_at": "2026-10-26T07:48:32Z",
+      "updated_at": "2026-10-26T07:47:20Z",
+      "open_issues": 51182,
       "summary": "Hermes Agent 是 Nous Research 用 Python 开发的自改进 AI 智能体，主打随使用不断成长。它内置学习闭环：能从经验中自动创建技能并在使用中持续改进，主动提醒自己沉淀知识，检索历史会话，并借助 Honcho 辩证式用户建模跨会话加深对你的理解。它不绑定本地电脑，可跑在 5 美元 VPS、GPU 集群或空闲时近乎零成本的 Serverless 环境上，支持本地、Docker、SSH、Modal、Daytona 等七种终端后端。模型可自由切换，兼容 Nous Portal、OpenRouter、OpenAI 及自建端点。",
       "windows": [],
       "added_at": "2026-10-09T11:49:12+00:00",
-      "last_seen": "2026-10-12",
-      "seen_count": 5,
+      "last_seen": "2026-10-26",
+      "seen_count": 6,
       "tags": [
         "app",
         "framework"
@@ -206,21 +206,21 @@
       "url": "https://github.com/TheAlgorithms/Python",
       "description": "All Algorithms implemented in Python",
       "language": "Python",
-      "stars": 225204,
-      "forks": 51183,
+      "stars": 225526,
+      "forks": 51220,
       "homepage": "https://thealgorithms.github.io/Python/",
       "license": "MIT",
       "created_at": "2016-07-16T09:44:01Z",
-      "pushed_at": "2026-10-12T06:46:23Z",
-      "updated_at": "2026-10-13T03:19:06Z",
-      "open_issues": 19,
+      "pushed_at": "2026-10-20T05:01:26Z",
+      "updated_at": "2026-10-26T07:15:36Z",
+      "open_issues": 58,
       "summary": "TheAlgorithms/Python 是一个用 Python 实现各类经典算法的教学型代码仓库，官方定位是“所有算法均以 Python 实现”，并明确说明这些实现仅供学习使用，效率可能低于 Python 标准库中的对应实现。它解决的是算法学习过程中缺少可读参考代码的问题，把排序、查找、数据结构等常见算法以 Python 源码形式集中呈现，方便读者对照理解算法逻辑。仓库按目录组织算法列表，便于按主题查找和浏览，同时提供贡献指南，接受社区提交新实现或改进。社区还设有 Discord 频道，供使用者提问和交流。",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-09T12:38:51+00:00",
-      "last_seen": "2026-10-09",
-      "seen_count": 1,
+      "last_seen": "2026-10-26",
+      "seen_count": 2,
       "tags": [
         "doc",
         "example"
@@ -232,27 +232,59 @@
       "primary_domain": "learning"
     },
     {
+      "owner": "yt-dlp",
+      "name": "yt-dlp",
+      "full_name": "yt-dlp/yt-dlp",
+      "url": "https://github.com/yt-dlp/yt-dlp",
+      "description": "A feature-rich command-line audio/video downloader",
+      "language": "Python",
+      "stars": 202259,
+      "forks": 17706,
+      "homepage": "https://discord.gg/H5MNcFW63r",
+      "license": "Unlicense",
+      "created_at": "2020-10-26T04:22:55Z",
+      "pushed_at": "2026-10-23T15:18:53Z",
+      "updated_at": "2026-10-26T07:48:59Z",
+      "open_issues": 2730,
+      "summary": "yt-dlp 是一个功能丰富的命令行音视频下载工具，用 Python 编写，支持数千个网站。它源自 youtube-dl，并基于已停止维护的 youtube-dlc 分支发展而来，主要解决从各类站点抓取和保存音视频内容的需求。核心能力包括格式筛选与排序、输出模板定制、字幕与缩略图处理、元数据修改、SponsorBlock 支持、配置文件与 netrc 认证、插件扩展以及嵌入到其他程序中使用。安装方式灵活，既可直接下载各平台独立可执行文件，也可通过 pip 或第三方包管理器安装，并支持 stable、nightly、master 三个更新通道。",
+      "tags": [
+        "tool",
+        "app"
+      ],
+      "primary_tag": "tool",
+      "domains": [
+        "media"
+      ],
+      "primary_domain": "media",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-26T07:49:29+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 1
+    },
+    {
       "owner": "microsoft",
       "name": "markitdown",
       "full_name": "microsoft/markitdown",
       "url": "https://github.com/microsoft/markitdown",
       "description": "Python tool for converting files and office documents to Markdown.",
       "language": "Python",
-      "stars": 189835,
-      "forks": 14121,
+      "stars": 192243,
+      "forks": 14360,
       "homepage": "",
       "license": "MIT",
       "created_at": "2024-11-13T19:56:40Z",
-      "pushed_at": "2026-10-04T03:59:52Z",
-      "updated_at": "2026-10-13T03:26:29Z",
-      "open_issues": 719,
+      "pushed_at": "2026-10-23T17:04:06Z",
+      "updated_at": "2026-10-26T07:41:44Z",
+      "open_issues": 767,
       "summary": "MarkItDown 是微软开源的 Python 工具，用于将各类文件转换为 Markdown，主要服务于大语言模型和文本分析流程。它解决的问题是：LLM 更易理解 Markdown，且 Markdown 接近纯文本、token 效率高，但原始文档格式多样，需要统一转换。它支持 PDF、Word、Excel、PowerPoint、图片（EXIF 与 OCR）、音频（元数据与语音转写）、HTML、CSV、JSON、XML、ZIP、YouTube 链接、EPub 等格式，并尽量保留标题、列表、表格、链接等结构。",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-09T12:38:51+00:00",
-      "last_seen": "2026-10-12",
-      "seen_count": 2,
+      "last_seen": "2026-10-26",
+      "seen_count": 3,
       "tags": [
         "library",
         "tool"
@@ -265,27 +297,90 @@
       "primary_domain": "productivity"
     },
     {
+      "owner": "Significant-Gravitas",
+      "name": "AutoGPT",
+      "full_name": "Significant-Gravitas/AutoGPT",
+      "url": "https://github.com/Significant-Gravitas/AutoGPT",
+      "description": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.",
+      "language": "Python",
+      "stars": 187754,
+      "forks": 45897,
+      "homepage": "https://agpt.co",
+      "license": "NOASSERTION",
+      "created_at": "2023-03-16T09:21:07Z",
+      "pushed_at": "2026-10-26T07:48:51Z",
+      "updated_at": "2026-10-26T07:38:47Z",
+      "open_issues": 732,
+      "summary": "AutoGPT 是一个用 Python 编写的 AI 智能体平台，目标是让每个人都能使用并在此基础上构建可访问的 AI 工具。它把 AI 能力组织成一支“专家团队”：用户用自然语言向协调者 Otto 说明任务，Otto 便调用内容、销售、研究等领域的专家接手工作并同步进展，用户也可以直接与某位专家深入沟通。每位专家都有可自定义的角色，通过指令、上下文、技能和已连接的应用来塑造，既能选用现成专家，也能自建。平台支持为专家配置可访问的账户、设置支出控制并查看活动进度，还可通过可视化构建器编排可重复的工作流，连接工具、分支逻辑并检查运行过程，工作流可从市场获取或自行搭建。",
+      "tags": [
+        "app",
+        "framework"
+      ],
+      "primary_tag": "app",
+      "domains": [
+        "ai"
+      ],
+      "primary_domain": "ai",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-26T07:49:29+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 1
+    },
+    {
+      "owner": "CyC2018",
+      "name": "CS-Notes",
+      "full_name": "CyC2018/CS-Notes",
+      "url": "https://github.com/CyC2018/CS-Notes",
+      "description": ":books: 技术面试必备基础知识、Leetcode、计算机操作系统、计算机网络、系统设计",
+      "language": "Python",
+      "stars": 186345,
+      "forks": 50665,
+      "homepage": "http://cyc2018.xyz",
+      "license": "",
+      "created_at": "2018-02-13T14:56:24Z",
+      "pushed_at": "2026-10-25T22:10:38Z",
+      "updated_at": "2026-10-26T06:55:57Z",
+      "open_issues": 200,
+      "summary": "CyC2018/CS-Notes 是一份面向技术面试准备的中文知识笔记仓库，内容覆盖算法（剑指 Offer、Leetcode 题解）、计算机操作系统与 Linux、计算机网络与 HTTP/Socket、数据库（数据库系统原理、SQL 语法与练习、MySQL、Redis）、Java 基础与容器、并发、虚拟机、I/O 及 Spring，以及系统设计（分布式、集群、微服务、缓存、消息队列、攻击技术、大模型应用）、面向对象与设计模式、Git、Docker、构建工具、正则表达式和编码实践等主题。它解决的是面试复习中知识点分散、资料零散的问题，将基础概念与题目解析按主题整理成可顺序阅读的笔记。",
+      "tags": [
+        "doc"
+      ],
+      "primary_tag": "doc",
+      "domains": [
+        "learning"
+      ],
+      "primary_domain": "learning",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-26T07:49:29+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 1
+    },
+    {
       "owner": "521xueweihan",
       "name": "HelloGitHub",
       "full_name": "521xueweihan/HelloGitHub",
       "url": "https://github.com/521xueweihan/HelloGitHub",
       "description": ":octocat: 分享 GitHub 上有趣、入门级的开源项目。Share interesting, entry-level open source projects on GitHub.",
       "language": "Python",
-      "stars": 181675,
-      "forks": 12990,
+      "stars": 184548,
+      "forks": 13101,
       "homepage": "https://hellogithub.com",
       "license": "",
       "created_at": "2016-05-04T06:24:11Z",
       "pushed_at": "2026-09-28T00:11:38Z",
-      "updated_at": "2026-10-13T03:33:18Z",
-      "open_issues": 970,
+      "updated_at": "2026-10-26T07:47:32Z",
+      "open_issues": 1121,
       "summary": "HelloGitHub 是一个面向中文用户的开源项目推荐与分享平台，主要帮助开发者发现 GitHub 上有趣且适合入门的开源项目。它解决的是信息筛选成本高、初学者难以找到合适练手项目的问题。核心特点是每月 28 号以月刊形式更新，内容涵盖入门级项目、开源书籍、实战项目和企业级项目，并配有官网和公众号渠道方便阅读。项目本身以 Python 为主要语言，同时提供中文、英文和日文界面，便于不同语言背景的用户使用。典型场景包括：开发者寻找学习方向、新手通过实战项目提升技能、以及项目作者自荐或推荐作品。整体定位是降低开源参与门槛，让用户用较短时间感受开源乐趣。",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-09T12:38:51+00:00",
-      "last_seen": "2026-10-09",
-      "seen_count": 1,
+      "last_seen": "2026-10-26",
+      "seen_count": 2,
       "tags": [
         "doc"
       ],
@@ -302,21 +397,21 @@
       "url": "https://github.com/anthropics/skills",
       "description": "Public repository for Agent Skills",
       "language": "Python",
-      "stars": 180762,
-      "forks": 21422,
+      "stars": 183833,
+      "forks": 21748,
       "homepage": "",
       "license": "",
       "created_at": "2025-09-22T15:53:31Z",
       "pushed_at": "2026-10-09T18:45:52Z",
-      "updated_at": "2026-10-13T03:33:17Z",
-      "open_issues": 1404,
+      "updated_at": "2026-10-26T07:47:28Z",
+      "open_issues": 1438,
       "summary": "Anthropic 的 skills 仓库公开了 Claude 技能系统的实现示例，技能本质上是包含指令、脚本和资源的文件夹，Claude 会按需动态加载，从而以可重复的方式完成特定任务。它解决的是让 Claude 掌握组织专属流程与规范的问题，例如按品牌规范生成文档、按内部工作流分析数据或自动化个人事务。仓库中的技能覆盖创意设计、开发技术、企业沟通和文档处理等方向，每个技能独立成文件夹，通过 SKILL.md 定义名称、描述与指令，并附有规范文件与模板。其中 docx、pdf、pptx、xlsx 等文档技能是 Claude 文档能力的底层实现，可作为复杂技能的参考。",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-10T10:57:16+00:00",
-      "last_seen": "2026-10-10",
-      "seen_count": 1,
+      "last_seen": "2026-10-26",
+      "seen_count": 2,
       "tags": [
         "library",
         "doc"
@@ -335,21 +430,21 @@
       "url": "https://github.com/huggingface/transformers",
       "description": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training. ",
       "language": "Python",
-      "stars": 167613,
-      "forks": 34850,
+      "stars": 168171,
+      "forks": 34991,
       "homepage": "https://huggingface.co/transformers",
       "license": "Apache-2.0",
       "created_at": "2018-10-29T13:56:00Z",
-      "pushed_at": "2026-10-13T03:27:48Z",
-      "updated_at": "2026-10-13T03:28:22Z",
-      "open_issues": 2339,
+      "pushed_at": "2026-10-26T07:38:58Z",
+      "updated_at": "2026-10-26T07:39:39Z",
+      "open_issues": 1003,
       "summary": "Transformers 是面向文本、视觉、音频、视频和多模态模型的模型定义框架，同时支持推理与训练。它把模型定义集中统一，使同一份定义能在生态中被广泛认可，从而与 Axolotl、Unsloth、DeepSpeed、FSDP、PyTorch-Lightning 等训练框架，vLLM、SGLang、TGI 等推理引擎，以及 llama.cpp、mlx 等建模库保持兼容。其核心特点包括统一 API、少量用户可见抽象、跨 PyTorch、JAX、TF2.0 的模型迁移能力，以及可独立于库使用的模型文件。Hugging Face Hub 上已有超过一百万个检查点，覆盖数百种模型架构。",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-09T12:38:51+00:00",
-      "last_seen": "2026-10-12",
-      "seen_count": 2,
+      "last_seen": "2026-10-26",
+      "seen_count": 3,
       "tags": [
         "library",
         "framework"
@@ -367,21 +462,21 @@
       "url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
       "description": "Stable Diffusion web UI",
       "language": "Python",
-      "stars": 165033,
-      "forks": 33170,
+      "stars": 165148,
+      "forks": 32514,
       "homepage": "",
       "license": "AGPL-3.0",
       "created_at": "2022-08-22T14:05:26Z",
       "pushed_at": "2026-03-02T07:00:53Z",
-      "updated_at": "2026-10-13T03:08:59Z",
-      "open_issues": 2510,
+      "updated_at": "2026-10-26T07:22:22Z",
+      "open_issues": 2509,
       "summary": "Stable Diffusion web UI 是一个基于 Gradio 构建的网页界面，让用户无需编写代码即可操作 Stable Diffusion 模型进行图像生成与编辑。它解决了命令行操作门槛高、参数调整不便的问题，把文生图、图生图、局部重绘、扩图、色彩草图等能力集中到浏览器中。核心特点包括提示词矩阵、X/Y/Z 参数对比图、文本反转、超分辨率放大、面部修复、采样方法选择、批量处理、高分辨率修复、检查点合并、LoRA 与超网络支持、API 接口以及可扩展的自定义脚本。界面还提供生成参数随图保存、实时预览、负面提示词、样式与变体保存等功能。",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-09T12:38:51+00:00",
-      "last_seen": "2026-10-09",
-      "seen_count": 1,
+      "last_seen": "2026-10-26",
+      "seen_count": 2,
       "tags": [
         "app"
       ],
@@ -394,27 +489,60 @@
       "primary_domain": "ai"
     },
     {
+      "owner": "langgenius",
+      "name": "dify",
+      "full_name": "langgenius/dify",
+      "url": "https://github.com/langgenius/dify",
+      "description": "Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace. Deploy on cloud, VPC, or self-hosted, so teams move from prototype to production without rebuilding the stack.",
+      "language": "Python",
+      "stars": 159572,
+      "forks": 25214,
+      "homepage": "https://dify.ai",
+      "license": "NOASSERTION",
+      "created_at": "2023-04-12T07:40:24Z",
+      "pushed_at": "2026-10-26T07:45:50Z",
+      "updated_at": "2026-10-26T07:45:55Z",
+      "open_issues": 1183,
+      "summary": "Dify 是一个开源的 LLM 应用开发平台，用 Python 编写，提供可视化画布用于构建和测试 AI 工作流，并把 AI workflow、RAG 流水线、Agent 能力、模型管理以及可观测性（含 Opik、Langfuse、Arize Phoenix）整合在同一个协作工作区里，帮助团队从原型直接推进到生产而无需重建技术栈。它支持接入数十家推理提供商的数百个专有与开源模型，包括 GPT、Mistral、Llama3 及任何兼容 OpenAI API 的模型，并提供 Prompt IDE 用于编写提示词、比较模型表现。",
+      "tags": [
+        "app",
+        "framework"
+      ],
+      "primary_tag": "app",
+      "domains": [
+        "ai",
+        "productivity"
+      ],
+      "primary_domain": "ai",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-26T07:49:29+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 1
+    },
+    {
       "owner": "open-webui",
       "name": "open-webui",
       "full_name": "open-webui/open-webui",
       "url": "https://github.com/open-webui/open-webui",
       "description": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
       "language": "Python",
-      "stars": 155160,
-      "forks": 22653,
+      "stars": 156775,
+      "forks": 22828,
       "homepage": "https://openwebui.com",
       "license": "NOASSERTION",
       "created_at": "2023-10-06T22:08:27Z",
-      "pushed_at": "2026-10-12T22:13:08Z",
-      "updated_at": "2026-10-13T03:34:57Z",
-      "open_issues": 195,
+      "pushed_at": "2026-10-26T07:09:27Z",
+      "updated_at": "2026-10-26T07:46:08Z",
+      "open_issues": 196,
       "summary": "Open WebUI 是一个可自托管、可离线运行的 AI 交互平台，用 Python 编写，为本地与云端模型提供统一的界面。它支持 Ollama 和任意 OpenAI 兼容 API，可对接 LMStudio、GroqCloud、vLLM、OpenRouter 等服务，解决多模型分散管理、数据不便自控的问题。核心能力包括细粒度 RBAC 与用户组、插件与工具扩展、模型与智能体封装、持久记忆、本地 RAG（支持多种向量库与混合检索）、联网搜索与网页抓取、图像生成、多模型并行对话、语音视频通话，以及用量分析与模型评测。",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-12T11:59:18+00:00",
-      "last_seen": "2026-10-12",
-      "seen_count": 1,
+      "last_seen": "2026-10-26",
+      "seen_count": 2,
       "tags": [
         "app"
       ],
@@ -426,27 +554,60 @@
       "primary_domain": "ai"
     },
     {
+      "owner": "langflow-ai",
+      "name": "langflow",
+      "full_name": "langflow-ai/langflow",
+      "url": "https://github.com/langflow-ai/langflow",
+      "description": "Langflow is a powerful tool for building and deploying AI-powered agents and workflows.",
+      "language": "Python",
+      "stars": 156025,
+      "forks": 10247,
+      "homepage": "http://www.langflow.org",
+      "license": "MIT",
+      "created_at": "2023-02-08T22:28:03Z",
+      "pushed_at": "2026-10-26T00:52:35Z",
+      "updated_at": "2026-10-26T07:14:50Z",
+      "open_issues": 1225,
+      "summary": "Langflow 是一个用 Python 开发的可视化平台，用于构建和部署 AI 智能体与工作流。它主要解决将 AI 能力快速落地为可用应用的问题：开发者既可以通过可视化界面搭建流程，也能直接访问组件源码并用 Python 自定义，还能在交互式演练场中逐步测试和调整流程。其核心能力包括多智能体编排与对话管理、检索增强，支持主流大模型、向量数据库和不断扩充的 AI 工具库；构建好的流程可部署为 API、导出为 JSON 供 Python 应用使用，或作为 MCP 服务器把流程变成 MCP 客户端可调用的工具，并可通过 LangSmith、LangFuse 等集成实现可观测性。",
+      "tags": [
+        "app",
+        "framework"
+      ],
+      "primary_tag": "app",
+      "domains": [
+        "ai",
+        "devtools"
+      ],
+      "primary_domain": "ai",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-26T07:49:29+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 1
+    },
+    {
       "owner": "langchain-ai",
       "name": "langchain",
       "full_name": "langchain-ai/langchain",
       "url": "https://github.com/langchain-ai/langchain",
       "description": "The agent engineering platform.",
       "language": "Python",
-      "stars": 147716,
-      "forks": 24773,
+      "stars": 148475,
+      "forks": 24919,
       "homepage": "https://docs.langchain.com/langchain/",
       "license": "MIT",
       "created_at": "2022-10-17T02:58:36Z",
-      "pushed_at": "2026-10-12T19:28:40Z",
-      "updated_at": "2026-10-13T03:14:44Z",
-      "open_issues": 640,
+      "pushed_at": "2026-10-26T05:20:05Z",
+      "updated_at": "2026-10-26T07:43:22Z",
+      "open_issues": 676,
       "summary": "LangChain 是一个用于构建智能体和 LLM 应用的 Python 框架，通过将可互操作的组件与第三方集成串联起来，简化 AI 应用开发，并在底层技术演进时保持决策的长期有效性。它主要解决模型、嵌入、向量存储等接口不统一，以及应用难以快速试验和替换模型的问题。核心能力包括实时数据增强，可连接多种数据源与外部系统；模型互操作性，便于团队按需更换模型；模块化组件架构支持快速原型迭代；借助 LangSmith 等集成提供监控、评估与调试等生产级特性；同时拥有丰富的集成生态和灵活的抽象层级，既能用高层链快速起步，也能用底层组件精细控制。",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-12T11:59:18+00:00",
-      "last_seen": "2026-10-12",
-      "seen_count": 1,
+      "last_seen": "2026-10-26",
+      "seen_count": 2,
       "tags": [
         "framework",
         "library"
@@ -464,21 +625,21 @@
       "url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "description": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
       "language": "Python",
-      "stars": 141445,
-      "forks": 20799,
+      "stars": 143078,
+      "forks": 21050,
       "homepage": "https://www.theunwindai.com",
       "license": "Apache-2.0",
       "created_at": "2024-04-29T05:30:25Z",
-      "pushed_at": "2026-09-30T20:31:22Z",
-      "updated_at": "2026-10-13T03:33:21Z",
-      "open_issues": 30,
+      "pushed_at": "2026-10-22T19:10:10Z",
+      "updated_at": "2026-10-26T07:45:43Z",
+      "open_issues": 23,
       "summary": "Awesome LLM Apps 是一个用 Python 编写的开源集合，汇集了 100 多个可直接运行的 AI 智能体、智能体技能与 RAG 应用，兼容 Claude、Gemini、GPT、DeepSeek、Llama、Qwen 等模型。它解决的是从零搭建 LLM 应用门槛高、示例零散的问题，所有模板都经过端到端测试，克隆后即可运行或二次开发。内容按类型组织：单文件入门智能体只需一个 API 密钥即可启动；高级智能体带有工具、记忆与多步推理；多智能体团队让多个角色协作完成跨领域任务；此外还有语音智能体、生成式 UI 前端、自主游戏智能体以及基于 MCP 协议连接外部工具的应用。",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-09T12:38:51+00:00",
-      "last_seen": "2026-10-09",
-      "seen_count": 1,
+      "last_seen": "2026-10-26",
+      "seen_count": 2,
       "tags": [
         "doc",
         "example"
@@ -491,37 +652,37 @@
       "primary_domain": "ai"
     },
     {
-      "owner": "ytdl-org",
-      "name": "youtube-dl",
-      "full_name": "ytdl-org/youtube-dl",
-      "url": "https://github.com/ytdl-org/youtube-dl",
-      "description": "Command-line program to download videos from YouTube.com and other video sites",
+      "owner": "Comfy-Org",
+      "name": "ComfyUI",
+      "full_name": "Comfy-Org/ComfyUI",
+      "url": "https://github.com/Comfy-Org/ComfyUI",
+      "description": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. The fastest local inference engine in the world.",
       "language": "Python",
-      "stars": 141275,
-      "forks": 10657,
-      "homepage": "http://ytdl-org.github.io/youtube-dl/",
-      "license": "Unlicense",
-      "created_at": "2010-10-31T14:35:07Z",
-      "pushed_at": "2026-02-19T16:45:25Z",
-      "updated_at": "2026-10-13T02:56:11Z",
-      "open_issues": 4123,
-      "summary": "youtube-dl 是一个用 Python 编写的命令行程序，用于从 YouTube.com 及其他视频网站下载视频。它需要 Python 2.6、2.7 或 3.2+ 环境，不依赖特定平台，可在 Unix、Windows 和 macOS 上运行。其核心能力是解析各类视频页面并抓取媒体流，支持通过配置文件预设参数，也提供丰富的命令行选项，涵盖网络代理、地理限制绕过、播放列表与视频筛选、格式选择、字幕转换以及下载后执行命令等。典型使用场景包括批量下载播放列表、按标题或日期过滤视频、提取音频、配合 ffmpeg 进行后处理，以及通过 .netrc 文件管理认证信息。",
+      "stars": 143057,
+      "forks": 16883,
+      "homepage": "https://www.comfy.org/",
+      "license": "GPL-3.0",
+      "created_at": "2023-01-17T03:15:56Z",
+      "pushed_at": "2026-10-26T06:46:31Z",
+      "updated_at": "2026-10-26T07:47:57Z",
+      "open_issues": 5350,
+      "summary": "ComfyUI 是一个基于节点图界面的扩散模型推理引擎与创作工具，用 Python 编写，面向需要精细控制模型、参数和输出的视觉创作者。它把图像、视频、音频、3D 和文本的生成流程拆解为可复用、可组合的节点与子图，无需写代码即可搭建复杂工作流，并通过本地 API 接入生产管线，配合 App Mode 把复杂流程封装成简单界面。它针对本地消费级硬件做了大量优化，借助异步权重流式加载等技术，可在仅 4GB 显存加 8GB 内存的条件下运行大型开源模型，并支持量化模型、模型卸载、部分图重执行和智能显存内存管理。",
       "windows": [
         "daily"
       ],
-      "added_at": "2026-10-09T12:38:51+00:00",
-      "last_seen": "2026-10-12",
+      "added_at": "2026-10-12T11:59:18+00:00",
+      "last_seen": "2026-10-26",
       "seen_count": 2,
       "tags": [
-        "tool",
-        "app"
+        "app",
+        "framework"
       ],
-      "primary_tag": "tool",
+      "primary_tag": "app",
       "domains": [
-        "media",
-        "networking"
+        "ai",
+        "graphics"
       ],
-      "primary_domain": "media"
+      "primary_domain": "ai"
     },
     {
       "owner": "github",
@@ -530,21 +691,21 @@
       "url": "https://github.com/github/spec-kit",
       "description": "💫 Toolkit to help you get started with SDD or any other process!",
       "language": "Python",
-      "stars": 141000,
-      "forks": 12622,
+      "stars": 142928,
+      "forks": 12806,
       "homepage": "https://github.github.com/spec-kit/",
       "license": "MIT",
       "created_at": "2025-08-21T22:54:31Z",
-      "pushed_at": "2026-10-12T21:39:32Z",
-      "updated_at": "2026-10-13T03:34:45Z",
-      "open_issues": 161,
+      "pushed_at": "2026-10-23T18:16:37Z",
+      "updated_at": "2026-10-26T07:46:17Z",
+      "open_issues": 229,
       "summary": "Spec Kit 是 GitHub 推出的开源工具包，用 Python 编写，为 AI 编程代理提供结构化流程、可复用模板和可记录的产出。它面向希望让编码代理按规范工作的开发者，解决需求、修复与评估过程缺乏约束的问题。核心包含三类独立入口：规范驱动开发（SDD）内置于核心，按项目建立一次章程，再对每个功能依次执行 specify、plan、tasks、implement、converge；缺陷修复与想法评估则以扩展形式按需安装，前者分离诊断、修复与验证，后者通过 intake、research、define、shape、decide 形成 go、needs-clarification 或 k。",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-09T12:38:51+00:00",
-      "last_seen": "2026-10-09",
-      "seen_count": 1,
+      "last_seen": "2026-10-26",
+      "seen_count": 2,
       "tags": [
         "tool",
         "template",
@@ -558,37 +719,70 @@
       "primary_domain": "devtools"
     },
     {
-      "owner": "Comfy-Org",
-      "name": "ComfyUI",
-      "full_name": "Comfy-Org/ComfyUI",
-      "url": "https://github.com/Comfy-Org/ComfyUI",
-      "description": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. The fastest local inference engine in the world.",
+      "owner": "ytdl-org",
+      "name": "youtube-dl",
+      "full_name": "ytdl-org/youtube-dl",
+      "url": "https://github.com/ytdl-org/youtube-dl",
+      "description": "Command-line program to download videos from YouTube.com and other video sites",
       "language": "Python",
-      "stars": 137182,
-      "forks": 16329,
-      "homepage": "https://www.comfy.org/",
-      "license": "GPL-3.0",
-      "created_at": "2023-01-17T03:15:56Z",
-      "pushed_at": "2026-10-13T03:32:30Z",
-      "updated_at": "2026-10-13T03:14:59Z",
-      "open_issues": 5148,
-      "summary": "ComfyUI 是一个基于节点图界面的扩散模型推理引擎与创作工具，用 Python 编写，面向需要精细控制模型、参数和输出的视觉创作者。它把图像、视频、音频、3D 和文本的生成流程拆解为可复用、可组合的节点与子图，无需写代码即可搭建复杂工作流，并通过本地 API 接入生产管线，配合 App Mode 把复杂流程封装成简单界面。它针对本地消费级硬件做了大量优化，借助异步权重流式加载等技术，可在仅 4GB 显存加 8GB 内存的条件下运行大型开源模型，并支持量化模型、模型卸载、部分图重执行和智能显存内存管理。",
+      "stars": 141398,
+      "forks": 10664,
+      "homepage": "http://ytdl-org.github.io/youtube-dl/",
+      "license": "Unlicense",
+      "created_at": "2010-10-31T14:35:07Z",
+      "pushed_at": "2026-02-19T16:45:25Z",
+      "updated_at": "2026-10-26T06:34:44Z",
+      "open_issues": 4124,
+      "summary": "youtube-dl 是一个用 Python 编写的命令行程序，用于从 YouTube.com 及其他视频网站下载视频。它需要 Python 2.6、2.7 或 3.2+ 环境，不依赖特定平台，可在 Unix、Windows 和 macOS 上运行。其核心能力是解析各类视频页面并抓取媒体流，支持通过配置文件预设参数，也提供丰富的命令行选项，涵盖网络代理、地理限制绕过、播放列表与视频筛选、格式选择、字幕转换以及下载后执行命令等。典型使用场景包括批量下载播放列表、按标题或日期过滤视频、提取音频、配合 ffmpeg 进行后处理，以及通过 .netrc 文件管理认证信息。",
       "windows": [
         "daily"
       ],
-      "added_at": "2026-10-12T11:59:18+00:00",
-      "last_seen": "2026-10-12",
-      "seen_count": 1,
+      "added_at": "2026-10-09T12:38:51+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 3,
       "tags": [
-        "app",
-        "framework"
+        "tool",
+        "app"
       ],
-      "primary_tag": "app",
+      "primary_tag": "tool",
+      "domains": [
+        "media",
+        "networking"
+      ],
+      "primary_domain": "media"
+    },
+    {
+      "owner": "nextlevelbuilder",
+      "name": "ui-ux-pro-max-skill",
+      "full_name": "nextlevelbuilder/ui-ux-pro-max-skill",
+      "url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+      "description": "An AI skill that provides design intelligence for building professional UI/UX across multiple platforms.",
+      "language": "Python",
+      "stars": 140526,
+      "forks": 14893,
+      "homepage": "https://www.uupm.cc/",
+      "license": "MIT",
+      "created_at": "2025-11-30T11:36:31Z",
+      "pushed_at": "2026-10-26T07:06:53Z",
+      "updated_at": "2026-10-26T07:48:39Z",
+      "open_issues": 90,
+      "summary": "UI UX Pro Max 是一个为 AI 编程助手提供设计智能的技能包，用 Python 编写，帮助开发者在多个平台和框架上构建更专业的 UI/UX。它主要解决 AI 生成界面时缺乏设计依据、容易落入俗套的问题。核心能力是 v2.0 引入的设计系统生成器，内置 192 条行业推理规则，能根据产品类型自动给出落地页结构、风格取向、配色情绪、字体搭配、动效建议以及应避免的反模式。仓库还收录 79 种可搜索的 UI 风格、192 套行业配色、74 组字体搭配、25 种图表类型、119 条 UX 准则，并针对 React、Next.",
+      "tags": [
+        "plugin",
+        "tool"
+      ],
+      "primary_tag": "plugin",
       "domains": [
         "ai",
-        "graphics"
+        "devtools"
       ],
-      "primary_domain": "ai"
+      "primary_domain": "ai",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-26T07:49:29+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 1
     },
     {
       "owner": "Graphify-Labs",
@@ -597,21 +791,21 @@
       "url": "https://github.com/Graphify-Labs/graphify",
       "description": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained, no vector store.",
       "language": "Python",
-      "stars": 125917,
-      "forks": 12151,
+      "stars": 135537,
+      "forks": 12928,
       "homepage": "https://www.graphify.com",
       "license": "Apache-2.0",
       "created_at": "2026-04-03T15:49:07Z",
-      "pushed_at": "2026-10-12T22:19:19Z",
-      "updated_at": "2026-10-13T03:35:24Z",
-      "open_issues": 1489,
+      "pushed_at": "2026-10-23T17:59:28Z",
+      "updated_at": "2026-10-26T07:49:04Z",
+      "open_issues": 1637,
       "summary": "Graphify 把代码库连同文档、SQL 模式、配置和 PDF 一起转成可查询的知识图谱，让你在 Claude Code、Cursor、Codex、Gemini CLI 等 AI 编程助手里输入 /graphify 就能检索整个项目，而不必逐文件 grep。代码部分完全本地处理，用 tree-sitter 做确定性 AST 解析，不调用大模型，数据不出本机；文档、PDF、图像和音视频则通过助手模型或自配 API 密钥做语义解析。它不使用向量索引或嵌入，而是可遍历的真实图，每条边都标注为 EXTRACTED（源中显式）或 INFERRED（由解析推导），便于区分直接读取与推断结果。",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-12T11:59:18+00:00",
-      "last_seen": "2026-10-12",
-      "seen_count": 1,
+      "last_seen": "2026-10-26",
+      "seen_count": 2,
       "tags": [
         "tool",
         "plugin"
@@ -624,27 +818,60 @@
       "primary_domain": "devtools"
     },
     {
+      "owner": "harry0703",
+      "name": "MoneyPrinterTurbo",
+      "full_name": "harry0703/MoneyPrinterTurbo",
+      "url": "https://github.com/harry0703/MoneyPrinterTurbo",
+      "description": "利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow.",
+      "language": "Python",
+      "stars": 135208,
+      "forks": 21432,
+      "homepage": "",
+      "license": "MIT",
+      "created_at": "2024-03-11T02:57:34Z",
+      "pushed_at": "2026-10-25T11:11:41Z",
+      "updated_at": "2026-10-26T07:38:56Z",
+      "open_issues": 79,
+      "summary": "MoneyPrinterTurbo 是一个用 Python 编写的 AI 短视频生成工具，只需给出视频主题或关键词，就能自动完成脚本撰写、素材匹配、配音、字幕生成、背景音乐与剪辑合成，输出 9:16、16:9 或 1:1 的高清成片。它解决的是短视频制作中脚本、素材、配音、字幕多环节割裂、耗时的问题，把整条流水线串成一次任务。",
+      "tags": [
+        "app",
+        "tool"
+      ],
+      "primary_tag": "app",
+      "domains": [
+        "ai",
+        "media"
+      ],
+      "primary_domain": "ai",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-26T07:49:29+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 1
+    },
+    {
       "owner": "browser-use",
       "name": "browser-use",
       "full_name": "browser-use/browser-use",
       "url": "https://github.com/browser-use/browser-use",
-      "description": "Agents that use the browser.",
+      "description": "Open-source Python library for AI browser agents, plus Browser Use Cloud: stealth browsers and a hosted agent API.",
       "language": "Python",
-      "stars": 117767,
-      "forks": 13034,
+      "stars": 119159,
+      "forks": 13242,
       "homepage": "https://browser-use.com",
       "license": "MIT",
       "created_at": "2024-10-31T16:00:56Z",
-      "pushed_at": "2026-10-09T17:36:28Z",
-      "updated_at": "2026-10-13T03:20:31Z",
-      "open_issues": 519,
+      "pushed_at": "2026-10-24T07:23:03Z",
+      "updated_at": "2026-10-26T07:44:50Z",
+      "open_issues": 608,
       "summary": "browser-use 是一个用 Python 编写的开源库，目标是让 AI 智能体直接操作浏览器完成各类任务。它解决的核心问题是：大语言模型虽然能理解和生成文本，却无法直接与网页交互，而 browser-use 在模型与浏览器之间搭起桥梁，使智能体可以像人一样打开页面、点击元素、填写表单、读取内容并推进多步操作。其核心能力在于把浏览器动作封装成智能体可调用的接口，让模型根据当前页面状态决定下一步做什么，从而完成需要多步交互的流程。典型使用场景包括自动化信息采集、表单填写与提交、网页流程测试、后台操作自动化，以及需要结合网页实时内容才能完成的智能体任务。",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-12T11:59:18+00:00",
-      "last_seen": "2026-10-12",
-      "seen_count": 1,
+      "last_seen": "2026-10-26",
+      "seen_count": 2,
       "tags": [
         "library",
         "framework"
@@ -657,27 +884,60 @@
       "primary_domain": "ai"
     },
     {
+      "owner": "TauricResearch",
+      "name": "TradingAgents",
+      "full_name": "TauricResearch/TradingAgents",
+      "url": "https://github.com/TauricResearch/TradingAgents",
+      "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
+      "language": "Python",
+      "stars": 115007,
+      "forks": 22167,
+      "homepage": "https://arxiv.org/pdf/2412.20138",
+      "license": "Apache-2.0",
+      "created_at": "2024-12-28T03:31:08Z",
+      "pushed_at": "2026-10-16T21:38:46Z",
+      "updated_at": "2026-10-26T07:48:52Z",
+      "open_issues": 153,
+      "summary": "TradingAgents 是一个基于多智能体大语言模型的金融交易研究框架，用 Python 编写并基于 LangGraph 构建，旨在把复杂的交易分析任务拆解为专业角色协作完成。框架模拟真实交易公司的分工：基本面、情绪、新闻和技术分析师并行工作，随后由看多与看空研究员展开结构化辩论，交易员据此拟定交易时机与规模，风险管理团队评估波动与流动性，最终由投资组合经理批准或否决提案并送入模拟交易所执行。",
+      "tags": [
+        "framework",
+        "library"
+      ],
+      "primary_tag": "framework",
+      "domains": [
+        "ai",
+        "data"
+      ],
+      "primary_domain": "ai",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-26T07:49:29+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 1
+    },
+    {
       "owner": "openai",
       "name": "whisper",
       "full_name": "openai/whisper",
       "url": "https://github.com/openai/whisper",
       "description": "Robust Speech Recognition via Large-Scale Weak Supervision",
       "language": "Python",
-      "stars": 110396,
-      "forks": 13375,
+      "stars": 111275,
+      "forks": 13476,
       "homepage": "",
       "license": "MIT",
       "created_at": "2022-09-16T20:02:54Z",
       "pushed_at": "2026-08-31T17:19:19Z",
-      "updated_at": "2026-10-13T03:28:47Z",
-      "open_issues": 169,
+      "updated_at": "2026-10-26T07:49:07Z",
+      "open_issues": 180,
       "summary": "Whisper 是 OpenAI 发布的通用语音识别模型，基于 Transformer 序列到序列架构，在大规模多样化音频数据上训练而成。它将多语言语音识别、语音翻译、语种识别和语音活动检测等任务统一表示为 token 序列，由解码器预测，从而用单一模型替代传统语音处理流水线中的多个阶段。模型提供六种规模，其中四种有仅英文版本，另有 turbo 版本在略微降低准确率的前提下提升转写速度。它可通过 pip 安装 openai-whisper 使用，依赖 ffmpeg 和 tiktoken，支持 Python 3.8 至 3.11 及较新 PyTorch。",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-09T12:38:51+00:00",
-      "last_seen": "2026-10-09",
-      "seen_count": 1,
+      "last_seen": "2026-10-26",
+      "seen_count": 2,
       "tags": [
         "library",
         "model"
@@ -696,21 +956,21 @@
       "url": "https://github.com/pytorch/pytorch",
       "description": "Tensors and Dynamic neural networks in Python with strong GPU acceleration",
       "language": "Python",
-      "stars": 104745,
-      "forks": 32193,
+      "stars": 105080,
+      "forks": 31768,
       "homepage": "https://pytorch.org",
       "license": "NOASSERTION",
       "created_at": "2016-08-13T05:26:41Z",
-      "pushed_at": "2026-10-13T03:32:16Z",
-      "updated_at": "2026-10-13T03:19:48Z",
-      "open_issues": 17718,
+      "pushed_at": "2026-10-26T07:32:05Z",
+      "updated_at": "2026-10-26T06:48:19Z",
+      "open_issues": 17781,
       "summary": "PyTorch 是一个以 Python 为核心的张量计算与动态神经网络库，主要解决科学计算和深度学习中对 GPU 加速与灵活建模的需求。它提供类似 NumPy 的张量运算，支持在 CPU 或 GPU 上运行，并集成 Intel MKL、NVIDIA cuDNN、NCCL 等加速库以提升速度。其核心特点是基于磁带式自动微分的动态神经网络，网络行为可随时改变而无需重建结构；同时坚持 Python 优先，可自然结合 NumPy、SciPy、Cython 等包，并支持用 C/C++ 编写扩展。典型场景包括替代 NumPy 进行 GPU 加速计算，以及作为深度学习研究平台，兼顾灵活性与速度。",
       "windows": [
         "monthly"
       ],
       "added_at": "2026-10-09T11:21:36+00:00",
-      "last_seen": "2026-10-12",
-      "seen_count": 7,
+      "last_seen": "2026-10-26",
+      "seen_count": 8,
       "tags": [
         "library",
         "framework"
@@ -722,27 +982,58 @@
       "primary_domain": "ai"
     },
     {
+      "owner": "deepseek-ai",
+      "name": "DeepSeek-V3",
+      "full_name": "deepseek-ai/DeepSeek-V3",
+      "url": "https://github.com/deepseek-ai/DeepSeek-V3",
+      "description": "",
+      "language": "Python",
+      "stars": 104607,
+      "forks": 16722,
+      "homepage": "",
+      "license": "MIT",
+      "created_at": "2024-12-26T09:52:40Z",
+      "pushed_at": "2025-08-28T03:24:37Z",
+      "updated_at": "2026-10-26T07:13:16Z",
+      "open_issues": 304,
+      "summary": "DeepSeek-V3 是一个采用混合专家（MoE）架构的大语言模型，总参数 671B，每个 token 激活 37B，主要用 Python 实现。它要解决的是大规模模型在推理效率和训练成本上的平衡问题：通过沿用并验证多头潜在注意力（MLA）与 DeepSeekMoE 架构，引入无辅助损失的负载均衡策略和多 token 预测训练目标，同时用 FP8 混合精度训练框架在超大规模模型上验证可行性，并借助算法、框架与硬件协同设计缓解跨节点 MoE 训练的通信瓶颈。模型在 14.8 万亿 token 上预训练，再经监督微调与强化学习，并从 DeepSeek-R1 系列蒸馏推理能力。",
+      "tags": [
+        "model"
+      ],
+      "primary_tag": "model",
+      "domains": [
+        "ai"
+      ],
+      "primary_domain": "ai",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-26T07:49:29+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 1
+    },
+    {
       "owner": "fastapi",
       "name": "fastapi",
       "full_name": "fastapi/fastapi",
       "url": "https://github.com/fastapi/fastapi",
       "description": "FastAPI framework, high performance, easy to learn, fast to code, ready for production",
       "language": "Python",
-      "stars": 103066,
-      "forks": 10026,
+      "stars": 104195,
+      "forks": 10125,
       "homepage": "https://fastapi.tiangolo.com/",
       "license": "MIT",
       "created_at": "2018-12-08T08:21:47Z",
-      "pushed_at": "2026-10-08T12:29:28Z",
-      "updated_at": "2026-10-13T02:54:52Z",
-      "open_issues": 88,
+      "pushed_at": "2026-10-23T23:46:14Z",
+      "updated_at": "2026-10-26T07:43:29Z",
+      "open_issues": 62,
       "summary": "FastAPI 是一个基于 Python 标准类型提示构建 API 的现代高性能 Web 框架，底层依赖 Starlette 处理 Web 部分、Pydantic 处理数据部分。它主要解决 Python 后端接口开发中代码冗长、数据校验繁琐、文档维护困难等问题。核心特点包括：性能接近 NodeJS 和 Go，开发速度可提升约 200% 至 300%，减少约 40% 的开发者人为错误；借助类型提示获得编辑器补全与类型检查，自动完成请求参数、请求体、路径参数、查询参数、Cookie、请求头和文件的数据校验与转换，并自动生成 OpenAPI 与 JSON Schema 文档，内置 Swagger。",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-12T11:59:18+00:00",
-      "last_seen": "2026-10-12",
-      "seen_count": 1,
+      "last_seen": "2026-10-26",
+      "seen_count": 2,
       "tags": [
         "framework",
         "library"
@@ -754,91 +1045,28 @@
       "primary_domain": "web"
     },
     {
-      "owner": "nvbn",
-      "name": "thefuck",
-      "full_name": "nvbn/thefuck",
-      "url": "https://github.com/nvbn/thefuck",
-      "description": "Magnificent app which corrects your previous console command.",
-      "language": "Python",
-      "stars": 97899,
-      "forks": 3960,
-      "homepage": "",
-      "license": "MIT",
-      "created_at": "2015-04-08T15:08:04Z",
-      "pushed_at": "2024-07-19T14:56:13Z",
-      "updated_at": "2026-10-13T03:33:41Z",
-      "open_issues": 461,
-      "summary": "The Fuck 是一个用 Python 编写的命令行纠错工具，灵感来自一条推文，专门修正上一条控制台命令中的错误。它会尝试将上一条命令与内置规则匹配，匹配成功后生成并执行修正后的命令。默认启用的规则覆盖大量常见场景，例如拼错 git、docker、adb、aws、cargo、conda 等子命令，cd 路径拼写错误，cp 或 mv 目标目录不存在，grep 参数顺序错误，以及 git push 缺少上游分支等。",
-      "windows": [
-        "daily"
-      ],
-      "added_at": "2026-10-09T12:38:51+00:00",
-      "last_seen": "2026-10-09",
-      "seen_count": 1,
-      "tags": [
-        "tool"
-      ],
-      "primary_tag": "tool",
-      "domains": [
-        "devtools",
-        "systems"
-      ],
-      "primary_domain": "devtools"
-    },
-    {
-      "owner": "karpathy",
-      "name": "autoresearch",
-      "full_name": "karpathy/autoresearch",
-      "url": "https://github.com/karpathy/autoresearch",
-      "description": "AI agents running research on single-GPU nanochat training automatically",
-      "language": "Python",
-      "stars": 97791,
-      "forks": 13568,
-      "homepage": "",
-      "license": "",
-      "created_at": "2026-03-06T22:00:43Z",
-      "pushed_at": "2026-03-26T00:07:37Z",
-      "updated_at": "2026-10-13T03:23:41Z",
-      "open_issues": 194,
-      "summary": "autoresearch 是 karpathy 发起的一个实验性项目，目标是让 AI 智能体自主完成小型大语言模型的训练研究。它基于单 GPU 的 nanochat 简化实现，把研究流程压缩成一个可自动迭代的循环：智能体修改 train.py 中的模型结构、优化器、超参数等，训练固定 5 分钟后检查 val_bpb 指标是否改善，保留或丢弃改动并重复，整夜可跑约上百次实验。项目刻意保持精简，只有三个关键文件：prepare.py 负责数据准备与评估且不可改，train.py 是智能体唯一可编辑的训练代码，program.md 则是人类编写、用于给智能体设定研究上下文的指令文件。",
-      "windows": [
-        "daily"
-      ],
-      "added_at": "2026-10-09T12:38:51+00:00",
-      "last_seen": "2026-10-09",
-      "seen_count": 1,
-      "tags": [
-        "framework"
-      ],
-      "primary_tag": "framework",
-      "domains": [
-        "ai"
-      ],
-      "primary_domain": "ai"
-    },
-    {
       "owner": "Panniantong",
       "name": "Agent-Reach",
       "full_name": "Panniantong/Agent-Reach",
       "url": "https://github.com/Panniantong/Agent-Reach",
       "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
       "language": "Python",
-      "stars": 96644,
-      "forks": 8459,
+      "stars": 102707,
+      "forks": 9113,
       "homepage": "",
       "license": "MIT",
       "created_at": "2026-02-24T02:10:24Z",
-      "pushed_at": "2026-10-08T08:31:08Z",
-      "updated_at": "2026-10-13T03:34:05Z",
-      "open_issues": 208,
+      "pushed_at": "2026-10-25T04:37:26Z",
+      "updated_at": "2026-10-26T07:49:04Z",
+      "open_issues": 244,
       "summary": "Agent Reach 是一个用 Python 编写的命令行工具，为 AI Agent 提供读取和搜索互联网内容的能力。它针对 Twitter、Reddit、YouTube、GitHub、Bilibili、小红书等平台各自存在的门槛——付费 API、反爬封锁、登录限制、数据清洗——预先选好并安装当前可用的接入方式，用户只需把一句安装指令复制给 Claude Code、Cursor 等 Agent，即可让它读取网页、提取 YouTube 字幕、搜索 Reddit 和 B站、查看 GitHub 仓库与 Issue、订阅 RSS。",
       "windows": [
         "weekly",
         "monthly"
       ],
       "added_at": "2026-10-09T11:21:36+00:00",
-      "last_seen": "2026-10-10",
-      "seen_count": 5,
+      "last_seen": "2026-10-26",
+      "seen_count": 6,
       "tags": [
         "tool",
         "library"
@@ -851,27 +1079,122 @@
       "primary_domain": "ai"
     },
     {
+      "owner": "karpathy",
+      "name": "autoresearch",
+      "full_name": "karpathy/autoresearch",
+      "url": "https://github.com/karpathy/autoresearch",
+      "description": "AI agents running research on single-GPU nanochat training automatically",
+      "language": "Python",
+      "stars": 98594,
+      "forks": 13613,
+      "homepage": "",
+      "license": "",
+      "created_at": "2026-03-06T22:00:43Z",
+      "pushed_at": "2026-03-26T00:07:37Z",
+      "updated_at": "2026-10-26T07:28:51Z",
+      "open_issues": 195,
+      "summary": "autoresearch 是 karpathy 发起的一个实验性项目，目标是让 AI 智能体自主完成小型大语言模型的训练研究。它基于单 GPU 的 nanochat 简化实现，把研究流程压缩成一个可自动迭代的循环：智能体修改 train.py 中的模型结构、优化器、超参数等，训练固定 5 分钟后检查 val_bpb 指标是否改善，保留或丢弃改动并重复，整夜可跑约上百次实验。项目刻意保持精简，只有三个关键文件：prepare.py 负责数据准备与评估且不可改，train.py 是智能体唯一可编辑的训练代码，program.md 则是人类编写、用于给智能体设定研究上下文的指令文件。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-09T12:38:51+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 2,
+      "tags": [
+        "framework"
+      ],
+      "primary_tag": "framework",
+      "domains": [
+        "ai"
+      ],
+      "primary_domain": "ai"
+    },
+    {
+      "owner": "nvbn",
+      "name": "thefuck",
+      "full_name": "nvbn/thefuck",
+      "url": "https://github.com/nvbn/thefuck",
+      "description": "Magnificent app which corrects your previous console command.",
+      "language": "Python",
+      "stars": 97926,
+      "forks": 3958,
+      "homepage": "",
+      "license": "MIT",
+      "created_at": "2015-04-08T15:08:04Z",
+      "pushed_at": "2024-07-19T14:56:13Z",
+      "updated_at": "2026-10-26T05:25:46Z",
+      "open_issues": 467,
+      "summary": "The Fuck 是一个用 Python 编写的命令行纠错工具，灵感来自一条推文，专门修正上一条控制台命令中的错误。它会尝试将上一条命令与内置规则匹配，匹配成功后生成并执行修正后的命令。默认启用的规则覆盖大量常见场景，例如拼错 git、docker、adb、aws、cargo、conda 等子命令，cd 路径拼写错误，cp 或 mv 目标目录不存在，grep 参数顺序错误，以及 git push 缺少上游分支等。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-09T12:38:51+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 2,
+      "tags": [
+        "tool"
+      ],
+      "primary_tag": "tool",
+      "domains": [
+        "devtools",
+        "systems"
+      ],
+      "primary_domain": "devtools"
+    },
+    {
+      "owner": "hacksider",
+      "name": "Deep-Live-Cam",
+      "full_name": "hacksider/Deep-Live-Cam",
+      "url": "https://github.com/hacksider/Deep-Live-Cam",
+      "description": "real time face swap and one-click video deepfake with only a single image",
+      "language": "Python",
+      "stars": 97227,
+      "forks": 14154,
+      "homepage": "https://deeplivecam.net/",
+      "license": "AGPL-3.0",
+      "created_at": "2023-09-24T13:19:31Z",
+      "pushed_at": "2026-10-24T00:13:12Z",
+      "updated_at": "2026-10-26T07:12:48Z",
+      "open_issues": 56,
+      "summary": "Deep-Live-Cam 是一个基于 Python 的实时换脸与视频深度伪造工具，只需一张人脸图片即可完成操作。它面向 AI 生成媒体创作场景，帮助使用者将指定人脸映射到视频或摄像头画面中的人物上，并支持实时预览。核心能力包括实时换脸、口型遮罩（保留原始嘴部动作以保证口型准确）、多脸映射（在同一画面中对多个对象使用不同人脸）以及图像与视频模式处理。典型用法是选择源人脸图片、指定摄像头后开启实时模式，再配合 OBS 等屏幕捕捉工具进行推流；也可在命令行通过 -s/--source 参数运行。",
+      "tags": [
+        "app"
+      ],
+      "primary_tag": "app",
+      "domains": [
+        "ai",
+        "media"
+      ],
+      "primary_domain": "ai",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-26T07:49:29+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 1
+    },
+    {
       "owner": "3b1b",
       "name": "manim",
       "full_name": "3b1b/manim",
       "url": "https://github.com/3b1b/manim",
       "description": "Animation engine for explanatory math videos",
       "language": "Python",
-      "stars": 94982,
-      "forks": 7786,
+      "stars": 95661,
+      "forks": 7841,
       "homepage": "",
       "license": "MIT",
       "created_at": "2015-03-22T18:50:58Z",
       "pushed_at": "2026-09-09T16:23:48Z",
-      "updated_at": "2026-10-13T03:31:12Z",
-      "open_issues": 502,
+      "updated_at": "2026-10-26T07:32:25Z",
+      "open_issues": 511,
       "summary": "Manim 是一个用于制作解释性数学视频的精确编程动画引擎，最初由 3Blue1Brown 作者作为个人项目开发，2020 年被社区分叉出社区版。本仓库为 ManimGL 版本，安装包名为 manimgl，需 Python 3.10 及以上，依赖 FFmpeg、OpenGL 和可选的 LaTeX，Linux 下还需 Pango 及其开发头文件。它通过代码控制动画，适合将抽象数学概念转化为可视化演示。用户可运行示例场景，使用 -w、-o、-s、-n、-f 等命令行参数控制输出与播放，并通过 custom_config.yml 配置输出路径、素材位置和视频质量。",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-09T12:38:51+00:00",
-      "last_seen": "2026-10-12",
-      "seen_count": 2,
+      "last_seen": "2026-10-26",
+      "seen_count": 3,
       "tags": [
         "library"
       ],
@@ -889,21 +1212,21 @@
       "url": "https://github.com/vllm-project/vllm",
       "description": "A high-throughput and memory-efficient inference and serving engine for LLMs",
       "language": "Python",
-      "stars": 93677,
-      "forks": 23293,
+      "stars": 95548,
+      "forks": 23970,
       "homepage": "https://vllm.ai",
       "license": "Apache-2.0",
       "created_at": "2023-02-09T11:23:20Z",
-      "pushed_at": "2026-10-13T03:05:40Z",
-      "updated_at": "2026-10-13T03:20:24Z",
-      "open_issues": 8736,
+      "pushed_at": "2026-10-26T07:43:18Z",
+      "updated_at": "2026-10-26T07:47:52Z",
+      "open_issues": 9455,
       "summary": "vLLM 是一个面向大语言模型的高吞吐、内存高效推理与服务引擎，最初由加州大学伯克利分校 Sky Computing Lab 开发，现由来自两千多名贡献者的社区共同维护。它主要解决 LLM 部署中显存占用高、吞吐受限的问题，核心是 PagedAttention 对注意力键值内存的高效管理，并结合连续批处理、分块预填充与前缀缓存。它支持 FP8、INT4、GPTQ/AWQ、GGUF 等多种量化，集成 FlashAttention、FlashInfer 等优化内核与推测解码，提供张量、流水线、数据、专家等并行方式，并兼容 OpenAI、Anthropic 与 gRPC 接口。",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-12T11:59:18+00:00",
-      "last_seen": "2026-10-12",
-      "seen_count": 1,
+      "last_seen": "2026-10-26",
+      "seen_count": 2,
       "tags": [
         "library",
         "framework"
@@ -915,27 +1238,90 @@
       "primary_domain": "ai"
     },
     {
+      "owner": "sherlock-project",
+      "name": "sherlock",
+      "full_name": "sherlock-project/sherlock",
+      "url": "https://github.com/sherlock-project/sherlock",
+      "description": "Hunt down social media accounts by username across social networks",
+      "language": "Python",
+      "stars": 94924,
+      "forks": 11259,
+      "homepage": "https://sherlockproject.xyz",
+      "license": "MIT",
+      "created_at": "2018-12-24T14:30:48Z",
+      "pushed_at": "2026-10-26T05:20:43Z",
+      "updated_at": "2026-10-26T07:27:11Z",
+      "open_issues": 354,
+      "summary": "Sherlock 是一个用 Python 编写的开源工具，用于跨社交网络按用户名追踪账号。它面向的核心问题是：同一个用户名往往散落在多个平台上，人工逐个平台核对既费时又容易遗漏。Sherlock 将这一过程自动化，可在 400 多个社交网络上检索指定用户名，并支持一次查询多个用户名。查到的账号会按用户名分别写入独立的文本文件，便于后续整理和核对。",
+      "tags": [
+        "tool"
+      ],
+      "primary_tag": "tool",
+      "domains": [
+        "security"
+      ],
+      "primary_domain": "security",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-26T07:49:29+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 1
+    },
+    {
+      "owner": "odysseus-dev",
+      "name": "odysseus",
+      "full_name": "odysseus-dev/odysseus",
+      "url": "https://github.com/odysseus-dev/odysseus",
+      "description": "Self-hosted AI workspace. ",
+      "language": "Python",
+      "stars": 94459,
+      "forks": 1759,
+      "homepage": "https://odysseus-dev.github.io/odysseus",
+      "license": "AGPL-3.0",
+      "created_at": "2026-05-31T14:05:51Z",
+      "pushed_at": "2026-10-25T17:19:42Z",
+      "updated_at": "2026-10-26T07:43:23Z",
+      "open_issues": 1556,
+      "summary": "Odysseus 是一个可自托管的 AI 工作空间，用 Python 编写，把对话、智能体、研究、文档、邮件、笔记和日历等功能集中在一个部署实例里，适合希望数据留在自己服务器上的个人或团队。它解决的是 AI 工具分散、依赖外部服务的问题：通过 Docker Compose 拉取官方多架构镜像即可启动，访问本地 7011 端口，首次管理员密码在容器日志中输出，也支持原生安装和 GPU 配置。",
+      "tags": [
+        "app"
+      ],
+      "primary_tag": "app",
+      "domains": [
+        "ai",
+        "productivity"
+      ],
+      "primary_domain": "ai",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-26T07:49:29+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 1
+    },
+    {
       "owner": "home-assistant",
       "name": "core",
       "full_name": "home-assistant/core",
       "url": "https://github.com/home-assistant/core",
       "description": ":house_with_garden: Open source home automation that puts local control and privacy first.",
       "language": "Python",
-      "stars": 91419,
-      "forks": 38897,
+      "stars": 91730,
+      "forks": 39006,
       "homepage": "https://www.home-assistant.io",
       "license": "Apache-2.0",
       "created_at": "2013-09-17T07:29:48Z",
-      "pushed_at": "2026-10-13T01:13:43Z",
-      "updated_at": "2026-10-13T02:30:59Z",
-      "open_issues": 3345,
+      "pushed_at": "2026-10-26T07:42:15Z",
+      "updated_at": "2026-10-26T07:42:25Z",
+      "open_issues": 3458,
       "summary": "Home Assistant 是一套以本地控制和隐私优先为理念的开源家庭自动化系统，主要使用 Python 编写，由全球范围的爱好者和 DIY 社区共同维护。它解决的是将不同品牌、不同协议的智能设备统一接入与联动的问题，避免数据依赖云端、隐私外泄以及设备各自为政。系统采用模块化架构，通过集成方式支持各类设备与操作，用户也可以自行创建组件来扩展功能。它可以运行在树莓派或本地服务器上，适合在家庭环境中搭建自动化场景，例如灯光、传感器等设备的集中管理与自动响应。官方提供演示、安装说明、教程和文档，遇到使用或开发问题可查阅帮助栏目。项目隶属于 Open Home Foundation。",
       "windows": [
         "monthly"
       ],
       "added_at": "2026-10-09T11:21:36+00:00",
-      "last_seen": "2026-10-10",
-      "seen_count": 6,
+      "last_seen": "2026-10-26",
+      "seen_count": 7,
       "tags": [
         "app"
       ],
@@ -947,58 +1333,27 @@
       "primary_domain": "embedded"
     },
     {
-      "owner": "django",
-      "name": "django",
-      "full_name": "django/django",
-      "url": "https://github.com/django/django",
-      "description": "The Web framework for perfectionists with deadlines.",
-      "language": "Python",
-      "stars": 91408,
-      "forks": 37005,
-      "homepage": "https://www.djangoproject.com/",
-      "license": "BSD-3-Clause",
-      "created_at": "2012-04-28T02:47:18Z",
-      "pushed_at": "2026-10-12T15:23:19Z",
-      "updated_at": "2026-10-13T03:08:21Z",
-      "open_issues": 540,
-      "summary": "Django 是一个用 Python 编写的高级 Web 框架，面向有截止期限的完美主义者，鼓励快速开发与干净、务实的设计。它主要解决 Web 应用从搭建到部署过程中的重复性工作，让开发者能专注于业务逻辑。其核心能力包括配套完善的官方文档，涵盖安装、分步教程、部署指南、专题指南、HOWTO 和详细参考，且文档更新严格。典型使用场景是构建各类 Web 服务，技术栈基于 Python。开发者可通过 Discord 社区和 Django 论坛获取帮助，也可按文档中的单元测试说明运行测试套件，并通过 Django 软件基金会支持其持续发展。",
-      "windows": [
-        "daily"
-      ],
-      "added_at": "2026-10-09T12:38:51+00:00",
-      "last_seen": "2026-10-09",
-      "seen_count": 1,
-      "tags": [
-        "framework"
-      ],
-      "primary_tag": "framework",
-      "domains": [
-        "web"
-      ],
-      "primary_domain": "web"
-    },
-    {
       "owner": "PaddlePaddle",
       "name": "PaddleOCR",
       "full_name": "PaddlePaddle/PaddleOCR",
       "url": "https://github.com/PaddlePaddle/PaddleOCR",
       "description": "Turn any PDF or image document into structured data for your AI. A powerful, lightweight OCR toolkit that bridges the gap between images/PDFs and LLMs. Supports 100+ languages.",
       "language": "Python",
-      "stars": 90992,
-      "forks": 11473,
+      "stars": 91679,
+      "forks": 11555,
       "homepage": "https://www.paddleocr.com",
       "license": "Apache-2.0",
       "created_at": "2020-05-08T10:38:16Z",
       "pushed_at": "2026-09-16T03:31:50Z",
-      "updated_at": "2026-10-13T03:09:56Z",
-      "open_issues": 243,
+      "updated_at": "2026-10-26T07:47:37Z",
+      "open_issues": 257,
       "summary": "PaddleOCR 是一个用 Python 编写的 OCR 与文档智能工具包，目标是把 PDF 和图片转换成结构化、可供大模型使用的数据。它主要解决文档解析与文字识别中的准确率和多语言支持问题，输出 JSON 或 Markdown 格式。核心能力包括：PaddleOCR-VL 系列视觉语言模型负责文档解析，在 OmniDocBench 上达到 96.3% 准确率，支持公式、表格、古籍、印章等元素；PP-StructureV3 提供更细粒度的坐标信息，如表格单元格和文本坐标；PP-OCRv6 支持 100 多种语言，其中 50 种语言可用单一模型识别，并覆盖身份证、街景、书籍、工业部件等场景。",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-09T12:38:51+00:00",
-      "last_seen": "2026-10-12",
-      "seen_count": 2,
+      "last_seen": "2026-10-26",
+      "seen_count": 3,
       "tags": [
         "library",
         "tool"
@@ -1011,27 +1366,58 @@
       "primary_domain": "ai"
     },
     {
+      "owner": "django",
+      "name": "django",
+      "full_name": "django/django",
+      "url": "https://github.com/django/django",
+      "description": "The Web framework for perfectionists with deadlines.",
+      "language": "Python",
+      "stars": 91656,
+      "forks": 36490,
+      "homepage": "https://www.djangoproject.com/",
+      "license": "BSD-3-Clause",
+      "created_at": "2012-04-28T02:47:18Z",
+      "pushed_at": "2026-10-25T20:10:52Z",
+      "updated_at": "2026-10-26T06:38:21Z",
+      "open_issues": 536,
+      "summary": "Django 是一个用 Python 编写的高级 Web 框架，面向有截止期限的完美主义者，鼓励快速开发与干净、务实的设计。它主要解决 Web 应用从搭建到部署过程中的重复性工作，让开发者能专注于业务逻辑。其核心能力包括配套完善的官方文档，涵盖安装、分步教程、部署指南、专题指南、HOWTO 和详细参考，且文档更新严格。典型使用场景是构建各类 Web 服务，技术栈基于 Python。开发者可通过 Discord 社区和 Django 论坛获取帮助，也可按文档中的单元测试说明运行测试套件，并通过 Django 软件基金会支持其持续发展。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-09T12:38:51+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 2,
+      "tags": [
+        "framework"
+      ],
+      "primary_tag": "framework",
+      "domains": [
+        "web"
+      ],
+      "primary_domain": "web"
+    },
+    {
       "owner": "D4Vinci",
       "name": "Scrapling",
       "full_name": "D4Vinci/Scrapling",
       "url": "https://github.com/D4Vinci/Scrapling",
-      "description": "🕷️ An adaptive Web Scraping framework that handles everything from a single request to a full-scale crawl! Don't be shy, join here: https://discord.gg/EMgGbDceNQ and follow here for daily tips and tricks: https://x.com/Scrapling_dev",
+      "description": "🕷️ A Web Scraping framework that handles everything from a single request to a full-scale crawl! Don't be shy, join here: https://discord.gg/EMgGbDceNQ and follow here for daily tips and tricks: https://x.com/Scrapling_dev",
       "language": "Python",
-      "stars": 87059,
-      "forks": 8917,
+      "stars": 89761,
+      "forks": 9275,
       "homepage": "https://scrapling.readthedocs.io/en/latest/",
       "license": "BSD-3-Clause",
       "created_at": "2024-10-13T20:29:53Z",
-      "pushed_at": "2026-10-12T22:39:15Z",
-      "updated_at": "2026-10-13T03:35:12Z",
+      "pushed_at": "2026-10-22T20:43:49Z",
+      "updated_at": "2026-10-26T07:45:34Z",
       "open_issues": 20,
       "summary": "Scrapling 是一个用 Python 编写的自适应网页抓取框架，覆盖从单次请求到大规模爬取的完整需求。它主要解决网页结构变动导致选择器失效、反爬系统拦截以及爬虫难以扩展的问题。其解析器能通过相似度算法在页面更新后自动重新定位元素；抓取器可绕过 Cloudflare Turnstile 等反爬机制，并支持 HTTP、动态浏览器和隐身抓取。爬虫框架提供类似 Scrapy 的 API、并发抓取、多会话、暂停续爬、代理轮换、自动限速和 robots.txt 合规，还支持流式输出与断点续爬。",
       "windows": [
         "monthly"
       ],
       "added_at": "2026-10-09T11:21:36+00:00",
-      "last_seen": "2026-10-10",
-      "seen_count": 6,
+      "last_seen": "2026-10-26",
+      "seen_count": 7,
       "tags": [
         "framework",
         "library"
@@ -1044,27 +1430,59 @@
       "primary_domain": "web"
     },
     {
+      "owner": "debpalash",
+      "name": "VoiceStudio",
+      "full_name": "debpalash/VoiceStudio",
+      "url": "https://github.com/debpalash/VoiceStudio",
+      "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+      "language": "Python",
+      "stars": 87497,
+      "forks": 9667,
+      "homepage": "https://voicestudio.sh",
+      "license": "AGPL-3.0",
+      "created_at": "2026-04-09T21:40:26Z",
+      "pushed_at": "2026-10-26T07:11:29Z",
+      "updated_at": "2026-10-26T07:49:17Z",
+      "open_issues": 192,
+      "summary": "VoiceStudio 是一个用 Python 编写的开源、完全本地化的 ElevenLabs 替代方案，支持 646 种语言的语音克隆、语音设计、视频配音、听写、转录和有声书制作。它解决的是语音生成工具依赖云端服务、数据外泄和费用高昂的问题，默认由 k2-fsa/OmniVoice 引擎驱动，也可选用其他引擎，本地工作流直接运行在用户硬件上，远程服务为可选项，使用分析数据需经用户同意。典型场景包括克隆声音后输入文本生成语音、为视频配音、转录音频以及制作有声书。",
+      "windows": [
+        "monthly"
+      ],
+      "added_at": "2026-10-09T11:21:36+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 6,
+      "tags": [
+        "app"
+      ],
+      "primary_tag": "app",
+      "domains": [
+        "ai",
+        "media"
+      ],
+      "primary_domain": "ai"
+    },
+    {
       "owner": "unclecode",
       "name": "crawl4ai",
       "full_name": "unclecode/crawl4ai",
       "url": "https://github.com/unclecode/crawl4ai",
-      "description": "Open-source web crawler and scraper for LLMs and AI agents: any website into clean, LLM-ready Markdown. Run it yourself, or use Crawl4AI Cloud with one key.",
+      "description": "Open-source web crawler and scraper for LLMs and AI agents: any website into clean, LLM-ready Markdown. Run it yourself, or use Crawl4AI Cloud with one key. Join our Discord https://discord.gg/VuxzM8mtf",
       "language": "Python",
-      "stars": 85402,
-      "forks": 8869,
+      "stars": 86280,
+      "forks": 8977,
       "homepage": "https://crawl4ai.com",
       "license": "Apache-2.0",
       "created_at": "2024-05-09T09:48:50Z",
-      "pushed_at": "2026-10-12T16:52:10Z",
-      "updated_at": "2026-10-13T03:34:45Z",
-      "open_issues": 227,
+      "pushed_at": "2026-10-22T19:03:10Z",
+      "updated_at": "2026-10-26T07:43:44Z",
+      "open_issues": 282,
       "summary": "Crawl4AI 是一个用 Python 编写的开源网页爬虫与抓取工具，目标是把任意网站转换成干净、适合大语言模型使用的 Markdown 格式，供 RAG、AI 智能体和数据管道使用。它解决的是网页内容杂乱、难以直接喂给模型的问题。用户可以自行部署，通过 Docker 服务、命令行等方式运行，也可以使用其托管云服务，用一个密钥完成抓取、搜索、问答和结构化提取，并支持批量 URL 与任务队列，同时提供 MCP 以便接入 AI 智能体。典型场景包括为 RAG 准备语料、为智能体提供实时网页数据，以及构建数据采集流程。项目文档涵盖库用法、指南与 API 参考，并欢迎社区贡献。",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-09T12:38:51+00:00",
-      "last_seen": "2026-10-09",
-      "seen_count": 1,
+      "last_seen": "2026-10-26",
+      "seen_count": 2,
       "tags": [
         "library",
         "tool"
@@ -1084,21 +1502,21 @@
       "url": "https://github.com/bregman-arie/devops-exercises",
       "description": "Linux, Jenkins, AWS, SRE, Prometheus, Docker, Python, Ansible, Git, Kubernetes, Terraform, OpenStack, SQL, NoSQL, Azure, GCP, DNS, Elastic, Network, Virtualization. DevOps Interview Questions",
       "language": "Python",
-      "stars": 84849,
-      "forks": 20375,
+      "stars": 84955,
+      "forks": 20410,
       "homepage": "",
       "license": "NOASSERTION",
       "created_at": "2019-10-03T17:31:21Z",
       "pushed_at": "2025-12-27T14:22:30Z",
-      "updated_at": "2026-10-13T02:15:12Z",
+      "updated_at": "2026-10-26T06:48:42Z",
       "open_issues": 56,
       "summary": "bregman-arie/devops-exercises 是一个汇集 DevOps 与 SRE 相关技术题目和练习的仓库，目前包含 2624 道题目与练习，主要使用 Python 编写。它解决的是学习者在准备面试或系统学习运维知识时缺乏成体系练习材料的问题，内容覆盖 Linux、Git、网络、硬件、Kubernetes、Python、Go、Perl、正则、AWS、Azure、GCP、OpenStack、虚拟化、DNS、Shell 脚本、SQL、Mongo、测试、大数据、CI/CD、容器、OpenShift、存储、Terraform、Puppet、Ansible、Prometheus、Gra。",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-09T12:38:51+00:00",
-      "last_seen": "2026-10-09",
-      "seen_count": 1,
+      "last_seen": "2026-10-26",
+      "seen_count": 2,
       "tags": [
         "doc"
       ],
@@ -1110,27 +1528,91 @@
       "primary_domain": "learning"
     },
     {
+      "owner": "datawhalechina",
+      "name": "hello-agents",
+      "full_name": "datawhalechina/hello-agents",
+      "url": "https://github.com/datawhalechina/hello-agents",
+      "description": "📚 《从零开始构建智能体》——从零开始的智能体原理与实践教程",
+      "language": "Python",
+      "stars": 84638,
+      "forks": 10501,
+      "homepage": "https://hello-agents.datawhale.cc",
+      "license": "NOASSERTION",
+      "created_at": "2025-09-07T09:50:24Z",
+      "pushed_at": "2026-10-13T22:28:54Z",
+      "updated_at": "2026-10-26T07:43:46Z",
+      "open_issues": 145,
+      "summary": "Hello-Agents 是 Datawhale 社区推出的系统性智能体学习教程，以 Python 编写，旨在填补当前智能体领域系统性、重实践教程的空白。它不局限于 Dify、Coze 等流程驱动的软件工程类 Agent，而是聚焦真正由 AI 驱动的 AI Native Agent，带领读者从核心原理出发，理解经典范式并亲手构建多智能体应用。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-09T11:21:36+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 7,
+      "tags": [
+        "doc"
+      ],
+      "primary_tag": "doc",
+      "domains": [
+        "ai",
+        "learning"
+      ],
+      "primary_domain": "ai"
+    },
+    {
+      "owner": "bytedance",
+      "name": "deer-flow",
+      "full_name": "bytedance/deer-flow",
+      "url": "https://github.com/bytedance/deer-flow",
+      "description": "An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks that could take minutes to hours.",
+      "language": "Python",
+      "stars": 84432,
+      "forks": 11814,
+      "homepage": "https://deerflow.tech",
+      "license": "MIT",
+      "created_at": "2025-05-07T02:50:19Z",
+      "pushed_at": "2026-10-26T07:41:25Z",
+      "updated_at": "2026-10-26T07:41:30Z",
+      "open_issues": 955,
+      "summary": "DeerFlow 是字节跳动开源的长时程超级智能体框架，用 Python 编写，2.0 版本为完全重写，与 1.x 分支不共享代码。它通过编排子智能体、记忆、沙箱、工具、技能和消息网关，处理从几分钟到数小时不等的不同层级任务，覆盖研究、编码与创作。核心能力包括可扩展技能与工具、子智能体、沙箱与文件系统、智能体浏览器控制、上下文工程、长期记忆、会话目标、手动上下文压缩、定时任务和终端工作台，并支持 MCP 服务器、IM 渠道与多种追踪方案。典型用法是借助 Docker 或本地开发快速启动，运行配置向导选择模型与搜索提供商，也提供嵌入式 Python 客户端。官方推荐使用豆包 Seed 2.",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-09T12:38:51+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 2,
+      "tags": [
+        "framework",
+        "app"
+      ],
+      "primary_tag": "framework",
+      "domains": [
+        "ai"
+      ],
+      "primary_domain": "ai"
+    },
+    {
       "owner": "fighting41love",
       "name": "funNLP",
       "full_name": "fighting41love/funNLP",
       "url": "https://github.com/fighting41love/funNLP",
       "description": "中英文敏感词、语言检测、中外手机/电话归属地/运营商查询、名字推断性别、手机号抽取、身份证抽取、邮箱抽取、中日文人名库、中文缩写库、拆字词典、词汇情感值、停用词、反动词表、暴恐词表、繁简体转换、英文模拟中文发音、汪峰歌词生成器、职业名称词库、同义词库、反义词库、否定词库、汽车品牌词库、汽车零件词库、连续英文切割、各种中文词向量、公司名字大全、古诗词库、IT词库、财经词库、成语词库、地名词库、历史名人词库、诗词词库、医学词库、饮食词库、法律词库、汽车词库、动物词库、中文聊天语料、中文谣言数据、百度中文问答数据集、句子相似度匹配算法集合、bert资源、文本生成&摘要相关工具、cocoNLP信息抽取工具、国内电话号码正则匹配、清华大学XLORE:中英文跨语言百科知识图谱、清华大学人工智能技术系列报告、自然语言生成、NLU太难了系列、自动对联数据及机器人、用户名黑名单列表、罪名法务名词及分类模型、微信公众号语料、cs224n深度学习自然语言处理课程、中文手写汉字识别、中文自然语言处理 语料/数据集、变量命名神器、分词语料库+代码、任务型对话英文数据集、ASR 语音数据集 + 基于深度学习的中文语音识别系统、笑声检测器、Microsoft多语言数字/单位/如日期时间识别包、中华新华字典数据库及api(包括常用歇后语、成语、词语和汉字)、文档图谱自动生成、SpaCy 中文模型、Common Voice语音识别数据集新版、神经网络关系抽取、基于bert的命名实体识别、关键词(Keyphrase)抽取包pke、基于医疗领域知识图谱的问答系统、基于依存句法与语义角色标注的事件三元组抽取、依存句法分析4万句高质量标注数据、cnocr：用来做中文OCR的Python3包、中文人物关系知识图谱项目、中文nlp竞赛项目及代码汇总、中文字符数据、speech-aligner: 从“人声语音”及其“语言文本”产生音素级别时间对齐标注的工具、AmpliGraph: 知识图谱表示学习(Python)库：知识图谱概念链接预测、Scattertext 文本可视化(python)、语言/知识表示工具：BERT & ERNIE、中文对比英文自然语言处理NLP的区别综述、Synonyms中文近义词工具包、HarvestText领域自适应文本挖掘工具（新词发现-情感分析-实体链接等）、word2word：(Python)方便易用的多语言词-词对集：62种语言/3,564个多语言对、语音识别语料生成工具：从具有音频/字幕的在线视频创建自动语音识别(ASR)语料库、构建医疗实体识别的模型（包含词典和语料标注）、单文档非监督的关键词抽取、Kashgari中使用gpt-2语言模型、开源的金融投资数据提取工具、文本自动摘要库TextTeaser: 仅支持英文、人民日报语料处理工具集、一些关于自然语言的基本模型、基于14W歌曲知识库的问答尝试--功能包括歌词接龙and已知歌词找歌曲以及歌曲歌手歌词三角关系的问答、基于Siamese bilstm模型的相似句子判定模型并提供训练数据集和测试数据集、用Transformer编解码模型实现的根据Hacker News文章标题自动生成评论、用BERT进行序列标记和文本分类的模板代码、LitBank：NLP数据集——支持自然语言处理和计算人文学科任务的100部带标记英文小说语料、百度开源的基准信息抽取系统、虚假新闻数据集、Facebook: LAMA语言模型分析，提供Transformer-XL/BERT/ELMo/GPT预训练语言模型的统一访问接口、CommonsenseQA：面向常识的英文QA挑战、中文知识图谱资料、数据及工具、各大公司内部里大牛分享的技术文档 PDF 或者 PPT、自然语言生成SQL语句（英文）、中文NLP数据增强（EDA）工具、英文NLP数据增强工具 、基于医药知识图谱的智能问答系统、京东商品知识图谱、基于mongodb存储的军事领域知识图谱问答项目、基于远监督的中文关系抽取、语音情感分析、中文ULMFiT-情感分析-文本分类-语料及模型、一个拍照做题程序、世界各国大规模人名库、一个利用有趣中文语料库 qingyun 训练出来的中文聊天机器人、中文聊天机器人seqGAN、省市区镇行政区划数据带拼音标注、教育行业新闻语料库包含自动文摘功能、开放了对话机器人-知识图谱-语义理解-自然语言处理工具及数据、中文知识图谱：基于百度百科中文页面-抽取三元组信息-构建中文知识图谱、masr: 中文语音识别-提供预训练模型-高识别率、Python音频数据增广库、中文全词覆盖BERT及两份阅读理解数据、ConvLab：开源多域端到端对话系统平台、中文自然语言处理数据集、基于最新版本rasa搭建的对话系统、基于TensorFlow和BERT的管道式实体及关系抽取、一个小型的证券知识图谱/知识库、复盘所有NLP比赛的TOP方案、OpenCLaP：多领域开源中文预训练语言模型仓库、UER：基于不同语料+编码器+目标任务的中文预训练模型仓库、中文自然语言处理向量合集、基于金融-司法领域(兼有闲聊性质)的聊天机器人、g2pC：基于上下文的汉语读音自动标记模块、Zincbase 知识图谱构建工具包、诗歌质量评价/细粒度情感诗歌语料库、快速转化「中文数字」和「阿拉伯数字」、百度知道问答语料库、基于知识图谱的问答系统、jieba_fast 加速版的jieba、正则表达式教程、中文阅读理解数据集、基于BERT等最新语言模型的抽取式摘要提取、Python利用深度学习进行文本摘要的综合指南、知识图谱深度学习相关资料整理、维基大规模平行文本语料、StanfordNLP 0.2.0：纯Python版自然语言处理包、NeuralNLP-NeuralClassifier：腾讯开源深度学习文本分类工具、端到端的封闭域对话系统、中文命名实体识别：NeuroNER vs. BertNER、新闻事件线索抽取、2019年百度的三元组抽取比赛：“科学空间队”源码、基于依存句法的开放域文本知识三元组抽取和知识库构建、中文的GPT2训练代码、ML-NLP - 机器学习(Machine Learning)NLP面试中常考到的知识点和代码实现、nlp4han:中文自然语言处理工具集(断句/分词/词性标注/组块/句法分析/语义分析/NER/N元语法/HMM/代词消解/情感分析/拼写检查、XLM：Facebook的跨语言预训练语言模型、用基于BERT的微调和特征提取方法来进行知识图谱百度百科人物词条属性抽取、中文自然语言处理相关的开放任务-数据集-当前最佳结果、CoupletAI - 基于CNN+Bi-LSTM+Attention 的自动对对联系统、抽象知识图谱、MiningZhiDaoQACorpus - 580万百度知道问答数据挖掘项目、brat rapid annotation tool: 序列标注工具、大规模中文知识图谱数据：1.4亿实体、数据增强在机器翻译及其他nlp任务中的应用及效果、allennlp阅读理解:支持多种数据和模型、PDF表格数据提取工具 、 Graphbrain：AI开源软件库和科研工具，目的是促进自动意义提取和文本理解以及知识的探索和推断、简历自动筛选系统、基于命名实体识别的简历自动摘要、中文语言理解测评基准，包括代表性的数据集&基准模型&语料库&排行榜、树洞 OCR 文字识别 、从包含表格的扫描图片中识别表格和文字、语声迁移、Python口语自然语言处理工具集(英文)、 similarity：相似度计算工具包，java编写、海量中文预训练ALBERT模型 、Transformers 2.0 、基于大规模音频数据集Audioset的音频增强 、Poplar：网页版自然语言标注工具、图片文字去除，可用于漫画翻译 、186种语言的数字叫法库、Amazon发布基于知识的人-人开放领域对话数据集 、中文文本纠错模块代码、繁简体转换 、 Python实现的多种文本可读性评价指标、类似于人名/地名/组织机构名的命名体识别数据集 、东南大学《知识图谱》研究生课程(资料)、. 英文拼写检查库 、 wwsearch是企业微信后台自研的全文检索引擎、CHAMELEON：深度学习新闻推荐系统元架构 、 8篇论文梳理BERT相关模型进展与反思、DocSearch：免费文档搜索引擎、 LIDA：轻量交互式对话标注工具 、aili - the fastest in-memory index in the East 东半球最快并发索引 、知识图谱车音工作项目、自然语言生成资源大全 、中日韩分词库mecab的Python接口库、中文文本摘要/关键词提取、汉字字符特征提取器 (featurizer)，提取汉字的特征（发音特征、字形特征）用做深度学习的特征、中文生成任务基准测评 、中文缩写数据集、中文任务基准测评 - 代表性的数据集-基准(预训练)模型-语料库-baseline-工具包-排行榜、PySS3：面向可解释AI的SS3文本分类器机器可视化工具 、中文NLP数据集列表、COPE - 格律诗编辑程序、doccano：基于网页的开源协同多语言文本标注工具 、PreNLP：自然语言预处理库、简单的简历解析器，用来从简历中提取关键信息、用于中文闲聊的GPT2模型：GPT2-chitchat、基于检索聊天机器人多轮响应选择相关资源列表(Leaderboards、Datasets、Papers)、(Colab)抽象文本摘要实现集锦(教程 、词语拼音数据、高效模糊搜索工具、NLP数据增广资源集、微软对话机器人框架 、 GitHub Typo Corpus：大规模GitHub多语言拼写错误/语法错误数据集、TextCluster：短文本聚类预处理模块 Short text cluster、面向语音识别的中文文本规范化、BLINK：最先进的实体链接库、BertPunc：基于BERT的最先进标点修复模型、Tokenizer：快速、可定制的文本词条化库、中文语言理解测评基准，包括代表性的数据集、基准(预训练)模型、语料库、排行榜、spaCy 医学文本挖掘与信息提取 、 NLP任务示例项目代码集、 python拼写检查库、chatbot-list - 行业内关于智能客服、聊天机器人的应用和架构、算法分享和介绍、语音质量评价指标(MOSNet, BSSEval, STOI, PESQ, SRMR)、 用138GB语料训练的法文RoBERTa预训练语言模型 、BERT-NER-Pytorch：三种不同模式的BERT中文NER实验、无道词典 - 有道词典的命令行版本，支持英汉互查和在线查询、2019年NLP亮点回顾、 Chinese medical dialogue data 中文医疗对话数据集 、最好的汉字数字(中文数字)-阿拉伯数字转换工具、 基于百科知识库的中文词语多词义/义项获取与特定句子词语语义消歧、awesome-nlp-sentiment-analysis - 情感分析、情绪原因识别、评价对象和评价词抽取、LineFlow：面向所有深度学习框架的NLP数据高效加载器、中文医学NLP公开资源整理 、MedQuAD：(英文)医学问答数据集、将自然语言数字串解析转换为整数和浮点数、Transfer Learning in Natural Language Processing (NLP) 、面向语音识别的中文/英文发音辞典、Tokenizers：注重性能与多功能性的最先进分词器、CLUENER 细粒度命名实体识别 Fine Grained Named Entity Recognition、 基于BERT的中文命名实体识别、中文谣言数据库、NLP数据集/基准任务大列表、nlp相关的一些论文及代码, 包括主题模型、词向量(Word Embedding)、命名实体识别(NER)、文本分类(Text Classificatin)、文本生成(Text Generation)、文本相似性(Text Similarity)计算等，涉及到各种与nlp相关的算法，基于keras和tensorflow 、Python文本挖掘/NLP实战示例、 Blackstone：面向非结构化法律文本的spaCy pipeline和NLP模型通过同义词替换实现文本“变脸” 、中文 预训练 ELECTREA 模型: 基于对抗学习 pretrain Chinese Model 、albert-chinese-ner - 用预训练语言模型ALBERT做中文NER 、基于GPT2的特定主题文本生成/文本增广、开源预训练语言模型合集、多语言句向量包、编码、标记和实现：一种可控高效的文本生成方法、 英文脏话大列表 、attnvis：GPT2、BERT等transformer语言模型注意力交互可视化、CoVoST：Facebook发布的多语种语音-文本翻译语料库，包括11种语言(法语、德语、荷兰语、俄语、西班牙语、意大利语、土耳其语、波斯语、瑞典语、蒙古语和中文)的语音、文字转录及英文译文、Jiagu自然语言处理工具 - 以BiLSTM等模型为基础，提供知识图谱关系抽取 中文分词 词性标注 命名实体识别 情感分析 新词发现 关键词 文本摘要 文本聚类等功能、用unet实现对文档表格的自动检测，表格重建、NLP事件提取文献资源列表 、 金融领域自然语言处理研究资源大列表、CLUEDatasetSearch - 中英文NLP数据集：搜索所有中文NLP数据集，附常用英文NLP数据集 、medical_NER - 中文医学知识图谱命名实体识别 、(哈佛)讲因果推理的免费书、知识图谱相关学习资料/数据集/工具资源大列表、Forte：灵活强大的自然语言处理pipeline工具集 、Python字符串相似性算法库、PyLaia：面向手写文档分析的深度学习工具包、TextFooler：针对文本分类/推理的对抗文本生成模块、Haystack：灵活、强大的可扩展问答(QA)框架、中文关键短语抽取工具",
       "language": "Python",
-      "stars": 83863,
-      "forks": 15289,
+      "stars": 84155,
+      "forks": 15294,
       "homepage": "https://zhuanlan.zhihu.com/yangyangfuture",
       "license": "",
       "created_at": "2018-08-21T11:20:39Z",
       "pushed_at": "2024-05-10T07:38:24Z",
-      "updated_at": "2026-10-13T03:31:10Z",
-      "open_issues": 54,
+      "updated_at": "2026-10-26T07:06:39Z",
+      "open_issues": 55,
       "summary": "funNLP 是一个面向中文自然语言处理的开源资源库，汇集了从基础词表到预训练模型的各类工具与数据。它主要解决中文 NLP 开发中资源分散、查找困难的问题，将敏感词、手机号与身份证抽取、繁简体转换、情感值、同反义词、各类垂直领域词库（医疗、金融、法律、汽车等）以及聊天语料、谣言数据、问答数据集等集中整理。核心特点在于覆盖面广，既包含正则表达式、分词与词性标注、命名实体识别、关系抽取、文本摘要、知识图谱构建等常规任务，也收录了语音识别、OCR、文本可视化、数据增强和比赛方案等进阶内容。",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-09T12:38:51+00:00",
-      "last_seen": "2026-10-09",
-      "seen_count": 1,
+      "last_seen": "2026-10-26",
+      "seen_count": 2,
       "tags": [
         "doc",
         "library",
@@ -1145,68 +1627,70 @@
       "primary_domain": "ai"
     },
     {
-      "owner": "bytedance",
-      "name": "deer-flow",
-      "full_name": "bytedance/deer-flow",
-      "url": "https://github.com/bytedance/deer-flow",
-      "description": "An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks that could take minutes to hours.",
+      "owner": "opendatalab",
+      "name": "MinerU",
+      "full_name": "opendatalab/MinerU",
+      "url": "https://github.com/opendatalab/MinerU",
+      "description": "Transforms complex documents like PDFs and Office docs into LLM-ready markdown/JSON for your Agentic workflows.",
       "language": "Python",
-      "stars": 83771,
-      "forks": 11658,
-      "homepage": "https://deerflow.tech",
-      "license": "MIT",
-      "created_at": "2025-05-07T02:50:19Z",
-      "pushed_at": "2026-10-13T00:38:36Z",
-      "updated_at": "2026-10-13T03:32:05Z",
-      "open_issues": 929,
-      "summary": "DeerFlow 是字节跳动开源的长时程超级智能体框架，用 Python 编写，2.0 版本为完全重写，与 1.x 分支不共享代码。它通过编排子智能体、记忆、沙箱、工具、技能和消息网关，处理从几分钟到数小时不等的不同层级任务，覆盖研究、编码与创作。核心能力包括可扩展技能与工具、子智能体、沙箱与文件系统、智能体浏览器控制、上下文工程、长期记忆、会话目标、手动上下文压缩、定时任务和终端工作台，并支持 MCP 服务器、IM 渠道与多种追踪方案。典型用法是借助 Docker 或本地开发快速启动，运行配置向导选择模型与搜索提供商，也提供嵌入式 Python 客户端。官方推荐使用豆包 Seed 2.",
+      "stars": 82499,
+      "forks": 6816,
+      "homepage": "https://opendatalab.github.io/MinerU/",
+      "license": "NOASSERTION",
+      "created_at": "2024-02-29T08:52:34Z",
+      "pushed_at": "2026-10-26T03:24:04Z",
+      "updated_at": "2026-10-26T07:48:54Z",
+      "open_issues": 15,
+      "summary": "MinerU 是一个用 Python 编写的文档解析工具，目标是把 PDF、扫描件图片以及 Office 等复杂文档转换成适合大模型和智能体工作流使用的 Markdown 或 JSON。它要解决的是通用 PDF 解析器和 OCR 库在处理长文档、表格、公式、版面结构时结果不稳定、难以引用的问题。核心能力包括四档解析层级（Flash 用于快速预览与索引，Basic 基于 OCR 与模型解析，Standard 和 Advanced 应对更复杂版面）、覆盖 PDF、图片、DOC/DOCX、PPT/PPTX、XLS/XLSX、RTF、ODT/ODS/ODP、EPUB、OFD、HTML/MHTML、C。",
+      "tags": [
+        "library",
+        "tool"
+      ],
+      "primary_tag": "library",
+      "domains": [
+        "ai",
+        "data"
+      ],
+      "primary_domain": "ai",
       "windows": [
         "daily"
       ],
-      "added_at": "2026-10-09T12:38:51+00:00",
-      "last_seen": "2026-10-09",
-      "seen_count": 1,
-      "tags": [
-        "framework",
-        "app"
-      ],
-      "primary_tag": "framework",
-      "domains": [
-        "ai"
-      ],
-      "primary_domain": "ai"
+      "added_at": "2026-10-26T07:49:29+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 1
     },
     {
-      "owner": "datawhalechina",
-      "name": "hello-agents",
-      "full_name": "datawhalechina/hello-agents",
-      "url": "https://github.com/datawhalechina/hello-agents",
-      "description": "📚 《从零开始构建智能体》——从零开始的智能体原理与实践教程",
+      "owner": "d2l-ai",
+      "name": "d2l-zh",
+      "full_name": "d2l-ai/d2l-zh",
+      "url": "https://github.com/d2l-ai/d2l-zh",
+      "description": "《动手学深度学习》：面向中文读者、能运行、可讨论。中英文版被70多个国家的500多所大学用于教学。",
       "language": "Python",
-      "stars": 82797,
-      "forks": 10268,
-      "homepage": "https://hello-agents.datawhale.cc",
-      "license": "NOASSERTION",
-      "created_at": "2025-09-07T09:50:24Z",
-      "pushed_at": "2026-10-12T10:19:18Z",
-      "updated_at": "2026-10-13T03:30:30Z",
-      "open_issues": 116,
-      "summary": "Hello-Agents 是 Datawhale 社区推出的系统性智能体学习教程，以 Python 编写，旨在填补当前智能体领域系统性、重实践教程的空白。它不局限于 Dify、Coze 等流程驱动的软件工程类 Agent，而是聚焦真正由 AI 驱动的 AI Native Agent，带领读者从核心原理出发，理解经典范式并亲手构建多智能体应用。",
-      "windows": [
-        "daily"
-      ],
-      "added_at": "2026-10-09T11:21:36+00:00",
-      "last_seen": "2026-10-10",
-      "seen_count": 6,
+      "stars": 82105,
+      "forks": 12450,
+      "homepage": "http://zh.d2l.ai",
+      "license": "Apache-2.0",
+      "created_at": "2017-08-23T04:40:24Z",
+      "pushed_at": "2024-07-30T09:32:19Z",
+      "updated_at": "2026-10-26T07:36:58Z",
+      "open_issues": 127,
+      "summary": "《动手学深度学习》（d2l-zh）是一套面向中文读者的开源深度学习教材，以 Python 为主要语言，强调概念讲解、数学推导与可运行代码相结合。它试图解决的学习痛点在于：许多教材偏重理论或只给片段代码，读者难以把公式落到实践中。该书在同一个资源里呈现批判性思维、数学知识和工程技能，代码可直接运行、修改并观察结果，帮助读者既理解原理又能实现和改进方法。内容全部在线免费获取，并通过论坛支持问答与经验交流，便于社区持续迭代、跟上领域发展。中英文版已被70多个国家的500多所大学用于教学，也适合作为课程教材或参考书，供深度学习应用学习者、研究人员和工业界工程师系统学习与实践。",
       "tags": [
-        "doc"
+        "doc",
+        "example"
       ],
       "primary_tag": "doc",
       "domains": [
-        "ai",
-        "learning"
+        "learning",
+        "ai"
       ],
-      "primary_domain": "ai"
+      "primary_domain": "learning",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-26T07:49:29+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 1
     },
     {
       "owner": "swisskyrepo",
@@ -1215,21 +1699,21 @@
       "url": "https://github.com/swisskyrepo/PayloadsAllTheThings",
       "description": "A list of useful payloads and bypass for Web Application Security and Pentest/CTF",
       "language": "Python",
-      "stars": 81717,
-      "forks": 17465,
+      "stars": 82071,
+      "forks": 17508,
       "homepage": "https://swisskyrepo.github.io/PayloadsAllTheThings/",
       "license": "MIT",
       "created_at": "2016-10-18T07:29:07Z",
       "pushed_at": "2026-08-27T07:52:21Z",
-      "updated_at": "2026-10-13T03:20:09Z",
-      "open_issues": 36,
+      "updated_at": "2026-10-26T06:03:06Z",
+      "open_issues": 37,
       "summary": "PayloadsAllTheThings 是一个面向 Web 应用安全与渗透测试、CTF 的实用载荷与绕过技巧集合，主要用 Python 编写。它解决的是安全测试中载荷零散、绕过手法难以系统查找的问题，把常见漏洞的利用方式整理成结构化文档。每个章节通常包含 README.md，用于说明漏洞原理与利用方法并列出多种载荷；Intruder 目录提供可直接导入 Burp Intruder 的文件；Images 存放配图；Files 存放 README 引用的文件。仓库还提供 _template_vuln 模板，便于按统一格式新增章节，并设有网页展示版本。",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-09T12:38:51+00:00",
-      "last_seen": "2026-10-12",
-      "seen_count": 2,
+      "last_seen": "2026-10-26",
+      "seen_count": 3,
       "tags": [
         "doc"
       ],
@@ -1240,27 +1724,59 @@
       "primary_domain": "security"
     },
     {
+      "owner": "666ghj",
+      "name": "MiroFish",
+      "full_name": "666ghj/MiroFish",
+      "url": "https://github.com/666ghj/MiroFish",
+      "description": "A Simple and Universal Swarm Intelligence Engine, Predicting Anything. 简洁通用的群体智能引擎，预测万物",
+      "language": "Python",
+      "stars": 81969,
+      "forks": 12402,
+      "homepage": "https://mirofish.ai",
+      "license": "AGPL-3.0",
+      "created_at": "2025-11-26T04:23:02Z",
+      "pushed_at": "2026-10-16T03:32:19Z",
+      "updated_at": "2026-10-26T07:47:36Z",
+      "open_issues": 202,
+      "summary": "MiroFish 是一个基于多智能体技术的群体智能预测引擎，用 Python 编写。它从现实世界的种子信息（如突发新闻、政策草案或金融信号）中提取要素，自动构建高保真的平行数字世界，让数千个具备独立人格、长期记忆和行为逻辑的智能体在其中自由交互与社会演化。用户只需上传种子材料并用自然语言描述预测需求，即可从“上帝视角”动态注入变量，推演未来走向，最终获得详细的预测报告和一个可深度交互的数字世界。其工作流程包括图谱构建、环境搭建、双平台并行模拟、报告生成和深度交互，模拟引擎由 OASIS 驱动。",
+      "windows": [
+        "weekly"
+      ],
+      "added_at": "2026-10-09T11:21:36+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 6,
+      "tags": [
+        "library",
+        "framework"
+      ],
+      "primary_tag": "library",
+      "domains": [
+        "ai"
+      ],
+      "primary_domain": "ai"
+    },
+    {
       "owner": "Z4nzu",
       "name": "hackingtool",
       "full_name": "Z4nzu/hackingtool",
       "url": "https://github.com/Z4nzu/hackingtool",
       "description": "ALL IN ONE Hacking Tool For Hackers",
       "language": "Python",
-      "stars": 80980,
-      "forks": 9143,
+      "stars": 81426,
+      "forks": 9171,
       "homepage": "",
       "license": "MIT",
       "created_at": "2020-04-11T09:21:31Z",
-      "pushed_at": "2026-08-23T16:54:04Z",
-      "updated_at": "2026-10-13T03:35:21Z",
-      "open_issues": 156,
+      "pushed_at": "2026-10-15T13:32:22Z",
+      "updated_at": "2026-10-26T07:48:35Z",
+      "open_issues": 131,
       "summary": "hackingtool 是一个用 Python 编写的 AI 辅助一体化安全测试工具箱，面向渗透测试、红队、蓝队/SOC、DFIR、OSINT 研究、漏洞赏金和 CTF 等合法授权场景。它把 21 个类别、215 款精选工具收进同一个控制台，覆盖侦察、OSINT、Web、无线、钓鱼、取证、后渗透等方向，省去逐个寻找 Git 仓库的麻烦，并用固定标签体系让工具可检索。",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-09T12:38:51+00:00",
-      "last_seen": "2026-10-09",
-      "seen_count": 1,
+      "last_seen": "2026-10-26",
+      "seen_count": 2,
       "tags": [
         "tool",
         "app"
@@ -1278,21 +1794,21 @@
       "url": "https://github.com/abi/screenshot-to-code",
       "description": "Drop in a screenshot and convert it to clean code (HTML/Tailwind/React/Vue)",
       "language": "Python",
-      "stars": 80276,
-      "forks": 9812,
+      "stars": 80729,
+      "forks": 9878,
       "homepage": "https://screenshottocode.com",
       "license": "MIT",
       "created_at": "2023-11-14T17:53:32Z",
       "pushed_at": "2026-10-09T20:02:05Z",
-      "updated_at": "2026-10-13T03:31:30Z",
-      "open_issues": 147,
+      "updated_at": "2026-10-26T07:05:49Z",
+      "open_issues": 148,
       "summary": "screenshot-to-code 是一款用 Python 编写的工具，能够把截图、设计稿、Figma 设计以及屏幕录制内容，借助 AI 转换成干净可用的代码。它主要解决从视觉稿到前端代码的手工转换问题，支持 HTML+Tailwind、HTML+CSS、React+Tailwind、Vue+Tailwind、Bootstrap、Ionic+Tailwind 等多种技术栈。默认调用 Gemini、GPT、Claude 等模型，并可配合 Replicate 完成图像生成、背景去除和图片编辑，还能复用截图中的真实 logo 与图片。除静态截图外，它也支持把网站操作录屏转成可运行的原型。",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-09T12:38:51+00:00",
-      "last_seen": "2026-10-09",
-      "seen_count": 1,
+      "last_seen": "2026-10-26",
+      "seen_count": 2,
       "tags": [
         "app",
         "tool"
@@ -1305,59 +1821,61 @@
       "primary_domain": "devtools"
     },
     {
-      "owner": "666ghj",
-      "name": "MiroFish",
-      "full_name": "666ghj/MiroFish",
-      "url": "https://github.com/666ghj/MiroFish",
-      "description": "A Simple and Universal Swarm Intelligence Engine, Predicting Anything. 简洁通用的群体智能引擎，预测万物",
+      "owner": "shareAI-lab",
+      "name": "learn-claude-code",
+      "full_name": "shareAI-lab/learn-claude-code",
+      "url": "https://github.com/shareAI-lab/learn-claude-code",
+      "description": "Bash is all you need -  A nano claude code–like 「agent harness」, built from 0 to 1",
       "language": "Python",
-      "stars": 78515,
-      "forks": 11971,
-      "homepage": "https://mirofish.ai",
-      "license": "AGPL-3.0",
-      "created_at": "2025-11-26T04:23:02Z",
-      "pushed_at": "2026-10-01T18:28:51Z",
-      "updated_at": "2026-10-13T03:22:31Z",
-      "open_issues": 142,
-      "summary": "MiroFish 是一个基于多智能体技术的群体智能预测引擎，用 Python 编写。它从现实世界的种子信息（如突发新闻、政策草案或金融信号）中提取要素，自动构建高保真的平行数字世界，让数千个具备独立人格、长期记忆和行为逻辑的智能体在其中自由交互与社会演化。用户只需上传种子材料并用自然语言描述预测需求，即可从“上帝视角”动态注入变量，推演未来走向，最终获得详细的预测报告和一个可深度交互的数字世界。其工作流程包括图谱构建、环境搭建、双平台并行模拟、报告生成和深度交互，模拟引擎由 OASIS 驱动。",
-      "windows": [
-        "weekly"
-      ],
-      "added_at": "2026-10-09T11:21:36+00:00",
-      "last_seen": "2026-10-10",
-      "seen_count": 5,
+      "stars": 79234,
+      "forks": 12673,
+      "homepage": "https://learn.shareai.run",
+      "license": "MIT",
+      "created_at": "2025-06-29T15:34:15Z",
+      "pushed_at": "2026-09-28T13:49:16Z",
+      "updated_at": "2026-10-26T07:40:42Z",
+      "open_issues": 69,
+      "summary": "learn-claude-code 是一门从零构建类 Claude Code 智能体运行框架（agent harness）的教程型仓库，用 Python 编写。它要澄清一个常见误解：智能体的自主能力来自模型训练而非外部代码编排，因此做智能体产品应聚焦于搭建模型运行所需的环境。仓库围绕“模型是驾驶员、harness 是车辆”的思路，逐章拆解工具实现、知识组织、上下文管理、权限控制和轨迹数据收集等 harness 工程职责，并以 Claude Code 为范例说明如何给模型提供工具、上下文与边界而不越俎代庖。",
       "tags": [
-        "library",
+        "doc",
+        "example",
         "framework"
       ],
-      "primary_tag": "library",
+      "primary_tag": "doc",
       "domains": [
+        "learning",
         "ai"
       ],
-      "primary_domain": "ai"
+      "primary_domain": "learning",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-26T07:49:29+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 1
     },
     {
       "owner": "unslothai",
       "name": "unsloth",
       "full_name": "unslothai/unsloth",
       "url": "https://github.com/unslothai/unsloth",
-      "description": "Local UI to run and train LLMs and diffusion models. Supports GGUF, MLX, Qwen3.8, DeepSeek-V4, MiniMax-H3, Gemma 4, FLUX and more.",
+      "description": "Local UI to run and train LLMs and diffusion models. Supports GGUF, MLX, Qwen3.8, DeepSeek-V4.1, MiniMax-H3, Gemma 4, FLUX and more.",
       "language": "Python",
-      "stars": 77902,
-      "forks": 7194,
+      "stars": 78574,
+      "forks": 7290,
       "homepage": "https://unsloth.ai/docs",
       "license": "Apache-2.0",
       "created_at": "2023-11-29T16:50:09Z",
-      "pushed_at": "2026-10-13T03:35:48Z",
-      "updated_at": "2026-10-13T03:34:35Z",
-      "open_issues": 463,
+      "pushed_at": "2026-10-26T07:48:30Z",
+      "updated_at": "2026-10-26T07:37:31Z",
+      "open_issues": 341,
       "summary": "Unsloth 是一个用于在本地运行和训练大语言模型及扩散模型的桌面应用，提供原生桌面程序、Web UI 和代码库三种使用方式。它主要解决本地部署与微调模型时显存占用高、配置繁琐的问题，通过优化可将训练速度提升约两倍并减少约七成显存占用，且不损失精度。它支持 GGUF、MLX、LoRA、QLoRA、全量微调、强化学习、GRPO、DPO 等训练方式，兼容 NVIDIA、AMD、Intel GPU 及 CPU 和 Vulkan 后端，并可在 Windows、Linux、WSL 和 macOS 上运行。",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-09T11:21:36+00:00",
-      "last_seen": "2026-10-10",
-      "seen_count": 5,
+      "last_seen": "2026-10-26",
+      "seen_count": 6,
       "tags": [
         "app",
         "library"
@@ -1369,27 +1887,123 @@
       "primary_domain": "ai"
     },
     {
+      "owner": "ComposioHQ",
+      "name": "awesome-claude-skills",
+      "full_name": "ComposioHQ/awesome-claude-skills",
+      "url": "https://github.com/ComposioHQ/awesome-claude-skills",
+      "description": "A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows",
+      "language": "Python",
+      "stars": 77965,
+      "forks": 9337,
+      "homepage": "",
+      "license": "",
+      "created_at": "2025-10-17T07:15:01Z",
+      "pushed_at": "2026-09-18T07:16:11Z",
+      "updated_at": "2026-10-26T07:36:38Z",
+      "open_issues": 1857,
+      "summary": "Awesome Claude Skills 是一份精选清单，收录了 1000 多个可直接用于生产的 Claude Skills 与插件，覆盖 Claude.ai、Claude Code 以及 Codex、Cursor、Gemini CLI、Antigravity 等编码代理。它解决的核心问题是：让 AI 代理不只生成文本，还能按既定流程完成具体任务。Skill 本质是可复用的指令包，每个文件夹含带 YAML 元数据的 SKILL.md，可附带脚本与参考资料，采用渐进式加载，会话开始时仅读取名称与描述，相关时才载入正文，因此单个代理可承载数百个技能而不挤占上下文。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-11T22:24:31+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 2,
+      "tags": [
+        "doc"
+      ],
+      "primary_tag": "doc",
+      "domains": [
+        "ai",
+        "learning"
+      ],
+      "primary_domain": "ai"
+    },
+    {
+      "owner": "headroomlabs-ai",
+      "name": "headroom",
+      "full_name": "headroomlabs-ai/headroom",
+      "url": "https://github.com/headroomlabs-ai/headroom",
+      "description": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer tokens for coding agents, 60-95% fewer tokens for JSON, same answers. Library, proxy, MCP server.",
+      "language": "Python",
+      "stars": 77848,
+      "forks": 6048,
+      "homepage": "https://docs.headroomlabs.ai/docs",
+      "license": "Apache-2.0",
+      "created_at": "2026-01-07T19:58:51Z",
+      "pushed_at": "2026-10-24T19:15:37Z",
+      "updated_at": "2026-10-26T07:44:24Z",
+      "open_issues": 550,
+      "summary": "Headroom 是一个用 Python 编写的 LLM 上下文压缩工具，在工具输出、日志、文件、RAG 片段和对话历史进入模型之前进行压缩，从而减少 token 消耗。它提供 Python 与 TypeScript 库、代理、MCP 服务器以及一行命令包装多种编码代理等多种接入方式，压缩在本地完成，原始内容通过 CCR 缓存并可按需检索，因此结果可逆。其核心由 ContentRouter 识别内容类型，分别用 SmartCrusher、CodeCompressor 和 Kompress-v2-base 处理 JSON、源码与自然语言，并能标记会破坏 KV 缓存前缀的易变内容。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-09T11:21:36+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 6,
+      "tags": [
+        "library",
+        "app",
+        "plugin"
+      ],
+      "primary_tag": "library",
+      "domains": [
+        "ai",
+        "devtools"
+      ],
+      "primary_domain": "ai"
+    },
+    {
+      "owner": "python",
+      "name": "cpython",
+      "full_name": "python/cpython",
+      "url": "https://github.com/python/cpython",
+      "description": "The Python programming language",
+      "language": "Python",
+      "stars": 77769,
+      "forks": 37606,
+      "pinned": true,
+      "homepage": "https://www.python.org",
+      "license": "NOASSERTION",
+      "created_at": "2017-02-10T19:23:51Z",
+      "pushed_at": "2026-10-26T05:23:59Z",
+      "updated_at": "2026-10-26T07:32:04Z",
+      "open_issues": 9261,
+      "summary": "CPython 是 Python 编程语言的官方参考实现，由 Python 软件基金会维护，当前开发版本为 3.16.0 alpha 0。它解决了 Python 代码的解释执行问题，将 Python 源码编译为字节码并在虚拟机中运行，同时提供完整的标准库和 C 扩展接口。其核心特点包括支持在 Unix、Linux、BSD、macOS、Windows 和 Cygwin 等平台构建，可通过 configure 脚本定制编译选项，并支持 Profile Guided Optimization 和 Link Time Optimization 等优化手段提升运行性能。",
+      "windows": [],
+      "added_at": "2026-10-09T11:30:10+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 7,
+      "tags": [
+        "app"
+      ],
+      "primary_tag": "app",
+      "domains": [
+        "systems"
+      ],
+      "primary_domain": "systems"
+    },
+    {
       "owner": "tensorflow",
       "name": "models",
       "full_name": "tensorflow/models",
       "url": "https://github.com/tensorflow/models",
       "description": "Models and examples built with TensorFlow",
       "language": "Python",
-      "stars": 77646,
-      "forks": 44779,
+      "stars": 77650,
+      "forks": 44755,
       "homepage": "",
       "license": "NOASSERTION",
       "created_at": "2016-02-05T01:15:20Z",
-      "pushed_at": "2026-10-07T22:41:53Z",
-      "updated_at": "2026-10-13T00:10:07Z",
-      "open_issues": 1271,
+      "pushed_at": "2026-10-23T03:36:49Z",
+      "updated_at": "2026-10-25T01:26:04Z",
+      "open_issues": 1274,
       "summary": "TensorFlow Model Garden 是 TensorFlow 官方维护的模型仓库，汇集了多种前沿模型的实现与建模方案，主要面向希望深入使用 TensorFlow 的研究与产品开发人员。它要解决的问题是：为 TensorFlow 用户提供经过验证的建模最佳实践，让用户不必从零摸索，就能直接参考官方实现来构建和训练模型。仓库以 Python 为主要语言，包含可直接安装的 pip 包，也支持克隆源码使用，并尽可能提供 TensorBoard.dev 上的训练日志，以提升模型的透明度和可复现性。",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-09T12:38:51+00:00",
-      "last_seen": "2026-10-09",
-      "seen_count": 1,
+      "last_seen": "2026-10-26",
+      "seen_count": 2,
       "tags": [
         "library",
         "example",
@@ -1402,89 +2016,27 @@
       "primary_domain": "ai"
     },
     {
-      "owner": "python",
-      "name": "cpython",
-      "full_name": "python/cpython",
-      "url": "https://github.com/python/cpython",
-      "description": "The Python programming language",
-      "language": "Python",
-      "stars": 77628,
-      "forks": 38105,
-      "pinned": true,
-      "homepage": "https://www.python.org",
-      "license": "NOASSERTION",
-      "created_at": "2017-02-10T19:23:51Z",
-      "pushed_at": "2026-10-13T03:07:35Z",
-      "updated_at": "2026-10-13T03:15:11Z",
-      "open_issues": 9713,
-      "summary": "CPython 是 Python 编程语言的官方参考实现，由 Python 软件基金会维护，当前开发版本为 3.16.0 alpha 0。它解决了 Python 代码的解释执行问题，将 Python 源码编译为字节码并在虚拟机中运行，同时提供完整的标准库和 C 扩展接口。其核心特点包括支持在 Unix、Linux、BSD、macOS、Windows 和 Cygwin 等平台构建，可通过 configure 脚本定制编译选项，并支持 Profile Guided Optimization 和 Link Time Optimization 等优化手段提升运行性能。",
-      "windows": [],
-      "added_at": "2026-10-09T11:30:10+00:00",
-      "last_seen": "2026-10-12",
-      "seen_count": 6,
-      "tags": [
-        "app"
-      ],
-      "primary_tag": "app",
-      "domains": [
-        "systems"
-      ],
-      "primary_domain": "systems"
-    },
-    {
-      "owner": "ComposioHQ",
-      "name": "awesome-claude-skills",
-      "full_name": "ComposioHQ/awesome-claude-skills",
-      "url": "https://github.com/ComposioHQ/awesome-claude-skills",
-      "description": "A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows",
-      "language": "Python",
-      "stars": 76960,
-      "forks": 9065,
-      "homepage": "",
-      "license": "",
-      "created_at": "2025-10-17T07:15:01Z",
-      "pushed_at": "2026-09-18T07:16:11Z",
-      "updated_at": "2026-10-13T03:28:32Z",
-      "open_issues": 1707,
-      "summary": "Awesome Claude Skills 是一份精选清单，收录了 1000 多个可直接用于生产的 Claude Skills 与插件，覆盖 Claude.ai、Claude Code 以及 Codex、Cursor、Gemini CLI、Antigravity 等编码代理。它解决的核心问题是：让 AI 代理不只生成文本，还能按既定流程完成具体任务。Skill 本质是可复用的指令包，每个文件夹含带 YAML 元数据的 SKILL.md，可附带脚本与参考资料，采用渐进式加载，会话开始时仅读取名称与描述，相关时才载入正文，因此单个代理可承载数百个技能而不挤占上下文。",
-      "windows": [
-        "daily"
-      ],
-      "added_at": "2026-10-11T22:24:31+00:00",
-      "last_seen": "2026-10-11",
-      "seen_count": 1,
-      "tags": [
-        "doc"
-      ],
-      "primary_tag": "doc",
-      "domains": [
-        "ai",
-        "learning"
-      ],
-      "primary_domain": "ai"
-    },
-    {
       "owner": "Asabeneh",
       "name": "30-Days-Of-Python",
       "full_name": "Asabeneh/30-Days-Of-Python",
       "url": "https://github.com/Asabeneh/30-Days-Of-Python",
       "description": "The 30 Days of Python programming challenge is a step-by-step guide to learn the Python programming language in 30 days. This challenge may take more than 100 days. Follow your own pace. These videos may help too: https://www.youtube.com/channel/UC7PNRuno1rzYPb1xLa4yktw",
       "language": "Python",
-      "stars": 76094,
-      "forks": 13790,
+      "stars": 77196,
+      "forks": 13935,
       "homepage": "",
       "license": "",
       "created_at": "2019-11-19T17:24:16Z",
       "pushed_at": "2026-09-30T08:10:34Z",
-      "updated_at": "2026-10-13T03:30:39Z",
-      "open_issues": 227,
+      "updated_at": "2026-10-26T07:49:09Z",
+      "open_issues": 233,
       "summary": "30 Days Of Python 是一套面向零基础与进阶学习者的 Python 编程挑战教程，由 Asabeneh Yetayeh 编写，以 30 天为框架逐步讲解 Python 3。它解决的问题是：初学者常因缺少系统路径和练习而放弃，而该教程把知识点拆解到每天，配有通俗解释、真实示例和大量动手练习与项目，帮助读者从环境搭建一路学到数据类型、字符串、列表、字典、元组、集合等核心概念。内容以对话式英语写成，节奏自定，官方说明完成挑战可能需要 30 到 100 天，并提供法语、中文、西班牙语、阿拉伯语等多语言版本以及配套视频。",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-09T12:38:51+00:00",
-      "last_seen": "2026-10-09",
-      "seen_count": 1,
+      "last_seen": "2026-10-26",
+      "seen_count": 2,
       "tags": [
         "doc"
       ],
@@ -1501,21 +2053,21 @@
       "url": "https://github.com/hiyouga/LlamaFactory",
       "description": "Unified Efficient Fine-Tuning of 100+ LLMs & VLMs (ACL 2024)",
       "language": "Python",
-      "stars": 75430,
-      "forks": 9244,
+      "stars": 75735,
+      "forks": 9296,
       "homepage": "https://llamafactory.readthedocs.io",
       "license": "Apache-2.0",
       "created_at": "2023-05-28T10:09:12Z",
-      "pushed_at": "2026-10-10T07:29:23Z",
-      "updated_at": "2026-10-13T03:08:58Z",
-      "open_issues": 1186,
+      "pushed_at": "2026-10-21T07:23:24Z",
+      "updated_at": "2026-10-26T07:28:40Z",
+      "open_issues": 1205,
       "summary": "LlamaFactory 是一个统一高效微调 100 多个大语言模型与视觉语言模型的开源工具，论文发表于 ACL 2024，已被亚马逊、英伟达、阿里云等使用。它解决的是模型微调流程分散、门槛高的问题，提供零代码命令行与 Web UI，让用户无需编写训练代码即可完成适配。核心能力覆盖持续预训练、监督微调、奖励建模及 PPO、DPO、KTO、ORPO 等方法，支持 16 位全参、冻结、LoRA 与 2 至 8 位 QLoRA，并集成 GaLore、BAdam、DoRA、LongLoRA、FlashAttention-2、Unsloth 等算法与加速技巧。",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-09T12:38:51+00:00",
-      "last_seen": "2026-10-09",
-      "seen_count": 1,
+      "last_seen": "2026-10-26",
+      "seen_count": 2,
       "tags": [
         "library",
         "framework"
@@ -1527,61 +2079,27 @@
       "primary_domain": "ai"
     },
     {
-      "owner": "headroomlabs-ai",
-      "name": "headroom",
-      "full_name": "headroomlabs-ai/headroom",
-      "url": "https://github.com/headroomlabs-ai/headroom",
-      "description": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer tokens for coding agents, 60-95% fewer tokens for JSON, same answers. Library, proxy, MCP server.",
-      "language": "Python",
-      "stars": 75150,
-      "forks": 5828,
-      "homepage": "https://docs.headroomlabs.ai/docs",
-      "license": "Apache-2.0",
-      "created_at": "2026-01-07T19:58:51Z",
-      "pushed_at": "2026-10-13T02:36:25Z",
-      "updated_at": "2026-10-13T02:54:57Z",
-      "open_issues": 421,
-      "summary": "Headroom 是一个用 Python 编写的 LLM 上下文压缩工具，在工具输出、日志、文件、RAG 片段和对话历史进入模型之前进行压缩，从而减少 token 消耗。它提供 Python 与 TypeScript 库、代理、MCP 服务器以及一行命令包装多种编码代理等多种接入方式，压缩在本地完成，原始内容通过 CCR 缓存并可按需检索，因此结果可逆。其核心由 ContentRouter 识别内容类型，分别用 SmartCrusher、CodeCompressor 和 Kompress-v2-base 处理 JSON、源码与自然语言，并能标记会破坏 KV 缓存前缀的易变内容。",
-      "windows": [
-        "daily"
-      ],
-      "added_at": "2026-10-09T11:21:36+00:00",
-      "last_seen": "2026-10-10",
-      "seen_count": 5,
-      "tags": [
-        "library",
-        "app",
-        "plugin"
-      ],
-      "primary_tag": "library",
-      "domains": [
-        "ai",
-        "devtools"
-      ],
-      "primary_domain": "ai"
-    },
-    {
       "owner": "apache",
       "name": "superset",
       "full_name": "apache/superset",
       "url": "https://github.com/apache/superset",
       "description": "Apache Superset is a Data Visualization and Data Exploration Platform",
       "language": "Python",
-      "stars": 75117,
-      "forks": 18458,
+      "stars": 75310,
+      "forks": 18526,
       "homepage": "https://superset.apache.org/",
       "license": "Apache-2.0",
       "created_at": "2015-07-21T18:55:34Z",
-      "pushed_at": "2026-10-13T03:34:22Z",
-      "updated_at": "2026-10-13T03:34:29Z",
-      "open_issues": 548,
+      "pushed_at": "2026-10-26T07:35:32Z",
+      "updated_at": "2026-10-26T07:10:29Z",
+      "open_issues": 622,
       "summary": "Apache Superset 是一个现代化的企业级商业智能 Web 应用，用 Python 编写，用于数据探索与可视化。它面向分析师和业务用户，提供无代码图表构建界面、基于 Web 的 SQL 编辑器，以及用于定义自定义维度和指标的轻量级语义层。Superset 能查询任何支持 SQL 的数据存储或引擎，只要其具备 Python DB-API 驱动和 SQLAlchemy 方言，因此可对接 Presto、Trino、Athena 等多种数据库。",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-09T12:38:51+00:00",
-      "last_seen": "2026-10-09",
-      "seen_count": 1,
+      "last_seen": "2026-10-26",
+      "seen_count": 2,
       "tags": [
         "app"
       ],
@@ -1599,21 +2117,21 @@
       "url": "https://github.com/pallets/flask",
       "description": "The Python micro framework for building web applications.",
       "language": "Python",
-      "stars": 75029,
-      "forks": 17068,
+      "stars": 75088,
+      "forks": 17132,
       "homepage": "https://flask.palletsprojects.com",
       "license": "BSD-3-Clause",
       "created_at": "2010-04-06T11:11:59Z",
       "pushed_at": "2026-10-07T14:02:59Z",
-      "updated_at": "2026-10-13T02:58:02Z",
+      "updated_at": "2026-10-26T04:32:52Z",
       "open_issues": 4,
       "summary": "Flask 是一个轻量级的 WSGI Web 应用框架，用 Python 编写，用于构建 Web 应用。它最初是 Werkzeug 和 Jinja 的简单封装，如今已成为最流行的 Python Web 框架之一。Flask 的设计目标是让入门快速简单，同时能够扩展到复杂应用。它只提供建议，不强制依赖或项目结构，开发者可以自由选择所需的工具和库，社区提供的众多扩展也便于添加新功能。典型使用场景包括从简单原型到较复杂 Web 服务的开发，常与 Werkzeug、Jinja 配合使用。",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-09T12:38:51+00:00",
-      "last_seen": "2026-10-09",
-      "seen_count": 1,
+      "last_seen": "2026-10-26",
+      "seen_count": 2,
       "tags": [
         "framework",
         "library"
@@ -1625,27 +2143,60 @@
       "primary_domain": "web"
     },
     {
+      "owner": "openbq-org",
+      "name": "OpenBB",
+      "full_name": "openbq-org/OpenBB",
+      "url": "https://github.com/openbq-org/OpenBB",
+      "description": "Open Data Platform for analysts, quants and AI agents.",
+      "language": "Python",
+      "stars": 74724,
+      "forks": 7772,
+      "homepage": "https://openbb.co",
+      "license": "NOASSERTION",
+      "created_at": "2020-12-20T10:46:38Z",
+      "pushed_at": "2026-10-24T09:08:28Z",
+      "updated_at": "2026-10-26T07:39:03Z",
+      "open_issues": 98,
+      "summary": "OpenBB 开源数据平台（ODP）是一个用 Python 编写的开源工具集，帮助数据工程师将自有、授权和公开数据源整合进 AI 助手、研究仪表盘等下游应用。它充当“一次接入、处处消费”的基础设施层，把数据同时暴露给多个使用面：面向量化研究者的 Python 环境、面向分析师的 OpenBB Workspace 与 Excel、面向 AI 智能体的 MCP 服务器，以及面向其他应用的 REST API。核心能力在于统一数据集成与分发，避免为不同终端重复对接数据源。",
+      "tags": [
+        "library",
+        "app"
+      ],
+      "primary_tag": "library",
+      "domains": [
+        "data",
+        "ai"
+      ],
+      "primary_domain": "data",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-26T07:49:29+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 1
+    },
+    {
       "owner": "josephmisiti",
       "name": "awesome-machine-learning",
       "full_name": "josephmisiti/awesome-machine-learning",
       "url": "https://github.com/josephmisiti/awesome-machine-learning",
       "description": "A curated list of awesome Machine Learning frameworks, libraries and software.",
       "language": "Python",
-      "stars": 74576,
-      "forks": 15668,
+      "stars": 74658,
+      "forks": 15683,
       "homepage": "",
       "license": "NOASSERTION",
       "created_at": "2014-07-15T19:11:19Z",
-      "pushed_at": "2026-10-13T00:31:03Z",
-      "updated_at": "2026-10-13T00:49:18Z",
-      "open_issues": 24,
+      "pushed_at": "2026-10-22T18:52:55Z",
+      "updated_at": "2026-10-26T06:54:40Z",
+      "open_issues": 26,
       "summary": "Awesome Machine Learning 是一份按编程语言分类整理的机器学习框架、库与软件清单，灵感来自 awesome-php。它解决的是开发者在选型时难以快速找到特定语言生态下可用工具的问题，覆盖 APL、C、C++、Clojure、Go、Java、JavaScript、Julia、Python、Rust、R、Scala、Swift 等数十种语言，并按通用机器学习、计算机视觉、自然语言处理、语音识别、数据分析与可视化、深度学习、强化学习等方向细分。",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-09T12:38:51+00:00",
-      "last_seen": "2026-10-09",
-      "seen_count": 1,
+      "last_seen": "2026-10-26",
+      "seen_count": 2,
       "tags": [
         "doc"
       ],
@@ -1657,124 +2208,28 @@
       "primary_domain": "learning"
     },
     {
-      "owner": "ansible",
-      "name": "ansible",
-      "full_name": "ansible/ansible",
-      "url": "https://github.com/ansible/ansible",
-      "description": "Ansible is a radically simple IT automation platform that makes your applications and systems easier to deploy and maintain. Automate everything from code deployment to network configuration to cloud management, in a language that approaches plain English, using SSH, with no agents to install on remote systems. https://docs.ansible.com.",
-      "language": "Python",
-      "stars": 70975,
-      "forks": 24351,
-      "homepage": "https://www.ansible.com/",
-      "license": "GPL-3.0",
-      "created_at": "2012-03-06T14:58:02Z",
-      "pushed_at": "2026-10-12T19:39:28Z",
-      "updated_at": "2026-10-13T02:55:50Z",
-      "open_issues": 858,
-      "summary": "Ansible 是一个用 Python 编写的开源 IT 自动化平台，目标是让应用与系统的部署和维护变得简单。它通过 SSH 连接远程机器，无需在目标主机上安装任何代理程序，也不额外开放端口，因此可以立即管理新机器而无需预先引导。其设计强调极简的安装流程和较低的学习门槛，使用接近自然英语的语言描述基础设施，便于人类阅读和机器执行。核心能力涵盖配置管理、应用部署、云资源供给、临时任务执行、网络自动化以及多节点编排，例如配合负载均衡器实现零停机的滚动更新。模块开发不限于 Python，支持任意动态语言，且可以非 root 用户身份使用。",
-      "windows": [
-        "daily"
-      ],
-      "added_at": "2026-10-09T12:38:51+00:00",
-      "last_seen": "2026-10-09",
-      "seen_count": 1,
-      "tags": [
-        "app",
-        "tool"
-      ],
-      "primary_tag": "app",
-      "domains": [
-        "devops"
-      ],
-      "primary_domain": "devops"
-    },
-    {
-      "owner": "asgeirtj",
-      "name": "system_prompts_leaks",
-      "full_name": "asgeirtj/system_prompts_leaks",
-      "url": "https://github.com/asgeirtj/system_prompts_leaks",
-      "description": "Documented system prompts from Anthropic - Claude Fable 5.1, Opus 5.5, Claude Design, Claude Code. OpenAI - ChatGPT GPT-6-Astra, Codex. Google - Gemini 3.8 Flash, 3.1 Pro, Antigravity. xAI - Grok, Grok Bot, Cursor, Kimi and more! Updated regularly.",
-      "language": "Python",
-      "stars": 69505,
-      "forks": 11300,
-      "homepage": "",
-      "license": "CC0-1.0",
-      "created_at": "2025-05-03T02:43:56Z",
-      "pushed_at": "2026-10-12T02:20:04Z",
-      "updated_at": "2026-10-13T03:26:44Z",
-      "open_issues": 56,
-      "summary": "system_prompts_leaks 是一个用 Python 维护的仓库，专门收集并整理全球主流聊天机器人与 AI 编程工具背后完整的系统提示词原文。它解决的是这些提示词通常不公开、研究者与开发者难以获取真实规则的问题，通过持续更新和接受 PR 的方式，把 Anthropic 的 Claude、OpenAI 的 ChatGPT 与 Codex、Google 的 Gemini、xAI 的 Grok、Cursor、Kimi、DeepSeek、Copilot 等产品的系统提示词逐字记录下来。",
-      "windows": [
-        "monthly"
-      ],
-      "added_at": "2026-10-09T11:21:36+00:00",
-      "last_seen": "2026-10-10",
-      "seen_count": 6,
-      "tags": [
-        "doc"
-      ],
-      "primary_tag": "doc",
-      "domains": [
-        "ai"
-      ],
-      "primary_domain": "ai"
-    },
-    {
-      "owner": "docling-project",
-      "name": "docling",
-      "full_name": "docling-project/docling",
-      "url": "https://github.com/docling-project/docling",
-      "description": "Get your documents ready for gen AI",
-      "language": "Python",
-      "stars": 68781,
-      "forks": 5060,
-      "homepage": "https://docling-project.github.io/docling",
-      "license": "MIT",
-      "created_at": "2024-07-09T07:50:26Z",
-      "pushed_at": "2026-10-12T14:15:59Z",
-      "updated_at": "2026-10-13T03:08:22Z",
-      "open_issues": 1047,
-      "summary": "Docling 是一个用 Python 编写的文档处理开源项目，目标是让各类文档为生成式 AI 应用做好准备。它解决的核心问题是：将格式各异的文档统一解析为结构化表示，便于后续接入 AI 生态。其能力覆盖 PDF、DOCX、PPTX、XLSX、HTML、EPUB、邮件、图片、音频、视频、LaTeX 等多种格式，并对 PDF 提供页面布局、阅读顺序、表格结构、公式、代码等深度理解。解析结果统一为 DoclingDocument 格式，可导出为 Markdown、HTML、JSON 等，并支持本地执行以满足敏感数据和离线环境需求。",
-      "windows": [
-        "monthly"
-      ],
-      "added_at": "2026-10-09T11:21:36+00:00",
-      "last_seen": "2026-10-10",
-      "seen_count": 5,
-      "tags": [
-        "library",
-        "tool"
-      ],
-      "primary_tag": "library",
-      "domains": [
-        "ai",
-        "data"
-      ],
-      "primary_domain": "ai"
-    },
-    {
       "owner": "rohitg00",
       "name": "ai-engineering-from-scratch",
       "full_name": "rohitg00/ai-engineering-from-scratch",
       "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
       "description": "Learn AI Engineering! Learn it. Build it. Ship it for others.",
       "language": "Python",
-      "stars": 68174,
-      "forks": 11939,
+      "stars": 73960,
+      "forks": 12960,
       "homepage": "https://aiengineeringfromscratch.com",
       "license": "MIT",
       "created_at": "2026-03-18T18:38:02Z",
-      "pushed_at": "2026-10-12T20:06:16Z",
-      "updated_at": "2026-10-13T03:34:05Z",
-      "open_issues": 71,
+      "pushed_at": "2026-10-23T16:14:21Z",
+      "updated_at": "2026-10-26T07:44:57Z",
+      "open_issues": 78,
       "summary": "这是一个从零开始系统学习 AI 工程的开源课程仓库，用 Python、TypeScript、Rust、Julia 四种语言编写，包含 20 个阶段、523 节课，约 342 小时内容。它要解决的是 AI 学习材料零散、难以贯通的问题：多数教程只教调 API 或跑通某个 demo，学习者说不清模型内部的损失曲线和注意力机制。该课程按线性代数到自主智能体的顺序逐层搭建，每个算法先用原始数学手写实现，再对照 PyTorch 等生产库，每节课都产出可复用成果，如提示词、技能、智能体或 MCP 服务器。",
       "windows": [
         "weekly",
         "monthly"
       ],
       "added_at": "2026-10-09T11:21:36+00:00",
-      "last_seen": "2026-10-10",
-      "seen_count": 5,
+      "last_seen": "2026-10-26",
+      "seen_count": 6,
       "tags": [
         "doc",
         "example"
@@ -1793,21 +2248,21 @@
       "url": "https://github.com/calesthio/OpenMontage",
       "description": "World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn your AI coding assistant into a full video production studio.",
       "language": "Python",
-      "stars": 67619,
-      "forks": 8631,
+      "stars": 71981,
+      "forks": 9346,
       "homepage": "https://www.openmontage.video/",
       "license": "AGPL-3.0",
       "created_at": "2026-03-29T15:23:22Z",
-      "pushed_at": "2026-10-12T16:48:52Z",
-      "updated_at": "2026-10-13T03:35:05Z",
-      "open_issues": 375,
+      "pushed_at": "2026-10-24T00:49:34Z",
+      "updated_at": "2026-10-26T07:41:23Z",
+      "open_issues": 411,
       "summary": "OpenMontage 是一个开源、由智能体驱动的视频制作系统，用 Python 编写。它把 AI 编程助手变成完整的视频工作室：用户用自然语言描述需求，智能体便负责调研、写脚本、生成素材、剪辑与合成。它提供 12 条制作流水线和 100 多个工具，并附带 700 多个智能体技能与制作知识文件。与仅靠静态图动画的取巧方式不同，它能从免费素材库和开放档案中检索真实动态片段，剪辑成时间线并渲染成片。系统支持从 YouTube、短视频或本地片段出发，分析节奏、场景与风格，给出差异化方案、工具路径与成本估算，并在生成素材前设置审批关卡。",
       "windows": [
         "weekly"
       ],
       "added_at": "2026-10-09T11:21:36+00:00",
-      "last_seen": "2026-10-10",
-      "seen_count": 5,
+      "last_seen": "2026-10-26",
+      "seen_count": 6,
       "tags": [
         "app",
         "framework",
@@ -1821,27 +2276,286 @@
       "primary_domain": "media"
     },
     {
+      "owner": "usestrix",
+      "name": "strix",
+      "full_name": "usestrix/strix",
+      "url": "https://github.com/usestrix/strix",
+      "description": "Open-source AI penetration testing tool to find and fix your app’s vulnerabilities.",
+      "language": "Python",
+      "stars": 71956,
+      "forks": 8047,
+      "homepage": "https://strix.ai",
+      "license": "Apache-2.0",
+      "created_at": "2025-08-05T21:28:30Z",
+      "pushed_at": "2026-10-25T20:40:48Z",
+      "updated_at": "2026-10-26T07:45:55Z",
+      "open_issues": 506,
+      "summary": "Strix 是一个用 Python 编写的开源 AI 渗透测试工具，通过自主运行的 AI 智能体模拟真实黑客行为，动态执行代码、发现漏洞并用可复现的概念验证加以确认，从而减少传统静态分析工具的误报。它内置侦察、利用与验证的完整工具链，支持多智能体协同、HTTP 拦截代理、浏览器漏洞测试、Shell 执行和自定义漏洞利用运行时，覆盖 OWASP Top 10 中的访问控制、注入、SSRF、XSS、业务逻辑及 API 安全等问题，并能生成补丁和合规报告。",
+      "tags": [
+        "tool",
+        "app"
+      ],
+      "primary_tag": "tool",
+      "domains": [
+        "security",
+        "ai"
+      ],
+      "primary_domain": "security",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-26T07:49:29+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 1
+    },
+    {
+      "owner": "binary-husky",
+      "name": "gpt_academic",
+      "full_name": "binary-husky/gpt_academic",
+      "url": "https://github.com/binary-husky/gpt_academic",
+      "description": "为GPT/GLM等LLM大语言模型提供实用化交互接口，特别优化论文阅读/润色/写作体验，模块化设计，支持自定义快捷按钮&函数插件，支持Python和C++等项目剖析&自译解功能，PDF/LaTex论文翻译&总结功能，支持并行问询多种LLM模型，支持chatglm3等本地模型。接入通义千问, deepseekcoder, 讯飞星火, 文心一言, llama2, rwkv, claude2, moss等。",
+      "language": "Python",
+      "stars": 71540,
+      "forks": 8301,
+      "homepage": "https://github.com/binary-husky/gpt_academic/wiki/online",
+      "license": "GPL-3.0",
+      "created_at": "2023-03-20T09:05:13Z",
+      "pushed_at": "2026-01-25T12:33:10Z",
+      "updated_at": "2026-10-26T07:31:16Z",
+      "open_issues": 331,
+      "summary": "GPT Academic 是一个基于 Python 的大语言模型实用化交互界面，主要面向论文阅读、润色与写作场景。它为 GPT、GLM、通义千问、DeepseekCoder、讯飞星火、文心一言、LLaMA2、MOSS 等多种模型提供统一入口，并支持同时问询多个模型、配置多个 API Key 以及接入本地模型。",
+      "tags": [
+        "app"
+      ],
+      "primary_tag": "app",
+      "domains": [
+        "ai",
+        "productivity"
+      ],
+      "primary_domain": "ai",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-26T07:49:29+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 1
+    },
+    {
+      "owner": "ansible",
+      "name": "ansible",
+      "full_name": "ansible/ansible",
+      "url": "https://github.com/ansible/ansible",
+      "description": "Ansible is a radically simple IT automation platform that makes your applications and systems easier to deploy and maintain. Automate everything from code deployment to network configuration to cloud management, in a language that approaches plain English, using SSH, with no agents to install on remote systems. https://docs.ansible.com.",
+      "language": "Python",
+      "stars": 71124,
+      "forks": 24335,
+      "homepage": "https://www.ansible.com/",
+      "license": "GPL-3.0",
+      "created_at": "2012-03-06T14:58:02Z",
+      "pushed_at": "2026-10-23T22:40:29Z",
+      "updated_at": "2026-10-26T06:45:13Z",
+      "open_issues": 867,
+      "summary": "Ansible 是一个用 Python 编写的开源 IT 自动化平台，目标是让应用与系统的部署和维护变得简单。它通过 SSH 连接远程机器，无需在目标主机上安装任何代理程序，也不额外开放端口，因此可以立即管理新机器而无需预先引导。其设计强调极简的安装流程和较低的学习门槛，使用接近自然英语的语言描述基础设施，便于人类阅读和机器执行。核心能力涵盖配置管理、应用部署、云资源供给、临时任务执行、网络自动化以及多节点编排，例如配合负载均衡器实现零停机的滚动更新。模块开发不限于 Python，支持任意动态语言，且可以非 root 用户身份使用。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-09T12:38:51+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 2,
+      "tags": [
+        "app",
+        "tool"
+      ],
+      "primary_tag": "app",
+      "domains": [
+        "devops"
+      ],
+      "primary_domain": "devops"
+    },
+    {
+      "owner": "FoundationAgents",
+      "name": "MetaGPT",
+      "full_name": "FoundationAgents/MetaGPT",
+      "url": "https://github.com/FoundationAgents/MetaGPT",
+      "description": "🌟 The Multi-Agent Framework: First AI Software Company, Towards Natural Language Programming",
+      "language": "Python",
+      "stars": 71019,
+      "forks": 9048,
+      "homepage": "https://atoms.dev/",
+      "license": "MIT",
+      "created_at": "2023-06-30T09:04:55Z",
+      "pushed_at": "2026-01-21T10:12:33Z",
+      "updated_at": "2026-10-26T06:57:54Z",
+      "open_issues": 137,
+      "summary": "MetaGPT 是一个基于 Python 的多智能体框架，核心思路是把软件公司的标准作业流程（SOP）编码进由大模型驱动的角色团队中，让 GPT 分别扮演产品经理、架构师、项目经理和工程师等角色协同工作。用户只需输入一句需求，它就能输出用户故事、竞品分析、需求文档、数据结构和 API 等内容，从而把一句自然语言需求推进到完整的软件方案。其核心理念是 Code = SOP(Team)，即用 SOP 组织多智能体协作完成复杂任务。项目提供命令行和库两种使用方式，并包含 Data Interpreter 用于编写代码，安装需 Python 3.9 至 3.12 以及 node 和 pnpm。",
+      "tags": [
+        "framework",
+        "library"
+      ],
+      "primary_tag": "framework",
+      "domains": [
+        "ai",
+        "devtools"
+      ],
+      "primary_domain": "ai",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-26T07:49:29+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 1
+    },
+    {
+      "owner": "asgeirtj",
+      "name": "system_prompts_leaks",
+      "full_name": "asgeirtj/system_prompts_leaks",
+      "url": "https://github.com/asgeirtj/system_prompts_leaks",
+      "description": "Documented system prompts from Anthropic - Claude Fable 5.1, Opus 5.5, Claude Design, Claude Code. OpenAI - ChatGPT GPT-6-Astra, Codex. Google - Gemini 3.8 Flash, 3.1 Pro, Antigravity. xAI - Grok, Grok Bot, Cursor, Kimi and more! Updated regularly.",
+      "language": "Python",
+      "stars": 70224,
+      "forks": 11379,
+      "homepage": "",
+      "license": "CC0-1.0",
+      "created_at": "2025-05-03T02:43:56Z",
+      "pushed_at": "2026-10-25T19:55:03Z",
+      "updated_at": "2026-10-26T07:16:14Z",
+      "open_issues": 55,
+      "summary": "system_prompts_leaks 是一个用 Python 维护的仓库，专门收集并整理全球主流聊天机器人与 AI 编程工具背后完整的系统提示词原文。它解决的是这些提示词通常不公开、研究者与开发者难以获取真实规则的问题，通过持续更新和接受 PR 的方式，把 Anthropic 的 Claude、OpenAI 的 ChatGPT 与 Codex、Google 的 Gemini、xAI 的 Grok、Cursor、Kimi、DeepSeek、Copilot 等产品的系统提示词逐字记录下来。",
+      "windows": [
+        "monthly"
+      ],
+      "added_at": "2026-10-09T11:21:36+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 7,
+      "tags": [
+        "doc"
+      ],
+      "primary_tag": "doc",
+      "domains": [
+        "ai"
+      ],
+      "primary_domain": "ai"
+    },
+    {
+      "owner": "docling-project",
+      "name": "docling",
+      "full_name": "docling-project/docling",
+      "url": "https://github.com/docling-project/docling",
+      "description": "Get your documents ready for gen AI",
+      "language": "Python",
+      "stars": 69593,
+      "forks": 5183,
+      "homepage": "https://docling-project.github.io/docling",
+      "license": "MIT",
+      "created_at": "2024-07-09T07:50:26Z",
+      "pushed_at": "2026-10-25T10:47:00Z",
+      "updated_at": "2026-10-26T07:28:38Z",
+      "open_issues": 917,
+      "summary": "Docling 是一个用 Python 编写的文档处理开源项目，目标是让各类文档为生成式 AI 应用做好准备。它解决的核心问题是：将格式各异的文档统一解析为结构化表示，便于后续接入 AI 生态。其能力覆盖 PDF、DOCX、PPTX、XLSX、HTML、EPUB、邮件、图片、音频、视频、LaTeX 等多种格式，并对 PDF 提供页面布局、阅读顺序、表格结构、公式、代码等深度理解。解析结果统一为 DoclingDocument 格式，可导出为 Markdown、HTML、JSON 等，并支持本地执行以满足敏感数据和离线环境需求。",
+      "windows": [
+        "monthly"
+      ],
+      "added_at": "2026-10-09T11:21:36+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 6,
+      "tags": [
+        "library",
+        "tool"
+      ],
+      "primary_tag": "library",
+      "domains": [
+        "ai",
+        "data"
+      ],
+      "primary_domain": "ai"
+    },
+    {
+      "owner": "NanmiCoder",
+      "name": "MediaCrawler",
+      "full_name": "NanmiCoder/MediaCrawler",
+      "url": "https://github.com/NanmiCoder/MediaCrawler",
+      "description": "小红书笔记 | 评论爬虫、抖音视频 | 评论爬虫、快手视频 | 评论爬虫、B 站视频 ｜ 评论爬虫、微博帖子 ｜ 评论爬虫、百度贴吧帖子 ｜ 百度贴吧评论回复爬虫  | 知乎问答文章｜评论爬虫",
+      "language": "Python",
+      "stars": 68611,
+      "forks": 13055,
+      "homepage": "https://nanmicoder.github.io/MediaCrawler/",
+      "license": "NOASSERTION",
+      "created_at": "2023-06-09T12:14:34Z",
+      "pushed_at": "2026-10-15T04:53:41Z",
+      "updated_at": "2026-10-26T07:41:02Z",
+      "open_issues": 217,
+      "summary": "MediaCrawler 是一个基于 Python 的多平台自媒体数据采集工具，面向小红书、抖音、快手、B站、微博、贴吧、知乎等主流平台，抓取公开的笔记、视频、帖子、问答及评论内容。它主要解决爬虫开发中签名参数逆向成本高的问题：借助 Playwright 浏览器自动化框架登录并保存登录态，在保留登录态的浏览器上下文中通过 JS 表达式获取签名参数，无需逆向复杂加密算法，降低了技术门槛。项目默认采用 CDP 模式连接本地已开启远程调试的 Chrome，复用已有登录状态与 Cookie，也可切换为标准 Playwright 模式。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:11:12+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 2,
+      "tags": [
+        "tool"
+      ],
+      "primary_tag": "tool",
+      "domains": [
+        "data",
+        "web"
+      ],
+      "primary_domain": "data"
+    },
+    {
+      "owner": "hugohe3",
+      "name": "ppt-master",
+      "full_name": "hugohe3/ppt-master",
+      "url": "https://github.com/hugohe3/ppt-master",
+      "description": "AI turns documents or topics into real, native PowerPoint decks—with native shapes, transitions and animations, data-backed charts and tables on demand, audio narration from speaker notes, and support for your own .pptx templates. · by Hugo He",
+      "language": "Python",
+      "stars": 68429,
+      "forks": 5344,
+      "homepage": "https://hugohe3.github.io/ppt-master-examples/",
+      "license": "MIT",
+      "created_at": "2025-12-10T06:54:33Z",
+      "pushed_at": "2026-10-24T15:39:09Z",
+      "updated_at": "2026-10-26T07:49:34Z",
+      "open_issues": 1,
+      "summary": "PPT Master 是一个用 Python 编写的开源工具，它把文档或主题交给 AI，直接生成原生可编辑的 PowerPoint 文件，而不是扁平图片或套模板的填充稿。它输出的是真正的 PowerPoint 对象模型：幻灯片母版与版式继承、带调节手柄的原生形状与连接线、按需生成的数据图表和表格，以及完整的文字、图片、填充与效果体系，点击任意元素都能继续编辑。它先梳理论证结构再设计版式，并支持从参考材料中提炼品牌与版式模板、向已有 pptx 填充新内容、为成品添加原生切换、动画和基于演讲者备注的语音旁白。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-09T11:21:36+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 6,
+      "tags": [
+        "app",
+        "tool"
+      ],
+      "primary_tag": "app",
+      "domains": [
+        "productivity",
+        "ai"
+      ],
+      "primary_domain": "productivity"
+    },
+    {
       "owner": "scikit-learn",
       "name": "scikit-learn",
       "full_name": "scikit-learn/scikit-learn",
       "url": "https://github.com/scikit-learn/scikit-learn",
       "description": "scikit-learn: machine learning in Python",
       "language": "Python",
-      "stars": 67569,
-      "forks": 27516,
+      "stars": 67920,
+      "forks": 27584,
       "homepage": "https://scikit-learn.org",
       "license": "BSD-3-Clause",
       "created_at": "2010-08-17T09:43:38Z",
-      "pushed_at": "2026-10-12T13:38:16Z",
-      "updated_at": "2026-10-13T01:39:07Z",
-      "open_issues": 2163,
+      "pushed_at": "2026-10-25T14:38:20Z",
+      "updated_at": "2026-10-26T06:15:10Z",
+      "open_issues": 2179,
       "summary": "scikit-learn 是一个基于 SciPy 构建的 Python 机器学习模块，始于 2007 年 David Cournapeau 的 Google Summer of Code 项目，如今由社区志愿者及多家机构共同维护。它为 Python 开发者提供了一套统一的机器学习工具，覆盖分类、回归、聚类、降维、模型选择与预处理等常见任务，帮助用户在不重复造轮子的前提下完成从数据到模型的完整流程。",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-09T12:38:51+00:00",
-      "last_seen": "2026-10-09",
-      "seen_count": 1,
+      "last_seen": "2026-10-26",
+      "seen_count": 2,
       "tags": [
         "library"
       ],
@@ -1859,21 +2573,21 @@
       "url": "https://github.com/mem0ai/mem0",
       "description": "The Memory Layer for AI Agents - Drop-in memory infrastructure for AI agents and apps. Context that persists. Built for production.",
       "language": "Python",
-      "stars": 67068,
-      "forks": 7882,
+      "stars": 67825,
+      "forks": 8019,
       "homepage": "https://mem0.ai",
       "license": "Apache-2.0",
       "created_at": "2023-06-20T08:58:36Z",
-      "pushed_at": "2026-10-12T16:28:49Z",
-      "updated_at": "2026-10-13T03:17:11Z",
-      "open_issues": 821,
+      "pushed_at": "2026-10-23T18:38:28Z",
+      "updated_at": "2026-10-26T07:43:09Z",
+      "open_issues": 872,
       "summary": "Mem0 是为 AI 智能体与应用提供的记忆层基础设施，用 Python 编写，旨在解决对话与任务中上下文无法持久保留的问题。它通过多层级记忆机制保留用户、会话与智能体状态，实现自适应个性化。其新记忆算法采用单次 ADD-only 抽取、实体链接、多信号检索（语义、BM25 关键词与实体匹配融合）以及时间推理，提升检索准确性。核心能力包括直观 API、跨平台 SDK 与托管服务，支持 OpenAI 等 LLM 及多种嵌入模型。典型场景涵盖 AI 助手、客户支持、医疗健康、生产力与游戏等，可搭配 LangGraph、CrewAI 等框架使用，并提供 CLI 与智能体技能集成。",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-12T11:46:08+00:00",
-      "last_seen": "2026-10-12",
-      "seen_count": 1,
+      "last_seen": "2026-10-26",
+      "seen_count": 2,
       "tags": [
         "library"
       ],
@@ -1884,36 +2598,268 @@
       "primary_domain": "ai"
     },
     {
-      "owner": "NanmiCoder",
-      "name": "MediaCrawler",
-      "full_name": "NanmiCoder/MediaCrawler",
-      "url": "https://github.com/NanmiCoder/MediaCrawler",
-      "description": "小红书笔记 | 评论爬虫、抖音视频 | 评论爬虫、快手视频 | 评论爬虫、B 站视频 ｜ 评论爬虫、微博帖子 ｜ 评论爬虫、百度贴吧帖子 ｜ 百度贴吧评论回复爬虫  | 知乎问答文章｜评论爬虫",
+      "owner": "labmlai",
+      "name": "annotated_deep_learning_paper_implementations",
+      "full_name": "labmlai/annotated_deep_learning_paper_implementations",
+      "url": "https://github.com/labmlai/annotated_deep_learning_paper_implementations",
+      "description": "🧑‍🏫 60+ Implementations/tutorials of deep learning papers with side-by-side notes 📝; including transformers (original, xl, switch, feedback, vit, ...), optimizers (adam, adabelief, sophia, ...), gans(cyclegan, stylegan2, ...), 🎮 reinforcement learning (ppo, dqn), capsnet, distillation, ... 🧠",
       "language": "Python",
-      "stars": 66732,
-      "forks": 12774,
-      "homepage": "https://nanmicoder.github.io/MediaCrawler/",
-      "license": "NOASSERTION",
-      "created_at": "2023-06-09T12:14:34Z",
-      "pushed_at": "2026-10-10T07:36:13Z",
-      "updated_at": "2026-10-13T03:29:09Z",
-      "open_issues": 216,
-      "summary": "MediaCrawler 是一个基于 Python 的多平台自媒体数据采集工具，面向小红书、抖音、快手、B站、微博、贴吧、知乎等主流平台，抓取公开的笔记、视频、帖子、问答及评论内容。它主要解决爬虫开发中签名参数逆向成本高的问题：借助 Playwright 浏览器自动化框架登录并保存登录态，在保留登录态的浏览器上下文中通过 JS 表达式获取签名参数，无需逆向复杂加密算法，降低了技术门槛。项目默认采用 CDP 模式连接本地已开启远程调试的 Chrome，复用已有登录状态与 Cookie，也可切换为标准 Playwright 模式。",
+      "stars": 67600,
+      "forks": 6760,
+      "homepage": "https://nn.labml.ai",
+      "license": "MIT",
+      "created_at": "2020-08-25T02:29:34Z",
+      "pushed_at": "2026-10-25T17:01:15Z",
+      "updated_at": "2026-10-26T07:37:19Z",
+      "open_issues": 44,
+      "summary": "labmlai/annotated_deep_learning_paper_implementations 是一套用 PyTorch 编写的深度学习论文实现与教程合集，目标是把论文中的算法以尽量简单的代码复现出来，并配上逐行解释，帮助读者理解其原理。仓库目前收录 60 多个实现，配套网站会把代码与说明并排排版成注释式笔记。",
+      "tags": [
+        "doc",
+        "example",
+        "library"
+      ],
+      "primary_tag": "doc",
+      "domains": [
+        "ai",
+        "learning"
+      ],
+      "primary_domain": "ai",
       "windows": [
         "daily"
       ],
-      "added_at": "2026-10-12T12:11:12+00:00",
-      "last_seen": "2026-10-12",
-      "seen_count": 1,
+      "added_at": "2026-10-26T07:49:29+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 1
+    },
+    {
+      "owner": "ZhuLinsen",
+      "name": "daily_stock_analysis",
+      "full_name": "ZhuLinsen/daily_stock_analysis",
+      "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
+      "description": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。  LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
+      "language": "Python",
+      "stars": 67072,
+      "forks": 55636,
+      "homepage": "https://dsa.zhulinsen.tech",
+      "license": "MIT",
+      "created_at": "2026-01-10T06:43:20Z",
+      "pushed_at": "2026-10-25T13:40:20Z",
+      "updated_at": "2026-10-26T07:47:12Z",
+      "open_issues": 35,
+      "summary": "股票智能分析系统是一个基于大模型的 Python 开源项目，面向 A 股、港股、美股、日股、韩股和台股的自选股，每日自动完成分析并将决策仪表盘推送到企业微信、飞书、Telegram、Discord、Slack 或邮箱。它解决的是多市场行情、新闻与决策信息分散、人工盯盘成本高的问题。核心能力包括多源行情接入（默认内置 AkShare、Baostock、YFinance 等免费源，可零配置运行，也可配置 Tushare、Longbridge 等 token 型数据源提升稳定性）、实时新闻与搜索源聚合、决策仪表盘与大盘复盘、Web 工作台（配置管理、任务监控、历史报告、回测、持仓管理）、Agent。",
       "tags": [
+        "app"
+      ],
+      "primary_tag": "app",
+      "domains": [
+        "ai",
+        "data"
+      ],
+      "primary_domain": "ai",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-26T07:49:29+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 1
+    },
+    {
+      "owner": "xtekky",
+      "name": "gpt4free",
+      "full_name": "xtekky/gpt4free",
+      "url": "https://github.com/xtekky/gpt4free",
+      "description": "The official gpt4free repository | various collection of powerful language models | opus 4.6 gpt 5.3 kimi 2.5 deepseek v3.2 gemini 3",
+      "language": "Python",
+      "stars": 66934,
+      "forks": 13463,
+      "homepage": "https://t.me/g4f_channel",
+      "license": "GPL-3.0",
+      "created_at": "2023-03-29T17:00:43Z",
+      "pushed_at": "2026-10-23T10:49:10Z",
+      "updated_at": "2026-10-26T06:59:48Z",
+      "open_issues": 6,
+      "summary": "GPT4Free（g4f）是一个由社区维护的 Python 项目，聚合多个可访问的模型提供方与接口，让使用现代大语言模型和媒体生成模型更灵活。它面向多提供方支持，提供本地 Web GUI、兼容 OpenAI 的 REST API（Interference API），以及 Python 同步/异步客户端和浏览器端 JS 客户端，并附带完整与精简两种 Docker 镜像。项目还包含 MCP 服务器，可让 AI 助手调用网页搜索、抓取和图像生成能力。",
+      "tags": [
+        "library",
+        "app"
+      ],
+      "primary_tag": "library",
+      "domains": [
+        "ai"
+      ],
+      "primary_domain": "ai",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-26T07:49:29+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 1
+    },
+    {
+      "owner": "ai-job-search-dev",
+      "name": "ai-job-search",
+      "full_name": "ai-job-search-dev/ai-job-search",
+      "url": "https://github.com/ai-job-search-dev/ai-job-search",
+      "description": "The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it.",
+      "language": "Python",
+      "stars": 65891,
+      "forks": 20681,
+      "homepage": "",
+      "license": "MIT",
+      "created_at": "2026-03-18T14:33:04Z",
+      "pushed_at": "2026-10-21T05:29:11Z",
+      "updated_at": "2026-10-26T07:47:35Z",
+      "open_issues": 68,
+      "summary": "AI Job Search 是一个运行在本地的求职申请框架，基于 Claude Code 构建，用 Python 编写。它把求职流程拆成结构化命令：/setup 从简历 PDF、LinkedIn 导出或对话中建立个人档案，/scrape 在多个招聘门户检索并去重、按匹配度排序，/apply 完成匹配度评估、简历与求职信起草、由第二个代理复审并修订的完整流水线。此外还有 /rank 批量打分、/interview 生成面试准备包、/outcome 记录申请进展并跟进沉默的投递，以及 /notion-sync、/gmail-sync 等同步命令。",
+      "tags": [
+        "framework",
+        "app"
+      ],
+      "primary_tag": "framework",
+      "domains": [
+        "ai",
+        "productivity"
+      ],
+      "primary_domain": "ai",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-26T07:49:29+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 1
+    },
+    {
+      "owner": "mvanhorn",
+      "name": "last30days-skill",
+      "full_name": "mvanhorn/last30days-skill",
+      "url": "https://github.com/mvanhorn/last30days-skill",
+      "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+      "language": "Python",
+      "stars": 65504,
+      "forks": 5690,
+      "homepage": "",
+      "license": "MIT",
+      "created_at": "2026-01-23T20:37:37Z",
+      "pushed_at": "2026-10-26T03:17:41Z",
+      "updated_at": "2026-10-26T07:40:59Z",
+      "open_issues": 25,
+      "summary": "last30days 是一个 Python 编写的 AI agent 技能，用于在 Reddit、X、YouTube、Hacker News、Polymarket 及网页等多个平台上并行检索同一话题，再由 AI agent 综合成一份有据可依的摘要。它要解决的是单一搜索引擎无法覆盖各平台内容的问题：Google 不触及 Reddit 评论和 X 帖子，ChatGPT 能搜 Reddit 却搜不了 X 和 TikTok，各平台 API 与鉴权彼此隔离，而用户可以自带密钥和浏览器会话，让 agent 一次性跨平台检索。",
+      "tags": [
+        "plugin",
         "tool"
       ],
-      "primary_tag": "tool",
+      "primary_tag": "plugin",
       "domains": [
-        "data",
-        "web"
+        "ai",
+        "productivity"
       ],
-      "primary_domain": "data"
+      "primary_domain": "ai",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-26T07:49:29+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 1
+    },
+    {
+      "owner": "localstack",
+      "name": "localstack",
+      "full_name": "localstack/localstack",
+      "url": "https://github.com/localstack/localstack",
+      "description": "💻 A fully functional local AWS cloud stack. Develop and test your cloud & Serverless apps offline",
+      "language": "Python",
+      "stars": 65137,
+      "forks": 4813,
+      "homepage": "https://localstack.cloud",
+      "license": "NOASSERTION",
+      "created_at": "2016-10-25T23:48:03Z",
+      "pushed_at": "2026-03-23T08:52:01Z",
+      "updated_at": "2026-10-25T19:59:58Z",
+      "open_issues": 0,
+      "archived": true,
+      "summary": "LocalStack 是一个用 Python 开发的云服务模拟器，以单个容器形式运行在本地电脑或 CI 环境中，让开发者无需连接远程云厂商即可在本地运行和测试 AWS 应用与 Lambda 函数。它主要解决云端开发测试依赖真实 AWS 环境、反馈慢且成本高的问题，支持 AWS Lambda、S3、DynamoDB、Kinesis、SQS、SNS 等多项服务，专业版还提供更多 API 和高级功能。典型使用场景包括测试复杂的 CDK 应用与 Terraform 配置，或初学者学习 AWS 服务。",
+      "tags": [
+        "app",
+        "tool"
+      ],
+      "primary_tag": "app",
+      "domains": [
+        "devops",
+        "devtools"
+      ],
+      "primary_domain": "devops",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-26T07:49:29+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 1
+    },
+    {
+      "owner": "scrapy",
+      "name": "scrapy",
+      "full_name": "scrapy/scrapy",
+      "url": "https://github.com/scrapy/scrapy",
+      "description": "Scrapy, a fast high-level web crawling & scraping framework for Python.",
+      "language": "Python",
+      "stars": 65030,
+      "forks": 12049,
+      "homepage": "https://scrapy.org",
+      "license": "BSD-3-Clause",
+      "created_at": "2010-02-22T02:01:14Z",
+      "pushed_at": "2026-10-22T21:57:27Z",
+      "updated_at": "2026-10-26T05:04:37Z",
+      "open_issues": 175,
+      "summary": "Scrapy 是一个用 Python 编写的开源网络爬虫与网页抓取框架，用于从网站中提取结构化数据。它面向需要批量采集网页信息的场景，帮助开发者把抓取、解析和数据输出组织成可维护的流程，而不必从零搭建请求调度与数据处理逻辑。该框架跨平台运行，要求 Python 3.11 及以上版本，由 Zyte（原 Scrapinghub）及众多贡献者共同维护。核心能力围绕爬取与抓取展开，适合构建数据采集、内容监测、信息聚合等任务，也可作为研究和小型数据管道的基础工具。安装方式简单，通过 pip install scrapy 即可获取，官方文档提供了完整的使用说明，项目同时提供贡献指南，便于社区参与改进。",
+      "tags": [
+        "framework",
+        "library"
+      ],
+      "primary_tag": "framework",
+      "domains": [
+        "web",
+        "data"
+      ],
+      "primary_domain": "web",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-26T07:49:29+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 1
+    },
+    {
+      "owner": "jingyaogong",
+      "name": "minimind",
+      "full_name": "jingyaogong/minimind",
+      "url": "https://github.com/jingyaogong/minimind",
+      "description": "🧠 Train a 64M-parameter LLM from scratch in just 2h!",
+      "language": "Python",
+      "stars": 64426,
+      "forks": 8397,
+      "homepage": "https://jingyaogong.github.io/minimind",
+      "license": "Apache-2.0",
+      "created_at": "2024-07-27T04:34:12Z",
+      "pushed_at": "2026-09-22T16:07:34Z",
+      "updated_at": "2026-10-26T07:42:39Z",
+      "open_issues": 69,
+      "summary": "MiniMind 是一个从零训练超小语言模型的开源项目，主线模型约 64M 参数，体积约为 GPT-3 的 1/2700，目标是在单张消费级 GPU 上快速完成训练与复现。它解决的是大模型训练门槛高、第三方框架封装过深导致难以理解底层实现的问题，所有核心算法均用 PyTorch 原生手写，不依赖高层抽象接口。",
+      "tags": [
+        "library",
+        "model"
+      ],
+      "primary_tag": "library",
+      "domains": [
+        "ai",
+        "learning"
+      ],
+      "primary_domain": "ai",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-26T07:49:29+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 1
     },
     {
       "owner": "keras-team",
@@ -1922,21 +2868,21 @@
       "url": "https://github.com/keras-team/keras",
       "description": "Deep Learning for humans",
       "language": "Python",
-      "stars": 64367,
-      "forks": 19794,
+      "stars": 64389,
+      "forks": 19798,
       "homepage": "http://keras.io/",
       "license": "Apache-2.0",
       "created_at": "2015-03-28T00:35:42Z",
-      "pushed_at": "2026-10-13T03:23:32Z",
-      "updated_at": "2026-10-13T03:33:35Z",
-      "open_issues": 236,
+      "pushed_at": "2026-10-23T22:31:21Z",
+      "updated_at": "2026-10-26T01:18:55Z",
+      "open_issues": 269,
       "summary": "Keras 3 是一个多后端深度学习框架，支持 JAX、TensorFlow、PyTorch 以及仅用于推理的 OpenVINO。它旨在让开发者用统一的高层接口构建和训练模型，覆盖计算机视觉、自然语言处理、音频处理、时间序列预测和推荐系统等场景。其核心特点是可自由切换后端，从而兼顾开发效率与运行性能，并支持从笔记本到大规模 GPU 或 TPU 集群的训练。Keras 3 可作为 tf.keras 的替代品，现有代码在更新模型保存格式后即可迁移，不含自定义组件的模型还能直接运行在 JAX 或 PyTorch 上。它也能消费 tf.data.",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-12T12:11:12+00:00",
-      "last_seen": "2026-10-12",
-      "seen_count": 1,
+      "last_seen": "2026-10-26",
+      "seen_count": 2,
       "tags": [
         "library",
         "framework"
@@ -1948,27 +2894,189 @@
       "primary_domain": "ai"
     },
     {
+      "owner": "virattt",
+      "name": "ai-hedge-fund",
+      "full_name": "virattt/ai-hedge-fund",
+      "url": "https://github.com/virattt/ai-hedge-fund",
+      "description": "An AI Hedge Fund Team",
+      "language": "Python",
+      "stars": 64261,
+      "forks": 11281,
+      "homepage": "",
+      "license": "MIT",
+      "created_at": "2024-11-29T16:30:01Z",
+      "pushed_at": "2026-10-24T10:43:31Z",
+      "updated_at": "2026-10-26T07:47:08Z",
+      "open_issues": 183,
+      "summary": "AI Hedge Fund 是一个用 Python 编写的 AI 对冲基金概念验证项目，目标是探索如何借助 AI 做出交易决策，仅供学习与研究，系统本身并不执行真实交易。它把多个“投资者智能体”组织成一支基金团队，通过接入金融数据 API 获取价格、基本面和财报数据，并调用 Anthropic、OpenAI、DeepSeek、Google、xAI、Kimi 等模型提供方的 API 完成分析判断。",
+      "tags": [
+        "app"
+      ],
+      "primary_tag": "app",
+      "domains": [
+        "ai",
+        "data"
+      ],
+      "primary_domain": "ai",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-26T07:49:29+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 1
+    },
+    {
+      "owner": "karpathy",
+      "name": "nanoGPT",
+      "full_name": "karpathy/nanoGPT",
+      "url": "https://github.com/karpathy/nanoGPT",
+      "description": "The simplest, fastest repository for training/finetuning medium-sized GPTs.",
+      "language": "Python",
+      "stars": 64079,
+      "forks": 11008,
+      "homepage": "",
+      "license": "MIT",
+      "created_at": "2022-12-28T00:51:12Z",
+      "pushed_at": "2025-11-12T19:52:34Z",
+      "updated_at": "2026-10-26T06:47:04Z",
+      "open_issues": 353,
+      "summary": "nanoGPT 是一个用 Python 编写的极简 GPT 训练与微调仓库，作者已说明它目前较旧并停止维护，建议新项目改用其后续项目 nanochat。它面向中等规模 GPT 的训练与微调，核心特点是代码量小且可读性强：train.py 约 300 行训练循环，model.py 约 300 行模型定义，可加载 OpenAI 的 GPT-2 权重，便于按需修改、从零训练或基于预训练检查点微调。典型用法包括在莎士比亚文本上训练字符级小模型快速上手，在单卡或多卡 A100 节点上复现 GPT-2 124M 在 OpenWebText 上的训练，以及用较小学习率微调 GPT-2 系列模型。",
+      "tags": [
+        "library",
+        "example"
+      ],
+      "primary_tag": "library",
+      "domains": [
+        "ai"
+      ],
+      "primary_domain": "ai",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-26T07:49:29+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 1
+    },
+    {
+      "owner": "commaai",
+      "name": "openpilot",
+      "full_name": "commaai/openpilot",
+      "url": "https://github.com/commaai/openpilot",
+      "description": "openpilot is an operating system for robotics. Currently, it upgrades the driver assistance system on 300+ supported cars.",
+      "language": "Python",
+      "stars": 63996,
+      "forks": 11339,
+      "homepage": "https://comma.ai/openpilot",
+      "license": "MIT",
+      "created_at": "2016-11-24T01:33:30Z",
+      "pushed_at": "2026-10-26T05:06:49Z",
+      "updated_at": "2026-10-26T06:51:13Z",
+      "open_issues": 126,
+      "summary": "openpilot 是 comma 开发的一套面向机器人领域的操作系统，目前主要用于升级 300 多款受支持汽车的驾驶辅助系统。它用 Python 编写，运行在 comma four 等受支持设备上，通过车辆线束与汽车连接，用户可在设备设置中输入安装地址获取发布版本。项目解决了在量产车上部署和迭代驾驶辅助能力的问题，核心特点包括遵循 ISO26262 指南的安全模型、每次提交都运行的软件在环测试，以及用 C 语言编写并带有独立安全测试的 panda 代码。",
+      "tags": [
+        "app"
+      ],
+      "primary_tag": "app",
+      "domains": [
+        "embedded",
+        "ai"
+      ],
+      "primary_domain": "embedded",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-26T07:49:29+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 1
+    },
+    {
+      "owner": "RVC-Boss",
+      "name": "GPT-SoVITS",
+      "full_name": "RVC-Boss/GPT-SoVITS",
+      "url": "https://github.com/RVC-Boss/GPT-SoVITS",
+      "description": "1 min voice data can also be used to train a good TTS model! (few shot voice cloning)",
+      "language": "Python",
+      "stars": 63744,
+      "forks": 6732,
+      "homepage": "",
+      "license": "MIT",
+      "created_at": "2024-01-14T18:05:21Z",
+      "pushed_at": "2026-10-19T10:05:29Z",
+      "updated_at": "2026-10-26T07:44:08Z",
+      "open_issues": 904,
+      "summary": "GPT-SoVITS 是一个基于 Python 的少样本语音转换与文本转语音 WebUI，目标是用极少量语音数据训练可用的 TTS 模型。它支持零样本 TTS，输入约 5 秒的语音样本即可即时合成；也支持少样本微调，仅用 1 分钟训练数据就能提升音色相似度和真实感。项目具备跨语种推理能力，可用与训练数据不同的语言合成，目前覆盖英语、日语、韩语、粤语和中文。WebUI 集成了人声伴奏分离、训练集自动切分、中文 ASR 和文本标注等工具，方便初学者构建训练数据并训练 GPT/SoVITS 模型。",
+      "tags": [
+        "app",
+        "library"
+      ],
+      "primary_tag": "app",
+      "domains": [
+        "ai",
+        "media"
+      ],
+      "primary_domain": "ai",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-26T07:49:29+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 1
+    },
+    {
+      "owner": "Alishahryar1",
+      "name": "free-claude-code",
+      "full_name": "Alishahryar1/free-claude-code",
+      "url": "https://github.com/Alishahryar1/free-claude-code",
+      "description": "Use Claude Code, Codex, Antigravity, VSCode, Pi, and OpenCode (and 6 other harnesses) for free (1.3B+ free tokens) from your terminal, app, IDE, or phone, and now from the browser with native browser sessions (multi-harness + multi-model) like OpenClaw (voice supported + ToS friendly)",
+      "language": "Python",
+      "stars": 63551,
+      "forks": 9925,
+      "homepage": "",
+      "license": "NOASSERTION",
+      "created_at": "2026-01-28T19:02:30Z",
+      "pushed_at": "2026-10-25T18:31:18Z",
+      "updated_at": "2026-10-26T07:45:29Z",
+      "open_issues": 312,
+      "summary": "Free Claude Code 是一个用 Python 编写的独立开源工具，它把多个免费或付费的模型提供方统一到一个可搜索的界面里，让 Claude Code、Codex、Pi、OpenCode、Cline、Aider、VS Code Chat 等十一种编码代理共用同一套模型目录，从而降低使用成本并避免账号风险。它聚合了 61 家遵循服务条款的提供方，每月可提供超过 13 亿免费 token，并支持免费、付费、订阅和本地模型。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-11T22:24:31+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 2,
+      "tags": [
+        "app",
+        "tool"
+      ],
+      "primary_tag": "app",
+      "domains": [
+        "ai",
+        "devtools"
+      ],
+      "primary_domain": "ai"
+    },
+    {
       "owner": "sansan0",
       "name": "TrendRadar",
       "full_name": "sansan0/TrendRadar",
       "url": "https://github.com/sansan0/TrendRadar",
       "description": "⭐AI-driven public opinion & trend monitor with multi-platform aggregation, RSS, and smart alerts.🎯 告别信息过载，你的 AI 舆情监控助手与热点筛选工具！聚合多平台热点 +  RSS 订阅，支持关键词精准筛选。AI 智能筛选新闻 + AI 翻译 +  AI 分析简报直推手机，也支持接入 MCP 架构，赋能 AI 自然语言对话分析、情感洞察与趋势预测等。支持 Docker ，数据本地/云端自持。集成微信/飞书/钉钉/Telegram/邮件/ntfy/bark/slack 等渠道智能推送。",
       "language": "Python",
-      "stars": 62841,
-      "forks": 24903,
+      "stars": 63187,
+      "forks": 24900,
       "homepage": "https://trendradar.sandev.cc",
       "license": "GPL-3.0",
       "created_at": "2025-04-28T11:42:16Z",
-      "pushed_at": "2026-10-10T02:07:33Z",
-      "updated_at": "2026-10-13T03:28:10Z",
-      "open_issues": 74,
+      "pushed_at": "2026-10-20T11:24:10Z",
+      "updated_at": "2026-10-26T07:28:53Z",
+      "open_issues": 35,
       "summary": "TrendRadar 是一个用 Python 编写的开源舆情监控与热点筛选工具，目标是帮助用户告别信息过载，只看真正关心的新闻。它聚合知乎、抖音、bilibili、微博、百度等 11 个主流平台的热榜，并支持 RSS/Atom 订阅源，通过关键词或自然语言兴趣描述进行精准筛选。项目提供 AI 智能筛选、多语言翻译、热点趋势分析和 AI 分析简报，可推送到微信、飞书、钉钉、Telegram、邮件、ntfy、Bark、Slack 等渠道，也支持接入 MCP 架构进行自然语言对话分析。",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-12T12:11:12+00:00",
-      "last_seen": "2026-10-12",
-      "seen_count": 1,
+      "last_seen": "2026-10-26",
+      "seen_count": 2,
       "tags": [
         "app"
       ],
@@ -1980,37 +3088,71 @@
       "primary_domain": "ai"
     },
     {
-      "owner": "hugohe3",
-      "name": "ppt-master",
-      "full_name": "hugohe3/ppt-master",
-      "url": "https://github.com/hugohe3/ppt-master",
-      "description": "AI turns documents or topics into real, native PowerPoint decks—with native shapes, transitions and animations, data-backed charts and tables on demand, audio narration from speaker notes, and support for your own .pptx templates. · by Hugo He",
+      "owner": "ultralytics",
+      "name": "ultralytics",
+      "full_name": "ultralytics/ultralytics",
+      "url": "https://github.com/ultralytics/ultralytics",
+      "description": "Ultralytics YOLO27, YOLO26, YOLO11, YOLOv8 — object detection, instance segmentation, semantic segmentation, image classification, pose estimation, object tracking",
       "language": "Python",
-      "stars": 61215,
-      "forks": 4846,
-      "homepage": "https://hugohe3.github.io/ppt-master-examples/",
-      "license": "MIT",
-      "created_at": "2025-12-10T06:54:33Z",
-      "pushed_at": "2026-10-11T15:41:40Z",
-      "updated_at": "2026-10-13T03:34:49Z",
-      "open_issues": 5,
-      "summary": "PPT Master 是一个用 Python 编写的开源工具，它把文档或主题交给 AI，直接生成原生可编辑的 PowerPoint 文件，而不是扁平图片或套模板的填充稿。它输出的是真正的 PowerPoint 对象模型：幻灯片母版与版式继承、带调节手柄的原生形状与连接线、按需生成的数据图表和表格，以及完整的文字、图片、填充与效果体系，点击任意元素都能继续编辑。它先梳理论证结构再设计版式，并支持从参考材料中提炼品牌与版式模板、向已有 pptx 填充新内容、为成品添加原生切换、动画和基于演讲者备注的语音旁白。",
+      "stars": 62840,
+      "forks": 11907,
+      "homepage": "https://platform.ultralytics.com",
+      "license": "AGPL-3.0",
+      "created_at": "2022-09-11T16:39:45Z",
+      "pushed_at": "2026-10-26T07:26:08Z",
+      "updated_at": "2026-10-26T07:24:07Z",
+      "open_issues": 91,
+      "summary": "Ultralytics 是一个基于 Python 的计算机视觉框架，围绕多年积累的 YOLO 系列模型构建，覆盖从 YOLOv3 到 YOLO26 的多代模型，并提供 YOLO27 的预览信息。它主要解决目标检测、实例分割、语义分割、深度估计、图像分类、姿态估计和有向目标检测等任务，同时支持在视频帧间对检测到的对象进行跟踪。框架提供在 COCO、Cityscapes、ImageNet、DOTAv1 等数据集上预训练的模型，首次使用时自动下载，并给出训练、验证、预测与部署的完整文档和快速上手示例。",
+      "tags": [
+        "library",
+        "framework",
+        "model"
+      ],
+      "primary_tag": "library",
+      "domains": [
+        "ai",
+        "media"
+      ],
+      "primary_domain": "ai",
       "windows": [
         "daily"
       ],
-      "added_at": "2026-10-09T11:21:36+00:00",
-      "last_seen": "2026-10-10",
-      "seen_count": 5,
+      "added_at": "2026-10-26T07:49:29+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 1
+    },
+    {
+      "owner": "pathwaycom",
+      "name": "pathway",
+      "full_name": "pathwaycom/pathway",
+      "url": "https://github.com/pathwaycom/pathway",
+      "description": "Python ETL framework for stream processing, real-time analytics, LLM pipelines, and RAG.",
+      "language": "Python",
+      "stars": 62064,
+      "forks": 1682,
+      "homepage": "https://pathway.com",
+      "license": "NOASSERTION",
+      "created_at": "2022-11-27T13:01:14Z",
+      "pushed_at": "2026-10-26T06:37:50Z",
+      "updated_at": "2026-10-26T07:15:52Z",
+      "open_issues": 37,
+      "summary": "Pathway 是一个基于 Python 的实时数据框架，用于流处理、实时分析、LLM 管道和 RAG 应用。它提供易用的 Python API，可无缝集成常用的 Python 机器学习库，同一份代码既能处理批数据也能处理流数据，适用于本地开发、CI/CD 测试、批作业和流回放等场景。其核心是一个基于差分数据流（Differential Dataflow）的可扩展 Rust 引擎，支持增量计算、多线程、多进程和分布式计算，管道数据常驻内存，可通过 Docker 和 Kubernetes 部署。",
       "tags": [
-        "app",
-        "tool"
+        "framework",
+        "library"
       ],
-      "primary_tag": "app",
+      "primary_tag": "framework",
       "domains": [
-        "productivity",
+        "data",
         "ai"
       ],
-      "primary_domain": "productivity"
+      "primary_domain": "data",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-26T07:49:29+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 1
     },
     {
       "owner": "BerriAI",
@@ -2019,21 +3161,21 @@
       "url": "https://github.com/BerriAI/litellm",
       "description": "The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and logging [Bedrock, Azure, OpenAI, Anthropic, OpenAI, VertexAI, vLLM, Nvidia NIM]",
       "language": "Python",
-      "stars": 61103,
-      "forks": 12265,
+      "stars": 62046,
+      "forks": 12680,
       "homepage": "https://docs.litellm.ai/docs/",
       "license": "NOASSERTION",
       "created_at": "2023-07-27T00:09:52Z",
-      "pushed_at": "2026-10-13T03:32:27Z",
-      "updated_at": "2026-10-13T03:26:54Z",
-      "open_issues": 5466,
+      "pushed_at": "2026-10-26T07:39:58Z",
+      "updated_at": "2026-10-26T07:32:21Z",
+      "open_issues": 5709,
       "summary": "LiteLLM 是一个开源 AI 网关，提供统一接口以 OpenAI 格式调用 100 多种大模型服务，涵盖 OpenAI、Anthropic、Gemini、Bedrock、Azure、VertexAI、vLLM、Nvidia NIM 等。它解决的是多供应商接入带来的碎片化问题：各家 SDK、鉴权方式、请求格式和错误类型各不相同，切换成本高。LiteLLM 提供统一 API 与 OpenAI 兼容层，使代码无需重写即可更换供应商。它有两种用法：作为 Python SDK 直接集成进代码，或部署为代理服务器作为团队级网关。",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-09T11:21:36+00:00",
-      "last_seen": "2026-10-10",
-      "seen_count": 5,
+      "last_seen": "2026-10-26",
+      "seen_count": 6,
       "tags": [
         "app",
         "library"
@@ -2046,69 +3188,69 @@
       "primary_domain": "ai"
     },
     {
-      "owner": "debpalash",
-      "name": "VoiceStudio",
-      "full_name": "debpalash/VoiceStudio",
-      "url": "https://github.com/debpalash/VoiceStudio",
-      "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+      "owner": "microsoft",
+      "name": "autogen",
+      "full_name": "microsoft/autogen",
+      "url": "https://github.com/microsoft/autogen",
+      "description": "A programming framework for agentic AI",
       "language": "Python",
-      "stars": 60632,
-      "forks": 6802,
-      "homepage": "https://voicestudio.sh",
-      "license": "AGPL-3.0",
-      "created_at": "2026-04-09T21:40:26Z",
-      "pushed_at": "2026-10-13T02:51:01Z",
-      "updated_at": "2026-10-13T03:35:50Z",
-      "open_issues": 115,
-      "summary": "VoiceStudio 是一个用 Python 编写的开源、完全本地化的 ElevenLabs 替代方案，支持 646 种语言的语音克隆、语音设计、视频配音、听写、转录和有声书制作。它解决的是语音生成工具依赖云端服务、数据外泄和费用高昂的问题，默认由 k2-fsa/OmniVoice 引擎驱动，也可选用其他引擎，本地工作流直接运行在用户硬件上，远程服务为可选项，使用分析数据需经用户同意。典型场景包括克隆声音后输入文本生成语音、为视频配音、转录音频以及制作有声书。",
-      "windows": [
-        "monthly"
-      ],
-      "added_at": "2026-10-09T11:21:36+00:00",
-      "last_seen": "2026-10-10",
-      "seen_count": 5,
+      "stars": 61566,
+      "forks": 9316,
+      "homepage": "https://microsoft.github.io/autogen/",
+      "license": "CC-BY-4.0",
+      "created_at": "2023-08-18T11:43:45Z",
+      "pushed_at": "2026-10-16T16:14:37Z",
+      "updated_at": "2026-10-26T07:23:07Z",
+      "open_issues": 1121,
+      "summary": "AutoGen 是微软研究院推出的多智能体 AI 应用编程框架，使用 Python 编写，要求 Python 3.10 及以上版本。它解决的是如何让多个 AI 智能体自主协作或与人类协同完成复杂任务的问题，提供分层可扩展的设计：Core API 负责消息传递、事件驱动智能体和本地及分布式运行时，并支持 .NET 与 Python 跨语言；AgentChat API 在其上提供更简洁的高层接口，便于快速实现双 agent 对话、群聊等常见多智能体模式；Extensions API 则接入 OpenAI、AzureOpenAI 等模型客户端及代码执行等能力。",
       "tags": [
-        "app"
+        "framework",
+        "library"
       ],
-      "primary_tag": "app",
+      "primary_tag": "framework",
       "domains": [
-        "ai",
-        "media"
+        "ai"
       ],
-      "primary_domain": "ai"
-    },
-    {
-      "owner": "Alishahryar1",
-      "name": "free-claude-code",
-      "full_name": "Alishahryar1/free-claude-code",
-      "url": "https://github.com/Alishahryar1/free-claude-code",
-      "description": "Use Claude Code, Codex, VSCode, Pi, and OpenCode (and 6 other harnesses) for free (1.3B+ free tokens) from your terminal, app, IDE, or phone, and now from the browser with native browser sessions (multi-harness + multi-model) like OpenClaw (voice supported + ToS friendly)",
-      "language": "Python",
-      "stars": 59302,
-      "forks": 9336,
-      "homepage": "",
-      "license": "NOASSERTION",
-      "created_at": "2026-01-28T19:02:30Z",
-      "pushed_at": "2026-10-13T03:35:13Z",
-      "updated_at": "2026-10-13T03:35:46Z",
-      "open_issues": 306,
-      "summary": "Free Claude Code 是一个用 Python 编写的独立开源工具，它把多个免费或付费的模型提供方统一到一个可搜索的界面里，让 Claude Code、Codex、Pi、OpenCode、Cline、Aider、VS Code Chat 等十一种编码代理共用同一套模型目录，从而降低使用成本并避免账号风险。它聚合了 61 家遵循服务条款的提供方，每月可提供超过 13 亿免费 token，并支持免费、付费、订阅和本地模型。",
+      "primary_domain": "ai",
       "windows": [
         "daily"
       ],
-      "added_at": "2026-10-11T22:24:31+00:00",
-      "last_seen": "2026-10-11",
-      "seen_count": 1,
+      "added_at": "2026-10-26T07:49:29+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 1
+    },
+    {
+      "owner": "blader",
+      "name": "humanizer",
+      "full_name": "blader/humanizer",
+      "url": "https://github.com/blader/humanizer",
+      "description": "Agent skill that removes signs of AI-generated writing from text",
+      "language": "Python",
+      "stars": 60726,
+      "forks": 4823,
+      "homepage": "https://skills.sh/blader/humanizer",
+      "license": "MIT",
+      "created_at": "2026-01-18T05:30:15Z",
+      "pushed_at": "2026-10-16T19:12:03Z",
+      "updated_at": "2026-10-26T07:48:31Z",
+      "open_issues": 10,
+      "summary": "Humanizer 是一个用 Python 编写的 Agent 技能，用来消除文本中 AI 生成的痕迹，让 AI 写的文字读起来像人写的，同时不改变原意。它依据维基百科编辑用来识别 AI 文本的“AI 写作迹象”指南，检查 26 种模式，包括“不是 X 而是 Y”式对比、一句话收尾、故作深刻的说法、铺垫式开场、与假想对象辩论等，并按强度排序，最强的五种一出现就会触发改写。",
       "tags": [
-        "app",
+        "plugin",
         "tool"
       ],
-      "primary_tag": "app",
+      "primary_tag": "plugin",
       "domains": [
         "ai",
-        "devtools"
+        "productivity"
       ],
-      "primary_domain": "ai"
+      "primary_domain": "ai",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-26T07:49:29+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 1
     },
     {
       "owner": "ultralytics",

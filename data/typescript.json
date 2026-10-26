@@ -6,10 +6,10 @@
     "weekly",
     "monthly"
   ],
-  "generated_at": "2026-10-13T03:42:42+00:00",
+  "generated_at": "2026-10-26T07:46:49+00:00",
   "first_at": "2026-10-09T10:50:16+00:00",
-  "count": 277,
-  "added": 8,
+  "count": 317,
+  "added": 40,
   "repos": [
     {
       "owner": "freeCodeCamp",
@@ -18,21 +18,21 @@
       "url": "https://github.com/freeCodeCamp/freeCodeCamp",
       "description": "freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free.",
       "language": "TypeScript",
-      "stars": 456953,
-      "forks": 49056,
+      "stars": 457932,
+      "forks": 48654,
       "homepage": "https://contribute.freecodecamp.org",
       "license": "BSD-3-Clause",
       "created_at": "2014-12-24T17:49:19Z",
-      "pushed_at": "2026-10-13T03:12:31Z",
-      "updated_at": "2026-10-13T03:31:47Z",
-      "open_issues": 189,
+      "pushed_at": "2026-10-25T10:20:41Z",
+      "updated_at": "2026-10-26T07:23:25Z",
+      "open_issues": 180,
       "summary": "freeCodeCamp.org 是一个非营利性开源学习平台，其代码仓库包含完整的课程体系与网站实现，主要使用 TypeScript 编写。它面向希望转入技术行业的成年人，提供免费且自定进度的全栈开发与机器学习课程，涵盖响应式网页设计、JavaScript、Python、关系数据库、后端开发与 API 等认证方向，并包含英语、西班牙语和中文等语言认证。学习方式以交互式编程挑战、工作坊、实验、复习和测验为主，每个认证需完成规定项目并通过考试方可获得可验证的证书。",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-09T12:38:40+00:00",
-      "last_seen": "2026-10-12",
-      "seen_count": 2,
+      "last_seen": "2026-10-26",
+      "seen_count": 3,
       "tags": [
         "app",
         "doc"
@@ -51,20 +51,20 @@
       "url": "https://github.com/openclaw/openclaw",
       "description": "The AI that really does things. Any OS. Any Platform. The lobster way. 🦞 ",
       "language": "TypeScript",
-      "stars": 391815,
-      "forks": 82381,
+      "stars": 393085,
+      "forks": 82622,
       "pinned": true,
       "homepage": "https://openclaw.ai",
       "license": "MIT",
       "created_at": "2025-11-24T10:16:47Z",
-      "pushed_at": "2026-10-13T03:34:12Z",
-      "updated_at": "2026-10-13T03:34:23Z",
-      "open_issues": 9615,
+      "pushed_at": "2026-10-26T07:46:24Z",
+      "updated_at": "2026-10-26T07:46:34Z",
+      "open_issues": 7846,
       "summary": "OpenClaw 是一个用 TypeScript 编写的开源 AI 助手，运行在用户自己的电脑上，并接入 Discord、iMessage、Slack、Teams、Telegram、WhatsApp 等二十多个聊天渠道，同时提供 macOS、iOS、Android、Windows 和 Linux 原生应用。它通过一个本地 Gateway 统一管理会话、工具、事件与渠道连接，既可作个人助手，也可作团队共享部署，差别仅在配置。其状态、记忆和凭据都保存在本地硬件上，模型与代理框架（如 Claude、Codex、本地模型）以插件形式存在，可随时替换。",
       "windows": [],
       "added_at": "2026-10-09T11:29:55+00:00",
-      "last_seen": "2026-10-12",
-      "seen_count": 5,
+      "last_seen": "2026-10-26",
+      "seen_count": 6,
       "tags": [
         "app"
       ],
@@ -76,117 +76,23 @@
       "primary_domain": "ai"
     },
     {
-      "owner": "nilbuild",
-      "name": "developer-roadmap",
-      "full_name": "nilbuild/developer-roadmap",
-      "url": "https://github.com/nilbuild/developer-roadmap",
-      "description": "Interactive roadmaps, guides and other educational content to help developers grow in their careers.",
-      "language": "TypeScript",
-      "stars": 369247,
-      "forks": 45100,
-      "homepage": "https://roadmap.sh",
-      "license": "NOASSERTION",
-      "created_at": "2017-03-15T13:45:52Z",
-      "pushed_at": "2026-10-09T17:39:16Z",
-      "updated_at": "2026-10-13T03:14:31Z",
-      "open_issues": 11,
-      "summary": "developer-roadmap 是 roadmap.sh 网站背后的内容仓库，为开发者提供社区驱动的交互式学习路线图、指南与教育资源。它解决的核心问题是：面对庞杂的技术方向，开发者难以判断该学什么、按什么顺序学。仓库以 TypeScript 为主要语言，收录了从前端、后端、DevOps、全栈到 AI、数据、移动端、区块链、系统设计等上百条路线图，节点可点击查看主题详情，并配有最佳实践与自测题库，如 JavaScript、React、后端面试题等。每条路线图内容以 Markdown 文件保存，文件名中的节点 id 与网站主题对应，合并后自动同步上线。",
-      "windows": [
-        "daily"
-      ],
-      "added_at": "2026-10-09T12:38:40+00:00",
-      "last_seen": "2026-10-09",
-      "seen_count": 1,
-      "tags": [
-        "doc"
-      ],
-      "primary_tag": "doc",
-      "domains": [
-        "learning"
-      ],
-      "primary_domain": "learning"
-    },
-    {
-      "owner": "vuejs",
-      "name": "vue",
-      "full_name": "vuejs/vue",
-      "url": "https://github.com/vuejs/vue",
-      "description": "This is the repo for Vue 2. For Vue 3, go to https://github.com/vuejs/core",
-      "language": "TypeScript",
-      "stars": 212584,
-      "forks": 33709,
-      "homepage": "http://v2.vuejs.org",
-      "license": "MIT",
-      "created_at": "2013-07-29T03:24:51Z",
-      "pushed_at": "2024-10-10T07:24:15Z",
-      "updated_at": "2026-10-13T03:16:06Z",
-      "open_issues": 639,
-      "summary": "Vue 2 是一个用于构建用户界面的渐进式框架，其核心库专注于视图层，设计上可逐步采用，并能根据使用场景在库与框架之间灵活扩展。它通过配套生态（如 vue-router、vuex、vue-cli、vue-loader、vue-server-renderer 等）帮助开发者应对大型单页应用中的复杂性问题。该仓库为 Vue 2 的代码库，主要使用 TypeScript 编写，支持所有符合 ES5 的浏览器，不支持 IE8 及以下版本。Vue 2 已于 2023 年 12 月 31 日停止维护，不再接收新功能、更新或修复，但仍可通过现有分发渠道获取。",
-      "windows": [
-        "daily"
-      ],
-      "added_at": "2026-10-09T12:38:40+00:00",
-      "last_seen": "2026-10-12",
-      "seen_count": 2,
-      "tags": [
-        "framework",
-        "library"
-      ],
-      "primary_tag": "framework",
-      "domains": [
-        "web"
-      ],
-      "primary_domain": "web"
-    },
-    {
-      "owner": "microsoft",
-      "name": "vscode",
-      "full_name": "microsoft/vscode",
-      "url": "https://github.com/microsoft/vscode",
-      "description": "Visual Studio Code",
-      "language": "TypeScript",
-      "stars": 193633,
-      "forks": 45241,
-      "homepage": "https://code.visualstudio.com",
-      "license": "MIT",
-      "created_at": "2015-09-03T20:23:38Z",
-      "pushed_at": "2026-10-13T03:34:14Z",
-      "updated_at": "2026-10-13T03:28:48Z",
-      "open_issues": 21754,
-      "summary": "Visual Studio Code 是微软与社区共同开发的跨平台代码编辑器，其开源仓库 Code - OSS 使用 TypeScript 编写，微软在此基础上加入定制内容后发布正式产品。它把简洁的编辑体验与编辑、构建、调试的核心流程结合起来，提供代码编辑、导航和代码理解支持，并具备轻量调试、丰富的扩展模型以及与现有工具的集成能力。软件按月更新，包含新功能和缺陷修复，可在 Windows、macOS 和 Linux 上使用，另有每日更新的 Insiders 版本。仓库内置多种语言的语法高亮和代码片段扩展，部分扩展还提供内联建议、转到定义等语言功能。",
-      "windows": [
-        "monthly"
-      ],
-      "added_at": "2026-10-09T11:00:09+00:00",
-      "last_seen": "2026-10-12",
-      "seen_count": 4,
-      "tags": [
-        "app"
-      ],
-      "primary_tag": "app",
-      "domains": [
-        "devtools"
-      ],
-      "primary_domain": "devtools"
-    },
-    {
       "owner": "morluto",
       "name": "rea",
       "full_name": "morluto/rea",
       "url": "https://github.com/morluto/rea",
       "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
       "language": "TypeScript",
-      "stars": 165571,
-      "forks": 39137,
+      "stars": 386685,
+      "forks": 96866,
       "homepage": "https://rea.tools",
       "license": "MIT",
       "created_at": "2026-04-14T00:51:32Z",
-      "pushed_at": "2026-10-13T03:31:50Z",
-      "updated_at": "2026-10-13T03:34:48Z",
-      "open_issues": 398,
+      "pushed_at": "2026-10-26T07:42:49Z",
+      "updated_at": "2026-10-26T07:46:37Z",
+      "open_issues": 1106,
       "summary": "REA 是一个基于 TypeScript 开发的开源逆向工程工具，通过 MCP 协议把智能体接入二进制、应用与运行时行为的分析流程。它要解决的问题是：当你看到某个应用里想借鉴的功能，却拿不到源码时，可以让智能体借助 REA 检查该应用，说明功能如何实现并给出证据，再据此为自己的项目构建对应版本。核心能力覆盖原生二进制、JavaScript 与 Electron 应用、.NET 程序集以及网站，静态分析无需引擎，原生分析可复用已有的 Hopper 或 Ghidra。分析在本地运行，结论附带证据与局限。",
-      "last_seen": "2026-10-12",
-      "seen_count": 14,
+      "last_seen": "2026-10-26",
+      "seen_count": 15,
       "added_at": "2026-10-09T10:50:16+00:00",
       "windows": [
         "daily"
@@ -202,6 +108,234 @@
         "ai"
       ],
       "primary_domain": "security"
+    },
+    {
+      "owner": "nilbuild",
+      "name": "developer-roadmap",
+      "full_name": "nilbuild/developer-roadmap",
+      "url": "https://github.com/nilbuild/developer-roadmap",
+      "description": "Interactive roadmaps, guides and other educational content to help developers grow in their careers.",
+      "language": "TypeScript",
+      "stars": 370431,
+      "forks": 45152,
+      "homepage": "https://roadmap.sh",
+      "license": "NOASSERTION",
+      "created_at": "2017-03-15T13:45:52Z",
+      "pushed_at": "2026-10-26T07:37:09Z",
+      "updated_at": "2026-10-26T07:37:16Z",
+      "open_issues": 3,
+      "summary": "developer-roadmap 是 roadmap.sh 网站背后的内容仓库，为开发者提供社区驱动的交互式学习路线图、指南与教育资源。它解决的核心问题是：面对庞杂的技术方向，开发者难以判断该学什么、按什么顺序学。仓库以 TypeScript 为主要语言，收录了从前端、后端、DevOps、全栈到 AI、数据、移动端、区块链、系统设计等上百条路线图，节点可点击查看主题详情，并配有最佳实践与自测题库，如 JavaScript、React、后端面试题等。每条路线图内容以 Markdown 文件保存，文件名中的节点 id 与网站主题对应，合并后自动同步上线。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-09T12:38:40+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 2,
+      "tags": [
+        "doc"
+      ],
+      "primary_tag": "doc",
+      "domains": [
+        "learning"
+      ],
+      "primary_domain": "learning"
+    },
+    {
+      "owner": "deepseek-ai",
+      "name": "deepseek-harness",
+      "full_name": "deepseek-ai/deepseek-harness",
+      "url": "https://github.com/deepseek-ai/deepseek-harness",
+      "description": "DeepSeek Harness: Everything is a Plugin.",
+      "language": "TypeScript",
+      "stars": 261837,
+      "forks": 31641,
+      "homepage": "https://deepseek.com/harness",
+      "license": "MIT",
+      "created_at": "2026-08-13T11:56:32Z",
+      "pushed_at": "2026-10-23T15:25:40Z",
+      "updated_at": "2026-10-26T07:46:22Z",
+      "open_issues": 0,
+      "summary": "DeepSeek Harness（dsh）是 DeepSeek AI 开发的开源 agent harness，用 TypeScript 编写，基于 Cordis 构建，其设计思想在《A Programming Paradigm for Spatiotemporal Composability》一文中有所阐述。它解决的是 agent 运行与扩展的框架问题，核心特点是“一切皆插件”的架构，插件仓库可添加 dsh-plugin 话题以便被发现。项目目前处于开发者预览阶段，迭代较快，会存在破坏兼容性的变更，运行前需阅读安全须知。使用上可从 npm 安装，安装 Node.",
+      "tags": [
+        "framework",
+        "plugin"
+      ],
+      "primary_tag": "framework",
+      "domains": [
+        "ai",
+        "devtools"
+      ],
+      "primary_domain": "ai",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-26T07:46:49+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 1
+    },
+    {
+      "owner": "anomalyco",
+      "name": "opencode",
+      "full_name": "anomalyco/opencode",
+      "url": "https://github.com/anomalyco/opencode",
+      "description": "The open source coding agent.",
+      "language": "TypeScript",
+      "stars": 221667,
+      "forks": 29639,
+      "homepage": "https://opencode.ai",
+      "license": "MIT",
+      "created_at": "2025-04-30T20:08:00Z",
+      "pushed_at": "2026-10-26T07:45:22Z",
+      "updated_at": "2026-10-26T07:45:23Z",
+      "open_issues": 3808,
+      "summary": "OpenCode 是一个用 TypeScript 编写的开源 AI 编码代理，提供命令行与桌面应用两种形态，安装脚本默认将其放入 $HOME/.opencode/bin 目录。它面向开发过程中的代码编写与探索需求，内置 build 和 plan 两个代理，可通过 Tab 键切换：build 为默认的完整权限代理，适合实际开发；plan 为只读代理，默认拒绝文件编辑、执行 bash 命令前需征得许可，适合在陌生代码库中分析或规划改动。此外还提供一个通用子代理，用于复杂检索和多步骤任务，可在消息中以 @general 调用。",
+      "tags": [
+        "app",
+        "tool"
+      ],
+      "primary_tag": "app",
+      "domains": [
+        "ai",
+        "devtools"
+      ],
+      "primary_domain": "ai",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-26T07:46:49+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 1
+    },
+    {
+      "owner": "vuejs",
+      "name": "vue",
+      "full_name": "vuejs/vue",
+      "url": "https://github.com/vuejs/vue",
+      "description": "This is the repo for Vue 2. For Vue 3, go to https://github.com/vuejs/core",
+      "language": "TypeScript",
+      "stars": 212632,
+      "forks": 33617,
+      "homepage": "http://v2.vuejs.org",
+      "license": "MIT",
+      "created_at": "2013-07-29T03:24:51Z",
+      "pushed_at": "2024-10-10T07:24:15Z",
+      "updated_at": "2026-10-26T07:13:10Z",
+      "open_issues": 643,
+      "summary": "Vue 2 是一个用于构建用户界面的渐进式框架，其核心库专注于视图层，设计上可逐步采用，并能根据使用场景在库与框架之间灵活扩展。它通过配套生态（如 vue-router、vuex、vue-cli、vue-loader、vue-server-renderer 等）帮助开发者应对大型单页应用中的复杂性问题。该仓库为 Vue 2 的代码库，主要使用 TypeScript 编写，支持所有符合 ES5 的浏览器，不支持 IE8 及以下版本。Vue 2 已于 2023 年 12 月 31 日停止维护，不再接收新功能、更新或修复，但仍可通过现有分发渠道获取。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-09T12:38:40+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 3,
+      "tags": [
+        "framework",
+        "library"
+      ],
+      "primary_tag": "framework",
+      "domains": [
+        "web"
+      ],
+      "primary_domain": "web"
+    },
+    {
+      "owner": "n8n-io",
+      "name": "n8n",
+      "full_name": "n8n-io/n8n",
+      "url": "https://github.com/n8n-io/n8n",
+      "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
+      "language": "TypeScript",
+      "stars": 208615,
+      "forks": 61253,
+      "homepage": "https://n8n.io",
+      "license": "NOASSERTION",
+      "created_at": "2019-06-22T09:24:21Z",
+      "pushed_at": "2026-10-26T07:41:31Z",
+      "updated_at": "2026-10-26T07:33:07Z",
+      "open_issues": 1262,
+      "summary": "n8n 是一个基于 TypeScript 开发的工作流自动化平台，核心思路是把可视化画布与自定义代码结合起来，用于构建和部署 AI 智能体及自动化流程。它主要解决 AI 能力与实际业务系统之间的连接问题：用户可以用自己的数据、模型和工具搭建多步骤 AI 工作流，并通过逻辑判断、工具调用、人工审批和可观测性把原型推进到生产环境。平台不绑定模型供应商，可在 OpenAI、Anthropic、Google 与开源模型之间切换而不改动整体架构；需要复杂逻辑时还能嵌入 JavaScript、Python 和 npm 包。",
+      "tags": [
+        "app",
+        "framework"
+      ],
+      "primary_tag": "app",
+      "domains": [
+        "productivity",
+        "ai",
+        "devops"
+      ],
+      "primary_domain": "productivity",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-26T07:46:49+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 1
+    },
+    {
+      "owner": "firecrawl",
+      "name": "firecrawl",
+      "full_name": "firecrawl/firecrawl",
+      "url": "https://github.com/firecrawl/firecrawl",
+      "description": "Supercharge your AI agents with data from the web and beyond. Building the library for superintelligence. 🔥",
+      "language": "TypeScript",
+      "stars": 195413,
+      "forks": 10309,
+      "homepage": "https://firecrawl.dev",
+      "license": "AGPL-3.0",
+      "created_at": "2024-04-15T21:02:29Z",
+      "pushed_at": "2026-10-26T04:20:44Z",
+      "updated_at": "2026-10-26T07:40:43Z",
+      "open_issues": 682,
+      "summary": "Firecrawl 是一个面向 AI 智能体的网页数据接口，用 TypeScript 编写，提供搜索、抓取和与网页交互的能力，既开源也可作为托管服务使用。它主要解决 AI 应用获取实时网页数据时面临的代理管理、JavaScript 渲染、限流和内容清洗等问题，官方称可覆盖包括 JS 密集型页面在内的绝大多数网站，并输出适合大模型使用的干净 Markdown、结构化 JSON 和截图。",
+      "tags": [
+        "library",
+        "tool"
+      ],
+      "primary_tag": "library",
+      "domains": [
+        "ai",
+        "web",
+        "data"
+      ],
+      "primary_domain": "ai",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-26T07:46:49+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 1
+    },
+    {
+      "owner": "microsoft",
+      "name": "vscode",
+      "full_name": "microsoft/vscode",
+      "url": "https://github.com/microsoft/vscode",
+      "description": "Visual Studio Code",
+      "language": "TypeScript",
+      "stars": 194313,
+      "forks": 44856,
+      "homepage": "https://code.visualstudio.com",
+      "license": "MIT",
+      "created_at": "2015-09-03T20:23:38Z",
+      "pushed_at": "2026-10-26T07:42:49Z",
+      "updated_at": "2026-10-26T07:35:21Z",
+      "open_issues": 22222,
+      "summary": "Visual Studio Code 是微软与社区共同开发的跨平台代码编辑器，其开源仓库 Code - OSS 使用 TypeScript 编写，微软在此基础上加入定制内容后发布正式产品。它把简洁的编辑体验与编辑、构建、调试的核心流程结合起来，提供代码编辑、导航和代码理解支持，并具备轻量调试、丰富的扩展模型以及与现有工具的集成能力。软件按月更新，包含新功能和缺陷修复，可在 Windows、macOS 和 Linux 上使用，另有每日更新的 Insiders 版本。仓库内置多种语言的语法高亮和代码片段扩展，部分扩展还提供内联建议、转到定义等语言功能。",
+      "windows": [
+        "monthly"
+      ],
+      "added_at": "2026-10-09T11:00:09+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 5,
+      "tags": [
+        "app"
+      ],
+      "primary_tag": "app",
+      "domains": [
+        "devtools"
+      ],
+      "primary_domain": "devtools"
     },
     {
       "owner": "langgenius",
@@ -243,21 +377,21 @@
       "url": "https://github.com/anthropics/claude-code",
       "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
       "language": "TypeScript",
-      "stars": 150464,
-      "forks": 26313,
+      "stars": 153398,
+      "forks": 26040,
       "homepage": "https://code.claude.com/docs/en/overview",
       "license": "",
       "created_at": "2025-02-22T17:41:21Z",
-      "pushed_at": "2026-10-13T00:50:05Z",
-      "updated_at": "2026-10-13T03:32:32Z",
-      "open_issues": 14724,
+      "pushed_at": "2026-10-25T20:11:26Z",
+      "updated_at": "2026-10-26T07:29:07Z",
+      "open_issues": 15695,
       "summary": "Claude Code 是 Anthropic 推出的智能体编程工具，运行在终端中，以 TypeScript 编写。它能理解你的代码库，通过自然语言指令执行日常任务、解释复杂代码并处理 Git 工作流，从而加快编码速度。使用时可在终端、IDE 中调用，或在 GitHub 上通过 @claude 触发。安装方式覆盖 macOS、Linux 和 Windows，推荐使用 Homebrew 或 WinGet，npm 安装已被弃用。仓库还包含若干插件，通过自定义命令和智能体扩展功能。它适合需要频繁处理代码理解、重复性任务和版本控制的开发者。",
       "windows": [
         "monthly"
       ],
       "added_at": "2026-10-09T11:00:09+00:00",
-      "last_seen": "2026-10-10",
-      "seen_count": 9,
+      "last_seen": "2026-10-26",
+      "seen_count": 10,
       "tags": [
         "tool"
       ],
@@ -275,21 +409,21 @@
       "url": "https://github.com/yangshun/tech-interview-handbook",
       "description": "Curated coding interview preparation materials for busy software engineers",
       "language": "TypeScript",
-      "stars": 142996,
-      "forks": 16857,
+      "stars": 143156,
+      "forks": 16867,
       "homepage": "https://www.techinterviewhandbook.org",
       "license": "MIT",
       "created_at": "2016-07-05T05:00:48Z",
       "pushed_at": "2026-08-07T12:06:42Z",
-      "updated_at": "2026-10-13T01:53:21Z",
-      "open_issues": 37,
+      "updated_at": "2026-10-26T06:17:16Z",
+      "open_issues": 38,
       "summary": "Tech Interview Handbook 是一份面向忙碌软件工程师的免费精选技术面试准备资料，由 Blind 75 作者杨顺维护，已帮助超过一百万人。它解决的是工程师没有时间刷几百道 LeetCode 题、又缺乏系统准备指引的问题。内容涵盖编码面试最佳练习题、Grind 75 题单、准备方法、Do's and Don'ts、按主题分类的算法速查表、面向 FAANG 的简历指南、顶级科技公司的行为面试题以及前端面试准备，并配有 Docusaurus 网站提供更好的阅读体验。",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-09T12:38:40+00:00",
-      "last_seen": "2026-10-09",
-      "seen_count": 1,
+      "last_seen": "2026-10-26",
+      "seen_count": 2,
       "tags": [
         "doc"
       ],
@@ -306,21 +440,21 @@
       "url": "https://github.com/iptv-org/iptv",
       "description": "Collection of publicly available IPTV channels from all over the world",
       "language": "TypeScript",
-      "stars": 140698,
-      "forks": 8256,
+      "stars": 142397,
+      "forks": 8398,
       "homepage": "https://iptv-org.github.io",
       "license": "Unlicense",
       "created_at": "2018-11-14T22:00:57Z",
-      "pushed_at": "2026-10-13T00:20:54Z",
-      "updated_at": "2026-10-13T03:33:47Z",
-      "open_issues": 36,
+      "pushed_at": "2026-10-26T01:24:10Z",
+      "updated_at": "2026-10-26T07:36:55Z",
+      "open_issues": 30,
       "summary": "iptv-org/iptv 是一个汇集全球公开 IPTV 频道的开源仓库，主要用 TypeScript 维护。它解决的是用户寻找可用直播源困难的问题：仓库本身不存储视频文件，而是整理并维护由用户提交的公开视频流链接，形成可直接使用的播放列表。核心能力包括提供包含全部频道的主播放列表，以及 PLAYLISTS.md 中按分类或地区列出的其他列表；配套的 iptv-org/epg 仓库可下载多数频道的电子节目单，频道数据来自 iptv-org/database，API 文档位于 iptv-org/api，相关资源则收录在 awesome-iptv 中。",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-12T11:59:25+00:00",
-      "last_seen": "2026-10-12",
-      "seen_count": 1,
+      "last_seen": "2026-10-26",
+      "seen_count": 2,
       "tags": [
         "asset",
         "doc"
@@ -338,21 +472,21 @@
       "url": "https://github.com/garrytan/gstack",
       "description": "Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA",
       "language": "TypeScript",
-      "stars": 136173,
-      "forks": 20212,
+      "stars": 137759,
+      "forks": 20421,
       "homepage": "",
       "license": "MIT",
       "created_at": "2026-03-11T21:22:45Z",
-      "pushed_at": "2026-10-13T02:53:08Z",
-      "updated_at": "2026-10-13T03:29:37Z",
-      "open_issues": 70,
+      "pushed_at": "2026-10-26T07:46:00Z",
+      "updated_at": "2026-10-26T07:37:54Z",
+      "open_issues": 154,
       "summary": "gstack 是 Y Combinator 总裁兼 CEO Garry Tan 开源的一套 Claude Code 配置，用 TypeScript 编写，把 Claude Code 变成一支虚拟工程团队。它包含 23 个角色化工具和 8 个辅助工具，全部以斜杠命令和 Markdown 形式提供，覆盖 CEO 产品复盘、工程架构评审、设计审查、代码审查、QA 测试、安全审计（OWASP + STRIDE）、发布部署等环节。它解决的问题是：单个开发者借助 AI 代理也能像团队一样高效交付，而不是面对一个空白提示词。",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-09T12:38:40+00:00",
-      "last_seen": "2026-10-12",
-      "seen_count": 2,
+      "last_seen": "2026-10-26",
+      "seen_count": 3,
       "tags": [
         "config",
         "tool",
@@ -367,27 +501,59 @@
       "primary_domain": "devtools"
     },
     {
+      "owner": "excalidraw",
+      "name": "excalidraw",
+      "full_name": "excalidraw/excalidraw",
+      "url": "https://github.com/excalidraw/excalidraw",
+      "description": "Virtual whiteboard for sketching hand-drawn like diagrams",
+      "language": "TypeScript",
+      "stars": 134562,
+      "forks": 15840,
+      "homepage": "https://excalidraw.com",
+      "license": "MIT",
+      "created_at": "2020-01-02T01:04:43Z",
+      "pushed_at": "2026-10-25T22:38:34Z",
+      "updated_at": "2026-10-26T07:45:20Z",
+      "open_issues": 3419,
+      "summary": "Excalidraw 是一个基于 TypeScript 开发的开源虚拟白板，主打手绘风格，适合绘制示意图、线框图或任何自由草图。它提供无限画布，内置矩形、圆形、菱形、箭头、线条、自由绘制和橡皮擦等工具，支持箭头绑定与标签、撤销重做、缩放平移、深色模式、图片插入、图形库、多语言以及导出 PNG、SVG 或 .excalidraw JSON 文件。其托管版本 excalidraw.com 还支持离线使用、实时协作、端到端加密、本地自动保存和只读分享链接。",
+      "tags": [
+        "app"
+      ],
+      "primary_tag": "app",
+      "domains": [
+        "productivity",
+        "graphics"
+      ],
+      "primary_domain": "productivity",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-26T07:46:49+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 1
+    },
+    {
       "owner": "shadcn-ui",
       "name": "ui",
       "full_name": "shadcn-ui/ui",
       "url": "https://github.com/shadcn-ui/ui",
       "description": "Composable, accessible components with thoughtful defaults. Build your own component library with code you can customize, extend, and make your own.",
       "language": "TypeScript",
-      "stars": 125451,
-      "forks": 12982,
+      "stars": 126550,
+      "forks": 12530,
       "homepage": "https://ui.shadcn.com",
       "license": "MIT",
       "created_at": "2023-01-04T12:43:27Z",
-      "pushed_at": "2026-10-12T17:45:44Z",
-      "updated_at": "2026-10-13T03:33:48Z",
-      "open_issues": 1787,
+      "pushed_at": "2026-10-26T06:04:42Z",
+      "updated_at": "2026-10-26T07:44:23Z",
+      "open_issues": 1771,
       "summary": "shadcn/ui 是一套用 TypeScript 编写的界面组件集合，特点在于组件代码直接交到开发者手中，而不是通过依赖包黑盒引入。它解决的是传统组件库难以深度定制的问题：开发者拿到的是可读、可改的源码，能按项目需要调整样式、行为和结构，进而搭建属于自己的组件库。组件在设计上注重可组合性与可访问性，并提供了经过考量的默认配置，减少从零调试的成本。典型使用场景是基于 React 生态构建前端界面，尤其是需要统一设计语言、又希望保留完全控制权的项目。官方文档位于 ui.shadcn.com/docs，仓库同时提供了贡献指南，方便社区参与改进。",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-12T11:59:25+00:00",
-      "last_seen": "2026-10-12",
-      "seen_count": 1,
+      "last_seen": "2026-10-26",
+      "seen_count": 2,
       "tags": [
         "library",
         "template"
@@ -399,59 +565,27 @@
       "primary_domain": "web"
     },
     {
-      "owner": "immich-app",
-      "name": "immich",
-      "full_name": "immich-app/immich",
-      "url": "https://github.com/immich-app/immich",
-      "description": "High performance self-hosted photo and video management solution.",
-      "language": "TypeScript",
-      "stars": 116123,
-      "forks": 7205,
-      "homepage": "https://immich.app",
-      "license": "AGPL-3.0",
-      "created_at": "2022-02-03T15:56:27Z",
-      "pushed_at": "2026-10-13T01:51:30Z",
-      "updated_at": "2026-10-13T03:26:44Z",
-      "open_issues": 724,
-      "summary": "Immich 是一个用 TypeScript 编写的高性能自托管照片和视频管理方案，目标是让用户在自己的服务器上集中存放、浏览和管理个人媒体库，而不必依赖第三方云服务。它解决的是照片视频散落在多台设备、难以统一备份和检索的问题。核心能力包括自托管部署、移动端应用支持，以及通过官方文档提供的安装指南快速搭建服务；项目还提供在线演示，移动端可将服务器地址指向演示站点体验。它适合希望掌握数据主权、愿意自行维护服务器的用户，例如家庭媒体库、个人影像归档等场景。技术栈以 TypeScript 为主，官方文档站点为 immich.app，并提醒用户对重要照片和视频遵循 3-2-1 备份原则。",
-      "windows": [
-        "daily"
-      ],
-      "added_at": "2026-10-10T22:23:37+00:00",
-      "last_seen": "2026-10-10",
-      "seen_count": 1,
-      "tags": [
-        "app"
-      ],
-      "primary_tag": "app",
-      "domains": [
-        "media",
-        "productivity"
-      ],
-      "primary_domain": "media"
-    },
-    {
       "owner": "earendil-works",
       "name": "pi",
       "full_name": "earendil-works/pi",
       "url": "https://github.com/earendil-works/pi",
       "description": "AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI",
       "language": "TypeScript",
-      "stars": 114669,
-      "forks": 14605,
+      "stars": 117873,
+      "forks": 15097,
       "homepage": "",
       "license": "MIT",
       "created_at": "2025-08-09T14:03:50Z",
-      "pushed_at": "2026-10-12T23:37:23Z",
-      "updated_at": "2026-10-13T03:33:27Z",
-      "open_issues": 321,
+      "pushed_at": "2026-10-25T08:05:44Z",
+      "updated_at": "2026-10-26T07:45:35Z",
+      "open_issues": 388,
       "summary": "Pi 是一个用 TypeScript 编写的极简可扩展 AI 代理工具包，包含统一的 LLM API、代理循环、TUI 和编码代理 CLI。它想解决的问题是让代理适应你的工作流，而不是反过来：你可以通过扩展、技能、提示模板和主题定制 Pi，打包成 Pi 包经 npm 或 git 分享。Pi 自带实用默认配置，但不内置子代理和计划模式等功能，需要时可由 Pi 自行构建或安装现成包。使用方式灵活，既可交互运行，也能以 print 或 JSON 模式自动化，通过 RPC 控制，或用 TypeScript SDK 构建应用。它要求 Node.js 22.",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-12T11:59:25+00:00",
-      "last_seen": "2026-10-12",
-      "seen_count": 1,
+      "last_seen": "2026-10-26",
+      "seen_count": 2,
       "tags": [
         "library",
         "tool",
@@ -465,27 +599,59 @@
       "primary_domain": "ai"
     },
     {
+      "owner": "immich-app",
+      "name": "immich",
+      "full_name": "immich-app/immich",
+      "url": "https://github.com/immich-app/immich",
+      "description": "High performance self-hosted photo and video management solution.",
+      "language": "TypeScript",
+      "stars": 117263,
+      "forks": 7356,
+      "homepage": "https://immich.app",
+      "license": "AGPL-3.0",
+      "created_at": "2022-02-03T15:56:27Z",
+      "pushed_at": "2026-10-26T07:37:29Z",
+      "updated_at": "2026-10-26T07:19:34Z",
+      "open_issues": 734,
+      "summary": "Immich 是一个用 TypeScript 编写的高性能自托管照片和视频管理方案，目标是让用户在自己的服务器上集中存放、浏览和管理个人媒体库，而不必依赖第三方云服务。它解决的是照片视频散落在多台设备、难以统一备份和检索的问题。核心能力包括自托管部署、移动端应用支持，以及通过官方文档提供的安装指南快速搭建服务；项目还提供在线演示，移动端可将服务器地址指向演示站点体验。它适合希望掌握数据主权、愿意自行维护服务器的用户，例如家庭媒体库、个人影像归档等场景。技术栈以 TypeScript 为主，官方文档站点为 immich.app，并提醒用户对重要照片和视频遵循 3-2-1 备份原则。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-10T22:23:37+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 2,
+      "tags": [
+        "app"
+      ],
+      "primary_tag": "app",
+      "domains": [
+        "media",
+        "productivity"
+      ],
+      "primary_domain": "media"
+    },
+    {
       "owner": "supabase",
       "name": "supabase",
       "full_name": "supabase/supabase",
       "url": "https://github.com/supabase/supabase",
       "description": "The Postgres development platform. Supabase gives you a dedicated Postgres database to build your web, mobile, and AI applications.",
       "language": "TypeScript",
-      "stars": 111443,
-      "forks": 16577,
+      "stars": 113945,
+      "forks": 16306,
       "homepage": "https://supabase.com",
       "license": "Apache-2.0",
       "created_at": "2019-10-12T05:56:49Z",
-      "pushed_at": "2026-10-13T03:16:52Z",
-      "updated_at": "2026-10-13T03:08:14Z",
-      "open_issues": 1152,
+      "pushed_at": "2026-10-26T06:51:39Z",
+      "updated_at": "2026-10-26T07:44:19Z",
+      "open_issues": 1182,
       "summary": "Supabase 是一个基于 Postgres 的开发平台，目标是用企业级开源工具实现 Firebase 式的开发体验，让开发者无需自行拼装后端即可构建 Web、移动和 AI 应用。它提供托管的 Postgres 数据库，并在此基础上集成认证与授权、自动生成的 REST 与 GraphQL API、实时订阅、数据库函数与边缘函数、文件存储以及 AI 向量嵌入工具包，还配有管理面板。",
       "windows": [
         "monthly"
       ],
       "added_at": "2026-10-09T11:00:09+00:00",
-      "last_seen": "2026-10-10",
-      "seen_count": 9,
+      "last_seen": "2026-10-26",
+      "seen_count": 10,
       "tags": [
         "app",
         "framework",
@@ -500,35 +666,37 @@
       "primary_domain": "data"
     },
     {
-      "owner": "angular",
-      "name": "angular",
-      "full_name": "angular/angular",
-      "url": "https://github.com/angular/angular",
-      "description": "Deliver web apps with confidence 🚀",
+      "owner": "google-gemini",
+      "name": "gemini-cli",
+      "full_name": "google-gemini/gemini-cli",
+      "url": "https://github.com/google-gemini/gemini-cli",
+      "description": "An open-source AI agent that brings the power of Gemini directly into your terminal.",
       "language": "TypeScript",
-      "stars": 101039,
-      "forks": 30116,
-      "homepage": "https://angular.dev",
-      "license": "MIT",
-      "created_at": "2014-09-18T16:12:01Z",
-      "pushed_at": "2026-10-13T03:33:40Z",
-      "updated_at": "2026-10-13T03:33:47Z",
-      "open_issues": 1155,
-      "summary": "Angular 是一个基于 TypeScript 的现代 Web 开发平台，用于构建移动端和桌面端 Web 应用。它主要解决大型前端项目的结构化开发问题，提供组件与模板、表单、路由懒加载、动画等核心能力，并支持 Angular Elements、服务端渲染和 Schematics 等进阶特性。开发者可通过 Angular CLI 快速创建项目、生成代码并运行应用，配合 Angular Material 构建界面。其生态覆盖跨平台、可扩展的工具链，适合企业级单页应用、需要服务端渲染的站点以及组件库开发等场景。官方文档站 angular.",
+      "stars": 108394,
+      "forks": 14838,
+      "homepage": "https://geminicli.com",
+      "license": "Apache-2.0",
+      "created_at": "2025-04-17T17:04:31Z",
+      "pushed_at": "2026-10-26T00:37:50Z",
+      "updated_at": "2026-10-26T07:24:52Z",
+      "open_issues": 783,
+      "summary": "Gemini CLI 是 Google 开源的终端 AI 代理工具，用 TypeScript 编写，把 Gemini 模型的能力直接带进命令行。它面向需要在终端里完成代码工作的开发者，提供从提示词到模型的轻量直达路径。核心能力包括查询和编辑大型代码库、借助多模态从 PDF 图片或草图生成新应用、用自然语言调试排错；也支持自动化场景，例如查询拉取请求、处理复杂 rebase，通过 MCP 服务器接入 Imagen、Veo、Lyria 等媒体生成能力，并可在脚本中以非交互方式运行。",
+      "tags": [
+        "app",
+        "tool"
+      ],
+      "primary_tag": "app",
+      "domains": [
+        "ai",
+        "devtools"
+      ],
+      "primary_domain": "ai",
       "windows": [
         "daily"
       ],
-      "added_at": "2026-10-09T12:38:40+00:00",
-      "last_seen": "2026-10-12",
-      "seen_count": 2,
-      "tags": [
-        "framework"
-      ],
-      "primary_tag": "framework",
-      "domains": [
-        "web"
-      ],
-      "primary_domain": "web"
+      "added_at": "2026-10-26T07:46:49+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 1
     },
     {
       "owner": "paperclipai",
@@ -537,21 +705,21 @@
       "url": "https://github.com/paperclipai/paperclip",
       "description": "The open-source app everyone uses to manage agents at work",
       "language": "TypeScript",
-      "stars": 101039,
-      "forks": 16980,
+      "stars": 107411,
+      "forks": 17843,
       "homepage": "https://paperclip.ing",
       "license": "MIT",
       "created_at": "2026-03-02T15:01:51Z",
-      "pushed_at": "2026-10-13T03:34:31Z",
-      "updated_at": "2026-10-13T03:34:45Z",
-      "open_issues": 6013,
+      "pushed_at": "2026-10-26T06:44:43Z",
+      "updated_at": "2026-10-26T07:41:48Z",
+      "open_issues": 6601,
       "summary": "Paperclip 是一个用 TypeScript 编写的开源 AI 智能体管理应用，包含 Node.js 服务端和 React 界面，用于把多个 AI 智能体组织成一个协同工作的团队。它解决的核心问题是：当人们同时运行大量智能体（如 OpenClaw、Claude Code、Codex、Cursor、Gemini CLI 等）时，容易失去对任务进度、成本和权限的掌控。Paperclip 提供组织架构、目标对齐、心跳唤醒、预算与成本控制、任务线程、审批治理、技能库、定时例程、多组织隔离等能力，让智能体拥有角色、汇报线和预算，并按分配的目标自主工作。",
       "windows": [
         "monthly"
       ],
       "added_at": "2026-10-09T11:00:09+00:00",
-      "last_seen": "2026-10-10",
-      "seen_count": 9,
+      "last_seen": "2026-10-26",
+      "seen_count": 10,
       "tags": [
         "app"
       ],
@@ -563,23 +731,89 @@
       "primary_domain": "ai"
     },
     {
+      "owner": "stablyai",
+      "name": "orca",
+      "full_name": "stablyai/orca",
+      "url": "https://github.com/stablyai/orca",
+      "description": "Orca is the place for working with a fleet of agents (e.g. Grok Bot, Claude Code). Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
+      "language": "TypeScript",
+      "stars": 106229,
+      "forks": 6711,
+      "homepage": "https://orca.dev",
+      "license": "MIT",
+      "created_at": "2026-03-17T03:28:57Z",
+      "pushed_at": "2026-10-26T07:46:27Z",
+      "updated_at": "2026-10-26T07:46:33Z",
+      "open_issues": 8389,
+      "summary": "Orca 是一个面向并行 AI 编码代理的 ADE（代理开发环境），用 TypeScript 编写，可在桌面、移动端和远程运行时使用。它要解决的问题是：当同时运行多个编码代理时，工作区、任务和结果容易散落各处难以管理。Orca 让 Codex、Claude Code、OpenCode、Pi 等任意 CLI 代理并排运行，每个代理拥有独立的 git worktree，并在同一处统一追踪。",
+      "windows": [
+        "monthly"
+      ],
+      "added_at": "2026-10-09T11:00:09+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 9,
+      "pinned": true,
+      "tags": [
+        "app"
+      ],
+      "primary_tag": "app",
+      "domains": [
+        "ai",
+        "devtools"
+      ],
+      "primary_domain": "ai"
+    },
+    {
+      "owner": "nexu-io",
+      "name": "open-design",
+      "full_name": "nexu-io/open-design",
+      "url": "https://github.com/nexu-io/open-design",
+      "description": "The 1st Collaborative AI Design Agent Workspace. Local-first and open source. Create motion, prototypes, websites, apps, dashboards, presentations, images, and videos with your team and AI agents. Share work, exchange feedback, and iterate together in one workspace.",
+      "language": "TypeScript",
+      "stars": 104026,
+      "forks": 11892,
+      "homepage": "https://open-design.ai",
+      "license": "Apache-2.0",
+      "created_at": "2026-04-28T04:25:20Z",
+      "pushed_at": "2026-10-26T07:40:23Z",
+      "updated_at": "2026-10-26T07:34:18Z",
+      "open_issues": 1279,
+      "summary": "OpenDesign 是一个本地优先的协作式 AI 设计智能体工作区，用 TypeScript 编写。它本身不内置智能体，而是复用你 PATH 上已有的 claude、codex、cursor-agent、copilot 等编码智能体作为设计引擎，也可通过技能、CLI 和 MCP 接入，或经 BYOK 代理直接对接 OpenAI、Anthropic、Gemini、Ollama 等兼容端点。它要解决的是设计与原型协作分散的问题：从一句需求出发，智能体依据项目中的 DESIGN.md 品牌契约生成原型，团队在同一项目里共享、反馈并继续迭代。",
+      "tags": [
+        "app"
+      ],
+      "primary_tag": "app",
+      "domains": [
+        "ai",
+        "productivity",
+        "graphics"
+      ],
+      "primary_domain": "ai",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-26T07:46:49+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 1
+    },
+    {
       "owner": "thedotmack",
       "name": "claude-mem",
       "full_name": "thedotmack/claude-mem",
       "url": "https://github.com/thedotmack/claude-mem",
       "description": "Persistent Context Across Sessions for Every Agent –  Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
       "language": "TypeScript",
-      "stars": 100140,
-      "forks": 8783,
+      "stars": 103202,
+      "forks": 9112,
       "homepage": "https://claude-mem.ai",
       "license": "Apache-2.0",
       "created_at": "2025-08-31T20:50:03Z",
-      "pushed_at": "2026-10-13T03:07:25Z",
-      "updated_at": "2026-10-13T03:33:21Z",
-      "open_issues": 84,
+      "pushed_at": "2026-10-25T21:00:05Z",
+      "updated_at": "2026-10-26T07:40:34Z",
+      "open_issues": 107,
       "summary": "claude-mem 是一个为 Claude Code 等 AI 编程代理设计的持久化记忆压缩系统，用 TypeScript 编写。它解决的核心问题是：代理在会话结束后会丢失上下文，导致每次都要重新了解项目。claude-mem 通过生命周期钩子自动捕获代理在会话中的工具使用观察，用 AI 压缩成语义摘要存入 SQLite 数据库，并在后续会话启动时把相关上下文注入回去，让代理保持对项目的知识连续性。它提供基于技能的搜索、MCP 搜索工具（采用三层渐进式披露工作流，先取索引再按需拉取详情以节省 token）、Web 查看器界面和隐私标签控制。",
-      "last_seen": "2026-10-10",
-      "seen_count": 13,
+      "last_seen": "2026-10-26",
+      "seen_count": 14,
       "added_at": "2026-10-09T10:50:16+00:00",
       "windows": [
         "daily",
@@ -599,27 +833,58 @@
       "primary_domain": "ai"
     },
     {
+      "owner": "angular",
+      "name": "angular",
+      "full_name": "angular/angular",
+      "url": "https://github.com/angular/angular",
+      "description": "Deliver web apps with confidence 🚀",
+      "language": "TypeScript",
+      "stars": 101100,
+      "forks": 29582,
+      "homepage": "https://angular.dev",
+      "license": "MIT",
+      "created_at": "2014-09-18T16:12:01Z",
+      "pushed_at": "2026-10-26T04:49:45Z",
+      "updated_at": "2026-10-26T07:06:22Z",
+      "open_issues": 1179,
+      "summary": "Angular 是一个基于 TypeScript 的现代 Web 开发平台，用于构建移动端和桌面端 Web 应用。它主要解决大型前端项目的结构化开发问题，提供组件与模板、表单、路由懒加载、动画等核心能力，并支持 Angular Elements、服务端渲染和 Schematics 等进阶特性。开发者可通过 Angular CLI 快速创建项目、生成代码并运行应用，配合 Angular Material 构建界面。其生态覆盖跨平台、可扩展的工具链，适合企业级单页应用、需要服务端渲染的站点以及组件库开发等场景。官方文档站 angular.",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-09T12:38:40+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 3,
+      "tags": [
+        "framework"
+      ],
+      "primary_tag": "framework",
+      "domains": [
+        "web"
+      ],
+      "primary_domain": "web"
+    },
+    {
       "owner": "ant-design",
       "name": "ant-design",
       "full_name": "ant-design/ant-design",
       "url": "https://github.com/ant-design/ant-design",
       "description": "An enterprise-class UI design language and React UI library",
       "language": "TypeScript",
-      "stars": 99749,
-      "forks": 54664,
+      "stars": 99899,
+      "forks": 54644,
       "homepage": "https://ant.design",
       "license": "MIT",
       "created_at": "2015-04-24T15:37:24Z",
-      "pushed_at": "2026-10-13T01:32:05Z",
-      "updated_at": "2026-10-13T03:34:37Z",
-      "open_issues": 1114,
+      "pushed_at": "2026-10-26T07:09:31Z",
+      "updated_at": "2026-10-26T07:05:02Z",
+      "open_issues": 1104,
       "summary": "Ant Design 是一套面向企业级 Web 应用的 UI 设计语言与 React 组件库，主要解决中后台产品在界面一致性、开发效率和可维护性上的问题。它提供开箱即用的高质量 React 组件，使用 TypeScript 编写并具备可预测的静态类型，同时附带完整的设计资源与开发工具。核心特点包括支持数十种语言的国际化、基于 CSS-in-JS 的强大主题定制能力，并兼容现代浏览器、服务端渲染和 Electron 环境。",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-09T12:38:40+00:00",
-      "last_seen": "2026-10-12",
-      "seen_count": 2,
+      "last_seen": "2026-10-26",
+      "seen_count": 3,
       "tags": [
         "library"
       ],
@@ -636,21 +901,21 @@
       "url": "https://github.com/microsoft/playwright",
       "description": "Playwright is a framework for Web Testing and Automation. It allows testing Chromium, Firefox and WebKit with a single API. ",
       "language": "TypeScript",
-      "stars": 97572,
-      "forks": 6594,
+      "stars": 98530,
+      "forks": 6697,
       "homepage": "https://playwright.dev",
       "license": "Apache-2.0",
       "created_at": "2019-11-15T18:32:42Z",
-      "pushed_at": "2026-10-12T23:49:59Z",
-      "updated_at": "2026-10-13T03:21:54Z",
-      "open_issues": 188,
+      "pushed_at": "2026-10-25T22:43:50Z",
+      "updated_at": "2026-10-26T07:46:29Z",
+      "open_issues": 200,
       "summary": "Playwright 是微软开源的 Web 自动化与测试框架，用 TypeScript 编写，通过单一 API 驱动 Chromium、Firefox 和 WebKit。它主要解决跨浏览器端到端测试与浏览器自动化问题：Playwright Test 作为测试运行器，默认并行执行、每个测试隔离在独立浏览器上下文中，具备自动等待和 web-first 断言，无需人为设置超时，并支持追踪、截图和视频录制，可在 Trace Viewer 中回放操作、DOM 快照与网络请求。",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-09T12:38:40+00:00",
-      "last_seen": "2026-10-09",
-      "seen_count": 1,
+      "last_seen": "2026-10-26",
+      "seen_count": 2,
       "tags": [
         "framework",
         "library",
@@ -664,27 +929,90 @@
       "primary_domain": "devtools"
     },
     {
+      "owner": "tailwindlabs",
+      "name": "tailwindcss",
+      "full_name": "tailwindlabs/tailwindcss",
+      "url": "https://github.com/tailwindlabs/tailwindcss",
+      "description": "A utility-first CSS framework for rapid UI development.",
+      "language": "TypeScript",
+      "stars": 98119,
+      "forks": 7648,
+      "homepage": "https://tailwindcss.com/",
+      "license": "MIT",
+      "created_at": "2017-10-06T14:59:14Z",
+      "pushed_at": "2026-10-19T15:50:56Z",
+      "updated_at": "2026-10-26T07:27:56Z",
+      "open_issues": 102,
+      "summary": "Tailwind CSS 是一个以实用工具类为核心的 CSS 框架，主要用 TypeScript 编写，目标是帮助开发者快速构建自定义用户界面。它解决的是传统 CSS 开发中样式命名困难、样式复用与维护成本高的问题：开发者不再需要为每个组件反复编写和命名样式类，而是直接在标记中组合框架提供的工具类来完成布局、间距、颜色、排版等样式。其核心特点是 utility-first，即通过细粒度的原子类拼装界面，配合可配置的设计体系保持风格一致，同时便于在组件化开发中随模板一起阅读和修改。",
+      "tags": [
+        "library",
+        "framework"
+      ],
+      "primary_tag": "library",
+      "domains": [
+        "web"
+      ],
+      "primary_domain": "web",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-26T07:46:49+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 1
+    },
+    {
+      "owner": "OpenCut-app",
+      "name": "OpenCut",
+      "full_name": "OpenCut-app/OpenCut",
+      "url": "https://github.com/OpenCut-app/OpenCut",
+      "description": "The open-source CapCut alternative",
+      "language": "TypeScript",
+      "stars": 96188,
+      "forks": 9522,
+      "homepage": "https://opencut.app",
+      "license": "MIT",
+      "created_at": "2025-06-22T08:02:17Z",
+      "pushed_at": "2026-09-24T09:24:44Z",
+      "updated_at": "2026-10-26T07:36:03Z",
+      "open_issues": 387,
+      "summary": "OpenCut 是一个用 TypeScript 编写的开源视频编辑器，目标是成为 CapCut 的免费替代品，支持网页、桌面和移动端。它要解决的是视频剪辑工具闭源、收费或平台受限的问题，让用户在不同设备上都能使用同一套编辑能力。目前项目正在从零重写，计划引入编辑器 API、以插件优先架构实现第三方插件、基于 Rust 核心让桌面、移动和浏览器共用一套代码，并支持 MCP 服务器供 AI 代理调用、无头模式用于自动化和批量渲染，以及编辑器内的脚本标签页。旧版本仍可在 opencut-classic 仓库获取，opencut.app 也继续运行经典版，重写版将先部署在 new.opencut.",
+      "windows": [
+        "weekly"
+      ],
+      "added_at": "2026-10-09T11:00:09+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 10,
+      "tags": [
+        "app"
+      ],
+      "primary_tag": "app",
+      "domains": [
+        "media"
+      ],
+      "primary_domain": "media"
+    },
+    {
       "owner": "puppeteer",
       "name": "puppeteer",
       "full_name": "puppeteer/puppeteer",
       "url": "https://github.com/puppeteer/puppeteer",
       "description": "JavaScript API for Chrome and Firefox",
       "language": "TypeScript",
-      "stars": 95683,
-      "forks": 9590,
+      "stars": 95743,
+      "forks": 9577,
       "homepage": "https://pptr.dev",
       "license": "Apache-2.0",
       "created_at": "2017-05-09T22:16:13Z",
-      "pushed_at": "2026-10-12T13:11:22Z",
-      "updated_at": "2026-10-12T19:41:24Z",
-      "open_issues": 273,
+      "pushed_at": "2026-10-25T03:06:17Z",
+      "updated_at": "2026-10-26T07:05:41Z",
+      "open_issues": 217,
       "summary": "Puppeteer 是一个用 TypeScript 编写的 JavaScript 库，提供高层 API，通过 DevTools 协议或 WebDriver BiDi 控制 Chrome 或 Firefox 浏览器。它默认以无头模式运行，即没有可见界面，适合自动化浏览器操作。它解决的问题是让开发者能以编程方式驱动浏览器，完成页面加载、交互、调试等任务。核心能力包括浏览器控制与自动化，并支持实验性的 WebMCP API。典型使用场景涵盖网页抓取、自动化测试、页面截图、表单提交等前端与测试工作流。",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-09T12:38:40+00:00",
-      "last_seen": "2026-10-12",
-      "seen_count": 2,
+      "last_seen": "2026-10-26",
+      "seen_count": 3,
       "tags": [
         "library"
       ],
@@ -702,21 +1030,21 @@
       "url": "https://github.com/Stirling-Tools/Stirling-PDF",
       "description": "#1 PDF Application on GitHub that lets you edit PDFs on any device anywhere",
       "language": "TypeScript",
-      "stars": 94084,
-      "forks": 11142,
+      "stars": 95029,
+      "forks": 10620,
       "homepage": "https://stirling.com",
       "license": "NOASSERTION",
       "created_at": "2023-01-27T18:22:42Z",
-      "pushed_at": "2026-10-13T00:23:49Z",
-      "updated_at": "2026-10-13T03:34:27Z",
-      "open_issues": 553,
+      "pushed_at": "2026-10-26T06:08:00Z",
+      "updated_at": "2026-10-26T07:29:19Z",
+      "open_issues": 522,
       "summary": "Stirling PDF 是一个开源的 PDF 编辑平台，主要解决在不将文档发送给外部服务的前提下完成 PDF 处理的需求。它提供桌面客户端、浏览器界面和可自托管的服务器三种使用方式，并附带私有 API。平台内置超过 50 种 PDF 工具，涵盖编辑、合并、拆分、签名、涂黑、格式转换、OCR 和压缩等操作。它还支持通过无代码流程编排自动化任务，并提供 REST API 以便集成到现有系统中，面向企业场景则具备单点登录、审计和灵活的本地部署能力。界面支持 40 多种语言。典型场景包括个人在任意设备上处理 PDF、团队自建服务批量处理文档，以及开发者将 PDF 能力接入自有应用。",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-12T11:59:25+00:00",
-      "last_seen": "2026-10-12",
-      "seen_count": 1,
+      "last_seen": "2026-10-26",
+      "seen_count": 2,
       "tags": [
         "app"
       ],
@@ -727,35 +1055,70 @@
       "primary_domain": "productivity"
     },
     {
-      "owner": "OpenCut-app",
-      "name": "OpenCut",
-      "full_name": "OpenCut-app/OpenCut",
-      "url": "https://github.com/OpenCut-app/OpenCut",
-      "description": "The open-source CapCut alternative",
+      "owner": "OpenHands",
+      "name": "OpenHands",
+      "full_name": "OpenHands/OpenHands",
+      "url": "https://github.com/OpenHands/OpenHands",
+      "description": "🙌 OpenHands: AI-Driven Development",
       "language": "TypeScript",
-      "stars": 93896,
-      "forks": 9209,
-      "homepage": "https://opencut.app",
+      "stars": 91867,
+      "forks": 12201,
+      "homepage": "https://openhands.dev",
       "license": "MIT",
-      "created_at": "2025-06-22T08:02:17Z",
-      "pushed_at": "2026-09-24T09:24:44Z",
-      "updated_at": "2026-10-13T03:27:52Z",
-      "open_issues": 376,
-      "summary": "OpenCut 是一个用 TypeScript 编写的开源视频编辑器，目标是成为 CapCut 的免费替代品，支持网页、桌面和移动端。它要解决的是视频剪辑工具闭源、收费或平台受限的问题，让用户在不同设备上都能使用同一套编辑能力。目前项目正在从零重写，计划引入编辑器 API、以插件优先架构实现第三方插件、基于 Rust 核心让桌面、移动和浏览器共用一套代码，并支持 MCP 服务器供 AI 代理调用、无头模式用于自动化和批量渲染，以及编辑器内的脚本标签页。旧版本仍可在 opencut-classic 仓库获取，opencut.app 也继续运行经典版，重写版将先部署在 new.opencut.",
+      "created_at": "2024-03-13T03:33:31Z",
+      "pushed_at": "2026-10-26T05:53:31Z",
+      "updated_at": "2026-10-26T07:39:33Z",
+      "open_issues": 1120,
+      "summary": "OpenHands Agent Canvas 是一个自托管的开发者控制中心，用于统一管理和运行编码智能体与自动化任务。它解决的核心问题是：让 Claude Code、Codex、Gemini、OpenCode 等 ACP 兼容智能体，以及 OpenHands 自研智能体，能够在本地、远程或云端多种后端上持续运行，并通过同一前端界面切换。默认在本机运行，也可连接 Docker 容器、虚拟机或企业基础设施，甚至 OpenHands Cloud 与 Enterprise。典型场景包括在 Slack 发布报告、将 GitHub issue 自动拆解为任务，以及定时或事件触发的自动化流程。",
       "windows": [
-        "weekly"
+        "daily"
       ],
-      "added_at": "2026-10-09T11:00:09+00:00",
-      "last_seen": "2026-10-10",
-      "seen_count": 9,
+      "added_at": "2026-10-12T11:59:25+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 2,
       "tags": [
-        "app"
+        "app",
+        "tool"
       ],
       "primary_tag": "app",
       "domains": [
-        "media"
+        "ai",
+        "devtools"
       ],
-      "primary_domain": "media"
+      "primary_domain": "ai"
+    },
+    {
+      "owner": "modelcontextprotocol",
+      "name": "servers",
+      "full_name": "modelcontextprotocol/servers",
+      "url": "https://github.com/modelcontextprotocol/servers",
+      "description": "Model Context Protocol Servers",
+      "language": "TypeScript",
+      "stars": 91569,
+      "forks": 11867,
+      "homepage": "https://modelcontextprotocol.io",
+      "license": "NOASSERTION",
+      "created_at": "2024-11-19T01:10:17Z",
+      "pushed_at": "2026-10-25T05:26:36Z",
+      "updated_at": "2026-10-26T07:42:31Z",
+      "open_issues": 151,
+      "summary": "Model Context Protocol（MCP）服务器参考实现集合，由 Anthropic 与社区共同维护，主要语言为 TypeScript。它要解决的是让大语言模型以安全、可控的方式访问外部工具和数据源的问题，通过 MCP 协议把模型与文件系统、Git 仓库、网络内容等能力连接起来。仓库中的服务器用于演示 MCP 特性与官方 SDK 用法，属于教学性质的参考实现而非生产级方案，开发者需自行评估安全需求。",
+      "tags": [
+        "library",
+        "example"
+      ],
+      "primary_tag": "library",
+      "domains": [
+        "ai",
+        "devtools"
+      ],
+      "primary_domain": "ai",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-26T07:46:49+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 1
     },
     {
       "owner": "storybookjs",
@@ -764,21 +1127,21 @@
       "url": "https://github.com/storybookjs/storybook",
       "description": "Storybook is the industry standard workshop for building, documenting, and testing UI components in isolation",
       "language": "TypeScript",
-      "stars": 91260,
-      "forks": 10482,
+      "stars": 91376,
+      "forks": 10460,
       "homepage": "https://storybook.js.org",
       "license": "MIT",
       "created_at": "2016-03-18T04:23:44Z",
-      "pushed_at": "2026-10-12T22:18:54Z",
-      "updated_at": "2026-10-13T03:25:32Z",
-      "open_issues": 1888,
+      "pushed_at": "2026-10-26T01:03:19Z",
+      "updated_at": "2026-10-26T05:37:40Z",
+      "open_issues": 1859,
       "summary": "Storybook 是一个用于隔离构建、文档化和测试 UI 组件的前端工作台，主要使用 TypeScript 编写。它解决的是组件开发过程中难以独立调试和展示的问题，让开发者能在不依赖完整应用的情况下开发和验证组件。其核心能力包括组件设计、文档生成、测试和交互支持，并提供丰富的插件系统，可通过 API 进行配置和扩展。Storybook 支持多种前端框架，还扩展到了 React Native、Android、iOS 和 Flutter 等移动端开发。典型使用场景包括团队协作开发 UI 组件库、编写组件文档、进行单元测试和交互测试。",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-09T12:38:40+00:00",
-      "last_seen": "2026-10-09",
-      "seen_count": 1,
+      "last_seen": "2026-10-26",
+      "seen_count": 2,
       "tags": [
         "tool",
         "framework",
@@ -792,102 +1155,37 @@
       "primary_domain": "devtools"
     },
     {
-      "owner": "stablyai",
-      "name": "orca",
-      "full_name": "stablyai/orca",
-      "url": "https://github.com/stablyai/orca",
-      "description": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
+      "owner": "mermaid-js",
+      "name": "mermaid",
+      "full_name": "mermaid-js/mermaid",
+      "url": "https://github.com/mermaid-js/mermaid",
+      "description": "Generation of diagrams like flowcharts or sequence diagrams from text in a similar manner as markdown",
       "language": "TypeScript",
-      "stars": 90818,
-      "forks": 5800,
-      "homepage": "https://onOrca.dev",
+      "stars": 90867,
+      "forks": 9403,
+      "homepage": "https://mermaid.ai/open-source/",
       "license": "MIT",
-      "created_at": "2026-03-17T03:28:57Z",
-      "pushed_at": "2026-10-13T03:31:07Z",
-      "updated_at": "2026-10-13T03:30:33Z",
-      "open_issues": 8270,
-      "summary": "Orca 是一个面向并行 AI 编码代理的 ADE（代理开发环境），用 TypeScript 编写，可在桌面、移动端和远程运行时使用。它要解决的问题是：当同时运行多个编码代理时，工作区、任务和结果容易散落各处难以管理。Orca 让 Codex、Claude Code、OpenCode、Pi 等任意 CLI 代理并排运行，每个代理拥有独立的 git worktree，并在同一处统一追踪。",
-      "windows": [
-        "monthly"
-      ],
-      "added_at": "2026-10-09T11:00:09+00:00",
-      "last_seen": "2026-10-12",
-      "seen_count": 8,
-      "pinned": true,
+      "created_at": "2014-11-01T23:52:32Z",
+      "pushed_at": "2026-10-26T02:53:51Z",
+      "updated_at": "2026-10-26T07:06:42Z",
+      "open_issues": 1989,
+      "summary": "Mermaid 是一个基于 TypeScript 的 JavaScript 图表绘制工具，它让用户用类似 Markdown 的文本语法定义并渲染流程图、时序图、类图、状态图、ER 图、甘特图、饼图、Git 图、思维导图、时间线、桑基图等二十多种图表。它主要解决文档与开发脱节的问题：图形和文档维护成本高、容易过时，而缺少图表又会影响团队协作与知识沉淀。Mermaid 让图表以纯文本形式存在，便于修改、纳入脚本、进行版本控制与差异审查，非程序员也能通过 Live Editor 快速创建图表。",
       "tags": [
-        "app"
-      ],
-      "primary_tag": "app",
-      "domains": [
-        "ai",
-        "devtools"
-      ],
-      "primary_domain": "ai"
-    },
-    {
-      "owner": "OpenHands",
-      "name": "OpenHands",
-      "full_name": "OpenHands/OpenHands",
-      "url": "https://github.com/OpenHands/OpenHands",
-      "description": "🙌 OpenHands: AI-Driven Development",
-      "language": "TypeScript",
-      "stars": 90759,
-      "forks": 12022,
-      "homepage": "https://openhands.dev",
-      "license": "MIT",
-      "created_at": "2024-03-13T03:33:31Z",
-      "pushed_at": "2026-10-13T02:58:06Z",
-      "updated_at": "2026-10-13T03:26:29Z",
-      "open_issues": 962,
-      "summary": "OpenHands Agent Canvas 是一个自托管的开发者控制中心，用于统一管理和运行编码智能体与自动化任务。它解决的核心问题是：让 Claude Code、Codex、Gemini、OpenCode 等 ACP 兼容智能体，以及 OpenHands 自研智能体，能够在本地、远程或云端多种后端上持续运行，并通过同一前端界面切换。默认在本机运行，也可连接 Docker 容器、虚拟机或企业基础设施，甚至 OpenHands Cloud 与 Enterprise。典型场景包括在 Slack 发布报告、将 GitHub issue 自动拆解为任务，以及定时或事件触发的自动化流程。",
-      "windows": [
-        "daily"
-      ],
-      "added_at": "2026-10-12T11:59:25+00:00",
-      "last_seen": "2026-10-12",
-      "seen_count": 1,
-      "tags": [
-        "app",
+        "library",
         "tool"
       ],
-      "primary_tag": "app",
+      "primary_tag": "library",
       "domains": [
-        "ai",
+        "graphics",
         "devtools"
       ],
-      "primary_domain": "ai"
-    },
-    {
-      "owner": "ChatGPTNextWeb",
-      "name": "NextChat",
-      "full_name": "ChatGPTNextWeb/NextChat",
-      "url": "https://github.com/ChatGPTNextWeb/NextChat",
-      "description": "✨ Zero-config AI chat assistant. No API key needed — sign up and instantly chat with GPT-5, Claude 4, Gemini 2.5, DeepSeek & 100+ top models. Pay-as-you-go saves you more. Available on Web, iOS, macOS, Android, Linux, Windows.",
-      "language": "TypeScript",
-      "stars": 88840,
-      "forks": 58850,
-      "homepage": "https://nextchat.club",
-      "license": "MIT",
-      "created_at": "2023-03-10T18:27:54Z",
-      "pushed_at": "2026-10-08T14:25:26Z",
-      "updated_at": "2026-10-13T02:36:50Z",
-      "open_issues": 853,
-      "summary": "NextChat 是一个轻量快速的 AI 聊天助手，使用 TypeScript 开发，支持 GPT、Claude、DeepSeek、Gemini 等百余种模型，覆盖 Web、iOS、macOS、Android、Linux 和 Windows 平台。它主要解决多模型统一调用与部署配置繁琐的问题，既提供免 API Key 的 SaaS 版本，也支持自部署大模型，兼容 RWKV-Runner 和 LocalAI。",
+      "primary_domain": "graphics",
       "windows": [
         "daily"
       ],
-      "added_at": "2026-10-12T11:59:25+00:00",
-      "last_seen": "2026-10-12",
-      "seen_count": 1,
-      "tags": [
-        "app"
-      ],
-      "primary_tag": "app",
-      "domains": [
-        "ai",
-        "productivity"
-      ],
-      "primary_domain": "ai"
+      "added_at": "2026-10-26T07:46:49+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 1
     },
     {
       "owner": "koala73",
@@ -896,17 +1194,17 @@
       "url": "https://github.com/koala73/worldmonitor",
       "description": "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface",
       "language": "TypeScript",
-      "stars": 88328,
-      "forks": 13506,
+      "stars": 89545,
+      "forks": 13763,
       "homepage": "https://worldmonitor.app",
       "license": "AGPL-3.0",
       "created_at": "2026-01-08T17:26:06Z",
-      "pushed_at": "2026-10-12T21:53:46Z",
-      "updated_at": "2026-10-13T03:24:00Z",
-      "open_issues": 369,
+      "pushed_at": "2026-10-26T06:46:32Z",
+      "updated_at": "2026-10-26T07:44:13Z",
+      "open_issues": 338,
       "summary": "World Monitor 是一个基于 TypeScript 构建的实时全球情报仪表盘，把新闻聚合、地缘政治监测与基础设施追踪整合进统一的态势感知界面。它面向需要同时掌握多源动态的用户，解决信息分散、难以交叉印证的问题：通过 AI 将全球与地区新闻提炼为简报，用 globe.gl 三维地球与 deck.gl WebGL 平面地图双引擎共享图层目录，并对军事、经济、灾害与升级信号做跨流关联，还提供覆盖 31 个一级国家的国家不稳定指数（CII）与金融雷达。",
-      "last_seen": "2026-10-09",
-      "seen_count": 4,
+      "last_seen": "2026-10-26",
+      "seen_count": 5,
       "added_at": "2026-10-09T10:50:16+00:00",
       "windows": [
         "daily"
@@ -923,27 +1221,59 @@
       "primary_domain": "ai"
     },
     {
+      "owner": "ChatGPTNextWeb",
+      "name": "NextChat",
+      "full_name": "ChatGPTNextWeb/NextChat",
+      "url": "https://github.com/ChatGPTNextWeb/NextChat",
+      "description": "✨ Zero-config AI chat assistant. No API key needed — sign up and instantly chat with GPT-5, Claude 4, Gemini 2.5, DeepSeek & 100+ top models. Pay-as-you-go saves you more. Available on Web, iOS, macOS, Android, Linux, Windows.",
+      "language": "TypeScript",
+      "stars": 88895,
+      "forks": 58718,
+      "homepage": "https://nextchat.club",
+      "license": "MIT",
+      "created_at": "2023-03-10T18:27:54Z",
+      "pushed_at": "2026-10-20T10:19:31Z",
+      "updated_at": "2026-10-26T07:36:05Z",
+      "open_issues": 854,
+      "summary": "NextChat 是一个轻量快速的 AI 聊天助手，使用 TypeScript 开发，支持 GPT、Claude、DeepSeek、Gemini 等百余种模型，覆盖 Web、iOS、macOS、Android、Linux 和 Windows 平台。它主要解决多模型统一调用与部署配置繁琐的问题，既提供免 API Key 的 SaaS 版本，也支持自部署大模型，兼容 RWKV-Runner 和 LocalAI。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T11:59:25+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 2,
+      "tags": [
+        "app"
+      ],
+      "primary_tag": "app",
+      "domains": [
+        "ai",
+        "productivity"
+      ],
+      "primary_domain": "ai"
+    },
+    {
       "owner": "Egonex-AI",
       "name": "Understand-Anything",
       "full_name": "Egonex-AI/Understand-Anything",
       "url": "https://github.com/Egonex-AI/Understand-Anything",
       "description": "Graphs that teach > graphs that impress. Turn any code into an interactive knowledge graph you can explore, search, and ask questions about. Works with Claude Code, Codex, Cursor, Copilot, Gemini CLI, and more.",
       "language": "TypeScript",
-      "stars": 86087,
-      "forks": 7261,
+      "stars": 88305,
+      "forks": 7453,
       "homepage": "https://understand-anything.com/",
       "license": "MIT",
       "created_at": "2026-03-15T02:30:51Z",
-      "pushed_at": "2026-10-12T10:24:59Z",
-      "updated_at": "2026-10-13T03:32:04Z",
-      "open_issues": 319,
+      "pushed_at": "2026-10-26T07:05:22Z",
+      "updated_at": "2026-10-26T07:45:38Z",
+      "open_issues": 335,
       "summary": "Understand Anything 是一个用 TypeScript 编写的 Claude Code 插件，目标是把任意代码库、知识库或文档转成可交互的知识图谱。它针对的是新人面对几十万行代码无从下手的困境：通过多智能体流水线扫描项目，提取每个文件、函数、类和依赖关系，生成保存到 .ua/knowledge-graph.json 的图谱，并提供可缩放、搜索、点击的交互式仪表盘。核心能力包括结构图谱浏览、业务逻辑的领域视图、知识库分析、按依赖排序的引导式导览、模糊与语义搜索、变更影响分析、随角色调整的界面、按架构层自动分组，以及 12 种编程模式的情境讲解。",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-09T12:38:40+00:00",
-      "last_seen": "2026-10-09",
-      "seen_count": 1,
+      "last_seen": "2026-10-26",
+      "seen_count": 2,
       "tags": [
         "tool",
         "plugin"
@@ -956,27 +1286,60 @@
       "primary_domain": "devtools"
     },
     {
+      "owner": "realworld-apps",
+      "name": "realworld",
+      "full_name": "realworld-apps/realworld",
+      "url": "https://github.com/realworld-apps/realworld",
+      "description": "\"The mother of all demo apps\" — Exemplary fullstack Medium.com clone powered by React, Angular, Node, Django, and many more",
+      "language": "TypeScript",
+      "stars": 84322,
+      "forks": 7677,
+      "homepage": "https://docs.realworld.show",
+      "license": "NOASSERTION",
+      "created_at": "2016-02-26T20:49:53Z",
+      "pushed_at": "2026-08-26T06:00:45Z",
+      "updated_at": "2026-10-26T07:34:05Z",
+      "open_issues": 30,
+      "summary": "RealWorld 是一个用不同前端与后端框架构建同一个 Medium.com 克隆的全栈示例项目，被称为“所有示例应用之母”。多数 todo 类演示只能粗略展示框架能力，难以体现构建真实应用所需的知识和现实约束，RealWorld 则针对每种框架提供同一个应用，在简洁与广度之间取得平衡。所有实现都遵循同一份 API 规范，因此任意前端可与任意后端组合；项目提供共享的 CSS 主题以保证各前端 UI/UX 一致，并提供共享 E2E 测试套件验证前端实现。",
+      "tags": [
+        "example",
+        "app"
+      ],
+      "primary_tag": "example",
+      "domains": [
+        "web",
+        "learning"
+      ],
+      "primary_domain": "web",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-26T07:46:49+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 1
+    },
+    {
       "owner": "vitejs",
       "name": "vite",
       "full_name": "vitejs/vite",
       "url": "https://github.com/vitejs/vite",
       "description": "Next generation frontend tooling. It's fast!",
       "language": "TypeScript",
-      "stars": 83342,
-      "forks": 8847,
+      "stars": 83555,
+      "forks": 8903,
       "homepage": "http://vite.dev",
       "license": "MIT",
       "created_at": "2020-04-21T05:03:57Z",
-      "pushed_at": "2026-10-13T02:39:00Z",
-      "updated_at": "2026-10-13T03:22:58Z",
-      "open_issues": 769,
+      "pushed_at": "2026-10-26T07:34:06Z",
+      "updated_at": "2026-10-26T07:09:47Z",
+      "open_issues": 806,
       "summary": "Vite 是一个面向现代 Web 项目的构建工具，其名称在法语中意为“快速”。它主要解决传统构建方式在开发阶段启动慢、热更新延迟高的问题，由两部分组成：一是开发服务器，基于原生 ES 模块提供增强功能，例如极快的热模块替换；二是构建命令，使用 Rolldown 对代码进行打包，并预配置为输出高度优化的生产环境静态资源。它的核心特点包括即时服务器启动、快速 HMR、丰富的内置功能、优化的构建结果、通用插件接口以及完整的类型化 API。Vite 通过插件 API 和 JavaScript API 实现高度可扩展，并支持完整的类型提示。",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-09T12:38:40+00:00",
-      "last_seen": "2026-10-12",
-      "seen_count": 2,
+      "last_seen": "2026-10-26",
+      "seen_count": 3,
       "tags": [
         "tool",
         "framework"
@@ -995,21 +1358,21 @@
       "url": "https://github.com/lobehub/lobehub",
       "description": "🤯 LobeHub is your Chief Agent Operator, organizing your agents into 7×24 operations by hiring, scheduling, and reporting on your entire AI team.",
       "language": "TypeScript",
-      "stars": 83185,
-      "forks": 15975,
+      "stars": 83495,
+      "forks": 16010,
       "homepage": "https://lobehub.com",
       "license": "NOASSERTION",
       "created_at": "2023-05-21T07:19:12Z",
-      "pushed_at": "2026-10-13T03:23:53Z",
-      "updated_at": "2026-10-13T02:44:45Z",
-      "open_issues": 1061,
+      "pushed_at": "2026-10-26T07:44:22Z",
+      "updated_at": "2026-10-26T07:44:54Z",
+      "open_issues": 1164,
       "summary": "LobeHub 是一个用 TypeScript 编写的 AI 智能体协作平台，定位为“首席智能体运营官”，把分散的 AI 助手组织成可 7×24 小时运转的团队。它针对的问题是：当前智能体多为一次性、任务驱动的工具，缺乏上下文、彼此孤立，用户需要在不同窗口和模型间手动切换，难以形成结构化的工作方式。为此，LobeHub 以智能体为工作单元，提供招聘、调度和汇报能力，将全部智能体集中管理，并支持通过 IM 网关在常用聊天工具中使用。",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-12T11:59:25+00:00",
-      "last_seen": "2026-10-12",
-      "seen_count": 1,
+      "last_seen": "2026-10-26",
+      "seen_count": 2,
       "tags": [
         "app"
       ],
@@ -1021,27 +1384,61 @@
       "primary_domain": "ai"
     },
     {
+      "owner": "cheaper-inference",
+      "name": "OmniRoute",
+      "full_name": "cheaper-inference/OmniRoute",
+      "url": "https://github.com/cheaper-inference/OmniRoute",
+      "description": "Never stop coding. Free MIT AI gateway: one endpoint, 375 providers (150+ free), 1,400+ models Kimi, Claude, GPT, Gemini, GLM, DeepSeek, MiniMax. Works with Claude Code, Codex, Cursor, OpenCode, Cline & Copilot. Quota-aware auto-fallback, RTK+Caveman compression saves 15-95% tokens, MCP/A2A, Desktop/PWA. Built by 900+ contributors",
+      "language": "TypeScript",
+      "stars": 81237,
+      "forks": 11908,
+      "homepage": "https://omniroute.online",
+      "license": "MIT",
+      "created_at": "2026-02-13T12:38:31Z",
+      "pushed_at": "2026-10-26T07:46:28Z",
+      "updated_at": "2026-10-26T07:43:34Z",
+      "open_issues": 468,
+      "summary": "OmniRoute 是一个用 TypeScript 编写的 AI 网关，把分散在多家服务商的模型统一到一个端点。它解决的是手动叠加各家免费额度时的麻烦：几十个 SDK、几十种限流规则，很难弄清自己到底还剩多少可用量。项目目录收录了 471 条免费额度条目，并按共享池去重计算，仪表盘上可查看实时汇总。核心能力是路由与容错：内置 20 种路由策略，支持自动组合，在额度耗尽、服务商故障或成本上升时切换到下一个健康模型；同时提供 RTK 与 Caveman 压缩，可节省 15% 至 95% 的 token。",
+      "tags": [
+        "app",
+        "tool"
+      ],
+      "primary_tag": "app",
+      "domains": [
+        "ai",
+        "networking",
+        "devtools"
+      ],
+      "primary_domain": "ai",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-26T07:46:49+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 1
+    },
+    {
       "owner": "hoppscotch",
       "name": "hoppscotch",
       "full_name": "hoppscotch/hoppscotch",
       "url": "https://github.com/hoppscotch/hoppscotch",
       "description": "Open-Source API Development Ecosystem • https://hoppscotch.io • Offline, On-Prem & Cloud • Web, Desktop & CLI • Open-Source Alternative to Postman, Insomnia",
       "language": "TypeScript",
-      "stars": 80600,
-      "forks": 6153,
+      "stars": 80684,
+      "forks": 6185,
       "homepage": "https://hoppscotch.io",
       "license": "MIT",
       "created_at": "2019-08-21T13:15:24Z",
-      "pushed_at": "2026-10-12T04:41:25Z",
-      "updated_at": "2026-10-13T02:32:10Z",
-      "open_issues": 852,
+      "pushed_at": "2026-10-26T07:16:01Z",
+      "updated_at": "2026-10-26T06:17:16Z",
+      "open_issues": 863,
       "summary": "Hoppscotch 是一个基于 TypeScript 构建的开源 API 开发生态系统，定位为 Postman、Insomnia 的开源替代方案，提供 Web、桌面和命令行三种使用形态，并支持离线、本地部署与云端三种运行方式。它主要解决 API 调试与协作过程中工具偏重、跨端数据不同步、团队协作不便等问题。核心能力包括：支持 HTTP 全部标准方法及自定义方法，覆盖 WebSocket、Server-Sent Events、Socket.IO、MQTT、GraphQL 等多种协议；提供请求头、参数、请求体、授权方式（Basic、Bearer Token、OAuth 2.",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-09T12:38:40+00:00",
-      "last_seen": "2026-10-12",
-      "seen_count": 2,
+      "last_seen": "2026-10-26",
+      "seen_count": 3,
       "tags": [
         "app"
       ],
@@ -1059,21 +1456,21 @@
       "url": "https://github.com/coder/code-server",
       "description": "VS Code in the browser",
       "language": "TypeScript",
-      "stars": 79593,
-      "forks": 6883,
+      "stars": 79706,
+      "forks": 6899,
       "homepage": "https://coder.com",
       "license": "MIT",
       "created_at": "2019-02-27T16:50:41Z",
-      "pushed_at": "2026-10-09T22:50:18Z",
-      "updated_at": "2026-10-13T01:49:44Z",
-      "open_issues": 151,
+      "pushed_at": "2026-10-23T23:32:13Z",
+      "updated_at": "2026-10-26T06:55:09Z",
+      "open_issues": 160,
       "summary": "code-server 让你在任意机器上运行 VS Code，并通过浏览器访问，从而获得一致的开发环境。它主要解决跨设备开发时环境不一致、本地资源受限的问题：你可以在平板、笔记本或临时设备上编码，而编译、测试、下载等重负载任务都在服务器上执行，既加快速度，也节省本地电量。项目用 TypeScript 编写，要求 Linux 机器启用 WebSockets，最低 1 GB 内存和 2 个 vCPU。上手方式包括安装脚本、手动安装、通过 coder/coder 部署给团队、云厂商一键部署，以及配合 devcontainers 使用。典型场景是远程开发、云端开发环境和团队统一开发环境。",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-12T11:59:25+00:00",
-      "last_seen": "2026-10-12",
-      "seen_count": 1,
+      "last_seen": "2026-10-26",
+      "seen_count": 2,
       "tags": [
         "app"
       ],
@@ -1084,27 +1481,61 @@
       "primary_domain": "devtools"
     },
     {
+      "owner": "ruvnet",
+      "name": "ruflo",
+      "full_name": "ruvnet/ruflo",
+      "url": "https://github.com/ruvnet/ruflo",
+      "description": "🌊 The original agent harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, federation, vector RAG integration, and native Claude Code / Codex / Hermes and many more Integrated",
+      "language": "TypeScript",
+      "stars": 79347,
+      "forks": 9318,
+      "homepage": "https://Cognitum.One",
+      "license": "MIT",
+      "created_at": "2025-06-02T21:24:20Z",
+      "pushed_at": "2026-10-26T06:36:48Z",
+      "updated_at": "2026-10-26T07:45:02Z",
+      "open_issues": 988,
+      "summary": "Ruflo 是一个面向 Claude Code 和 Codex 的智能体元框架（agent harness），用 TypeScript 编写。它把模型本身与执行层分开：模型负责生成内容，Ruflo 负责提供工具、记忆、循环、沙箱与控制，让智能体真正能干活。其核心能力包括 100 多个专用智能体、可自组织的群体协作、跨会话的自学习记忆、跨机器的联邦通信，以及企业级安全护栏。安装后无需学习大量 MCP 工具或 CLI 命令，正常使用 Claude Code 即可，钩子系统会在后台自动路由任务、从成功模式中学习并协调智能体。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-09T12:38:40+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 2,
+      "tags": [
+        "framework",
+        "library",
+        "tool"
+      ],
+      "primary_tag": "framework",
+      "domains": [
+        "ai",
+        "devtools"
+      ],
+      "primary_domain": "ai"
+    },
+    {
       "owner": "grafana",
       "name": "grafana",
       "full_name": "grafana/grafana",
       "url": "https://github.com/grafana/grafana",
       "description": "The open and composable observability and data visualization platform. Visualize metrics, logs, and traces from multiple sources like Prometheus, Loki, Elasticsearch, InfluxDB, Postgres and many more. ",
       "language": "TypeScript",
-      "stars": 77286,
-      "forks": 14840,
+      "stars": 77511,
+      "forks": 14859,
       "homepage": "https://grafana.com",
       "license": "AGPL-3.0",
       "created_at": "2013-12-11T15:59:56Z",
-      "pushed_at": "2026-10-13T03:21:35Z",
-      "updated_at": "2026-10-13T02:44:09Z",
-      "open_issues": 3289,
+      "pushed_at": "2026-10-26T07:17:38Z",
+      "updated_at": "2026-10-26T07:18:53Z",
+      "open_issues": 3316,
       "summary": "Grafana 是一个开源的可组合可观测性与数据可视化平台，主要用 TypeScript 开发。它解决的核心问题是：无论指标、日志和追踪数据存储在何处，都能统一查询、可视化、告警并理解这些数据。它支持 Prometheus、Loki、Elasticsearch、InfluxDB、Postgres 等多种数据源，并允许在同一张图中混合使用不同数据源，按查询分别指定来源。",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-09T12:38:40+00:00",
-      "last_seen": "2026-10-09",
-      "seen_count": 1,
+      "last_seen": "2026-10-26",
+      "seen_count": 2,
       "tags": [
         "app"
       ],
@@ -1122,21 +1553,21 @@
       "url": "https://github.com/nestjs/nest",
       "description": "A progressive Node.js framework for building efficient, scalable, and enterprise-grade server-side applications with TypeScript/JavaScript 🚀",
       "language": "TypeScript",
-      "stars": 76815,
-      "forks": 8576,
+      "stars": 76907,
+      "forks": 8592,
       "homepage": "https://nestjs.com",
       "license": "MIT",
       "created_at": "2017-02-04T20:12:52Z",
-      "pushed_at": "2026-10-12T14:57:47Z",
-      "updated_at": "2026-10-13T03:31:01Z",
-      "open_issues": 32,
+      "pushed_at": "2026-10-26T02:53:33Z",
+      "updated_at": "2026-10-26T06:33:34Z",
+      "open_issues": 33,
       "summary": "Nest 是一个用于构建高效、可扩展的 Node.js 服务端应用的渐进式框架，主要使用 TypeScript 编写，同时兼容纯 JavaScript。它针对 Node 生态中库和工具丰富但缺乏统一架构的问题，提供开箱即用的应用架构，融合了面向对象、函数式和函数响应式编程的思想，设计上深受 Angular 启发，目标是帮助开发者构建易于测试、可扩展、低耦合且易维护的应用。底层默认基于 Express，也兼容 Fastify 等库，便于使用大量第三方插件。典型场景包括企业级服务端应用、API 服务与后端系统开发。",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-09T12:38:40+00:00",
-      "last_seen": "2026-10-09",
-      "seen_count": 1,
+      "last_seen": "2026-10-26",
+      "seen_count": 2,
       "tags": [
         "framework"
       ],
@@ -1187,21 +1618,21 @@
       "url": "https://github.com/Eugeny/tabby",
       "description": "A terminal for a more modern age",
       "language": "TypeScript",
-      "stars": 74941,
-      "forks": 4288,
+      "stars": 75120,
+      "forks": 4304,
       "homepage": "https://tabby.sh",
       "license": "MIT",
       "created_at": "2016-12-23T09:06:10Z",
-      "pushed_at": "2026-10-12T10:12:20Z",
-      "updated_at": "2026-10-13T02:21:48Z",
-      "open_issues": 2831,
+      "pushed_at": "2026-10-26T04:03:24Z",
+      "updated_at": "2026-10-26T06:37:08Z",
+      "open_issues": 2857,
       "summary": "Tabby（原名 Terminus）是一款用 TypeScript 编写的现代化终端模拟器，同时集成了 SSH、Telnet 和串口客户端，支持 Windows、macOS 与 Linux。它面向需要频繁管理本地与远程环境的开发者，用来替代系统自带终端、PuTTY、iTerm 等工具。核心能力包括可配置的快捷键与多段组合键、任意位置的分屏与标签页、主题与配色方案、会话恢复，以及对 PowerShell、WSL、Git-Bash、Cygwin、MSYS2、Cmder 和 CMD 的支持。",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-09T12:38:40+00:00",
-      "last_seen": "2026-10-09",
-      "seen_count": 1,
+      "last_seen": "2026-10-26",
+      "seen_count": 2,
       "tags": [
         "app"
       ],
@@ -1213,61 +1644,27 @@
       "primary_domain": "systems"
     },
     {
-      "owner": "ruvnet",
-      "name": "ruflo",
-      "full_name": "ruvnet/ruflo",
-      "url": "https://github.com/ruvnet/ruflo",
-      "description": "🌊 The original agent harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, federation, vector RAG integration, and native Claude Code / Codex / Hermes and many more Integrated",
-      "language": "TypeScript",
-      "stars": 74463,
-      "forks": 8854,
-      "homepage": "https://Cognitum.One",
-      "license": "MIT",
-      "created_at": "2025-06-02T21:24:20Z",
-      "pushed_at": "2026-10-13T02:43:15Z",
-      "updated_at": "2026-10-13T03:33:19Z",
-      "open_issues": 1029,
-      "summary": "Ruflo 是一个面向 Claude Code 和 Codex 的智能体元框架（agent harness），用 TypeScript 编写。它把模型本身与执行层分开：模型负责生成内容，Ruflo 负责提供工具、记忆、循环、沙箱与控制，让智能体真正能干活。其核心能力包括 100 多个专用智能体、可自组织的群体协作、跨会话的自学习记忆、跨机器的联邦通信，以及企业级安全护栏。安装后无需学习大量 MCP 工具或 CLI 命令，正常使用 Claude Code 即可，钩子系统会在后台自动路由任务、从成功模式中学习并协调智能体。",
-      "windows": [
-        "daily"
-      ],
-      "added_at": "2026-10-09T12:38:40+00:00",
-      "last_seen": "2026-10-09",
-      "seen_count": 1,
-      "tags": [
-        "framework",
-        "library",
-        "tool"
-      ],
-      "primary_tag": "framework",
-      "domains": [
-        "ai",
-        "devtools"
-      ],
-      "primary_domain": "ai"
-    },
-    {
       "owner": "toeverything",
       "name": "AFFiNE",
       "full_name": "toeverything/AFFiNE",
       "url": "https://github.com/toeverything/AFFiNE",
       "description": "There can be more than Notion and Miro. AFFiNE(pronounced [ə‘fain]) is a next-gen knowledge base that brings planning, sorting and creating all together. Privacy first, open-source, customizable and ready to use. ",
       "language": "TypeScript",
-      "stars": 73433,
-      "forks": 5352,
+      "stars": 73850,
+      "forks": 5393,
       "homepage": "https://affine.pro",
       "license": "NOASSERTION",
       "created_at": "2022-07-31T18:45:21Z",
-      "pushed_at": "2026-10-12T09:51:10Z",
-      "updated_at": "2026-10-13T02:56:36Z",
-      "open_issues": 769,
+      "pushed_at": "2026-10-25T15:13:07Z",
+      "updated_at": "2026-10-26T07:34:20Z",
+      "open_issues": 796,
       "summary": "AFFiNE 是一个用 TypeScript 编写的开源一体化知识库，定位为 Notion 与 Miro 的替代方案，把文档、白板和表格融合在同一平台上。它试图解决工具割裂的问题：用户不必在笔记、看板和白板应用之间来回切换，而是可以在无边画布上放置富文本、便签、嵌入网页、多视图数据库、链接页面、形状甚至幻灯片等任意内容块。其核心特点包括本地优先的数据存储、跨平台实时协作与同步，以及可自托管的部署方式，用户能自行管理、分叉和构建。AFFiNE 还提供多模态 AI 能力，可用于生成演示文稿、思维导图或整理任务计划。",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-12T12:11:02+00:00",
-      "last_seen": "2026-10-12",
-      "seen_count": 1,
+      "last_seen": "2026-10-26",
+      "seen_count": 2,
       "tags": [
         "app"
       ],
@@ -1284,21 +1681,21 @@
       "url": "https://github.com/strapi/strapi",
       "description": "🚀 Strapi is the leading open-source headless CMS. It’s 100% JavaScript/TypeScript, fully customizable, and developer-first.",
       "language": "TypeScript",
-      "stars": 73298,
-      "forks": 9878,
+      "stars": 73381,
+      "forks": 9915,
       "homepage": "https://strapi.io",
       "license": "NOASSERTION",
       "created_at": "2015-09-30T15:34:48Z",
-      "pushed_at": "2026-10-13T00:58:37Z",
-      "updated_at": "2026-10-13T02:44:46Z",
-      "open_issues": 595,
+      "pushed_at": "2026-10-25T09:59:14Z",
+      "updated_at": "2026-10-26T05:43:07Z",
+      "open_issues": 649,
       "summary": "Strapi 是一个领先的开源无头内容管理系统，完全基于 JavaScript/TypeScript 编写，支持自托管或使用官方云服务。它主要解决开发者快速构建内容 API 与内容编辑者友好操作之间的平衡问题：通过可视化 Content-Type Builder 定义内容模型后，Strapi 会自动生成完整的 REST 与 GraphQL API，供任意前端、移动应用或 IoT 设备调用。其核心能力包括细粒度的角色与权限控制、内置媒体库、国际化、草稿与发布机制，以及对 TypeScript 的一流支持和 SQLite、PostgreSQL、MySQL、MariaDB 等数据库选项。",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-09T12:38:40+00:00",
-      "last_seen": "2026-10-09",
-      "seen_count": 1,
+      "last_seen": "2026-10-26",
+      "seen_count": 2,
       "tags": [
         "app",
         "framework"
@@ -1310,27 +1707,95 @@
       "primary_domain": "web"
     },
     {
+      "owner": "Fission-AI",
+      "name": "OpenSpec",
+      "full_name": "Fission-AI/OpenSpec",
+      "url": "https://github.com/Fission-AI/OpenSpec",
+      "description": "Spec-driven development (SDD) for AI coding assistants.",
+      "language": "TypeScript",
+      "stars": 72992,
+      "forks": 4989,
+      "homepage": "https://openspec.dev/",
+      "license": "MIT",
+      "created_at": "2025-08-05T10:37:45Z",
+      "pushed_at": "2026-10-26T01:47:05Z",
+      "updated_at": "2026-10-26T07:30:10Z",
+      "open_issues": 204,
+      "summary": "OpenSpec 是一个面向 AI 编程助手的规格驱动开发（SDD）工具，用 TypeScript 编写。它要解决的问题是：当需求只存在于聊天记录里时，AI 编程助手虽然强大却难以预测。OpenSpec 在写代码之前加入一层轻量规格，让人和 AI 先就“要建什么”达成一致。每个变更都有独立文件夹，包含提案、规格、设计与任务，可随时更新任一产物，没有僵硬的阶段关卡。它通过斜杠命令与 30 多种 AI 助手集成，并提供 /opsx:explore 这类无风险的思考伙伴命令，以及 /opsx:propose 等标准流程。",
+      "tags": [
+        "tool",
+        "framework"
+      ],
+      "primary_tag": "tool",
+      "domains": [
+        "ai",
+        "devtools"
+      ],
+      "primary_domain": "ai",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-26T07:46:49+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 1
+    },
+    {
+      "owner": "heygen-com",
+      "name": "hyperframes",
+      "full_name": "heygen-com/hyperframes",
+      "url": "https://github.com/heygen-com/hyperframes",
+      "description": "Write HTML. Render video. Built for agents.",
+      "language": "TypeScript",
+      "stars": 72452,
+      "forks": 6542,
+      "homepage": "https://hyperframes.dev",
+      "license": "Apache-2.0",
+      "created_at": "2026-03-10T01:51:06Z",
+      "pushed_at": "2026-10-26T07:43:01Z",
+      "updated_at": "2026-10-26T07:44:41Z",
+      "open_issues": 209,
+      "summary": "HyperFrames 是一个开源框架，用于把 HTML、CSS、媒体素材和可定位动画转换为确定性的 MP4 视频，官方定位是“写 HTML，渲染视频，为智能体而生”。它解决的是视频制作难以被代码和 AI 智能体直接操控的问题：合成内容就是带 data 属性的 HTML 文件，不需要 React，也没有专有时间线格式，浏览器里可直接预览，渲染时由无头 Chrome 逐帧定位、FFmpeg 编码，相同输入产出相同视频。动画层支持 GSAP、CSS、Lottie、Three.js、Anime.js、WAAPI 或自定义适配器。",
+      "windows": [
+        "weekly",
+        "monthly"
+      ],
+      "added_at": "2026-10-09T11:00:09+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 10,
+      "tags": [
+        "framework",
+        "library"
+      ],
+      "primary_tag": "framework",
+      "domains": [
+        "media",
+        "ai",
+        "web"
+      ],
+      "primary_domain": "media"
+    },
+    {
       "owner": "cline",
       "name": "cline",
       "full_name": "cline/cline",
       "url": "https://github.com/cline/cline",
       "description": "Autonomous coding agent as an SDK, IDE extension, or CLI assistant.",
       "language": "TypeScript",
-      "stars": 70247,
-      "forks": 7647,
+      "stars": 70858,
+      "forks": 7752,
       "homepage": "https://cline.bot",
       "license": "Apache-2.0",
       "created_at": "2024-07-06T07:28:10Z",
-      "pushed_at": "2026-10-13T03:12:41Z",
-      "updated_at": "2026-10-13T03:31:09Z",
-      "open_issues": 1647,
+      "pushed_at": "2026-10-26T05:46:16Z",
+      "updated_at": "2026-10-26T07:39:26Z",
+      "open_issues": 1712,
       "summary": "Cline 是一个开源的自主编码智能体，提供 SDK、IDE 扩展和 CLI 三种形态，主要用 TypeScript 编写。它面向需要在编辑器、终端或桌面环境中自动化编码任务的开发者，解决跨文件修改代码、执行命令和集成 AI 能力的问题。核心能力包括：读取项目结构并跨代码库协调编辑，同时监控 linter 和编译器错误并自动修复；在终端执行 Bash 命令并实时响应输出；支持 Plan 与 Act 两种模式，可人工审批或自动运行；通过 .clinerules 和 skills 定义项目规则；兼容多种 AI 模型，并可通过插件或 MCP 服务器扩展。",
       "windows": [
         "monthly"
       ],
       "added_at": "2026-10-09T11:00:09+00:00",
-      "last_seen": "2026-10-10",
-      "seen_count": 9,
+      "last_seen": "2026-10-26",
+      "seen_count": 10,
       "tags": [
         "app",
         "plugin",
@@ -1350,21 +1815,21 @@
       "url": "https://github.com/code-yeongyu/oh-my-openagent",
       "description": "OmO: Just type \"mass ulw\" keyword with your prompt. Now you are the master of graph engineering.",
       "language": "TypeScript",
-      "stars": 69985,
-      "forks": 5750,
+      "stars": 70342,
+      "forks": 5793,
       "homepage": "https://omo.dev",
       "license": "NOASSERTION",
       "created_at": "2025-12-03T01:40:05Z",
-      "pushed_at": "2026-10-13T03:17:50Z",
-      "updated_at": "2026-10-13T03:30:15Z",
-      "open_issues": 1271,
+      "pushed_at": "2026-10-26T07:46:52Z",
+      "updated_at": "2026-10-26T07:39:29Z",
+      "open_issues": 1774,
       "summary": "OmO 是一个用 TypeScript 编写的命令行 AI 智能体，通过一条 omo 命令把提示词转化为实际交付成果，覆盖调研、演示文稿、前后端代码等任务。它主要解决智能体在复杂任务中容易跑偏、遗忘上下文、反复犯同样错误的问题。核心能力包括：在提示词中加入 ultrawork 或 ulw 关键词后，智能体会先读代码库再规划、逐步验证并检查真实运行结果；输入 mass ulw 则把整个任务拆成多智能体图，让各部分并行运行在各自合适的模型上。记忆系统以 Markdown 文件存放在 git 仓库中，由一个小而便宜的模型辅助主智能体避免重复错误。",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-09T12:38:40+00:00",
-      "last_seen": "2026-10-09",
-      "seen_count": 1,
+      "last_seen": "2026-10-26",
+      "seen_count": 2,
       "tags": [
         "app",
         "tool"
@@ -1383,21 +1848,21 @@
       "url": "https://github.com/apache/echarts",
       "description": "Apache ECharts is a powerful, interactive charting and data visualization library for browser",
       "language": "TypeScript",
-      "stars": 67488,
-      "forks": 19814,
+      "stars": 67600,
+      "forks": 19847,
       "homepage": "https://echarts.apache.org",
       "license": "Apache-2.0",
       "created_at": "2013-04-03T03:18:59Z",
-      "pushed_at": "2026-10-12T01:12:04Z",
-      "updated_at": "2026-10-13T03:31:15Z",
-      "open_issues": 1488,
+      "pushed_at": "2026-10-13T09:27:20Z",
+      "updated_at": "2026-10-26T06:57:24Z",
+      "open_issues": 1485,
       "summary": "Apache ECharts 是一个免费、功能强大的交互式图表与数据可视化库，使用 TypeScript 编写，基于轻量级 Canvas 库 zrender，可帮助开发者在商业产品中便捷地添加直观、可交互且高度可定制的图表。它主要解决浏览器端数据可视化需求，支持通过官网下载、npm 安装或 CDN 引入，并提供中英文文档、API 手册和示例。其核心能力包括交互式图表展示与灵活配置，并可通过 ECharts GL 扩展实现 3D 绘图、地球可视化和 WebGL 加速，另有水球图、字符云、百度地图扩展、Vue 组件及统计工具等生态资源。",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-09T12:38:40+00:00",
-      "last_seen": "2026-10-09",
-      "seen_count": 1,
+      "last_seen": "2026-10-26",
+      "seen_count": 2,
       "tags": [
         "library"
       ],
@@ -1410,27 +1875,61 @@
       "primary_domain": "data"
     },
     {
+      "owner": "remotion-dev",
+      "name": "remotion",
+      "full_name": "remotion-dev/remotion",
+      "url": "https://github.com/remotion-dev/remotion",
+      "description": "🎥      Make videos programmatically with React",
+      "language": "TypeScript",
+      "stars": 67575,
+      "forks": 5459,
+      "homepage": "https://remotion.dev",
+      "license": "NOASSERTION",
+      "created_at": "2020-06-23T19:49:10Z",
+      "pushed_at": "2026-10-25T17:03:50Z",
+      "updated_at": "2026-10-26T07:46:31Z",
+      "open_issues": 208,
+      "summary": "Remotion 是一个用 React 以编程方式制作视频的 TypeScript 工具库。它把 React 代码当作视频的唯一真实来源，让开发者能连接数据、用代码管理复杂逻辑，从而解决批量生成、数据驱动视频难以用传统剪辑软件高效处理的问题。核心能力包括：借助编码智能体把想法变成视频、通过拖拽交互式编辑与制作动画、构建可复用的动画资产库、在自有基础设施上批量渲染海量视频，以及发布简单工具或复杂视频编辑器。它提供超过一千页文档，涵盖安装、模板、组件、特效、字幕、字体、渲染、Node.js API、Lambda、Vercel、客户端渲染、播放器和编辑器起步套件等，并支持在任意环节切换工作流。",
+      "windows": [
+        "daily",
+        "monthly"
+      ],
+      "added_at": "2026-10-10T22:23:37+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 3,
+      "tags": [
+        "library",
+        "framework"
+      ],
+      "primary_tag": "library",
+      "domains": [
+        "media",
+        "web"
+      ],
+      "primary_domain": "media"
+    },
+    {
       "owner": "facebook",
       "name": "docusaurus",
       "full_name": "facebook/docusaurus",
       "url": "https://github.com/facebook/docusaurus",
       "description": "Easy to maintain open source documentation websites.",
       "language": "TypeScript",
-      "stars": 66475,
-      "forks": 10072,
+      "stars": 66586,
+      "forks": 10101,
       "homepage": "https://docusaurus.io",
       "license": "MIT",
       "created_at": "2017-06-20T16:13:53Z",
-      "pushed_at": "2026-10-10T12:39:10Z",
-      "updated_at": "2026-10-13T03:21:28Z",
-      "open_issues": 430,
+      "pushed_at": "2026-10-23T20:44:37Z",
+      "updated_at": "2026-10-26T07:21:51Z",
+      "open_issues": 440,
       "summary": "Docusaurus 是 Meta 开源的一个用于构建、部署和维护开源项目文档网站的工具，主要语言为 TypeScript。它解决的是文档站点搭建与长期维护成本高的问题，把构建流程交给框架处理，让开发者专注于项目本身。它上手简单，提供初始化 CLI，可快速创建站点，并有五分钟教程和在线演练环境可供试用。核心特点包括：内置本地化支持，借助 CrowdIn 翻译文档，便于扩展国际社区；默认提供首页、文档区、博客及支持页面等常用板块，同时支持定制，以形成独特的站点样式。典型场景是为开源项目搭建文档站，也适合需要文档、博客与多语言能力的项目站点。",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-09T12:38:40+00:00",
-      "last_seen": "2026-10-09",
-      "seen_count": 1,
+      "last_seen": "2026-10-26",
+      "seen_count": 2,
       "tags": [
         "framework",
         "tool"
@@ -1449,21 +1948,21 @@
       "url": "https://github.com/nocodb/nocodb",
       "description": "🔥 🔥 🔥 A Free & Self-hostable Airtable Alternative",
       "language": "TypeScript",
-      "stars": 65256,
-      "forks": 5083,
+      "stars": 65366,
+      "forks": 5102,
       "homepage": "https://nocodb.com",
       "license": "NOASSERTION",
       "created_at": "2017-10-29T18:51:48Z",
-      "pushed_at": "2026-10-13T02:06:48Z",
-      "updated_at": "2026-10-12T17:31:51Z",
-      "open_issues": 706,
+      "pushed_at": "2026-10-26T07:09:37Z",
+      "updated_at": "2026-10-26T07:41:30Z",
+      "open_issues": 681,
       "summary": "NocoDB 是一个免费且可自托管的 Airtable 替代品，用 TypeScript 编写，目标是提供最快、最简单的在线数据库搭建方式。它把数据库包装成电子表格界面，让不写代码的人也能像操作表格一样管理数据，同时保留数据库的计算能力。核心能力包括对表、列、行的增删改查，排序、筛选、分组、隐藏列等字段操作，以及网格、画廊、表单、看板和日历等多种视图，还支持协作视图与锁定视图、公开或带密码的分享、ID、链接、查找、汇总、附件、公式、用户等多种单元格类型，并能按角色做细粒度权限控制。",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-12T12:11:02+00:00",
-      "last_seen": "2026-10-12",
-      "seen_count": 1,
+      "last_seen": "2026-10-26",
+      "seen_count": 2,
       "tags": [
         "app"
       ],
@@ -1475,38 +1974,68 @@
       "primary_domain": "data"
     },
     {
-      "owner": "remotion-dev",
-      "name": "remotion",
-      "full_name": "remotion-dev/remotion",
-      "url": "https://github.com/remotion-dev/remotion",
-      "description": "🎥      Make videos programmatically with React",
+      "owner": "upstash",
+      "name": "context7",
+      "full_name": "upstash/context7",
+      "url": "https://github.com/upstash/context7",
+      "description": "Context7 Platform -- Up-to-date docs for AI agents",
       "language": "TypeScript",
-      "stars": 63645,
-      "forks": 5014,
-      "homepage": "https://remotion.dev",
-      "license": "NOASSERTION",
-      "created_at": "2020-06-23T19:49:10Z",
-      "pushed_at": "2026-10-12T22:25:10Z",
-      "updated_at": "2026-10-13T03:32:48Z",
-      "open_issues": 178,
-      "summary": "Remotion 是一个用 React 以编程方式制作视频的 TypeScript 工具库。它把 React 代码当作视频的唯一真实来源，让开发者能连接数据、用代码管理复杂逻辑，从而解决批量生成、数据驱动视频难以用传统剪辑软件高效处理的问题。核心能力包括：借助编码智能体把想法变成视频、通过拖拽交互式编辑与制作动画、构建可复用的动画资产库、在自有基础设施上批量渲染海量视频，以及发布简单工具或复杂视频编辑器。它提供超过一千页文档，涵盖安装、模板、组件、特效、字幕、字体、渲染、Node.js API、Lambda、Vercel、客户端渲染、播放器和编辑器起步套件等，并支持在任意环节切换工作流。",
-      "windows": [
-        "daily",
-        "monthly"
+      "stars": 63693,
+      "forks": 3141,
+      "homepage": "https://context7.com",
+      "license": "MIT",
+      "created_at": "2025-03-26T23:40:39Z",
+      "pushed_at": "2026-10-26T07:17:42Z",
+      "updated_at": "2026-10-26T07:46:49Z",
+      "open_issues": 47,
+      "summary": "Context7 为 AI 编程助手提供与库版本匹配的最新文档和代码示例，解决大模型依赖过时训练数据导致的示例陈旧、API 幻觉和旧版本泛化回答等问题。它从源头抓取文档并注入编码代理的上下文，支持两种接入方式：CLI 加技能模式通过 ctx7 命令行获取文档，无需 MCP；MCP 模式注册服务器后可直接调用文档工具。安装由 ctx7 CLI 一条命令完成，支持 Cursor、Claude Code、OpenCode 等客户端，也可手动配置服务器地址和 API Key。使用时可在提示中指定库 ID 跳过匹配步骤，或注明版本以获取对应文档。",
+      "tags": [
+        "app",
+        "tool"
       ],
-      "added_at": "2026-10-10T22:23:37+00:00",
-      "last_seen": "2026-10-11",
+      "primary_tag": "app",
+      "domains": [
+        "ai",
+        "devtools"
+      ],
+      "primary_domain": "ai",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-26T07:46:49+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 1
+    },
+    {
+      "owner": "withastro",
+      "name": "astro",
+      "full_name": "withastro/astro",
+      "url": "https://github.com/withastro/astro",
+      "description": "The web framework for content-driven websites.",
+      "language": "TypeScript",
+      "stars": 63473,
+      "forks": 3872,
+      "homepage": "https://astro.build",
+      "license": "NOASSERTION",
+      "created_at": "2021-03-15T17:19:47Z",
+      "pushed_at": "2026-10-26T03:00:30Z",
+      "updated_at": "2026-10-26T06:12:13Z",
+      "open_issues": 122,
+      "summary": "Astro 是一个面向现代 Web 的网站构建工具，官方定位为“内容驱动型网站的 Web 框架”，主要使用 TypeScript 编写。它试图在强大的开发者体验与轻量的输出之间取得平衡，解决内容型站点在开发效率与页面体积之间难以兼顾的问题。其核心能力围绕内容驱动展开，适合构建以内容为主的网站。安装方面，官方推荐通过命令行方式获取最新版本，也支持手动安装，并提供了入门指南、官方文档以及可直接在浏览器中打开的示例项目，方便快速上手。遇到问题时，可以通过官方 Discord 或 GitHub 讨论区获取支持。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:11:02+00:00",
+      "last_seen": "2026-10-26",
       "seen_count": 2,
       "tags": [
-        "library",
         "framework"
       ],
-      "primary_tag": "library",
+      "primary_tag": "framework",
       "domains": [
-        "media",
         "web"
       ],
-      "primary_domain": "media"
+      "primary_domain": "web"
     },
     {
       "owner": "socketio",
@@ -1515,21 +2044,21 @@
       "url": "https://github.com/socketio/socket.io",
       "description": "Bidirectional and low-latency communication for every platform",
       "language": "TypeScript",
-      "stars": 63213,
-      "forks": 10268,
+      "stars": 63228,
+      "forks": 10221,
       "homepage": "https://socket.io",
       "license": "MIT",
       "created_at": "2010-03-11T18:24:48Z",
       "pushed_at": "2026-09-29T09:18:54Z",
-      "updated_at": "2026-10-12T13:07:10Z",
-      "open_issues": 180,
+      "updated_at": "2026-10-26T05:26:04Z",
+      "open_issues": 189,
       "summary": "Socket.IO 是一个面向多平台的实时双向低延迟通信库，主要使用 TypeScript 编写。它解决的是客户端与服务器之间需要持续、即时交换数据的场景，例如网页应用中的即时消息、通知推送、多人协作或实时状态同步。相比传统的 HTTP 请求响应模式，Socket.IO 在浏览器与服务器之间建立持久连接，使双方都能主动发送事件，从而降低通信延迟。其核心特点包括双向事件驱动通信、对多种客户端的支持，以及在连接不稳定时提供自动重连等机制。开发者通常将其用于 Node.js 后端与浏览器前端之间的实时功能开发，也可用于其他需要低延迟数据交换的平台。",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-12T12:11:02+00:00",
-      "last_seen": "2026-10-12",
-      "seen_count": 1,
+      "last_seen": "2026-10-26",
+      "seen_count": 2,
       "tags": [
         "library"
       ],
@@ -1541,70 +2070,67 @@
       "primary_domain": "networking"
     },
     {
-      "owner": "withastro",
-      "name": "astro",
-      "full_name": "withastro/astro",
-      "url": "https://github.com/withastro/astro",
-      "description": "The web framework for content-driven websites.",
+      "owner": "marktext",
+      "name": "marktext",
+      "full_name": "marktext/marktext",
+      "url": "https://github.com/marktext/marktext",
+      "description": "📝A simple and elegant markdown editor, available for Linux, macOS and Windows.",
       "language": "TypeScript",
-      "stars": 63192,
-      "forks": 3849,
-      "homepage": "https://astro.build",
-      "license": "NOASSERTION",
-      "created_at": "2021-03-15T17:19:47Z",
-      "pushed_at": "2026-10-12T22:51:08Z",
-      "updated_at": "2026-10-13T03:03:41Z",
-      "open_issues": 120,
-      "summary": "Astro 是一个面向现代 Web 的网站构建工具，官方定位为“内容驱动型网站的 Web 框架”，主要使用 TypeScript 编写。它试图在强大的开发者体验与轻量的输出之间取得平衡，解决内容型站点在开发效率与页面体积之间难以兼顾的问题。其核心能力围绕内容驱动展开，适合构建以内容为主的网站。安装方面，官方推荐通过命令行方式获取最新版本，也支持手动安装，并提供了入门指南、官方文档以及可直接在浏览器中打开的示例项目，方便快速上手。遇到问题时，可以通过官方 Discord 或 GitHub 讨论区获取支持。",
+      "stars": 63121,
+      "forks": 4663,
+      "homepage": "https://www.marktext.me",
+      "license": "MIT",
+      "created_at": "2017-11-12T16:05:25Z",
+      "pushed_at": "2026-10-26T07:23:20Z",
+      "updated_at": "2026-10-26T07:41:08Z",
+      "open_issues": 257,
+      "summary": "MarkText 是一款简洁优雅的开源 Markdown 编辑器，支持 Linux、macOS 和 Windows，主要使用 TypeScript 开发，定位于提升写作速度与易用性。它通过实时预览（所见即所得）和干净简洁的界面，帮助用户获得不受干扰的写作体验，解决 Markdown 写作中预览与编辑割裂的问题。",
+      "tags": [
+        "app"
+      ],
+      "primary_tag": "app",
+      "domains": [
+        "productivity",
+        "devtools"
+      ],
+      "primary_domain": "productivity",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-26T07:46:49+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 1
+    },
+    {
+      "owner": "makeplane",
+      "name": "plane",
+      "full_name": "makeplane/plane",
+      "url": "https://github.com/makeplane/plane",
+      "description": "🔥🔥🔥 Open-source Jira, Linear, Monday, and ClickUp alternative. Plane is a modern project management platform to manage tasks, sprints, docs, and triage.",
+      "language": "TypeScript",
+      "stars": 61452,
+      "forks": 6186,
+      "homepage": "http://plane.so",
+      "license": "AGPL-3.0",
+      "created_at": "2022-11-19T12:55:01Z",
+      "pushed_at": "2026-10-23T15:40:15Z",
+      "updated_at": "2026-10-26T07:44:58Z",
+      "open_issues": 1152,
+      "summary": "Plane 是一款开源项目管理系统，定位为 Jira、Linear、Monday 和 ClickUp 的替代方案，主要用 TypeScript 编写。它面向各类团队，用于跟踪问题、运行周期（Cycles）和管理产品路线图，目标是让团队不必在工具本身的管理上耗费精力。核心能力包括：工作项支持富文本编辑与文件上传，可通过子属性和关联问题增强组织与追踪；周期功能配合燃尽图帮助团队保持节奏；模块用于把复杂项目拆分为更小单元；视图可自定义过滤器并保存分享；页面功能支持记录和整理想法，具备 AI 能力与富文本编辑；分析功能提供跨数据的实时洞察。",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-12T12:11:02+00:00",
-      "last_seen": "2026-10-12",
-      "seen_count": 1,
+      "last_seen": "2026-10-26",
+      "seen_count": 2,
       "tags": [
-        "framework"
+        "app"
       ],
-      "primary_tag": "framework",
+      "primary_tag": "app",
       "domains": [
-        "web"
+        "productivity"
       ],
-      "primary_domain": "web"
-    },
-    {
-      "owner": "heygen-com",
-      "name": "hyperframes",
-      "full_name": "heygen-com/hyperframes",
-      "url": "https://github.com/heygen-com/hyperframes",
-      "description": "Write HTML. Render video. Built for agents.",
-      "language": "TypeScript",
-      "stars": 61921,
-      "forks": 5545,
-      "homepage": "https://hyperframes.dev",
-      "license": "Apache-2.0",
-      "created_at": "2026-03-10T01:51:06Z",
-      "pushed_at": "2026-10-13T03:34:53Z",
-      "updated_at": "2026-10-13T03:34:25Z",
-      "open_issues": 258,
-      "summary": "HyperFrames 是一个开源框架，用于把 HTML、CSS、媒体素材和可定位动画转换为确定性的 MP4 视频，官方定位是“写 HTML，渲染视频，为智能体而生”。它解决的是视频制作难以被代码和 AI 智能体直接操控的问题：合成内容就是带 data 属性的 HTML 文件，不需要 React，也没有专有时间线格式，浏览器里可直接预览，渲染时由无头 Chrome 逐帧定位、FFmpeg 编码，相同输入产出相同视频。动画层支持 GSAP、CSS、Lottie、Three.js、Anime.js、WAAPI 或自定义适配器。",
-      "windows": [
-        "weekly",
-        "monthly"
-      ],
-      "added_at": "2026-10-09T11:00:09+00:00",
-      "last_seen": "2026-10-10",
-      "seen_count": 9,
-      "tags": [
-        "framework",
-        "library"
-      ],
-      "primary_tag": "framework",
-      "domains": [
-        "media",
-        "ai",
-        "web"
-      ],
-      "primary_domain": "media"
+      "primary_domain": "productivity"
     },
     {
       "owner": "reduxjs",
@@ -1613,21 +2139,21 @@
       "url": "https://github.com/reduxjs/redux",
       "description": "A JS library for predictable global state management",
       "language": "TypeScript",
-      "stars": 61470,
-      "forks": 15152,
+      "stars": 61446,
+      "forks": 15090,
       "homepage": "https://redux.js.org",
       "license": "MIT",
       "created_at": "2015-05-29T23:53:15Z",
-      "pushed_at": "2026-10-05T14:50:40Z",
-      "updated_at": "2026-10-12T21:28:33Z",
+      "pushed_at": "2026-10-20T19:04:18Z",
+      "updated_at": "2026-10-26T06:51:23Z",
       "open_issues": 15,
       "summary": "Redux 是一个用于可预测、可维护的全局状态管理的 JavaScript 库，主要使用 TypeScript 编写。它帮助开发者构建行为一致、易于测试的应用，可运行于客户端、服务端和原生环境，并提供实时编辑与时间旅行调试等开发体验。Redux 核心体积很小，可与 React 或其他视图库配合使用。官方推荐使用 Redux Toolkit 编写 Redux 逻辑，它封装了核心库，内置最佳实践，简化常见任务并减少错误。它适用于数据随时间变化较多、需要单一状态源，或仅靠顶层组件管理状态已不够的场景。",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-12T12:11:02+00:00",
-      "last_seen": "2026-10-12",
-      "seen_count": 1,
+      "last_seen": "2026-10-26",
+      "seen_count": 2,
       "tags": [
         "library"
       ],
@@ -1644,21 +2170,21 @@
       "url": "https://github.com/nuxt/nuxt",
       "description": "The full-stack Vue framework.",
       "language": "TypeScript",
-      "stars": 60933,
-      "forks": 5820,
+      "stars": 60991,
+      "forks": 5808,
       "homepage": "https://nuxt.com",
       "license": "MIT",
       "created_at": "2016-10-26T11:18:47Z",
-      "pushed_at": "2026-10-12T22:11:38Z",
-      "updated_at": "2026-10-13T03:03:51Z",
-      "open_issues": 481,
+      "pushed_at": "2026-10-26T07:37:54Z",
+      "updated_at": "2026-10-26T07:40:26Z",
+      "open_issues": 477,
       "summary": "Nuxt 是一个免费开源的 Web 框架，用 Vue.js 构建类型安全、高性能且达到生产级别的全栈应用与网站。它通过直观且可扩展的方式，解决了 Vue 项目中路由、数据获取、状态管理和构建配置等重复性工作的问题。核心能力包括服务端渲染、静态站点生成、混合渲染与边缘渲染，自动路由与代码分割、预取，数据获取与状态管理，搜索引擎优化与元标签定义，组件、组合式函数和工具的自动导入，零配置支持 TypeScript，以及通过 server 目录实现全栈开发。它还可借助三百多个模块扩展，并部署到多种托管平台。",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-12T12:11:02+00:00",
-      "last_seen": "2026-10-12",
-      "seen_count": 1,
+      "last_seen": "2026-10-26",
+      "seen_count": 2,
       "tags": [
         "framework"
       ],
@@ -1669,35 +2195,36 @@
       "primary_domain": "web"
     },
     {
-      "owner": "makeplane",
-      "name": "plane",
-      "full_name": "makeplane/plane",
-      "url": "https://github.com/makeplane/plane",
-      "description": "🔥🔥🔥 Open-source Jira, Linear, Monday, and ClickUp alternative. Plane is a modern project management platform to manage tasks, sprints, docs, and triage.",
+      "owner": "twentyhq",
+      "name": "twenty",
+      "full_name": "twentyhq/twenty",
+      "url": "https://github.com/twentyhq/twenty",
+      "description": "The open alternative to Salesforce, designed for AI.",
       "language": "TypeScript",
-      "stars": 60736,
-      "forks": 6041,
-      "homepage": "http://plane.so",
-      "license": "AGPL-3.0",
-      "created_at": "2022-11-19T12:55:01Z",
-      "pushed_at": "2026-10-12T11:28:29Z",
-      "updated_at": "2026-10-13T03:16:12Z",
-      "open_issues": 1114,
-      "summary": "Plane 是一款开源项目管理系统，定位为 Jira、Linear、Monday 和 ClickUp 的替代方案，主要用 TypeScript 编写。它面向各类团队，用于跟踪问题、运行周期（Cycles）和管理产品路线图，目标是让团队不必在工具本身的管理上耗费精力。核心能力包括：工作项支持富文本编辑与文件上传，可通过子属性和关联问题增强组织与追踪；周期功能配合燃尽图帮助团队保持节奏；模块用于把复杂项目拆分为更小单元；视图可自定义过滤器并保存分享；页面功能支持记录和整理想法，具备 AI 能力与富文本编辑；分析功能提供跨数据的实时洞察。",
-      "windows": [
-        "daily"
-      ],
-      "added_at": "2026-10-12T12:11:02+00:00",
-      "last_seen": "2026-10-12",
-      "seen_count": 1,
+      "stars": 59760,
+      "forks": 9763,
+      "homepage": "https://twenty.com",
+      "license": "NOASSERTION",
+      "created_at": "2022-12-01T13:04:40Z",
+      "pushed_at": "2026-10-26T07:45:46Z",
+      "updated_at": "2026-10-26T07:45:12Z",
+      "open_issues": 144,
+      "summary": "Twenty 是 Salesforce 的开源替代方案，定位为面向 AI 设计的 CRM，主要用 TypeScript 编写。它面向技术团队，提供对象、字段、视图、工作流和智能体等基础构件，让团队像对待代码一样构建、发布和版本化管理符合自身复杂业务需求的定制 CRM，并随业务变化快速调整。使用上，既可在 twenty.com 注册云端工作区快速上手，也可通过 Docker Compose 自托管；开发侧可用 Twenty CLI 脚手架创建应用，把对象、字段和视图以代码形式定义后发布到工作区，还提供面向编码智能体的官方技能。",
       "tags": [
         "app"
       ],
       "primary_tag": "app",
       "domains": [
-        "productivity"
+        "productivity",
+        "web"
       ],
-      "primary_domain": "productivity"
+      "primary_domain": "productivity",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-26T07:46:49+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 1
     },
     {
       "owner": "pmndrs",
@@ -1706,21 +2233,21 @@
       "url": "https://github.com/pmndrs/zustand",
       "description": "🐻 Bear necessities for state management in React",
       "language": "TypeScript",
-      "stars": 58810,
-      "forks": 2198,
+      "stars": 58873,
+      "forks": 2173,
       "homepage": "https://zustand-demo.pmnd.rs/",
       "license": "MIT",
       "created_at": "2019-04-09T09:10:06Z",
-      "pushed_at": "2026-10-05T23:04:12Z",
-      "updated_at": "2026-10-13T03:06:54Z",
-      "open_issues": 7,
+      "pushed_at": "2026-10-22T04:23:23Z",
+      "updated_at": "2026-10-26T06:56:43Z",
+      "open_issues": 4,
       "summary": "Zustand 是一个基于简化 Flux 原则的 React 状态管理库，用 TypeScript 编写，以体积小、速度快、可扩展为目标。它通过 hooks 提供 API，无需用 context provider 包裹应用，也不强制特定写法，能减少模板代码。它处理了僵尸子组件、React 并发渲染以及混合渲染器间 context 丢失等常见问题。使用时先创建 store，store 本身就是一个 hook，可存放原始值、对象或函数，状态需不可变更新，set 默认合并状态。组件通过选择器订阅所需状态，仅在变化时重渲染，并支持 useShallow 或自定义相等函数控制重渲染。",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-12T12:11:02+00:00",
-      "last_seen": "2026-10-12",
-      "seen_count": 1,
+      "last_seen": "2026-10-26",
+      "seen_count": 2,
       "tags": [
         "library"
       ],
@@ -1737,21 +2264,21 @@
       "url": "https://github.com/appwrite/appwrite",
       "description": "The open-source cloud for agents & devs. Including Auth, Databases, Storage, Functions, Messaging, Hosting, Realtime, WAF and more",
       "language": "TypeScript",
-      "stars": 57652,
-      "forks": 5780,
+      "stars": 57758,
+      "forks": 5820,
       "homepage": "https://appwrite.io",
       "license": "BSD-3-Clause",
       "created_at": "2019-04-08T16:36:25Z",
-      "pushed_at": "2026-10-13T03:28:13Z",
-      "updated_at": "2026-10-13T02:37:52Z",
-      "open_issues": 769,
+      "pushed_at": "2026-10-26T07:45:52Z",
+      "updated_at": "2026-10-26T05:20:15Z",
+      "open_issues": 847,
       "summary": "Appwrite 是一个面向 AI 代理与开发者的开源云平台，用 TypeScript 编写，提供构建和扩展应用所需的后端能力。它把身份认证、数据库、存储、函数、消息推送、实时通信、前端托管和防火墙等模块整合在一起，让开发者无需自行拼装多个后端服务。平台以 MCP 和代理优先为设计思路，内置 MCP 支持，Cursor、Claude Code、Codex 等编码代理可通过托管 MCP 服务器直接操作真实的 Appwrite 项目，无需手动管理 API 密钥。它既提供托管云服务，也支持在自有基础设施上自托管，通过 Docker 一条命令即可完成安装。",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-10T22:23:37+00:00",
-      "last_seen": "2026-10-10",
-      "seen_count": 2,
+      "last_seen": "2026-10-26",
+      "seen_count": 3,
       "tags": [
         "app",
         "framework"
@@ -1771,21 +2298,21 @@
       "url": "https://github.com/agalwood/Motrix",
       "description": "A full-featured download manager.",
       "language": "TypeScript",
-      "stars": 56606,
-      "forks": 5071,
+      "stars": 57429,
+      "forks": 5120,
       "homepage": "https://motrix.app",
       "license": "NOASSERTION",
       "created_at": "2018-12-18T11:45:05Z",
-      "pushed_at": "2026-10-12T21:56:43Z",
-      "updated_at": "2026-10-13T03:32:00Z",
-      "open_issues": 150,
+      "pushed_at": "2026-10-25T12:30:10Z",
+      "updated_at": "2026-10-26T07:39:00Z",
+      "open_issues": 166,
       "summary": "Motrix 是一款功能完整的桌面下载管理器，支持 HTTP、FTP、BitTorrent、磁力链接等常见下载方式。它要解决的是下载任务分散、管理不便的问题，通过统一界面集中处理各类链接和种子文件。当前 v2 版本（Motrix Turbo）使用 Electron、React 和 TypeScript 重写，下载核心与界面相互独立，浏览器扩展和命令行工具通过基于 JSON-RPC 2.0 的 MDXP 协议与应用通信，插件运行在隔离沙箱中。",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-12T12:11:02+00:00",
-      "last_seen": "2026-10-12",
-      "seen_count": 1,
+      "last_seen": "2026-10-26",
+      "seen_count": 2,
       "tags": [
         "app"
       ],
@@ -1797,27 +2324,89 @@
       "primary_domain": "productivity"
     },
     {
+      "owner": "laurent22",
+      "name": "joplin",
+      "full_name": "laurent22/joplin",
+      "url": "https://github.com/laurent22/joplin",
+      "description": "Joplin - the privacy-focused note taking app with sync capabilities for Windows, macOS, Linux, Android and iOS.",
+      "language": "TypeScript",
+      "stars": 56876,
+      "forks": 6371,
+      "homepage": "https://joplinapp.org",
+      "license": "NOASSERTION",
+      "created_at": "2017-01-16T21:49:41Z",
+      "pushed_at": "2026-10-25T22:43:43Z",
+      "updated_at": "2026-10-26T07:20:37Z",
+      "open_issues": 650,
+      "summary": "Joplin 是一款免费的开源笔记与待办应用，支持 Windows、macOS、Linux、Android 和 iOS，主要用 TypeScript 开发。它面向需要管理大量笔记、又在意数据隐私的用户，把笔记按笔记本组织，支持搜索、复制、打标签和修改，笔记以 Markdown 格式保存，也可用外部文本编辑器编辑。它坚持离线优先，所有数据都保存在本地设备上，无网络时也能访问；同步时通过端到端加密对接 Nextcloud、Dropbox、OneDrive 和 Joplin Cloud 等服务。",
+      "tags": [
+        "app"
+      ],
+      "primary_tag": "app",
+      "domains": [
+        "productivity"
+      ],
+      "primary_domain": "productivity",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-26T07:46:49+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 1
+    },
+    {
+      "owner": "remix-run",
+      "name": "react-router",
+      "full_name": "remix-run/react-router",
+      "url": "https://github.com/remix-run/react-router",
+      "description": "Declarative routing for React",
+      "language": "TypeScript",
+      "stars": 56627,
+      "forks": 10956,
+      "homepage": "https://reactrouter.com",
+      "license": "MIT",
+      "created_at": "2014-05-16T22:22:51Z",
+      "pushed_at": "2026-10-23T20:18:38Z",
+      "updated_at": "2026-10-26T07:08:17Z",
+      "open_issues": 239,
+      "summary": "React Router 是面向 React 的声明式路由库，用 TypeScript 编写，提供多策略的路由方案。它既可以作为完整的 React 框架最大化使用，也可以作为最小化库嵌入开发者自有的架构中，从而适配从全栈框架到轻量集成的不同需求。项目主要解决 React 应用中的路由与导航问题，围绕 react-router 核心包，还提供 create-react-router 脚手架以及面向 Node、Express、Cloudflare、Architect 等运行环境的适配包，并支持文件系统路由（@react-router/fs-routes）与服务端渲染部署（@react-route。",
+      "tags": [
+        "library"
+      ],
+      "primary_tag": "library",
+      "domains": [
+        "web"
+      ],
+      "primary_domain": "web",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-26T07:46:49+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 1
+    },
+    {
       "owner": "TryGhost",
       "name": "Ghost",
       "full_name": "TryGhost/Ghost",
       "url": "https://github.com/TryGhost/Ghost",
       "description": "Independent technology for modern publishing, memberships, subscriptions and newsletters.",
       "language": "TypeScript",
-      "stars": 55524,
-      "forks": 11989,
+      "stars": 55607,
+      "forks": 12022,
       "homepage": "https://ghost.org",
       "license": "MIT",
       "created_at": "2013-05-04T11:09:13Z",
-      "pushed_at": "2026-10-13T00:45:05Z",
-      "updated_at": "2026-10-13T00:57:59Z",
-      "open_issues": 187,
+      "pushed_at": "2026-10-26T07:39:48Z",
+      "updated_at": "2026-10-26T07:45:11Z",
+      "open_issues": 243,
       "summary": "Ghost 是一套面向现代出版场景的独立技术平台，使用 TypeScript 开发，覆盖内容发布、会员管理、订阅与newsletter等需求。它解决的是创作者和媒体团队在自建内容业务时，需要分别拼凑发布系统、付费墙和邮件推送工具的问题，将这些能力整合到一个可自行部署的系统中。核心特点包括支持会员与订阅体系、newsletter 分发，并提供官方 CLI 工具简化安装：本地环境加 local 参数可快速启动，服务器上可运行完整安装并借助 LetsEncrypt 自动配置 SSL。",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-12T12:11:02+00:00",
-      "last_seen": "2026-10-12",
-      "seen_count": 1,
+      "last_seen": "2026-10-26",
+      "seen_count": 2,
       "tags": [
         "app"
       ],
@@ -1828,27 +2417,93 @@
       "primary_domain": "web"
     },
     {
+      "owner": "FlowiseAI",
+      "name": "Flowise",
+      "full_name": "FlowiseAI/Flowise",
+      "url": "https://github.com/FlowiseAI/Flowise",
+      "description": "Build AI Agents, Visually",
+      "language": "TypeScript",
+      "stars": 55528,
+      "forks": 25086,
+      "homepage": "https://flowiseai.com",
+      "license": "NOASSERTION",
+      "created_at": "2023-03-31T12:23:09Z",
+      "pushed_at": "2026-08-13T12:38:19Z",
+      "updated_at": "2026-10-26T04:14:45Z",
+      "open_issues": 1041,
+      "archived": true,
+      "summary": "Flowise 是一个用 TypeScript 编写的可视化 AI 智能体构建工具，官方定位为“Build AI Agents, Visually”。它要解决的问题是让开发者无需从零编写编排逻辑，就能通过图形界面搭建基于大模型的智能体与工作流。项目采用单仓库多模块结构，包含负责 API 逻辑的 Node 后端 server、React 前端 ui、第三方节点集成 components，以及由 express 自动生成的 Swagger API 文档。使用上支持两种快速上手方式：本地安装 Node.",
+      "tags": [
+        "app",
+        "framework"
+      ],
+      "primary_tag": "app",
+      "domains": [
+        "ai",
+        "devtools"
+      ],
+      "primary_domain": "ai",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-26T07:46:49+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 1
+    },
+    {
+      "owner": "vuejs",
+      "name": "core",
+      "full_name": "vuejs/core",
+      "url": "https://github.com/vuejs/core",
+      "description": "🖖 Vue.js is a progressive, incrementally-adoptable JavaScript framework for building UI on the web.",
+      "language": "TypeScript",
+      "stars": 54886,
+      "forks": 9271,
+      "homepage": "https://vuejs.org/",
+      "license": "MIT",
+      "created_at": "2018-06-12T13:49:36Z",
+      "pushed_at": "2026-10-26T07:18:27Z",
+      "updated_at": "2026-10-26T06:23:38Z",
+      "open_issues": 941,
+      "summary": "Vue.js 核心仓库是面向 Web 界面构建的渐进式 JavaScript 框架源码，主要使用 TypeScript 编写。它解决的是前端开发中视图层与交互逻辑的组织问题，允许开发者按需引入能力，从简单的页面局部增强逐步扩展到完整的单页应用。框架提供响应式数据绑定与组件化开发等核心能力，官方文档站 vuejs.org 提供入门指引。该仓库主要承载框架本身的实现，问题列表仅用于缺陷报告和功能请求，使用疑问需前往官方论坛或社区聊天渠道；贡献代码前需阅读贡献指南。典型使用场景包括构建交互式网页界面与前端应用，技术栈以 TypeScript 为主，适合需要渐进采用框架能力的前端项目。",
+      "tags": [
+        "framework",
+        "library"
+      ],
+      "primary_tag": "framework",
+      "domains": [
+        "web"
+      ],
+      "primary_domain": "web",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-26T07:46:49+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 1
+    },
+    {
       "owner": "lyswhut",
       "name": "lx-music-desktop",
       "full_name": "lyswhut/lx-music-desktop",
       "url": "https://github.com/lyswhut/lx-music-desktop",
       "description": "一个基于 Electron 的音乐软件",
       "language": "TypeScript",
-      "stars": 54399,
-      "forks": 7057,
+      "stars": 54777,
+      "forks": 7084,
       "homepage": "https://lyswhut.github.io/lx-music-doc/",
       "license": "Apache-2.0",
       "created_at": "2019-08-14T14:31:08Z",
-      "pushed_at": "2026-10-07T03:41:50Z",
-      "updated_at": "2026-10-13T03:24:15Z",
-      "open_issues": 1293,
+      "pushed_at": "2026-10-26T04:57:55Z",
+      "updated_at": "2026-10-26T07:29:55Z",
+      "open_issues": 1303,
       "summary": "LX Music 桌面版是一款基于 Electron 与 Vue 3 开发的音乐软件，支持 Linux、macOS 和 Windows 7 及以上平台。它本身不提供音频数据，而是通过用户配置的“自定义源”获取在线播放链接，从而聚合酷我、酷狗、咪咕等平台的公开数据，解决多平台音乐分散检索与播放的问题。核心能力包括音乐播放列表管理、Scheme URL 调用、开放 API 服务以及可部署的私人数据同步服务，数据默认存储在系统配置目录，Windows 下支持便携模式。典型场景是用户自行调整设置与快捷键后，在桌面端统一管理和播放来自不同源的音乐。",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-12T12:11:02+00:00",
-      "last_seen": "2026-10-12",
-      "seen_count": 1,
+      "last_seen": "2026-10-26",
+      "seen_count": 2,
       "tags": [
         "app"
       ],
@@ -1859,27 +2514,158 @@
       "primary_domain": "media"
     },
     {
+      "owner": "ChromeDevTools",
+      "name": "chrome-devtools-mcp",
+      "full_name": "ChromeDevTools/chrome-devtools-mcp",
+      "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+      "description": "Chrome DevTools for coding agents",
+      "language": "TypeScript",
+      "stars": 54164,
+      "forks": 5888,
+      "homepage": "https://developer.chrome.com/docs/devtools/agents",
+      "license": "Apache-2.0",
+      "created_at": "2025-09-11T10:39:55Z",
+      "pushed_at": "2026-10-26T05:27:10Z",
+      "updated_at": "2026-10-26T07:08:24Z",
+      "open_issues": 114,
+      "summary": "Chrome DevTools for agents（chrome-devtools-mcp）是 Chrome 官方团队维护的 TypeScript 项目，为 AI 编码助手提供控制与检查真实 Chrome 浏览器的能力。它以 Model Context Protocol 服务器和命令行工具两种形式发布，让 Antigravity、Claude、Cursor、Copilot 等客户端能够调用 Chrome DevTools 的完整功能。",
+      "tags": [
+        "tool",
+        "plugin"
+      ],
+      "primary_tag": "tool",
+      "domains": [
+        "devtools",
+        "ai"
+      ],
+      "primary_domain": "devtools",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-26T07:46:49+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 1
+    },
+    {
+      "owner": "expo",
+      "name": "expo",
+      "full_name": "expo/expo",
+      "url": "https://github.com/expo/expo",
+      "description": "An open-source framework for making universal native apps with React. Expo runs on Android, iOS, and the web.",
+      "language": "TypeScript",
+      "stars": 53086,
+      "forks": 14774,
+      "homepage": "https://docs.expo.dev",
+      "license": "MIT",
+      "created_at": "2016-08-15T17:14:25Z",
+      "pushed_at": "2026-10-26T07:44:06Z",
+      "updated_at": "2026-10-26T06:50:26Z",
+      "open_issues": 1024,
+      "summary": "Expo 是一个用 React 构建通用原生应用的开源框架，应用可同时运行在 Android、iOS 和 Web 上。它提供通用运行时和一系列库，让开发者用 React 和 JavaScript 编写原生应用，从而用一套代码覆盖多个平台，减少为不同系统分别开发的工作量。仓库本身包含 Expo SDK、Modules API、Go 应用、CLI、Router、文档及其他配套工具；其中 packages 存放各模块源码，apps 用于存放与开发模块关联的测试项目，templates 提供通过 npx create-expo-app 创建项目时的模板，react-native-lab 是用于构建。",
+      "tags": [
+        "framework",
+        "library"
+      ],
+      "primary_tag": "framework",
+      "domains": [
+        "mobile",
+        "web"
+      ],
+      "primary_domain": "mobile",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-26T07:46:49+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 1
+    },
+    {
+      "owner": "CherryHQ",
+      "name": "cherry-studio",
+      "full_name": "CherryHQ/cherry-studio",
+      "url": "https://github.com/CherryHQ/cherry-studio",
+      "description": "AI productivity studio with smart chat, autonomous agents, and 300+ assistants. Unified access to frontier LLMs",
+      "language": "TypeScript",
+      "stars": 52988,
+      "forks": 5130,
+      "homepage": "https://cherryai.com",
+      "license": "AGPL-3.0",
+      "created_at": "2024-05-24T01:56:26Z",
+      "pushed_at": "2026-10-26T07:42:33Z",
+      "updated_at": "2026-10-26T07:41:01Z",
+      "open_issues": 2147,
+      "summary": "Cherry Studio 是一款面向 Windows、macOS 和 Linux 的 AI 工作站，用 TypeScript 开发，把多模型对话、智能体、知识库、图像生成和日常自动化整合到一个桌面应用里。它要解决的是用户在多个 AI 服务之间来回切换、工具分散的问题：可以统一接入 OpenAI、Anthropic、Gemini 等云端模型，也能通过 Ollama 和 LM Studio 使用本地模型，并在同一会话中对比多个模型的回答。",
+      "tags": [
+        "app"
+      ],
+      "primary_tag": "app",
+      "domains": [
+        "ai",
+        "productivity"
+      ],
+      "primary_domain": "ai",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-26T07:46:49+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 1
+    },
+    {
+      "owner": "ionic-team",
+      "name": "ionic-framework",
+      "full_name": "ionic-team/ionic-framework",
+      "url": "https://github.com/ionic-team/ionic-framework",
+      "description": "A powerful cross-platform UI toolkit for building native-quality iOS, Android, and Progressive Web Apps with HTML, CSS, and JavaScript.",
+      "language": "TypeScript",
+      "stars": 52719,
+      "forks": 13299,
+      "homepage": "https://ionicframework.com",
+      "license": "MIT",
+      "created_at": "2013-08-20T23:06:02Z",
+      "pushed_at": "2026-10-24T03:09:41Z",
+      "updated_at": "2026-10-26T07:19:52Z",
+      "open_issues": 519,
+      "summary": "Ionic Framework 是一个基于 Web Components 的跨平台 UI 工具包，用 HTML、CSS 和 JavaScript 从单一代码库构建面向 iOS、Android 的原生质感应用与渐进式 Web 应用。它主要解决跨平台开发中界面一致性与复用问题，让开发者用 Web 技术栈同时覆盖移动端和 Web 端。",
+      "tags": [
+        "framework",
+        "library"
+      ],
+      "primary_tag": "framework",
+      "domains": [
+        "web",
+        "mobile"
+      ],
+      "primary_domain": "web",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-26T07:46:49+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 1
+    },
+    {
       "owner": "DefinitelyTyped",
       "name": "DefinitelyTyped",
       "full_name": "DefinitelyTyped/DefinitelyTyped",
       "url": "https://github.com/DefinitelyTyped/DefinitelyTyped",
       "description": "The repository for high quality TypeScript type definitions.",
       "language": "TypeScript",
-      "stars": 51444,
-      "forks": 30348,
+      "stars": 51452,
+      "forks": 30337,
       "homepage": "",
       "license": "NOASSERTION",
       "created_at": "2012-10-05T16:39:45Z",
-      "pushed_at": "2026-10-12T22:39:32Z",
-      "updated_at": "2026-10-12T22:40:48Z",
-      "open_issues": 724,
+      "pushed_at": "2026-10-26T00:07:26Z",
+      "updated_at": "2026-10-26T05:13:06Z",
+      "open_issues": 720,
       "summary": "DefinitelyTyped 是集中维护高质量 TypeScript 类型声明的仓库，解决 npm 上大量 JavaScript 包缺少类型定义、导致开发者在 TypeScript 中失去类型检查与智能提示的问题。它收录当前实际被使用的包的类型文件，而非追求覆盖所有 npm 包，新增定义需有真实使用动机。核心能力是为无内置类型的包提供 @types/foo 形式的声明，安装后由编译器自动引入，也可通过 types 引用或 /// 指令手动加载。仓库已改为 pnpm monorepo，使用 dtslint 与 attw 检查类型、模块格式和 package.",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-12T12:11:02+00:00",
-      "last_seen": "2026-10-12",
-      "seen_count": 1,
+      "last_seen": "2026-10-26",
+      "seen_count": 2,
       "tags": [
         "library"
       ],
@@ -1890,27 +2676,223 @@
       "primary_domain": "devtools"
     },
     {
+      "owner": "justjavac",
+      "name": "wechat-miniapp-radar",
+      "full_name": "justjavac/wechat-miniapp-radar",
+      "url": "https://github.com/justjavac/wechat-miniapp-radar",
+      "description": ":traffic_light:小程序雷达：AI 驱动的小程序技术选型、趋势追踪和迁移诊断工具",
+      "language": "TypeScript",
+      "stars": 51177,
+      "forks": 8970,
+      "homepage": "https://miniapp.jjc.fun",
+      "license": "GPL-3.0",
+      "created_at": "2016-09-22T20:04:48Z",
+      "pushed_at": "2026-10-02T01:03:25Z",
+      "updated_at": "2026-10-25T01:29:58Z",
+      "open_issues": 0,
+      "summary": "小程序雷达是一个用 TypeScript 开发的 AI 驱动工具，面向微信小程序生态的技术选型与风险评估，把分散的开发资源整理成可筛选、可评估、可对比的技术雷达。它主要解决团队在 Taro、uni-app、原生小程序、组件库、云开发和 SDK 之间难以判断适用性与迁移风险的问题。核心能力包括：Radar 按推荐状态、风险等级、资源类型、分类和适用场景浏览资源；Quick Search 快速检索并跳转；Compare 对比核心方案；Advisor 根据选型问题给出推荐结论、适用与不适用条件、迁移成本、下一步和证据来源；Doctor 通过粘贴项目配置识别框架依赖、过时方案和迁移风险；Weekly。",
+      "tags": [
+        "tool"
+      ],
+      "primary_tag": "tool",
+      "domains": [
+        "devtools",
+        "ai"
+      ],
+      "primary_domain": "devtools",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-26T07:46:49+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 1
+    },
+    {
+      "owner": "tldraw",
+      "name": "tldraw",
+      "full_name": "tldraw/tldraw",
+      "url": "https://github.com/tldraw/tldraw",
+      "description": "Build infinite canvas apps in React with the tldraw SDK. World's best, top-most agent recommended #1 five star SDK.",
+      "language": "TypeScript",
+      "stars": 51090,
+      "forks": 3576,
+      "homepage": "https://tldraw.dev",
+      "license": "NOASSERTION",
+      "created_at": "2021-05-09T11:48:37Z",
+      "pushed_at": "2026-10-25T14:41:30Z",
+      "updated_at": "2026-10-26T05:31:25Z",
+      "open_issues": 566,
+      "summary": "tldraw 是一个基于 TypeScript 和 React 的无限画布 SDK，用于构建各类画布应用。它提供功能完整的画布引擎，开发者可在此基础上自定义形状、工具、绑定和 UI 组件，既能直接使用默认白板工具集，也能借助底层原语构建全新的交互方式。核心能力包括：通过 @tldraw/sync 实现可自托管的实时多人协作；支持压感绘图、几何图形、富文本、箭头、吸附对齐、边缘滚动以及图片视频嵌入与导出；提供 Editor API 在运行时驱动画布；具备完整扩展机制，支持自定义副作用与事件钩子；内置面向 LLM 的 AI 集成原语；基于 DOM 渲染，可嵌入 YouTube、Figma、Git。",
+      "tags": [
+        "library",
+        "framework"
+      ],
+      "primary_tag": "library",
+      "domains": [
+        "graphics",
+        "web",
+        "productivity"
+      ],
+      "primary_domain": "graphics",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-26T07:46:49+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 1
+    },
+    {
+      "owner": "upscayl",
+      "name": "upscayl",
+      "full_name": "upscayl/upscayl",
+      "url": "https://github.com/upscayl/upscayl",
+      "description": "🆙 Upscayl - #1 Free and Open Source AI Image Upscaler for Linux, MacOS and Windows.",
+      "language": "TypeScript",
+      "stars": 51052,
+      "forks": 2638,
+      "homepage": "https://upscayl.org",
+      "license": "AGPL-3.0",
+      "created_at": "2022-07-30T17:19:20Z",
+      "pushed_at": "2026-10-05T19:13:12Z",
+      "updated_at": "2026-10-26T07:44:41Z",
+      "open_issues": 47,
+      "summary": "Upscayl 是一款免费的开源 AI 图像放大工具，支持 Linux、macOS 和 Windows，界面基于 TypeScript 构建。它用 AI 模型推测图像细节，把低分辨率图片放大并增强，尽量不损失画质，适合处理像素化或分辨率偏低的图片；但它不能去模糊或调整对焦，失焦图片并不适用。技术上它依赖 Real-ESRGAN 与 Vulkan 架构，需要兼容 Vulkan 的显卡，多数集成显卡和纯 CPU 环境无法运行。",
+      "tags": [
+        "app"
+      ],
+      "primary_tag": "app",
+      "domains": [
+        "media",
+        "ai"
+      ],
+      "primary_domain": "media",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-26T07:46:49+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 1
+    },
+    {
+      "owner": "cypress-io",
+      "name": "cypress",
+      "full_name": "cypress-io/cypress",
+      "url": "https://github.com/cypress-io/cypress",
+      "description": "Fast, easy and reliable testing for anything that runs in a browser.",
+      "language": "TypeScript",
+      "stars": 51016,
+      "forks": 3597,
+      "homepage": "https://cypress.io",
+      "license": "MIT",
+      "created_at": "2015-03-04T00:46:28Z",
+      "pushed_at": "2026-10-26T04:42:19Z",
+      "updated_at": "2026-10-26T00:35:12Z",
+      "open_issues": 1153,
+      "summary": "Cypress 是一个用 TypeScript 编写的开源前端测试工具，面向任何在浏览器中运行的内容提供快速、简单且可靠的测试能力。它主要解决 Web 应用在浏览器环境下的自动化测试问题，让开发者能够编写并执行端到端测试，验证页面交互与功能是否符合预期。其核心特点在于测试运行快速、上手门槛低、结果稳定可靠，适合需要频繁回归验证的 Web 项目。典型使用场景包括对网页应用进行功能测试与集成测试，覆盖用户操作流程的自动化校验。Cypress 支持 Mac、Linux 和 Windows 平台安装，并提供完整的文档、更新日志与路线图，方便开发者查阅与跟进。",
+      "tags": [
+        "framework",
+        "tool"
+      ],
+      "primary_tag": "framework",
+      "domains": [
+        "devtools",
+        "web"
+      ],
+      "primary_domain": "devtools",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-26T07:46:49+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 1
+    },
+    {
+      "owner": "chenglou",
+      "name": "pretext",
+      "full_name": "chenglou/pretext",
+      "url": "https://github.com/chenglou/pretext",
+      "description": "Fast, accurate & comprehensive text measurement & layout",
+      "language": "TypeScript",
+      "stars": 50911,
+      "forks": 2763,
+      "homepage": "http://chenglou.me/pretext/",
+      "license": "NOASSERTION",
+      "created_at": "2026-03-07T21:06:28Z",
+      "pushed_at": "2026-10-15T17:09:24Z",
+      "updated_at": "2026-10-26T06:22:54Z",
+      "open_issues": 65,
+      "summary": "Pretext 是一个用 TypeScript 编写的纯 JavaScript/TypeScript 多行文本测量与排版库，支持 DOM、Canvas 和 SVG 渲染，能处理多种语言。它绕开 getBoundingClientRect、offsetHeight 等会触发浏览器重排的 DOM 测量，自行实现文本测量逻辑，并以浏览器字体引擎作为基准。",
+      "tags": [
+        "library"
+      ],
+      "primary_tag": "library",
+      "domains": [
+        "web",
+        "graphics"
+      ],
+      "primary_domain": "web",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-26T07:46:49+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 1
+    },
+    {
+      "owner": "moeru-ai",
+      "name": "airi",
+      "full_name": "moeru-ai/airi",
+      "url": "https://github.com/moeru-ai/airi",
+      "description": "💖🧸 Self hosted, you-owned Grok Companion, a container of souls of waifu, cyber livings to bring them into our worlds, wishing to achieve Neuro-sama's altitude. Capable of realtime voice chat, Minecraft, Factorio playing. Web / macOS / Windows supported.",
+      "language": "TypeScript",
+      "stars": 50733,
+      "forks": 5108,
+      "homepage": "https://airi.moeru.ai/docs/",
+      "license": "MIT",
+      "created_at": "2024-12-01T16:33:36Z",
+      "pushed_at": "2026-10-26T04:17:51Z",
+      "updated_at": "2026-10-26T07:43:59Z",
+      "open_issues": 247,
+      "summary": "AIRI 是一个自托管的数字生命与虚拟角色容器项目，目标是复刻 Neuro-sama 这类能聊天、能玩游戏的虚拟主播体验，让用户真正拥有自己的 AI 伙伴，而不必依赖某个下线即消失的直播服务。它解决的核心问题是：现有 Character.ai、SillyTavern 等方案擅长聊天，却缺少游戏操作与实时语音互动能力。",
+      "tags": [
+        "app"
+      ],
+      "primary_tag": "app",
+      "domains": [
+        "ai",
+        "desktop",
+        "web"
+      ],
+      "primary_domain": "ai",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-26T07:46:49+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 1
+    },
+    {
       "owner": "TanStack",
       "name": "query",
       "full_name": "TanStack/query",
       "url": "https://github.com/TanStack/query",
       "description": "🤖 Powerful asynchronous state management, server-state utilities and data fetching for the web. TS/JS, React Query, Solid Query, Svelte Query and Vue Query.",
       "language": "TypeScript",
-      "stars": 50419,
-      "forks": 4252,
+      "stars": 50482,
+      "forks": 4220,
       "homepage": "https://tanstack.com/query",
       "license": "MIT",
       "created_at": "2019-09-10T19:23:58Z",
-      "pushed_at": "2026-10-13T03:01:49Z",
-      "updated_at": "2026-10-13T03:00:00Z",
-      "open_issues": 168,
+      "pushed_at": "2026-10-26T07:36:05Z",
+      "updated_at": "2026-10-26T07:34:16Z",
+      "open_issues": 170,
       "summary": "TanStack Query 是一个用 TypeScript 编写的异步状态管理库，专注于简化服务端状态的获取、缓存、同步与更新。它不绑定具体请求协议，可配合 REST、GraphQL 或普通 Promise 使用，帮助开发者处理数据请求中常见的重复请求、缓存失效和状态不同步等问题。核心能力包括缓存与重新获取、分页与无限滚动、变更操作、依赖查询、后台更新、预取、请求取消以及对 React Suspense 的支持。",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-12T12:11:02+00:00",
-      "last_seen": "2026-10-12",
-      "seen_count": 1,
+      "last_seen": "2026-10-26",
+      "seen_count": 2,
       "tags": [
         "library"
       ],
@@ -1921,27 +2903,223 @@
       "primary_domain": "web"
     },
     {
+      "owner": "calcom",
+      "name": "cal.diy",
+      "full_name": "calcom/cal.diy",
+      "url": "https://github.com/calcom/cal.diy",
+      "description": "Scheduling infrastructure for absolutely everyone.",
+      "language": "TypeScript",
+      "stars": 49377,
+      "forks": 15441,
+      "homepage": "https://cal.diy",
+      "license": "MIT",
+      "created_at": "2021-03-22T13:47:42Z",
+      "pushed_at": "2026-10-26T06:15:27Z",
+      "updated_at": "2026-10-26T06:55:10Z",
+      "open_issues": 1546,
+      "summary": "Cal.diy 是 Cal.com 的开源社区版本，一个面向自托管用户的日程调度平台。它从 Cal.com 分叉而来，移除了全部企业版与商业代码，包括团队、组织、洞察、工作流、SSO/SAML 等功能，也无需许可证密钥或 Cal.com 账号即可运行，适合希望完全掌控调度基础设施、不依赖商业服务的个人和自托管者。项目基于 TypeScript，使用 Next.js、tRPC、React、Tailwind CSS、Prisma 和 Daily.co 构建，需要 Node.",
+      "tags": [
+        "app"
+      ],
+      "primary_tag": "app",
+      "domains": [
+        "productivity",
+        "web"
+      ],
+      "primary_domain": "productivity",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-26T07:46:49+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 1
+    },
+    {
+      "owner": "KeygraphHQ",
+      "name": "shannon",
+      "full_name": "KeygraphHQ/shannon",
+      "url": "https://github.com/KeygraphHQ/shannon",
+      "description": "Shannon is an AI pentester for web applications and APIs. It analyzes your source code, identifies attack vectors, and executes real exploits to prove vulnerabilities before they reach production.",
+      "language": "TypeScript",
+      "stars": 49356,
+      "forks": 5651,
+      "homepage": "https://keygraph.io/",
+      "license": "AGPL-3.0",
+      "created_at": "2025-09-27T01:51:47Z",
+      "pushed_at": "2026-10-15T21:05:19Z",
+      "updated_at": "2026-10-26T07:43:50Z",
+      "open_issues": 29,
+      "summary": "Shannon 是 Keygraph 开发的自主 AI 渗透测试工具，用 TypeScript 编写，面向 Web 应用及其 API。它先分析源代码，梳理架构、信任边界、接口与数据流，定位可能的攻击路径，再通过浏览器自动化和命令行工具对运行中的应用执行真实漏洞利用，只把有可复现验证的漏洞写入报告，以减少扫描器的推测性噪声。核心能力包括自主完成侦察、分析、利用和报告，支持带认证的测试（凭据、登录流程、TOTP、邮件认证），覆盖注入、XSS、SSRF、认证与授权缺陷，扫描可中断续跑，并输出 PDF、Markdown、JSON 和 SARIF 报告。",
+      "tags": [
+        "tool",
+        "app"
+      ],
+      "primary_tag": "tool",
+      "domains": [
+        "security",
+        "devops"
+      ],
+      "primary_domain": "security",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-26T07:46:49+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 1
+    },
+    {
+      "owner": "slidevjs",
+      "name": "slidev",
+      "full_name": "slidevjs/slidev",
+      "url": "https://github.com/slidevjs/slidev",
+      "description": "Presentation Slides for Developers",
+      "language": "TypeScript",
+      "stars": 49213,
+      "forks": 2247,
+      "homepage": "https://sli.dev",
+      "license": "MIT",
+      "created_at": "2021-04-24T01:25:23Z",
+      "pushed_at": "2026-10-23T06:54:55Z",
+      "updated_at": "2026-10-26T07:26:29Z",
+      "open_issues": 214,
+      "summary": "Slidev 是一个面向开发者的演示文稿工具，用 Markdown 编写幻灯片内容，同时保留 HTML 与 Vue 组件的表达能力。它解决的是传统幻灯片工具对代码展示不友好、内容与样式耦合过重的问题，让开发者可以专注写作，并用自己熟悉的编辑器完成制作。核心能力包括内置代码高亮与实时编码、基于 UnoCSS 的主题与样式定制、无缝嵌入 Vue 组件、演讲者模式、幻灯片绘图标注、LaTeX 数学公式、Mermaid 文本图表、图标集调用、集成编辑器与 VS Code 扩展、录制与摄像头画面，以及导出 PDF、PNG 或 PPTX。",
+      "tags": [
+        "app",
+        "framework"
+      ],
+      "primary_tag": "app",
+      "domains": [
+        "productivity",
+        "web"
+      ],
+      "primary_domain": "productivity",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-26T07:46:49+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 1
+    },
+    {
+      "owner": "type-challenges",
+      "name": "type-challenges",
+      "full_name": "type-challenges/type-challenges",
+      "url": "https://github.com/type-challenges/type-challenges",
+      "description": "Collection of TypeScript type challenges with online judge",
+      "language": "TypeScript",
+      "stars": 48543,
+      "forks": 5254,
+      "homepage": "https://tsch.js.org/",
+      "license": "MIT",
+      "created_at": "2020-07-23T14:33:11Z",
+      "pushed_at": "2026-10-26T04:40:30Z",
+      "updated_at": "2026-10-26T05:26:25Z",
+      "open_issues": 33334,
+      "summary": "Type Challenges 是一个基于 TypeScript 类型系统的在线挑战题库，汇集了大量类型编程题目并配有在线判题。它要解决的是开发者对 TypeScript 类型机制理解不深、难以自行编写类型工具的问题：通过一道道由易到难的练习，帮助使用者掌握条件类型、映射类型、联合与交叉等特性，从而写出可维护、能规避潜在 bug 的高质量类型。题目在严格模式下运行，可在 TypeScript Playground 在线作答，也可借助 VS Code 扩展或在本地 IDE 中生成 playground 目录离线练习。",
+      "tags": [
+        "doc",
+        "example"
+      ],
+      "primary_tag": "doc",
+      "domains": [
+        "learning",
+        "devtools"
+      ],
+      "primary_domain": "learning",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-26T07:46:49+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 1
+    },
+    {
+      "owner": "pixijs",
+      "name": "pixijs",
+      "full_name": "pixijs/pixijs",
+      "url": "https://github.com/pixijs/pixijs",
+      "description": "The HTML5 Creation Engine: Create beautiful digital content with the fastest, most flexible 2D WebGL renderer.",
+      "language": "TypeScript",
+      "stars": 48477,
+      "forks": 5109,
+      "homepage": "http://pixijs.com",
+      "license": "MIT",
+      "created_at": "2013-01-21T22:40:50Z",
+      "pushed_at": "2026-10-22T15:05:59Z",
+      "updated_at": "2026-10-26T07:27:45Z",
+      "open_issues": 409,
+      "summary": "PixiJS 是一个用 TypeScript 编写的 HTML5 创作引擎，提供基于 WebGL 与 WebGPU 的 2D 渲染能力，目标是让开发者在浏览器中创建交互式图形内容。它解决的是 Web 端高性能 2D 渲染问题：通过轻量且快速的渲染器，让图形应用在各类设备上保持流畅运行。核心能力包括资源加载器、完整的鼠标与多点触控支持、灵活的文字渲染、基础图形与 SVG 绘制、动态纹理、遮罩、滤镜以及高级混合模式，并提供易用而功能强大的 API。",
+      "tags": [
+        "library"
+      ],
+      "primary_tag": "library",
+      "domains": [
+        "graphics",
+        "web"
+      ],
+      "primary_domain": "graphics",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-26T07:46:49+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 1
+    },
+    {
+      "owner": "abhigyanpatwari",
+      "name": "GitNexus",
+      "full_name": "abhigyanpatwari/GitNexus",
+      "url": "https://github.com/abhigyanpatwari/GitNexus",
+      "description": "GitNexus: The Zero-Server Code Intelligence Engine ",
+      "language": "TypeScript",
+      "stars": 48040,
+      "forks": 5203,
+      "homepage": "https://gitnexus.vercel.app",
+      "license": "NOASSERTION",
+      "created_at": "2025-08-02T23:20:31Z",
+      "pushed_at": "2026-10-26T06:54:05Z",
+      "updated_at": "2026-10-26T06:14:45Z",
+      "open_issues": 293,
+      "summary": "GitNexus 是一个用 TypeScript 编写的零服务器代码智能引擎，它把代码库索引成由符号、调用关系、依赖和执行流程构成的知识图谱，帮助开发者回答“谁调用了这个函数”“这处改动会影响什么”这类问题。它通过编码代理的 MCP 工具、命令行或网页图谱浏览器使用，支持 C、C++、C#、COBOL、Dart、Go、Java、JavaScript、Kotlin、Objective-C、PHP、Python、Ruby、Rust、Swift、TypeScript、Vue 和 Zig 等语言。analyze 命令负责构建索引、安装代理技能并写入 AGENTS.md 与 CLAUDE.",
+      "tags": [
+        "app",
+        "tool"
+      ],
+      "primary_tag": "app",
+      "domains": [
+        "devtools",
+        "ai"
+      ],
+      "primary_domain": "devtools",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-26T07:46:49+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 1
+    },
+    {
       "owner": "prisma",
       "name": "orm",
       "full_name": "prisma/orm",
       "url": "https://github.com/prisma/orm",
-      "description": "Next-generation ORM for Node.js & TypeScript | PostgreSQL, MySQL, MariaDB, SQL Server, SQLite, MongoDB and CockroachDB",
+      "description": "The Prisma ORM: write your application in TypeScript with human-readable queries instead of SQL. Host your database on Prisma Postgres and your app on Prisma Compute.",
       "language": "TypeScript",
-      "stars": 47695,
-      "forks": 2547,
+      "stars": 47669,
+      "forks": 2523,
       "homepage": "https://www.prisma.io",
       "license": "Apache-2.0",
       "created_at": "2019-06-20T13:33:47Z",
-      "pushed_at": "2026-10-12T19:29:30Z",
-      "updated_at": "2026-10-12T17:48:57Z",
-      "open_issues": 2758,
+      "pushed_at": "2026-10-26T06:59:27Z",
+      "updated_at": "2026-10-26T06:44:30Z",
+      "open_issues": 2810,
       "summary": "Prisma 8 是面向 Node.js 与 TypeScript 的下一代 ORM，用 TypeScript 重写，目标是可扩展、可组合，并默认适配 AI 智能体。它解决的是数据库访问层的建模与查询问题，支持 PostgreSQL 和 MongoDB 一等公民支持，SQLite 处于概念验证阶段，MySQL 排在其后。核心特点是极简内核，连 Postgres 支持本身都构建在公开 SPI 之上，扩展作者可据此集成自己的工具、数据库或库，已有 pgvector、PostGIS、ParadeDB、Supabase、arktype JSON 校验、可搜索加密等扩展。",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-12T12:11:02+00:00",
-      "last_seen": "2026-10-12",
-      "seen_count": 1,
+      "last_seen": "2026-10-26",
+      "seen_count": 2,
       "tags": [
         "library"
       ],
@@ -1952,27 +3130,58 @@
       "primary_domain": "data"
     },
     {
+      "owner": "slab",
+      "name": "quill",
+      "full_name": "slab/quill",
+      "url": "https://github.com/slab/quill",
+      "description": "Quill is a modern WYSIWYG editor built for compatibility and extensibility",
+      "language": "TypeScript",
+      "stars": 47372,
+      "forks": 3669,
+      "homepage": "https://quilljs.com",
+      "license": "BSD-3-Clause",
+      "created_at": "2012-07-30T23:23:18Z",
+      "pushed_at": "2025-07-25T06:09:23Z",
+      "updated_at": "2026-10-26T05:17:54Z",
+      "open_issues": 664,
+      "summary": "Quill 是一个现代化的富文本编辑器，使用 TypeScript 编写，由 Jason Chen 和 Byron Milligan 创建，目前由 Slab 团队持续维护。它主要解决在网页中嵌入所见即所得编辑能力的问题，设计上强调浏览器兼容性与可扩展性，方便开发者根据需求定制编辑体验。使用时只需通过 CSS 选择器指定一个 div 元素，即可实例化 Quill 对象，将其变为编辑器，上手门槛较低。项目提供 CDN 引入方式，官网包含文档、指南和在线演示环境，便于快速了解功能与调试。社区支持渠道包括 Issues 和 Discussions，用户可以反馈问题或参与交流。",
+      "tags": [
+        "library"
+      ],
+      "primary_tag": "library",
+      "domains": [
+        "web"
+      ],
+      "primary_domain": "web",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-26T07:46:49+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 1
+    },
+    {
       "owner": "typescript-cheatsheets",
       "name": "react",
       "full_name": "typescript-cheatsheets/react",
       "url": "https://github.com/typescript-cheatsheets/react",
       "description": "Cheatsheets for experienced React developers getting started with TypeScript",
       "language": "TypeScript",
-      "stars": 47095,
-      "forks": 4270,
+      "stars": 47089,
+      "forks": 4267,
       "homepage": "https://react-typescript-cheatsheet.netlify.app",
       "license": "MIT",
       "created_at": "2018-06-02T04:08:16Z",
       "pushed_at": "2026-09-09T17:26:52Z",
-      "updated_at": "2026-10-12T20:15:34Z",
+      "updated_at": "2026-10-25T16:18:03Z",
       "open_issues": 0,
       "summary": "React TypeScript Cheatsheet 是一份面向有经验的 React 开发者的速查手册，帮助他们在使用 TypeScript 时更高效地编写代码。它解决的是 React 与 TypeScript 结合时的类型定义困惑，提供带有明确倾向性的最佳实践和可直接复制的示例。内容覆盖基础类型与项目搭建，也深入讲解泛型在自定义 Hook 和 React+TS 库中的应用，并包含为 DefinitelyTyped 贡献代码的建议。",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-12T12:11:02+00:00",
-      "last_seen": "2026-10-12",
-      "seen_count": 1,
+      "last_seen": "2026-10-26",
+      "seen_count": 2,
       "tags": [
         "doc"
       ],
@@ -1984,27 +3193,91 @@
       "primary_domain": "learning"
     },
     {
+      "owner": "siyuan-note",
+      "name": "siyuan",
+      "full_name": "siyuan-note/siyuan",
+      "url": "https://github.com/siyuan-note/siyuan",
+      "description": "An open-source, privacy-first, self-hosted knowledge workspace where humans and AI agents work together 开源、隐私优先、自托管的知识工作空间，让人与智能体在此协作",
+      "language": "TypeScript",
+      "stars": 46938,
+      "forks": 3089,
+      "homepage": "https://b3log.org/siyuan",
+      "license": "AGPL-3.0",
+      "created_at": "2020-08-30T09:21:35Z",
+      "pushed_at": "2026-10-26T05:56:24Z",
+      "updated_at": "2026-10-26T07:39:08Z",
+      "open_issues": 10,
+      "summary": "思源笔记（SiYuan）是一个开源、隐私优先、可自托管的知识工作空间，让人与 AI 智能体在同一环境中协作。它以 TypeScript 为主要开发语言，核心是用块级引用和双向链接组织内容，同时提供 Markdown 所见即所得编辑，支持百万字大文档、数学公式、图表、PDF 标注链接与网页剪藏。数据保存在本地工作区，文档以 JSON 格式的 .sy 文件存储，不依赖第三方同步盘，可通过第三方云存储同步。",
+      "tags": [
+        "app"
+      ],
+      "primary_tag": "app",
+      "domains": [
+        "productivity",
+        "ai"
+      ],
+      "primary_domain": "productivity",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-26T07:46:49+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 1
+    },
+    {
+      "owner": "DIYgod",
+      "name": "RSSHub",
+      "full_name": "DIYgod/RSSHub",
+      "url": "https://github.com/DIYgod/RSSHub",
+      "description": "🧡 Everything is RSSible",
+      "language": "TypeScript",
+      "stars": 46665,
+      "forks": 10288,
+      "homepage": "https://docs.rsshub.app",
+      "license": "AGPL-3.0",
+      "created_at": "2018-04-02T14:43:21Z",
+      "pushed_at": "2026-10-25T20:58:54Z",
+      "updated_at": "2026-10-26T06:48:19Z",
+      "open_issues": 41,
+      "summary": "RSSHub 是一个用 TypeScript 编写的开源 RSS 生成网络，目标是让几乎所有内容都能以 RSS 形式订阅。它把来自各类来源的内容聚合成 RSS 源，解决许多网站不提供或已取消 RSS 输出、导致用户难以统一追踪更新的问题。项目由活跃的开源社区持续维护，不断新增路由、功能并修复缺陷，目前已在全球运行超过 5000 个实例，聚合的内容数量庞大。",
+      "tags": [
+        "app"
+      ],
+      "primary_tag": "app",
+      "domains": [
+        "web",
+        "productivity"
+      ],
+      "primary_domain": "web",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-26T07:46:49+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 1
+    },
+    {
       "owner": "LibreChat-AI",
       "name": "LibreChat",
       "full_name": "LibreChat-AI/LibreChat",
       "url": "https://github.com/LibreChat-AI/LibreChat",
       "description": "Enhanced ChatGPT Clone: Features Agents, MCP, Skills, DeepSeek, Anthropic, AWS, OpenAI, Responses API, Azure, Groq, o1, GPT-5, Mistral, OpenRouter, Vertex AI, Gemini, Artifacts, AI model switching, message search, Code Interpreter, langchain, DALL-E-3, OpenAPI Actions, Functions, Secure Multi-User Auth, Presets, open-source for self-hosting. Active",
       "language": "TypeScript",
-      "stars": 45599,
-      "forks": 9374,
+      "stars": 46330,
+      "forks": 9517,
       "homepage": "https://librechat.ai/",
       "license": "MIT",
       "created_at": "2023-02-12T01:06:52Z",
-      "pushed_at": "2026-10-13T02:56:31Z",
-      "updated_at": "2026-10-13T02:56:48Z",
-      "open_issues": 920,
+      "pushed_at": "2026-10-26T06:41:25Z",
+      "updated_at": "2026-10-26T07:44:35Z",
+      "open_issues": 978,
       "summary": "LibreChat 是一个基于 TypeScript 构建的开源、可自托管 AI 聊天平台，把 Anthropic、OpenAI、Azure、AWS Bedrock、Google Vertex AI、Groq、DeepSeek、Mistral、OpenRouter 等主流模型服务统一到一个界面中，也支持任何兼容 OpenAI 的本地或远程端点，无需代理。它解决的是多模型切换繁琐、数据隐私与部署自主性不足的问题。",
       "windows": [
         "monthly"
       ],
       "added_at": "2026-10-09T11:00:09+00:00",
-      "last_seen": "2026-10-10",
-      "seen_count": 9,
+      "last_seen": "2026-10-26",
+      "seen_count": 10,
       "tags": [
         "app"
       ],
@@ -2014,6 +3287,38 @@
         "productivity"
       ],
       "primary_domain": "ai"
+    },
+    {
+      "owner": "RocketChat",
+      "name": "Rocket.Chat",
+      "full_name": "RocketChat/Rocket.Chat",
+      "url": "https://github.com/RocketChat/Rocket.Chat",
+      "description": "The Secure CommsOS™ for mission-critical operations",
+      "language": "TypeScript",
+      "stars": 46329,
+      "forks": 14038,
+      "homepage": "https://rocket.chat/",
+      "license": "NOASSERTION",
+      "created_at": "2015-05-19T07:36:09Z",
+      "pushed_at": "2026-10-26T07:06:11Z",
+      "updated_at": "2026-10-26T06:42:00Z",
+      "open_issues": 4250,
+      "summary": "Rocket.Chat 是一个用 TypeScript 开发的开源安全通信平台，面向对数据保护有较高要求的组织，提供团队实时沟通能力。它支持自托管、云端和气隙（隔离网络）部署，架构可扩展并带性能监控；在安全方面提供身份管理、端到端加密以及基于角色和属性的访问控制。功能上整合了异步与实时消息、语音通话和联邦通信，并可通过应用市场安装公共应用、用 Apps-Engine 自建应用或对接外部系统。典型用户包括德国铁路、美国海军和瑞士信贷等机构，覆盖 150 多个国家的数千万用户。除 Web 端外还提供桌面和移动客户端，开发者可分别参考服务端、桌面端和移动端的搭建指南参与开发。",
+      "tags": [
+        "app"
+      ],
+      "primary_tag": "app",
+      "domains": [
+        "web",
+        "productivity"
+      ],
+      "primary_domain": "web",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-26T07:46:49+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 1
     },
     {
       "owner": "vercel",

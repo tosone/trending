@@ -6,10 +6,10 @@
     "weekly",
     "monthly"
   ],
-  "generated_at": "2026-10-13T03:42:41+00:00",
+  "generated_at": "2026-10-26T07:45:30+00:00",
   "first_at": "2026-10-09T10:50:04+00:00",
-  "count": 348,
-  "added": 0,
+  "count": 386,
+  "added": 38,
   "repos": [
     {
       "owner": "affaan-m",
@@ -18,21 +18,21 @@
       "url": "https://github.com/affaan-m/ECC",
       "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
       "language": "JavaScript",
-      "stars": 277990,
-      "forks": 41440,
+      "stars": 289082,
+      "forks": 42847,
       "homepage": "https://ecc.tools",
       "license": "MIT",
       "created_at": "2026-01-18T00:51:51Z",
-      "pushed_at": "2026-10-12T14:45:46Z",
-      "updated_at": "2026-10-13T03:30:20Z",
-      "open_issues": 165,
+      "pushed_at": "2026-10-26T04:56:56Z",
+      "updated_at": "2026-10-26T07:44:00Z",
+      "open_issues": 237,
       "summary": "ECC 是一套面向 AI 编码代理的运行框架性能优化系统，主要用 JavaScript 编写，为 Claude Code、Codex、Cursor、Opencode 等工具提供技能、本能、记忆、安全与调研优先的开发能力。它要解决的问题是：代理虽然能写代码，却缺少一套协调的工程流程，用户往往需要在每次提示中重复搭建规划、验证、审查和记忆机制。ECC 把这些流程一次性安装好，让代理在构建前先规划，用测试验证改动，从全新上下文审查自身工作，记住关键信息，并把重复的成功经验沉淀为可复用的技能和工作流。",
       "windows": [
         "monthly"
       ],
       "added_at": "2026-10-09T10:59:47+00:00",
-      "last_seen": "2026-10-10",
-      "seen_count": 10,
+      "last_seen": "2026-10-26",
+      "seen_count": 11,
       "tags": [
         "tool",
         "plugin",
@@ -52,20 +52,20 @@
       "url": "https://github.com/react/react",
       "description": "The library for web and native user interfaces.",
       "language": "JavaScript",
-      "stars": 250951,
-      "forks": 51478,
+      "stars": 251857,
+      "forks": 51575,
       "pinned": true,
       "homepage": "https://react.dev",
       "license": "MIT",
       "created_at": "2013-05-24T16:15:54Z",
-      "pushed_at": "2026-10-12T21:17:56Z",
-      "updated_at": "2026-10-13T03:14:18Z",
-      "open_issues": 1430,
+      "pushed_at": "2026-10-25T11:04:57Z",
+      "updated_at": "2026-10-26T06:37:18Z",
+      "open_issues": 1495,
       "summary": "React 是一个用于构建用户界面的 JavaScript 库，主要解决交互式 UI 开发中状态与视图同步的问题。它采用声明式写法，开发者只需为每个状态设计简单视图，数据变化时 React 会高效更新并渲染正确的组件，使代码更可预测、易理解和调试。其核心特点是组件化，通过封装管理自身状态的组件并组合成复杂界面，组件逻辑用 JavaScript 而非模板编写，便于传递数据和将状态与 DOM 分离。React 不假设技术栈，支持渐进式采用，可在现有项目中按需引入，也能借助 Node 在服务端渲染，或通过 React Native 构建移动应用。",
       "windows": [],
       "added_at": "2026-10-09T11:29:43+00:00",
-      "last_seen": "2026-10-12",
-      "seen_count": 6,
+      "last_seen": "2026-10-26",
+      "seen_count": 7,
       "tags": [
         "library"
       ],
@@ -83,21 +83,21 @@
       "url": "https://github.com/trekhleb/javascript-algorithms",
       "description": "📝 Algorithms and data structures implemented in JavaScript with explanations and links to further readings",
       "language": "JavaScript",
-      "stars": 196669,
-      "forks": 31023,
+      "stars": 196698,
+      "forks": 30989,
       "homepage": "",
       "license": "MIT",
       "created_at": "2018-03-24T07:47:04Z",
       "pushed_at": "2026-07-26T02:43:08Z",
-      "updated_at": "2026-10-13T03:31:14Z",
-      "open_issues": 411,
+      "updated_at": "2026-10-26T07:17:06Z",
+      "open_issues": 434,
       "summary": "JavaScript 算法与数据结构仓库收录了大量常见算法和数据结构的 JavaScript 实现，每个条目都配有独立说明文档、相关解释以及延伸阅读链接，部分还包含视频资源。它主要解决开发者学习和查阅算法实现时缺少系统整理的问题，内容按数据结构与算法两大板块组织，数据结构涵盖链表、队列、栈、哈希表、堆、树、图、并查集、布隆过滤器、LRU 缓存等，算法则按数学、集合、字符串、搜索、排序、树与图遍历、密码学、机器学习、图像处理、统计和进化算法等主题分类，并标注初级或高级难度。项目还按暴力、贪心、分治、动态规划等范式对算法进行归类，便于从设计思路角度理解。",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-09T12:39:06+00:00",
-      "last_seen": "2026-10-09",
-      "seen_count": 1,
+      "last_seen": "2026-10-26",
+      "seen_count": 2,
       "tags": [
         "doc",
         "library"
@@ -115,22 +115,22 @@
       "url": "https://github.com/DietrichGebert/ponytail",
       "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
       "language": "JavaScript",
-      "stars": 161965,
-      "forks": 8742,
+      "stars": 176410,
+      "forks": 9634,
       "homepage": "https://ponytail.dev",
       "license": "MIT",
       "created_at": "2026-06-12T00:52:37Z",
-      "pushed_at": "2026-10-13T01:46:28Z",
-      "updated_at": "2026-10-13T03:33:19Z",
-      "open_issues": 5,
+      "pushed_at": "2026-10-18T01:55:14Z",
+      "updated_at": "2026-10-26T07:45:02Z",
+      "open_issues": 137,
       "summary": "Ponytail 是一个给 AI 编程代理注入“最懒资深开发”思维的提示词项目，用 JavaScript 编写，核心只有一份 SKILL.md 提示词，其余内容都是把它接入不同代理的适配层。它要解决的问题是代理倾向于堆砌代码：安装多余依赖、手写整块日历。Ponytail 让代理先读懂改动涉及的代码和真实数据流，再按“能少写就少写”的阶梯选择方案，例如复用已有 Input 组件和浏览器原生日期选择器，把 335 行压到 10 行。它强调懒而不失职，信任边界校验、错误处理、安全与无障碍不砍，含分支、循环、解析、金额或安全的逻辑会留下一个小测试，每次回复还会说明跳过了什么、有何风险。",
       "windows": [
         "weekly",
         "monthly"
       ],
       "added_at": "2026-10-09T10:59:47+00:00",
-      "last_seen": "2026-10-10",
-      "seen_count": 9,
+      "last_seen": "2026-10-26",
+      "seen_count": 10,
       "tags": [
         "plugin",
         "tool"
@@ -149,21 +149,21 @@
       "url": "https://github.com/Snailclimb/JavaGuide",
       "description": "Java 面试 & 后端通用面试指南，覆盖计算机基础、数据库、分布式、高并发、系统设计与 AI 应用开发",
       "language": "JavaScript",
-      "stars": 158974,
-      "forks": 46154,
+      "stars": 159263,
+      "forks": 46126,
       "homepage": "https://javaguide.cn",
       "license": "Apache-2.0",
       "created_at": "2018-05-07T13:27:00Z",
-      "pushed_at": "2026-10-12T04:50:18Z",
-      "updated_at": "2026-10-13T03:14:05Z",
-      "open_issues": 20,
+      "pushed_at": "2026-10-25T11:47:10Z",
+      "updated_at": "2026-10-26T07:38:48Z",
+      "open_issues": 17,
       "summary": "JavaGuide 是一份面向 Java 后端开发者的面试与知识体系指南，内容覆盖计算机基础、数据库、分布式、高并发、系统设计与 AI 应用开发。它解决的核心问题是：后端面试知识点分散、缺乏系统整理，学习者难以判断重点与准备路径。项目以开源文档形式组织，包含 Java 基础、集合、并发、JVM、操作系统、网络、数据结构与算法、MySQL、Redis、Spring、分布式理论、消息队列、高可用设计等模块，并配有源码分析和常见面试题总结。",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-09T11:01:40+00:00",
-      "last_seen": "2026-10-10",
-      "seen_count": 9,
+      "last_seen": "2026-10-26",
+      "seen_count": 10,
       "tags": [
         "doc"
       ],
@@ -180,21 +180,21 @@
       "url": "https://github.com/airbnb/javascript",
       "description": "JavaScript Style Guide",
       "language": "JavaScript",
-      "stars": 148085,
-      "forks": 26538,
+      "stars": 148046,
+      "forks": 26530,
       "homepage": "",
       "license": "MIT",
       "created_at": "2012-11-01T23:13:50Z",
       "pushed_at": "2026-04-16T19:24:09Z",
-      "updated_at": "2026-10-13T02:05:52Z",
-      "open_issues": 168,
+      "updated_at": "2026-10-26T07:08:38Z",
+      "open_issues": 170,
       "summary": "Airbnb JavaScript Style Guide 是一份面向 JavaScript 开发者的代码风格规范，旨在为团队协作和长期维护提供一套“大体上合理”的编码约定。它解决的是代码风格不统一带来的可读性差、审查成本高和潜在错误等问题，通过明确规则约束写法。核心内容覆盖类型、引用、对象、数组、解构、字符串、函数、箭头函数、类与构造函数、模块、迭代器与生成器、变量、比较运算符、代码块、注释、命名规范等，并针对 ES6+ 新特性给出推荐写法，同时提供对应的 ESLint 规则提示。",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-09T12:39:06+00:00",
-      "last_seen": "2026-10-12",
-      "seen_count": 2,
+      "last_seen": "2026-10-26",
+      "seen_count": 3,
       "tags": [
         "doc"
       ],
@@ -212,22 +212,22 @@
       "url": "https://github.com/vercel/next.js",
       "description": "The React Framework",
       "language": "JavaScript",
-      "stars": 143150,
-      "forks": 34678,
+      "stars": 143296,
+      "forks": 34121,
       "homepage": "https://nextjs.org",
       "license": "MIT",
       "created_at": "2016-10-05T23:32:51Z",
-      "pushed_at": "2026-10-13T01:04:22Z",
-      "updated_at": "2026-10-13T02:44:48Z",
-      "open_issues": 3640,
+      "pushed_at": "2026-10-26T07:39:31Z",
+      "updated_at": "2026-10-26T07:40:49Z",
+      "open_issues": 3757,
       "summary": "Next.js 是 Vercel 推出的 React 框架，用于构建全栈 Web 应用。它扩展了 React 的最新特性，并集成基于 Rust 的 JavaScript 工具链，以加快构建速度。该框架被全球一些大型公司采用，适合需要服务端渲染、静态生成与全栈能力的项目。开发者可通过官方提供的 Learn Next.js 课程入门，并在 Next.js Showcase 中查看实际案例。完整文档托管在 nextjs.org/docs。社区交流主要在 GitHub Discussions 和 Discord 服务器进行，所有渠道均适用行为准则。",
       "windows": [
         "weekly",
         "monthly"
       ],
       "added_at": "2026-10-09T10:59:47+00:00",
-      "last_seen": "2026-10-12",
-      "seen_count": 11,
+      "last_seen": "2026-10-26",
+      "seen_count": 12,
       "tags": [
         "framework",
         "library"
@@ -245,21 +245,21 @@
       "url": "https://github.com/Chalarangelo/30-seconds-of-code",
       "description": "Coding articles to level up your development skills",
       "language": "JavaScript",
-      "stars": 129179,
-      "forks": 12493,
+      "stars": 129332,
+      "forks": 12484,
       "homepage": "https://30secondsofcode.org/",
       "license": "CC-BY-4.0",
       "created_at": "2017-11-29T17:35:03Z",
-      "pushed_at": "2026-10-02T01:17:53Z",
-      "updated_at": "2026-10-13T03:29:02Z",
-      "open_issues": 0,
+      "pushed_at": "2026-10-20T13:48:13Z",
+      "updated_at": "2026-10-26T06:46:11Z",
+      "open_issues": 2,
       "summary": "30 seconds of code 是一个面向开发者的代码文章合集，主要语言为 JavaScript，内容以短小精悍的代码片段、解释和示例为核心，帮助开发者提升编程技能。它解决的是日常开发中快速查找实用代码方案的需求，用户可以通过网站按名称、标签、语言或描述搜索文章和合集，浏览全部文章或按主题分类的独立合集，点击卡片即可查看完整代码片段、说明与示例。项目由 Angelos Chalaris 维护，网站基于 Netlify、Astro 和 GitHub 构建，图片来自 Unsplash。目前不接受新内容投稿，但可以通过 issue 报告网站问题或提出改进建议。",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-09T12:39:06+00:00",
-      "last_seen": "2026-10-09",
-      "seen_count": 1,
+      "last_seen": "2026-10-26",
+      "seen_count": 2,
       "tags": [
         "doc"
       ],
@@ -276,21 +276,21 @@
       "url": "https://github.com/nodejs/node",
       "description": "Node.js JavaScript runtime ✨🐢🚀✨",
       "language": "JavaScript",
-      "stars": 122340,
-      "forks": 39606,
+      "stars": 123101,
+      "forks": 39228,
       "homepage": "https://nodejs.org",
       "license": "NOASSERTION",
       "created_at": "2014-11-26T19:57:11Z",
-      "pushed_at": "2026-10-13T01:50:55Z",
-      "updated_at": "2026-10-13T03:17:24Z",
-      "open_issues": 1197,
+      "pushed_at": "2026-10-26T04:33:23Z",
+      "updated_at": "2026-10-26T05:49:53Z",
+      "open_issues": 1270,
       "summary": "Node.js 是一个开源、跨平台的 JavaScript 运行时环境，让 JavaScript 能够脱离浏览器在服务器端运行，解决了 JavaScript 仅限前端使用的局限。它采用开放治理模式，由 OpenJS 基金会提供支持，遵循语义化版本发布。其版本分为 Current、LTS 和 Nightly 三类：Current 每六个月发布一次大版本，允许破坏性变更；偶数大版本会转为 LTS，获得十二个月活跃支持与十八个月维护支持，强调稳定性与安全性；Nightly 则每日构建，供谨慎试用。",
       "windows": [
         "monthly"
       ],
       "added_at": "2026-10-09T10:59:47+00:00",
-      "last_seen": "2026-10-12",
-      "seen_count": 3,
+      "last_seen": "2026-10-26",
+      "seen_count": 4,
       "tags": [
         "app",
         "library"
@@ -309,21 +309,21 @@
       "url": "https://github.com/mrdoob/three.js",
       "description": "JavaScript 3D Library.",
       "language": "JavaScript",
-      "stars": 116320,
-      "forks": 36629,
+      "stars": 116948,
+      "forks": 36732,
       "homepage": "https://threejs.org/",
       "license": "MIT",
       "created_at": "2010-03-23T18:58:01Z",
-      "pushed_at": "2026-10-13T01:13:40Z",
-      "updated_at": "2026-10-13T03:11:45Z",
-      "open_issues": 400,
+      "pushed_at": "2026-10-26T07:36:56Z",
+      "updated_at": "2026-10-26T07:32:53Z",
+      "open_issues": 396,
       "summary": "three.js 是一个 JavaScript 3D 库，目标是提供易用、轻量、跨浏览器且通用的 3D 开发能力。它主要解决在网页中构建和渲染三维场景的问题，让开发者无需直接处理底层图形接口的复杂细节。当前构建版本包含 WebGL 和 WebGPU 渲染器，同时以附加组件形式提供 SVG 和 CSS3D 渲染器。核心用法是创建场景、相机和几何体，将物体加入场景，再通过渲染器把视图挂载到页面元素上，并驱动动画循环。典型场景包括网页端 3D 可视化、交互式图形展示和浏览器内的三维内容呈现，常见技术栈为 JavaScript 与 npm 包管理。",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-09T12:39:06+00:00",
-      "last_seen": "2026-10-09",
-      "seen_count": 1,
+      "last_seen": "2026-10-26",
+      "seen_count": 2,
       "tags": [
         "library"
       ],
@@ -335,55 +335,23 @@
       "primary_domain": "graphics"
     },
     {
-      "owner": "axios",
-      "name": "axios",
-      "full_name": "axios/axios",
-      "url": "https://github.com/axios/axios",
-      "description": "Promise based HTTP client for the browser and node.js",
-      "language": "JavaScript",
-      "stars": 109361,
-      "forks": 11910,
-      "homepage": "https://axios-http.com",
-      "license": "MIT",
-      "created_at": "2014-08-18T22:30:27Z",
-      "pushed_at": "2026-10-12T17:26:10Z",
-      "updated_at": "2026-10-12T20:30:39Z",
-      "open_issues": 109,
-      "summary": "Axios 是一个基于 Promise 的 HTTP 客户端，可同时运行在浏览器和 Node.js 环境中。它主要解决前后端发起网络请求时的统一调用问题：浏览器端使用 XMLHttpRequest，Node.js 端使用 http 模块，并统一封装为 Promise API，便于用 async/await 处理异步请求。",
-      "windows": [
-        "daily"
-      ],
-      "added_at": "2026-10-12T11:59:32+00:00",
-      "last_seen": "2026-10-12",
-      "seen_count": 1,
-      "tags": [
-        "library"
-      ],
-      "primary_tag": "library",
-      "domains": [
-        "web",
-        "networking"
-      ],
-      "primary_domain": "web"
-    },
-    {
       "owner": "addyosmani",
       "name": "agent-skills",
       "full_name": "addyosmani/agent-skills",
       "url": "https://github.com/addyosmani/agent-skills",
       "description": "Production-grade engineering skills for AI coding agents.",
       "language": "JavaScript",
-      "stars": 105718,
-      "forks": 11025,
+      "stars": 110583,
+      "forks": 11550,
       "homepage": "https://skills.addy.ie",
       "license": "MIT",
       "created_at": "2026-02-15T20:20:26Z",
-      "pushed_at": "2026-10-10T08:28:49Z",
-      "updated_at": "2026-10-13T03:30:55Z",
-      "open_issues": 131,
+      "pushed_at": "2026-10-13T20:24:07Z",
+      "updated_at": "2026-10-26T07:44:25Z",
+      "open_issues": 175,
       "summary": "Agent Skills 是一套面向 AI 编程代理的生产级工程技能包，由 Addy Osmani 维护，以 JavaScript 编写。它把资深工程师在软件开发各阶段使用的工作流、质量门禁和最佳实践固化成结构化技能，让 AI 代理在定义、规划、构建、验证、审查、发布等环节保持一致行为。仓库包含 25 个技能（24 个生命周期技能加一个元技能）和 9 个斜杠命令，命令会自动激活对应技能，技能也会根据任务类型自动触发，例如设计 API 时启用接口设计技能。每个技能由步骤、检查点和退出标准组成，并附有反合理化表格，用于反驳代理跳过测试等借口，同时要求以测试通过、构建输出等证据作为完成依据。",
-      "last_seen": "2026-10-12",
-      "seen_count": 14,
+      "last_seen": "2026-10-26",
+      "seen_count": 15,
       "added_at": "2026-10-09T10:50:04+00:00",
       "windows": [
         "daily",
@@ -402,27 +370,59 @@
       "primary_domain": "ai"
     },
     {
+      "owner": "axios",
+      "name": "axios",
+      "full_name": "axios/axios",
+      "url": "https://github.com/axios/axios",
+      "description": "Promise based HTTP client for the browser and node.js",
+      "language": "JavaScript",
+      "stars": 109311,
+      "forks": 11951,
+      "homepage": "https://axios-http.com",
+      "license": "MIT",
+      "created_at": "2014-08-18T22:30:27Z",
+      "pushed_at": "2026-10-26T07:10:44Z",
+      "updated_at": "2026-10-26T07:08:26Z",
+      "open_issues": 128,
+      "summary": "Axios 是一个基于 Promise 的 HTTP 客户端，可同时运行在浏览器和 Node.js 环境中。它主要解决前后端发起网络请求时的统一调用问题：浏览器端使用 XMLHttpRequest，Node.js 端使用 http 模块，并统一封装为 Promise API，便于用 async/await 处理异步请求。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T11:59:32+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 2,
+      "tags": [
+        "library"
+      ],
+      "primary_tag": "library",
+      "domains": [
+        "web",
+        "networking"
+      ],
+      "primary_domain": "web"
+    },
+    {
       "owner": "react",
       "name": "create-react-app",
       "full_name": "react/create-react-app",
       "url": "https://github.com/react/create-react-app",
       "description": "Set up a modern web app by running one command.",
       "language": "JavaScript",
-      "stars": 103216,
-      "forks": 26872,
+      "stars": 103240,
+      "forks": 26870,
       "homepage": "https://create-react-app.dev/",
       "license": "MIT",
       "created_at": "2016-07-17T14:55:11Z",
       "pushed_at": "2025-02-15T01:32:11Z",
-      "updated_at": "2026-10-13T01:39:50Z",
-      "open_issues": 2408,
+      "updated_at": "2026-10-25T16:05:34Z",
+      "open_issues": 2409,
       "summary": "Create React App 是一个用于快速搭建 React 单页应用脚手架的命令行工具，只需运行一条命令即可生成项目结构并完成依赖安装，无需手动配置 webpack、Babel 或 ESLint。它把构建工具预配置并隐藏起来，让开发者专注于编写代码，同时提供开发服务器、单元测试运行器、生产构建打包以及渐进式 Web 应用支持等能力。项目支持 JavaScript、TypeScript 和 Flow 语法，兼容 macOS、Windows 和 Linux，要求 Node 14.0.0 及以上版本。它适合学习 React、创建新的单页应用或为组件库编写示例。",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-09T12:39:06+00:00",
-      "last_seen": "2026-10-12",
-      "seen_count": 2,
+      "last_seen": "2026-10-26",
+      "seen_count": 3,
       "tags": [
         "template",
         "tool"
@@ -435,86 +435,23 @@
       "primary_domain": "web"
     },
     {
-      "owner": "mui",
-      "name": "material-ui",
-      "full_name": "mui/material-ui",
-      "url": "https://github.com/mui/material-ui",
-      "description": "Material UI: Comprehensive React component library that implements Google's Material Design. Free forever.",
-      "language": "JavaScript",
-      "stars": 99196,
-      "forks": 32505,
-      "homepage": "https://mui.com/material-ui/",
-      "license": "MIT",
-      "created_at": "2014-08-18T19:11:54Z",
-      "pushed_at": "2026-10-13T00:59:03Z",
-      "updated_at": "2026-10-13T00:59:44Z",
-      "open_issues": 1516,
-      "summary": "Material UI 是一套面向 React 的综合性组件库，独立实现了 Google 的 Material Design 设计体系。它经过十余年开发和数千名开源贡献者的持续打磨，被众多产品团队用于构建界面，主要解决 React 应用中表单、按钮、导航、布局等常见 UI 元素的统一实现与样式一致性问题。其核心功能由 MUI X 扩展，后者提供面向复杂场景的高级组件。该库以 JavaScript 为主要语言，配套完整文档、示例项目和更新日志，并提供路线图说明后续计划。使用中若遇到与代码库修改无关的用法问题，官方建议前往 Stack Overflow 提问。",
-      "windows": [
-        "daily"
-      ],
-      "added_at": "2026-10-09T12:39:06+00:00",
-      "last_seen": "2026-10-12",
-      "seen_count": 2,
-      "tags": [
-        "library"
-      ],
-      "primary_tag": "library",
-      "domains": [
-        "web"
-      ],
-      "primary_domain": "web"
-    },
-    {
-      "owner": "microsoft",
-      "name": "Web-Dev-For-Beginners",
-      "full_name": "microsoft/Web-Dev-For-Beginners",
-      "url": "https://github.com/microsoft/Web-Dev-For-Beginners",
-      "description": "24 Lessons, 12 Weeks, Get Started as a Web Developer",
-      "language": "JavaScript",
-      "stars": 96942,
-      "forks": 16024,
-      "homepage": "",
-      "license": "MIT",
-      "created_at": "2020-11-10T02:44:00Z",
-      "pushed_at": "2026-10-11T20:26:52Z",
-      "updated_at": "2026-10-13T03:29:34Z",
-      "open_issues": 137,
-      "summary": "微软 Web-Dev-For-Beginners 是一套面向零基础学习者的 Web 开发课程，由 Microsoft Cloud Advocates 制作，共 24 节课、为期 12 周，主要使用 JavaScript，同时涵盖 HTML 与 CSS。课程以项目驱动，通过构建生态瓶、浏览器扩展、太空射击游戏和打字游戏等实例讲解基础知识，每节课配有课前测验、讲解材料、知识检查、挑战和课后测验，帮助巩固理解。仓库提供 50 多种语言翻译，并支持 GitHub Codespaces 或本地 Visual Studio Code 运行，推荐安装 Live Server 和 Copilot 扩展。",
-      "windows": [
-        "daily"
-      ],
-      "added_at": "2026-10-09T12:39:06+00:00",
-      "last_seen": "2026-10-09",
-      "seen_count": 1,
-      "tags": [
-        "doc"
-      ],
-      "primary_tag": "doc",
-      "domains": [
-        "learning",
-        "web"
-      ],
-      "primary_domain": "learning"
-    },
-    {
       "owner": "Leonxlnx",
       "name": "taste-skill",
       "full_name": "Leonxlnx/taste-skill",
       "url": "https://github.com/Leonxlnx/taste-skill",
-      "description": "Taste-Skill - gives your AI good taste. stops the AI from generating boring, generic slop ",
+      "description": "Agent skills that give coding agents taste: art direction, reference images and a browser check instead of generic AI pages",
       "language": "JavaScript",
-      "stars": 95191,
-      "forks": 6482,
+      "stars": 102639,
+      "forks": 6936,
       "homepage": "https://tasteskill.dev",
       "license": "MIT",
       "created_at": "2026-02-19T21:44:05Z",
-      "pushed_at": "2026-10-12T19:06:27Z",
-      "updated_at": "2026-10-13T03:30:52Z",
-      "open_issues": 6,
+      "pushed_at": "2026-10-26T06:38:29Z",
+      "updated_at": "2026-10-26T07:38:56Z",
+      "open_issues": 3,
       "summary": "Taste Skill 是一套面向 AI 编程代理的可移植技能包，用 JavaScript 编写，目标是提升 AI 生成界面的设计水准，避免产出千篇一律的模板化 UI。它通过 SKILL.md 指令文件为代理补充布局、字体、动效与间距方面的规则，并支持通过 npx skills add 安装，也可直接复制到项目或对话中使用。",
-      "last_seen": "2026-10-10",
-      "seen_count": 12,
+      "last_seen": "2026-10-26",
+      "seen_count": 13,
       "added_at": "2026-10-09T10:50:04+00:00",
       "windows": [
         "daily",
@@ -532,27 +469,90 @@
       "primary_domain": "ai"
     },
     {
+      "owner": "mui",
+      "name": "material-ui",
+      "full_name": "mui/material-ui",
+      "url": "https://github.com/mui/material-ui",
+      "description": "Material UI: Comprehensive React component library that implements Google's Material Design. Free forever.",
+      "language": "JavaScript",
+      "stars": 99278,
+      "forks": 32491,
+      "homepage": "https://mui.com/material-ui/",
+      "license": "MIT",
+      "created_at": "2014-08-18T19:11:54Z",
+      "pushed_at": "2026-10-26T07:38:50Z",
+      "updated_at": "2026-10-26T07:00:59Z",
+      "open_issues": 1548,
+      "summary": "Material UI 是一套面向 React 的综合性组件库，独立实现了 Google 的 Material Design 设计体系。它经过十余年开发和数千名开源贡献者的持续打磨，被众多产品团队用于构建界面，主要解决 React 应用中表单、按钮、导航、布局等常见 UI 元素的统一实现与样式一致性问题。其核心功能由 MUI X 扩展，后者提供面向复杂场景的高级组件。该库以 JavaScript 为主要语言，配套完整文档、示例项目和更新日志，并提供路线图说明后续计划。使用中若遇到与代码库修改无关的用法问题，官方建议前往 Stack Overflow 提问。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-09T12:39:06+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 3,
+      "tags": [
+        "library"
+      ],
+      "primary_tag": "library",
+      "domains": [
+        "web"
+      ],
+      "primary_domain": "web"
+    },
+    {
+      "owner": "microsoft",
+      "name": "Web-Dev-For-Beginners",
+      "full_name": "microsoft/Web-Dev-For-Beginners",
+      "url": "https://github.com/microsoft/Web-Dev-For-Beginners",
+      "description": "24 Lessons, 12 Weeks, Get Started as a Web Developer",
+      "language": "JavaScript",
+      "stars": 97019,
+      "forks": 16071,
+      "homepage": "",
+      "license": "MIT",
+      "created_at": "2020-11-10T02:44:00Z",
+      "pushed_at": "2026-10-20T21:43:35Z",
+      "updated_at": "2026-10-26T04:42:10Z",
+      "open_issues": 147,
+      "summary": "微软 Web-Dev-For-Beginners 是一套面向零基础学习者的 Web 开发课程，由 Microsoft Cloud Advocates 制作，共 24 节课、为期 12 周，主要使用 JavaScript，同时涵盖 HTML 与 CSS。课程以项目驱动，通过构建生态瓶、浏览器扩展、太空射击游戏和打字游戏等实例讲解基础知识，每节课配有课前测验、讲解材料、知识检查、挑战和课后测验，帮助巩固理解。仓库提供 50 多种语言翻译，并支持 GitHub Codespaces 或本地 Visual Studio Code 运行，推荐安装 Live Server 和 Copilot 扩展。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-09T12:39:06+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 2,
+      "tags": [
+        "doc"
+      ],
+      "primary_tag": "doc",
+      "domains": [
+        "learning",
+        "web"
+      ],
+      "primary_domain": "learning"
+    },
+    {
       "owner": "ryanmcdermott",
       "name": "clean-code-javascript",
       "full_name": "ryanmcdermott/clean-code-javascript",
       "url": "https://github.com/ryanmcdermott/clean-code-javascript",
       "description": "Clean Code concepts adapted for JavaScript",
       "language": "JavaScript",
-      "stars": 94726,
-      "forks": 12566,
+      "stars": 94703,
+      "forks": 12528,
       "homepage": "",
       "license": "MIT",
       "created_at": "2016-11-25T22:25:41Z",
       "pushed_at": "2024-07-29T07:24:37Z",
-      "updated_at": "2026-10-13T03:30:58Z",
+      "updated_at": "2026-10-26T05:25:57Z",
       "open_issues": 124,
       "summary": "clean-code-javascript 是一份将 Robert C. Martin 所著《Clean Code》中的软件工程原则适配到 JavaScript 的实践指南，作者是 ryanmcdermott。它并非代码风格规范，而是一套帮助开发者写出可读、可复用、易重构代码的准则。内容涵盖变量命名、函数设计、对象与数据结构、类、SOLID 原则、测试、并发、错误处理、格式化与注释等主题。核心特点在于每条原则都配有“坏”与“好”的代码对照，便于直观理解，例如使用可搜索的变量名、限制函数参数数量、让函数只做一件事、避免副作用和重复代码、用默认参数替代短路求值等。",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-09T12:39:06+00:00",
-      "last_seen": "2026-10-12",
-      "seen_count": 2,
+      "last_seen": "2026-10-26",
+      "seen_count": 3,
       "tags": [
         "doc"
       ],
@@ -569,21 +569,21 @@
       "url": "https://github.com/louislam/uptime-kuma",
       "description": "A fancy self-hosted monitoring tool",
       "language": "JavaScript",
-      "stars": 92380,
-      "forks": 8551,
+      "stars": 92919,
+      "forks": 8610,
       "homepage": "https://uptime.kuma.pet",
       "license": "MIT",
       "created_at": "2021-07-03T01:02:42Z",
-      "pushed_at": "2026-10-13T00:07:18Z",
-      "updated_at": "2026-10-13T03:08:13Z",
-      "open_issues": 833,
+      "pushed_at": "2026-10-26T07:01:18Z",
+      "updated_at": "2026-10-26T07:20:32Z",
+      "open_issues": 856,
       "summary": "Uptime Kuma 是一款易于自建、界面美观的监控工具，主要用来解决个人或团队对服务可用性进行持续监测的需求。它支持对 HTTP(s)、TCP、HTTP(s) 关键词、JSON 查询、Websocket、Ping、DNS 记录、Push、Steam 游戏服务器和 Docker 容器等多种目标进行监测，默认每 20 秒检查一次。其响应式界面基于 Vue 3 和 Bootstrap 5 构建，并通过 WebSocket 与单页应用通信，提供多语言、多状态页、状态页域名映射、Ping 图表、证书信息、代理和 2FA 等功能。",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-09T12:39:06+00:00",
-      "last_seen": "2026-10-12",
-      "seen_count": 2,
+      "last_seen": "2026-10-26",
+      "seen_count": 3,
       "tags": [
         "app"
       ],
@@ -594,60 +594,28 @@
       "primary_domain": "devops"
     },
     {
-      "owner": "sveltejs",
-      "name": "svelte",
-      "full_name": "sveltejs/svelte",
-      "url": "https://github.com/sveltejs/svelte",
-      "description": "web development for the rest of us",
-      "language": "JavaScript",
-      "stars": 88452,
-      "forks": 7930,
-      "homepage": "https://svelte.dev",
-      "license": "MIT",
-      "created_at": "2016-11-20T18:13:05Z",
-      "pushed_at": "2026-10-13T02:51:40Z",
-      "updated_at": "2026-10-13T00:59:56Z",
-      "open_issues": 1145,
-      "summary": "Svelte 是一种构建 Web 应用的新方式，它本质上是一个编译器，将你编写的声明式组件转换为高效的 JavaScript 代码，从而精准地更新 DOM。它主要解决的是传统前端框架在运行时进行大量虚拟 DOM 比对所带来的开销问题，通过编译阶段完成大部分工作，让最终运行在浏览器中的代码更轻量、直接。其核心能力在于将声明式组件编译为外科手术式更新 DOM 的原生 JavaScript，而非依赖运行时框架。典型使用场景包括构建交互式网页应用和用户界面，技术栈以 JavaScript 为主，适合希望以更简洁的声明式写法获得高效 DOM 更新效果的 Web 开发项目。",
-      "windows": [
-        "daily"
-      ],
-      "added_at": "2026-10-09T12:39:06+00:00",
-      "last_seen": "2026-10-12",
-      "seen_count": 2,
-      "tags": [
-        "framework",
-        "library"
-      ],
-      "primary_tag": "framework",
-      "domains": [
-        "web"
-      ],
-      "primary_domain": "web"
-    },
-    {
       "owner": "tt-a1i",
       "name": "archify",
       "full_name": "tt-a1i/archify",
       "url": "https://github.com/tt-a1i/archify",
       "description": "Turn any idea, plan, or codebase into a beautiful interactive diagram. An agent skill for Claude Code, Codex, and more.",
       "language": "JavaScript",
-      "stars": 82625,
-      "forks": 5573,
+      "stars": 89395,
+      "forks": 6048,
       "homepage": "https://archify.si",
-      "license": "MIT",
+      "license": "Apache-2.0",
       "created_at": "2026-04-15T05:27:37Z",
-      "pushed_at": "2026-10-12T14:08:52Z",
-      "updated_at": "2026-10-13T03:32:40Z",
-      "open_issues": 282,
+      "pushed_at": "2026-10-26T05:59:06Z",
+      "updated_at": "2026-10-26T07:44:07Z",
+      "open_issues": 241,
       "summary": "Archify 是一个开源智能体技能，用 JavaScript 编写，可接入 Claude Code、Codex CLI、Cursor、OpenCode 等工具。它把一段想法、计划或代码仓库描述，转换成可交互的 HTML 图表，用于理解、规划和分享。用户只需向 AI 智能体描述需求，例如“添加认证”“高亮缓存未命中路径”，即可在对话中持续迭代；也可以让智能体读取仓库，生成有源码依据的架构图。输出是自包含的 HTML 文件，下载后用浏览器打开即可查看节点详情、追踪路径和来源链接，无需安装 Archify，转发给他人也能保留交互。",
       "windows": [
         "daily",
         "monthly"
       ],
       "added_at": "2026-10-09T10:59:47+00:00",
-      "last_seen": "2026-10-12",
-      "seen_count": 10,
+      "last_seen": "2026-10-26",
+      "seen_count": 11,
       "tags": [
         "plugin",
         "tool"
@@ -658,6 +626,38 @@
         "ai"
       ],
       "primary_domain": "devtools"
+    },
+    {
+      "owner": "sveltejs",
+      "name": "svelte",
+      "full_name": "sveltejs/svelte",
+      "url": "https://github.com/sveltejs/svelte",
+      "description": "web development for the rest of us",
+      "language": "JavaScript",
+      "stars": 88463,
+      "forks": 7398,
+      "homepage": "https://svelte.dev",
+      "license": "MIT",
+      "created_at": "2016-11-20T18:13:05Z",
+      "pushed_at": "2026-10-23T22:22:45Z",
+      "updated_at": "2026-10-26T06:52:46Z",
+      "open_issues": 1226,
+      "summary": "Svelte 是一种构建 Web 应用的新方式，它本质上是一个编译器，将你编写的声明式组件转换为高效的 JavaScript 代码，从而精准地更新 DOM。它主要解决的是传统前端框架在运行时进行大量虚拟 DOM 比对所带来的开销问题，通过编译阶段完成大部分工作，让最终运行在浏览器中的代码更轻量、直接。其核心能力在于将声明式组件编译为外科手术式更新 DOM 的原生 JavaScript，而非依赖运行时框架。典型使用场景包括构建交互式网页应用和用户界面，技术栈以 JavaScript 为主，适合希望以更简洁的声明式写法获得高效 DOM 更新效果的 Web 开发项目。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-09T12:39:06+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 3,
+      "tags": [
+        "framework",
+        "library"
+      ],
+      "primary_tag": "framework",
+      "domains": [
+        "web"
+      ],
+      "primary_domain": "web"
     },
     {
       "owner": "pbakaus",
@@ -700,21 +700,21 @@
       "url": "https://github.com/anuraghazra/github-readme-stats",
       "description": ":zap: Dynamically generated stats for your github readmes",
       "language": "JavaScript",
-      "stars": 79833,
-      "forks": 38128,
+      "stars": 79857,
+      "forks": 38139,
       "homepage": "https://github-readme-stats.vercel.app",
       "license": "MIT",
       "created_at": "2020-07-09T10:34:22Z",
       "pushed_at": "2026-10-01T01:02:55Z",
-      "updated_at": "2026-10-13T03:11:48Z",
-      "open_issues": 294,
+      "updated_at": "2026-10-26T06:13:36Z",
+      "open_issues": 296,
       "summary": "GitHub Readme Stats 是一个用 JavaScript 编写的工具，用于在 GitHub 个人主页 README 中动态生成统计数据卡片。它通过 Vercel 部署的接口，将用户名等参数拼接到图片链接中，即可展示星标数、提交数、拉取请求、议题、贡献等公开仓库统计，还支持隐藏或显示特定项、显示图标、指定年份提交数以及切换内置主题。除统计卡外，它还提供额外置顶仓库、置顶 Gist 和常用语言卡片，并支持透明主题、渐变背景、多语言区域设置和自定义标题等参数。由于公共实例受速率限制和流量影响，官方建议自托管或使用 GitHub Actions 工作流生成卡片。",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-09T12:39:06+00:00",
-      "last_seen": "2026-10-12",
-      "seen_count": 2,
+      "last_seen": "2026-10-26",
+      "seen_count": 3,
       "tags": [
         "app"
       ],
@@ -726,27 +726,60 @@
       "primary_domain": "devtools"
     },
     {
+      "owner": "career-ops-hq",
+      "name": "career-ops",
+      "full_name": "career-ops-hq/career-ops",
+      "url": "https://github.com/career-ops-hq/career-ops",
+      "description": "Open-source AI job search agent and job finder: scan job boards, score each job 1-5 against your CV before you apply, tailor an ATS-friendly resume and cover letter, get interview prep and a job application tracker. It helps you fill in each application; you press Submit. Runs locally in your AI coding CLI (Claude Code, Codex, OpenCode and more).",
+      "language": "JavaScript",
+      "stars": 77376,
+      "forks": 14314,
+      "homepage": "https://career-ops.org",
+      "license": "MIT",
+      "created_at": "2026-04-04T18:21:18Z",
+      "pushed_at": "2026-10-26T06:20:18Z",
+      "updated_at": "2026-10-26T07:42:19Z",
+      "open_issues": 457,
+      "summary": "career-ops 是一个开源的 AI 求职代理，用 JavaScript 编写，运行在用户本地的 AI 编程 CLI 中（如 Claude Code、Codex、OpenCode、Antigravity CLI 等）。它针对投递简历后长期没有回音的困境：粘贴一个职位后，先检查该职位是否仍在招聘，再用你的真实简历按 1–5 分评估匹配度，低分时直接建议放弃（可手动覆盖）；值得投递时，它生成针对 ATS 优化的简历、求职信和表单答案，并帮你找到对接人起草联系信息。所有内容只在本机生成，不会自动提交申请、不发送邮件、无遥测和后端，最终由你审阅并点击提交。",
+      "tags": [
+        "app",
+        "tool"
+      ],
+      "primary_tag": "app",
+      "domains": [
+        "ai",
+        "productivity"
+      ],
+      "primary_domain": "ai",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-26T07:45:30+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 1
+    },
+    {
       "owner": "FortAwesome",
       "name": "Font-Awesome",
       "full_name": "FortAwesome/Font-Awesome",
       "url": "https://github.com/FortAwesome/Font-Awesome",
       "description": "The iconic SVG, font, and CSS toolkit",
       "language": "JavaScript",
-      "stars": 76960,
-      "forks": 12161,
+      "stars": 76994,
+      "forks": 12158,
       "homepage": "https://fontawesome.com",
       "license": "NOASSERTION",
       "created_at": "2012-02-17T14:19:43Z",
       "pushed_at": "2026-07-15T18:15:53Z",
-      "updated_at": "2026-10-12T21:27:34Z",
-      "open_issues": 318,
+      "updated_at": "2026-10-26T05:59:59Z",
+      "open_issues": 322,
       "summary": "Font Awesome 是互联网上广泛使用的图标库与工具包，为设计师、开发者和内容创作者提供 SVG、字体和 CSS 三种形式的图标资源。它解决的是在网页和桌面应用中快速、统一地引入图标的问题，开发者无需自行绘制或维护图标素材。其核心能力在于以多种文件类型分发图标，既可作为 SVG 和 JS 使用，也可打包为网页与桌面字体文件，并配套 CSS 工具类，便于通过类名直接调用。项目使用 JavaScript 编写，遵循语义化版本规范，当前版本为 7，版本 6 进入长期支持阶段，仅修复关键缺陷，版本 3、4、5 已停止维护。",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-09T12:39:06+00:00",
-      "last_seen": "2026-10-12",
-      "seen_count": 2,
+      "last_seen": "2026-10-26",
+      "seen_count": 3,
       "tags": [
         "asset",
         "library"
@@ -765,21 +798,21 @@
       "url": "https://github.com/typicode/json-server",
       "description": "Get a full fake REST API with zero coding in less than 30 seconds (seriously)",
       "language": "JavaScript",
-      "stars": 75727,
-      "forks": 7265,
+      "stars": 75739,
+      "forks": 7262,
       "homepage": "",
       "license": "MIT",
       "created_at": "2013-11-27T13:21:13Z",
       "pushed_at": "2026-03-23T19:40:00Z",
-      "updated_at": "2026-10-13T02:44:44Z",
-      "open_issues": 719,
+      "updated_at": "2026-10-25T23:30:39Z",
+      "open_issues": 723,
       "summary": "json-server 是一个用 JavaScript 编写的工具，只需创建一个 db.json 或 db.json5 文件并启动服务，就能在 30 秒内获得一套完整的模拟 REST API，无需编写任何后端代码。它主要解决前端开发中缺乏可用接口的问题，让开发者能快速搭建可交互的数据服务。核心能力包括：基于数组和对象资源自动生成路由，支持条件查询（如 eq、lt、gt、contains、startsWith 等操作符）、排序、分页（_page 与 _per_page）、关联嵌入（_embed）以及 _where 复杂过滤，同时自动托管 ./public 目录下的静态文件。",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-09T12:39:06+00:00",
-      "last_seen": "2026-10-09",
-      "seen_count": 1,
+      "last_seen": "2026-10-26",
+      "seen_count": 2,
       "tags": [
         "tool",
         "library"
@@ -798,21 +831,21 @@
       "url": "https://github.com/juliangarnier/anime",
       "description": "JavaScript animation engine",
       "language": "JavaScript",
-      "stars": 73556,
-      "forks": 4970,
+      "stars": 73840,
+      "forks": 4996,
       "homepage": "https://animejs.com",
       "license": "MIT",
       "created_at": "2016-03-13T21:37:45Z",
       "pushed_at": "2026-08-21T21:29:50Z",
-      "updated_at": "2026-10-13T03:27:55Z",
+      "updated_at": "2026-10-26T07:25:33Z",
       "open_issues": 124,
       "summary": "Anime.js 是一个轻量、快速且多用途的 JavaScript 动画引擎，旨在用简洁而强大的 API 解决网页中各类元素的动画需求。它支持对 CSS 属性、SVG、DOM 属性以及 JavaScript 对象进行动画操作，因此既适合界面过渡、图标与图形动效，也能驱动数据对象的数值变化。该库以 ES 模块方式导入使用，当前 V4 版本提供了完整文档，并附有从 V3 迁移的指南，方便旧项目升级。开发者可通过 npm 安装依赖并运行相关脚本进行开发。典型场景包括前端交互反馈、SVG 动画、页面元素位移与渐变等，技术栈以 JavaScript 为主，可融入现代前端构建流程。",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-09T12:39:06+00:00",
-      "last_seen": "2026-10-09",
-      "seen_count": 1,
+      "last_seen": "2026-10-26",
+      "seen_count": 2,
       "tags": [
         "library"
       ],
@@ -830,21 +863,21 @@
       "url": "https://github.com/hakimel/reveal.js",
       "description": "The HTML Presentation Framework",
       "language": "JavaScript",
-      "stars": 72416,
-      "forks": 17019,
+      "stars": 72473,
+      "forks": 17025,
       "homepage": "https://revealjs.com",
       "license": "MIT",
       "created_at": "2011-06-07T18:54:22Z",
       "pushed_at": "2026-09-30T19:38:13Z",
-      "updated_at": "2026-10-13T03:27:18Z",
-      "open_issues": 927,
+      "updated_at": "2026-10-26T07:00:30Z",
+      "open_issues": 931,
       "summary": "reveal.js 是一个基于 JavaScript 的开源 HTML 演示框架，让任何拥有浏览器的人都能免费制作精美的演示文稿。它解决的是传统演示工具依赖特定软件、难以在网页中直接呈现的问题，用 HTML 即可构建幻灯片。其核心能力包括嵌套幻灯片、Markdown 支持、Auto-Animate 动画、PDF 导出、演讲者备注、LaTeX 排版、代码语法高亮以及丰富的 API。典型使用场景是技术分享、教学课件和在线演讲，开发者可直接编写 HTML 或 Markdown 生成演示，也可通过同一团队打造的 Slides.com 可视化编辑器创建。",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-09T12:39:06+00:00",
-      "last_seen": "2026-10-09",
-      "seen_count": 1,
+      "last_seen": "2026-10-26",
+      "seen_count": 2,
       "tags": [
         "framework"
       ],
@@ -861,21 +894,21 @@
       "url": "https://github.com/expressjs/express",
       "description": "Fast, unopinionated, minimalist web framework for node.",
       "language": "JavaScript",
-      "stars": 69628,
-      "forks": 25208,
+      "stars": 69581,
+      "forks": 25273,
       "homepage": "https://expressjs.com",
       "license": "MIT",
       "created_at": "2009-06-26T18:56:01Z",
-      "pushed_at": "2026-10-09T16:24:39Z",
-      "updated_at": "2026-10-13T03:23:32Z",
-      "open_issues": 236,
+      "pushed_at": "2026-10-23T21:21:08Z",
+      "updated_at": "2026-10-26T06:52:16Z",
+      "open_issues": 253,
       "summary": "Express 是一个面向 Node.js 的快速、无固定倾向的极简 Web 框架，主要使用 JavaScript 编写，要求 Node.js 18 或更高版本，可通过 npm 安装。它针对 HTTP 服务器场景，提供小型而稳健的工具集，适合单页应用、网站、混合应用以及公开 HTTP API。其核心能力包括健壮的路由、对高性能的关注、极高的测试覆盖率、HTTP 辅助功能（如重定向和缓存）、支持 14 种以上模板引擎的视图系统以及内容协商，并提供可执行命令用于快速生成应用。Express 不强制使用特定 ORM 或模板引擎，借助 @ladjs/consolidate 可灵活搭配模板方案。",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-09T12:39:06+00:00",
-      "last_seen": "2026-10-09",
-      "seen_count": 1,
+      "last_seen": "2026-10-26",
+      "seen_count": 2,
       "tags": [
         "framework",
         "library"
@@ -887,60 +920,28 @@
       "primary_domain": "web"
     },
     {
-      "owner": "gorhill",
-      "name": "uBlock",
-      "full_name": "gorhill/uBlock",
-      "url": "https://github.com/gorhill/uBlock",
-      "description": "uBlock Origin - An efficient blocker for Chromium and Firefox. Fast and lean.",
-      "language": "JavaScript",
-      "stars": 68507,
-      "forks": 4385,
-      "homepage": "",
-      "license": "GPL-3.0",
-      "created_at": "2015-04-01T17:51:11Z",
-      "pushed_at": "2026-10-12T15:18:03Z",
-      "updated_at": "2026-10-13T03:13:26Z",
-      "open_issues": 15,
-      "summary": "uBlock Origin 是一款面向 Chromium 和 Firefox 的广谱内容拦截器，使用 JavaScript 编写，以 CPU 和内存占用低、运行快速轻量著称。它主要解决网页广告、跟踪器、挖矿脚本、弹窗、反拦截提示及恶意站点等干扰问题，默认启用 EasyList、EasyPrivacy、Peter Lowe 拦截列表、在线恶意 URL 拦截列表以及 uBO 自有的过滤列表，同时支持 hosts 文件和 EasyList 过滤语法及其扩展语法，便于用户编写自定义规则。其弹出界面提供基础模式与高级模式，后者包含可按站点配置的点击式防火墙，适合希望安装后即用或需要精细控制的用户。",
-      "windows": [
-        "daily"
-      ],
-      "added_at": "2026-10-09T12:39:06+00:00",
-      "last_seen": "2026-10-09",
-      "seen_count": 1,
-      "tags": [
-        "plugin"
-      ],
-      "primary_tag": "plugin",
-      "domains": [
-        "security",
-        "web"
-      ],
-      "primary_domain": "security"
-    },
-    {
       "owner": "byoungd",
       "name": "up",
       "full_name": "byoungd/up",
       "url": "https://github.com/byoungd/up",
-      "description": "韩先凯的人生进阶指南 人生进阶指南 AI时代生存指南 英语学习指南 离谱的人生 AI AI时代终身学习：AI、学习、创业与成长。",
+      "description": "韩先凯的人生进阶指南 AI时代 中英双语终身学习指南：英语学习、AI 协作、真实项目与成长证据。",
       "language": "JavaScript",
-      "stars": 68502,
-      "forks": 6809,
+      "stars": 69428,
+      "forks": 6895,
       "homepage": "https://byoungd.github.io/up/",
       "license": "NOASSERTION",
       "created_at": "2017-05-30T07:18:52Z",
-      "pushed_at": "2026-10-12T10:26:28Z",
-      "updated_at": "2026-10-13T03:31:29Z",
-      "open_issues": 29,
+      "pushed_at": "2026-10-26T05:00:09Z",
+      "updated_at": "2026-10-26T07:44:39Z",
+      "open_issues": 27,
       "summary": "《人生进阶指南》是韩先凯（笔名离谱）持续更新的中英双语开放书稿，以 JavaScript 构建站点，提供可下载的 EPUB 与 PDF、可复制的工作表。它面向希望提升英语、学习 AI、完成真实项目或重建生活节律的普通人，解决的是在 AI 让答案变得廉价的时代里，如何保留判断、把建议变成作品并承担责任的问题。核心方法是一条循环：定义问题、保存基线、完成最小任务、记录证据、延迟复测、决定迁移，并区分研究结论、个人经验与待验证假设。内容涵盖英语能力训练、AI 协作学习、项目开发与资源层创业、人生复盘与恢复等。",
       "windows": [
         "weekly",
         "monthly"
       ],
       "added_at": "2026-10-09T10:59:47+00:00",
-      "last_seen": "2026-10-10",
-      "seen_count": 10,
+      "last_seen": "2026-10-26",
+      "seen_count": 11,
       "tags": [
         "doc"
       ],
@@ -952,27 +953,59 @@
       "primary_domain": "learning"
     },
     {
+      "owner": "gorhill",
+      "name": "uBlock",
+      "full_name": "gorhill/uBlock",
+      "url": "https://github.com/gorhill/uBlock",
+      "description": "uBlock Origin - An efficient blocker for Chromium and Firefox. Fast and lean.",
+      "language": "JavaScript",
+      "stars": 68838,
+      "forks": 4396,
+      "homepage": "",
+      "license": "GPL-3.0",
+      "created_at": "2015-04-01T17:51:11Z",
+      "pushed_at": "2026-10-25T15:24:28Z",
+      "updated_at": "2026-10-26T07:15:02Z",
+      "open_issues": 15,
+      "summary": "uBlock Origin 是一款面向 Chromium 和 Firefox 的广谱内容拦截器，使用 JavaScript 编写，以 CPU 和内存占用低、运行快速轻量著称。它主要解决网页广告、跟踪器、挖矿脚本、弹窗、反拦截提示及恶意站点等干扰问题，默认启用 EasyList、EasyPrivacy、Peter Lowe 拦截列表、在线恶意 URL 拦截列表以及 uBO 自有的过滤列表，同时支持 hosts 文件和 EasyList 过滤语法及其扩展语法，便于用户编写自定义规则。其弹出界面提供基础模式与高级模式，后者包含可按站点配置的点击式防火墙，适合希望安装后即用或需要精细控制的用户。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-09T12:39:06+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 2,
+      "tags": [
+        "plugin"
+      ],
+      "primary_tag": "plugin",
+      "domains": [
+        "security",
+        "web"
+      ],
+      "primary_domain": "security"
+    },
+    {
       "owner": "chartjs",
       "name": "Chart.js",
       "full_name": "chartjs/Chart.js",
       "url": "https://github.com/chartjs/Chart.js",
       "description": "Simple HTML5 Charts using the <canvas> tag",
       "language": "JavaScript",
-      "stars": 67734,
-      "forks": 11950,
+      "stars": 67760,
+      "forks": 11953,
       "homepage": "https://www.chartjs.org/",
       "license": "MIT",
       "created_at": "2013-03-17T23:56:36Z",
-      "pushed_at": "2026-10-04T13:05:36Z",
-      "updated_at": "2026-10-13T00:24:07Z",
-      "open_issues": 602,
+      "pushed_at": "2026-10-23T11:47:55Z",
+      "updated_at": "2026-10-26T07:05:01Z",
+      "open_issues": 620,
       "summary": "Chart.js 是一个基于 canvas 标签的 JavaScript 图表库，面向设计师和开发者，用于在网页中绘制简洁而灵活的图表。它解决的是在浏览器端快速呈现数据可视化的问题，无需依赖复杂图形框架，通过 canvas 即可渲染。该库提供配置、图表、坐标轴等文档模块，并支持通过扩展机制增强功能，官方还列出了常用扩展和示例。主要语言为 JavaScript，适合前端项目集成，典型场景包括仪表盘、数据报告、统计页面等需要动态展示数据的 Web 应用。使用时可参考官方文档的入门、常规、配置、图表、坐标轴和开发者等章节，旧版本文档需在 URL 中指定具体版本。",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-09T12:39:06+00:00",
-      "last_seen": "2026-10-09",
-      "seen_count": 1,
+      "last_seen": "2026-10-26",
+      "seen_count": 2,
       "tags": [
         "library"
       ],
@@ -984,27 +1017,59 @@
       "primary_domain": "web"
     },
     {
+      "owner": "Mintplex-Labs",
+      "name": "anything-llm",
+      "full_name": "Mintplex-Labs/anything-llm",
+      "url": "https://github.com/Mintplex-Labs/anything-llm",
+      "description": "Stop renting your intelligence. Own it with AnythingLLM. Everything you need for a powerful local-first agent experience ",
+      "language": "JavaScript",
+      "stars": 67570,
+      "forks": 7588,
+      "homepage": "https://anythingllm.com",
+      "license": "MIT",
+      "created_at": "2023-06-04T02:29:14Z",
+      "pushed_at": "2026-10-25T18:20:45Z",
+      "updated_at": "2026-10-26T07:41:32Z",
+      "open_issues": 351,
+      "summary": "AnythingLLM 是一个一体化 AI 应用，目标是让用户以本地优先的方式搭建属于自己的私有 ChatGPT，而不必依赖外部服务。它把本地或云端大模型、文档摄取、向量数据库和文档处理流程整合在一起，安装后即可使用，无需繁琐配置。核心能力包括内置本地 LLM 引擎（基于 Lemonade 和 llama.cpp，支持 CPU、GPU 及 Vulkan）、动态模型路由、自动与用户管理的记忆、定时任务、智能技能选择、无代码 AI Agent 构建器、MCP 兼容、多模态支持、工作区内的 Agent（如网页浏览）、可嵌入网站的聊天组件，以及多用户与权限管理。",
+      "tags": [
+        "app"
+      ],
+      "primary_tag": "app",
+      "domains": [
+        "ai",
+        "productivity"
+      ],
+      "primary_domain": "ai",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-26T07:45:30+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 1
+    },
+    {
       "owner": "leonardomso",
       "name": "33-js-concepts",
       "full_name": "leonardomso/33-js-concepts",
       "url": "https://github.com/leonardomso/33-js-concepts",
       "description": "📜 33 JavaScript concepts every developer should know.",
       "language": "JavaScript",
-      "stars": 66533,
+      "stars": 66526,
       "forks": 9121,
       "homepage": "https://33jsconcepts.com/",
       "license": "MIT",
       "created_at": "2018-09-04T13:27:04Z",
-      "pushed_at": "2026-09-10T23:40:11Z",
-      "updated_at": "2026-10-12T20:48:56Z",
-      "open_issues": 8,
+      "pushed_at": "2026-10-21T16:03:54Z",
+      "updated_at": "2026-10-26T05:26:11Z",
+      "open_issues": 10,
       "summary": "33-js-concepts 是一份面向 JavaScript 开发者的学习资源库，旨在帮助开发者系统掌握核心语言概念。它围绕 33 个必备主题组织内容，涵盖基础类型、类型转换、相等运算符、作用域与闭包、调用栈、事件循环、DOM、Fetch API、Web Workers、原型与继承、Promise、async/await、生成器与迭代器、高阶函数、纯函数、map/reduce/filter、递归、柯里化、正则表达式、ES 模块、数据结构、算法与 Big O、设计模式以及整洁代码等，并额外扩展了提升、暂时性死区、严格模式、属性描述符、Proxy 与 Reflect、WeakMap、内存管理。",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-09T12:39:06+00:00",
-      "last_seen": "2026-10-09",
-      "seen_count": 1,
+      "last_seen": "2026-10-26",
+      "seen_count": 2,
       "tags": [
         "doc"
       ],
@@ -1021,21 +1086,21 @@
       "url": "https://github.com/webpack/webpack",
       "description": "A bundler for javascript and friends. Packs many modules into a few bundled assets. Code Splitting allows for loading parts of the application on demand. Through \"loaders\", modules can be CommonJs, AMD, ES6 modules, CSS, Images, JSON, Coffeescript, LESS, ... and your custom stuff.",
       "language": "JavaScript",
-      "stars": 66066,
-      "forks": 9533,
+      "stars": 65970,
+      "forks": 9488,
       "homepage": "https://webpack.js.org",
       "license": "MIT",
       "created_at": "2012-03-10T10:08:14Z",
-      "pushed_at": "2026-10-13T03:17:35Z",
-      "updated_at": "2026-10-13T02:36:48Z",
-      "open_issues": 127,
+      "pushed_at": "2026-10-26T07:07:02Z",
+      "updated_at": "2026-10-26T06:49:56Z",
+      "open_issues": 114,
       "summary": "webpack 是一个 JavaScript 模块打包器，主要用途是将浏览器端使用的 JavaScript 文件打包，同时也能转换、打包或封装几乎任何资源。它支持 ES Modules、CommonJS 和 AMD 模块，可在编译阶段解析依赖，减少运行时体积，并能将代码拆分为多个按需异步加载的 chunk，从而降低初始加载时间。通过 loader，它可以在编译时预处理 TypeScript、CoffeeScript、CSS、图片、JSON、LESS 等文件，甚至支持自定义 loader；其插件系统高度模块化，可扩展出压缩、缓存优化、哈希命名等能力。",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-09T12:39:06+00:00",
-      "last_seen": "2026-10-09",
-      "seen_count": 1,
+      "last_seen": "2026-10-26",
+      "seen_count": 2,
       "tags": [
         "tool",
         "library"
@@ -1048,27 +1113,93 @@
       "primary_domain": "devtools"
     },
     {
+      "owner": "gsd-build",
+      "name": "get-shit-done",
+      "full_name": "gsd-build/get-shit-done",
+      "url": "https://github.com/gsd-build/get-shit-done",
+      "description": "A light-weight and powerful meta-prompting, context engineering and spec-driven development system for Claude Code by TÂCHES.",
+      "language": "JavaScript",
+      "stars": 64220,
+      "forks": 5420,
+      "homepage": "",
+      "license": "MIT",
+      "created_at": "2025-12-14T14:17:12Z",
+      "pushed_at": "2026-05-31T17:46:54Z",
+      "updated_at": "2026-10-26T07:28:47Z",
+      "open_issues": 0,
+      "archived": true,
+      "summary": "GSD（get-shit-done）是一个面向 Claude Code 的轻量级元提示、上下文工程与规格驱动开发系统，由 TÂCHES 创建，主要使用 JavaScript 编写。它要解决的问题是：在借助 Claude Code 进行开发时，如何更有效地组织提示、管理上下文，并以规格为驱动推进开发流程，从而让 AI 辅助编码更可控、更贴近实际需求。其核心能力集中在元提示、上下文工程和规格驱动开发三个方面，强调轻量但功能强大。典型使用场景包括在 Claude Code 中开展需要明确规格与上下文管理的开发任务。",
+      "tags": [
+        "tool",
+        "framework"
+      ],
+      "primary_tag": "tool",
+      "domains": [
+        "ai",
+        "devtools"
+      ],
+      "primary_domain": "ai",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-26T07:45:30+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 1
+    },
+    {
+      "owner": "jgraph",
+      "name": "drawio-desktop",
+      "full_name": "jgraph/drawio-desktop",
+      "url": "https://github.com/jgraph/drawio-desktop",
+      "description": "Official electron build of draw.io",
+      "language": "JavaScript",
+      "stars": 63654,
+      "forks": 5798,
+      "homepage": "https://www.diagrams.net",
+      "license": "GPL-3.0",
+      "created_at": "2017-05-25T20:58:42Z",
+      "pushed_at": "2026-10-23T17:56:22Z",
+      "updated_at": "2026-10-26T07:43:10Z",
+      "open_issues": 3,
+      "summary": "drawio-desktop 是 draw.io 核心编辑器的官方 Electron 桌面封装，用 JavaScript 编写，把原本运行在浏览器里的绘图工具做成可离线安装的桌面应用。它解决的是在无网络或需要本地文件管理的环境下画流程图、架构图、思维导图等图表的需求。核心特点是默认与互联网隔离，除每天检查一次更新外不发送任何图表数据或使用统计，内容安全策略禁止加载远程 JavaScript；更新方式随安装形态而异，安装版和 AppImage 可后台下载并在退出时安装，MSI、zip、deb、rpm 等则提示跳转发布页手动更新，也可通过环境变量或启动参数关闭更新检查。",
+      "tags": [
+        "app"
+      ],
+      "primary_tag": "app",
+      "domains": [
+        "graphics",
+        "productivity"
+      ],
+      "primary_domain": "graphics",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-26T07:45:30+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 1
+    },
+    {
       "owner": "resume",
       "name": "resume.github.com",
       "full_name": "resume/resume.github.com",
       "url": "https://github.com/resume/resume.github.com",
       "description": "Resumes generated using the GitHub informations",
       "language": "JavaScript",
-      "stars": 62906,
-      "forks": 1370,
+      "stars": 62915,
+      "forks": 1371,
       "homepage": "https://resume.github.com",
       "license": "",
       "created_at": "2011-02-06T13:39:55Z",
       "pushed_at": "2023-02-15T06:38:51Z",
-      "updated_at": "2026-10-13T01:56:04Z",
+      "updated_at": "2026-10-25T20:15:14Z",
       "open_issues": 78,
       "summary": "GitHub Résumé 是一个根据你的 GitHub 仓库和活动自动生成简历的服务，主要用 JavaScript 编写。它解决的是面试前快速展示个人代码贡献与项目经历的问题，尤其适合技术管理者在面试前了解候选人的 git 和 GitHub 活跃情况。使用方式很简单：只要给这个项目点星标，你的简历就会公开可见，访问 https://resume.github.io/?yourusername 即可查看，首页也提供了详细说明。该项目采用 opt-in 机制，不点星标就不会生成简历，尊重用户选择。开发模式下可通过 rackup config.",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-12T12:11:36+00:00",
-      "last_seen": "2026-10-12",
-      "seen_count": 1,
+      "last_seen": "2026-10-26",
+      "seen_count": 2,
       "tags": [
         "app",
         "tool"
@@ -1087,21 +1218,21 @@
       "url": "https://github.com/lodash/lodash",
       "description": "A modern JavaScript utility library delivering modularity, performance, & extras.",
       "language": "JavaScript",
-      "stars": 61355,
-      "forks": 7196,
+      "stars": 61279,
+      "forks": 7202,
       "homepage": "https://lodash.com/",
       "license": "NOASSERTION",
       "created_at": "2012-04-07T04:11:46Z",
       "pushed_at": "2026-10-01T23:04:09Z",
-      "updated_at": "2026-10-12T17:07:39Z",
-      "open_issues": 121,
+      "updated_at": "2026-10-26T07:02:54Z",
+      "open_issues": 123,
       "summary": "Lodash 是一个现代 JavaScript 实用工具库，以模块化、高性能和附加功能为设计目标，用于简化数组、数字、对象、字符串等常见数据类型的操作。它提供迭代数组、对象和字符串，操作与检测值，以及创建组合函数等能力，帮助开发者减少处理这些日常任务时的繁琐代码。该库以 UMD 模块形式导出，提供核心构建和完整构建等不同体积的版本，并支持多种模块格式，包括按方法拆分的包、lodash-es、lodash/fp 以及 lodash-amd，便于按需选用。它可在浏览器、Node.js 等现代环境中使用，适合需要频繁进行数据变换、函数组合或跨环境复用工具方法的前端与 Node.js 项目。",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-12T12:11:36+00:00",
-      "last_seen": "2026-10-12",
-      "seen_count": 1,
+      "last_seen": "2026-10-26",
+      "seen_count": 2,
       "tags": [
         "library"
       ],
@@ -1118,22 +1249,22 @@
       "url": "https://github.com/atom/atom",
       "description": ":atom: The hackable text editor",
       "language": "JavaScript",
-      "stars": 60713,
-      "forks": 17168,
+      "stars": 60710,
+      "forks": 17158,
       "homepage": "https://atom.io",
       "license": "MIT",
       "created_at": "2012-01-20T18:18:21Z",
       "pushed_at": "2023-01-03T10:49:48Z",
-      "updated_at": "2026-10-13T03:30:49Z",
-      "open_issues": 992,
+      "updated_at": "2026-10-25T19:54:29Z",
+      "open_issues": 991,
       "archived": true,
       "summary": "Atom 是一款基于 Electron 构建、以 JavaScript 为主要语言的可定制文本编辑器，面向需要深度调整编辑环境的开发者。它试图解决通用编辑器难以兼顾易用性与可扩展性的问题：默认配置即可直接上手，同时允许用户通过修改配置和开发包来重塑编辑体验。其核心能力来自 Electron 带来的跨平台桌面支持，以及围绕包机制形成的扩展体系，官方提供 Flight Manual 和 API 文档帮助使用与开发。典型场景包括日常代码编写、安装社区包扩展功能，以及在 macOS、Windows 和 64 位 Linux 上通过安装包、包管理器或压缩包方式部署。",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-12T12:11:36+00:00",
-      "last_seen": "2026-10-12",
-      "seen_count": 1,
+      "last_seen": "2026-10-26",
+      "seen_count": 2,
       "tags": [
         "app"
       ],
@@ -1144,27 +1275,91 @@
       "primary_domain": "devtools"
     },
     {
+      "owner": "adam-p",
+      "name": "markdown-here",
+      "full_name": "adam-p/markdown-here",
+      "url": "https://github.com/adam-p/markdown-here",
+      "description": "Google Chrome, Firefox, and Thunderbird extension that lets you write email in Markdown and render it before sending.",
+      "language": "JavaScript",
+      "stars": 60255,
+      "forks": 10982,
+      "homepage": "https://markdown-here.com",
+      "license": "MIT",
+      "created_at": "2012-05-13T03:27:22Z",
+      "pushed_at": "2025-08-22T00:21:50Z",
+      "updated_at": "2026-10-25T11:54:48Z",
+      "open_issues": 319,
+      "summary": "Markdown Here 是一款用 JavaScript 编写的浏览器与邮件客户端扩展，支持 Chrome、Firefox、Opera 和 Thunderbird，让你直接用 Markdown 撰写邮件，并在发送前渲染成富 HTML。它解决的是在邮件里写代码片段时格式繁琐的问题：作者原本要在 GitHub 编辑器里写好再复制预览，于是做了这个工具。核心能力包括按围栏代码块指定语言进行语法高亮、处理 TeX 数学公式，以及通过右键菜单、工具栏按钮或快捷键（默认 SHIFT+ALT+M）在 Markdown 与渲染结果之间来回切换；还支持只转换选中的部分内容，并自动跳过邮件签名。",
+      "tags": [
+        "plugin"
+      ],
+      "primary_tag": "plugin",
+      "domains": [
+        "productivity"
+      ],
+      "primary_domain": "productivity",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-26T07:45:30+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 1
+    },
+    {
+      "owner": "bilawalsidhu",
+      "name": "gods-eye-view",
+      "full_name": "bilawalsidhu/gods-eye-view",
+      "url": "https://github.com/bilawalsidhu/gods-eye-view",
+      "description": "A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.",
+      "language": "JavaScript",
+      "stars": 60165,
+      "forks": 11743,
+      "homepage": "https://maptheworld.ai/",
+      "license": "NOASSERTION",
+      "created_at": "2026-06-22T23:37:22Z",
+      "pushed_at": "2026-10-26T05:24:30Z",
+      "updated_at": "2026-10-26T07:45:14Z",
+      "open_issues": 405,
+      "summary": "God's Eye View 是一个运行在浏览器中的间谍卫星模拟器，基于 JavaScript 开发，将公开的实时数据源汇聚到同一个逼真的三维地球上。它解决的是信息分散问题：航班应答机、船舶信标、卫星轨道根数、地震仪和公共摄像头本就公开，但此前彼此孤立，该项目把它们放进同一视图，让用户在全球态势与单个飞机、船只或街道之间自由切换。核心能力包括驾驶舱视角跟随航班、点击追踪任意目标并显示轨迹与元数据、语音控制与语音标注、按机型渲染的 3D 飞机模型、CRT/NVG/FLIR 等传感器滤镜、检测框叠加、军事风格 HUD、天气与雷达动画、卫星过境查询、免密钥搜索以及可分享的场景链接。",
+      "windows": [
+        "monthly"
+      ],
+      "added_at": "2026-10-09T10:59:47+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 10,
+      "tags": [
+        "app"
+      ],
+      "primary_tag": "app",
+      "domains": [
+        "graphics",
+        "data",
+        "security"
+      ],
+      "primary_domain": "graphics"
+    },
+    {
       "owner": "jquery",
       "name": "jquery",
       "full_name": "jquery/jquery",
       "url": "https://github.com/jquery/jquery",
       "description": "jQuery JavaScript Library",
       "language": "JavaScript",
-      "stars": 59898,
-      "forks": 20400,
+      "stars": 59906,
+      "forks": 20553,
       "homepage": "https://jquery.com",
       "license": "MIT",
       "created_at": "2009-04-03T15:20:14Z",
-      "pushed_at": "2026-10-08T11:51:33Z",
-      "updated_at": "2026-10-12T20:31:45Z",
-      "open_issues": 95,
+      "pushed_at": "2026-10-16T10:14:22Z",
+      "updated_at": "2026-10-26T07:01:23Z",
+      "open_issues": 97,
       "summary": "jQuery 是一个用 JavaScript 编写的库，用于简化网页开发中的常见任务，如 DOM 操作、事件处理、动画和 AJAX 交互。它通过统一的 API 屏蔽浏览器差异，让开发者用更少的代码完成跨浏览器操作。当前 4.0.0 版本已发布，3.x 分支仅接收关键更新，2.x 和 1.x 分支不再支持，官方建议用户升级以获得更好的性能、安全性和功能。jQuery 支持浏览器、Node、浏览器扩展等环境，并提供模块化构建方式，可通过构建脚本排除 ajax、css、effects、event 等模块，生成自定义版本或 slim 版本，也支持 ESM 和工厂模式。",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-12T12:11:36+00:00",
-      "last_seen": "2026-10-12",
-      "seen_count": 1,
+      "last_seen": "2026-10-26",
+      "seen_count": 2,
       "tags": [
         "library"
       ],
@@ -1175,27 +1370,60 @@
       "primary_domain": "web"
     },
     {
+      "owner": "angular",
+      "name": "angular.js",
+      "full_name": "angular/angular.js",
+      "url": "https://github.com/angular/angular.js",
+      "description": "AngularJS - HTML enhanced for web apps!",
+      "language": "JavaScript",
+      "stars": 58471,
+      "forks": 26930,
+      "homepage": "https://angularjs.org",
+      "license": "MIT",
+      "created_at": "2010-01-06T00:34:37Z",
+      "pushed_at": "2024-04-12T17:43:16Z",
+      "updated_at": "2026-10-26T07:00:42Z",
+      "open_issues": 461,
+      "archived": true,
+      "summary": "AngularJS 是一个用于构建客户端 Web 应用的 JavaScript 框架，核心理念是让 HTML 具备更强的表达能力。它允许开发者直接以 HTML（或 HAML、Jade/Pug 等）作为模板语言，并通过扩展 HTML 语法来清晰简洁地描述应用组件。框架通过双向数据绑定自动同步视图与 JavaScript 对象模型，并引入依赖注入和反转控制帮助组织代码结构、提升可测试性。它还借助 promise 和 deferred 对象处理异步回调，简化服务端通信，并让基于 hashbang 或 HTML5 pushState 的客户端导航与深链接变得容易。",
+      "tags": [
+        "framework",
+        "library"
+      ],
+      "primary_tag": "framework",
+      "domains": [
+        "web"
+      ],
+      "primary_domain": "web",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-26T07:45:30+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 1
+    },
+    {
       "owner": "scutan90",
       "name": "DeepLearning-500-questions",
       "full_name": "scutan90/DeepLearning-500-questions",
       "url": "https://github.com/scutan90/DeepLearning-500-questions",
       "description": "深度学习500问，以问答形式对常用的概率知识、线性代数、机器学习、深度学习、计算机视觉等热点问题进行阐述，以帮助自己及有需要的读者。 全书分为18个章节，50余万字。由于水平有限，书中不妥之处恳请广大读者批评指正。   未完待续............ 如有意合作，联系scutjy2015@163.com                     版权所有，违权必究       Tan 2018.06",
       "language": "JavaScript",
-      "stars": 57659,
-      "forks": 15833,
+      "stars": 57688,
+      "forks": 15818,
       "homepage": "https://github.com/scutan90/DeepLearning-500-questions",
       "license": "GPL-3.0",
       "created_at": "2018-06-27T06:36:45Z",
       "pushed_at": "2024-06-26T12:10:14Z",
-      "updated_at": "2026-10-12T15:25:12Z",
+      "updated_at": "2026-10-25T12:06:43Z",
       "open_issues": 120,
       "summary": "DeepLearning-500-questions 是一份以问答形式组织的深度学习知识库，内容源自编者日常学习总结及各大公司笔试面试题，全书约50余万字，分为18个章节。它系统梳理了数学基础、机器学习基础、深度学习基础，以及CNN、RNN、GAN等经典网络结构和计算机视觉中的目标检测、图像分割应用，还涵盖迁移学习、网络架构与训练、优化技巧、超参数调整、模型压缩加速等主题。项目适合深度学习与计算机视觉领域的初学者、中级研究人员和工程技术人员查漏补缺，尤其面向准备AI工程师面试的应聘者及相关岗位面试官。",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-12T12:11:36+00:00",
-      "last_seen": "2026-10-12",
-      "seen_count": 1,
+      "last_seen": "2026-10-26",
+      "seen_count": 2,
       "tags": [
         "doc"
       ],
@@ -1213,21 +1441,21 @@
       "url": "https://github.com/h5bp/html5-boilerplate",
       "description": "A professional front-end template for building fast, robust, and adaptable web apps or sites.",
       "language": "JavaScript",
-      "stars": 57641,
-      "forks": 12246,
+      "stars": 57654,
+      "forks": 12243,
       "homepage": "https://html5boilerplate.com/",
       "license": "MIT",
       "created_at": "2010-01-24T18:03:24Z",
       "pushed_at": "2026-10-12T10:58:53Z",
-      "updated_at": "2026-10-13T01:58:26Z",
-      "open_issues": 21,
+      "updated_at": "2026-10-26T05:48:35Z",
+      "open_issues": 22,
       "summary": "HTML5 Boilerplate 是一个专业的前端模板，用于构建快速、健壮且适应性强的 Web 应用或网站。它经过十多年迭代开发和社区知识积累，不强制绑定特定开发理念或框架，开发者可以自由组织代码结构。该模板注重渐进增强，内置 Open Graph 占位元素、示例 package.json 与 WebPack 命令、CSS 媒体查询占位、实用辅助类以及性能优化的默认打印样式，并支持按需删除不需要的部分，附带详尽文档。它支持各大主流浏览器的最新稳定版本。",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-12T12:11:36+00:00",
-      "last_seen": "2026-10-12",
-      "seen_count": 1,
+      "last_seen": "2026-10-26",
+      "seen_count": 2,
       "tags": [
         "template"
       ],
@@ -1238,59 +1466,27 @@
       "primary_domain": "web"
     },
     {
-      "owner": "azl397985856",
-      "name": "leetcode",
-      "full_name": "azl397985856/leetcode",
-      "url": "https://github.com/azl397985856/leetcode",
-      "description": "LeetCode Solutions: A Record of My Problem Solving Journey.( leetcode题解，记录自己的leetcode解题之路。)",
-      "language": "JavaScript",
-      "stars": 55730,
-      "forks": 9345,
-      "homepage": "https://leetcode-solution-leetcode-pp.gitbook.io/leetcode-solution/",
-      "license": "NOASSERTION",
-      "created_at": "2018-03-30T09:13:51Z",
-      "pushed_at": "2025-07-16T09:42:17Z",
-      "updated_at": "2026-10-13T02:01:33Z",
-      "open_issues": 12,
-      "summary": "这是一个用 JavaScript 编写的 LeetCode 题解仓库，记录了作者持续的刷题历程。内容分为五部分：经典题目解析（含思路、关键点与代码实现）、数据结构与算法专题总结、Anki 记忆卡片、每日一题活动记录以及后续更新计划。目前已更新两百多道题解，加上专题涉及题目约三百道，按简单、中等、困难分级整理，并配有二分、动态规划、滑动窗口、并查集、前缀树等专题讲义。仓库还提供在线阅读的电子书、浏览器刷题插件和面试步骤参考，适合准备算法面试的开发者按专题系统练习，或结合 Anki 卡片巩固记忆。作者另组织过九十一 天学算法打卡活动，并提供一对一辅导。",
-      "windows": [
-        "daily"
-      ],
-      "added_at": "2026-10-12T12:11:36+00:00",
-      "last_seen": "2026-10-12",
-      "seen_count": 1,
-      "tags": [
-        "doc",
-        "example"
-      ],
-      "primary_tag": "doc",
-      "domains": [
-        "learning"
-      ],
-      "primary_domain": "learning"
-    },
-    {
       "owner": "coreyhaines31",
       "name": "marketingskills",
       "full_name": "coreyhaines31/marketingskills",
       "url": "https://github.com/coreyhaines31/marketingskills",
       "description": "Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.",
       "language": "JavaScript",
-      "stars": 54402,
-      "forks": 8074,
+      "stars": 56572,
+      "forks": 8367,
       "homepage": "https://marketing-skills.com",
       "license": "MIT",
       "created_at": "2026-01-15T19:45:23Z",
-      "pushed_at": "2026-10-13T00:27:48Z",
-      "updated_at": "2026-10-13T03:31:06Z",
-      "open_issues": 57,
+      "pushed_at": "2026-10-22T16:57:46Z",
+      "updated_at": "2026-10-26T07:44:25Z",
+      "open_issues": 58,
       "summary": "marketingskills 是一套面向 AI 编程代理的营销技能库，由 Corey Haines 构建，主要服务技术型营销人员和创始人。它通过 Markdown 文件为代理注入专业知识和操作流程，使其在处理营销任务时能调用相应框架与最佳实践，兼容 Claude Code、OpenAI Codex、Cursor、Windsurf 等支持 Agent Skills 规范的代理。技能覆盖转化率优化、文案写作、SEO、分析与增长工程等方向，其中 product-marketing 是基础技能，其他技能会先读取它来理解产品、受众与定位。",
       "windows": [
         "weekly"
       ],
       "added_at": "2026-10-09T10:59:47+00:00",
-      "last_seen": "2026-10-10",
-      "seen_count": 10,
+      "last_seen": "2026-10-26",
+      "seen_count": 11,
       "tags": [
         "plugin",
         "doc"
@@ -1303,37 +1499,99 @@
       "primary_domain": "ai"
     },
     {
-      "owner": "bilawalsidhu",
-      "name": "gods-eye-view",
-      "full_name": "bilawalsidhu/gods-eye-view",
-      "url": "https://github.com/bilawalsidhu/gods-eye-view",
-      "description": "A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.",
+      "owner": "gatsbyjs",
+      "name": "gatsby",
+      "full_name": "gatsbyjs/gatsby",
+      "url": "https://github.com/gatsbyjs/gatsby",
+      "description": "React-based framework with performance, scalability, and security built in.",
       "language": "JavaScript",
-      "stars": 53897,
-      "forks": 10631,
-      "homepage": "https://maptheworld.ai/",
-      "license": "NOASSERTION",
-      "created_at": "2026-06-22T23:37:22Z",
-      "pushed_at": "2026-10-12T14:15:33Z",
-      "updated_at": "2026-10-13T03:33:26Z",
-      "open_issues": 385,
-      "summary": "God's Eye View 是一个运行在浏览器中的间谍卫星模拟器，基于 JavaScript 开发，将公开的实时数据源汇聚到同一个逼真的三维地球上。它解决的是信息分散问题：航班应答机、船舶信标、卫星轨道根数、地震仪和公共摄像头本就公开，但此前彼此孤立，该项目把它们放进同一视图，让用户在全球态势与单个飞机、船只或街道之间自由切换。核心能力包括驾驶舱视角跟随航班、点击追踪任意目标并显示轨迹与元数据、语音控制与语音标注、按机型渲染的 3D 飞机模型、CRT/NVG/FLIR 等传感器滤镜、检测框叠加、军事风格 HUD、天气与雷达动画、卫星过境查询、免密钥搜索以及可分享的场景链接。",
-      "windows": [
-        "monthly"
-      ],
-      "added_at": "2026-10-09T10:59:47+00:00",
-      "last_seen": "2026-10-10",
-      "seen_count": 9,
+      "stars": 55929,
+      "forks": 10094,
+      "homepage": "https://www.gatsbyjs.com",
+      "license": "MIT",
+      "created_at": "2015-05-21T22:43:05Z",
+      "pushed_at": "2026-10-20T11:36:56Z",
+      "updated_at": "2026-10-26T05:33:18Z",
+      "open_issues": 458,
+      "summary": "Gatsby 是一个基于 React 的免费开源框架，用于构建快速、可扩展且安全的网站和应用。它把动态渲染站点的可控性与静态站点生成的速度结合起来，让开发者既能获得静态站点的性能优势，又能构建功能完整的 React 动态应用，覆盖博客、电商站点和用户仪表盘等场景。数据来源方面，Gatsby 可从 Markdown 文件、Contentful 或 WordPress 等无头 CMS，以及 REST 或 GraphQL API 拉取内容，并通过统一的 GraphQL 接口进行开发。渲染上支持按页面选择静态站点生成、延迟静态生成和服务端渲染，便于在性能与开发效率之间做取舍。",
       "tags": [
-        "app"
+        "framework"
       ],
-      "primary_tag": "app",
+      "primary_tag": "framework",
       "domains": [
-        "graphics",
-        "data",
-        "security"
+        "web"
       ],
-      "primary_domain": "graphics"
+      "primary_domain": "web",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-26T07:45:30+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 1
+    },
+    {
+      "owner": "azl397985856",
+      "name": "leetcode",
+      "full_name": "azl397985856/leetcode",
+      "url": "https://github.com/azl397985856/leetcode",
+      "description": "LeetCode Solutions: A Record of My Problem Solving Journey.( leetcode题解，记录自己的leetcode解题之路。)",
+      "language": "JavaScript",
+      "stars": 55723,
+      "forks": 9337,
+      "homepage": "https://leetcode-solution-leetcode-pp.gitbook.io/leetcode-solution/",
+      "license": "NOASSERTION",
+      "created_at": "2018-03-30T09:13:51Z",
+      "pushed_at": "2025-07-16T09:42:17Z",
+      "updated_at": "2026-10-26T06:09:30Z",
+      "open_issues": 13,
+      "summary": "这是一个用 JavaScript 编写的 LeetCode 题解仓库，记录了作者持续的刷题历程。内容分为五部分：经典题目解析（含思路、关键点与代码实现）、数据结构与算法专题总结、Anki 记忆卡片、每日一题活动记录以及后续更新计划。目前已更新两百多道题解，加上专题涉及题目约三百道，按简单、中等、困难分级整理，并配有二分、动态规划、滑动窗口、并查集、前缀树等专题讲义。仓库还提供在线阅读的电子书、浏览器刷题插件和面试步骤参考，适合准备算法面试的开发者按专题系统练习，或结合 Anki 卡片巩固记忆。作者另组织过九十一 天学算法打卡活动，并提供一对一辅导。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:11:36+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 2,
+      "tags": [
+        "doc",
+        "example"
+      ],
+      "primary_tag": "doc",
+      "domains": [
+        "learning"
+      ],
+      "primary_domain": "learning"
+    },
+    {
+      "owner": "mozilla",
+      "name": "pdf.js",
+      "full_name": "mozilla/pdf.js",
+      "url": "https://github.com/mozilla/pdf.js",
+      "description": "PDF Reader in JavaScript",
+      "language": "JavaScript",
+      "stars": 54046,
+      "forks": 10720,
+      "homepage": "https://mozilla.github.io/pdf.js/",
+      "license": "Apache-2.0",
+      "created_at": "2011-04-26T06:32:03Z",
+      "pushed_at": "2026-10-25T15:28:43Z",
+      "updated_at": "2026-10-26T01:50:29Z",
+      "open_issues": 461,
+      "summary": "PDF.js 是由 Mozilla 支持、社区驱动的开源 PDF 阅读器，使用 HTML5 和 JavaScript 构建，目标是在 Web 标准之上提供通用的 PDF 解析与渲染平台。它解决的核心问题是让浏览器无需依赖原生插件即可打开和显示 PDF 文件，Firefox 19 及以上版本已内置该阅读器，Chrome 也可通过官方扩展使用。项目提供在线演示、PDF 内部结构调试器，以及以 pdfjs-dist 名义发布到 NPM 的预构建版本，可通过 jsDelivr、cdnjs、unpkg 等 CDN 引入，方便在 Web 应用中集成。开发者可以克隆仓库、安装 Node.",
+      "tags": [
+        "library"
+      ],
+      "primary_tag": "library",
+      "domains": [
+        "web",
+        "media"
+      ],
+      "primary_domain": "web",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-26T07:45:30+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 1
     },
     {
       "owner": "chinese-poetry",
@@ -1342,21 +1600,21 @@
       "url": "https://github.com/chinese-poetry/chinese-poetry",
       "description": "The most comprehensive database of Chinese poetry 🧶最全中华古诗词数据库,  唐宋两朝近一万四千古诗人,  接近5.5万首唐诗加26万宋诗.  两宋时期1564位词人，21050首词。",
       "language": "JavaScript",
-      "stars": 53689,
-      "forks": 10806,
+      "stars": 53843,
+      "forks": 10854,
       "homepage": "https://awesome-poetry.top/",
       "license": "MIT",
       "created_at": "2016-09-02T03:32:25Z",
       "pushed_at": "2026-06-17T01:56:08Z",
-      "updated_at": "2026-10-13T02:47:01Z",
-      "open_issues": 137,
+      "updated_at": "2026-10-26T07:42:17Z",
+      "open_issues": 139,
       "summary": "chinese-poetry 是一个以 JSON 格式分发的中文古典文集数据库，收录了 5.5 万首唐诗、26 万首宋诗、2.1 万首宋词，以及五代花间集、南唐二主词、诗经、论语、四书五经、蒙学、纳兰性德诗集等文本，涵盖唐宋两朝近 1.4 万位诗人与两宋 1.5 千余位词人。它解决的是古典文集纸质化、分散化导致普通开发者难以获取和利用的问题，通过结构化数据让诗词内容便于拷贝和程序读取。项目主要使用 JavaScript，适合构建诗词类应用、进行文本分析或高频词统计等场景。数据来源于互联网，采集过程曾因目标网站限制而持续一周以上。",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-12T12:11:36+00:00",
-      "last_seen": "2026-10-12",
-      "seen_count": 1,
+      "last_seen": "2026-10-26",
+      "seen_count": 2,
       "tags": [
         "model"
       ],
@@ -1374,22 +1632,22 @@
       "url": "https://github.com/poteto/hiring-without-whiteboards",
       "description": "⭐️  Companies that don't have a broken hiring process",
       "language": "JavaScript",
-      "stars": 52631,
-      "forks": 3964,
+      "stars": 52896,
+      "forks": 3976,
       "homepage": "",
       "license": "MIT",
       "created_at": "2017-03-15T05:09:01Z",
       "pushed_at": "2026-09-24T04:48:39Z",
-      "updated_at": "2026-10-13T02:53:46Z",
-      "open_issues": 10,
+      "updated_at": "2026-10-26T06:56:44Z",
+      "open_issues": 12,
       "summary": "hiring-without-whiteboards 是一份由社区维护的公司与团队清单，专门收录那些不采用“白板面试”的雇主。这里的“白板”是隐喻，指代与糟糕面试实践相关的计算机科学冷知识题，例如 HackerRank、LeetCode 一类刷题平台上的题目。该项目要解决的问题是：许多技术面试用脱离日常工作的谜题和脑筋急转弯筛选候选人，无法反映真实工程能力。清单中的公司改用贴近实际工作的方式，比如结对解决真实问题、带薪或不带薪的回家作业、设计讨论、技术面试加行为面试等。",
       "windows": [
         "daily",
         "weekly"
       ],
       "added_at": "2026-10-10T22:23:27+00:00",
-      "last_seen": "2026-10-11",
-      "seen_count": 2,
+      "last_seen": "2026-10-26",
+      "seen_count": 3,
       "tags": [
         "doc"
       ],
@@ -1406,21 +1664,21 @@
       "url": "https://github.com/prettier/prettier",
       "description": "Prettier is an opinionated code formatter.",
       "language": "JavaScript",
-      "stars": 52448,
-      "forks": 5038,
+      "stars": 52380,
+      "forks": 5007,
       "homepage": "https://prettier.io",
       "license": "MIT",
       "created_at": "2016-11-29T17:13:37Z",
-      "pushed_at": "2026-10-12T16:56:33Z",
-      "updated_at": "2026-10-12T21:04:21Z",
-      "open_issues": 1449,
+      "pushed_at": "2026-10-24T06:04:11Z",
+      "updated_at": "2026-10-26T06:13:34Z",
+      "open_issues": 1461,
       "summary": "Prettier 是一个固执己见的代码格式化工具，主要用 JavaScript 编写。它通过解析代码并按自身规则重新输出，强制统一代码风格，同时考虑最大行宽并在必要时换行，从而解决团队中因格式差异产生的无休止争论。它支持 JavaScript、TypeScript、Flow、JSX、JSON、CSS、SCSS、Less、HTML、Vue、Angular、GraphQL、Markdown 和 YAML 等多种语言。典型使用场景包括在编辑器中保存时自动格式化、在提交前钩子中运行，或在持续集成环境中检查，确保代码库风格一致，让开发者不再需要为代码审查中的格式细节发表挑剔评论。",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-12T12:11:36+00:00",
-      "last_seen": "2026-10-12",
-      "seen_count": 1,
+      "last_seen": "2026-10-26",
+      "seen_count": 2,
       "tags": [
         "tool",
         "library"
@@ -1438,21 +1696,21 @@
       "url": "https://github.com/Semantic-Org/Semantic-UI",
       "description": "Semantic is a UI component framework based around useful principles from natural language.",
       "language": "JavaScript",
-      "stars": 51010,
-      "forks": 4841,
+      "stars": 51006,
+      "forks": 4837,
       "homepage": "http://www.semantic-ui.com",
       "license": "MIT",
       "created_at": "2013-04-08T23:32:04Z",
       "pushed_at": "2024-11-27T21:01:48Z",
-      "updated_at": "2026-10-13T02:37:40Z",
+      "updated_at": "2026-10-26T04:25:17Z",
       "open_issues": 1071,
       "summary": "Semantic UI 是一个以自然语言原则为基础的 UI 组件框架，主要用 JavaScript 编写，旨在帮助开发者快速构建美观且易于主题定制的网站。它提供了 50 多个 UI 元素和 3000 多个 CSS 变量，支持三级变量继承，并采用 EM 值实现响应式设计，对 Flexbox 友好。其核心特点是 HTML 简洁、JavaScript 直观、调试简化，让前端开发更顺畅。它可与 React、Angular、Meteor、Ember 等框架集成，用于组织 UI 层与应用逻辑。安装方式包括交互式安装器，也提供 CSS、LESS 等独立版本。",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-12T12:11:36+00:00",
-      "last_seen": "2026-10-12",
-      "seen_count": 1,
+      "last_seen": "2026-10-26",
+      "seen_count": 2,
       "tags": [
         "framework",
         "library",
@@ -1465,27 +1723,90 @@
       "primary_domain": "web"
     },
     {
+      "owner": "DavidHDev",
+      "name": "react-bits",
+      "full_name": "DavidHDev/react-bits",
+      "url": "https://github.com/DavidHDev/react-bits",
+      "description": "The largest open-source library of animated, interactive, and customizable React & Next.js components for building standout web products and experiences. Built for humans and AI agents.",
+      "language": "JavaScript",
+      "stars": 50233,
+      "forks": 2483,
+      "homepage": "https://reactbits.dev",
+      "license": "NOASSERTION",
+      "created_at": "2024-08-06T06:54:54Z",
+      "pushed_at": "2026-10-19T07:37:02Z",
+      "updated_at": "2026-10-26T07:38:18Z",
+      "open_issues": 5,
+      "summary": "React Bits 是一个面向 React 与 Next.js 的开源动画组件库，提供 215 个以上免费的可交互动画组件和背景，用于搭建有辨识度的网页产品与体验。它解决的是开发者从零实现动效与交互细节成本高的问题：每个组件都配有带控件的在线演示，并提供 JavaScript 或 TypeScript、CSS 或 Tailwind 四种组合，可按需调整或直接交给 AI 代理使用。安装可通过 shadcn CLI 或 jsrepo 完成，也支持手动复制代码；配合 shadcn MCP 服务器，Claude Code、Cursor、Codex、VS Code 等客户端能自动检索并添加组件。",
+      "tags": [
+        "library"
+      ],
+      "primary_tag": "library",
+      "domains": [
+        "web",
+        "graphics"
+      ],
+      "primary_domain": "web",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-26T07:45:30+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 1
+    },
+    {
+      "owner": "NARKOZ",
+      "name": "hacker-scripts",
+      "full_name": "NARKOZ/hacker-scripts",
+      "url": "https://github.com/NARKOZ/hacker-scripts",
+      "description": "Based on a true story",
+      "language": "JavaScript",
+      "stars": 49859,
+      "forks": 6627,
+      "homepage": "",
+      "license": "",
+      "created_at": "2015-11-21T19:05:09Z",
+      "pushed_at": "2023-10-23T21:01:40Z",
+      "updated_at": "2026-10-26T02:54:56Z",
+      "open_issues": 72,
+      "summary": "hacker-scripts 是一个基于真实故事整理出来的脚本合集，主角是一位把终端当家的构建工程师，凡是耗时超过 90 秒的事情他都会写脚本自动化。仓库用 JavaScript 编写，也欢迎 Python、Perl、Shell 等其他实现。核心是几个带黑色幽默的脚本：smack-my-bitch-up.sh 在晚上 9 点后检测到服务器上仍有该用户登录的 SSH 会话时，随机挑选理由给妻子发“加班”短信；kumar-asshole.",
+      "tags": [
+        "example"
+      ],
+      "primary_tag": "example",
+      "domains": [
+        "other"
+      ],
+      "primary_domain": "other",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-26T07:45:30+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 1
+    },
+    {
       "owner": "bigskysoftware",
       "name": "htmx",
       "full_name": "bigskysoftware/htmx",
       "url": "https://github.com/bigskysoftware/htmx",
       "description": "</> htmx - high power tools for HTML",
       "language": "JavaScript",
-      "stars": 49565,
-      "forks": 1683,
+      "stars": 49573,
+      "forks": 1728,
       "homepage": "https://htmx.org",
       "license": "NOASSERTION",
       "created_at": "2020-04-13T16:17:51Z",
-      "pushed_at": "2026-10-02T10:39:02Z",
-      "updated_at": "2026-10-13T02:03:30Z",
-      "open_issues": 306,
+      "pushed_at": "2026-10-22T09:16:13Z",
+      "updated_at": "2026-10-26T01:49:20Z",
+      "open_issues": 307,
       "summary": "htmx 是一套面向 HTML 的高能力工具，用属性把 AJAX、CSS 过渡、WebSocket 和服务器发送事件直接写进标签里，让开发者以超文本的简洁方式构建现代界面。它体积很小，压缩后约 14k，无依赖且可扩展，主要语言为 JavaScript。它要解决的问题是：为什么只有链接和表单能发 HTTP 请求，只有点击和提交能触发，只有 GET 和 POST 可用，只能替换整个屏幕。去掉这些限制后，htmx 补全了 HTML 作为超文本的能力。典型用法如 hx-post 与 hx-swap 配合，用户点击按钮时向 /clicked 发起 AJAX 请求并用响应替换整个按钮。",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-12T12:11:36+00:00",
-      "last_seen": "2026-10-12",
-      "seen_count": 1,
+      "last_seen": "2026-10-26",
+      "seen_count": 2,
       "tags": [
         "library"
       ],
@@ -1502,21 +1823,21 @@
       "url": "https://github.com/algorithm-visualizer/algorithm-visualizer",
       "description": ":fireworks:Interactive Online Platform that Visualizes Algorithms from Code",
       "language": "JavaScript",
-      "stars": 48888,
-      "forks": 7578,
+      "stars": 49046,
+      "forks": 7614,
       "homepage": "https://algorithm-visualizer.org/",
       "license": "MIT",
       "created_at": "2016-05-15T00:27:45Z",
       "pushed_at": "2024-06-09T06:54:22Z",
-      "updated_at": "2026-10-13T02:48:58Z",
-      "open_issues": 80,
+      "updated_at": "2026-10-26T06:48:53Z",
+      "open_issues": 81,
       "summary": "Algorithm Visualizer 是一个基于 JavaScript 与 React 构建的交互式在线平台，旨在通过可视化让算法运行过程变得直观可见。它解决的核心问题是：仅阅读代码或文字描述难以理解算法的执行逻辑，而将代码中的操作转化为动态图形后，学习者能更清楚地观察算法行为。平台支持对多种编程语言编写的代码进行可视化，其配套的 tracers 库负责从代码中提取可视化指令，algorithms 仓库则提供网站侧边栏展示的算法案例。除可视化外，它还汇集了教程、文章和视频等学习资源。典型使用场景包括课堂教学、自学算法以及开发者快速验证思路，用户可直接在官网体验实时演示。",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-12T12:11:36+00:00",
-      "last_seen": "2026-10-12",
-      "seen_count": 1,
+      "last_seen": "2026-10-26",
+      "seen_count": 2,
       "tags": [
         "app"
       ],
@@ -1534,21 +1855,21 @@
       "url": "https://github.com/iamkun/dayjs",
       "description": "⏰ Day.js 2kB immutable date-time library alternative to Moment.js with the same modern API",
       "language": "JavaScript",
-      "stars": 48666,
-      "forks": 4886,
+      "stars": 48658,
+      "forks": 4413,
       "homepage": "https://day.js.org",
       "license": "MIT",
       "created_at": "2018-04-10T09:26:44Z",
       "pushed_at": "2026-09-15T11:35:36Z",
-      "updated_at": "2026-10-13T01:48:45Z",
-      "open_issues": 1373,
+      "updated_at": "2026-10-26T02:57:03Z",
+      "open_issues": 1397,
       "summary": "Day.js 是一个仅约 2kB 的 JavaScript 日期时间库，定位为 Moment.js 的轻量替代方案，提供与 Moment.js 基本兼容的现代 API。它用于在现代浏览器中解析、校验、操作和显示日期与时间，解决 Moment.js 体积偏大、不够精简的问题。其核心特点包括：沿用 Moment.js 的 API 与使用模式，熟悉 Moment.js 的开发者可直接上手；支持不可变与链式调用；具备国际化支持，且语言包按需引入，不会默认打包进构建产物；通过独立插件模块扩展功能。它支持所有浏览器，适合对体积敏感的前端项目，例如需要在浏览器端处理日期格式化、计算与本地化的场景。",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-12T12:11:36+00:00",
-      "last_seen": "2026-10-12",
-      "seen_count": 1,
+      "last_seen": "2026-10-26",
+      "seen_count": 2,
       "tags": [
         "library"
       ],
@@ -1565,21 +1886,21 @@
       "url": "https://github.com/moment/moment",
       "description": "Parse, validate, manipulate, and display dates in javascript.",
       "language": "JavaScript",
-      "stars": 47894,
-      "forks": 6975,
+      "stars": 47884,
+      "forks": 6973,
       "homepage": "https://momentjs.com",
       "license": "MIT",
       "created_at": "2011-03-01T02:46:06Z",
       "pushed_at": "2026-10-08T16:26:56Z",
-      "updated_at": "2026-10-13T00:10:14Z",
+      "updated_at": "2026-10-25T01:30:58Z",
       "open_issues": 60,
       "summary": "Moment.js 是一个用于解析、校验、操作和格式化日期的 JavaScript 库，主要解决 JavaScript 原生 Date 对象在日期处理上繁琐、易错的问题。它提供统一的 API 来处理日期的创建、比较、加减、时区转换和本地化显示等常见需求，适用于浏览器和 Node.js 环境，可通过 npm、yarn 或 bun 等包管理器安装。该项目现处于维护模式，不再接受新功能，但仍是许多现有前端和后端 JavaScript 项目中的常用依赖，尤其适合需要快速完成日期格式化与计算的场景。它由 OpenJS 基金会托管，属于 Linux 基金会旗下项目。",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-12T12:11:36+00:00",
-      "last_seen": "2026-10-12",
-      "seen_count": 1,
+      "last_seen": "2026-10-26",
+      "seen_count": 2,
       "tags": [
         "library"
       ],
@@ -1590,27 +1911,126 @@
       "primary_domain": "web"
     },
     {
+      "owner": "usebruno",
+      "name": "bruno",
+      "full_name": "usebruno/bruno",
+      "url": "https://github.com/usebruno/bruno",
+      "description": "Opensource IDE For Exploring and Testing API's (lightweight alternative to Postman/Insomnia)",
+      "language": "JavaScript",
+      "stars": 47847,
+      "forks": 3030,
+      "homepage": "https://www.usebruno.com/",
+      "license": "MIT",
+      "created_at": "2022-09-27T20:51:45Z",
+      "pushed_at": "2026-10-24T10:20:09Z",
+      "updated_at": "2026-10-26T07:08:44Z",
+      "open_issues": 1939,
+      "summary": "Bruno 是一款开源的 API 探索与测试 IDE，用 JavaScript 编写，定位为 Postman、Insomnia 等工具的轻量替代品。它要解决的核心问题是 API 集合的存储与协作方式：Bruno 把集合直接保存在文件系统的文件夹中，用名为 Bru 的纯文本标记语言记录请求信息，因此可以借助 Git 或任意版本控制系统对 API 集合进行协作与追踪。Bruno 仅支持离线使用，官方明确表示不会加入云同步，数据保留在用户设备上。",
+      "tags": [
+        "app"
+      ],
+      "primary_tag": "app",
+      "domains": [
+        "devtools",
+        "web"
+      ],
+      "primary_domain": "devtools",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-26T07:45:30+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 1
+    },
+    {
+      "owner": "cloudflare",
+      "name": "security-audit-skill",
+      "full_name": "cloudflare/security-audit-skill",
+      "url": "https://github.com/cloudflare/security-audit-skill",
+      "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+      "language": "JavaScript",
+      "stars": 47466,
+      "forks": 2946,
+      "homepage": "",
+      "license": "MIT",
+      "created_at": "2026-06-18T14:08:44Z",
+      "pushed_at": "2026-09-14T19:29:02Z",
+      "updated_at": "2026-10-26T07:44:06Z",
+      "open_issues": 97,
+      "summary": "security-audit-skill 是 Cloudflare 开源的一款编码智能体技能，用 JavaScript 编写，可将通用编码智能体改造成安全审计员。它针对单仓库场景，把安全审计拆解为六个阶段：侦察、覆盖驱动的漏洞搜寻、候选验证、结构化输出、独立记录核验和目标中立的报告生成，并通过 coverage-ledger.json、findings.json 等机器可读文件与校验脚本保证结果可核查。其核心特点是采用对抗式验证，检查发现与发现漏洞的智能体相互独立，结论分为 confirmed、needs_validation 和 rejected 三类，且多次运行结果可累加，逐步提升覆盖率。",
+      "last_seen": "2026-10-26",
+      "seen_count": 13,
+      "added_at": "2026-10-09T10:50:04+00:00",
+      "windows": [
+        "daily",
+        "monthly"
+      ],
+      "tags": [
+        "plugin",
+        "tool"
+      ],
+      "primary_tag": "plugin",
+      "domains": [
+        "security",
+        "ai",
+        "devtools"
+      ],
+      "primary_domain": "security"
+    },
+    {
+      "owner": "Asabeneh",
+      "name": "30-Days-Of-JavaScript",
+      "full_name": "Asabeneh/30-Days-Of-JavaScript",
+      "url": "https://github.com/Asabeneh/30-Days-Of-JavaScript",
+      "description": "30 days of JavaScript programming challenge is a step-by-step guide to learn JavaScript programming language in 30 days. This challenge may take more than 100 days,  please just follow your own pace. These videos may help too: https://www.youtube.com/channel/UC7PNRuno1rzYPb1xLa4yktw",
+      "language": "JavaScript",
+      "stars": 46942,
+      "forks": 10444,
+      "homepage": "",
+      "license": "",
+      "created_at": "2019-12-23T14:07:40Z",
+      "pushed_at": "2026-08-27T12:03:08Z",
+      "updated_at": "2026-10-26T07:21:19Z",
+      "open_issues": 365,
+      "summary": "30 Days Of JavaScript 是一套面向零基础与进阶开发者的 JavaScript 学习挑战教程，以 30 天为节奏组织内容，实际可按个人进度延长。它解决的是初学者缺少系统路径、不知从何入手的问题，通过循序渐进的每日课程把语言基础与编程概念串起来。核心特点是以对话式英语写作，配合大量可直接在浏览器控制台运行的示例，从 console.log、注释、语法、算术运算讲到数据类型、变量等基础主题，并指导安装 Node.js、Chrome 与 Visual Studio Code，演示内联、内部、外部脚本三种把 JavaScript 引入网页的方式。",
+      "tags": [
+        "doc"
+      ],
+      "primary_tag": "doc",
+      "domains": [
+        "learning",
+        "web"
+      ],
+      "primary_domain": "learning",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-26T07:45:30+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 1
+    },
+    {
       "owner": "serverless",
       "name": "serverless",
       "full_name": "serverless/serverless",
       "url": "https://github.com/serverless/serverless",
       "description": "⚡ Serverless Framework – Effortlessly build apps that auto-scale, incur zero costs when idle, and require minimal maintenance using AWS Lambda and other managed cloud services.",
       "language": "JavaScript",
-      "stars": 46923,
+      "stars": 46920,
       "forks": 5714,
       "homepage": "https://serverless.com",
       "license": "NOASSERTION",
       "created_at": "2015-04-21T03:48:40Z",
-      "pushed_at": "2026-10-08T13:17:12Z",
-      "updated_at": "2026-10-12T21:19:54Z",
-      "open_issues": 1213,
+      "pushed_at": "2026-10-23T14:00:44Z",
+      "updated_at": "2026-10-25T15:12:52Z",
+      "open_issues": 1205,
       "summary": "Serverless Framework 是一个基于 JavaScript 的命令行工具，通过简洁的 YAML 语法帮助开发者部署代码及其所需的云基础设施，主要面向 AWS Lambda 等托管云服务。它解决的是无服务器应用在构建、部署和运维上的复杂性问题，让应用能自动扩缩容、空闲时零成本并保持低维护。其核心能力包括自动化部署、本地开发调试、多语言支持（Node.js、Python、Go、Java 等）以及通过超千个插件扩展功能。典型场景涵盖 API、前端、数据管道和定时任务，V.",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-12T12:11:36+00:00",
-      "last_seen": "2026-10-12",
-      "seen_count": 1,
+      "last_seen": "2026-10-26",
+      "seen_count": 2,
       "tags": [
         "framework",
         "tool"
@@ -1628,21 +2048,21 @@
       "url": "https://github.com/microsoft/monaco-editor",
       "description": "A browser based code editor",
       "language": "JavaScript",
-      "stars": 46865,
-      "forks": 4149,
+      "stars": 46892,
+      "forks": 4162,
       "homepage": "https://microsoft.github.io/monaco-editor/",
       "license": "MIT",
       "created_at": "2016-06-07T16:56:31Z",
-      "pushed_at": "2026-10-13T00:40:30Z",
-      "updated_at": "2026-10-13T02:44:47Z",
-      "open_issues": 877,
+      "pushed_at": "2026-10-26T03:21:02Z",
+      "updated_at": "2026-10-26T07:23:25Z",
+      "open_issues": 887,
       "summary": "Monaco Editor 是微软从 VS Code 源码中生成的、可在浏览器中运行的代码编辑器，主要语言为 JavaScript。它解决的是在网页环境中提供专业级代码编辑能力的问题，让开发者无需依赖桌面应用即可嵌入完整的编辑体验。其核心概念包括：模型（Model）承载文本内容、语言类型与编辑历史，并通过 URI 唯一标识；编辑器（Editor）是模型面向用户的视图，负责展示与交互；提供者（Provider）实现补全、悬停提示等智能功能，部分特性依赖文件 URI；多数对象提供 dispose 方法用于资源清理。它支持 ESM 版本，附带 monaco.d.",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-12T12:11:36+00:00",
-      "last_seen": "2026-10-12",
-      "seen_count": 1,
+      "last_seen": "2026-10-26",
+      "seen_count": 2,
       "tags": [
         "library"
       ],
@@ -1659,21 +2079,21 @@
       "url": "https://github.com/LeCoupa/awesome-cheatsheets",
       "description": "👩‍💻👨‍💻 Awesome cheatsheets for popular programming languages, frameworks and development tools. They include everything you should know in one single file.",
       "language": "JavaScript",
-      "stars": 46558,
+      "stars": 46586,
       "forks": 6690,
       "homepage": "https://lecoupa.github.io/awesome-cheatsheets/",
       "license": "MIT",
       "created_at": "2017-11-09T02:47:15Z",
-      "pushed_at": "2026-04-12T17:26:10Z",
-      "updated_at": "2026-10-13T03:10:37Z",
-      "open_issues": 135,
+      "pushed_at": "2026-10-17T14:11:21Z",
+      "updated_at": "2026-10-26T02:59:22Z",
+      "open_issues": 136,
       "summary": "LeCoupa/awesome-cheatsheets 是一份面向主流编程语言、框架和开发工具的速查表集合，每个主题浓缩在单个文件中，方便随时查阅。项目最初源于作者在 Gist 上整理的个人笔记，后为便于追踪历史和接受社区贡献而集中到该仓库，内容多取自官方文档和作者读过的书籍。它解决的是开发者在学习或复习某项技术时，需要快速定位关键知识点、避免翻阅大量文档的问题。速查表覆盖语言、后端、前端、数据库和工具等类别，并配有网站目录。典型使用场景包括面试前快速回顾、上手新框架时查阅常用写法，以及日常开发中确认语法和配置。",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-12T12:11:36+00:00",
-      "last_seen": "2026-10-12",
-      "seen_count": 1,
+      "last_seen": "2026-10-26",
+      "seen_count": 2,
       "tags": [
         "doc"
       ],
@@ -1685,27 +2105,446 @@
       "primary_domain": "learning"
     },
     {
+      "owner": "google",
+      "name": "zx",
+      "full_name": "google/zx",
+      "url": "https://github.com/google/zx",
+      "description": "A tool for writing better scripts",
+      "language": "JavaScript",
+      "stars": 45815,
+      "forks": 1325,
+      "homepage": "https://google.github.io/zx/",
+      "license": "Apache-2.0",
+      "created_at": "2021-05-05T05:50:01Z",
+      "pushed_at": "2026-10-23T18:49:29Z",
+      "updated_at": "2026-10-26T05:45:21Z",
+      "open_issues": 23,
+      "summary": "zx 是 Google 开源的一个用于编写更好脚本的工具，主要语言为 JavaScript。Bash 适合简单任务，但面对更复杂的脚本时，许多人更愿意使用更便利的编程语言，JavaScript 是理想选择，而 Node.js 标准库在使用前需要额外处理。zx 在 child_process 之上提供了跨平台的实用封装，能对参数进行转义并给出合理默认值，让开发者兼顾两者的优势。它支持 Linux、macOS 和 Windows，可运行于 Node.js、Bun、Deno 和 GraalVM Node.",
+      "tags": [
+        "library",
+        "tool"
+      ],
+      "primary_tag": "library",
+      "domains": [
+        "devtools",
+        "systems"
+      ],
+      "primary_domain": "devtools",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-26T07:45:30+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 1
+    },
+    {
+      "owner": "Leaflet",
+      "name": "Leaflet",
+      "full_name": "Leaflet/Leaflet",
+      "url": "https://github.com/Leaflet/Leaflet",
+      "description": "🍃 JavaScript library for mobile-friendly interactive maps 🇺🇦",
+      "language": "JavaScript",
+      "stars": 45781,
+      "forks": 6188,
+      "homepage": "https://leafletjs.com",
+      "license": "BSD-2-Clause",
+      "created_at": "2010-09-22T16:57:44Z",
+      "pushed_at": "2026-10-25T12:02:58Z",
+      "updated_at": "2026-10-26T03:35:51Z",
+      "open_issues": 465,
+      "summary": "Leaflet 是一个用于构建交互式地图的开源 JavaScript 库，由 Volodymyr Agafonkin 于 2010 年创建，主要面向桌面和移动端浏览器。它解决的核心问题是让开发者能以较低成本在网页中嵌入功能完整的地图，而不必依赖笨重的框架。其压缩后的 JS 约 40 kB、CSS 约 3.2 kB，体积小巧却覆盖了大多数开发者常用的地图功能。设计上强调简洁、性能和易用性，开箱即可在主流桌面与移动平台高效运行，既利用现代浏览器特性，也兼顾较旧环境。它拥有大量插件可扩展，API 文档完善，源码简单易读，便于参与贡献。",
+      "tags": [
+        "library"
+      ],
+      "primary_tag": "library",
+      "domains": [
+        "web",
+        "graphics"
+      ],
+      "primary_domain": "web",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-26T07:45:30+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 1
+    },
+    {
+      "owner": "GitSquared",
+      "name": "edex-ui",
+      "full_name": "GitSquared/edex-ui",
+      "url": "https://github.com/GitSquared/edex-ui",
+      "description": "A cross-platform, customizable science fiction terminal emulator with advanced monitoring & touchscreen support.",
+      "language": "JavaScript",
+      "stars": 45045,
+      "forks": 3224,
+      "homepage": "",
+      "license": "GPL-3.0",
+      "created_at": "2017-01-28T09:35:02Z",
+      "pushed_at": "2021-10-19T22:38:47Z",
+      "updated_at": "2026-10-26T07:08:53Z",
+      "open_issues": 6,
+      "archived": true,
+      "summary": "eDEX-UI 是一个跨平台的全屏终端模拟器与系统监控工具，界面风格模仿科幻电影中的计算机交互界面，主要灵感来自《创：战纪》。它试图在保持未来感外观的同时兼顾实际可用性，把科幻式的用户体验带入日常使用。核心能力包括：支持标签页、颜色、鼠标事件以及 curses 类应用的功能完整的终端；实时监控 CPU、内存、交换分区、进程等系统状态，以及 GeoIP、活动连接和传输速率等网络信息；完整支持触摸屏并提供屏幕键盘；目录查看器会跟随终端当前工作目录；还支持通过主题、屏幕键盘布局和 CSS 注入进行深度定制，并可选配音效。它基于 JavaScript 开发，使用 xterm.",
+      "tags": [
+        "app"
+      ],
+      "primary_tag": "app",
+      "domains": [
+        "systems",
+        "desktop"
+      ],
+      "primary_domain": "systems",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-26T07:45:30+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 1
+    },
+    {
+      "owner": "sudheerj",
+      "name": "reactjs-interview-questions",
+      "full_name": "sudheerj/reactjs-interview-questions",
+      "url": "https://github.com/sudheerj/reactjs-interview-questions",
+      "description": "List of top 500 ReactJS Interview Questions & Answers....Coding exercise questions are coming soon!!",
+      "language": "JavaScript",
+      "stars": 44910,
+      "forks": 10391,
+      "homepage": "",
+      "license": "MIT",
+      "created_at": "2018-05-31T17:17:01Z",
+      "pushed_at": "2026-10-13T20:30:23Z",
+      "updated_at": "2026-10-26T03:10:27Z",
+      "open_issues": 16,
+      "summary": "reactjs-interview-questions 是一份面向 ReactJS 面试准备的中文可参考题库，由 Sudheerj 维护，主要使用 JavaScript。仓库以问答形式整理了约 500 道 React 相关面试题及参考答案，内容从基础概念入手，例如 React 是什么、其发展历史、主要特性、JSX 的含义，以及元素与组件的区别、如何创建组件、何时选用类组件或函数组件等，帮助开发者系统梳理 React 的知识脉络。它解决的是面试复习时知识点分散、缺少成体系问答材料的问题，适合前端开发者在求职前查漏补缺，也适合作为日常学习 React 核心概念的对照资料。",
+      "tags": [
+        "doc"
+      ],
+      "primary_tag": "doc",
+      "domains": [
+        "learning",
+        "web"
+      ],
+      "primary_domain": "learning",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-26T07:45:30+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 1
+    },
+    {
+      "owner": "meteor",
+      "name": "meteor",
+      "full_name": "meteor/meteor",
+      "url": "https://github.com/meteor/meteor",
+      "description": "Meteor, the JavaScript App Platform",
+      "language": "JavaScript",
+      "stars": 44796,
+      "forks": 5256,
+      "homepage": "https://meteor.com",
+      "license": "NOASSERTION",
+      "created_at": "2012-01-19T01:58:17Z",
+      "pushed_at": "2026-10-24T10:40:10Z",
+      "updated_at": "2026-10-25T01:38:32Z",
+      "open_issues": 352,
+      "summary": "Meteor 是一个用于构建现代 Web 应用的 JavaScript 应用平台，目标是提供一套极简的开发环境。它解决的是开发者在搭建应用时需要在多个框架和工具之间反复配置、整合的问题，让开发者把精力放在功能实现而非组件拼装上。其核心特点包括：使用现代 JavaScript 创建应用，并能跟随技术更新快速原型设计与开发；开箱即用地集成常用框架和工具；同一套代码可面向 Web、iOS、Android 和桌面端构建，为用户带来一致的更新体验。",
+      "tags": [
+        "framework"
+      ],
+      "primary_tag": "framework",
+      "domains": [
+        "web"
+      ],
+      "primary_domain": "web",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-26T07:45:30+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 1
+    },
+    {
+      "owner": "NaiboWang",
+      "name": "EasySpider",
+      "full_name": "NaiboWang/EasySpider",
+      "url": "https://github.com/NaiboWang/EasySpider",
+      "description": "A visual no-code/code-free web crawler/spider易采集：一个可视化浏览器自动化测试/数据采集/网页爬虫软件，可以无代码图形化的设计和执行爬虫任务。别名：ServiceWrapper面向Web应用的智能化服务封装系统。",
+      "language": "JavaScript",
+      "stars": 44740,
+      "forks": 5395,
+      "homepage": "https://www.easyspider.net",
+      "license": "AGPL-3.0",
+      "created_at": "2020-07-18T02:41:27Z",
+      "pushed_at": "2026-10-19T15:05:31Z",
+      "updated_at": "2026-10-26T03:35:48Z",
+      "open_issues": 276,
+      "summary": "EasySpider 是一款基于 JavaScript 开发的可视化浏览器自动化与网页数据采集软件，面向不希望编写代码的用户。它要解决的核心问题是：把网页爬虫和自动化任务的设计从写脚本变成在页面上点选。使用时只需在网页中右键选中目标内容，软件会自动匹配同类型元素，再通过“选中全部”“选中子元素”“循环点击每个元素”等选项，即可采集列表数据或逐条进入详情页继续设置采集字段，任务以图形化流程方式设计和执行。",
+      "tags": [
+        "app"
+      ],
+      "primary_tag": "app",
+      "domains": [
+        "web",
+        "data"
+      ],
+      "primary_domain": "web",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-26T07:45:30+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 1
+    },
+    {
+      "owner": "yangshun",
+      "name": "front-end-interview-handbook",
+      "full_name": "yangshun/front-end-interview-handbook",
+      "url": "https://github.com/yangshun/front-end-interview-handbook",
+      "description": "Front End interview preparation materials for busy engineers (updated for 2026)",
+      "language": "JavaScript",
+      "stars": 44008,
+      "forks": 5924,
+      "homepage": "https://frontendinterviewhandbook.com",
+      "license": "MIT",
+      "created_at": "2018-01-13T19:40:08Z",
+      "pushed_at": "2026-10-05T08:51:50Z",
+      "updated_at": "2026-10-25T01:38:47Z",
+      "open_issues": 11,
+      "summary": "Front End Interview Handbook 是一份面向前端工程师的面试准备资料，主要用 JavaScript 编写，内容已针对 2026 年更新。与偏重算法的通用软件工程师面试不同，前端面试更关注 HTML、CSS、JavaScript 等领域的细节知识，该仓库正是围绕这一差异组织内容，涵盖不同公司的前端面试形式、前端系统设计面试、前端常识问答（包括 h5bp 前端开发者面试题的答案）、JavaScript 与 DOM 及算法类题目，以及按公司整理的前端面试题。",
+      "tags": [
+        "doc"
+      ],
+      "primary_tag": "doc",
+      "domains": [
+        "learning",
+        "web"
+      ],
+      "primary_domain": "learning",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-26T07:45:30+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 1
+    },
+    {
+      "owner": "parcel-bundler",
+      "name": "parcel",
+      "full_name": "parcel-bundler/parcel",
+      "url": "https://github.com/parcel-bundler/parcel",
+      "description": "The zero configuration build tool for the web. 📦🚀",
+      "language": "JavaScript",
+      "stars": 44005,
+      "forks": 2319,
+      "homepage": "https://parceljs.org",
+      "license": "MIT",
+      "created_at": "2017-08-07T16:36:47Z",
+      "pushed_at": "2026-10-26T07:01:22Z",
+      "updated_at": "2026-10-25T23:46:18Z",
+      "open_issues": 614,
+      "summary": "Parcel 是一个面向 Web 的零配置构建工具，主要解决前端项目在打包、编译和优化环节配置繁琐的问题。它开箱即支持 HTML、CSS、JavaScript 以及图片、字体、视频等多种文件类型，内置开发服务器和热重载，并提供错误诊断，无需额外配置即可上手。其 JavaScript 编译器用 Rust 编写以获得原生性能，借助工作线程并行构建并充分利用多核，同时全面缓存，避免重复构建相同代码。生产构建时，Parcel 会自动完成 tree-shaking、压缩 JavaScript/CSS/HTML、图片缩放优化、内容哈希和代码分割等优化。",
+      "tags": [
+        "tool"
+      ],
+      "primary_tag": "tool",
+      "domains": [
+        "devtools",
+        "web"
+      ],
+      "primary_domain": "devtools",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-26T07:45:30+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 1
+    },
+    {
+      "owner": "Ebony-Vinyl",
+      "name": "dsh-our-free-model",
+      "full_name": "Ebony-Vinyl/dsh-our-free-model",
+      "url": "https://github.com/Ebony-Vinyl/dsh-our-free-model",
+      "description": "在 dsh 里装上这个插件即可，无需登录、注册或填 API Key，就能使用包括 DeepSeek V4.1 Flash、Kimi K3 在内的前沿模型——完全免费，不限量。 All you do is install this plugin in dsh: no login, no sign-up, no API key — the frontier models are just there, DeepSeek V4.1 Flash and Kimi K3 among them. Completely free, with no usage cap.",
+      "language": "JavaScript",
+      "stars": 43628,
+      "forks": 1239,
+      "homepage": "",
+      "license": "MIT",
+      "created_at": "2026-09-24T16:17:19Z",
+      "pushed_at": "2026-10-26T05:02:49Z",
+      "updated_at": "2026-10-26T07:45:38Z",
+      "open_issues": 339,
+      "summary": "dsh-our-free-model 是一个用 JavaScript 编写的 dsh 插件，安装后无需登录、注册或填写 API Key，即可使用 DeepSeek V4.1 Flash、Kimi K3 等前沿模型，免费且不限量。它解决的是模型接入前的账号与密钥配置负担：模型清单随上游刷新，可用性由本机网络实测判定，选择器只展示真正可路由的模型，并区分地区受限与网关故障。",
+      "tags": [
+        "plugin"
+      ],
+      "primary_tag": "plugin",
+      "domains": [
+        "ai",
+        "devtools"
+      ],
+      "primary_domain": "ai",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-26T07:45:30+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 1
+    },
+    {
+      "owner": "Unitech",
+      "name": "pm2",
+      "full_name": "Unitech/pm2",
+      "url": "https://github.com/Unitech/pm2",
+      "description": "Node.js/Typescript/Bun Production Process Manager with a built-in Load Balancer.",
+      "language": "JavaScript",
+      "stars": 43321,
+      "forks": 2733,
+      "homepage": "https://pm2.keymetrics.io/docs/usage/quick-start/",
+      "license": "NOASSERTION",
+      "created_at": "2013-05-21T03:25:25Z",
+      "pushed_at": "2026-10-23T12:07:20Z",
+      "updated_at": "2026-10-26T04:54:20Z",
+      "open_issues": 1112,
+      "summary": "PM2 是一个面向 Node.js、TypeScript 与 Bun 应用的生产环境进程管理器，内置负载均衡能力，主要解决应用需要长期稳定运行、重启不中断服务以及日常运维操作繁琐的问题。它可以把应用转为守护进程持续监控并保持存活，支持无停机热重载，并提供应用列表、详情查看、日志与自定义指标监控等管理命令。其集群模式可启动多个 Node.js 进程并在其间对 HTTP/TCP/UDP 请求做负载均衡，从而利用多核提升吞吐，并在出现未处理错误时更快重新分配连接。",
+      "tags": [
+        "tool",
+        "app"
+      ],
+      "primary_tag": "tool",
+      "domains": [
+        "devops",
+        "systems"
+      ],
+      "primary_domain": "devops",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-26T07:45:30+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 1
+    },
+    {
+      "owner": "saadeghi",
+      "name": "daisyui",
+      "full_name": "saadeghi/daisyui",
+      "url": "https://github.com/saadeghi/daisyui",
+      "description": "🌼 🌼 🌼 🌼 🌼  The most popular, free and open-source Tailwind CSS component library",
+      "language": "JavaScript",
+      "stars": 42676,
+      "forks": 1715,
+      "homepage": "https://daisyui.com",
+      "license": "MIT",
+      "created_at": "2020-11-28T22:57:27Z",
+      "pushed_at": "2026-10-17T16:05:50Z",
+      "updated_at": "2026-10-26T06:30:12Z",
+      "open_issues": 50,
+      "summary": "daisyUI 是面向 Tailwind CSS 的免费开源组件库，也是该生态中使用较广的组件方案之一。它解决的是 Tailwind CSS 只提供原子化工具类、缺少现成组件的问题：开发者不必为按钮、卡片、表单等常见界面元素反复拼装类名，而是直接使用 daisyUI 提供的组件类，同时保留 Tailwind 的可定制性。其核心特点是以纯 CSS 类的方式提供组件，不引入额外的 JavaScript 运行时依赖，项目主要语言为 JavaScript，可通过 NPM 安装使用。",
+      "tags": [
+        "library",
+        "asset"
+      ],
+      "primary_tag": "library",
+      "domains": [
+        "web"
+      ],
+      "primary_domain": "web",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-26T07:45:30+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 1
+    },
+    {
+      "owner": "dcloudio",
+      "name": "uni-app",
+      "full_name": "dcloudio/uni-app",
+      "url": "https://github.com/dcloudio/uni-app",
+      "description": "A cross-platform framework using Vue.js",
+      "language": "JavaScript",
+      "stars": 41631,
+      "forks": 3706,
+      "homepage": "https://uniapp.dcloud.io",
+      "license": "Apache-2.0",
+      "created_at": "2018-07-12T08:52:39Z",
+      "pushed_at": "2026-10-26T07:43:30Z",
+      "updated_at": "2026-10-26T05:27:28Z",
+      "open_issues": 712,
+      "summary": "uni-app 是一个基于 Vue.js 的跨平台前端框架，开发者编写一套代码即可发布到 iOS、Android、鸿蒙、Web 以及微信、支付宝、抖音等多种小程序和快应用平台，省去为不同平台重复开发和转换思维的成本。项目分为老一代 uni-app 与新一代 uni-app x，后者为本仓库主分支，App 平台采用原生渲染，逻辑层可用 js/ts/uts 开发，官方评测显示其 view、text 组件渲染速度和长列表帧率在 Android、iOS、鸿蒙上优于原生。配套的 uts 是一门类 ts 的跨平台语言，可编译为 Kotlin、Swift、ArkTS 或 js，主要用于原生插件扩展。",
+      "tags": [
+        "framework",
+        "library"
+      ],
+      "primary_tag": "framework",
+      "domains": [
+        "mobile",
+        "web"
+      ],
+      "primary_domain": "mobile",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-26T07:45:30+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 1
+    },
+    {
+      "owner": "goabstract",
+      "name": "Awesome-Design-Tools",
+      "full_name": "goabstract/Awesome-Design-Tools",
+      "url": "https://github.com/goabstract/Awesome-Design-Tools",
+      "description": "The best design tools and plugins for everything 👉",
+      "language": "JavaScript",
+      "stars": 41624,
+      "forks": 2390,
+      "homepage": "",
+      "license": "MIT",
+      "created_at": "2019-02-12T13:55:30Z",
+      "pushed_at": "2024-07-28T19:57:31Z",
+      "updated_at": "2026-10-26T05:57:52Z",
+      "open_issues": 232,
+      "summary": "Awesome Design Tools 是一个面向设计师和开发者的设计工具资源合集，由 Flawless App 团队维护，现随团队并入 Abstract 平台。它解决的是设计工具分散、难以按用途查找的问题，通过分类目录和关键词搜索帮助用户快速定位所需工具。仓库按无障碍、动画、增强现实、协作、取色、设计交付、设计系统、设计转代码、原型、用户研究、线框图、3D 建模等数十个类别组织条目，每条包含工具名称与简要说明，并标注免费、开源、仅限 Mac 等标签。",
+      "tags": [
+        "doc"
+      ],
+      "primary_tag": "doc",
+      "domains": [
+        "learning",
+        "graphics"
+      ],
+      "primary_domain": "learning",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-26T07:45:30+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 1
+    },
+    {
       "owner": "yarnpkg",
       "name": "yarn",
       "full_name": "yarnpkg/yarn",
       "url": "https://github.com/yarnpkg/yarn",
       "description": "The 1.x line is frozen - features and bugfixes now happen on https://github.com/yarnpkg/berry",
       "language": "JavaScript",
-      "stars": 41469,
-      "forks": 2703,
+      "stars": 41471,
+      "forks": 2701,
       "homepage": "https://classic.yarnpkg.com",
       "license": "NOASSERTION",
       "created_at": "2016-01-19T17:39:16Z",
       "pushed_at": "2026-05-12T11:09:42Z",
-      "updated_at": "2026-10-12T23:03:31Z",
+      "updated_at": "2026-10-26T07:15:02Z",
       "open_issues": 2055,
       "summary": "Yarn 1.x 是 JavaScript 生态中一款快速、可靠且安全的依赖管理工具，当前仓库主要保留其历史源码并仅接受安全修复，新功能与缺陷修复已迁移至 yarnpkg/berry。它解决的是依赖安装速度慢、跨机器结果不一致以及包完整性缺乏校验等问题。核心能力包括：缓存已下载的包以避免重复下载，并通过并发执行提升安装效率；使用简洁的锁文件格式和确定性算法，保证同一依赖在任何机器上以完全相同的方式安装；借助校验和验证每个已安装包的完整性。此外还支持离线模式、网络请求队列与失败重试、扁平化依赖解析以减少重复版本。典型场景是前端或 Node.",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-12T12:11:35+00:00",
-      "last_seen": "2026-10-12",
-      "seen_count": 1,
+      "last_seen": "2026-10-26",
+      "seen_count": 2,
       "tags": [
         "tool"
       ],
@@ -1722,21 +2561,21 @@
       "url": "https://github.com/nwjs/nw.js",
       "description": "Call all Node.js modules directly from DOM/WebWorker and enable a new way of writing applications with all Web technologies.",
       "language": "JavaScript",
-      "stars": 41140,
+      "stars": 41144,
       "forks": 3848,
       "homepage": "https://nwjs.io",
       "license": "MIT",
       "created_at": "2012-01-04T06:21:10Z",
-      "pushed_at": "2026-10-10T21:24:59Z",
-      "updated_at": "2026-10-12T12:09:58Z",
+      "pushed_at": "2026-10-22T14:47:59Z",
+      "updated_at": "2026-10-26T05:46:43Z",
       "open_issues": 912,
       "summary": "NW.js 是一个基于 Chromium 和 Node.js 的应用运行时，原名 node-webkit，由 Intel 开源技术中心创建。它让开发者用 HTML、CSS、JavaScript 和 WebGL 等 Web 技术编写跨平台桌面原生应用，并支持直接从 DOM 或 WebWorker 调用 Node.js 模块及其第三方模块。由于 Node 与 WebKit 运行在同一线程、共享同一堆内存，函数调用直接、对象可互相引用，因此性能较好。它提供 Linux、Mac OS X 和 Windows 版本，支持便捷打包分发。典型场景是把 Web 应用转为桌面应用，或在桌面端复用 Node.",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-12T12:11:35+00:00",
-      "last_seen": "2026-10-12",
-      "seen_count": 1,
+      "last_seen": "2026-10-26",
+      "seen_count": 2,
       "tags": [
         "framework"
       ],
@@ -1748,23 +2587,121 @@
       "primary_domain": "desktop"
     },
     {
+      "owner": "PatrickJS",
+      "name": "awesome-cursorrules",
+      "full_name": "PatrickJS/awesome-cursorrules",
+      "url": "https://github.com/PatrickJS/awesome-cursorrules",
+      "description": "📄  Configuration files that enhance Cursor AI editor experience with custom rules and behaviors",
+      "language": "JavaScript",
+      "stars": 41023,
+      "forks": 3529,
+      "homepage": "https://github.com/PatrickJS/awesome-cursorrules",
+      "license": "CC0-1.0",
+      "created_at": "2024-09-16T15:38:38Z",
+      "pushed_at": "2026-05-30T18:01:29Z",
+      "updated_at": "2026-10-26T06:57:46Z",
+      "open_issues": 107,
+      "summary": "Awesome Cursor Rules 是一份面向 Cursor AI 编辑器的规则配置集合，核心是 .cursor/rules/ 目录下的 Markdown 格式 .mdc 文件。它解决的是 AI 编程助手只依赖通用编码知识、容易脱离具体项目上下文的问题：通过为项目、文件类型、框架和工作流预先写好行为指引，让 Cursor 了解本地架构、偏好库、常用方法、领域约束和编码规范，从而减少重复手工修改，并让团队成员的 AI 辅助保持一致。",
+      "tags": [
+        "doc",
+        "config"
+      ],
+      "primary_tag": "doc",
+      "domains": [
+        "devtools",
+        "ai"
+      ],
+      "primary_domain": "devtools",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-26T07:45:30+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 1
+    },
+    {
+      "owner": "remoteintech",
+      "name": "remote-jobs",
+      "full_name": "remoteintech/remote-jobs",
+      "url": "https://github.com/remoteintech/remote-jobs",
+      "description": "Source for remoteintech.company — a community-maintained directory of remote-friendly tech companies",
+      "language": "JavaScript",
+      "stars": 40930,
+      "forks": 3953,
+      "homepage": "https://remoteintech.company/?utm_campaign=GitHub+bio&utm_source=github&utm_medium=bio&utm_content=textlink",
+      "license": "NOASSERTION",
+      "created_at": "2015-10-13T03:49:25Z",
+      "pushed_at": "2026-10-21T23:43:02Z",
+      "updated_at": "2026-10-26T03:43:01Z",
+      "open_issues": 22,
+      "summary": "Remote In Tech 是 remoteintech.company 网站的源码仓库，维护一份由社区共同编辑的远程友好型科技公司目录。它解决的是求职者难以系统查找支持远程办公的科技公司这一问题，把分散的信息集中为可浏览的公开目录。核心特点是社区驱动：贡献者按模板在 src/companies 下以 slug 命名创建 Markdown 文件，填写 frontmatter 并补充规定章节，运行 npm run build 后提交 PR，由校验机器人自动检查并反馈问题，从而保证条目格式统一、字段有效。",
+      "tags": [
+        "doc"
+      ],
+      "primary_tag": "doc",
+      "domains": [
+        "learning",
+        "productivity"
+      ],
+      "primary_domain": "learning",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-26T07:45:30+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 1
+    },
+    {
+      "owner": "phaserjs",
+      "name": "phaser",
+      "full_name": "phaserjs/phaser",
+      "url": "https://github.com/phaserjs/phaser",
+      "description": "Phaser is a fun, free and fast 2D game framework for making HTML5 games for desktop and mobile web browsers, supporting Canvas and WebGL rendering.",
+      "language": "JavaScript",
+      "stars": 40565,
+      "forks": 7183,
+      "homepage": "https://phaser.io",
+      "license": "MIT",
+      "created_at": "2013-04-12T12:27:51Z",
+      "pushed_at": "2026-08-21T06:56:13Z",
+      "updated_at": "2026-10-26T06:35:31Z",
+      "open_issues": 176,
+      "summary": "Phaser 是一个免费、快速且持续开发超过 13 年的开源 HTML5 二维游戏框架，主要用 JavaScript 编写，同时支持 TypeScript，旨在解决在桌面与移动浏览器上构建游戏的问题。它提供 Canvas 与 WebGL 两种渲染方式，采用场景化架构，内置资源加载器、Arcade 与 Matter.js 物理、动画、输入、相机、瓦片地图、粒子与补间等能力，并与 React、Vue、Angular、Svelte 等四十多种前端框架兼容。",
+      "tags": [
+        "framework",
+        "library"
+      ],
+      "primary_tag": "framework",
+      "domains": [
+        "graphics",
+        "web"
+      ],
+      "primary_domain": "graphics",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-26T07:45:30+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 1
+    },
+    {
       "owner": "github",
       "name": "awesome-copilot",
       "full_name": "github/awesome-copilot",
       "url": "https://github.com/github/awesome-copilot",
       "description": "Community-contributed instructions, agents, skills, and configurations to help you make the most of GitHub Copilot.",
       "language": "JavaScript",
-      "stars": 39964,
-      "forks": 5106,
+      "stars": 40416,
+      "forks": 5221,
       "homepage": "https://awesome-copilot.github.com/",
       "license": "MIT",
       "created_at": "2025-06-11T16:57:39Z",
-      "pushed_at": "2026-10-13T03:33:37Z",
-      "updated_at": "2026-10-13T03:33:08Z",
-      "open_issues": 72,
+      "pushed_at": "2026-10-26T05:43:42Z",
+      "updated_at": "2026-10-26T07:21:58Z",
+      "open_issues": 75,
       "summary": "Awesome GitHub Copilot 是一个由社区维护的 GitHub Copilot 定制资源集合，汇集了自定义代理、指令、技能、钩子、工作流和插件，帮助开发者更充分地发挥 Copilot 的能力。它解决的是 Copilot 默认配置难以覆盖多样化开发需求的问题，用户可以直接复用他人贡献的配置，而不必从零编写。仓库以 JavaScript 为主，所有资源可通过官网进行全文搜索和筛选，并配有 Learning Hub 提供代理、技能、指令等核心概念及钩子、MCP 服务器、Copilot 编码代理的实操指南；面向 AI 代理使用时还提供结构化的 llms.txt 清单。",
-      "last_seen": "2026-10-09",
-      "seen_count": 4,
+      "last_seen": "2026-10-26",
+      "seen_count": 5,
       "added_at": "2026-10-09T10:50:04+00:00",
       "windows": [
         "daily"
@@ -1780,27 +2717,59 @@
       "primary_domain": "ai"
     },
     {
+      "owner": "drawdb-io",
+      "name": "drawdb",
+      "full_name": "drawdb-io/drawdb",
+      "url": "https://github.com/drawdb-io/drawdb",
+      "description": "Free, simple, and intuitive online database diagram editor and SQL generator.",
+      "language": "JavaScript",
+      "stars": 40135,
+      "forks": 3337,
+      "homepage": "https://drawdb.app",
+      "license": "AGPL-3.0",
+      "created_at": "2023-07-16T17:09:20Z",
+      "pushed_at": "2026-10-24T09:02:40Z",
+      "updated_at": "2026-10-26T07:08:11Z",
+      "open_issues": 244,
+      "summary": "DrawDB 是一个基于浏览器的免费数据库实体关系图（ERD）编辑器与 SQL 生成工具，主要用 JavaScript 编写。它面向需要快速设计数据库结构但不想安装桌面软件或注册账号的用户，打开网页即可通过点击操作绘制表与关系图，并支持 SQL 脚本的导入导出、迁移生成以及编辑器外观定制。由于无需登录，适合临时建模、教学演示或团队讨论时快速出图；若需要分享文件，可按 .env.sample 配置服务端与环境变量启用共享功能，也可通过 Docker 镜像启动并在容器启动时传入服务端地址，无需重新构建。项目支持本地开发与构建，贡献指南见 CONTRIBUTING.",
+      "tags": [
+        "app"
+      ],
+      "primary_tag": "app",
+      "domains": [
+        "data",
+        "devtools"
+      ],
+      "primary_domain": "data",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-26T07:45:30+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 1
+    },
+    {
       "owner": "preactjs",
       "name": "preact",
       "full_name": "preactjs/preact",
       "url": "https://github.com/preactjs/preact",
       "description": "⚛️ Fast 3kB React alternative with the same modern API. Components & Virtual DOM.",
       "language": "JavaScript",
-      "stars": 38926,
-      "forks": 4405,
+      "stars": 38959,
+      "forks": 3852,
       "homepage": "https://preactjs.com",
       "license": "MIT",
       "created_at": "2015-09-11T02:40:18Z",
-      "pushed_at": "2026-10-09T07:41:10Z",
-      "updated_at": "2026-10-12T18:55:53Z",
-      "open_issues": 41,
+      "pushed_at": "2026-10-25T09:37:46Z",
+      "updated_at": "2026-10-25T23:44:38Z",
+      "open_issues": 38,
       "summary": "Preact 是一个体积约 4kB 的 React 替代方案，提供相同的现代 API，用 JavaScript 编写。它用组件和虚拟 DOM 构建用户界面，支持 ES6 类组件、hooks 和函数式组件，并可通过 preact/compat 别名获得较强的 React 兼容性。它自带 JSX、VDOM、DevTools、热更新和服务端渲染支持，采用高度优化的 diff 算法，能从服务端渲染结果无缝水合，兼容所有现代浏览器，并借助可插拔调度器实现透明的异步渲染。",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-12T12:11:35+00:00",
-      "last_seen": "2026-10-12",
-      "seen_count": 1,
+      "last_seen": "2026-10-26",
+      "seen_count": 2,
       "tags": [
         "library"
       ],
@@ -1811,27 +2780,59 @@
       "primary_domain": "web"
     },
     {
+      "owner": "naptha",
+      "name": "tesseract.js",
+      "full_name": "naptha/tesseract.js",
+      "url": "https://github.com/naptha/tesseract.js",
+      "description": "Pure Javascript OCR for more than 100 Languages 📖🎉🖥",
+      "language": "JavaScript",
+      "stars": 38794,
+      "forks": 2401,
+      "homepage": "http://tesseract.projectnaptha.com/",
+      "license": "Apache-2.0",
+      "created_at": "2015-06-24T02:49:52Z",
+      "pushed_at": "2026-05-17T04:19:12Z",
+      "updated_at": "2026-10-26T06:39:17Z",
+      "open_issues": 59,
+      "summary": "Tesseract.js 是一个纯 JavaScript 的 OCR 库，用于从图像中识别几乎任意语言的文字，支持超过 100 种语言。它通过封装 Tesseract 的 WebAssembly 移植版，把 Tesseract OCR 引擎带到浏览器和 Node.js 环境，本身不修改 Tesseract 的核心功能，因此不支持 PDF 文件，也不调整识别模型来提升准确率。它可以借助 webpack、ESM 或 CDN 脚本标签在浏览器中运行，也能在 Node.js 服务端使用，适用于图片文字提取、视频实时识别等场景。",
+      "tags": [
+        "library"
+      ],
+      "primary_tag": "library",
+      "domains": [
+        "ai",
+        "media"
+      ],
+      "primary_domain": "ai",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-26T07:45:30+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 1
+    },
+    {
       "owner": "Dogfalo",
       "name": "materialize",
       "full_name": "Dogfalo/materialize",
       "url": "https://github.com/Dogfalo/materialize",
       "description": "Materialize, a CSS Framework based on Material Design",
       "language": "JavaScript",
-      "stars": 38788,
-      "forks": 4587,
+      "stars": 38782,
+      "forks": 4582,
       "homepage": "https://materializecss.com",
       "license": "MIT",
       "created_at": "2014-09-12T19:35:38Z",
       "pushed_at": "2026-08-20T13:49:11Z",
-      "updated_at": "2026-10-12T20:57:24Z",
-      "open_issues": 789,
+      "updated_at": "2026-10-26T04:25:19Z",
+      "open_issues": 790,
       "summary": "Materialize 是一个基于 Material Design 设计规范的 CSS 框架，主要使用 JavaScript 编写，帮助开发者快速构建符合谷歌材料设计风格的网页界面。它解决的是前端开发中样式与交互组件重复实现的问题，提供了一套现成的视觉与行为标准。核心能力包括响应式布局、CSS 组件以及依赖 JavaScript 的交互效果，兼容 Chrome 35+、Firefox 31+、Safari 9+、Opera、Edge 和 IE 11+ 等浏览器。",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-12T12:11:35+00:00",
-      "last_seen": "2026-10-12",
-      "seen_count": 1,
+      "last_seen": "2026-10-26",
+      "seen_count": 2,
       "tags": [
         "framework",
         "asset"
@@ -1841,6 +2842,134 @@
         "web"
       ],
       "primary_domain": "web"
+    },
+    {
+      "owner": "impress",
+      "name": "impress.js",
+      "full_name": "impress/impress.js",
+      "url": "https://github.com/impress/impress.js",
+      "description": "It's a presentation framework based on the power of CSS3 transforms and transitions in modern browsers and inspired by the idea behind prezi.com.",
+      "language": "JavaScript",
+      "stars": 38156,
+      "forks": 6561,
+      "homepage": "http://impress.js.org",
+      "license": "MIT",
+      "created_at": "2011-12-28T22:23:19Z",
+      "pushed_at": "2026-07-23T07:05:16Z",
+      "updated_at": "2026-10-26T07:00:35Z",
+      "open_issues": 61,
+      "summary": "impress.js 是一个基于现代浏览器 CSS3 变换与过渡能力的演示框架，灵感来自 prezi.com 的缩放式演示思路，主要用 JavaScript 编写。它要解决的是传统幻灯片线性翻页难以表达空间关系的问题，让演示者可以在一个二维或三维画布上自由定位、缩放和旋转各个步骤，从而做出非线性的演示效果。核心能力依赖 CSS 3D Transforms、CSS Transitions 以及 DataSet、ClassList 等 DOM 接口，不依赖 jQuery 或其他 JS 库，所需 CSS 由框架动态生成。",
+      "tags": [
+        "library",
+        "framework"
+      ],
+      "primary_tag": "library",
+      "domains": [
+        "web",
+        "graphics"
+      ],
+      "primary_domain": "web",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-26T07:45:30+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 1
+    },
+    {
+      "owner": "denysdovhan",
+      "name": "wtfjs",
+      "full_name": "denysdovhan/wtfjs",
+      "url": "https://github.com/denysdovhan/wtfjs",
+      "description": "🤪 A list of funny and tricky JavaScript examples",
+      "language": "JavaScript",
+      "stars": 37694,
+      "forks": 2677,
+      "homepage": "http://bit.ly/wtfjavascript",
+      "license": "WTFPL",
+      "created_at": "2017-07-14T15:42:12Z",
+      "pushed_at": "2026-10-05T18:17:43Z",
+      "updated_at": "2026-10-26T05:26:01Z",
+      "open_issues": 51,
+      "summary": "What the f*ck JavaScript?（wtfjs）是一个收集并解释 JavaScript 中各种古怪、反直觉示例的开源清单，最初灵感来自 Brian Leroux 在 dotJS 2012 的演讲。它解决的是开发者在日常编码中遇到“看起来会这样、实际却那样”的语言陷阱时缺少系统参考的问题。仓库以具体代码片段为核心，每个示例都配有基于 ECMA-262 规范的解释，涵盖类型转换、相等比较、NaN、数组与对象行为、箭头函数、标签语句、setTimeout、分号插入等主题，并附有动机说明和记号约定。",
+      "tags": [
+        "doc"
+      ],
+      "primary_tag": "doc",
+      "domains": [
+        "learning"
+      ],
+      "primary_domain": "learning",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-26T07:45:30+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 1
+    },
+    {
+      "owner": "fastify",
+      "name": "fastify",
+      "full_name": "fastify/fastify",
+      "url": "https://github.com/fastify/fastify",
+      "description": "Fast and low overhead web framework, for Node.js",
+      "language": "JavaScript",
+      "stars": 37302,
+      "forks": 3024,
+      "homepage": "https://www.fastify.dev",
+      "license": "MIT",
+      "created_at": "2016-09-28T19:10:14Z",
+      "pushed_at": "2026-10-25T15:52:43Z",
+      "updated_at": "2026-10-26T07:34:21Z",
+      "open_issues": 165,
+      "summary": "Fastify 是一个面向 Node.js 的高性能、低开销 Web 框架，灵感来自 Hapi 和 Express，主打在尽量少牺牲安全校验与开发便利的前提下降低服务器资源消耗。它通过钩子、插件和装饰器实现完整扩展能力，并推荐用 JSON Schema 校验路由、序列化输出，内部会把 schema 编译成高性能函数；日志方面选用 Pino 以压低记录成本。官方称其每秒可处理超过七万六千次请求，但强调这取决于代码复杂度，实际项目应自行压测。",
+      "tags": [
+        "framework",
+        "library"
+      ],
+      "primary_tag": "framework",
+      "domains": [
+        "web"
+      ],
+      "primary_domain": "web",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-26T07:45:30+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 1
+    },
+    {
+      "owner": "songquanpeng",
+      "name": "one-api",
+      "full_name": "songquanpeng/one-api",
+      "url": "https://github.com/songquanpeng/one-api",
+      "description": "LLM API 管理 & 分发系统，支持 OpenAI、Azure、Anthropic Claude、Google Gemini、DeepSeek、字节豆包、ChatGLM、文心一言、讯飞星火、通义千问、360 智脑、腾讯混元等主流模型，统一 API 适配，可用于 key 管理与二次分发。单可执行文件，提供 Docker 镜像，一键部署，开箱即用。LLM API management & key redistribution system, unifying multiple providers under a single API. Single binary, Docker-ready, with an English UI.",
+      "language": "JavaScript",
+      "stars": 37247,
+      "forks": 6890,
+      "homepage": "https://oneapi.justsong.cn/",
+      "license": "MIT",
+      "created_at": "2023-04-22T12:39:24Z",
+      "pushed_at": "2026-01-09T03:26:43Z",
+      "updated_at": "2026-10-26T07:01:53Z",
+      "open_issues": 1040,
+      "summary": "One API 是一个 LLM API 管理与分发系统，用统一接口聚合多家大模型服务。它把 OpenAI、Azure、Anthropic Claude、Google Gemini、DeepSeek、字节豆包、文心一言、通义千问、讯飞星火、腾讯混元等主流模型统一适配为 OpenAI API 格式，让调用方无需为每家服务单独对接。它主要解决多模型接入分散、密钥管理与二次分发的问题：用户可在渠道页面添加各平台 API Key，在令牌页面生成访问令牌，再通过负载均衡方式访问多个渠道，并支持流式传输、失败自动重试、绘图接口、模型映射与令牌额度、过期时间、IP 范围等限制。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-09T11:01:40+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 9,
+      "tags": [
+        "app"
+      ],
+      "primary_tag": "app",
+      "domains": [
+        "ai",
+        "networking"
+      ],
+      "primary_domain": "ai"
     },
     {
       "owner": "markedjs",
@@ -1874,36 +3003,101 @@
       "primary_domain": "web"
     },
     {
-      "owner": "songquanpeng",
-      "name": "one-api",
-      "full_name": "songquanpeng/one-api",
-      "url": "https://github.com/songquanpeng/one-api",
-      "description": "LLM API 管理 & 分发系统，支持 OpenAI、Azure、Anthropic Claude、Google Gemini、DeepSeek、字节豆包、ChatGLM、文心一言、讯飞星火、通义千问、360 智脑、腾讯混元等主流模型，统一 API 适配，可用于 key 管理与二次分发。单可执行文件，提供 Docker 镜像，一键部署，开箱即用。LLM API management & key redistribution system, unifying multiple providers under a single API. Single binary, Docker-ready, with an English UI.",
+      "owner": "maboloshi",
+      "name": "github-chinese",
+      "full_name": "maboloshi/github-chinese",
+      "url": "https://github.com/maboloshi/github-chinese",
+      "description": "GitHub 汉化插件，GitHub 中文化界面。 (GitHub Translation To Chinese)",
       "language": "JavaScript",
-      "stars": 37129,
-      "forks": 6883,
-      "homepage": "https://oneapi.justsong.cn/",
-      "license": "MIT",
-      "created_at": "2023-04-22T12:39:24Z",
-      "pushed_at": "2026-01-09T03:26:43Z",
-      "updated_at": "2026-10-13T02:52:48Z",
-      "open_issues": 1040,
-      "summary": "One API 是一个 LLM API 管理与分发系统，用统一接口聚合多家大模型服务。它把 OpenAI、Azure、Anthropic Claude、Google Gemini、DeepSeek、字节豆包、文心一言、通义千问、讯飞星火、腾讯混元等主流模型统一适配为 OpenAI API 格式，让调用方无需为每家服务单独对接。它主要解决多模型接入分散、密钥管理与二次分发的问题：用户可在渠道页面添加各平台 API Key，在令牌页面生成访问令牌，再通过负载均衡方式访问多个渠道，并支持流式传输、失败自动重试、绘图接口、模型映射与令牌额度、过期时间、IP 范围等限制。",
+      "stars": 36692,
+      "forks": 2043,
+      "homepage": "https://maboloshi.github.io/github-chinese/",
+      "license": "GPL-3.0",
+      "created_at": "2021-09-27T08:47:55Z",
+      "pushed_at": "2026-10-22T16:00:23Z",
+      "updated_at": "2026-10-26T07:45:09Z",
+      "open_issues": 66,
+      "summary": "GitHub 汉化插件是一款基于 JavaScript 的用户脚本，用于将 GitHub 界面全面中文化，源自 52cik/github-hans 项目。它主要解决英文界面给中文用户带来的阅读与操作障碍，通过智能正则匹配对菜单栏、标题、按钮等界面元素进行翻译，并支持项目描述的人机翻译、时间元素自动本地化以及持续更新的词库。脚本兼容 Chrome、Firefox、Safari 等主流浏览器，需配合 Tampermonkey、Violentmonkey 等脚本管理器使用，也支持 Via 内置管理器和 VS Code 集成浏览器。",
+      "tags": [
+        "plugin"
+      ],
+      "primary_tag": "plugin",
+      "domains": [
+        "web",
+        "productivity"
+      ],
+      "primary_domain": "web",
       "windows": [
         "daily"
       ],
-      "added_at": "2026-10-09T11:01:40+00:00",
-      "last_seen": "2026-10-10",
-      "seen_count": 8,
+      "added_at": "2026-10-26T07:45:30+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 1
+    },
+    {
+      "owner": "gchq",
+      "name": "CyberChef",
+      "full_name": "gchq/CyberChef",
+      "url": "https://github.com/gchq/CyberChef",
+      "description": "The Cyber Swiss Army Knife - a web app for encryption, encoding, compression and data analysis",
+      "language": "JavaScript",
+      "stars": 36210,
+      "forks": 4182,
+      "homepage": "https://gchq.github.io/CyberChef",
+      "license": "Apache-2.0",
+      "created_at": "2016-11-28T10:34:07Z",
+      "pushed_at": "2026-10-23T11:01:21Z",
+      "updated_at": "2026-10-26T05:35:50Z",
+      "open_issues": 600,
+      "summary": "CyberChef 是英国政府通信总部（GCHQ）开源的一款基于 JavaScript 的网页应用，被称为“网络瑞士军刀”，用于在浏览器内完成各类数据处理操作。它把编码解码（如 XOR、Base64）、加密解密（如 AES、DES、Blowfish）、压缩与解压、哈希与校验和计算、二进制与十六进制转储、IPv6 与 X.509 解析、字符编码转换等能力整合到统一界面中，让技术和非技术分析人员都能以拖拽“配方”的方式组合多个操作，而不必依赖复杂工具或算法。",
       "tags": [
         "app"
       ],
       "primary_tag": "app",
       "domains": [
-        "ai",
-        "networking"
+        "security",
+        "data",
+        "web"
       ],
-      "primary_domain": "ai"
+      "primary_domain": "security",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-26T07:45:30+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 1
+    },
+    {
+      "owner": "carbon-app",
+      "name": "carbon",
+      "full_name": "carbon-app/carbon",
+      "url": "https://github.com/carbon-app/carbon",
+      "description": ":black_heart: Create and share beautiful images of your source code",
+      "language": "JavaScript",
+      "stars": 36124,
+      "forks": 1971,
+      "homepage": "https://carbon.now.sh",
+      "license": "MIT",
+      "created_at": "2017-06-16T02:50:28Z",
+      "pushed_at": "2026-02-10T05:07:19Z",
+      "updated_at": "2026-10-26T05:26:00Z",
+      "open_issues": 86,
+      "summary": "Carbon 是一个用 JavaScript 编写的开源工具，用于把源代码生成美观的图片，解决在社交媒体或博客中分享代码时截图不够精致的问题。用户可以直接拖入文件、输入 GitHub gist ID 或手动输入代码，然后自定义语法主题、背景色、窗口样式、内边距、阴影和字体等外观参数。生成后可以下载 PNG 或 SVG 图片，也可以通过链接分享，保存的片段在 Twitter 和 Slack 上会自动展开预览，还支持以 iFrame 形式嵌入网页，方便读者复制代码。",
+      "tags": [
+        "app"
+      ],
+      "primary_tag": "app",
+      "domains": [
+        "devtools",
+        "graphics"
+      ],
+      "primary_domain": "devtools",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-26T07:45:30+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 1
     },
     {
       "owner": "ryanhanwu",
@@ -1912,21 +3106,21 @@
       "url": "https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way",
       "description": "本文原文由知名 Hacker Eric S. Raymond 所撰寫，教你如何正確的提出技術問題並獲得你滿意的答案。",
       "language": "JavaScript",
-      "stars": 35890,
-      "forks": 5825,
+      "stars": 35970,
+      "forks": 5823,
       "homepage": "",
       "license": "MIT",
       "created_at": "2015-03-28T16:52:40Z",
       "pushed_at": "2025-01-01T19:14:38Z",
-      "updated_at": "2026-10-13T02:25:05Z",
+      "updated_at": "2026-10-26T05:56:39Z",
       "open_issues": 12,
       "summary": "《提问的智慧》是一份面向技术社区的中文指南，原文由 Eric S. Raymond 与 Rick Moen 撰写，本仓库为其持续更新的中文译本，主要语言为 JavaScript。它解决的核心问题是：开发者如何正确提出技术问题并获得满意答案。内容涵盖提问前的自查步骤，如搜索旧帖、查阅手册与常见问题、阅读源码；提问时的技巧，包括选择合适论坛、使用有意义且描述明确的标题、用清晰精准的语句、按时间顺序描述症状、去掉无意义提问句；以及如何解读答案、处理无礼回应、避免成为失败者等。",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-12T12:11:35+00:00",
-      "last_seen": "2026-10-12",
-      "seen_count": 1,
+      "last_seen": "2026-10-26",
+      "seen_count": 2,
       "tags": [
         "doc"
       ],
@@ -1943,21 +3137,21 @@
       "url": "https://github.com/koajs/koa",
       "description": "Expressive middleware for node.js using ES2017 async functions",
       "language": "JavaScript",
-      "stars": 35676,
-      "forks": 3236,
+      "stars": 35685,
+      "forks": 3239,
       "homepage": "https://koajs.com",
       "license": "MIT",
       "created_at": "2013-07-20T18:53:45Z",
-      "pushed_at": "2026-10-09T04:06:32Z",
-      "updated_at": "2026-10-13T03:21:07Z",
-      "open_issues": 42,
+      "pushed_at": "2026-10-21T06:54:21Z",
+      "updated_at": "2026-10-26T04:41:33Z",
+      "open_issues": 47,
       "summary": "Koa 是一个基于 Node.js 的轻量级 HTTP 中间件框架，主要解决 Web 应用和 API 开发中请求与响应处理流程的组织问题。它使用 ES2017 的 async 函数编写中间件，采用栈式调用结构，让开发者可以先向下游执行操作，再向上游过滤和修改响应。Koa 的核心代码约 570 行，只集成几乎所有 HTTP 服务器都通用的方法，如内容协商、Node 不一致性的规范化、重定向等，本身不捆绑任何中间件。",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-12T12:11:35+00:00",
-      "last_seen": "2026-10-12",
-      "seen_count": 1,
+      "last_seen": "2026-10-26",
+      "seen_count": 2,
       "tags": [
         "framework",
         "library"
@@ -1969,27 +3163,90 @@
       "primary_domain": "web"
     },
     {
+      "owner": "alvarotrigo",
+      "name": "fullPage.js",
+      "full_name": "alvarotrigo/fullPage.js",
+      "url": "https://github.com/alvarotrigo/fullPage.js",
+      "description": "fullPage plugin by Alvaro Trigo. Create full screen pages fast and simple",
+      "language": "JavaScript",
+      "stars": 35371,
+      "forks": 7075,
+      "homepage": "http://alvarotrigo.com/fullPage/",
+      "license": "GPL-3.0",
+      "created_at": "2013-09-20T11:58:29Z",
+      "pushed_at": "2026-09-20T10:56:49Z",
+      "updated_at": "2026-10-26T05:47:40Z",
+      "open_issues": 135,
+      "summary": "fullPage.js 是一个基于 JavaScript 的库，用于快速创建全屏滚动网站（也称单页网站或 onepage 站点），并能在各分节内嵌入横向滑块。它解决的是整屏分节切换与横向滑动交互需要自行实现的问题，开发者只需按 section 和 slide 结构编写 HTML，再通过初始化配置即可获得滚动效果。核心能力包括自动滚动与普通滚动切换、纵向和横向循环、锚点链接与浏览器前进后退、导航菜单与工具提示、响应式宽度高度、懒加载、内嵌媒体自动播放暂停，以及键盘滚动、滚动溢出处理等可选项，并提供 beforeLeave、afterLoad 等回调用于扩展。",
+      "tags": [
+        "library",
+        "plugin"
+      ],
+      "primary_tag": "library",
+      "domains": [
+        "web"
+      ],
+      "primary_domain": "web",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-26T07:45:30+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 1
+    },
+    {
+      "owner": "typicode",
+      "name": "husky",
+      "full_name": "typicode/husky",
+      "url": "https://github.com/typicode/husky",
+      "description": "Git hooks made easy 🐶 woof!",
+      "language": "JavaScript",
+      "stars": 35361,
+      "forks": 1101,
+      "homepage": "https://typicode.github.io/husky",
+      "license": "MIT",
+      "created_at": "2014-06-23T12:14:21Z",
+      "pushed_at": "2026-03-19T23:03:16Z",
+      "updated_at": "2026-10-25T17:15:59Z",
+      "open_issues": 109,
+      "summary": "Husky 是一个用 JavaScript 编写的 Git hooks 工具，目的是让 Git 钩子的配置和使用变得简单。它基于 Git 的 core.hooksPath 特性实现，体积仅约 2 kB（gzip 压缩后）且无依赖，运行速度快，支持 macOS、Linux 和 Windows，也兼容 Git 图形客户端、Node 版本管理器、自定义钩子目录、嵌套项目和 monorepo。",
+      "tags": [
+        "tool"
+      ],
+      "primary_tag": "tool",
+      "domains": [
+        "devtools"
+      ],
+      "primary_domain": "devtools",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-26T07:45:30+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 1
+    },
+    {
       "owner": "sahat",
       "name": "hackathon-starter",
       "full_name": "sahat/hackathon-starter",
       "url": "https://github.com/sahat/hackathon-starter",
       "description": "A boilerplate for Node.js web applications",
       "language": "JavaScript",
-      "stars": 35249,
-      "forks": 8107,
+      "stars": 35257,
+      "forks": 8101,
       "homepage": "",
       "license": "MIT",
       "created_at": "2013-11-13T17:24:12Z",
-      "pushed_at": "2026-10-09T13:30:02Z",
-      "updated_at": "2026-10-13T03:31:16Z",
+      "pushed_at": "2026-10-23T13:29:29Z",
+      "updated_at": "2026-10-25T14:12:57Z",
       "open_issues": 3,
       "summary": "Hackathon Starter 是一个面向 Node.js Web 应用的脚手架项目，主要解决黑客松或新项目启动阶段重复搭建基础功能耗时的问题。它基于 JavaScript 与 Express、MongoDB 构建，采用 MVC 结构，集成 Bootstrap 5.3 与 Sass，支持 Node.js 集群和 HTTPS 代理。核心能力包括本地密码、无密码、Passkey 及 Google、GitHub、Discord 等 OAuth 2.0 登录，用户资料管理、双因素认证、多账号绑定、联系表单、文件上传，以及 AI Agent、RAG 和多种大模型调用示例。",
       "windows": [
         "daily"
       ],
       "added_at": "2026-10-12T12:11:35+00:00",
-      "last_seen": "2026-10-12",
-      "seen_count": 1,
+      "last_seen": "2026-10-26",
+      "seen_count": 2,
       "tags": [
         "template"
       ],
@@ -1998,6 +3255,41 @@
         "web"
       ],
       "primary_domain": "web"
+    },
+    {
+      "owner": "freestylefly",
+      "name": "awesome-gpt-image-2",
+      "full_name": "freestylefly/awesome-gpt-image-2",
+      "url": "https://github.com/freestylefly/awesome-gpt-image-2",
+      "description": "Prompt as Code | GPT Image 2 / 2.5 提示词与案例库，530+ 个案例、20+ 套工业级模板与可复用 Skills，新增 2.5 同提示词对比专区，附完整提示词与生成记录，持续更新。",
+      "language": "JavaScript",
+      "stars": 35025,
+      "forks": 3321,
+      "homepage": "https://gpt-image2.canghe.ai",
+      "license": "MIT",
+      "created_at": "2026-04-25T09:19:13Z",
+      "pushed_at": "2026-10-14T08:48:21Z",
+      "updated_at": "2026-10-26T07:30:26Z",
+      "open_issues": 32,
+      "summary": "awesome-gpt-image-2 是一个面向 GPT Image 2 / 2.5 的提示词与案例库，核心思路是「Prompt as Code」，把社区里零散的出图经验整理成结构化、可复用的资产。它收录了 530 多个案例和 20 多套工业级模板，覆盖 UI 界面、图表信息图、海报排版、电商产品、品牌标识、建筑空间、摄影写实、插画艺术、人物角色、场景叙事、国风历史、文档出版等十余个分类，每个案例都附带完整提示词与生成记录。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-10T22:23:27+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 4,
+      "tags": [
+        "doc",
+        "template",
+        "example"
+      ],
+      "primary_tag": "doc",
+      "domains": [
+        "ai",
+        "learning",
+        "media"
+      ],
+      "primary_domain": "ai"
     },
     {
       "owner": "qishibo",
@@ -2030,41 +3322,6 @@
         "devtools"
       ],
       "primary_domain": "data"
-    },
-    {
-      "owner": "freestylefly",
-      "name": "awesome-gpt-image-2",
-      "full_name": "freestylefly/awesome-gpt-image-2",
-      "url": "https://github.com/freestylefly/awesome-gpt-image-2",
-      "description": "Prompt as Code | GPT Image 2 / 2.5 提示词与案例库，530+ 个案例、20+ 套工业级模板与可复用 Skills，新增 2.5 同提示词对比专区，附完整提示词与生成记录，持续更新。",
-      "language": "JavaScript",
-      "stars": 34376,
-      "forks": 3275,
-      "homepage": "https://gpt-image2.canghe.ai",
-      "license": "MIT",
-      "created_at": "2026-04-25T09:19:13Z",
-      "pushed_at": "2026-10-09T14:23:36Z",
-      "updated_at": "2026-10-13T03:30:50Z",
-      "open_issues": 28,
-      "summary": "awesome-gpt-image-2 是一个面向 GPT Image 2 / 2.5 的提示词与案例库，核心思路是「Prompt as Code」，把社区里零散的出图经验整理成结构化、可复用的资产。它收录了 530 多个案例和 20 多套工业级模板，覆盖 UI 界面、图表信息图、海报排版、电商产品、品牌标识、建筑空间、摄影写实、插画艺术、人物角色、场景叙事、国风历史、文档出版等十余个分类，每个案例都附带完整提示词与生成记录。",
-      "windows": [
-        "daily"
-      ],
-      "added_at": "2026-10-10T22:23:27+00:00",
-      "last_seen": "2026-10-10",
-      "seen_count": 3,
-      "tags": [
-        "doc",
-        "template",
-        "example"
-      ],
-      "primary_tag": "doc",
-      "domains": [
-        "ai",
-        "learning",
-        "media"
-      ],
-      "primary_domain": "ai"
     },
     {
       "owner": "gethomepage",
@@ -2420,41 +3677,6 @@
         "web"
       ],
       "primary_domain": "web"
-    },
-    {
-      "owner": "cloudflare",
-      "name": "security-audit-skill",
-      "full_name": "cloudflare/security-audit-skill",
-      "url": "https://github.com/cloudflare/security-audit-skill",
-      "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
-      "language": "JavaScript",
-      "stars": 28894,
-      "forks": 1744,
-      "homepage": "",
-      "license": "MIT",
-      "created_at": "2026-06-18T14:08:44Z",
-      "pushed_at": "2026-09-14T19:29:02Z",
-      "updated_at": "2026-10-13T03:33:22Z",
-      "open_issues": 60,
-      "summary": "security-audit-skill 是 Cloudflare 开源的一款编码智能体技能，用 JavaScript 编写，可将通用编码智能体改造成安全审计员。它针对单仓库场景，把安全审计拆解为六个阶段：侦察、覆盖驱动的漏洞搜寻、候选验证、结构化输出、独立记录核验和目标中立的报告生成，并通过 coverage-ledger.json、findings.json 等机器可读文件与校验脚本保证结果可核查。其核心特点是采用对抗式验证，检查发现与发现漏洞的智能体相互独立，结论分为 confirmed、needs_validation 和 rejected 三类，且多次运行结果可累加，逐步提升覆盖率。",
-      "last_seen": "2026-10-10",
-      "seen_count": 12,
-      "added_at": "2026-10-09T10:50:04+00:00",
-      "windows": [
-        "daily",
-        "monthly"
-      ],
-      "tags": [
-        "plugin",
-        "tool"
-      ],
-      "primary_tag": "plugin",
-      "domains": [
-        "security",
-        "ai",
-        "devtools"
-      ],
-      "primary_domain": "security"
     },
     {
       "owner": "fanmingming",
