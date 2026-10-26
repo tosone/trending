@@ -1,0 +1,4141 @@
+{
+  "language": "all",
+  "label": "全部语言",
+  "page": 11,
+  "pages": 11,
+  "count": 130,
+  "repos": [
+    {
+      "owner": "qiniu",
+      "name": "qmgo",
+      "full_name": "qiniu/qmgo",
+      "url": "https://github.com/qiniu/qmgo",
+      "description": "Qmgo - The Go driver for MongoDB. It‘s based on official mongo-go-driver but easier to use like Mgo.",
+      "language": "Go",
+      "stars": 1354,
+      "forks": 151,
+      "homepage": "",
+      "license": "Apache-2.0",
+      "created_at": "2020-08-04T09:06:00Z",
+      "pushed_at": "2026-06-20T10:23:45Z",
+      "updated_at": "2026-10-25T15:26:32Z",
+      "open_issues": 49,
+      "summary": "Qmgo 是七牛云开源的 Go 语言 MongoDB 驱动，基于 MongoDB 官方驱动 mongo-go-driver 构建，但提供了类似 mgo 的链式调用风格，使用起来更简单。它主要解决从 mgo 迁移到官方新驱动时代码改动大的问题，让开发者能以较小的迁移成本继续使用熟悉的调用方式，同时用上 MongoDB 的新特性。核心能力包括文档的 CRUD 操作并支持官方全部选项，排序、限制、计数、字段选择、去重，事务处理，钩子函数，字段自动更新（默认字段与自定义字段），预定义操作符键，聚合、索引操作与游标，基于 go-playground/validator 的校验标签，以及插件机制。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:39:58+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 4,
+      "tags": [
+        "library"
+      ],
+      "primary_tag": "library",
+      "domains": [
+        "data"
+      ],
+      "primary_domain": "data"
+    },
+    {
+      "owner": "MCRcortex",
+      "name": "voxy",
+      "full_name": "MCRcortex/voxy",
+      "url": "https://github.com/MCRcortex/voxy",
+      "description": "An LoD rendering mod for minecraft",
+      "language": "Java",
+      "stars": 1348,
+      "forks": 1487,
+      "homepage": "https://modrinth.com/mod/voxy",
+      "license": "NOASSERTION",
+      "created_at": "2023-11-13T22:15:26Z",
+      "pushed_at": "2026-10-19T17:39:00Z",
+      "updated_at": "2026-10-24T08:48:57Z",
+      "open_issues": 220,
+      "summary": "Voxy 是一个面向 Minecraft 的 LoD（细节层次）渲染模组，使用 Java 语言开发。它要解决的核心问题是：在 Minecraft 这类由方块构成的开放世界中，当玩家视野拉远时，远处的大量方块若全部按完整细节渲染，会带来沉重的绘制负担。Voxy 通过 LoD 技术，让距离较远的区域以较低细节呈现，从而在保持可视距离的同时控制渲染开销。其官方描述非常简洁，仅说明它是一个 LoD 渲染模组，未披露具体版本、性能数据或额外功能。典型使用场景是配合 Minecraft 客户端，在需要远距离观察地形、建筑或探索时改善画面表现与运行流畅度。",
+      "windows": [
+        "weekly",
+        "monthly"
+      ],
+      "added_at": "2026-10-09T11:22:02+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 8,
+      "tags": [
+        "plugin"
+      ],
+      "primary_tag": "plugin",
+      "domains": [
+        "graphics"
+      ],
+      "primary_domain": "graphics"
+    },
+    {
+      "owner": "vmihailenco",
+      "name": "taskq",
+      "full_name": "vmihailenco/taskq",
+      "url": "https://github.com/vmihailenco/taskq",
+      "description": "Golang asynchronous task/job queue with Redis, SQS, IronMQ, and in-memory backends",
+      "language": "Go",
+      "stars": 1343,
+      "forks": 107,
+      "homepage": "https://taskq.uptrace.dev/",
+      "license": "BSD-2-Clause",
+      "created_at": "2017-02-04T10:11:14Z",
+      "pushed_at": "2025-04-28T03:05:23Z",
+      "updated_at": "2026-10-26T00:57:26Z",
+      "open_issues": 25,
+      "summary": "taskq 是一个用 Go 编写的异步任务与作业队列库，支持 Redis、SQS、IronMQ 以及内存后端，用于在应用中解耦耗时操作、削峰填谷并可靠地调度后台任务。它解决的核心问题是任务的异步执行与失败处理：能够根据负载自动伸缩拉取消息和消费消息的 goroutine 数量，提供全局速率限制与全局 worker 数量限制，并支持同名消息去重、指数退避的自动重试、队列内消息全部失败时自动暂停，以及处理失败消息的回退处理器。它还支持消息批处理，用于在 SQS 和 IronMQ 后端中批量增删消息，并可用 snappy 或 s2 自动压缩消息。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:39:58+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 4,
+      "tags": [
+        "library"
+      ],
+      "primary_tag": "library",
+      "domains": [
+        "networking"
+      ],
+      "primary_domain": "networking"
+    },
+    {
+      "owner": "sgreben",
+      "name": "jp",
+      "full_name": "sgreben/jp",
+      "url": "https://github.com/sgreben/jp",
+      "description": "dead simple terminal plots from JSON data. single binary, no dependencies. linux, osx, windows.",
+      "language": "Go",
+      "stars": 1343,
+      "forks": 34,
+      "homepage": "",
+      "license": "MIT",
+      "created_at": "2018-03-22T09:05:31Z",
+      "pushed_at": "2022-11-01T11:09:12Z",
+      "updated_at": "2026-10-20T12:54:56Z",
+      "open_issues": 10,
+      "summary": "jp 是一个用 Go 编写的命令行工具，用于在终端中绘制数据图表。它从标准输入读取 JSON 或 CSV 数据，并将图表输出到标准输出，适合在无图形界面的环境中快速查看数据分布。它支持柱状图、折线图、散点图、直方图和热力图，能够处理多种数据格式，包括分离的 X 和 Y 值、XY 配对、仅含 Y 值（以索引为 X）、数组数据，以及 JSONLines 和 CSV 输入。直方图可自动或固定分箱，热力图则展示二维分布。该工具编译为单一二进制文件，无外部依赖，可在 Linux、macOS 和 Windows 上运行，典型场景包括日志分析、管道数据处理和终端内的快速数据探索。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:39:58+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 4,
+      "tags": [
+        "tool"
+      ],
+      "primary_tag": "tool",
+      "domains": [
+        "data",
+        "devtools"
+      ],
+      "primary_domain": "data"
+    },
+    {
+      "owner": "hexdigest",
+      "name": "gowrap",
+      "full_name": "hexdigest/gowrap",
+      "url": "https://github.com/hexdigest/gowrap",
+      "description": "GoWrap is a command line tool for generating decorators for Go interfaces",
+      "language": "Go",
+      "stars": 1339,
+      "forks": 95,
+      "homepage": "",
+      "license": "MIT",
+      "created_at": "2018-09-15T09:20:42Z",
+      "pushed_at": "2026-10-21T01:22:36Z",
+      "updated_at": "2026-10-21T01:19:19Z",
+      "open_issues": 11,
+      "summary": "GoWrap 是一个用 Go 编写的命令行工具，通过模板为 Go 接口类型生成装饰器，帮助开发者在不改动原有代码的前提下快速为接口添加额外功能。它解决了横切关注点重复实现的问题，比如指标采集、链路追踪、熔断、限流、重试、缓存和参数校验等。核心能力在于模板化生成：内置了 prometheus、opentracing、opentelemetry、opencensus、logrus、circuitbreaker、fallback、ratelimit、retry、timeout、validate、caching 等模板，也支持自定义模板，并可使用 sprig 模板函数库及 up、down、snake。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:39:58+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 4,
+      "tags": [
+        "tool"
+      ],
+      "primary_tag": "tool",
+      "domains": [
+        "devtools"
+      ],
+      "primary_domain": "devtools"
+    },
+    {
+      "owner": "json-parser",
+      "name": "json-parser",
+      "full_name": "json-parser/json-parser",
+      "url": "https://github.com/json-parser/json-parser",
+      "description": "Very low footprint DOM-style JSON parser written in portable ANSI C",
+      "language": "C",
+      "stars": 1339,
+      "forks": 293,
+      "homepage": "",
+      "license": "BSD-2-Clause",
+      "created_at": "2012-02-12T18:15:15Z",
+      "pushed_at": "2026-09-19T19:05:45Z",
+      "updated_at": "2026-10-10T07:51:26Z",
+      "open_issues": 19,
+      "summary": "json-parser 是一个用可移植 C89（ANSI C）编写的 DOM 风格 JSON 解析器，主打极低内存占用。它没有任何外部依赖，只需把 json.c 和 json.h 加入项目即可使用，解析过程不递归，也不会分配超出表示 JSON 所需的额外内存。其 API 简洁，并为 C++ 提供运算符语法糖。解析结果通过 json_value 的 type 字段区分对象、数组、整数、浮点数、字符串、布尔和 null，可借助编译选项 JSON_TRACK_SOURCE 记录每个值的行列位置，也可自定义整数类型、注释支持、内存分配器及附加元数据空间。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:40:48+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 2,
+      "tags": [
+        "library"
+      ],
+      "primary_tag": "library",
+      "domains": [
+        "devtools"
+      ],
+      "primary_domain": "devtools"
+    },
+    {
+      "owner": "eclipse-paho",
+      "name": "paho.mqtt.cpp",
+      "full_name": "eclipse-paho/paho.mqtt.cpp",
+      "url": "https://github.com/eclipse-paho/paho.mqtt.cpp",
+      "description": "An Eclipse Paho C++ client library for MQTT for Windows, Linux and MacOS.",
+      "language": "C++",
+      "stars": 1336,
+      "forks": 478,
+      "homepage": "https://eclipse.org/paho",
+      "license": "NOASSERTION",
+      "created_at": "2016-02-03T19:03:11Z",
+      "pushed_at": "2026-06-04T11:17:52Z",
+      "updated_at": "2026-10-26T06:06:42Z",
+      "open_issues": 61,
+      "summary": "Eclipse Paho MQTT C++ 客户端库为 Linux、macOS 和 Windows 等内存托管系统提供 Modern C++（C++17 及以上）接入 MQTT 代理的能力，支持 MQTT v3.1、v3.1.1 和 v5。它解决的是 C++ 应用在物联网等场景中发布消息、订阅主题并接收消息的需求，底层依赖 Paho C 库 1.3.16 或更高版本。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:42:03+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 4,
+      "tags": [
+        "library"
+      ],
+      "primary_tag": "library",
+      "domains": [
+        "networking",
+        "embedded"
+      ],
+      "primary_domain": "networking"
+    },
+    {
+      "owner": "Bronya0",
+      "name": "Kafka-King",
+      "full_name": "Bronya0/Kafka-King",
+      "url": "https://github.com/Bronya0/Kafka-King",
+      "description": "A modern and practical kafka GUI client 💕🎉Kafka-King 是一款现代化、实用的 Kafka GUI 客户端，旨在通过直观的桌面界面简化 Apache Kafka 管理。作为一款跨平台应用程序，它为开发人员和管理员提供了强大的工具，可与 Kafka 集群交互，无需依赖命令行界面或基于 Web 的解决方案。",
+      "language": "Vue",
+      "stars": 1335,
+      "forks": 78,
+      "homepage": "https://zread.ai/Bronya0/Kafka-King",
+      "license": "Apache-2.0",
+      "created_at": "2024-02-14T05:34:37Z",
+      "pushed_at": "2026-09-09T05:33:17Z",
+      "updated_at": "2026-10-23T11:43:48Z",
+      "open_issues": 51,
+      "summary": "Kafka-King 是一款基于 Wails 与 franz-go 构建的现代化 Kafka 桌面客户端，前端使用 Vue，适配 Windows、macOS 和 Linux（Win7 除外），支持 Kafka 0.8.0 至 3.8+。它解决的是开发与运维人员管理 Kafka 集群时依赖命令行或 Web 工具的繁琐问题，通过图形界面完成节点查看、主题创建与删除、分区与副本调整、消费者组监控、消息消费与生产模拟等操作。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:42:17+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 4,
+      "tags": [
+        "app"
+      ],
+      "primary_tag": "app",
+      "domains": [
+        "devops",
+        "data"
+      ],
+      "primary_domain": "devops"
+    },
+    {
+      "owner": "yyx990803",
+      "name": "pod",
+      "full_name": "yyx990803/pod",
+      "url": "https://github.com/yyx990803/pod",
+      "description": "Git push deploy for Node.js",
+      "language": "JavaScript",
+      "stars": 1333,
+      "forks": 108,
+      "homepage": "",
+      "license": "MIT",
+      "created_at": "2013-02-20T00:24:31Z",
+      "pushed_at": "2020-10-31T13:02:39Z",
+      "updated_at": "2026-10-13T18:52:56Z",
+      "open_issues": 30,
+      "summary": "POD 是一个面向 Node.js 的 git push 部署工具，用于在 Linux 服务器上简化多个 Node.js 应用的搭建、更新与管理，适合在 VPS 上托管个人项目。它由两部分组成：借助 git hooks 实现推送即部署，以及借助 pm2 进行进程管理。首次运行时会引导设置存放目录，应用推送后自动运行，后续推送则重启进程。它提供 CLI 与 Web 界面，Web 服务默认监听 19999 端口，可查看应用状态、输出 JSON 或 JSONP 数据，并通过 /hooks 路径触发远程应用的拉取与重启，支持 GitHub、GitLab 和 Bitbucket 的 webhook。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:41:10+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 5,
+      "tags": [
+        "tool"
+      ],
+      "primary_tag": "tool",
+      "domains": [
+        "devops"
+      ],
+      "primary_domain": "devops"
+    },
+    {
+      "owner": "WebJournal",
+      "name": "journaldev",
+      "full_name": "WebJournal/journaldev",
+      "url": "https://github.com/WebJournal/journaldev",
+      "description": "JournalDev Projects",
+      "language": "Java",
+      "stars": 1331,
+      "forks": 1920,
+      "homepage": "https://www.journaldev.com",
+      "license": "MIT",
+      "created_at": "2016-05-02T05:43:21Z",
+      "pushed_at": "2022-12-29T01:06:53Z",
+      "updated_at": "2026-10-15T02:09:54Z",
+      "open_issues": 10,
+      "summary": "WebJournal/journaldev 是 JournalDev 网站配套的 GitHub 代码仓库，主要用 Java 编写，用于集中托管该站点上发布的各类示例项目。JournalDev 已发布超过 500 个项目，目前正逐步迁移到 GitHub，该仓库正是这一迁移工作的载体，解决的是教程代码分散、不易查找和复用的问题。其核心特点在于以实际可运行的 Java 项目形式呈现示例，并允许社区参与：若某个项目尚未托管在此，可以提交 pull request 将代码推送过来；也可以更新相关依赖版本，让代码保持较新状态。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:41:05+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 4,
+      "tags": [
+        "example",
+        "doc"
+      ],
+      "primary_tag": "example",
+      "domains": [
+        "learning",
+        "web"
+      ],
+      "primary_domain": "learning"
+    },
+    {
+      "owner": "dingdang-robot",
+      "name": "dingdang-robot",
+      "full_name": "dingdang-robot/dingdang-robot",
+      "url": "https://github.com/dingdang-robot/dingdang-robot",
+      "description": "🤖 叮当是一款可以工作在 Raspberry Pi 上的中文语音对话机器人/智能音箱项目。",
+      "language": "Python",
+      "stars": 1330,
+      "forks": 397,
+      "homepage": "http://dingdang.hahack.com",
+      "license": "NOASSERTION",
+      "created_at": "2018-03-20T07:44:58Z",
+      "pushed_at": "2021-10-28T06:06:42Z",
+      "updated_at": "2026-10-08T20:26:11Z",
+      "open_issues": 0,
+      "archived": true,
+      "summary": "叮当是一个可运行在 Raspberry Pi 上的中文语音对话机器人项目，用 Python 编写，目标是让中文用户也能快速搭建个性化的智能音箱。它把语音识别、语音合成、对话机器人和功能插件都做了模块化处理，支持接入百度、科大讯飞、阿里、谷歌等多家中文语音服务，也能接入图灵机器人、Emotibot，并可通过微信远程控制家中设备。它支持离线唤醒和全局监听，唤醒后先做在线语音识别，再匹配技能插件处理，最后合成语音播放。典型场景包括语音控制 HomeAssistant 智能家电、拍照等，硬件上需要 Raspberry Pi 或其他 Linux 主机、USB 麦克风和音箱。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:41:48+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 4,
+      "tags": [
+        "app"
+      ],
+      "primary_tag": "app",
+      "domains": [
+        "embedded",
+        "ai"
+      ],
+      "primary_domain": "embedded"
+    },
+    {
+      "owner": "l0ng-ai",
+      "name": "tty7",
+      "full_name": "l0ng-ai/tty7",
+      "url": "https://github.com/l0ng-ai/tty7",
+      "description": "The terminal that outlives its window. Shells survive quitting the app, agents can drive other agents, and remote machines work the same way. Pure Rust, GPU-rendered.",
+      "language": "Rust",
+      "stars": 1330,
+      "forks": 116,
+      "homepage": "https://tty7.io",
+      "license": "Apache-2.0",
+      "created_at": "2026-07-06T12:51:10Z",
+      "pushed_at": "2026-10-24T20:39:41Z",
+      "updated_at": "2026-10-26T08:27:43Z",
+      "open_issues": 46,
+      "summary": "tty7 是一个用 Rust 编写的终端工作台，核心思路是让后台服务而非窗口持有 shell 和窗格，因此退出应用后 shell 仍继续运行，重启后布局、屏幕内容和支持的 agent 会话都能恢复，无需依赖 tmux。它基于 Zed 的 gpui 做 GPU 渲染，VT 内核来自 Alacritty，吞吐量约为后者的两倍。除持久会话外，它还面向 agent 场景：Claude Code、Codex 等工具可获得状态、通知和 git 上下文，一个 agent 能为另一个 agent 开窗格、交接任务并读取结果，且不依赖 GUI 运行。输入侧提供建议、补全、高亮和历史搜索，无需插件。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:40:43+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 2,
+      "tags": [
+        "app"
+      ],
+      "primary_tag": "app",
+      "domains": [
+        "systems",
+        "devtools"
+      ],
+      "primary_domain": "systems"
+    },
+    {
+      "owner": "go-opencv",
+      "name": "go-opencv",
+      "full_name": "go-opencv/go-opencv",
+      "url": "https://github.com/go-opencv/go-opencv",
+      "description": "Go bindings for OpenCV / 2.x API in gocv / 1.x API in opencv",
+      "language": "Go",
+      "stars": 1324,
+      "forks": 189,
+      "homepage": "",
+      "license": "BSD-3-Clause",
+      "created_at": "2013-12-09T09:43:26Z",
+      "pushed_at": "2023-03-30T20:19:32Z",
+      "updated_at": "2026-09-20T06:19:34Z",
+      "open_issues": 38,
+      "summary": "go-opencv 是 OpenCV 的 Go 语言绑定库，通过 CGO 封装 OpenCV 1.x 的 C API，并通过 SWIG 封装 OpenCV 2 及以上版本的 C++ API（即 GoCV 包）。它源自 chai 的 go-opencv 分支，原项目当时仅支持 OpenCV1 且托管在 Google Code，不便社区贡献，因此该分支迁至 GitHub 并陆续加入社区补丁和实验性的 OpenCV 2 封装。由于 OpenCV 2.",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:39:58+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 4,
+      "tags": [
+        "library"
+      ],
+      "primary_tag": "library",
+      "domains": [
+        "media",
+        "graphics"
+      ],
+      "primary_domain": "media"
+    },
+    {
+      "owner": "docker",
+      "name": "docker-credential-helpers",
+      "full_name": "docker/docker-credential-helpers",
+      "url": "https://github.com/docker/docker-credential-helpers",
+      "description": "Programs to keep Docker login credentials safe by storing in platform keystores",
+      "language": "Go",
+      "stars": 1323,
+      "forks": 198,
+      "homepage": "",
+      "license": "MIT",
+      "created_at": "2016-02-08T16:23:25Z",
+      "pushed_at": "2026-10-20T20:48:02Z",
+      "updated_at": "2026-10-22T17:32:01Z",
+      "open_issues": 68,
+      "summary": "docker-credential-helpers 是一套用 Go 编写的程序，用于将 Docker 登录凭据存入各平台的原生密钥库，避免明文保存。它解决的核心问题是凭据安全：通过调用系统自带的密钥管理机制，让 Docker 不必在配置文件中直接存放密码。它提供 osxkeychain、secretservice、wincred 和 pass 等程序，分别对应 macOS 钥匙串、D-Bus 密钥服务、Windows 凭据管理器和 pass。使用时在 ~/.docker/config.json 中设置 credsStore 为对应程序后缀即可，例如 osxkeychain。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:39:58+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 4,
+      "tags": [
+        "tool"
+      ],
+      "primary_tag": "tool",
+      "domains": [
+        "devops",
+        "security"
+      ],
+      "primary_domain": "devops"
+    },
+    {
+      "owner": "tr4m0ryp",
+      "name": "tr4mpass",
+      "full_name": "tr4m0ryp/tr4mpass",
+      "url": "https://github.com/tr4m0ryp/tr4mpass",
+      "description": "Free, open-source iCloud activation lock bypass tool. Remove iCloud lock from iPhone 5s through iPhone 15 Pro (iOS 12-26.1). Fully offline -- no servers, no payments. Supports checkm8 (A5-A11) and session activation (A12+).",
+      "language": "C",
+      "stars": 1322,
+      "forks": 334,
+      "homepage": "",
+      "license": "",
+      "created_at": "2026-04-04T22:44:07Z",
+      "pushed_at": "2026-10-25T13:25:50Z",
+      "updated_at": "2026-10-26T08:21:28Z",
+      "open_issues": 102,
+      "summary": "tr4mpass 是一款用 C 语言编写的免费开源 iCloud 激活锁绕过工具，可在本地电脑上运行，无需服务器、付费或账号。它支持 iPhone 5s 至 iPhone 15 Pro、iOS 12 至 26.1，提供两条绕过路径：针对 A5 至 A11 芯片的 checkm8 硬件漏洞利用，以及针对 A12 及以后芯片的会话激活方式，后者通过操纵 DFU 模式下的设备身份并借助苹果激活协议改变锁定状态。工具附带脚本可自动安装依赖、构建程序、检测设备并引导进入 DFU 模式，在 macOS、Linux 及 WSL 上均可使用。",
+      "windows": [
+        "monthly"
+      ],
+      "added_at": "2026-10-09T11:22:49+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 6,
+      "tags": [
+        "tool"
+      ],
+      "primary_tag": "tool",
+      "domains": [
+        "security",
+        "mobile"
+      ],
+      "primary_domain": "security"
+    },
+    {
+      "owner": "JayWebtech",
+      "name": "autoshorts",
+      "full_name": "JayWebtech/autoshorts",
+      "url": "https://github.com/JayWebtech/autoshorts",
+      "description": "AutoShorts is a local-first desktop application for turning long-form video or audio recordings into high-impact, vertical short-form clip candidates (9:16 portrait) with AI-powered viral moment ranking.",
+      "language": "Rust",
+      "stars": 1320,
+      "forks": 257,
+      "homepage": "",
+      "license": "",
+      "created_at": "2026-06-22T13:08:10Z",
+      "pushed_at": "2026-10-11T14:59:49Z",
+      "updated_at": "2026-10-26T08:00:42Z",
+      "open_issues": 11,
+      "summary": "AutoShorts 是一款本地优先的桌面应用，用 Rust 配合 Tauri 2、React、TSX 和 SQLite 构建，目标是把长视频或音频录制转化为适合竖屏传播的 9:16 短视频候选片段，并借助 AI 对片段进行爆款潜力排序。它解决的是从长内容中筛选高价值片段并快速裁剪成竖屏的流程问题。核心能力包括：支持 DeepSeek 与 Claude 的多 LLM 爆款时刻检测与钩子分析；自动完成媒体导入、音频提取、Deepgram 转写、分析与排序的流水线；本地 SQLite 保存转写、候选片段和渲染数据；原生项目管理器支持创建、打开、重命名和删除项目；通过 ffmpeg 自动将横屏视频。",
+      "windows": [
+        "weekly"
+      ],
+      "added_at": "2026-10-09T11:01:04+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 10,
+      "tags": [
+        "app"
+      ],
+      "primary_tag": "app",
+      "domains": [
+        "media",
+        "ai"
+      ],
+      "primary_domain": "media"
+    },
+    {
+      "owner": "xiaolai",
+      "name": "public-speaking-with-meaning",
+      "full_name": "xiaolai/public-speaking-with-meaning",
+      "url": "https://github.com/xiaolai/public-speaking-with-meaning",
+      "description": "《我也有话要说》—— 普通人的当众讲话技能 ",
+      "language": "Python",
+      "stars": 1314,
+      "forks": 511,
+      "homepage": "",
+      "license": "",
+      "created_at": "2019-03-28T15:47:53Z",
+      "pushed_at": "2023-12-21T09:22:20Z",
+      "updated_at": "2026-10-25T05:50:43Z",
+      "open_issues": 2,
+      "summary": "《我也有话要说》是一份面向普通人的当众讲话技能系列文章，由作者在2010年六七月间陆续写成，后因博客网站失效，经重新整理后以仓库形式保存。它不追求完整体系，而是围绕如何让讲话更有意义展开，涉及克服紧张、信任听众、明确表达目的、一次只说一件事、使用自己的语言、学会停顿与倾听、善用提问和重复、准备证据、慎用名言警句、控制讲话范围等具体问题，共四十篇。内容适合日常谈话、公开演讲、汇报或发言等场景，强调从听众出发、说真正相信的话，并通过日常练习逐步提升表达能力。仓库主要语言为Python，但核心价值在于文本内容本身。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:41:48+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 4,
+      "tags": [
+        "doc"
+      ],
+      "primary_tag": "doc",
+      "domains": [
+        "learning"
+      ],
+      "primary_domain": "learning"
+    },
+    {
+      "owner": "besscroft",
+      "name": "PicImpact",
+      "full_name": "besscroft/PicImpact",
+      "url": "https://github.com/besscroft/PicImpact",
+      "description": "自部署的摄影作品网站，支持多种功能特性。PicImpact，分享你和世界！",
+      "language": "TypeScript",
+      "stars": 1313,
+      "forks": 212,
+      "homepage": "https://pic-docs.besscroft.com",
+      "license": "MIT",
+      "created_at": "2024-04-03T03:43:47Z",
+      "pushed_at": "2026-09-23T02:50:58Z",
+      "updated_at": "2026-10-24T13:49:55Z",
+      "open_issues": 18,
+      "summary": "PicImpact 是一个可自部署的摄影作品展示网站，基于 Next.js 与 Hono.js 开发，主要解决摄影师和爱好者搭建个人作品集时对展示效果、存储灵活性与访问控制的需求。它提供瀑布流相册并支持实况照片，配合基于 WebGL 的高性能查看器，利用图片分块和 LOD 技术优化大图加载，还能根据 EXIF 经纬度在地图上标记照片，点击可查看原图与 EXIF 信息并支持直链访问。图片存储兼容 S3 API、Cloudflare R2 和 Open List API，支持标签筛选、RSS 输出与批量上传，上传时自动生成压缩预览图。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:41:30+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 5,
+      "tags": [
+        "app"
+      ],
+      "primary_tag": "app",
+      "domains": [
+        "media",
+        "web"
+      ],
+      "primary_domain": "media"
+    },
+    {
+      "owner": "mkirchner",
+      "name": "gc",
+      "full_name": "mkirchner/gc",
+      "url": "https://github.com/mkirchner/gc",
+      "description": "Simple, zero-dependency garbage collection for C",
+      "language": "C",
+      "stars": 1308,
+      "forks": 72,
+      "homepage": "",
+      "license": "MIT",
+      "created_at": "2019-12-16T18:19:15Z",
+      "pushed_at": "2024-08-04T17:51:00Z",
+      "updated_at": "2026-10-25T00:44:48Z",
+      "open_issues": 1,
+      "summary": "gc 是一个用 C 语言实现的保守式、线程局部标记清除垃圾回收器，可作为 POSIX malloc、calloc、realloc 和 free 的功能替代。它通过哈希表记录每次分配的元数据，在系统分配失败或分配数量超过动态高水位时触发回收，从栈、寄存器及显式根出发递归标记可达对象，再清除未标记的分配。其设计侧重概念清晰而非架构级优化，适合学习垃圾回收原理，也适用于用 C 从头编写 LISP 解释器等需要自动内存管理的场景。项目零依赖，提供 gc_start、gc_stop、gc_pause、gc_free 等 API，并支持静态分配与 strdup 辅助函数。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:40:48+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 2,
+      "tags": [
+        "library"
+      ],
+      "primary_tag": "library",
+      "domains": [
+        "systems"
+      ],
+      "primary_domain": "systems"
+    },
+    {
+      "owner": "nushell",
+      "name": "nu_scripts",
+      "full_name": "nushell/nu_scripts",
+      "url": "https://github.com/nushell/nu_scripts",
+      "description": "A place to share Nushell scripts with each other",
+      "language": "Nushell",
+      "stars": 1307,
+      "forks": 329,
+      "homepage": "",
+      "license": "MIT",
+      "created_at": "2021-01-22T18:33:43Z",
+      "pushed_at": "2026-10-24T11:58:06Z",
+      "updated_at": "2026-10-24T11:58:13Z",
+      "open_issues": 27,
+      "summary": "nu_scripts 是 Nushell 社区共享脚本的集合仓库，主要语言为 Nushell。它解决的问题是：Nushell 用户各自编写的实用脚本散落各处，缺少统一归集与交流的地方，该仓库通过 fork 加 PR 的方式让任何人贡献自己的脚本。仓库按用途划分多个目录，包括别名、基准测试、实用单行命令、外部命令的自定义补全、自定义菜单、示例配置、nu-hooks、模块、面向初学者的 nu_101 概念入门、提示符和主题等。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:42:17+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 4,
+      "tags": [
+        "asset",
+        "example"
+      ],
+      "primary_tag": "asset",
+      "domains": [
+        "systems",
+        "devtools"
+      ],
+      "primary_domain": "systems"
+    },
+    {
+      "owner": "thinkeridea",
+      "name": "go-extend",
+      "full_name": "thinkeridea/go-extend",
+      "url": "https://github.com/thinkeridea/go-extend",
+      "description": "go语言扩展包，收集一些常用的操作函数，辅助更快的完成开发工作，并减少重复代码",
+      "language": "Go",
+      "stars": 1304,
+      "forks": 155,
+      "homepage": "https://pkg.go.dev/github.com/thinkeridea/go-extend",
+      "license": "MIT",
+      "created_at": "2018-12-21T08:29:53Z",
+      "pushed_at": "2023-07-20T13:32:49Z",
+      "updated_at": "2026-10-08T15:55:26Z",
+      "open_issues": 1,
+      "summary": "go-extend 是一个用 Go 语言编写的扩展包，收集常用操作函数，目的是辅助开发者更快完成开发工作并减少重复代码。它针对标准库中的部分函数进行改写，在保持功能一致的前提下提升性能，例如 exstrings.Join、exstrings.Repeat、exstrings.Replace 借助 unsafe 包减少内存分配，exbytes.Replace 则通过原地替换直接修改输入数据。此外还提供 JoinToBytes、RepeatToBytes、ReplaceToBytes 等返回 []byte 的版本，避免类型转换开销。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:39:58+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 4,
+      "tags": [
+        "library"
+      ],
+      "primary_tag": "library",
+      "domains": [
+        "systems"
+      ],
+      "primary_domain": "systems"
+    },
+    {
+      "owner": "AlloyTeam",
+      "name": "curvejs",
+      "full_name": "AlloyTeam/curvejs",
+      "url": "https://github.com/AlloyTeam/curvejs",
+      "description": "Made curve a dancer in HTML5 canvas - 魔幻线条",
+      "language": "JavaScript",
+      "stars": 1302,
+      "forks": 131,
+      "homepage": "https://alloyteam.github.io/curvejs/",
+      "license": "",
+      "created_at": "2017-04-17T01:24:18Z",
+      "pushed_at": "2019-03-22T07:31:17Z",
+      "updated_at": "2026-10-13T16:11:45Z",
+      "open_issues": 0,
+      "summary": "Curvejs 是 AlloyTeam 开源的一个 JavaScript 库，用于在 HTML5 canvas 中绘制可运动的曲线，让线条像舞者一样动起来。它解决的是在 canvas 上实现流畅、富有表现力的曲线动画的问题，开发者无需从零构建复杂的运动逻辑。其核心能力在于内置了多种运动效果，README 中展示了 Rope、Siri-Wave、Water、Sprout、Scale-To、Points-To、Rotate、Word、Perlin-Noise、Lerp Color 等示例，涵盖波浪、绳索、生长、缩放、旋转、颜色渐变等形态，并支持曲线、直线和闭合路径。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:41:10+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 5,
+      "tags": [
+        "library"
+      ],
+      "primary_tag": "library",
+      "domains": [
+        "graphics",
+        "web"
+      ],
+      "primary_domain": "graphics"
+    },
+    {
+      "owner": "antonmedv",
+      "name": "countdown",
+      "full_name": "antonmedv/countdown",
+      "url": "https://github.com/antonmedv/countdown",
+      "description": "Terminal countdown timer",
+      "language": "Go",
+      "stars": 1302,
+      "forks": 120,
+      "homepage": "",
+      "license": "MIT",
+      "created_at": "2019-03-20T15:14:32Z",
+      "pushed_at": "2025-02-18T14:08:04Z",
+      "updated_at": "2026-10-17T17:03:05Z",
+      "open_issues": 9,
+      "summary": "Countdown 是一个用 Go 编写的终端倒计时工具，用来在命令行里直观地显示剩余时间。它解决的是在终端环境下需要计时提醒的场景，比如等待某个操作完成、控制脚本执行节奏或给自己设定专注时段。使用时可以按 Go 的时间格式指定时长，例如 1h2m3s，也可以直接给出目标时刻，如 02:15pm 或 14:15。它的核心特点包括：支持用 && 追加倒计时结束后自动执行的命令，支持从零开始正计时，在 macOS 上可通过 say 命令播报最后十秒，还能在倒计时下方显示标题。按键方面，空格用于暂停或继续，Esc 或 Ctrl+C 可中止倒计时且不执行后续命令。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:39:58+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 4,
+      "tags": [
+        "tool"
+      ],
+      "primary_tag": "tool",
+      "domains": [
+        "systems"
+      ],
+      "primary_domain": "systems"
+    },
+    {
+      "owner": "isaacs",
+      "name": "node-graceful-fs",
+      "full_name": "isaacs/node-graceful-fs",
+      "url": "https://github.com/isaacs/node-graceful-fs",
+      "description": "fs with incremental backoff on EMFILE",
+      "language": "JavaScript",
+      "stars": 1301,
+      "forks": 151,
+      "homepage": "",
+      "license": "BlueOak-1.0.0",
+      "created_at": "2011-07-20T08:48:29Z",
+      "pushed_at": "2025-10-25T19:00:09Z",
+      "updated_at": "2026-10-19T20:18:40Z",
+      "open_issues": 28,
+      "summary": "graceful-fs 是 Node.js 核心 fs 模块的替代实现，可直接替换使用，主要解决文件描述符耗尽导致的 EMFILE 错误。它会把 open 和 readdir 调用排队，待有文件关闭后重试，从而将崩溃转化为较慢的操作。此外，它还修复了旧版本 Node 的 lchmod，实现 fs.lutimes，在非 root 用户下忽略 chown 等操作的 EINVAL 和 EPERM 错误，在读取遇到 EAGAIN 时重试，并在 Windows 上针对杀毒软件锁定目录导致的 EACCES 或 EPERM 重试重命名。它支持全局补丁，但建议仅在应用顶层使用，避免在库中引入意外延迟。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:41:10+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 5,
+      "tags": [
+        "library"
+      ],
+      "primary_tag": "library",
+      "domains": [
+        "systems"
+      ],
+      "primary_domain": "systems"
+    },
+    {
+      "owner": "CtrlSpice",
+      "name": "otel-desktop-viewer",
+      "full_name": "CtrlSpice/otel-desktop-viewer",
+      "url": "https://github.com/CtrlSpice/otel-desktop-viewer",
+      "description": "otel-desktop-viewer is a CLI tool for receiving OpenTelemetry traces while working on your local machine.",
+      "language": "Go",
+      "stars": 1300,
+      "forks": 56,
+      "homepage": "",
+      "license": "Apache-2.0",
+      "created_at": "2022-10-14T17:57:02Z",
+      "pushed_at": "2026-10-26T06:47:50Z",
+      "updated_at": "2026-10-25T00:21:02Z",
+      "open_issues": 2,
+      "summary": "otel-desktop-viewer 是一款用 Go 编写的本地 OpenTelemetry 查看器，帮助开发者在本地机器上接收和查看链路追踪、指标与日志数据。它基于 OpenTelemetry Collector、DuckDB 和 Svelte 构建，本质上是一个定制化的 Collector 发行版：其桌面导出器将遥测数据写入由 duckdb 扩展管理的存储，该扩展通过 POST /rpc 的 JSON-RPC 接口暴露数据，并在二进制中内嵌 Svelte 前端界面。运行后界面位于 localhost:8000，OTLP 接收端监听 4317（gRPC）和 4318（HTTP）。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:39:58+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 4,
+      "tags": [
+        "tool"
+      ],
+      "primary_tag": "tool",
+      "domains": [
+        "devtools"
+      ],
+      "primary_domain": "devtools"
+    },
+    {
+      "owner": "irwir",
+      "name": "eMule",
+      "full_name": "irwir/eMule",
+      "url": "https://github.com/irwir/eMule",
+      "description": "Continuing development of eMule",
+      "language": "C++",
+      "stars": 1296,
+      "forks": 114,
+      "homepage": "https://forum.emule-project.net",
+      "license": "",
+      "created_at": "2016-07-24T15:16:29Z",
+      "pushed_at": "2026-08-20T12:46:32Z",
+      "updated_at": "2026-10-25T09:40:13Z",
+      "open_issues": 0,
+      "summary": "eMule 是一个经典的 P2P 文件共享客户端，irwir/eMule 仓库延续了它的开发，官方描述为“Continuing development of eMule”。该项目使用 C++ 编写，主要面向仍在使用 eD2k 与 Kad 网络的用户，解决官方版本长期停更后兼容性、稳定性与维护缺失的问题。其核心能力包括连接 eD2k 服务器和 Kad 网络、搜索与下载文件、上传共享资源、管理传输队列，以及处理来源交换和积分系统等 eMule 既有机制。典型使用场景是在 Windows 等桌面环境中进行大文件分发或获取稀有资源，依赖 P2P 网络而非中心服务器。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:42:03+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 4,
+      "tags": [
+        "app"
+      ],
+      "primary_tag": "app",
+      "domains": [
+        "networking"
+      ],
+      "primary_domain": "networking"
+    },
+    {
+      "owner": "danielwaterworth",
+      "name": "Raphters",
+      "full_name": "danielwaterworth/Raphters",
+      "url": "https://github.com/danielwaterworth/Raphters",
+      "description": "[DEPRECATED] A web framework for C.",
+      "language": "C",
+      "stars": 1277,
+      "forks": 110,
+      "homepage": "",
+      "license": "LGPL-3.0",
+      "created_at": "2011-04-04T15:19:39Z",
+      "pushed_at": "2012-02-04T15:52:02Z",
+      "updated_at": "2026-10-14T07:27:45Z",
+      "open_issues": 5,
+      "summary": "Raphters 是一个用 C 语言编写的 Web 框架，基于 rapht 架构模式，目前已被标记为废弃。它试图解决的问题是：在 C 这种以速度和低内存占用见长的语言中，提供一套类似其他主流框架的常用 Web 开发能力，包括 cookie 处理、会话管理、模板渲染等，并且这些功能通过松耦合的组件和清晰的 API 来实现。项目作者认为，C 语言快速且有趣，配合经过充分测试的代码也能保证安全性，同时内存开销很低。构建方式为在项目目录下依次执行 mkdir build、cd build、cmake ../ 和 make。示例程序可以通过 FastCGI 部署。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:40:48+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 2,
+      "tags": [
+        "framework"
+      ],
+      "primary_tag": "framework",
+      "domains": [
+        "web"
+      ],
+      "primary_domain": "web"
+    },
+    {
+      "owner": "yrnkrn",
+      "name": "zapcc",
+      "full_name": "yrnkrn/zapcc",
+      "url": "https://github.com/yrnkrn/zapcc",
+      "description": "zapcc is a caching C++ compiler based on clang, designed to perform faster compilations",
+      "language": "C++",
+      "stars": 1274,
+      "forks": 63,
+      "homepage": "",
+      "license": "NOASSERTION",
+      "created_at": "2018-06-14T10:00:31Z",
+      "pushed_at": "2020-07-21T10:22:01Z",
+      "updated_at": "2026-10-13T22:13:31Z",
+      "open_issues": 7,
+      "summary": "zapcc 是一个基于 clang 的缓存式 C++ 编译器，通过客户端-服务器架构在内存中保存编译信息，从而加快编译速度。它解决的是重复编译时大量头文件和模板实例化被反复处理的问题。使用时 zapcc 作为客户端，zapccs 作为服务端，每次运行会复用已有服务或启动新服务，命令语法与 clang 一致。其核心能力是缓存跨运行的编译信息，完整构建通常可提速数倍，修改单个源文件后的增量重编译提速更明显。它兼容 clang 和 gcc 的大部分行为，但不支持 sanitizers，且会忽略预编译头。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:42:03+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 4,
+      "tags": [
+        "tool"
+      ],
+      "primary_tag": "tool",
+      "domains": [
+        "devtools",
+        "systems"
+      ],
+      "primary_domain": "devtools"
+    },
+    {
+      "owner": "wesbos",
+      "name": "aprilFools.css",
+      "full_name": "wesbos/aprilFools.css",
+      "url": "https://github.com/wesbos/aprilFools.css",
+      "description": "Harmlessly goof up your co-workers browser and chrome dev tools",
+      "language": "CSS",
+      "stars": 1270,
+      "forks": 126,
+      "homepage": "",
+      "license": "",
+      "created_at": "2013-03-22T16:39:35Z",
+      "pushed_at": "2019-03-27T08:26:09Z",
+      "updated_at": "2026-10-22T07:30:11Z",
+      "open_issues": 0,
+      "summary": "aprilFools.css 是 Wes Bos 维护的一份纯 CSS 恶作剧样式集合，用于在愚人节期间无害地捉弄同事的浏览器。它的使用方式是把这些 CSS 定义写入同事浏览器的自定义样式覆盖文件中，从而作用于他们访问的每一个网站。仓库中的规则默认被注释掉，使用者需要自行取消注释想启用的条目。核心能力包括把整个网页旋转 180 度、每隔 30 秒让页面瞬间模糊一次、让页面持续旋转、把图片上下翻转等，多数效果同时支持 Firefox 和 Chrome，部分带 -webkit 前缀的规则仅适用于 Chrome 或其开发者工具。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:42:17+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 4,
+      "tags": [
+        "asset"
+      ],
+      "primary_tag": "asset",
+      "domains": [
+        "devtools"
+      ],
+      "primary_domain": "devtools"
+    },
+    {
+      "owner": "xiaolai",
+      "name": "everyones-guide-for-starting-up-on-wechat-network",
+      "full_name": "xiaolai/everyones-guide-for-starting-up-on-wechat-network",
+      "url": "https://github.com/xiaolai/everyones-guide-for-starting-up-on-wechat-network",
+      "description": "微信互联网平民创业",
+      "language": "",
+      "stars": 1270,
+      "forks": 421,
+      "homepage": "",
+      "license": "",
+      "created_at": "2020-07-24T01:16:05Z",
+      "pushed_at": "2024-06-10T02:57:41Z",
+      "updated_at": "2026-10-22T11:44:07Z",
+      "open_issues": 4,
+      "summary": "《微信互联网平民创业》是李笑来2020年撰写的初稿，内容围绕普通人如何借助微信生态赚钱展开。全书从微信的发展历程讲起，说明微信已从即时通讯工具演变为涵盖支付、公众号、小程序、视频号等功能的完整商业世界，进而提出平民应把微信当作赚钱工具，在朋友圈、视频号、直播等“屏幕”上持续打造个人品牌与长期资产。书中还讨论了微商身份、商业认知、教育文化对赚钱观念的影响等话题，适合希望利用微信开展副业或创业的普通读者阅读参考。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:42:17+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 4,
+      "tags": [
+        "doc"
+      ],
+      "primary_tag": "doc",
+      "domains": [
+        "learning"
+      ],
+      "primary_domain": "learning"
+    },
+    {
+      "owner": "kisielk",
+      "name": "godepgraph",
+      "full_name": "kisielk/godepgraph",
+      "url": "https://github.com/kisielk/godepgraph",
+      "description": "A Go dependency graph visualization tool",
+      "language": "Go",
+      "stars": 1267,
+      "forks": 98,
+      "homepage": "",
+      "license": "MIT",
+      "created_at": "2013-02-13T22:29:38Z",
+      "pushed_at": "2025-06-24T16:17:42Z",
+      "updated_at": "2026-10-26T02:56:57Z",
+      "open_issues": 12,
+      "summary": "godepgraph 是一个用 Go 编写的依赖图可视化工具，用于生成 Go 包的依赖关系图。它接收包路径作为参数，默认输出 Graphviz dot 格式，也可通过 -format mermaid 生成 Mermaid 图，配合 dot 命令即可渲染为图片。工具用颜色区分包类型：绿色为标准库、蓝色为 GOPATH 中的普通包、黄色为 vendored 包、橙色为使用 cgo 的包。它支持多种过滤方式，-s 忽略标准库，-novendor 忽略 vendored 包，-i 按名称、-p 按前缀排除指定导入路径。对 go mod 项目需传入相对路径。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:39:58+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 4,
+      "tags": [
+        "tool"
+      ],
+      "primary_tag": "tool",
+      "domains": [
+        "devtools"
+      ],
+      "primary_domain": "devtools"
+    },
+    {
+      "owner": "ReactJSResources",
+      "name": "react-webpack-babel",
+      "full_name": "ReactJSResources/react-webpack-babel",
+      "url": "https://github.com/ReactJSResources/react-webpack-babel",
+      "description": "Simple React Webpack Babel Starter Kit",
+      "language": "JavaScript",
+      "stars": 1261,
+      "forks": 411,
+      "homepage": "",
+      "license": "MIT",
+      "created_at": "2015-06-15T13:21:19Z",
+      "pushed_at": "2026-05-27T06:15:26Z",
+      "updated_at": "2026-10-08T18:30:03Z",
+      "open_issues": 0,
+      "summary": "ReactJSResources/react-webpack-babel 是一个基于 JavaScript 的轻量级 React 起步模板，官方定位为简单 React Webpack Babel Starter Kit。它针对的是那些被复杂脚手架困扰的开发者：许多现成模板依赖体积超过 250MB，结构繁琐，难以理解和修改。该仓库反其道而行，不集成 redux、样式表或其他固定框架，只提供最基础的 React 运行环境，把后续技术选型的自由留给使用者。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:41:10+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 5,
+      "tags": [
+        "template"
+      ],
+      "primary_tag": "template",
+      "domains": [
+        "web",
+        "devtools"
+      ],
+      "primary_domain": "web"
+    },
+    {
+      "owner": "jshttp",
+      "name": "mime-db",
+      "full_name": "jshttp/mime-db",
+      "url": "https://github.com/jshttp/mime-db",
+      "description": "Media Type Database",
+      "language": "JavaScript",
+      "stars": 1250,
+      "forks": 286,
+      "homepage": "",
+      "license": "MIT",
+      "created_at": "2014-08-14T22:18:44Z",
+      "pushed_at": "2026-09-08T18:56:20Z",
+      "updated_at": "2026-10-20T20:49:42Z",
+      "open_issues": 26,
+      "summary": "mime-db 是一个媒体类型（MIME type）数据库，以单个公开 JSON 文件的形式提供，不包含任何逻辑代码，保持尽可能中立。它汇总了 IANA、Apache 和 nginx 的媒体类型数据，每条记录包含来源、关联扩展名、是否可 gzip 压缩以及默认字符集等属性。该库解决的是在 JavaScript 环境中查询 MIME 类型及其元信息的问题，适合 Node.js 服务端或浏览器端使用，浏览器中可通过 jsDelivr 等 CDN 获取 JSON 文件，并建议指定发布标签以保证稳定性。其数据更新依赖上游源，社区可通过向 IANA 注册新媒体类型或提交自定义类型 PR 来贡献数据。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:41:10+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 5,
+      "tags": [
+        "library"
+      ],
+      "primary_tag": "library",
+      "domains": [
+        "web",
+        "networking"
+      ],
+      "primary_domain": "web"
+    },
+    {
+      "owner": "Bennettxai",
+      "name": "FounderOS",
+      "full_name": "Bennettxai/FounderOS",
+      "url": "https://github.com/Bennettxai/FounderOS",
+      "description": "An open-source, single-operator business command center: run a one-person operated company as AI-assisted departments (comms, funnel, social, finances, agents, and a knowledge graph) from one live dashboard.",
+      "language": "TypeScript",
+      "stars": 1250,
+      "forks": 349,
+      "homepage": "https://founderos.sh",
+      "license": "MIT",
+      "created_at": "2026-07-07T11:58:37Z",
+      "pushed_at": "2026-10-23T20:46:39Z",
+      "updated_at": "2026-10-26T00:37:40Z",
+      "open_issues": 2,
+      "summary": "FounderOS 是一套面向单人公司的开源业务指挥中心，用 Go 语言编写，把沟通、客户漏斗、社交增长、财务、知识图谱和一组各司其职的 AI 代理整合到同一个实时仪表盘中。它解决的是自由职业者、独立创业者或小团队负责人被大量标签页、工具和心智负担撕扯的问题：你负责定方向，AI 代理覆盖各个“部门”，现有员工也接入同一块看板。v2 版本保留原有操作界面，改由 BusinessOS 与 Optimal Engine 支撑，操作视图位于 /os，并自带工作区、角色、团队、模块桌面和终端。",
+      "windows": [
+        "weekly"
+      ],
+      "added_at": "2026-10-11T22:24:52+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 4,
+      "tags": [
+        "app"
+      ],
+      "primary_tag": "app",
+      "domains": [
+        "productivity",
+        "ai"
+      ],
+      "primary_domain": "productivity"
+    },
+    {
+      "owner": "category-labs",
+      "name": "monad",
+      "full_name": "category-labs/monad",
+      "url": "https://github.com/category-labs/monad",
+      "description": "",
+      "language": "C++",
+      "stars": 1234,
+      "forks": 440,
+      "homepage": "",
+      "license": "GPL-3.0",
+      "created_at": "2022-12-14T15:48:16Z",
+      "pushed_at": "2026-10-26T07:59:05Z",
+      "updated_at": "2026-10-24T18:49:22Z",
+      "open_issues": 14,
+      "summary": "Monad Execution 是 Monad 节点的执行组件，负责处理新区块的交易并跟踪区块链状态。该仓库用 C++ 编写，包含 Category Labs 自定义的 EVM 实现、数据库实现以及高层交易调度逻辑，与负责共识的 monad-bft 仓库相互配合。其核心产物是执行守护进程 build/cmd/monad，既可作为 Monad 区块链节点的区块执行服务，启用 Monad 风格的质押等 EVM 扩展，也可通过执行历史区块来重放其他 EVM 兼容链的数据，例如重放以太坊主网历史并校验每块计算出的 Merkle 根是否匹配。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:42:03+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 4,
+      "tags": [
+        "library"
+      ],
+      "primary_tag": "library",
+      "domains": [
+        "blockchain",
+        "systems"
+      ],
+      "primary_domain": "blockchain"
+    },
+    {
+      "owner": "LuxAlgo",
+      "name": "Vela",
+      "full_name": "LuxAlgo/Vela",
+      "url": "https://github.com/LuxAlgo/Vela",
+      "description": "Fast, extensible financial charts for the web. The open-source core of Vela by LuxAlgo.",
+      "language": "TypeScript",
+      "stars": 1231,
+      "forks": 244,
+      "homepage": "https://www.velacharts.dev",
+      "license": "Apache-2.0",
+      "created_at": "2026-07-13T16:21:40Z",
+      "pushed_at": "2026-10-22T12:44:30Z",
+      "updated_at": "2026-10-25T22:01:59Z",
+      "open_issues": 30,
+      "summary": "Vela 是 LuxAlgo 开源的 Web 金融图表核心，使用 TypeScript 编写，采用无头架构与自研 WebGL2 渲染器（并提供 canvas2d 回退）。它把数据模型、引擎、绘图与渲染分层解耦，数据源、脚本引擎、渲染器都通过公开接口接入，可独立替换。开发者既能直接调用无头核心完全用代码驱动图表，也能引入 workspace 一次性获得完整图表应用，包括多图网格、共享顶栏、状态栏、对象树与键盘操作。内置七十多种技术指标，支持 Binance、Coinbase、Hyperliquid 等数据源，也可传入自有数据离线运行。通过插件 SDK 可注册自定义图表类型与画布图层。",
+      "windows": [
+        "weekly"
+      ],
+      "added_at": "2026-10-09T11:00:09+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 5,
+      "tags": [
+        "library"
+      ],
+      "primary_tag": "library",
+      "domains": [
+        "web",
+        "graphics"
+      ],
+      "primary_domain": "web"
+    },
+    {
+      "owner": "google",
+      "name": "cityhash",
+      "full_name": "google/cityhash",
+      "url": "https://github.com/google/cityhash",
+      "description": "Automatically exported from code.google.com/p/cityhash",
+      "language": "Shell",
+      "stars": 1230,
+      "forks": 198,
+      "homepage": "",
+      "license": "MIT",
+      "created_at": "2015-08-14T21:08:16Z",
+      "pushed_at": "2024-04-22T10:17:49Z",
+      "updated_at": "2026-10-13T07:41:29Z",
+      "open_issues": 13,
+      "archived": true,
+      "summary": "CityHash 是 Google 提供的一组字符串哈希函数，包含 32 位、64 位和 128 位等不同输出长度的实现，另有依赖 CRC32 指令的 Crc 系列变体。它解决的问题是在非加密场景下对字符串做快速且分布良好的哈希，适合用作哈希表键等用途。其特点是混合输入比特较充分，在短字符串上 CityHash64 表现突出，长字符串则可用 CityHash128 或 Crc 系列获得更高吞吐。代码以 C++ 参考实现为主，构建基于 autoconf，可选用 -msse4.2 启用 CRC32 相关函数。使用时需注意其面向小端 32 位或 64 位 CPU，且不适用于密码学场景。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:42:17+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 4,
+      "tags": [
+        "library"
+      ],
+      "primary_tag": "library",
+      "domains": [
+        "systems"
+      ],
+      "primary_domain": "systems"
+    },
+    {
+      "owner": "alibaba",
+      "name": "IOC-golang",
+      "full_name": "alibaba/IOC-golang",
+      "url": "https://github.com/alibaba/IOC-golang",
+      "description": "一款服务于 Go 开发者的依赖注入框架，方便搭建任何 Go 应用。 A Golang depenedency injection framework, helps developers to build any go application.",
+      "language": "Go",
+      "stars": 1228,
+      "forks": 121,
+      "homepage": "https://ioc-golang.github.io",
+      "license": "Apache-2.0",
+      "created_at": "2022-05-17T09:25:14Z",
+      "pushed_at": "2023-06-13T05:31:26Z",
+      "updated_at": "2026-10-13T17:32:28Z",
+      "open_issues": 25,
+      "summary": "IOC-golang 是阿里巴巴开源的一款 Go 依赖注入框架，提供完整的 IoC 容器实现，帮助开发者搭建各类 Go 应用。它支持任意结构与接口的依赖注入，并具备对象生命周期管理能力，可接管对象创建、参数注入和工厂方法，参数来源也可自定义。基于 AOP 思想，它为注册的结构体提供代理层，从而支持接口列表查看、参数值监听、方法级链路追踪、性能瓶颈分析、故障注入等调试能力。框架还提供代码生成工具，开发者通过注解即可生成结构体注册代码，并支持注入结构体、自动装配模型和调试 AOP 层的扩展。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:39:58+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 4,
+      "tags": [
+        "framework",
+        "library"
+      ],
+      "primary_tag": "framework",
+      "domains": [
+        "devtools"
+      ],
+      "primary_domain": "devtools"
+    },
+    {
+      "owner": "prettier",
+      "name": "tslint-config-prettier",
+      "full_name": "prettier/tslint-config-prettier",
+      "url": "https://github.com/prettier/tslint-config-prettier",
+      "description": "Use TSLint with Prettier without any conflict",
+      "language": "TypeScript",
+      "stars": 1225,
+      "forks": 37,
+      "homepage": "",
+      "license": "MIT",
+      "created_at": "2017-06-07T10:14:02Z",
+      "pushed_at": "2023-01-03T16:36:41Z",
+      "updated_at": "2026-10-08T18:17:06Z",
+      "open_issues": 2,
+      "summary": "tslint-config-prettier 是一个用于 TypeScript 项目的配置包，目的是让 TSLint 与 Prettier 在同一工程中协同工作而不产生规则冲突。Prettier 负责代码格式化，TSLint 负责其他静态检查，但两者在格式相关规则上常有重叠，容易互相报错。该配置通过关闭 TSLint 中所有与 Prettier 冲突的规则来解决这一问题。使用时只需在 tslint.",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:41:30+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 5,
+      "tags": [
+        "config",
+        "tool"
+      ],
+      "primary_tag": "config",
+      "domains": [
+        "devtools"
+      ],
+      "primary_domain": "devtools"
+    },
+    {
+      "owner": "kevwan",
+      "name": "go-stash",
+      "full_name": "kevwan/go-stash",
+      "url": "https://github.com/kevwan/go-stash",
+      "description": "go-stash is a high performance, free and open source server-side data processing pipeline that ingests data from Kafka, processes it, and then sends it to ElasticSearch.",
+      "language": "Go",
+      "stars": 1225,
+      "forks": 152,
+      "homepage": "https://go-zero.dev",
+      "license": "MIT",
+      "created_at": "2020-08-13T08:28:03Z",
+      "pushed_at": "2026-03-30T13:14:52Z",
+      "updated_at": "2026-10-06T15:22:23Z",
+      "open_issues": 14,
+      "summary": "go-stash 是一个用 Go 编写的高性能服务端数据处理管道，主要从 Kafka 读取数据，经过处理后写入 ElasticSearch。它面向日志或事件数据的采集与转发场景，相比 logstash 吞吐量约为其五倍，且部署简单，只有一个可执行文件。配置上支持设置 Kafka 连接数、消费者线程、处理线程以及每次拉取的数据块大小，并可选择从最新或最早位置读取。过滤器支持删除、移除字段和字段转移等操作，输出端可自定义索引名格式、批量提交大小、优雅退出时间、压缩和时区。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:39:58+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 4,
+      "tags": [
+        "app"
+      ],
+      "primary_tag": "app",
+      "domains": [
+        "data",
+        "networking"
+      ],
+      "primary_domain": "data"
+    },
+    {
+      "owner": "klauspost",
+      "name": "pgzip",
+      "full_name": "klauspost/pgzip",
+      "url": "https://github.com/klauspost/pgzip",
+      "description": "Go parallel gzip (de)compression",
+      "language": "Go",
+      "stars": 1212,
+      "forks": 91,
+      "homepage": "",
+      "license": "MIT",
+      "created_at": "2014-10-16T11:29:55Z",
+      "pushed_at": "2026-10-21T12:03:43Z",
+      "updated_at": "2026-10-23T09:23:21Z",
+      "open_issues": 1,
+      "summary": "pgzip 是 Go 语言实现的并行 gzip 压缩与解压库，可作为标准库 compress/gzip 的直接替代品。它把压缩过程拆分成多个块并行处理，输出仍是标准 gzip 文件，因此无需配套的解压器即可与其他 gzip 读写器完全兼容。解压时它会提前读取并解码后续数据，使读取操作在解码器跟得上时不会阻塞，CRC 校验也在独立协程中完成。它适合一次处理超过 1MB 的大数据量场景，否则可能不如内置 gzip 快。通过 SetConcurrency 可设置块大小与并行块数，默认按 1MB 分块并使用全部 CPU 线程。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:39:58+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 4,
+      "tags": [
+        "library"
+      ],
+      "primary_tag": "library",
+      "domains": [
+        "systems"
+      ],
+      "primary_domain": "systems"
+    },
+    {
+      "owner": "zgjx6",
+      "name": "SocialEngineeringDictionaryGenerator",
+      "full_name": "zgjx6/SocialEngineeringDictionaryGenerator",
+      "url": "https://github.com/zgjx6/SocialEngineeringDictionaryGenerator",
+      "description": "社会工程学密码生成器，是一个利用个人信息生成密码的工具",
+      "language": "HTML",
+      "stars": 1211,
+      "forks": 145,
+      "homepage": "https://sedger.netlify.app/",
+      "license": "MIT",
+      "created_at": "2017-09-17T03:46:28Z",
+      "pushed_at": "2025-08-02T03:03:24Z",
+      "updated_at": "2026-10-22T08:56:36Z",
+      "open_issues": 0,
+      "summary": "社会工程学密码生成器是一个利用个人信息生成密码字典的工具，灵感来源于多年未更新的亦思社会工程学字典生成器，作者因其生成密码数量过少而重新实现。它主要解决在安全测试或密码强度评估中，需要基于目标人物姓名、生日、电话等常见信息快速构造候选密码的问题。核心功能全部使用原生 JavaScript 实现，不访问任何外部资源，用户可直接下载 index.html 在浏览器中打开使用，也可访问在线预览地址。项目代码托管于 GitHub，此前存在 Python 版本但已保留在分支中不再更新。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:42:17+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 4,
+      "tags": [
+        "app"
+      ],
+      "primary_tag": "app",
+      "domains": [
+        "security",
+        "productivity"
+      ],
+      "primary_domain": "security"
+    },
+    {
+      "owner": "dntzhang",
+      "name": "pasition",
+      "full_name": "dntzhang/pasition",
+      "url": "https://github.com/dntzhang/pasition",
+      "description": "Path Transition with little JS code, render to anywhere - 轻量级 Path 过渡库，渲染到任何地方",
+      "language": "JavaScript",
+      "stars": 1208,
+      "forks": 92,
+      "homepage": "https://dntzhang.github.io/pasition/",
+      "license": "",
+      "created_at": "2017-06-14T04:51:25Z",
+      "pushed_at": "2023-05-27T23:56:27Z",
+      "updated_at": "2026-10-13T18:33:18Z",
+      "open_issues": 2,
+      "summary": "Pasition 是一个用少量 JavaScript 代码实现的轻量级 Path 过渡库，可将路径过渡效果渲染到任意位置。它主要解决 SVG 路径形状之间平滑变形与插值的问题，支持所有 SVG path 命令，开发者可以直接从 SVG path 元素的 d 属性中读取路径数据。其核心能力是通过 pasition.lerp 获取过渡过程中的中间形状，从而在任意两个路径之间生成连续变化的图形。该库不依赖特定渲染环境，可配合 Canvas、SVG 或其他渲染方式使用，适合需要在网页中实现图标变形、形状切换、数据可视化过渡等场景的前端项目。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:41:10+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 5,
+      "tags": [
+        "library"
+      ],
+      "primary_tag": "library",
+      "domains": [
+        "graphics",
+        "web"
+      ],
+      "primary_domain": "graphics"
+    },
+    {
+      "owner": "wangdicoder",
+      "name": "JueJinClient",
+      "full_name": "wangdicoder/JueJinClient",
+      "url": "https://github.com/wangdicoder/JueJinClient",
+      "description": "A react-native app simulating JueJin App running on both Android and iOS",
+      "language": "JavaScript",
+      "stars": 1206,
+      "forks": 266,
+      "homepage": "",
+      "license": "MIT",
+      "created_at": "2016-11-01T11:08:05Z",
+      "pushed_at": "2017-08-30T10:46:08Z",
+      "updated_at": "2026-10-08T17:18:03Z",
+      "open_issues": 23,
+      "archived": true,
+      "summary": "JueJinClient 是一个基于 React Native 0.36 开发的移动端应用，用于模拟掘金 App 的界面，可在 Android 和 iOS 两个平台运行。该项目主要解决的是 UI 层面的参考需求，实现了掘金 App 的大部分页面，属于一个 UI 项目，适合想学习 React Native 界面搭建的开发者参考。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:41:10+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 5,
+      "tags": [
+        "app"
+      ],
+      "primary_tag": "app",
+      "domains": [
+        "mobile"
+      ],
+      "primary_domain": "mobile"
+    },
+    {
+      "owner": "soulteary",
+      "name": "forever-coolshell",
+      "full_name": "soulteary/forever-coolshell",
+      "url": "https://github.com/soulteary/forever-coolshell",
+      "description": "酷壳 - CoolShell 电子存档，🕯️ 谨纪念和保存陈皓先生的公开的技术分享内容，感恩皓叔对中文互联网，尤其是技术领域无私的分享。",
+      "language": "HTML",
+      "stars": 1204,
+      "forks": 367,
+      "homepage": "https://github.com/megaease/Remembering-Haoel",
+      "license": "AGPL-3.0",
+      "created_at": "2023-05-15T08:01:55Z",
+      "pushed_at": "2023-05-19T06:59:06Z",
+      "updated_at": "2026-10-26T01:29:02Z",
+      "open_issues": 0,
+      "summary": "酷壳 CoolShell 电子存档用于保存陈皓先生公开发布的技术分享内容，以 HTML 为主要语言，将博客文章整理为可离线运行的电子存档。它解决的是原站内容可能因数据库、CDN 等维护问题而难以长期访问的问题，让读者仍能查阅这些文章。项目提供两种使用方式：一是在 Release 页面下载对应操作系统的可执行文件直接运行，二是通过 Docker 拉取镜像并指定端口启动容器，默认使用 8080 端口，也可通过环境变量 PORT 修改。典型场景是个人在本地或服务器上部署一份存档，供自己或他人随时浏览，适合希望长期留存和阅读这批技术内容的读者。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:42:17+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 4,
+      "tags": [
+        "doc"
+      ],
+      "primary_tag": "doc",
+      "domains": [
+        "learning"
+      ],
+      "primary_domain": "learning"
+    },
+    {
+      "owner": "google",
+      "name": "double-conversion",
+      "full_name": "google/double-conversion",
+      "url": "https://github.com/google/double-conversion",
+      "description": "Efficient binary-decimal and decimal-binary conversion routines for IEEE doubles.",
+      "language": "C++",
+      "stars": 1195,
+      "forks": 308,
+      "homepage": "",
+      "license": "BSD-3-Clause",
+      "created_at": "2014-10-18T12:48:15Z",
+      "pushed_at": "2026-10-14T15:16:39Z",
+      "updated_at": "2026-10-15T14:15:49Z",
+      "open_issues": 17,
+      "summary": "double-conversion 是 Google 维护的 C++ 库，提供 IEEE 双精度浮点数的二进制与十进制之间的高效转换例程。它解决的是浮点数在文本与二进制表示之间相互转换时的精度与效率问题。该库的代码提取自 V8 JavaScript 引擎，并经过重构和改进，以便在其他项目中更方便地使用。核心接口的详细文档位于 string-to-double.h 和 double-to-string.h 头文件中，测试目录下还有更多示例。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:42:03+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 4,
+      "tags": [
+        "library"
+      ],
+      "primary_tag": "library",
+      "domains": [
+        "systems"
+      ],
+      "primary_domain": "systems"
+    },
+    {
+      "owner": "google",
+      "name": "capslock",
+      "full_name": "google/capslock",
+      "url": "https://github.com/google/capslock",
+      "description": "",
+      "language": "Go",
+      "stars": 1184,
+      "forks": 52,
+      "homepage": "",
+      "license": "BSD-3-Clause",
+      "created_at": "2023-07-24T23:19:36Z",
+      "pushed_at": "2026-10-22T01:54:31Z",
+      "updated_at": "2026-10-26T04:26:35Z",
+      "open_issues": 11,
+      "summary": "Capslock 是一个用 Go 编写的命令行工具，用于分析 Go 包的能力（capability），即通过追踪对标准库中特权函数的传递调用，判断某个包能够访问哪些特权操作。它针对的是第三方依赖不应被默认信任的问题，尤其在供应链攻击增多的背景下，帮助开发者了解依赖包实际拥有的权限。其核心思路是补充以漏洞为中心的安全分析，转而识别包通过传递依赖获得的能力，从而判断包的用途、定位需要重点审查的特权代码路径，或发现能力异常变化以提前阻断潜在威胁。这一设计遵循最小权限原则，希望将代码限制在完成其功能所需的最小能力集合内。使用时，在待分析的包路径下运行 capslock 命令即可。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:39:58+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 4,
+      "tags": [
+        "library"
+      ],
+      "primary_tag": "library",
+      "domains": [
+        "security"
+      ],
+      "primary_domain": "security"
+    },
+    {
+      "owner": "denisbrodbeck",
+      "name": "machineid",
+      "full_name": "denisbrodbeck/machineid",
+      "url": "https://github.com/denisbrodbeck/machineid",
+      "description": "Get the unique machine id of any host (without admin privileges)",
+      "language": "Go",
+      "stars": 1183,
+      "forks": 160,
+      "homepage": "",
+      "license": "MIT",
+      "created_at": "2017-10-18T09:21:17Z",
+      "pushed_at": "2024-08-20T07:27:25Z",
+      "updated_at": "2026-10-23T11:24:22Z",
+      "open_issues": 6,
+      "summary": "machineid 是一个用 Go 编写的库，用于读取主机操作系统的唯一机器标识，且无需管理员权限。它解决的是在跨平台环境中稳定识别机器的问题，避免依赖 MAC 地址、BIOS 或 CPU 等硬件信息，因为这些在虚拟机中并不可靠。该库支持 Windows、Linux、macOS、FreeBSD 等系统，返回操作系统原生的 UUID 或 GUID，例如 Linux 读取 /var/lib/dbus/machine-id，Windows 读取注册表中的 MachineGuid。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:39:58+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 4,
+      "tags": [
+        "library"
+      ],
+      "primary_tag": "library",
+      "domains": [
+        "systems"
+      ],
+      "primary_domain": "systems"
+    },
+    {
+      "owner": "rexglue",
+      "name": "rexglue-sdk",
+      "full_name": "rexglue/rexglue-sdk",
+      "url": "https://github.com/rexglue/rexglue-sdk",
+      "description": "Xbox 360 Recompilation Runtime and Toolkit",
+      "language": "C",
+      "stars": 1176,
+      "forks": 235,
+      "homepage": "",
+      "license": "NOASSERTION",
+      "created_at": "2026-01-22T21:41:25Z",
+      "pushed_at": "2026-10-02T12:11:33Z",
+      "updated_at": "2026-10-26T05:57:45Z",
+      "open_issues": 62,
+      "summary": "ReXGlue 是一套面向 Xbox 360 的静态重编译运行时与工具包，核心思路是将 Xbox 360 的 PowerPC 代码提前转换为可移植的 C++ 源码，从而让游戏或程序以原生方式在现代平台上运行，而非在运行时解释或 JIT 编译指令。该项目基于 Xenia 模拟器的基础构建，并借鉴了 XenonRecomp 与 rexdex 重编译器的静态重编译方案，其代码生成分析与指令翻译逻辑大量参考了 XenonRecomp 的工作。项目主要使用 C 语言开发，提供 SDK 构建与发布版本，并配有快速入门指南、完整 CLI 参考和配置文件说明。",
+      "windows": [
+        "weekly",
+        "monthly"
+      ],
+      "added_at": "2026-10-09T11:22:49+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 6,
+      "tags": [
+        "library",
+        "tool"
+      ],
+      "primary_tag": "library",
+      "domains": [
+        "graphics",
+        "systems"
+      ],
+      "primary_domain": "graphics"
+    },
+    {
+      "owner": "Gisto",
+      "name": "Gisto",
+      "full_name": "Gisto/Gisto",
+      "url": "https://github.com/Gisto/Gisto",
+      "description": "Gisto is a Cross-platform snippets management application that allows you and/or your team share code snippets fast and easily.  Based on GitHub Gists or GitLab snippets Infrastructure which means you can use all your existing snippets by connecting your GitHub/GitLab account!",
+      "language": "TypeScript",
+      "stars": 1172,
+      "forks": 102,
+      "homepage": "https://gisto.org",
+      "license": "MIT",
+      "created_at": "2013-04-04T00:14:32Z",
+      "pushed_at": "2026-10-20T17:41:23Z",
+      "updated_at": "2026-10-23T12:09:38Z",
+      "open_issues": 8,
+      "summary": "Gisto 是一款跨平台的代码片段管理工具，帮助个人或团队快速、便捷地共享代码片段。它基于 GitHub Gists、GitLab Snippets 或浏览器本地数据库运行，让你能直接复用已有的 GitHub/GitLab 账户中的片段。核心功能包括高级搜索、标签、语法高亮、按语言分组、快速复制到剪贴板、在 plunkr、jsfiddle 等外部工具中打开，以及主题切换和编辑器设置。它支持 GitHub/GitLab 令牌认证，也提供无需账户的本地存储模式，片段保存在浏览器 IndexedDB 中，可导出导入 JSON。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:41:30+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 5,
+      "tags": [
+        "app"
+      ],
+      "primary_tag": "app",
+      "domains": [
+        "devtools",
+        "productivity"
+      ],
+      "primary_domain": "devtools"
+    },
+    {
+      "owner": "cpvrlab",
+      "name": "ImagePlay",
+      "full_name": "cpvrlab/ImagePlay",
+      "url": "https://github.com/cpvrlab/ImagePlay",
+      "description": "ImagePlay is a rapid prototyping application for image processing",
+      "language": "C++",
+      "stars": 1172,
+      "forks": 121,
+      "homepage": "http://cpvrlab.github.io/ImagePlay/",
+      "license": "GPL-3.0",
+      "created_at": "2015-03-05T14:42:47Z",
+      "pushed_at": "2023-07-04T12:59:58Z",
+      "updated_at": "2026-10-06T08:51:29Z",
+      "open_issues": 29,
+      "summary": "ImagePlay 是一个面向图像处理的快速原型开发应用，使用 C++ 编写。它的目标是让开发者与研究人员能够方便地试验当前较新的图像处理算法，而不必从零搭建完整的测试环境。该应用提供了一套可交互的实验平台，用户可以在其中组合和调整算法流程，观察处理效果，从而加快从想法到验证的过程。其核心能力在于快速原型构建，并支持通过插件机制扩展功能，开发者可以按照项目提供的说明创建自己的插件，将新的算法集成进来。典型使用场景包括图像处理算法的教学演示、研究阶段的可行性验证，以及需要频繁调整参数和流程的视觉实验。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:42:03+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 4,
+      "tags": [
+        "app"
+      ],
+      "primary_tag": "app",
+      "domains": [
+        "media",
+        "graphics"
+      ],
+      "primary_domain": "media"
+    },
+    {
+      "owner": "jackielii",
+      "name": "simplest-redux-example",
+      "full_name": "jackielii/simplest-redux-example",
+      "url": "https://github.com/jackielii/simplest-redux-example",
+      "description": "Simplest redux + react example",
+      "language": "JavaScript",
+      "stars": 1171,
+      "forks": 442,
+      "homepage": "http://jackielii.github.io/simplest-redux-example/",
+      "license": "",
+      "created_at": "2015-08-07T13:45:42Z",
+      "pushed_at": "2023-05-20T09:41:21Z",
+      "updated_at": "2026-08-07T01:32:26Z",
+      "open_issues": 4,
+      "summary": "这是一个面向 Redux 初学者的极简示例仓库，用 JavaScript 编写，帮助开发者理解 Redux 的核心概念。它解决的是 Redux 学习曲线偏陡、官方示例对新手不够友好的问题，通过最小化的代码结构展示 Redux 与 React 的配合方式。仓库同时提供了 webpack 和 ES5 两个版本，方便不同基础的开发者选择阅读。运行方式很简单：克隆或下载仓库后，在目录中执行 npm install 和 npm start，再打开 http://localhost:8000/ 即可在浏览器中查看效果。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:41:10+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 5,
+      "tags": [
+        "example"
+      ],
+      "primary_tag": "example",
+      "domains": [
+        "web",
+        "learning"
+      ],
+      "primary_domain": "web"
+    },
+    {
+      "owner": "saintedlama",
+      "name": "passport-local-mongoose",
+      "full_name": "saintedlama/passport-local-mongoose",
+      "url": "https://github.com/saintedlama/passport-local-mongoose",
+      "description": "Passport-Local Mongoose is a Mongoose plugin that simplifies building username and password login with Passport",
+      "language": "TypeScript",
+      "stars": 1164,
+      "forks": 288,
+      "homepage": "",
+      "license": "MIT",
+      "created_at": "2012-11-22T13:25:04Z",
+      "pushed_at": "2026-10-12T10:59:08Z",
+      "updated_at": "2026-10-22T14:25:52Z",
+      "open_issues": 3,
+      "summary": "Passport-Local Mongoose 是一个 TypeScript 编写的 Mongoose 插件，用于简化基于 Passport 的用户名密码登录功能的搭建。它解决的核心问题是：开发者无需手动处理密码哈希、盐值存储、登录失败限制等繁琐逻辑，只需将插件接入 User schema，即可自动获得 username、hash、salt 等字段以及 setPassword、authenticate、changePassword 等实例方法。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:41:30+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 5,
+      "tags": [
+        "plugin",
+        "library"
+      ],
+      "primary_tag": "plugin",
+      "domains": [
+        "web",
+        "security"
+      ],
+      "primary_domain": "web"
+    },
+    {
+      "owner": "gta-reversed",
+      "name": "gta-reversed",
+      "full_name": "gta-reversed/gta-reversed",
+      "url": "https://github.com/gta-reversed/gta-reversed",
+      "description": "Reimplementation of GTA:SA 1.0 US",
+      "language": "C++",
+      "stars": 1163,
+      "forks": 265,
+      "homepage": "",
+      "license": "",
+      "created_at": "2021-08-22T00:08:57Z",
+      "pushed_at": "2026-10-25T19:28:07Z",
+      "updated_at": "2026-10-26T00:31:27Z",
+      "open_issues": 51,
+      "summary": "gta-reversed 旨在完整逆向《侠盗猎车手：圣安地列斯》1.0 US 版本，并重写和记录其中每一个函数。项目使用 C++ 编写，构建产物是一个可被任意 ASI 加载器注入游戏的 DLL，注入后游戏内的原始函数会被逆向实现替换，游戏行为保持一致，而对逆向代码的修改会直接生效。目前约 50% 至 60% 的代码已完成，最终目标是实现整个游戏的可编译独立可执行文件。该项目适合熟悉 C++、CMake、Conan 与 Visual Studio 的开发者参与，用于研究游戏内部逻辑、修复问题或添加非原版功能。",
+      "windows": [
+        "monthly"
+      ],
+      "added_at": "2026-10-09T11:23:13+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 8,
+      "tags": [
+        "app"
+      ],
+      "primary_tag": "app",
+      "domains": [
+        "graphics"
+      ],
+      "primary_domain": "graphics"
+    },
+    {
+      "owner": "qappleh",
+      "name": "Interview",
+      "full_name": "qappleh/Interview",
+      "url": "https://github.com/qappleh/Interview",
+      "description": "我是追梦赤子心，公众号「深圳湾码农」的作者，某上市集团公司高级前端开发，深耕前端领域多年，每天攻破一道题，带你从0到1系统构建web全栈完整的知识体系！",
+      "language": "JavaScript",
+      "stars": 1154,
+      "forks": 95,
+      "homepage": "https://github.com/qappleh/Interview",
+      "license": "",
+      "created_at": "2019-07-22T02:23:10Z",
+      "pushed_at": "2021-10-12T07:39:27Z",
+      "updated_at": "2026-10-15T17:41:24Z",
+      "open_issues": 407,
+      "summary": "Interview 是一个面向前端开发者的大前端每日一题练习仓库，由公众号「深圳湾码农」作者维护，主要使用 JavaScript。它通过每天更新一道面试题及前一天的参考答案，帮助开发者从基础到进阶、从原理到实战系统梳理前端知识体系，解决日常学习缺乏节奏和方向的问题。题目覆盖 HTML、CSS、JavaScript 等方向，既有 canvas 画五角星、重绘回流、flex 属性含义等基础题，也有 Vue 依赖收集、事件委托、闭包、防抖节流、数组扁平化去重、树形结构转换等进阶内容，部分题目来自美团、阿里、拼多多等公司面试场景。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:41:10+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 5,
+      "tags": [
+        "doc"
+      ],
+      "primary_tag": "doc",
+      "domains": [
+        "learning",
+        "web"
+      ],
+      "primary_domain": "learning"
+    },
+    {
+      "owner": "liyue201",
+      "name": "gostl",
+      "full_name": "liyue201/gostl",
+      "url": "https://github.com/liyue201/gostl",
+      "description": "Data structure and algorithm library for go, designed to provide functions similar to C++ STL",
+      "language": "Go",
+      "stars": 1144,
+      "forks": 116,
+      "homepage": "",
+      "license": "MIT",
+      "created_at": "2019-10-12T01:10:24Z",
+      "pushed_at": "2025-08-28T14:05:11Z",
+      "updated_at": "2026-10-24T03:47:39Z",
+      "open_issues": 5,
+      "summary": "GoSTL 是一个面向 Go 语言的数据结构与算法库，目标是提供类似 C++ STL 的功能，并结合 Go 语言特性做了扩展。它解决的是 Go 标准库在通用容器和算法方面相对精简的问题，为开发者提供更丰富的现成实现。核心能力包括 slice、array、vector、list、deque、queue、priority_queue、stack、rbtree、map、set、bitmap、bloom_filter、hamt、ketama、skiplist 等数据结构，以及 sort、stable_sort、binary_search、lower_bound、upper_bound、next_pe。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:39:58+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 4,
+      "tags": [
+        "library"
+      ],
+      "primary_tag": "library",
+      "domains": [
+        "systems"
+      ],
+      "primary_domain": "systems"
+    },
+    {
+      "owner": "auth0",
+      "name": "lock",
+      "full_name": "auth0/lock",
+      "url": "https://github.com/auth0/lock",
+      "description": "Auth0's signin solution",
+      "language": "JavaScript",
+      "stars": 1141,
+      "forks": 562,
+      "homepage": "https://auth0.com/docs/libraries/lock",
+      "license": "NOASSERTION",
+      "created_at": "2014-08-12T18:28:41Z",
+      "pushed_at": "2026-10-23T09:15:26Z",
+      "updated_at": "2026-10-23T06:45:37Z",
+      "open_issues": 2,
+      "summary": "Auth0 Lock 是 Auth0 官方提供的登录解决方案，使用 JavaScript 编写，从 v12 版本起基于 React 18 构建。它主要解决 Web 应用接入身份认证时的登录界面与流程问题，开发者无需自行实现登录表单和认证逻辑。核心能力包括提供可配置的登录组件，支持创建 Auth0Lock 或 Auth0LockPasswordless 实例，通过监听 authenticated 事件获取访问令牌，并调用 show 方法展示登录控件。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:41:10+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 5,
+      "tags": [
+        "library"
+      ],
+      "primary_tag": "library",
+      "domains": [
+        "security",
+        "web"
+      ],
+      "primary_domain": "security"
+    },
+    {
+      "owner": "viniciuschiele",
+      "name": "flask-apscheduler",
+      "full_name": "viniciuschiele/flask-apscheduler",
+      "url": "https://github.com/viniciuschiele/flask-apscheduler",
+      "description": "Adds APScheduler support to Flask",
+      "language": "Python",
+      "stars": 1136,
+      "forks": 178,
+      "homepage": "",
+      "license": "Apache-2.0",
+      "created_at": "2015-05-10T14:43:55Z",
+      "pushed_at": "2023-11-07T12:46:26Z",
+      "updated_at": "2026-08-20T20:54:28Z",
+      "open_issues": 26,
+      "summary": "Flask-APScheduler 是一个为 Flask 提供 APScheduler 支持的扩展，用 Python 编写，主要解决在 Flask 应用中集成定时任务调度的问题。它能够从 Flask 配置中加载调度器配置和作业定义，并允许指定调度器运行的主机名。该扩展还提供用于管理已调度作业的 REST API，并支持对该 API 进行身份验证，同时可与 Flask 蓝图集成。典型使用场景包括需要在 Flask 项目中按计划执行后台任务，例如定时数据处理或周期性作业，并通过 REST 接口动态管理这些作业。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:41:48+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 4,
+      "tags": [
+        "plugin",
+        "library"
+      ],
+      "primary_tag": "plugin",
+      "domains": [
+        "web",
+        "devops"
+      ],
+      "primary_domain": "web"
+    },
+    {
+      "owner": "nsupdate-info",
+      "name": "nsupdate.info",
+      "full_name": "nsupdate-info/nsupdate.info",
+      "url": "https://github.com/nsupdate-info/nsupdate.info",
+      "description": "Dynamic DNS service",
+      "language": "Python",
+      "stars": 1136,
+      "forks": 123,
+      "homepage": "https://nsupdateinfo.readthedocs.org/",
+      "license": "NOASSERTION",
+      "created_at": "2013-10-02T22:01:02Z",
+      "pushed_at": "2026-08-17T21:32:42Z",
+      "updated_at": "2026-10-23T09:24:51Z",
+      "open_issues": 38,
+      "summary": "nsupdate.info 是一个免费动态 DNS 服务，同时也是一套可自托管的 Python 软件，让你能在自己的服务器上搭建同类服务。它解决的是动态 IP 环境下域名解析自动更新的问题：前端支持路由器与客户端常用的 dyndns2 协议，后端则通过 RFC 2136 动态更新协议把记录写入 BIND、PowerDNS 等兼容域名服务器，也可选地将更新转发给可配置的第三方服务。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:41:48+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 4,
+      "tags": [
+        "app"
+      ],
+      "primary_tag": "app",
+      "domains": [
+        "networking"
+      ],
+      "primary_domain": "networking"
+    },
+    {
+      "owner": "ruanyf",
+      "name": "react-babel-webpack-boilerplate",
+      "full_name": "ruanyf/react-babel-webpack-boilerplate",
+      "url": "https://github.com/ruanyf/react-babel-webpack-boilerplate",
+      "description": "a boilerplate for React-Babel-Webpack project",
+      "language": "JavaScript",
+      "stars": 1132,
+      "forks": 285,
+      "homepage": "",
+      "license": "",
+      "created_at": "2015-11-26T09:28:27Z",
+      "pushed_at": "2018-05-08T05:21:01Z",
+      "updated_at": "2026-10-26T07:08:22Z",
+      "open_issues": 0,
+      "archived": true,
+      "summary": "react-babel-webpack-boilerplate 是一个用于 React-Babel-Webpack 项目的脚手架模板，可作为构建自有 Web 应用的基础起点。它整合了 React、ES6 与 Babel 6，使用 ESLint 配合 Airbnb 风格规范做代码检查，并通过 Webpack 完成构建，同时支持 Webpack 1 与 Webpack 2（master 分支对应 Webpack 1，Webpack 2 需切换到 webpack2 分支）。该模板支持热模块替换，在 Webpack 加载时自动打开浏览器标签页，并在代码修改后自动刷新页面。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:41:10+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 5,
+      "tags": [
+        "template"
+      ],
+      "primary_tag": "template",
+      "domains": [
+        "web",
+        "devtools"
+      ],
+      "primary_domain": "web"
+    },
+    {
+      "owner": "antonholmquist",
+      "name": "jason",
+      "full_name": "antonholmquist/jason",
+      "url": "https://github.com/antonholmquist/jason",
+      "description": "Easy-to-use JSON Library for Go",
+      "language": "Go",
+      "stars": 1130,
+      "forks": 63,
+      "homepage": "http://godoc.org/github.com/antonholmquist/jason",
+      "license": "MIT",
+      "created_at": "2014-12-02T08:20:41Z",
+      "pushed_at": "2019-02-13T01:16:29Z",
+      "updated_at": "2026-10-22T07:26:56Z",
+      "open_issues": 4,
+      "summary": "Jason 是一个用 Go 语言编写的轻量级 JSON 库，主要面向读取任意结构的 JSON 数据，同时保持对 JSON 语法严格性的校验。它解决了在 Go 中解析不确定结构 JSON 时类型断言繁琐的问题，提供了便捷的键路径访问方式。其核心能力包括：从字节或 io.Reader（如 HTTP 响应）创建对象，通过 GetValueArray、GetObjectArray、GetObject 等方法读取嵌套值和遍历数组或对象，并在路径无效或类型不匹配时返回默认值和错误。数据类型映射与 encoding/json 一致，支持 bool、json.",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:39:58+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 4,
+      "tags": [
+        "library"
+      ],
+      "primary_tag": "library",
+      "domains": [
+        "data"
+      ],
+      "primary_domain": "data"
+    },
+    {
+      "owner": "ncruces",
+      "name": "go-sqlite3",
+      "full_name": "ncruces/go-sqlite3",
+      "url": "https://github.com/ncruces/go-sqlite3",
+      "description": "Go bindings to SQLite using wasm2go",
+      "language": "Go",
+      "stars": 1130,
+      "forks": 37,
+      "homepage": "https://pkg.go.dev/github.com/ncruces/go-sqlite3",
+      "license": "MIT",
+      "created_at": "2023-01-11T14:54:42Z",
+      "pushed_at": "2026-10-24T08:56:55Z",
+      "updated_at": "2026-10-25T03:57:31Z",
+      "open_issues": 5,
+      "summary": "ncruces/go-sqlite3 是一个无需 cgo 的 Go 语言 SQLite 绑定库，它通过 wasm2go 将 SQLite 的 Wasm 构建版本翻译为 Go 代码，因此仅依赖 Go 标准库和 x/sys。它既提供兼容 database/sql 的驱动，也允许直接调用大部分 C SQLite API，并包含 VFS 封装与纯 Go 实现、GORM 驱动等包。其能力覆盖增量 BLOB 读写、嵌套事务、自定义函数、虚拟表、自定义 VFS、在线备份、JSON、数学与统计函数、Unicode、静态加密及多种扩展。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:39:58+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 4,
+      "tags": [
+        "library"
+      ],
+      "primary_tag": "library",
+      "domains": [
+        "data"
+      ],
+      "primary_domain": "data"
+    },
+    {
+      "owner": "zeldaret",
+      "name": "tww",
+      "full_name": "zeldaret/tww",
+      "url": "https://github.com/zeldaret/tww",
+      "description": "Decompilation of The Legend of Zelda: The Wind Waker",
+      "language": "C++",
+      "stars": 1130,
+      "forks": 174,
+      "homepage": "https://zeldaret.github.io/tww",
+      "license": "CC0-1.0",
+      "created_at": "2023-09-09T14:08:33Z",
+      "pushed_at": "2026-10-25T20:52:54Z",
+      "updated_at": "2026-10-26T00:31:39Z",
+      "open_issues": 102,
+      "summary": "zeldaret/tww 是《塞尔达传说：风之杖》GameCube 版本的进行中反编译项目，主要使用 C++ 编写。它通过将原始机器码还原为可读的 C++ 源码，帮助研究者理解游戏引擎与逻辑，仓库本身不包含任何游戏资源或汇编，使用者需自备游戏镜像。项目支持 GZLE01、GZLP01、GZLJ01 及 D44J01 等多个版本，依赖 Python、ninja 和 wibo 等工具构建，并可通过 objdiff 对比目标文件、借助共享 Ghidra 项目辅助分析。典型使用场景包括逆向工程学习、引擎代码研究以及为移植或修改打基础。",
+      "windows": [
+        "weekly"
+      ],
+      "added_at": "2026-10-09T11:23:13+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 8,
+      "tags": [
+        "app"
+      ],
+      "primary_tag": "app",
+      "domains": [
+        "graphics",
+        "systems"
+      ],
+      "primary_domain": "graphics"
+    },
+    {
+      "owner": "jupp0r",
+      "name": "prometheus-cpp",
+      "full_name": "jupp0r/prometheus-cpp",
+      "url": "https://github.com/jupp0r/prometheus-cpp",
+      "description": "Prometheus Client Library for Modern C++",
+      "language": "C++",
+      "stars": 1125,
+      "forks": 357,
+      "homepage": "",
+      "license": "NOASSERTION",
+      "created_at": "2016-08-30T09:18:37Z",
+      "pushed_at": "2026-09-26T16:50:50Z",
+      "updated_at": "2026-10-24T18:58:13Z",
+      "open_issues": 48,
+      "summary": "prometheus-cpp 是一个面向现代 C++ 的 Prometheus 客户端库，旨在为 C++ 服务引入指标驱动开发能力。它实现了 Prometheus 数据模型，提供了一套用于采集和暴露指标的抽象机制，使 C++ 服务能够被 Prometheus 抓取，同时支持通过插件扩展其他推拉式采集方式。使用该库需要 C++17 兼容的编译器，构建方式支持 CMake 和 Bazel，依赖 civetweb、googletest、benchmark、zlib、libcurl 等库，并可通过 vcpkg、Conan、系统包管理器或手动安装获取。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:42:03+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 4,
+      "tags": [
+        "library"
+      ],
+      "primary_tag": "library",
+      "domains": [
+        "devops"
+      ],
+      "primary_domain": "devops"
+    },
+    {
+      "owner": "riskers",
+      "name": "blog",
+      "full_name": "riskers/blog",
+      "url": "https://github.com/riskers/blog",
+      "description": ":pencil2: Blog",
+      "language": "",
+      "stars": 1124,
+      "forks": 92,
+      "homepage": "http://riskers.github.io/",
+      "license": "MIT",
+      "created_at": "2015-08-25T08:24:47Z",
+      "pushed_at": "2026-08-24T05:02:03Z",
+      "updated_at": "2026-10-13T08:27:56Z",
+      "open_issues": 51,
+      "summary": "riskers/blog 是一个以 GitHub Issues 为发布载体的个人技术博客，作者为“一波不是一波”，主要关注 React 技术栈、移动端与工程化方向。它的特点是把所有文章都放在 issues 中发布，读者无需额外搭建或访问独立站点，直接在仓库的 issue 列表里就能阅读和讨论。订阅方式也比较特别：点 star 只是表达喜欢，真正想收到更新提醒需要点击 Watch 并选择 Watching。作者明确请求不要 fork，并提供了招聘信息入口。版权方面允许非商业转载，但要求保持原文不变并注明作者与原始链接。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:42:17+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 4,
+      "tags": [
+        "doc"
+      ],
+      "primary_tag": "doc",
+      "domains": [
+        "learning"
+      ],
+      "primary_domain": "learning"
+    },
+    {
+      "owner": "node-inspector",
+      "name": "v8-profiler",
+      "full_name": "node-inspector/v8-profiler",
+      "url": "https://github.com/node-inspector/v8-profiler",
+      "description": "node bindings for the v8 profiler",
+      "language": "C++",
+      "stars": 1122,
+      "forks": 129,
+      "homepage": "",
+      "license": "BSD-2-Clause",
+      "created_at": "2010-12-01T07:06:05Z",
+      "pushed_at": "2018-08-21T03:59:08Z",
+      "updated_at": "2026-10-19T20:18:30Z",
+      "open_issues": 39,
+      "summary": "v8-profiler 是为 V8 引擎性能分析器提供 Node.js 绑定的 C++ 扩展，并与 node-inspector 集成，让开发者能在 Node 环境中直接进行 CPU 与堆内存分析。它解决了在 Node 应用里采集和分析运行时性能数据的问题，核心能力包括：通过 takeSnapshot 生成堆快照，支持快照的头部信息获取、对比、删除、导出与序列化；通过 startProfiling 和 stopProfiling 采集 CPU 性能分析数据，可设置采样间隔，并支持导出为与 JSON.",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:42:03+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 4,
+      "tags": [
+        "library"
+      ],
+      "primary_tag": "library",
+      "domains": [
+        "devtools",
+        "systems"
+      ],
+      "primary_domain": "devtools"
+    },
+    {
+      "owner": "atlassian",
+      "name": "atlassian-mcp-server",
+      "full_name": "atlassian/atlassian-mcp-server",
+      "url": "https://github.com/atlassian/atlassian-mcp-server",
+      "description": "Official remote MCP server for Atlassian. Securely connect Jira, Confluence, Jira Service Management, Bitbucket, and Compass to Claude, ChatGPT, Cursor, VS Code, and other AI tools using OAuth 2.1 or API tokens.",
+      "language": "JavaScript",
+      "stars": 1121,
+      "forks": 143,
+      "homepage": "https://atlassian.com/platform/rovo-mcp",
+      "license": "Apache-2.0",
+      "created_at": "2025-08-01T22:31:35Z",
+      "pushed_at": "2026-10-22T18:17:58Z",
+      "updated_at": "2026-10-24T18:16:10Z",
+      "open_issues": 91,
+      "summary": "Atlassian MCP Server 是 Atlassian 官方推出的云端 Model Context Protocol 服务器，用于在 Atlassian Cloud 站点与兼容的 AI 工具之间建立安全连接。它解决的是用户在不同工具间频繁切换、复制粘贴数据的问题，让 AI 能实时访问 Jira、Confluence、Jira Service Management、Bitbucket、Compass、Loom 及 Teamwork Graph 等平台数据。认证采用 OAuth 2.1 或 API 令牌，所有操作遵循用户既有的访问权限控制。",
+      "last_seen": "2026-10-26",
+      "seen_count": 8,
+      "added_at": "2026-10-09T10:50:04+00:00",
+      "windows": [
+        "daily"
+      ],
+      "tags": [
+        "app",
+        "plugin"
+      ],
+      "primary_tag": "app",
+      "domains": [
+        "ai",
+        "productivity"
+      ],
+      "primary_domain": "ai"
+    },
+    {
+      "owner": "uclouvain",
+      "name": "openjpeg",
+      "full_name": "uclouvain/openjpeg",
+      "url": "https://github.com/uclouvain/openjpeg",
+      "description": "Official repository of the OpenJPEG project",
+      "language": "C",
+      "stars": 1120,
+      "forks": 532,
+      "homepage": "",
+      "license": "NOASSERTION",
+      "created_at": "2015-02-15T15:04:29Z",
+      "pushed_at": "2026-09-05T12:48:59Z",
+      "updated_at": "2026-10-26T01:51:02Z",
+      "open_issues": 345,
+      "summary": "OpenJPEG 是一个用 C 语言编写的开源 JPEG 2000 编解码器，由比利时鲁汶大学图像与信号处理小组开发维护，自 2015 年起被 ISO/IEC 和 ITU-T 认定为 JPEG 2000 参考软件。它旨在推动 JPEG 2000 这一静态图像压缩标准的使用，提供编解码库及配套应用，支持远程浏览 JPEG 2000 图像的客户端-服务器架构。代码库包含 openjp2 库、jp2 基础编解码器、JPIP 服务端与 Java 客户端查看器、基于 wxWidget 的图形查看器，以及供 Java 程序调用的 JNI 封装。该库本身不依赖第三方组件，可在系统缺少相关库时按需构建。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:40:48+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 2,
+      "tags": [
+        "library"
+      ],
+      "primary_tag": "library",
+      "domains": [
+        "media"
+      ],
+      "primary_domain": "media"
+    },
+    {
+      "owner": "jawil",
+      "name": "GayHub",
+      "full_name": "jawil/GayHub",
+      "url": "https://github.com/jawil/GayHub",
+      "description": "An awesome chrome extension for github :octocat:",
+      "language": "JavaScript",
+      "stars": 1118,
+      "forks": 98,
+      "homepage": "",
+      "license": "MIT",
+      "created_at": "2017-08-25T12:18:06Z",
+      "pushed_at": "2023-09-21T06:27:13Z",
+      "updated_at": "2026-10-22T14:08:48Z",
+      "open_issues": 38,
+      "summary": "GayHub 是一款基于 JavaScript 开发的 Chrome 扩展，用于优化 GitHub 网页端的阅读体验。它主要解决 GitHub 原生界面在浏览大型仓库时文件切换不便、长文档结构不清晰、夜间阅读刺眼、图片查看跳转繁琐以及代码复制步骤冗长等问题。核心功能包括：将类似 Vscode 的侧边栏文件目录树移植到 GitHub，支持 Pjax 无刷新切换文件并配有大量图标；为文档、issue 和 wiki 提供支持任意嵌套层次的 TOC 导航；可选的夜间暗色主题；点击图片全屏预览；以及一键复制代码。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:41:10+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 5,
+      "tags": [
+        "plugin"
+      ],
+      "primary_tag": "plugin",
+      "domains": [
+        "devtools"
+      ],
+      "primary_domain": "devtools"
+    },
+    {
+      "owner": "GLinnik21",
+      "name": "plx-native",
+      "full_name": "GLinnik21/plx-native",
+      "url": "https://github.com/GLinnik21/plx-native",
+      "description": "Fast, unofficial Plex client for LG webOS TVs — native 60 fps UI, 4K HEVC/Dolby Vision, no Chromium or WebView.",
+      "language": "Rust",
+      "stars": 1115,
+      "forks": 122,
+      "homepage": "http://plxnative.com/",
+      "license": "GPL-3.0",
+      "created_at": "2026-07-03T17:54:15Z",
+      "pushed_at": "2026-10-26T08:00:22Z",
+      "updated_at": "2026-10-26T08:04:30Z",
+      "open_issues": 31,
+      "summary": "PlxNative 是一款面向 LG webOS 电视的非官方 Plex 客户端，用 Rust 编写，界面直接由 GPU 绘制，不依赖 Chromium 或 WebView。它要解决的是官方 Plex 应用在旧款 LG 电视上卡顿的问题——滚动、打开海报都像在跑网页，因为那确实是个网页应用。PlxNative 把浏览器整个去掉，视频交给电视自带的解码器，支持 H.264 和 HEVC 直连播放，涵盖 4K、10 位、杜比视界 5 和 8、E-AC-3 Atmos，以及电视解码器列表支持的 AV1 和 8 位 VP9，其余格式由服务器转码。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-10T22:24:22+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 2,
+      "tags": [
+        "app"
+      ],
+      "primary_tag": "app",
+      "domains": [
+        "media"
+      ],
+      "primary_domain": "media"
+    },
+    {
+      "owner": "mongodb",
+      "name": "mongo-cxx-driver",
+      "full_name": "mongodb/mongo-cxx-driver",
+      "url": "https://github.com/mongodb/mongo-cxx-driver",
+      "description": "C++ Driver for MongoDB",
+      "language": "C++",
+      "stars": 1107,
+      "forks": 554,
+      "homepage": "https://www.mongodb.com/docs/drivers/cxx/",
+      "license": "Apache-2.0",
+      "created_at": "2014-01-13T21:08:36Z",
+      "pushed_at": "2026-10-22T20:27:46Z",
+      "updated_at": "2026-10-22T20:27:55Z",
+      "open_issues": 0,
+      "summary": "MongoDB C++ Driver 是 MongoDB 官方提供的 C++ 客户端库，用于在 C++ 应用中连接和操作 MongoDB 数据库。它解决的是 C++ 程序缺乏官方原生驱动、难以直接与 MongoDB 交互的问题。该驱动遵循语义化版本控制，稳定分支对应官方推荐用于生产环境的版本，新用户可据此获取最新稳定版。其核心能力包括对 MongoDB 服务器的兼容支持，具体版本对应关系可查阅 MongoDB 手册；相关缺陷修复会在新主版本发布后一年内从当前主版本回溯移植到上一主版本。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:42:03+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 4,
+      "tags": [
+        "library"
+      ],
+      "primary_tag": "library",
+      "domains": [
+        "data"
+      ],
+      "primary_domain": "data"
+    },
+    {
+      "owner": "eolix",
+      "name": "photosuite",
+      "full_name": "eolix/photosuite",
+      "url": "https://github.com/eolix/photosuite",
+      "description": "A desktop image editor, faithful to classic Adobe Photoshop, with native PSD/PSB compatibility",
+      "language": "Rust",
+      "stars": 1099,
+      "forks": 48,
+      "homepage": "https://photosuite.app",
+      "license": "Apache-2.0",
+      "created_at": "2026-04-24T18:56:59Z",
+      "pushed_at": "2026-10-12T15:35:25Z",
+      "updated_at": "2026-10-13T00:46:16Z",
+      "open_issues": 12,
+      "summary": "PhotoSuite 是一款用 Rust 编写的桌面图像编辑器，目标是忠实复刻经典版 Adobe Photoshop 的界面与操作逻辑，并原生支持 PSD/PSB 格式。它解决的是设计师在无 Adobe 授权情况下仍需编辑 PSD 文件的问题：PSD 是原生格式而非有损导入，图层记录、蒙版、混合模式、图层样式、智能滤镜、文本与矢量路径等可双向往返，在 Photoshop 中打开图层树保持完整。它基于开源引擎 PhotoCraft 构建，界面采用 egui 与 wgpu，支持 Metal、Vulkan、DirectX 12 及 CPU 回退，不使用 Electron 或网页视图。",
+      "windows": [
+        "weekly"
+      ],
+      "added_at": "2026-10-09T11:01:04+00:00",
+      "last_seen": "2026-10-10",
+      "seen_count": 9,
+      "tags": [
+        "app"
+      ],
+      "primary_tag": "app",
+      "domains": [
+        "media",
+        "graphics"
+      ],
+      "primary_domain": "media"
+    },
+    {
+      "owner": "mtrpcic",
+      "name": "pathjs",
+      "full_name": "mtrpcic/pathjs",
+      "url": "https://github.com/mtrpcic/pathjs",
+      "description": "Simple, lightweight routing for web browsers",
+      "language": "JavaScript",
+      "stars": 1096,
+      "forks": 175,
+      "homepage": "",
+      "license": "",
+      "created_at": "2011-02-10T02:05:17Z",
+      "pushed_at": "2017-02-26T13:56:11Z",
+      "updated_at": "2026-10-22T07:28:16Z",
+      "open_issues": 47,
+      "summary": "PathJS 是一个轻量级的浏览器端路由库，用于构建单页应用，支持 Hashbang 和 HTML5 pushState 两种方式。它解决的是在不刷新页面的前提下根据 URL 变化切换视图的问题，并能在不支持 History API 的浏览器中优雅降级，兼容 onhashchange 方法。核心能力包括根路由、救援方法、参数化路由、可选路由组件（动态路由）以及面向切面编程，且不依赖任何第三方库。典型用法是通过 Path.map 将路径映射到回调函数，配合 enter 钩子执行 DOM 过渡，再用 Path.root 设置默认路由并调用 Path.listen 启动监听。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:41:10+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 5,
+      "tags": [
+        "library"
+      ],
+      "primary_tag": "library",
+      "domains": [
+        "web"
+      ],
+      "primary_domain": "web"
+    },
+    {
+      "owner": "bodil",
+      "name": "eslint-config-cleanjs",
+      "full_name": "bodil/eslint-config-cleanjs",
+      "url": "https://github.com/bodil/eslint-config-cleanjs",
+      "description": "An eslint config which reduces JS to a pure functional language",
+      "language": "JavaScript",
+      "stars": 1094,
+      "forks": 16,
+      "homepage": "",
+      "license": "",
+      "created_at": "2016-08-23T18:29:58Z",
+      "pushed_at": "2018-06-22T12:58:09Z",
+      "updated_at": "2026-09-30T15:29:27Z",
+      "open_issues": 8,
+      "archived": true,
+      "summary": "eslint-config-cleanjs 是一套 ESLint 配置，目标是把 JavaScript 限制在一个接近理想化纯函数式语言的子集内。它试图剔除 JS 中公认的“坏部分”，只保留更少设计缺陷的写法，适用于 ES6 及以上版本，并借助 ES7 对象展开提案。其核心规则包括：禁用 this 和 class，禁用 null 与 undefined（意味着所有函数都必须有返回值），禁止任何形式的可变操作和变量重新赋值，只允许表达式而不允许语句（连 if 都不行），并且只使用 ES6 模块而非 CommonJS 或 AMD。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:41:10+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 5,
+      "tags": [
+        "config",
+        "tool"
+      ],
+      "primary_tag": "config",
+      "domains": [
+        "devtools"
+      ],
+      "primary_domain": "devtools"
+    },
+    {
+      "owner": "xlab",
+      "name": "android-go",
+      "full_name": "xlab/android-go",
+      "url": "https://github.com/xlab/android-go",
+      "description": "The android-go project provides a platform for writing native Android apps in Go programming language.",
+      "language": "Go",
+      "stars": 1090,
+      "forks": 82,
+      "homepage": "https://developer.android.com/ndk/index.html",
+      "license": "MIT",
+      "created_at": "2016-05-17T01:51:35Z",
+      "pushed_at": "2022-11-06T20:40:36Z",
+      "updated_at": "2026-10-20T15:38:30Z",
+      "open_issues": 15,
+      "summary": "android-go 是一个用 Go 语言编写原生 Android 应用的 SDK，与 gomobile 的设计思路不同，它更强调低耦合和灵活性。项目提供 android 包对 NDK API 的 Go 绑定，并支持 JNI 调用机制，可直接与 Java VM 交互，从而调用 Android SDK 的完整能力。app 包实现了 NativeActivity 的胶水层，用于处理启动流程和活动事件。此外还包含 egl、gles、gles2、gles3、gles31 等图形 API 绑定，覆盖 OpenGL ES 1 到 3.1，并支持计算 API。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:39:58+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 4,
+      "tags": [
+        "framework",
+        "library"
+      ],
+      "primary_tag": "framework",
+      "domains": [
+        "mobile"
+      ],
+      "primary_domain": "mobile"
+    },
+    {
+      "owner": "Shougo",
+      "name": "vimproc.vim",
+      "full_name": "Shougo/vimproc.vim",
+      "url": "https://github.com/Shougo/vimproc.vim",
+      "description": "Interactive command execution in Vim.",
+      "language": "Vim Script",
+      "stars": 1079,
+      "forks": 126,
+      "homepage": "",
+      "license": "",
+      "created_at": "2009-06-08T07:45:27Z",
+      "pushed_at": "2024-09-04T00:35:39Z",
+      "updated_at": "2026-10-23T18:50:32Z",
+      "open_issues": 4,
+      "summary": "vimproc.vim 是一个为 Vim 提供异步执行能力的库，源自 proc.vim 的分支，主要用 Vim Script 编写，并通过外部动态链接库而非系统 shell 来执行命令。它解决的是 Vim 中运行外部命令时阻塞编辑器的问题，让交互式命令可以异步执行。支持的平台包括 Windows 32/64 位、macOS 10.5 以上、Linux、Cygwin、Solaris、BSD 以及实验性的 Android。使用时需先克隆仓库并编译原生扩展，再把 autoload、lib 和 plugin 目录放入 runtimepath；若配合 dein.",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:42:17+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 4,
+      "tags": [
+        "plugin"
+      ],
+      "primary_tag": "plugin",
+      "domains": [
+        "devtools"
+      ],
+      "primary_domain": "devtools"
+    },
+    {
+      "owner": "tj",
+      "name": "mon",
+      "full_name": "tj/mon",
+      "url": "https://github.com/tj/mon",
+      "description": "mon(1) - Simple single-process process monitoring program written in C",
+      "language": "C",
+      "stars": 1077,
+      "forks": 97,
+      "homepage": "",
+      "license": "",
+      "created_at": "2012-04-11T22:01:06Z",
+      "pushed_at": "2016-09-07T15:22:47Z",
+      "updated_at": "2026-10-24T17:03:41Z",
+      "open_issues": 14,
+      "summary": "mon 是一个用 C 编写的单进程监控程序，针对 monit 等工具配置复杂、DSL 晦涩的问题而设计。它内存占用不到 400kb，配置方式就是普通 shell 脚本，无需学习额外语法。核心用法是让 mon 保持某个命令持续运行，可通过 -d 参数转为守护进程并脱离终端。当被监控程序反复退出时，mon 会在 60 秒内持续尝试重启，超过 --attempts 上限后停止，期间每次重启执行 --on-restart 脚本，最终放弃前执行 --on-error 脚本，进程 ID 会作为参数传入这两个脚本。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:40:48+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 2,
+      "tags": [
+        "tool"
+      ],
+      "primary_tag": "tool",
+      "domains": [
+        "devops"
+      ],
+      "primary_domain": "devops"
+    },
+    {
+      "owner": "safijari",
+      "name": "openpuck",
+      "full_name": "safijari/openpuck",
+      "url": "https://github.com/safijari/openpuck",
+      "description": "Opensource firmware for NRF52840 Pro Micro that copycats the Steam Controller 2 Puck and adds an Xbox and Switch mode",
+      "language": "C++",
+      "stars": 1075,
+      "forks": 92,
+      "homepage": "https://safijari.github.io/openpuck/",
+      "license": "AGPL-3.0",
+      "created_at": "2026-06-06T05:45:07Z",
+      "pushed_at": "2026-10-14T02:33:43Z",
+      "updated_at": "2026-10-25T15:32:56Z",
+      "open_issues": 58,
+      "summary": "OpenPuck 是面向 NRF52840 Pro Micro 的开源固件，用 C++ 编写，模仿 Steam Controller 2 的 Puck 无线接收器。它针对两个现实问题：Puck 不单独售卖，且手柄依赖 Steam Input，离开 Steam 基本无法使用。刷入固件后，设备默认以 Puck 身份通过 USB 与 Steam 通信，可正常配对，延迟接近官方 Puck。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-11T22:25:23+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 4,
+      "tags": [
+        "app"
+      ],
+      "primary_tag": "app",
+      "domains": [
+        "embedded"
+      ],
+      "primary_domain": "embedded"
+    },
+    {
+      "owner": "trzsz",
+      "name": "trzsz-go",
+      "full_name": "trzsz/trzsz-go",
+      "url": "https://github.com/trzsz/trzsz-go",
+      "description": "trzsz-go is the go version of trzsz, makes all terminals that support local shell to support trzsz ( trz / tsz ).",
+      "language": "Go",
+      "stars": 1069,
+      "forks": 58,
+      "homepage": "https://trzsz.github.io/go",
+      "license": "MIT",
+      "created_at": "2022-02-12T06:15:31Z",
+      "pushed_at": "2026-10-24T07:52:18Z",
+      "updated_at": "2026-10-25T09:54:04Z",
+      "open_issues": 2,
+      "summary": "trzsz-go 是 trzsz 的 Go 语言实现，用于让支持本地 shell 的终端获得原生的 trzsz（trz / tsz）文件传输能力，也可嵌入到 Go 编写的终端应用中。它解决的是传统终端在本地 shell 场景下缺少便捷文件上传下载支持的问题：在本地可用 trzsz 前缀启动 shell，或用 trzsz --dragfile 配合 ssh 实现拖拽上传；在跳板机上可通过 trzsz --relay ssh 登录远程服务器；在远程服务器上则像 lrzsz 一样用 trz 上传、tsz 下载。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:39:58+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 4,
+      "tags": [
+        "tool"
+      ],
+      "primary_tag": "tool",
+      "domains": [
+        "systems",
+        "networking"
+      ],
+      "primary_domain": "systems"
+    },
+    {
+      "owner": "caicloud",
+      "name": "cyclone",
+      "full_name": "caicloud/cyclone",
+      "url": "https://github.com/caicloud/cyclone",
+      "description": "Powerful workflow engine and end-to-end pipeline solutions implemented with native Kubernetes resources. https://cyclone.dev",
+      "language": "Go",
+      "stars": 1064,
+      "forks": 170,
+      "homepage": "",
+      "license": "Apache-2.0",
+      "created_at": "2016-10-17T04:19:35Z",
+      "pushed_at": "2023-10-24T12:08:27Z",
+      "updated_at": "2026-10-02T17:16:05Z",
+      "open_issues": 17,
+      "summary": "Cyclone 是一个用 Go 语言实现、基于 Kubernetes 原生资源构建的工作流引擎与端到端流水线方案，无需额外依赖，可运行在公有云、本地或混合云等任意 Kubernetes 环境中。它通过低层、与应用无关的工作流引擎提供 DAG 调度、资源生命周期管理以及可插拔的扩展框架，并在其上内置了 CI/CD 流水线和 AI DevOps 等高层能力。其特点包括阶段参数化、外部系统集成、cron 与 webhook 触发、执行暂停恢复重试取消、多集群与多租户支持、执行后资源自动回收、独立持久化日志，以及将复杂阶段委托给外部系统执行。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:39:58+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 4,
+      "tags": [
+        "app",
+        "framework"
+      ],
+      "primary_tag": "app",
+      "domains": [
+        "devops"
+      ],
+      "primary_domain": "devops"
+    },
+    {
+      "owner": "RedisTimeSeries",
+      "name": "RedisTimeSeries",
+      "full_name": "RedisTimeSeries/RedisTimeSeries",
+      "url": "https://github.com/RedisTimeSeries/RedisTimeSeries",
+      "description": "Time Series data structure for Redis",
+      "language": "Python",
+      "stars": 1063,
+      "forks": 147,
+      "homepage": "https://redis.io/docs/stack/timeseries/",
+      "license": "NOASSERTION",
+      "created_at": "2018-01-08T09:55:32Z",
+      "pushed_at": "2026-10-26T08:03:35Z",
+      "updated_at": "2026-10-22T07:49:24Z",
+      "open_issues": 108,
+      "summary": "RedisTimeSeries 是 Redis 的时间序列数据结构模块，自 Redis 8 起已内置，无需单独安装。它用单个 Redis 键管理多条时间序列，每条序列由毫秒级时间戳与 64 位浮点值组成的原始样本构成，支持乱序写入、重复时间戳的多种处理策略，以及可配置的保留期，超期样本会自动丢弃。每条序列还可附加名称-值对形式的标签，便于按标签跨序列查询，例如聚合同一房间或同一类型传感器的数据。它支持按起止时间查询、任意时间桶的聚合计算（最小值、最大值、平均值、求和、计数、方差等），并可通过压缩规则以较低成本长期保留历史数据，如每 10 分钟求平均并保留 10 年。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:41:48+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 4,
+      "tags": [
+        "plugin",
+        "library"
+      ],
+      "primary_tag": "plugin",
+      "domains": [
+        "data"
+      ],
+      "primary_domain": "data"
+    },
+    {
+      "owner": "aws-actions",
+      "name": "amazon-ecr-login",
+      "full_name": "aws-actions/amazon-ecr-login",
+      "url": "https://github.com/aws-actions/amazon-ecr-login",
+      "description": "Logs into Amazon ECR with the local Docker client.",
+      "language": "JavaScript",
+      "stars": 1062,
+      "forks": 215,
+      "homepage": "",
+      "license": "MIT",
+      "created_at": "2019-11-08T04:58:26Z",
+      "pushed_at": "2026-10-21T00:07:25Z",
+      "updated_at": "2026-10-21T00:02:03Z",
+      "open_issues": 32,
+      "summary": "aws-actions/amazon-ecr-login 是一个用 JavaScript 编写的 GitHub Action，用于将本地 Docker 客户端登录到一个或多个 Amazon ECR 私有注册表或 ECR 公有注册表。它解决的是在 GitHub Actions 工作流中访问 ECR 镜像仓库时的身份认证问题，借助 AWS SDK 的默认行为获取凭证和区域，通常配合 aws-actions/configure-aws-credentials 使用 OIDC 配置 IAM 角色。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:41:10+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 5,
+      "tags": [
+        "plugin"
+      ],
+      "primary_tag": "plugin",
+      "domains": [
+        "devops"
+      ],
+      "primary_domain": "devops"
+    },
+    {
+      "owner": "microsoft",
+      "name": "power-platform-skills",
+      "full_name": "microsoft/power-platform-skills",
+      "url": "https://github.com/microsoft/power-platform-skills",
+      "description": "A plugin marketplace for GitHub Copilot and other AI agents that provides Power Platform development plugins, including reusable skills, agents, and commands for building and deploying solutions.",
+      "language": "JavaScript",
+      "stars": 1062,
+      "forks": 212,
+      "homepage": "https://aka.ms/ppskills",
+      "license": "MIT",
+      "created_at": "2026-01-21T18:25:14Z",
+      "pushed_at": "2026-10-26T06:32:47Z",
+      "updated_at": "2026-10-26T06:32:52Z",
+      "open_issues": 131,
+      "summary": "微软开源的 Power Platform Skills 是一个面向 GitHub Copilot 与 Claude Code 的插件市场，为 Power Platform 开发提供可复用的技能、代理和命令。它解决的是开发者在使用 AI 助手构建和部署 Power Platform 方案时缺乏专用工具链的问题。仓库以 JavaScript 编写，包含 Power Pages、模型驱动应用、MCP 应用、代码应用、移动应用、画布应用、Power Automate、流程智能等插件，Dataverse 插件则由独立仓库维护。安装脚本会自动安装 pac CLI、识别可用工具、注册市场并启用自动更新。",
+      "last_seen": "2026-10-26",
+      "seen_count": 16,
+      "added_at": "2026-10-09T10:50:04+00:00",
+      "windows": [
+        "daily"
+      ],
+      "tags": [
+        "plugin",
+        "library",
+        "template"
+      ],
+      "primary_tag": "plugin",
+      "domains": [
+        "devtools",
+        "ai",
+        "productivity"
+      ],
+      "primary_domain": "devtools"
+    },
+    {
+      "owner": "atemerev",
+      "name": "skynet",
+      "full_name": "atemerev/skynet",
+      "url": "https://github.com/atemerev/skynet",
+      "description": "Skynet 1M threads microbenchmark",
+      "language": "C#",
+      "stars": 1062,
+      "forks": 119,
+      "homepage": "",
+      "license": "MIT",
+      "created_at": "2016-02-14T13:59:19Z",
+      "pushed_at": "2023-11-10T14:53:36Z",
+      "updated_at": "2026-10-12T18:12:22Z",
+      "open_issues": 23,
+      "summary": "Skynet 1M threads microbenchmark 是一个用于衡量不同编程语言并发模型性能的微基准测试项目，主要用 C# 编写。它通过创建一棵深度为六层的树形结构来模拟高并发场景：根 actor 生成 10 个子 actor，每个子 actor 再生成 10 个，直到最终层达到一百万个 actor，随后各层将子节点返回的序号逐级求和，最终根节点应得到 499999500000。该项目解决的问题是横向对比 actor、协程/纤程/通道、Future/Promise 等并发抽象在百万级并发下的实际开销。仓库包含 Scala/Akka、Go、Erlang、Haskell、.",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:42:17+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 4,
+      "tags": [
+        "example"
+      ],
+      "primary_tag": "example",
+      "domains": [
+        "systems"
+      ],
+      "primary_domain": "systems"
+    },
+    {
+      "owner": "OffensivePython",
+      "name": "Saddam",
+      "full_name": "OffensivePython/Saddam",
+      "url": "https://github.com/OffensivePython/Saddam",
+      "description": "DDoS Amplification Tool",
+      "language": "Python",
+      "stars": 1059,
+      "forks": 347,
+      "homepage": "",
+      "license": "Apache-2.0",
+      "created_at": "2015-02-23T12:15:01Z",
+      "pushed_at": "2026-10-20T09:57:21Z",
+      "updated_at": "2026-10-25T11:40:48Z",
+      "open_issues": 21,
+      "summary": "Saddam 是一个用 Python 编写的 DDoS 放大攻击工具，主要面向需要验证网络放大攻击原理的安全研究人员。它通过滥用 DNS、NTP、SNMP 和 SSDP 四类基于 UDP 的协议，将小体积请求放大为对目标的大流量响应，从而解决攻击者直接发起流量攻击时带宽不足的问题。核心能力在于支持四种放大向量：DNS 放大、NTP 放大、SNMP 放大和 SSDP 放大，用户可依据目标环境选择合适协议。该工具依赖支持原始套接字的操作系统，运行于 Python 2.7 环境，并需要安装 Pinject 库。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:41:48+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 4,
+      "tags": [
+        "tool"
+      ],
+      "primary_tag": "tool",
+      "domains": [
+        "security",
+        "networking"
+      ],
+      "primary_domain": "security"
+    },
+    {
+      "owner": "devlive-community",
+      "name": "metaforge",
+      "full_name": "devlive-community/metaforge",
+      "url": "https://github.com/devlive-community/metaforge",
+      "description": "DataCap is integrated software for data transformation, integration, and visualization. Support a variety of data sources, file types, big data related database, relational database, NoSQL database, etc. Through the software can realize the management of multiple data sources, the data under the source of various operations conversion ...",
+      "language": "Java",
+      "stars": 1057,
+      "forks": 136,
+      "homepage": "https://datacap.devlive.org/",
+      "license": "Apache-2.0",
+      "created_at": "2022-09-17T06:24:42Z",
+      "pushed_at": "2026-09-21T12:12:28Z",
+      "updated_at": "2026-10-22T06:56:54Z",
+      "open_issues": 25,
+      "summary": "DataCap 是一款用 Java 编写的开源数据集成软件，面向数据转换、集成与可视化场景。它支持多种数据源，包括文件类型、大数据相关数据库、关系型数据库和 NoSQL 数据库，能够对多个数据源进行统一管理，并在数据源之上完成各类操作转换、生成数据图表以及监控数据源。其连接器可对接任何支持 SQL 的数据存储或数据引擎，例如 ClickHouse、MySQL、Presto 等主流数据库方案。用户克隆代码到本地后需按文档执行相应命令完成初始化。典型使用场景包括跨库数据查询与整合、数据可视化分析以及数据源运行状态监控，适合需要同时处理异构数据源并做进一步转换与展示的开发或数据人员。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:41:05+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 4,
+      "tags": [
+        "app"
+      ],
+      "primary_tag": "app",
+      "domains": [
+        "data"
+      ],
+      "primary_domain": "data"
+    },
+    {
+      "owner": "hypriot",
+      "name": "image-builder-rpi",
+      "full_name": "hypriot/image-builder-rpi",
+      "url": "https://github.com/hypriot/image-builder-rpi",
+      "description": "SD card image for Raspberry Pi with Docker: HypriotOS",
+      "language": "Ruby",
+      "stars": 1055,
+      "forks": 161,
+      "homepage": "http://blog.hypriot.com/post/how-to-get-docker-working-on-your-favourite-arm-board-with-hypriotos/",
+      "license": "MIT",
+      "created_at": "2016-01-07T18:06:13Z",
+      "pushed_at": "2022-02-18T20:23:48Z",
+      "updated_at": "2026-10-24T08:29:42Z",
+      "open_issues": 45,
+      "archived": true,
+      "summary": "image-builder-rpi 用于为树莓派 1、2、3、4 和 Zero 构建带有 Docker 的 HypriotOS SD 卡镜像，解决的是在树莓派上快速获得预装 Docker 工具链的系统镜像的问题。它从 os-rootfs 取根文件系统、从 image-builder-raw 取含两个分区的空白原始文件系统，加入 Hypriot 的 Debian 软件源，并从 rpi-kernel 安装树莓派内核，同时安装 Docker Engine、Docker Compose 和 Docker Machine。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:42:17+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 4,
+      "tags": [
+        "config",
+        "tool"
+      ],
+      "primary_tag": "config",
+      "domains": [
+        "devops",
+        "embedded"
+      ],
+      "primary_domain": "devops"
+    },
+    {
+      "owner": "olyble",
+      "name": "callPhoneBoom",
+      "full_name": "olyble/callPhoneBoom",
+      "url": "https://github.com/olyble/callPhoneBoom",
+      "description": "最新可用！！！夺命百连呼、电话轰炸、电话攻击(电话轰炸、可代替短信轰炸)、留言攻击工具",
+      "language": "Python",
+      "stars": 1054,
+      "forks": 140,
+      "homepage": "",
+      "license": "MIT",
+      "created_at": "2023-01-22T15:50:51Z",
+      "pushed_at": "2024-04-05T16:01:34Z",
+      "updated_at": "2026-10-25T15:20:24Z",
+      "open_issues": 39,
+      "summary": "callPhoneBoom 是一个用 Python 编写的电话攻击工具，思路是先爬取使用「莆田系医院」营销组件的企业网址，再通过程序模拟浏览，把这些企业的联系方式暴露给攻击信息，从而形成电话轰炸效果。它主要解决批量骚扰目标电话的问题，核心能力包括爬取企业网址、模拟浏览器访问、批量触发呼叫，并支持通过 catchad 脚本本地扩充 api.txt 中的地址来增加覆盖范围。使用上需要安装 Selenium 及对应浏览器驱动，在 main.py 中填入目标手机号，或改用已合并到 main2 的 DrissionPage 方案，通过 set.py 配置环境即可运行。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:41:48+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 4,
+      "tags": [
+        "app",
+        "tool"
+      ],
+      "primary_tag": "app",
+      "domains": [
+        "security",
+        "networking"
+      ],
+      "primary_domain": "security"
+    },
+    {
+      "owner": "MojoLauncher",
+      "name": "MojoLauncher",
+      "full_name": "MojoLauncher/MojoLauncher",
+      "url": "https://github.com/MojoLauncher/MojoLauncher",
+      "description": "A Minecraft: Java Edition launcher, based on PojavLauncher",
+      "language": "Java",
+      "stars": 1051,
+      "forks": 493,
+      "homepage": "",
+      "license": "LGPL-3.0",
+      "created_at": "2025-03-19T14:50:52Z",
+      "pushed_at": "2026-10-26T06:31:17Z",
+      "updated_at": "2026-10-26T06:31:24Z",
+      "open_issues": 169,
+      "summary": "MojoLauncher 是一款基于 PojavLauncher 的 Minecraft Java 版安卓启动器，用 Java 编写，目标是让安卓设备也能运行几乎全部 Minecraft 版本，从 rd-132211 到 26.x 快照（含战斗测试版）。它支持通过 Forge、Fabric 安装模组加载器，也能用 .jar 安装器装 OptiFine 等模组，并可直接导入 mrpack 或 CurseForge 整合包。启动器已实现实例系统、开箱即用的 1.21.5 支持，并正在推进 LTW 渲染改进、模组管理工具、MMC 实例导入和 Vintage Story 支持等路线图项目。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-11T22:24:42+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 5,
+      "tags": [
+        "app"
+      ],
+      "primary_tag": "app",
+      "domains": [
+        "graphics"
+      ],
+      "primary_domain": "graphics"
+    },
+    {
+      "owner": "blang",
+      "name": "semver",
+      "full_name": "blang/semver",
+      "url": "https://github.com/blang/semver",
+      "description": "Semantic Versioning (semver) library written in golang",
+      "language": "Go",
+      "stars": 1044,
+      "forks": 104,
+      "homepage": "",
+      "license": "MIT",
+      "created_at": "2014-07-01T20:08:15Z",
+      "pushed_at": "2023-01-15T12:58:59Z",
+      "updated_at": "2026-10-16T12:22:44Z",
+      "open_issues": 13,
+      "summary": "blang/semver 是一个用 Go 编写的语义化版本库，完整覆盖语义化版本 2.0.0 规范。它解决的是在 Go 项目中解析、校验、比较和匹配版本号的需求，尤其适合需要处理依赖版本约束的工具链场景。核心特点包括：完全符合规范、不使用反射和正则、仅依赖标准库、使用值而非指针、解析与校验错误信息可读，且测试覆盖率超过 99%。它支持各级别的解析与校验、比较器式比较、辅助比较方法、原地修改，以及范围表达式，例如 >=1.0.0、=3.0.0、!3.0.1-beta.1、通配符 >=1.x 和 1.0.0，并允许用空格连接多个范围实现逻辑与，用竖线实现逻辑或，且与的优先级高于或。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:39:58+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 4,
+      "tags": [
+        "library"
+      ],
+      "primary_tag": "library",
+      "domains": [
+        "devtools"
+      ],
+      "primary_domain": "devtools"
+    },
+    {
+      "owner": "WebAssembly",
+      "name": "wasi-libc",
+      "full_name": "WebAssembly/wasi-libc",
+      "url": "https://github.com/WebAssembly/wasi-libc",
+      "description": "WASI libc implementation for WebAssembly",
+      "language": "C",
+      "stars": 1040,
+      "forks": 261,
+      "homepage": "https://wasi.dev",
+      "license": "NOASSERTION",
+      "created_at": "2019-01-17T15:02:57Z",
+      "pushed_at": "2026-10-21T19:58:50Z",
+      "updated_at": "2026-10-24T11:49:08Z",
+      "open_issues": 56,
+      "summary": "wasi-libc 是为基于 WASI 系统调用的 WebAssembly 程序提供的 C 标准库实现，用 C 语言编写。它解决的是 WebAssembly 环境下缺少 POSIX 兼容 C 运行时的问题，提供标准 I/O、文件 I/O、文件系统操作、内存管理、时间、字符串、环境变量和程序启动等大量 POSIX 兼容 API，多数接口已足够稳定可用。其 pthread 支持仍处于实验阶段，通过 wasi-threads 提案提供，不同目标（如 wasm32-wasip1、wasm32-wasip2、wasm32-wasip1-threads）行为不同。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:40:48+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 2,
+      "tags": [
+        "library"
+      ],
+      "primary_tag": "library",
+      "domains": [
+        "systems",
+        "web"
+      ],
+      "primary_domain": "systems"
+    },
+    {
+      "owner": "minio",
+      "name": "sha256-simd",
+      "full_name": "minio/sha256-simd",
+      "url": "https://github.com/minio/sha256-simd",
+      "description": "Accelerate SHA256 computations in pure Go using  AVX512, SHA Extensions for x86 and ARM64 for ARM. On AVX512 it provides an up to 8x improvement (over 3 GB/s per core). SHA Extensions give a performance boost of close to 4x over native.",
+      "language": "Go",
+      "stars": 1039,
+      "forks": 135,
+      "homepage": "",
+      "license": "Apache-2.0",
+      "created_at": "2016-07-16T22:31:01Z",
+      "pushed_at": "2023-05-24T07:54:41Z",
+      "updated_at": "2026-10-25T22:08:49Z",
+      "open_issues": 0,
+      "summary": "minio/sha256-simd 是一个用纯 Go 编写的 SHA256 计算加速库，可作为标准库 crypto/sha256 的直接替代品，自动为运行架构选择最快实现。它针对 x86 平台利用 AVX512 与 Intel SHA Extensions，针对 ARM64 利用 Cryptography Extensions 中的 SHA2 指令，其中 AVX512 版本通过并行处理 16 条独立消息，单核吞吐可超 3 GB/s，相比原生实现提升最高约 8 倍，SHA Extensions 也能带来接近 4 倍的性能提升。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:39:58+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 4,
+      "tags": [
+        "library"
+      ],
+      "primary_tag": "library",
+      "domains": [
+        "systems",
+        "security"
+      ],
+      "primary_domain": "systems"
+    },
+    {
+      "owner": "open-telemetry",
+      "name": "opentelemetry-go-instrumentation",
+      "full_name": "open-telemetry/opentelemetry-go-instrumentation",
+      "url": "https://github.com/open-telemetry/opentelemetry-go-instrumentation",
+      "description": "OpenTelemetry Auto Instrumentation using eBPF",
+      "language": "C",
+      "stars": 1038,
+      "forks": 157,
+      "homepage": "https://opentelemetry.io",
+      "license": "Apache-2.0",
+      "created_at": "2022-08-01T20:24:17Z",
+      "pushed_at": "2026-10-24T18:55:55Z",
+      "updated_at": "2026-10-23T16:34:27Z",
+      "open_issues": 112,
+      "summary": "OpenTelemetry Go 自动插桩项目利用 eBPF 技术为 Go 库提供链路追踪能力，目标是在不修改应用代码的前提下实现可观测性数据采集。它解决的是 Go 应用手动埋点成本高、侵入性强的问题，通过内核层动态挂载探针来捕获调用信息。该项目目前处于开发中，兼容所有仍受支持的 Go 版本，支持 arm64 架构，可在 Linux 4.4 以上内核运行，非 Linux 用户可通过 Docker 镜像或虚拟机编译运行。典型场景包括在 Kubernetes 等环境中对 Go 微服务进行无侵入追踪，配合 OpenTelemetry 生态完成数据上报。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:40:48+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 2,
+      "tags": [
+        "library"
+      ],
+      "primary_tag": "library",
+      "domains": [
+        "devops",
+        "systems"
+      ],
+      "primary_domain": "devops"
+    },
+    {
+      "owner": "Keeperorowner",
+      "name": "NagramXF",
+      "full_name": "Keeperorowner/NagramXF",
+      "url": "https://github.com/Keeperorowner/NagramXF",
+      "description": "A fork of NagramX with additional features.",
+      "language": "Java",
+      "stars": 1037,
+      "forks": 71,
+      "homepage": "",
+      "license": "GPL-3.0",
+      "created_at": "2025-07-22T16:33:32Z",
+      "pushed_at": "2026-10-26T06:15:08Z",
+      "updated_at": "2026-10-26T03:41:43Z",
+      "open_issues": 67,
+      "summary": "NagramXF 是基于 NagramX 二次开发的第三方 Telegram 客户端分支，使用 Java 编写，在原有基础上加入了额外功能，并整合了 exteraGram 与 AyuGram 的大部分特性。它面向希望获得更丰富定制体验的 Telegram 用户，解决官方客户端功能受限、部分增强特性分散于多个分支的问题。项目提供 Telegram 频道与 GitHub Releases 两种分发渠道，编译时需自行从 Telegram 开发者门户获取 API 凭据，并在 local.properties 中配置，同时可替换 release.",
+      "windows": [
+        "monthly"
+      ],
+      "added_at": "2026-10-09T11:22:02+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 8,
+      "tags": [
+        "app"
+      ],
+      "primary_tag": "app",
+      "domains": [
+        "mobile"
+      ],
+      "primary_domain": "mobile"
+    },
+    {
+      "owner": "scylladb",
+      "name": "gocqlx",
+      "full_name": "scylladb/gocqlx",
+      "url": "https://github.com/scylladb/gocqlx",
+      "description": "All-In-One: CQL query builder, ORM and migration tool",
+      "language": "Go",
+      "stars": 1033,
+      "forks": 131,
+      "homepage": "",
+      "license": "Apache-2.0",
+      "created_at": "2017-07-20T13:50:33Z",
+      "pushed_at": "2026-10-25T16:45:03Z",
+      "updated_at": "2026-10-26T01:13:09Z",
+      "open_issues": 23,
+      "summary": "GocqlX 是面向 Go 语言的 ScyllaDB 客户端工具库，基于 scylladb/gocql 驱动构建，旨在让 Scylla 的使用更简便、更不易出错。它受 Sqlx 启发，但功能更广，核心能力包括：将结构体字段、map 或两者绑定为查询参数，按字段名把查询结果扫描进结构体，提供加载单行或全部行到结构体切片的便捷函数，并能让任意结构体直接作为 UDT 使用而无需实现编组函数。其性能与原生驱动相当。子包进一步提供 CQL 查询构建器、基于表模型的 CRUD 操作和数据库迁移工具。需注意 v3.0.0 起仅支持 ScyllaDB 的 gocql 分支，需在 go.",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:39:58+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 4,
+      "tags": [
+        "library"
+      ],
+      "primary_tag": "library",
+      "domains": [
+        "data"
+      ],
+      "primary_domain": "data"
+    },
+    {
+      "owner": "elliotchance",
+      "name": "orderedmap",
+      "full_name": "elliotchance/orderedmap",
+      "url": "https://github.com/elliotchance/orderedmap",
+      "description": "🔃 An ordered map in Go with amortized O(1) for Set, Get, Delete and Len.",
+      "language": "Go",
+      "stars": 1028,
+      "forks": 78,
+      "homepage": "",
+      "license": "MIT",
+      "created_at": "2019-11-14T21:12:26Z",
+      "pushed_at": "2026-10-09T12:09:11Z",
+      "updated_at": "2026-10-08T15:55:56Z",
+      "open_issues": 14,
+      "summary": "Go 语言原生的 map 不保证遍历顺序，若需要按插入顺序访问键值对，通常得自己维护额外的切片或链表。orderedmap 正是为解决这一问题而生的库，它实现了一个有序映射类型 OrderedMap，在 Set、Get、Delete 和 Len 操作上保持摊还 O(1) 的时间复杂度。其内部结构由原生 map 与一个精简链表组合而成，用链表维护顺序，用 map 保证查找效率。该库提供 AllFromFront、AllFromBack、Keys 和 Values 等返回迭代器的方法，迭代器支持双向遍历，越界时返回 nil，也可配合标准库的 slices.Collect 或 maps.",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:39:58+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 4,
+      "tags": [
+        "library"
+      ],
+      "primary_tag": "library",
+      "domains": [
+        "systems"
+      ],
+      "primary_domain": "systems"
+    },
+    {
+      "owner": "certifi",
+      "name": "python-certifi",
+      "full_name": "certifi/python-certifi",
+      "url": "https://github.com/certifi/python-certifi",
+      "description": "(Python Distribution) A carefully curated collection of Root Certificates for validating the trustworthiness of SSL certificates while verifying the identity of TLS hosts.",
+      "language": "Python",
+      "stars": 1023,
+      "forks": 308,
+      "homepage": "",
+      "license": "NOASSERTION",
+      "created_at": "2011-12-28T05:15:19Z",
+      "pushed_at": "2026-10-24T11:45:54Z",
+      "updated_at": "2026-10-26T06:38:20Z",
+      "open_issues": 2,
+      "summary": "Certifi 是一个 Python 库，提供 Mozilla 精心维护的根证书集合，用于在验证 TLS 主机身份时校验 SSL 证书的可信度。它从 Requests 项目中提取而来，解决了 Python 应用在建立 HTTPS 连接时缺乏可靠、可移植的根信任源的问题。其核心能力是内置一份经过筛选的 CA 证书包，并通过 certifi.where() 函数或 python -m certifi 命令返回该证书包的文件路径，方便其他库和程序引用。典型使用场景包括配合 requests、urllib3 等 HTTP 客户端进行 SSL 证书验证，确保通信安全。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:41:48+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 4,
+      "tags": [
+        "library"
+      ],
+      "primary_tag": "library",
+      "domains": [
+        "security",
+        "networking"
+      ],
+      "primary_domain": "security"
+    },
+    {
+      "owner": "AliyunContainerService",
+      "name": "image-syncer",
+      "full_name": "AliyunContainerService/image-syncer",
+      "url": "https://github.com/AliyunContainerService/image-syncer",
+      "description": "Docker image synchronization tool for Docker Registry V2 based services ",
+      "language": "Go",
+      "stars": 1021,
+      "forks": 280,
+      "homepage": "",
+      "license": "Apache-2.0",
+      "created_at": "2019-10-15T02:32:38Z",
+      "pushed_at": "2025-02-05T07:40:34Z",
+      "updated_at": "2026-10-26T08:26:56Z",
+      "open_issues": 29,
+      "summary": "image-syncer 是一款用 Go 编写的 Docker 镜像同步工具，面向基于 Docker Registry V2 的各类镜像仓库服务，如阿里云容器镜像服务、Docker Hub、Quay.io、Harbor 等。它解决的是多仓库之间镜像搬运与同步的问题，支持多对多的仓库同步，且仅依赖网络与内存，不需要大容量磁盘存储，也不依赖 Docker 守护进程或其他程序，因而同步速度较快。其核心能力包括增量同步、自动忽略未变更镜像、Blob 级并发同步并可调节 goroutine 数量，以及对失败任务自动重试以应对限流等网络问题。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:39:58+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 4,
+      "tags": [
+        "tool"
+      ],
+      "primary_tag": "tool",
+      "domains": [
+        "devops"
+      ],
+      "primary_domain": "devops"
+    },
+    {
+      "owner": "bestiejs",
+      "name": "json3",
+      "full_name": "bestiejs/json3",
+      "url": "https://github.com/bestiejs/json3",
+      "description": "A JSON polyfill. No longer maintained.",
+      "language": "JavaScript",
+      "stars": 1018,
+      "forks": 148,
+      "homepage": "https://bestiejs.github.io/json3",
+      "license": "NOASSERTION",
+      "created_at": "2012-02-11T01:18:46Z",
+      "pushed_at": "2019-05-27T23:09:36Z",
+      "updated_at": "2026-10-24T17:07:39Z",
+      "open_issues": 16,
+      "archived": true,
+      "summary": "JSON 3 是一个面向旧版 JavaScript 平台的 JSON polyfill，现已停止维护，官方建议新项目直接使用原生的 JSON.parse 和 JSON.stringify。它提供 stringify 与 parse 两个函数，分别用于将 JavaScript 值序列化为 JSON 字符串、以及从 JSON 字符串还原为 JavaScript 值。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:41:10+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 5,
+      "tags": [
+        "library"
+      ],
+      "primary_tag": "library",
+      "domains": [
+        "web"
+      ],
+      "primary_domain": "web"
+    },
+    {
+      "owner": "naver",
+      "name": "splade",
+      "full_name": "naver/splade",
+      "url": "https://github.com/naver/splade",
+      "description": "SPLADE: sparse neural search (SIGIR21, SIGIR22)",
+      "language": "Python",
+      "stars": 1017,
+      "forks": 97,
+      "homepage": "",
+      "license": "NOASSERTION",
+      "created_at": "2021-07-14T04:30:58Z",
+      "pushed_at": "2024-05-03T14:52:32Z",
+      "updated_at": "2026-10-20T18:07:11Z",
+      "open_issues": 17,
+      "summary": "SPLADE 是 NAVER 开源的一套稀疏神经检索模型代码库，用 Python 实现，涵盖训练、索引与检索全流程。它通过 BERT 的 MLM 头和稀疏正则化学习查询与文档的稀疏扩展表示，相比稠密检索能利用倒排索引、具备显式词项匹配和可解释性，在 BEIR 等域外基准上泛化表现较好。仓库支持 MS MARCO 数据训练，并集成难负例挖掘、蒸馏与预训练语言模型初始化等策略，提供 v1、v2、SPLADE++ 及高效版本等多种配置，还包含 BEIR 评测、Anserini 与 PISA 对接以及静态剪枝代码。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:41:48+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 4,
+      "tags": [
+        "library"
+      ],
+      "primary_tag": "library",
+      "domains": [
+        "ai",
+        "data"
+      ],
+      "primary_domain": "ai"
+    },
+    {
+      "owner": "google",
+      "name": "go-licenses",
+      "full_name": "google/go-licenses",
+      "url": "https://github.com/google/go-licenses",
+      "description": "A lightweight tool to report on the licenses used by a Go package and its dependencies. Highlight! Versioned external URL to licenses can be found at the same time.",
+      "language": "Go",
+      "stars": 1017,
+      "forks": 141,
+      "homepage": "",
+      "license": "Apache-2.0",
+      "created_at": "2019-11-12T10:37:11Z",
+      "pushed_at": "2026-07-09T18:03:15Z",
+      "updated_at": "2026-10-25T16:31:30Z",
+      "open_issues": 36,
+      "summary": "go-licenses 是 Google 开源的 Go 语言工具，用于分析 Go 包或二进制文件的依赖树，并报告所用库及其授权方式。它解决的是在分发 Go 程序时如何合规处理第三方依赖的问题。核心能力包括：生成 CSV 格式的授权报告，列出库、授权 URL 和类型；支持自定义 Go 模板生成报告；可将授权文档、版权声明及源码按需收集到指定目录；还能检查禁止或未知的授权类型，并支持按类型过滤。典型场景是发布 Go 二进制前核查依赖授权，或准备合规的分发材料。使用需 Go 1.16 以上，通过 go install 安装，支持忽略指定包、包含测试依赖及通过 GOFLAGS 传递构建标签。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:39:58+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 4,
+      "tags": [
+        "tool"
+      ],
+      "primary_tag": "tool",
+      "domains": [
+        "devtools"
+      ],
+      "primary_domain": "devtools"
+    },
+    {
+      "owner": "spaolacci",
+      "name": "murmur3",
+      "full_name": "spaolacci/murmur3",
+      "url": "https://github.com/spaolacci/murmur3",
+      "description": "Native MurmurHash3 Go implementation",
+      "language": "Go",
+      "stars": 1017,
+      "forks": 129,
+      "homepage": "",
+      "license": "BSD-3-Clause",
+      "created_at": "2013-02-02T09:31:57Z",
+      "pushed_at": "2023-02-23T08:44:28Z",
+      "updated_at": "2026-10-21T05:24:22Z",
+      "open_issues": 8,
+      "summary": "murmur3 是 Austin Appleby 提出的 MurmurHash3 算法的原生 Go 实现，用于在 Go 程序中计算 32 位和 128 位非加密哈希值。它对参考算法做了小幅调整，以支持 Go 标准库 Hash 接口所需的流式写入方式，因此可以像使用其他标准哈希器一样分块写入数据并获取结果。基准测试覆盖 1 字节到 8192 字节的输入，32 位版本在大数据量下吞吐可达约 2.2 GB/s，128 位版本可达约 4.4 GB/s，并附有 Go 1.0 至 1.3 各版本间的性能对比。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:39:58+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 4,
+      "tags": [
+        "library"
+      ],
+      "primary_tag": "library",
+      "domains": [
+        "systems"
+      ],
+      "primary_domain": "systems"
+    },
+    {
+      "owner": "wolkykim",
+      "name": "qlibc",
+      "full_name": "wolkykim/qlibc",
+      "url": "https://github.com/wolkykim/qlibc",
+      "description": "qLibc is a simple and yet powerful C library providing generic data structures and algorithms.",
+      "language": "C",
+      "stars": 1015,
+      "forks": 182,
+      "homepage": "http://wolkykim.github.io/qlibc",
+      "license": "NOASSERTION",
+      "created_at": "2014-03-05T07:06:57Z",
+      "pushed_at": "2026-08-11T15:31:56Z",
+      "updated_at": "2026-10-24T17:03:54Z",
+      "open_issues": 0,
+      "summary": "qLibc 是一个用 C 语言编写的通用数据结构与算法库，目标是为 C/C++ 开发者提供一套功能完整、接口一致的常用容器和工具函数。它解决了 C 语言缺乏标准容器库的问题，提供键值对容器（二叉树表、哈希表、静态哈希表、链表表）和对象容器（双向链表、动态数组、队列、栈），以及字符串处理、非阻塞 I/O、文件操作、IPC、信号量、共享内存、URL/Base64/Hex 编解码、Murmur/FNV/MD5 哈希和时间转换等通用工具。其核心特点是所有容器 API 风格统一，既可通过容器内的函数指针调用，也可使用传统的直接访问函数，切换容器类型时几乎无需改动代码。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:40:48+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 2,
+      "tags": [
+        "library"
+      ],
+      "primary_tag": "library",
+      "domains": [
+        "systems"
+      ],
+      "primary_domain": "systems"
+    },
+    {
+      "owner": "paulirish",
+      "name": "github-email",
+      "full_name": "paulirish/github-email",
+      "url": "https://github.com/paulirish/github-email",
+      "description": "Get a GitHub user's email. :sunglasses: Use this responsibly.",
+      "language": "Shell",
+      "stars": 1014,
+      "forks": 112,
+      "homepage": "https://www.npmjs.com/package/github-email",
+      "license": "",
+      "created_at": "2015-05-05T22:48:48Z",
+      "pushed_at": "2020-08-31T16:14:38Z",
+      "updated_at": "2026-10-19T03:00:50Z",
+      "open_issues": 3,
+      "summary": "github-email 是一个用 Shell 编写的命令行工具，用于获取 GitHub 用户的电子邮箱地址，即便该邮箱并未公开。它从多个来源汇集信息，包括 GitHub 用户资料、NPM、活动提交记录以及其拥有仓库的提交活动，从而提高找到有效邮箱的可能性。使用时，若未设置 GH_EMAIL_TOKEN 环境变量，脚本会提示用户生成一个个人访问令牌，生成时保持所有复选框不勾选，复制令牌后通过 export GH_EMAIL_TOKEN= 设置，并将该行加入 shell 配置文件如 .bashrc。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:42:17+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 4,
+      "tags": [
+        "tool"
+      ],
+      "primary_tag": "tool",
+      "domains": [
+        "devtools"
+      ],
+      "primary_domain": "devtools"
+    },
+    {
+      "owner": "speedb-io",
+      "name": "speedb",
+      "full_name": "speedb-io/speedb",
+      "url": "https://github.com/speedb-io/speedb",
+      "description": "A RocksDB compliant high performance scalable embedded key-value store",
+      "language": "C++",
+      "stars": 1013,
+      "forks": 80,
+      "homepage": "https://www.speedb.io/",
+      "license": "Apache-2.0",
+      "created_at": "2022-02-22T14:18:31Z",
+      "pushed_at": "2024-06-12T15:11:30Z",
+      "updated_at": "2026-10-25T19:51:45Z",
+      "open_issues": 136,
+      "summary": "Speedb 是一个用 C++ 编写的嵌入式键值存储引擎，与 RocksDB 完全兼容，可作为其直接替换库使用。它主要解决现代数据集在写入负载下的性能不稳定和内存占用问题，通过延迟写入机制避免写入停顿，保持长时间稳定吞吐。核心特点包括：采用排序哈希 memtable 提升读写性能，配对布隆过滤器降低内存消耗，支持运行时修改可变选项，并便于管理多个数据库。它面向本地和云环境，适用于需要高吞吐、可扩展存储的场景，例如大规模随机写入工作负载。开发者可通过 CMake 集成，使用静态或动态链接，公共接口位于 include 目录，示例在 examples 下。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:42:03+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 4,
+      "tags": [
+        "library"
+      ],
+      "primary_tag": "library",
+      "domains": [
+        "data",
+        "systems"
+      ],
+      "primary_domain": "data"
+    },
+    {
+      "owner": "pboehm",
+      "name": "ddns",
+      "full_name": "pboehm/ddns",
+      "url": "https://github.com/pboehm/ddns",
+      "description": "A self-hosted Dynamic DNS solution similar to DynDNS or NO-IP",
+      "language": "Go",
+      "stars": 1005,
+      "forks": 126,
+      "homepage": "",
+      "license": "MIT",
+      "created_at": "2014-07-06T16:16:45Z",
+      "pushed_at": "2021-11-27T15:47:58Z",
+      "updated_at": "2026-10-21T11:40:41Z",
+      "open_issues": 13,
+      "summary": "ddns 是一个用 Go 编写的自托管动态 DNS 解决方案，功能类似 DynDNS 或 NO-IP，基于 PowerDNS 远程后端实现。它解决的是动态 IP 环境下域名解析自动更新的问题：用户只需通过 curl 定期调用其内置的小型 Web 服务接口，即可更新主机记录的 IP 地址，超过 10 天未更新的主机会被自动移除，该期限可在自建实例中配置。部署上要求拥有可设置子域 NS 记录的域名、安装 docker 与 docker-compose 的服务器，并开放 53/udp、80/tcp、443/tcp 端口。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:39:58+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 4,
+      "tags": [
+        "app"
+      ],
+      "primary_tag": "app",
+      "domains": [
+        "networking",
+        "devops"
+      ],
+      "primary_domain": "networking"
+    },
+    {
+      "owner": "XCQ0607",
+      "name": "lxserver",
+      "full_name": "XCQ0607/lxserver",
+      "url": "https://github.com/XCQ0607/lxserver",
+      "description": "LX Music 数据同步服务端，同时支持了部分lx-music-desktop的网页端实现。",
+      "language": "JavaScript",
+      "stars": 999,
+      "forks": 253,
+      "homepage": "https://xcq0607.github.io/lxserver/",
+      "license": "Apache-2.0",
+      "created_at": "2026-01-08T16:04:40Z",
+      "pushed_at": "2026-10-26T02:41:34Z",
+      "updated_at": "2026-10-26T07:05:13Z",
+      "open_issues": 5,
+      "summary": "LX Music 数据同步服务端（增强版）是一个基于 Node.js 的开源项目，在 lyswhut/lx-music-sync-server 基础上扩展了完整的 Web 播放器功能。它主要解决 LX Music 用户跨设备同步歌单与数据的需求，同时让用户无需安装桌面客户端即可在浏览器中直接播放音乐。核心能力包括多平台聚合搜索、歌单浏览与播放队列管理、歌词显示与卡片分享、自动缓存、自定义音源脚本导入，以及 Subsonic 协议适配，可配合音流、Feishin 等客户端使用。",
+      "last_seen": "2026-10-26",
+      "seen_count": 8,
+      "added_at": "2026-10-09T10:50:04+00:00",
+      "windows": [
+        "daily"
+      ],
+      "tags": [
+        "app"
+      ],
+      "primary_tag": "app",
+      "domains": [
+        "media",
+        "networking"
+      ],
+      "primary_domain": "media"
+    },
+    {
+      "owner": "ys-ll",
+      "name": "uniterm",
+      "full_name": "ys-ll/uniterm",
+      "url": "https://github.com/ys-ll/uniterm",
+      "description": "All-in-one terminal covering 30+ protocols — SSH, RDP, SFTP, databases, Kubernetes and more. With a built-in AI Agent that runs multi-turn shell commands autonomously.",
+      "language": "Go",
+      "stars": 941,
+      "forks": 139,
+      "homepage": "https://uniterm.net",
+      "license": "Apache-2.0",
+      "created_at": "2026-05-11T10:59:23Z",
+      "pushed_at": "2026-10-26T08:22:48Z",
+      "updated_at": "2026-10-26T08:22:52Z",
+      "open_issues": 43,
+      "summary": "uniTerm 是一款用 Go 编写的开源一体化终端工具，将 30 多种协议整合到同一界面，涵盖 SSH、Telnet、Mosh、RDP、VNC、SPICE、SFTP、SCP、FTP、SMB、WebDAV、S3 等远程访问方式，并支持 MySQL、PostgreSQL、Oracle、Redis、MongoDB 等数据库客户端，以及 Kubernetes、Docker、Podman 等容器管理。它解决的是运维和开发人员需要在多个工具间反复切换的问题，把远程终端、文件传输、远程桌面、数据库操作和服务器监控集中在一起。",
+      "windows": [
+        "weekly"
+      ],
+      "added_at": "2026-10-09T11:00:35+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 12,
+      "tags": [
+        "app"
+      ],
+      "primary_tag": "app",
+      "domains": [
+        "systems",
+        "devops",
+        "networking"
+      ],
+      "primary_domain": "systems"
+    },
+    {
+      "owner": "eugenioenko",
+      "name": "ttt",
+      "full_name": "eugenioenko/ttt",
+      "url": "https://github.com/eugenioenko/ttt",
+      "description": "TTT Editor (Terminal Text Tool): A real alternative to VS Code, Zed, and Sublime that runs in your terminal. A TUI that feels like GUI. Single binary, zero config.",
+      "language": "Go",
+      "stars": 865,
+      "forks": 98,
+      "homepage": "http://tttedit.dev/",
+      "license": "MIT",
+      "created_at": "2026-01-16T06:21:11Z",
+      "pushed_at": "2026-10-26T06:46:49Z",
+      "updated_at": "2026-10-26T07:43:43Z",
+      "open_issues": 43,
+      "summary": "TTT Editor 是一款用 Go 编写的终端文本编辑器，定位为运行在终端里的 VS Code、Zed、Sublime 替代品，以单一二进制、零配置为特点，试图让 TUI 拥有接近 GUI 的体验。它面向希望在终端内完成完整开发流程的用户，集成语法高亮、括号匹配、查找替换、代码折叠、多光标编辑、LSP 补全与诊断、格式化、Git blame 等编辑能力，并支持多文件夹工作区、文件浏览器、基于 ripgrep 的搜索、Git 暂存提交与差异查看、GitHub PR 审阅、大纲视图、命令面板，以及内置终端模拟器。",
+      "windows": [
+        "weekly"
+      ],
+      "added_at": "2026-10-10T22:24:10+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 4,
+      "tags": [
+        "app"
+      ],
+      "primary_tag": "app",
+      "domains": [
+        "devtools"
+      ],
+      "primary_domain": "devtools"
+    },
+    {
+      "owner": "etaHEN",
+      "name": "etaHEN",
+      "full_name": "etaHEN/etaHEN",
+      "url": "https://github.com/etaHEN/etaHEN",
+      "description": "AIO HEN payload",
+      "language": "C",
+      "stars": 819,
+      "forks": 72,
+      "homepage": "",
+      "license": "GPL-3.0",
+      "created_at": "2023-10-25T06:08:24Z",
+      "pushed_at": "2026-05-04T03:14:05Z",
+      "updated_at": "2026-10-25T23:05:05Z",
+      "open_issues": 22,
+      "summary": "etaHEN 是一个面向 PS5 的 AIO Homebrew enabler（一体化自制程序启用器），主要用 C 语言编写，通过漏洞利用向主机发送 payload，为运行自制软件和扩展功能提供基础环境。它解决的是 PS5 上启用自制程序、调试设置与系统功能扩展的问题，核心是 etaHEN toolbox，可替代调试设置，并集成插件管理、Homebrew Store 安装、Rest Mode 选项、Remote Play 菜单、ELF payload 菜单、外部硬盘管理、TestKit 菜单、Kstuff 菜单、游戏叠加菜单、作弊菜单、手柄快捷键、webMAN 游戏菜单、标题 ID 显示、蓝。",
+      "windows": [
+        "weekly"
+      ],
+      "added_at": "2026-10-09T11:22:49+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 7,
+      "tags": [
+        "app"
+      ],
+      "primary_tag": "app",
+      "domains": [
+        "systems",
+        "security"
+      ],
+      "primary_domain": "systems"
+    },
+    {
+      "owner": "EchoStretch",
+      "name": "kstuff-lite",
+      "full_name": "EchoStretch/kstuff-lite",
+      "url": "https://github.com/EchoStretch/kstuff-lite",
+      "description": "",
+      "language": "C",
+      "stars": 817,
+      "forks": 63,
+      "homepage": "",
+      "license": "",
+      "created_at": "2026-01-31T03:46:28Z",
+      "pushed_at": "2026-10-20T03:10:21Z",
+      "updated_at": "2026-10-26T06:58:21Z",
+      "open_issues": 12,
+      "summary": "kstuff-lite 是一个用 C 语言编写的底层内核工具项目，当前版本 1.11-opt，主要面向 PS5 平台的 UELF/KELF 加载与内核态代码执行场景。它围绕加密、FSELF、NPDRM 和加载器已有工作，重点降低 UELF 与 KELF 之间的切换开销，并让 FPU 与 CR0 的处理更安全高效。",
+      "windows": [
+        "weekly",
+        "monthly"
+      ],
+      "added_at": "2026-10-09T11:22:49+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 6,
+      "tags": [
+        "library"
+      ],
+      "primary_tag": "library",
+      "domains": [
+        "systems"
+      ],
+      "primary_domain": "systems"
+    },
+    {
+      "owner": "mrifqidaffaaditya",
+      "name": "WA-AKG",
+      "full_name": "mrifqidaffaaditya/WA-AKG",
+      "url": "https://github.com/mrifqidaffaaditya/WA-AKG",
+      "description": "A self-hosted WhatsApp Gateway & Dashboard built with Next.js 16, Baileys, and Prisma. Manage multi-session accounts, schedule messages, create auto-replies, and integrate via Webhooks.",
+      "language": "TypeScript",
+      "stars": 775,
+      "forks": 229,
+      "homepage": "https://wa-akg.aikeigroup.net",
+      "license": "MIT",
+      "created_at": "2026-01-10T07:21:39Z",
+      "pushed_at": "2026-10-26T01:38:22Z",
+      "updated_at": "2026-10-26T06:48:44Z",
+      "open_issues": 4,
+      "summary": "WA-AKG 是一个自托管的 WhatsApp 网关与仪表盘，使用 Next.js 15、Baileys 和 Prisma 构建，将 WhatsApp 账号转化为可编程的 RESTful API。它解决的是多账号管理、消息自动化与业务系统集成的问题，适合搭建客服网关、聊天机器人或营销自动化流程。核心能力包括：通过扫码同时连接多个 WhatsApp 账号，基于 Baileys 的 WebSocket 连接，支持带媒体附件的定时发送、随机延迟与分批处理的防封广播、按关键词和群组或私聊上下文触发的自动回复，以及命令与自动回复的白名单和黑名单控制。",
+      "windows": [
+        "weekly"
+      ],
+      "added_at": "2026-10-09T11:00:09+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 5,
+      "tags": [
+        "app"
+      ],
+      "primary_tag": "app",
+      "domains": [
+        "networking",
+        "productivity"
+      ],
+      "primary_domain": "networking"
+    },
+    {
+      "owner": "SlickAmogus",
+      "name": "silent-hill-decomp",
+      "full_name": "SlickAmogus/silent-hill-decomp",
+      "url": "https://github.com/SlickAmogus/silent-hill-decomp",
+      "description": "Multiplatform and Feature-rich Port based on PSX decompilation of Silent Hill 1 made with Claude and Psycross. Still in beta and is in active development.",
+      "language": "C",
+      "stars": 771,
+      "forks": 60,
+      "homepage": "https://sh1pc.com",
+      "license": "GPL-3.0",
+      "created_at": "2026-03-06T02:58:47Z",
+      "pushed_at": "2026-10-26T06:33:08Z",
+      "updated_at": "2026-10-26T06:33:13Z",
+      "open_issues": 25,
+      "summary": "silent-hill-decomp 是基于《寂静岭1》PSX 反编译代码构建的原生 PC 移植项目，用 C 语言编写，通过 PsyCross 兼容层实现硬件抽象，编译为真正的 Windows/Linux 可执行文件，而非模拟器或静态重编译。它让玩家无需原版主机即可运行游戏，同时保持原版逻辑、固定镜头与操作手感。项目提供可选增强：任意分辨率、宽屏、高帧率、PGXP 透视校正、多种手电筒与阴影模式、第三人称与第一人称等替代镜头、5.1/7.1 环绕声、鼠标菜单、快速存读档、内置控制台与作弊菜单、Mod 管理器及角色模型替换，并支持多区域光盘与粉丝翻译。",
+      "windows": [
+        "monthly"
+      ],
+      "added_at": "2026-10-10T22:24:33+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 21,
+      "tags": [
+        "app"
+      ],
+      "primary_tag": "app",
+      "domains": [
+        "graphics",
+        "media"
+      ],
+      "primary_domain": "graphics"
+    },
+    {
+      "owner": "MiaAI-Lab",
+      "name": "sparkDash",
+      "full_name": "MiaAI-Lab/sparkDash",
+      "url": "https://github.com/MiaAI-Lab/sparkDash",
+      "description": "sparkDash ⚡ — Multi-DGX Spark Monitoring Dashboard",
+      "language": "JavaScript",
+      "stars": 763,
+      "forks": 175,
+      "homepage": "https://mia-ai.net",
+      "license": "Apache-2.0",
+      "created_at": "2026-07-19T18:35:36Z",
+      "pushed_at": "2026-10-25T17:23:13Z",
+      "updated_at": "2026-10-25T22:43:45Z",
+      "open_issues": 8,
+      "summary": "sparkDash 是一个面向 NVIDIA DGX Spark（GB10）的实时监控面板，用 JavaScript 编写，可在单个浏览器窗口中同时查看一台或多台设备。它通过 SSH 采集并流式展示 GPU、CPU、统一内存、存储、网络以及本地大模型推理等指标，并允许在界面上直接添加、编辑、排序或删除被监控主机，无需重启或改动代码。除 Spark 外，任何装有 NVIDIA GPU 的 Linux 机器都可作为独立 GPU 主机接入，面板会区分系统内存与显存；被监控端也可运行 Linux、macOS 或 Windows。",
+      "windows": [
+        "daily",
+        "weekly"
+      ],
+      "added_at": "2026-10-11T22:24:12+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 5,
+      "tags": [
+        "app"
+      ],
+      "primary_tag": "app",
+      "domains": [
+        "devops"
+      ],
+      "primary_domain": "devops"
+    },
+    {
+      "owner": "FoloToy",
+      "name": "ai-passport",
+      "full_name": "FoloToy/ai-passport",
+      "url": "https://github.com/FoloToy/ai-passport",
+      "description": "FOLOTOY AI Passport develop resources for Agent",
+      "language": "C",
+      "stars": 741,
+      "forks": 294,
+      "homepage": "https://ai-passport.folotoy.cn",
+      "license": "MIT",
+      "created_at": "2026-07-31T05:27:45Z",
+      "pushed_at": "2026-10-21T11:23:30Z",
+      "updated_at": "2026-10-26T07:08:53Z",
+      "open_issues": 4,
+      "summary": "FoloToy AI Passport 是一个面向可穿戴 AI 的开源开发资源库，主要用 C 语言编写，为开发者提供构建智能体应用的硬件与软件基础。它解决的是可穿戴 AI 设备从零搭建门槛高、缺少统一参考实现的问题。核心特点在于其硬件能力契约明确：基于 ESP32-C3，配备 8 MB Flash、无 PSRAM、240×320 显示屏和三个物理按键，板级支持位于 components/bsp，应用页面、状态与任务位于 main，边界清晰。仓库的 main 分支是可运行的最小硬件测试基线，而非成品应用，衍生应用必须自行设计 UI，但可复用 BSP API 与非 UI 逻辑。",
+      "windows": [
+        "monthly"
+      ],
+      "added_at": "2026-10-09T11:22:49+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 6,
+      "tags": [
+        "library",
+        "example"
+      ],
+      "primary_tag": "library",
+      "domains": [
+        "ai",
+        "embedded"
+      ],
+      "primary_domain": "ai"
+    },
+    {
+      "owner": "yuxino",
+      "name": "Mimi",
+      "full_name": "yuxino/Mimi",
+      "url": "https://github.com/yuxino/Mimi",
+      "description": "把电脑或麦克风声音转成实时翻译字幕。Live translated subtitles from computer or microphone audio.",
+      "language": "Rust",
+      "stars": 740,
+      "forks": 44,
+      "homepage": "https://mimi.yuxino.cn",
+      "license": "MIT",
+      "created_at": "2026-07-22T13:06:57Z",
+      "pushed_at": "2026-10-26T05:49:21Z",
+      "updated_at": "2026-10-26T08:00:21Z",
+      "open_issues": 5,
+      "summary": "Mimi 是一款用 Rust 编写的实时字幕翻译工具，能把电脑系统声音或麦克风里的人声转成悬浮字幕显示在屏幕上，适合看电影、直播或网课时使用。它支持选择系统声音、麦克风或同时开启两路，可显示原文、译文或双语字幕，并能调整字幕位置、大小和颜色，还允许鼠标点击穿过字幕窗口。字幕和音频默认不保存，需要时可导出 TXT 或 WAV。识别与翻译依赖云端服务，用户需自备阿里云、Google Gemini 等凭证，音频会发送至所选服务并可能产生费用；符合条件的 Mac 可使用 Apple Speech 在本地识别，Apple 翻译也在本地处理文字。",
+      "last_seen": "2026-10-26",
+      "seen_count": 4,
+      "added_at": "2026-10-09T10:50:39+00:00",
+      "windows": [
+        "daily"
+      ],
+      "tags": [
+        "app"
+      ],
+      "primary_tag": "app",
+      "domains": [
+        "media",
+        "ai"
+      ],
+      "primary_domain": "media"
+    },
+    {
+      "owner": "itsPLK",
+      "name": "ps5-payload-manager",
+      "full_name": "itsPLK/ps5-payload-manager",
+      "url": "https://github.com/itsPLK/ps5-payload-manager",
+      "description": "A modern, web-based dashboard to easily manage, import, and automatically load payloads on your PS5.",
+      "language": "JavaScript",
+      "stars": 655,
+      "forks": 77,
+      "homepage": "",
+      "license": "GPL-3.0",
+      "created_at": "2026-04-19T12:45:11Z",
+      "pushed_at": "2026-10-19T13:42:54Z",
+      "updated_at": "2026-10-26T07:25:49Z",
+      "open_issues": 5,
+      "summary": "PS5 Payload Manager 是一个基于 Web 的 PS5 载荷管理面板，使用 C 语言开发。它解决的是 PS5 用户在导入、管理和自动加载 payload 时操作繁琐的问题。核心能力包括：通过浏览器在电脑、手机或 PS5 上管理载荷；支持从 USB 驱动器或云端仓库导入新载荷；可配置启动时自动加载的载荷列表；在 PS5 主屏幕安装“Payload Manager”快捷方式图标；还可选在启动时自动关闭 Disc Player，方便 BD-JB 用户。典型用法是配合 Y2JB、BD-JB 或 Lua 等 Autoloader 使用，将 pldmgr.",
+      "windows": [
+        "weekly"
+      ],
+      "added_at": "2026-10-09T11:22:49+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 6,
+      "tags": [
+        "app"
+      ],
+      "primary_tag": "app",
+      "domains": [
+        "systems",
+        "embedded"
+      ],
+      "primary_domain": "systems"
+    },
+    {
+      "owner": "openai",
+      "name": "tunnel-client",
+      "full_name": "openai/tunnel-client",
+      "url": "https://github.com/openai/tunnel-client",
+      "description": "Customer-run client for Secure MCP Tunnel: connect private or localhost MCP servers to ChatGPT, Codex, the Responses API, and AgentKit without exposing them to the public internet.",
+      "language": "Go",
+      "stars": 598,
+      "forks": 129,
+      "homepage": "",
+      "license": "Apache-2.0",
+      "created_at": "2025-12-10T00:39:35Z",
+      "pushed_at": "2026-10-23T23:33:15Z",
+      "updated_at": "2026-10-26T07:34:41Z",
+      "open_issues": 24,
+      "summary": "tunnel-client 是 OpenAI 为 Secure MCP Tunnel 提供的客户侧运行客户端，用 Go 编写。它把部署在笔记本、虚拟机、Kubernetes 集群或私有网络中的 MCP 服务器连接到 ChatGPT、Codex、Responses API 和 AgentKit，全程无需将 MCP 服务器暴露到公网，也无需新增入站防火墙规则或公网端点。客户端以守护进程形式运行，提供 /healthz、/readyz、/metrics 和 /ui 等运维接口，支持 Docker、Kubernetes 和虚拟机部署，并内置 cloudflared 配套组件。",
+      "windows": [
+        "monthly"
+      ],
+      "added_at": "2026-10-11T22:24:52+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 4,
+      "tags": [
+        "app",
+        "tool"
+      ],
+      "primary_tag": "app",
+      "domains": [
+        "networking",
+        "ai",
+        "security"
+      ],
+      "primary_domain": "networking"
+    },
+    {
+      "owner": "sp00nznet",
+      "name": "ps3recomp",
+      "full_name": "sp00nznet/ps3recomp",
+      "url": "https://github.com/sp00nznet/ps3recomp",
+      "description": "Static recompilation runtime libraries for PlayStation 3 titles. ",
+      "language": "C",
+      "stars": 579,
+      "forks": 85,
+      "homepage": "",
+      "license": "MIT",
+      "created_at": "2026-03-11T05:07:12Z",
+      "pushed_at": "2026-10-26T08:19:26Z",
+      "updated_at": "2026-10-26T06:18:09Z",
+      "open_issues": 21,
+      "summary": "ps3recomp 是一套面向 PlayStation 3 游戏的静态重编译运行时库，用 C 编写。它不采用模拟器式的运行时解释或动态重编译，而是把 PS3 的 PowerPC/SPU 指令提前翻译成 C/C++，再由本机编译器生成原生可执行文件，从而摆脱运行时翻译开销，降低硬件门槛，并让重编译后的代码更易修改和长期保存。项目提供运行时库、系统桩和分析工具，SPU 部分按镜像分别重编译，本地存储转为数组，DMA 转为 memcpy，通道转为跨线程消息队列；HLE 模块已覆盖 97 个完整模块和 1 个部分模块。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-11T22:25:13+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 2,
+      "tags": [
+        "library"
+      ],
+      "primary_tag": "library",
+      "domains": [
+        "systems",
+        "graphics"
+      ],
+      "primary_domain": "systems"
+    },
+    {
+      "owner": "Agent-Field",
+      "name": "CodeAF",
+      "full_name": "Agent-Field/CodeAF",
+      "url": "https://github.com/Agent-Field/CodeAF",
+      "description": "Open-Source Software factory for Open Models",
+      "language": "Go",
+      "stars": 549,
+      "forks": 68,
+      "homepage": "agentfield.ai/codeaf",
+      "license": "Apache-2.0",
+      "created_at": "2026-08-05T16:00:07Z",
+      "pushed_at": "2026-10-26T07:12:16Z",
+      "updated_at": "2026-10-26T06:06:36Z",
+      "open_issues": 242,
+      "summary": "CodeAF 是一个用 Go 编写的开源编码工具，专为开放模型设计，目标是让每一分钱都发挥最大价值。它把分散在多个终端里的智能体工作整合到一个窗口中，统一管理所有项目和会话，每个项目保留各自的审批规则、模型和花费上限。你只需像跟同事说话一样描述问题，它就能把一句话拆成多个任务，在各自分支上运行，通过检查的工作自动合并到你的分支，无法自动验证的则等待你确认。它还提供针对特定工作定制的子工具，比如代码审查和开发任务，并能在一次会话中为不同任务自动挑选合适的模型组合。典型场景包括本地开发、CI 和脚本调用，以及从远程机器或手机通过 SSH 接入同一对话。",
+      "windows": [
+        "daily",
+        "weekly"
+      ],
+      "added_at": "2026-10-09T11:00:35+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 13,
+      "tags": [
+        "tool",
+        "framework"
+      ],
+      "primary_tag": "tool",
+      "domains": [
+        "ai",
+        "devtools"
+      ],
+      "primary_domain": "ai"
+    },
+    {
+      "owner": "lyssadev",
+      "name": "Spotilol",
+      "full_name": "lyssadev/Spotilol",
+      "url": "https://github.com/lyssadev/Spotilol",
+      "description": "A android app that wraps Spotify's web player with built-in adblocker",
+      "language": "C",
+      "stars": 545,
+      "forks": 26,
+      "homepage": "https://spotilol.vercel.app",
+      "license": "",
+      "created_at": "2026-07-13T17:30:30Z",
+      "pushed_at": "2026-10-11T23:03:07Z",
+      "updated_at": "2026-10-13T02:37:16Z",
+      "open_issues": 5,
+      "summary": "Spotilol 是一款 Android 应用，把 Spotify 网页播放器封装进 WebView，并内置广告拦截，无需 root 或第三方修改版即可用 Spotify 账号正常收听。它由 lyssadev 将 deviato 的 Spotifuck 从 smali 移植为 Kotlin，主要解决网页播放器在移动端体验差、广告干扰多的问题。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-11T22:25:13+00:00",
+      "last_seen": "2026-10-11",
+      "seen_count": 1,
+      "tags": [
+        "app"
+      ],
+      "primary_tag": "app",
+      "domains": [
+        "media",
+        "mobile"
+      ],
+      "primary_domain": "media"
+    },
+    {
+      "owner": "ROCm",
+      "name": "rocm-systems",
+      "full_name": "ROCm/rocm-systems",
+      "url": "https://github.com/ROCm/rocm-systems",
+      "description": "super repo for rocm systems projects",
+      "language": "C++",
+      "stars": 543,
+      "forks": 468,
+      "homepage": "",
+      "license": "",
+      "created_at": "2025-04-07T16:23:38Z",
+      "pushed_at": "2026-10-26T08:27:32Z",
+      "updated_at": "2026-10-26T08:02:36Z",
+      "open_issues": 669,
+      "summary": "ROCm Systems 是 AMD ROCm 生态的超级仓库，将原本分散在多个独立 GitHub 仓库中的系统级项目整合到一处，以统一开发、持续集成与集成流程。首批纳入的项目主要面向构建 PyTorch 所需的依赖。仓库按结构划分：projects/ 下每个文件夹对应一个原先独立维护并单独发布的 ROCm 系统项目，shared/ 下则存放被多个项目共用、但不单独产出包的依赖代码。其目标是为 ROCm 各库提供统一的构建与测试工作流，共享工具链和 CI，改善跨团队协作与可见性。项目名称已统一为与发布包一致的命名规范，迁移状态分为已完成、进行中和待定三类，已完成的项目以此仓库为准。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-09T11:23:13+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 8,
+      "tags": [
+        "library"
+      ],
+      "primary_tag": "library",
+      "domains": [
+        "systems"
+      ],
+      "primary_domain": "systems"
+    },
+    {
+      "owner": "rubys",
+      "name": "roundhouse",
+      "full_name": "rubys/roundhouse",
+      "url": "https://github.com/rubys/roundhouse",
+      "description": "Rails as a specification; the deployment target is a build flag",
+      "language": "Rust",
+      "stars": 504,
+      "forks": 46,
+      "homepage": "https://rubys.github.io/roundhouse/",
+      "license": "Apache-2.0",
+      "created_at": "2026-04-17T14:59:50Z",
+      "pushed_at": "2026-10-26T08:13:56Z",
+      "updated_at": "2026-10-26T08:14:03Z",
+      "open_issues": 143,
+      "summary": "Roundhouse 是一个用 Rust 编写的编译器，把 Rails 应用当作一种规范，将部署目标变成编译选项。它读取未经修改的 Ruby 源码，通过全程序类型推断恢复 Rails 约定中隐含的类型信息，无需类型标注、启动应用或连接数据库，一次分析即可支撑三种用途：静态检查、编辑器 LSP、MCP 服务与浏览器 IDE；将同一分析结果转译成 Rust、Go、TypeScript、Crystal、Elixir、Kotlin、Swift、Python、C# 或 Ruby 的独立项目，并用一致性预言机比对 Rails 与各目标的响应来验证正确性；或借助 Spinel 将 Ruby 直接编译为原生。",
+      "last_seen": "2026-10-26",
+      "seen_count": 4,
+      "added_at": "2026-10-09T10:50:39+00:00",
+      "windows": [
+        "daily"
+      ],
+      "tags": [
+        "tool"
+      ],
+      "primary_tag": "tool",
+      "domains": [
+        "devtools",
+        "systems"
+      ],
+      "primary_domain": "devtools"
+    },
+    {
+      "owner": "aydencharles",
+      "name": "onionHEN",
+      "full_name": "aydencharles/onionHEN",
+      "url": "https://github.com/aydencharles/onionHEN",
+      "description": "Yet another HEN enabler for jailbroken PS5",
+      "language": "C++",
+      "stars": 470,
+      "forks": 53,
+      "homepage": "",
+      "license": "GPL-3.0",
+      "created_at": "2026-07-20T03:10:14Z",
+      "pushed_at": "2026-10-15T07:42:24Z",
+      "updated_at": "2026-10-26T01:52:16Z",
+      "open_issues": 16,
+      "summary": "OnionHEN 是一个面向已越狱 PS5 的模块化 HEN 与工具箱，使用 C++ 编写。它本身不含内核漏洞，首次加载仍需借助外部 elfldr 通过 9021 端口进入，之后改用自带的 9020 端口加载器。其核心是在 ShellUI 中注入设置页，完成提权、文件系统重挂载和更新分区屏蔽，并默认加载 kstuff 以支持自制 SELF/PKG。它提供插件运行时、用户 payload 管理、游戏内叠加层、作弊引擎、FTP、ShadowMount+、DPI v2 与 Remote Play 配对等能力，插件和 payload 以独立 ELF 形式放入指定目录即可被自动发现和管理。",
+      "windows": [
+        "weekly"
+      ],
+      "added_at": "2026-10-09T11:23:13+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 8,
+      "tags": [
+        "app"
+      ],
+      "primary_tag": "app",
+      "domains": [
+        "security",
+        "systems"
+      ],
+      "primary_domain": "security"
+    },
+    {
+      "owner": "llm-d",
+      "name": "llm-d-router",
+      "full_name": "llm-d/llm-d-router",
+      "url": "https://github.com/llm-d/llm-d-router",
+      "description": "llm-d Router: The intelligent entry point for inference requests",
+      "language": "Go",
+      "stars": 432,
+      "forks": 481,
+      "homepage": "https://llm-d.ai/docs/architecture/core/router",
+      "license": "Apache-2.0",
+      "created_at": "2025-05-05T12:45:33Z",
+      "pushed_at": "2026-10-25T14:49:35Z",
+      "updated_at": "2026-10-26T01:45:19Z",
+      "open_issues": 231,
+      "summary": "llm-d Router 是面向推理请求的智能入口，由 Go 语言编写，前身为 Inference Scheduler。它通过端点选择器 EPP 与 Envoy 等生产级代理经 ext-proc 协议集成，将 KV 缓存局部性、当前负载和优先级等实时信号注入数据平面，实现负载感知与前缀缓存感知的路由、请求优先级排序和流量控制。仓库还提供 InferenceObjective 与 InferenceModelRewrite 两个请求管理 API，用于配置调度目标和模型名重写，并包含用于 P/D、E/P/D 多阶段推理的分离式边车。",
+      "last_seen": "2026-10-26",
+      "seen_count": 6,
+      "added_at": "2026-10-09T10:50:28+00:00",
+      "windows": [
+        "daily"
+      ],
+      "tags": [
+        "app"
+      ],
+      "primary_tag": "app",
+      "domains": [
+        "ai",
+        "networking",
+        "devops"
+      ],
+      "primary_domain": "ai"
+    },
+    {
+      "owner": "yash-srivastava",
+      "name": "Overdrive-release",
+      "full_name": "yash-srivastava/Overdrive-release",
+      "url": "https://github.com/yash-srivastava/Overdrive-release",
+      "description": "Advanced Sentry Mode for BYD Vehicles",
+      "language": "Java",
+      "stars": 390,
+      "forks": 111,
+      "homepage": "https://www.overdrive.qd.je/",
+      "license": "MIT",
+      "created_at": "2026-01-28T16:44:10Z",
+      "pushed_at": "2026-10-23T05:47:45Z",
+      "updated_at": "2026-10-25T18:12:01Z",
+      "open_issues": 7,
+      "summary": "OverDrive 是一款用 Java 编写的开源行车记录仪与哨兵模式应用，专为搭载 DiLink v3 的比亚迪车型设计。它把数据全部保存在车机本地，不需要云端、账号或订阅，解决的是车辆停放与行驶过程中的监控记录问题。核心能力包括通过无线 ADB 在车机上运行、后台常驻，并借助 Zrok、Cloudflared、Tailscale 或 WireGuard 等隧道实现远程访问，其中 Zrok 因无带宽限制更适合视频串流。",
+      "windows": [
+        "weekly"
+      ],
+      "added_at": "2026-10-09T11:22:02+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 8,
+      "tags": [
+        "app"
+      ],
+      "primary_tag": "app",
+      "domains": [
+        "embedded",
+        "security"
+      ],
+      "primary_domain": "embedded"
+    },
+    {
+      "owner": "sp00nznet",
+      "name": "xboxrecomp",
+      "full_name": "sp00nznet/xboxrecomp",
+      "url": "https://github.com/sp00nznet/xboxrecomp",
+      "description": "Turn any Xbox game binary into a native Windows executable. No emulation. No interpreter. Just raw, recompiled C.",
+      "language": "C",
+      "stars": 300,
+      "forks": 90,
+      "homepage": "",
+      "license": "MIT",
+      "created_at": "2026-03-06T09:08:23Z",
+      "pushed_at": "2026-10-21T01:45:29Z",
+      "updated_at": "2026-10-26T05:42:16Z",
+      "open_issues": 7,
+      "summary": "xboxrecomp 是一套面向初代 Xbox（2001–2005）游戏的静态重编译工具链，用 C 语言编写，可将零售 XBE 可执行文件中的 x86 机器码逐函数翻译为等价 C 代码，再经 MSVC 编译成原生 x86-64 Windows 程序，运行时无需模拟器或解释器。它提供运行时库、内核层、D3D8 抽象、NV2A 翻译器以及解析、反汇编、函数识别、ABI 分析和重编译的 Python 流水线，各模块依据 XBE 自身推导布局与行为，并以《Burnout 3: Takedown》作为参考标题验证。相比模拟器，其优势在于原生性能、可读可改的 C 输出、可移植性以及游戏保存价值。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-11T22:25:13+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 2,
+      "tags": [
+        "tool"
+      ],
+      "primary_tag": "tool",
+      "domains": [
+        "systems",
+        "devtools"
+      ],
+      "primary_domain": "systems"
+    },
+    {
+      "owner": "zed-0xff",
+      "name": "ZombieBuddy",
+      "full_name": "zed-0xff/ZombieBuddy",
+      "url": "https://github.com/zed-0xff/ZombieBuddy",
+      "description": "Java agent framework for Project Zomboid that enables runtime bytecode patching using ByteBuddy. Annotation-based API for modding game classes without source code access.",
+      "language": "Java",
+      "stars": 273,
+      "forks": 67,
+      "homepage": "",
+      "license": "MIT",
+      "created_at": "2025-12-03T13:34:00Z",
+      "pushed_at": "2026-10-20T19:55:51Z",
+      "updated_at": "2026-10-24T22:15:07Z",
+      "open_issues": 7,
+      "summary": "ZombieBuddy 是一个面向《Project Zomboid》模组开发者的 Java agent 框架，基于 ByteBuddy 实现运行时字节码修改，让模组作者无需获取游戏源码即可改动游戏类。它解决了以往 Java 模组需要打包 .class 文件并手动替换游戏文件的问题：补丁在运行时自动加载应用，可精准定位到具体方法，多个模组能同时修改同一个类而不冲突，游戏更新后模组也更不容易失效。核心能力包括基于 @Patch 注解声明式打补丁、对已加载类进行重转换、自动扫描补丁类、将 Java 类与全局函数暴露给 Lua，以及支持 advice 和委托两种补丁方式，并提供可配置的日志级别。",
+      "windows": [
+        "weekly"
+      ],
+      "added_at": "2026-10-10T22:23:57+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 5,
+      "tags": [
+        "framework",
+        "library"
+      ],
+      "primary_tag": "framework",
+      "domains": [
+        "graphics",
+        "devtools"
+      ],
+      "primary_domain": "graphics"
+    },
+    {
+      "owner": "BrandonKowalski",
+      "name": "slot",
+      "full_name": "BrandonKowalski/slot",
+      "url": "https://github.com/BrandonKowalski/slot",
+      "description": "A bespoke, Game Boy-centric CFW for the RG SP.",
+      "language": "Rust",
+      "stars": 258,
+      "forks": 75,
+      "homepage": "http://slot-cfw.fyi/",
+      "license": "GPL-3.0",
+      "created_at": "2026-08-09T11:59:33Z",
+      "pushed_at": "2026-10-23T03:21:13Z",
+      "updated_at": "2026-10-25T21:20:31Z",
+      "open_issues": 18,
+      "summary": "slot 是一个面向 Anbernic RG SP 掌机的定制固件前端，以 Game Boy 系列为核心，用 Rust 编写。它只支持 GBA、GBC 和 GB 三类游戏，且 ROM 必须解压后使用，无法读取 zip 或 7z 文件。其目标是给 RG SP 提供一个专属的、能唤起童年使用 GBA SP 感觉的界面，而非通用启动器。项目支持 RG28XX，该机型屏幕为竖装，slot 会自动旋转画面，若方向颠倒可在 System/launch_frontend.sh 中加入 export SLOT_ROTATE=ccw 修正。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-10T22:24:22+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 3,
+      "tags": [
+        "app"
+      ],
+      "primary_tag": "app",
+      "domains": [
+        "embedded",
+        "media"
+      ],
+      "primary_domain": "embedded"
+    },
+    {
+      "owner": "Leclowndu93150",
+      "name": "Thaumaturge",
+      "full_name": "Leclowndu93150/Thaumaturge",
+      "url": "https://github.com/Leclowndu93150/Thaumaturge",
+      "description": "",
+      "language": "Java",
+      "stars": 156,
+      "forks": 57,
+      "homepage": "",
+      "license": "NOASSERTION",
+      "created_at": "2026-07-13T11:37:45Z",
+      "pushed_at": "2026-10-26T00:07:54Z",
+      "updated_at": "2026-10-26T00:07:58Z",
+      "open_issues": 23,
+      "summary": "Thaumaturge 是一个用 Java 编写的开源项目，托管在 GitHub 上，由 Leclowndu93150 维护。从仓库名称和语言选择来看，它很可能与 Minecraft 模组开发相关，因为“Thaumaturge”在模组社区中常被用作神秘学或魔法主题模组的名称，而 Java 正是 Minecraft 模组开发的主流语言。由于该仓库的 README 文件为空，官方也没有提供一句话描述，目前无法从文档中直接获知其具体功能、设计目标或使用方式。因此，它解决什么问题、具备哪些核心能力、适合哪些典型场景，都需要通过阅读源码、提交记录或相关讨论来进一步确认。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-09T11:22:02+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 8,
+      "tags": [
+        "plugin"
+      ],
+      "primary_tag": "plugin",
+      "domains": [
+        "graphics"
+      ],
+      "primary_domain": "graphics"
+    }
+  ]
+}

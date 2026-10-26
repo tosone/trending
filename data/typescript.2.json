@@ -1,0 +1,557 @@
+{
+  "language": "typescript",
+  "label": "TypeScript",
+  "page": 2,
+  "pages": 2,
+  "count": 17,
+  "repos": [
+    {
+      "owner": "miaoxworld",
+      "name": "openclaw-manager",
+      "full_name": "miaoxworld/openclaw-manager",
+      "url": "https://github.com/miaoxworld/openclaw-manager",
+      "description": "",
+      "language": "TypeScript",
+      "stars": 1682,
+      "forks": 314,
+      "homepage": "",
+      "license": "",
+      "created_at": "2026-02-01T06:20:03Z",
+      "pushed_at": "2026-03-27T02:52:34Z",
+      "updated_at": "2026-10-24T14:08:01Z",
+      "open_issues": 48,
+      "summary": "虾池子（OpenClaw Manager）是一款基于 Tauri 2.0、React、TypeScript 与 Rust 构建的跨平台 AI 助手管理工具，主要用于集中管理 OpenClaw 相关服务与配置。它解决的是多 AI 提供商、多消息渠道和多智能体分散配置、难以统一监控的问题。核心能力包括：实时监控服务状态与日志，支持启动、停止、重启和诊断；配置 Anthropic、OpenAI、DeepSeek 等十余家 AI 提供商及自定义 API 端点；接入 Telegram、飞书、Discord、Slack 等消息渠道；创建多个 Agent 并独立分配模型、渠道与工具权限；管理内置、官方、社。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:41:30+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 5,
+      "tags": [
+        "app",
+        "tool"
+      ],
+      "primary_tag": "app",
+      "domains": [
+        "ai",
+        "devtools"
+      ],
+      "primary_domain": "ai"
+    },
+    {
+      "owner": "LodyAI",
+      "name": "Lody",
+      "full_name": "LodyAI/Lody",
+      "url": "https://github.com/LodyAI/Lody",
+      "description": "Share coding agents with your team on phone and desktop",
+      "language": "TypeScript",
+      "stars": 1568,
+      "forks": 165,
+      "homepage": "https://lody.ai",
+      "license": "Apache-2.0",
+      "created_at": "2026-08-07T02:09:16Z",
+      "pushed_at": "2026-10-26T08:18:49Z",
+      "updated_at": "2026-10-26T08:19:56Z",
+      "open_issues": 185,
+      "summary": "Lody 是一个面向团队协作的编码智能体共享工作区，使用 TypeScript 开发。它通过 ACP 协议连接 Claude Code、Codex、Kimi、OpenCode 等兼容智能体，让团队成员在桌面、手机、网页或 CLI 上打开同一段对话，查看完整记录、运行状态、文件与代码变更，并直接追加指令，无需截图或粘贴日志。机器在所有者共享前保持私有，派发任务时可选择任意已连接设备。会话可拥有独立 Git worktree，支持并行开发、分叉会话、逐轮或全量 diff 审查、行级评论以及网页应用的可视化标注反馈。智能体之间还能创建或复用会话、读取状态、传递结果，实现协调与并行分工。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:41:30+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 5,
+      "tags": [
+        "app"
+      ],
+      "primary_tag": "app",
+      "domains": [
+        "ai",
+        "devtools"
+      ],
+      "primary_domain": "ai"
+    },
+    {
+      "owner": "hellodigua",
+      "name": "code996-web",
+      "full_name": "hellodigua/code996-web",
+      "url": "https://github.com/hellodigua/code996-web",
+      "description": "code996 web端实现",
+      "language": "TypeScript",
+      "stars": 1531,
+      "forks": 55,
+      "homepage": "https://hellodigua.github.io/code996/",
+      "license": "MIT",
+      "created_at": "2021-11-18T17:30:15Z",
+      "pushed_at": "2026-07-18T11:18:50Z",
+      "updated_at": "2026-10-23T22:56:06Z",
+      "open_issues": 0,
+      "archived": true,
+      "summary": "code996-web 是 code996 脚本的网页端实现，使用 TypeScript 编写，用于查看该脚本对 Git 项目的分析结果。它通过 git-log 查询当前分支的提交记录，按小时和按天汇总 commit 分布，再将结果转为 URL 参数传入网页，由网页端按规则处理并可视化展示。核心能力包括查看提交时间分布、对比不同项目的工作时间类型，并据此计算 996 指数，用于跨团队、跨公司比较加班强度。典型场景是入职当天了解新公司加班情况、识别团队中的高强度贡献者，或对比多个项目的加班程度。项目已归档，后续更新迁移至 hellodigua/code996。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:41:30+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 5,
+      "tags": [
+        "app"
+      ],
+      "primary_tag": "app",
+      "domains": [
+        "devtools",
+        "productivity"
+      ],
+      "primary_domain": "devtools"
+    },
+    {
+      "owner": "mongodb-js",
+      "name": "compass",
+      "full_name": "mongodb-js/compass",
+      "url": "https://github.com/mongodb-js/compass",
+      "description": "The GUI for MongoDB.",
+      "language": "TypeScript",
+      "stars": 1497,
+      "forks": 288,
+      "homepage": "https://mongodb.com/compass",
+      "license": "NOASSERTION",
+      "created_at": "2015-03-02T15:39:55Z",
+      "pushed_at": "2026-10-26T05:11:22Z",
+      "updated_at": "2026-10-25T03:17:24Z",
+      "open_issues": 0,
+      "summary": "MongoDB Compass 是 MongoDB 官方推出的图形化管理界面，以 TypeScript 为主要语言开发，采用 monorepo 结构组织代码。它解决的是通过命令行操作 MongoDB 时不够直观的问题，让用户能以可视化方式连接数据库、浏览数据库与集合、执行增删改查、构建聚合管道、查看执行计划以及管理索引。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:41:30+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 5,
+      "tags": [
+        "app"
+      ],
+      "primary_tag": "app",
+      "domains": [
+        "data",
+        "devtools"
+      ],
+      "primary_domain": "data"
+    },
+    {
+      "owner": "jellydn",
+      "name": "zed-101-setup",
+      "full_name": "jellydn/zed-101-setup",
+      "url": "https://github.com/jellydn/zed-101-setup",
+      "description": "Your ultimate guide to setting up Zed with Vim mode, tailored settings, and key bindings for a seamless coding experience",
+      "language": "TypeScript",
+      "stars": 1465,
+      "forks": 30,
+      "homepage": "https://itman.fyi",
+      "license": "MIT",
+      "created_at": "2024-06-02T12:49:09Z",
+      "pushed_at": "2026-10-24T20:39:32Z",
+      "updated_at": "2026-10-24T23:51:19Z",
+      "open_issues": 1,
+      "summary": "zed-101-setup 是一份面向 Zed 编辑器的配置指南与配套仓库，主要解决从零搭建 Vim 风格开发环境时设置分散、键位与任务配置繁琐的问题。它提供一键安装脚本，会先备份已有的 settings.json、keymap.json 和 tasks.json，再将仓库版本复制到 ~/.config/zed。核心内容包括 Nerd Font 安装、Vim 模式配置、自定义设置与键位映射，并集成 zed-codemux 作为默认终端以提供复用器体验，以及 fff-gpui 实现模糊文件查找与全项目 grep。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:41:30+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 5,
+      "tags": [
+        "doc",
+        "config"
+      ],
+      "primary_tag": "doc",
+      "domains": [
+        "devtools",
+        "learning"
+      ],
+      "primary_domain": "devtools"
+    },
+    {
+      "owner": "golangci",
+      "name": "golangci-lint-action",
+      "full_name": "golangci/golangci-lint-action",
+      "url": "https://github.com/golangci/golangci-lint-action",
+      "description": "Official GitHub Action for golangci-lint from its authors",
+      "language": "TypeScript",
+      "stars": 1453,
+      "forks": 194,
+      "homepage": "https://github.com/marketplace/actions/golangci-lint",
+      "license": "MIT",
+      "created_at": "2020-01-08T10:39:04Z",
+      "pushed_at": "2026-10-01T10:26:28Z",
+      "updated_at": "2026-10-25T23:17:13Z",
+      "open_issues": 9,
+      "summary": "golangci-lint-action 是 golangci-lint 官方作者维护的 GitHub Action，用 TypeScript 编写，用于在 CI 中自动运行 golangci-lint 并报告各 linter 发现的问题。它解决了在 GitHub 工作流中集成 Go 代码静态检查的配置与缓存问题：通过 @actions/cache 缓存分析数据，并行下载缓存与二进制，并借助 actions/setup-go 处理 Go 模块缓存，避免使用较慢的 Docker 镜像拉取。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:41:30+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 5,
+      "tags": [
+        "plugin"
+      ],
+      "primary_tag": "plugin",
+      "domains": [
+        "devops",
+        "devtools"
+      ],
+      "primary_domain": "devops"
+    },
+    {
+      "owner": "zz85",
+      "name": "space-radar",
+      "full_name": "zz85/space-radar",
+      "url": "https://github.com/zz85/space-radar",
+      "description": "Fast Disk And Memory Space Visualization App for Mac, Windows and Ubuntu",
+      "language": "TypeScript",
+      "stars": 1445,
+      "forks": 81,
+      "homepage": "https://github.com/zz85/space-radar/releases",
+      "license": "MIT",
+      "created_at": "2015-10-17T20:25:08Z",
+      "pushed_at": "2026-05-28T03:01:07Z",
+      "updated_at": "2026-10-21T13:15:32Z",
+      "open_issues": 10,
+      "summary": "Space Radar 是一款用 TypeScript 编写的跨平台磁盘与内存空间可视化工具，支持 macOS、Windows 和 Ubuntu。它通过 Sunburst、Treemap 和 Flamegraph 三种图表，把磁盘占用和内存使用情况变成可交互的图形，帮助用户快速定位“到底是什么占满了硬盘”。扫描速度较快，支持边扫描边预览、暂停与恢复、取消任务，并能展示剩余空间、文件与目录数量及扫描速度。用户可以逐层下钻目录、通过面包屑导航，并在系统文件管理器中打开文件。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:41:30+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 5,
+      "tags": [
+        "app"
+      ],
+      "primary_tag": "app",
+      "domains": [
+        "systems",
+        "devtools"
+      ],
+      "primary_domain": "systems"
+    },
+    {
+      "owner": "f",
+      "name": "git-rewrite-commits",
+      "full_name": "f/git-rewrite-commits",
+      "url": "https://github.com/f/git-rewrite-commits",
+      "description": "AI-powered git commit message rewriter using Ollama or GPT",
+      "language": "TypeScript",
+      "stars": 1419,
+      "forks": 58,
+      "homepage": "https://blog.fka.dev/git-rewrite-commits/",
+      "license": "MIT",
+      "created_at": "2025-11-10T00:16:19Z",
+      "pushed_at": "2026-06-21T14:23:53Z",
+      "updated_at": "2026-10-23T23:08:34Z",
+      "open_issues": 5,
+      "summary": "git-rewrite-commits 是一款基于 TypeScript 的命令行工具，通过 Ollama 或 OpenAI GPT 自动重写 Git 提交信息。它主要解决提交历史杂乱、信息不规范的问题，适合在个人项目开源前、功能分支合并前或推送前清理本地提交。核心能力包括：按约定式提交格式生成消息、支持多语言、智能跳过已规范的提交、通过 Ollama 本地处理避免数据外泄、集成 Git 钩子实现自动生成、提供质量评分、自定义模板与提示词、支持 --max-commits 和 --dry-run 等参数。使用时会自动创建备份分支，并支持通过 COMMIT_MESSAGE.",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:41:30+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 5,
+      "tags": [
+        "tool"
+      ],
+      "primary_tag": "tool",
+      "domains": [
+        "devtools"
+      ],
+      "primary_domain": "devtools"
+    },
+    {
+      "owner": "neo4j",
+      "name": "NaLLM",
+      "full_name": "neo4j/NaLLM",
+      "url": "https://github.com/neo4j/NaLLM",
+      "description": "Repository for the NaLLM project",
+      "language": "TypeScript",
+      "stars": 1404,
+      "forks": 269,
+      "homepage": "",
+      "license": "Apache-2.0",
+      "created_at": "2023-05-02T12:10:17Z",
+      "pushed_at": "2024-06-28T02:49:59Z",
+      "updated_at": "2026-10-05T11:08:33Z",
+      "open_issues": 16,
+      "archived": true,
+      "summary": "NaLLM 是 Neo4j 官方探索图数据库与大语言模型结合方式的示例项目，主要演示三类场景：用自然语言查询知识图谱、从非结构化文本构建知识图谱，以及结合静态数据与 LLM 生成报告。项目后端基于 Python，在 api 目录的 main.py 中集中定义接口，并将 LLM 功能拆分为多个独立组件；前端为 TypeScript 编写的 React 应用，按用例分放在 ui/src 下，彼此独立。运行方式上，仓库提供 Docker 镜像构建脚本，配置 env 文件后执行 docker-compose up 即可启动前后端，界面默认在 4173 端口，后端在 7860 端口。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:41:30+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 5,
+      "tags": [
+        "example",
+        "doc"
+      ],
+      "primary_tag": "example",
+      "domains": [
+        "ai",
+        "data"
+      ],
+      "primary_domain": "ai"
+    },
+    {
+      "owner": "Gimanh",
+      "name": "taskview-community",
+      "full_name": "Gimanh/taskview-community",
+      "url": "https://github.com/Gimanh/taskview-community",
+      "description": "TaskView is a self-hosted project and task management platform focused on clarity, ownership, and control. TaskView is built for teams that want a transparent, self-hosted alternative to SaaS task managers.",
+      "language": "TypeScript",
+      "stars": 1371,
+      "forks": 134,
+      "homepage": "https://taskview.tech/",
+      "license": "NOASSERTION",
+      "created_at": "2025-12-29T21:09:59Z",
+      "pushed_at": "2026-10-25T22:39:06Z",
+      "updated_at": "2026-10-26T06:18:56Z",
+      "open_issues": 1,
+      "summary": "TaskView 是一个可自托管的项目与任务管理平台，面向需要比简单任务看板更多结构、又不愿承担大型企业级系统管理负担的软件团队。它帮助团队在自有基础设施上管理项目、任务、依赖与工时，避免将数据交给 SaaS 服务商。核心能力包括：项目、列表、任务与嵌套子任务，自定义看板和状态，优先级、标签、截止日期、依赖图、冲刺与重复任务；支持多组织、细粒度权限、SAML 2.",
+      "last_seen": "2026-10-26",
+      "seen_count": 8,
+      "added_at": "2026-10-09T10:50:16+00:00",
+      "windows": [
+        "daily"
+      ],
+      "tags": [
+        "app"
+      ],
+      "primary_tag": "app",
+      "domains": [
+        "productivity"
+      ],
+      "primary_domain": "productivity"
+    },
+    {
+      "owner": "besscroft",
+      "name": "PicImpact",
+      "full_name": "besscroft/PicImpact",
+      "url": "https://github.com/besscroft/PicImpact",
+      "description": "自部署的摄影作品网站，支持多种功能特性。PicImpact，分享你和世界！",
+      "language": "TypeScript",
+      "stars": 1313,
+      "forks": 212,
+      "homepage": "https://pic-docs.besscroft.com",
+      "license": "MIT",
+      "created_at": "2024-04-03T03:43:47Z",
+      "pushed_at": "2026-09-23T02:50:58Z",
+      "updated_at": "2026-10-24T13:49:55Z",
+      "open_issues": 18,
+      "summary": "PicImpact 是一个可自部署的摄影作品展示网站，基于 Next.js 与 Hono.js 开发，主要解决摄影师和爱好者搭建个人作品集时对展示效果、存储灵活性与访问控制的需求。它提供瀑布流相册并支持实况照片，配合基于 WebGL 的高性能查看器，利用图片分块和 LOD 技术优化大图加载，还能根据 EXIF 经纬度在地图上标记照片，点击可查看原图与 EXIF 信息并支持直链访问。图片存储兼容 S3 API、Cloudflare R2 和 Open List API，支持标签筛选、RSS 输出与批量上传，上传时自动生成压缩预览图。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:41:30+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 5,
+      "tags": [
+        "app"
+      ],
+      "primary_tag": "app",
+      "domains": [
+        "media",
+        "web"
+      ],
+      "primary_domain": "media"
+    },
+    {
+      "owner": "Bennettxai",
+      "name": "FounderOS",
+      "full_name": "Bennettxai/FounderOS",
+      "url": "https://github.com/Bennettxai/FounderOS",
+      "description": "An open-source, single-operator business command center: run a one-person operated company as AI-assisted departments (comms, funnel, social, finances, agents, and a knowledge graph) from one live dashboard.",
+      "language": "TypeScript",
+      "stars": 1250,
+      "forks": 349,
+      "homepage": "https://founderos.sh",
+      "license": "MIT",
+      "created_at": "2026-07-07T11:58:37Z",
+      "pushed_at": "2026-10-23T20:46:39Z",
+      "updated_at": "2026-10-26T00:37:40Z",
+      "open_issues": 2,
+      "summary": "FounderOS 是一套面向单人公司的开源业务指挥中心，用 Go 语言编写，把沟通、客户漏斗、社交增长、财务、知识图谱和一组各司其职的 AI 代理整合到同一个实时仪表盘中。它解决的是自由职业者、独立创业者或小团队负责人被大量标签页、工具和心智负担撕扯的问题：你负责定方向，AI 代理覆盖各个“部门”，现有员工也接入同一块看板。v2 版本保留原有操作界面，改由 BusinessOS 与 Optimal Engine 支撑，操作视图位于 /os，并自带工作区、角色、团队、模块桌面和终端。",
+      "windows": [
+        "weekly"
+      ],
+      "added_at": "2026-10-11T22:24:52+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 4,
+      "tags": [
+        "app"
+      ],
+      "primary_tag": "app",
+      "domains": [
+        "productivity",
+        "ai"
+      ],
+      "primary_domain": "productivity"
+    },
+    {
+      "owner": "LuxAlgo",
+      "name": "Vela",
+      "full_name": "LuxAlgo/Vela",
+      "url": "https://github.com/LuxAlgo/Vela",
+      "description": "Fast, extensible financial charts for the web. The open-source core of Vela by LuxAlgo.",
+      "language": "TypeScript",
+      "stars": 1231,
+      "forks": 244,
+      "homepage": "https://www.velacharts.dev",
+      "license": "Apache-2.0",
+      "created_at": "2026-07-13T16:21:40Z",
+      "pushed_at": "2026-10-22T12:44:30Z",
+      "updated_at": "2026-10-25T22:01:59Z",
+      "open_issues": 30,
+      "summary": "Vela 是 LuxAlgo 开源的 Web 金融图表核心，使用 TypeScript 编写，采用无头架构与自研 WebGL2 渲染器（并提供 canvas2d 回退）。它把数据模型、引擎、绘图与渲染分层解耦，数据源、脚本引擎、渲染器都通过公开接口接入，可独立替换。开发者既能直接调用无头核心完全用代码驱动图表，也能引入 workspace 一次性获得完整图表应用，包括多图网格、共享顶栏、状态栏、对象树与键盘操作。内置七十多种技术指标，支持 Binance、Coinbase、Hyperliquid 等数据源，也可传入自有数据离线运行。通过插件 SDK 可注册自定义图表类型与画布图层。",
+      "windows": [
+        "weekly"
+      ],
+      "added_at": "2026-10-09T11:00:09+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 5,
+      "tags": [
+        "library"
+      ],
+      "primary_tag": "library",
+      "domains": [
+        "web",
+        "graphics"
+      ],
+      "primary_domain": "web"
+    },
+    {
+      "owner": "prettier",
+      "name": "tslint-config-prettier",
+      "full_name": "prettier/tslint-config-prettier",
+      "url": "https://github.com/prettier/tslint-config-prettier",
+      "description": "Use TSLint with Prettier without any conflict",
+      "language": "TypeScript",
+      "stars": 1225,
+      "forks": 37,
+      "homepage": "",
+      "license": "MIT",
+      "created_at": "2017-06-07T10:14:02Z",
+      "pushed_at": "2023-01-03T16:36:41Z",
+      "updated_at": "2026-10-08T18:17:06Z",
+      "open_issues": 2,
+      "summary": "tslint-config-prettier 是一个用于 TypeScript 项目的配置包，目的是让 TSLint 与 Prettier 在同一工程中协同工作而不产生规则冲突。Prettier 负责代码格式化，TSLint 负责其他静态检查，但两者在格式相关规则上常有重叠，容易互相报错。该配置通过关闭 TSLint 中所有与 Prettier 冲突的规则来解决这一问题。使用时只需在 tslint.",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:41:30+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 5,
+      "tags": [
+        "config",
+        "tool"
+      ],
+      "primary_tag": "config",
+      "domains": [
+        "devtools"
+      ],
+      "primary_domain": "devtools"
+    },
+    {
+      "owner": "Gisto",
+      "name": "Gisto",
+      "full_name": "Gisto/Gisto",
+      "url": "https://github.com/Gisto/Gisto",
+      "description": "Gisto is a Cross-platform snippets management application that allows you and/or your team share code snippets fast and easily.  Based on GitHub Gists or GitLab snippets Infrastructure which means you can use all your existing snippets by connecting your GitHub/GitLab account!",
+      "language": "TypeScript",
+      "stars": 1172,
+      "forks": 102,
+      "homepage": "https://gisto.org",
+      "license": "MIT",
+      "created_at": "2013-04-04T00:14:32Z",
+      "pushed_at": "2026-10-20T17:41:23Z",
+      "updated_at": "2026-10-23T12:09:38Z",
+      "open_issues": 8,
+      "summary": "Gisto 是一款跨平台的代码片段管理工具，帮助个人或团队快速、便捷地共享代码片段。它基于 GitHub Gists、GitLab Snippets 或浏览器本地数据库运行，让你能直接复用已有的 GitHub/GitLab 账户中的片段。核心功能包括高级搜索、标签、语法高亮、按语言分组、快速复制到剪贴板、在 plunkr、jsfiddle 等外部工具中打开，以及主题切换和编辑器设置。它支持 GitHub/GitLab 令牌认证，也提供无需账户的本地存储模式，片段保存在浏览器 IndexedDB 中，可导出导入 JSON。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:41:30+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 5,
+      "tags": [
+        "app"
+      ],
+      "primary_tag": "app",
+      "domains": [
+        "devtools",
+        "productivity"
+      ],
+      "primary_domain": "devtools"
+    },
+    {
+      "owner": "saintedlama",
+      "name": "passport-local-mongoose",
+      "full_name": "saintedlama/passport-local-mongoose",
+      "url": "https://github.com/saintedlama/passport-local-mongoose",
+      "description": "Passport-Local Mongoose is a Mongoose plugin that simplifies building username and password login with Passport",
+      "language": "TypeScript",
+      "stars": 1164,
+      "forks": 288,
+      "homepage": "",
+      "license": "MIT",
+      "created_at": "2012-11-22T13:25:04Z",
+      "pushed_at": "2026-10-12T10:59:08Z",
+      "updated_at": "2026-10-22T14:25:52Z",
+      "open_issues": 3,
+      "summary": "Passport-Local Mongoose 是一个 TypeScript 编写的 Mongoose 插件，用于简化基于 Passport 的用户名密码登录功能的搭建。它解决的核心问题是：开发者无需手动处理密码哈希、盐值存储、登录失败限制等繁琐逻辑，只需将插件接入 User schema，即可自动获得 username、hash、salt 等字段以及 setPassword、authenticate、changePassword 等实例方法。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:41:30+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 5,
+      "tags": [
+        "plugin",
+        "library"
+      ],
+      "primary_tag": "plugin",
+      "domains": [
+        "web",
+        "security"
+      ],
+      "primary_domain": "web"
+    },
+    {
+      "owner": "mrifqidaffaaditya",
+      "name": "WA-AKG",
+      "full_name": "mrifqidaffaaditya/WA-AKG",
+      "url": "https://github.com/mrifqidaffaaditya/WA-AKG",
+      "description": "A self-hosted WhatsApp Gateway & Dashboard built with Next.js 16, Baileys, and Prisma. Manage multi-session accounts, schedule messages, create auto-replies, and integrate via Webhooks.",
+      "language": "TypeScript",
+      "stars": 775,
+      "forks": 229,
+      "homepage": "https://wa-akg.aikeigroup.net",
+      "license": "MIT",
+      "created_at": "2026-01-10T07:21:39Z",
+      "pushed_at": "2026-10-26T01:38:22Z",
+      "updated_at": "2026-10-26T06:48:44Z",
+      "open_issues": 4,
+      "summary": "WA-AKG 是一个自托管的 WhatsApp 网关与仪表盘，使用 Next.js 15、Baileys 和 Prisma 构建，将 WhatsApp 账号转化为可编程的 RESTful API。它解决的是多账号管理、消息自动化与业务系统集成的问题，适合搭建客服网关、聊天机器人或营销自动化流程。核心能力包括：通过扫码同时连接多个 WhatsApp 账号，基于 Baileys 的 WebSocket 连接，支持带媒体附件的定时发送、随机延迟与分批处理的防封广播、按关键词和群组或私聊上下文触发的自动回复，以及命令与自动回复的白名单和黑名单控制。",
+      "windows": [
+        "weekly"
+      ],
+      "added_at": "2026-10-09T11:00:09+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 5,
+      "tags": [
+        "app"
+      ],
+      "primary_tag": "app",
+      "domains": [
+        "networking",
+        "productivity"
+      ],
+      "primary_domain": "networking"
+    }
+  ]
+}

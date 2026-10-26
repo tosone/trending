@@ -1,0 +1,2096 @@
+{
+  "language": "go",
+  "label": "Go",
+  "page": 3,
+  "pages": 3,
+  "count": 66,
+  "repos": [
+    {
+      "owner": "jondot",
+      "name": "goweight",
+      "full_name": "jondot/goweight",
+      "url": "https://github.com/jondot/goweight",
+      "description": "A tool to analyze and troubleshoot a Go binary size.",
+      "language": "Go",
+      "stars": 1707,
+      "forks": 50,
+      "homepage": "",
+      "license": "MIT",
+      "created_at": "2018-09-21T13:51:56Z",
+      "pushed_at": "2024-04-10T22:16:07Z",
+      "updated_at": "2026-09-24T09:50:41Z",
+      "open_issues": 7,
+      "summary": "goweight 是一个用 Go 语言编写的命令行工具，用于分析和排查 Go 二进制文件的体积构成。它能将二进制中各个模块的大小拆解出来，帮助开发者定位究竟是哪些依赖或代码导致体积膨胀。该工具支持 Go 1.11 引入的模块机制，也兼容此前的版本，并可将结果输出为 JSON，便于在持续集成流程中跟踪或监控体积变化。典型使用场景是在构建产物偏大时，快速查看各模块的占比，从而决定是否裁剪依赖或调整编译方式。作为用 Go 实现的自举型工具，goweight 本身也可作为分析对象，其输出能直观展示自身各模块的体积分布。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:39:58+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 4,
+      "tags": [
+        "tool"
+      ],
+      "primary_tag": "tool",
+      "domains": [
+        "devtools"
+      ],
+      "primary_domain": "devtools"
+    },
+    {
+      "owner": "henson",
+      "name": "proxypool",
+      "full_name": "henson/proxypool",
+      "url": "https://github.com/henson/proxypool",
+      "description": "Golang实现的IP代理池",
+      "language": "Go",
+      "stars": 1700,
+      "forks": 338,
+      "homepage": "",
+      "license": "Apache-2.0",
+      "created_at": "2017-03-30T05:39:43Z",
+      "pushed_at": "2023-09-04T15:16:14Z",
+      "updated_at": "2026-10-21T12:42:38Z",
+      "open_issues": 34,
+      "summary": "proxypool 是一个用 Go 语言实现的 IP 代理池，主要采集免费代理资源，为爬虫提供可用的 IP 代理。它由四部分组成：Getter 负责从多个免费代理源抓取代理，目前支持九个网站，也可自行扩展；Channel 临时存放采集到的代理，并通过访问稳定网站验证其有效性；Schedule 定时检测数据库中代理的可用性，删除失效代理并主动获取新代理；Api 提供 get 接口输出 JSON，方便爬虫直接调用。项目使用 xorm 处理数据库，支持 mysql、mssql、postgres 和 sqlite3，并加入日志、代理速度验证与慢代理过滤、异常恢复等机制，结构简洁，适合二次开发。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:39:58+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 4,
+      "tags": [
+        "app",
+        "tool"
+      ],
+      "primary_tag": "app",
+      "domains": [
+        "networking"
+      ],
+      "primary_domain": "networking"
+    },
+    {
+      "owner": "open-telemetry",
+      "name": "opentelemetry-go-contrib",
+      "full_name": "open-telemetry/opentelemetry-go-contrib",
+      "url": "https://github.com/open-telemetry/opentelemetry-go-contrib",
+      "description": "Collection of extensions for OpenTelemetry-Go.",
+      "language": "Go",
+      "stars": 1682,
+      "forks": 857,
+      "homepage": "https://opentelemetry.io/",
+      "license": "Apache-2.0",
+      "created_at": "2020-02-21T18:12:36Z",
+      "pushed_at": "2026-10-25T22:39:18Z",
+      "updated_at": "2026-10-25T15:32:12Z",
+      "open_issues": 121,
+      "summary": "OpenTelemetry-Go Contrib 是 OpenTelemetry-Go 的第三方扩展集合，主要解决官方核心库之外、针对具体生态组件的可观测性接入问题。它提供多类包：面向第三方库的插桩、上下文传播器、云环境资源检测器、导出器、采样器、处理器，以及适配其他插桩框架的桥接层，并附有使用示例。项目同时包含稳定与不稳定模块，各模块的版本和稳定性需参考其版本清单与版本文档。它跟随 Go 语言当前受支持的版本保持兼容，每个 Go 大版本支持到出现两个更新的大版本为止，对不再受上游支持的 Go 版本会先添加新版本支持、再移除最旧版本的兼容性测试。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:39:58+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 4,
+      "tags": [
+        "library",
+        "plugin"
+      ],
+      "primary_tag": "library",
+      "domains": [
+        "devops"
+      ],
+      "primary_domain": "devops"
+    },
+    {
+      "owner": "alibaba",
+      "name": "kt-connect",
+      "full_name": "alibaba/kt-connect",
+      "url": "https://github.com/alibaba/kt-connect",
+      "description": "A toolkit for Integrating with your kubernetes dev environment more efficiently",
+      "language": "Go",
+      "stars": 1677,
+      "forks": 249,
+      "homepage": "https://alibaba.github.io/kt-connect/#/",
+      "license": "GPL-3.0",
+      "created_at": "2019-07-09T08:03:28Z",
+      "pushed_at": "2024-06-18T04:02:08Z",
+      "updated_at": "2026-10-23T08:45:15Z",
+      "open_issues": 104,
+      "summary": "KtConnect 是阿里巴巴开源的一款 Kubernetes 开发环境协作工具，使用 Go 语言编写，名字中的 Kt 是 Kubernetes Toolkit 的缩写。它主要解决开发者在本地调试时难以直接访问远程集群服务、以及无法将集群流量引到本地的问题。其核心能力包括四个方面：Connect 通过 ssh-vpn 或 socks-proxy 让开发者直接访问远程集群网络；Exchange 可将指定工作负载的请求重定向到本地应用；Mesh 能在本地创建网格版本服务，把特定工作负载的请求转发到本地；Preview 则把本地运行的应用暴露为集群内的普通服务，使发往该服务的请求都转向本地。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:39:58+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 4,
+      "tags": [
+        "tool"
+      ],
+      "primary_tag": "tool",
+      "domains": [
+        "devops",
+        "devtools"
+      ],
+      "primary_domain": "devops"
+    },
+    {
+      "owner": "mikespook",
+      "name": "gorbac",
+      "full_name": "mikespook/gorbac",
+      "url": "https://github.com/mikespook/gorbac",
+      "description": "goRBAC provides a lightweight role-based access control (RBAC) implementation in Golang.",
+      "language": "Go",
+      "stars": 1676,
+      "forks": 180,
+      "homepage": "",
+      "license": "MIT",
+      "created_at": "2013-12-26T10:00:41Z",
+      "pushed_at": "2026-07-21T00:28:11Z",
+      "updated_at": "2026-10-12T22:08:47Z",
+      "open_issues": 3,
+      "summary": "goRBAC 是一个用 Go 语言实现的轻量级基于角色的访问控制库，主要解决身份、角色与权限之间的授权管理问题。它采用多对多模型：一个身份可拥有多个角色，一个角色可申请多个权限，角色之间还支持父子继承以传递权限。核心能力包括两阶段使用方式——先准备角色、权限并建立继承关系，再进行权限检查；同时提供断言函数实现更细粒度的控制，以及 InherCircle 检测继承环、AnyGranted 与 AllGranted 判断角色是否具备权限、Walk 遍历所有角色等工具函数。该库当前使用 Go 泛型，要求 Go 1.",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:39:58+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 4,
+      "tags": [
+        "library"
+      ],
+      "primary_tag": "library",
+      "domains": [
+        "security"
+      ],
+      "primary_domain": "security"
+    },
+    {
+      "owner": "sanity-io",
+      "name": "litter",
+      "full_name": "sanity-io/litter",
+      "url": "https://github.com/sanity-io/litter",
+      "description": "Litter is a pretty printer library for Go data structures to aid in debugging and testing.",
+      "language": "Go",
+      "stars": 1654,
+      "forks": 61,
+      "homepage": "",
+      "license": "MIT",
+      "created_at": "2017-03-20T16:06:41Z",
+      "pushed_at": "2026-05-04T10:47:31Z",
+      "updated_at": "2026-10-23T08:06:38Z",
+      "open_issues": 16,
+      "summary": "Litter 是一个用 Go 编写的格式化打印库，用于辅助调试和测试。它输出的是 Go 字面量形式的字符串，因此打印结果本身就是语法正确的 Go 代码，方便直接阅读和比对。它解决了在调试或单元测试中查看复杂数据结构时输出混乱、难以比较的问题，相比 JSON 或 YAML 更适合作为测试快照数据，因为每次输出都保持一致且有序。核心特点包括：能检测循环引用或别名，并用别名替换重复引用；输出带有完整的换行、缩进、类型和别名信息；提供 Dump 直接打印到标准输出，Sdump 返回字符串，并可通过全局或局部配置调整行为；还支持实现 Dumper 接口自定义类型的打印方式。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:39:58+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 4,
+      "tags": [
+        "library"
+      ],
+      "primary_tag": "library",
+      "domains": [
+        "devtools"
+      ],
+      "primary_domain": "devtools"
+    },
+    {
+      "owner": "helm",
+      "name": "chart-testing",
+      "full_name": "helm/chart-testing",
+      "url": "https://github.com/helm/chart-testing",
+      "description": "CLI tool for linting and testing Helm charts",
+      "language": "Go",
+      "stars": 1645,
+      "forks": 251,
+      "homepage": "",
+      "license": "Apache-2.0",
+      "created_at": "2017-11-30T17:10:43Z",
+      "pushed_at": "2026-10-21T23:03:30Z",
+      "updated_at": "2026-10-15T07:56:48Z",
+      "open_issues": 1,
+      "summary": "chart-testing 是 Helm 官方生态下的命令行工具，用 Go 语言编写，用于对 Helm chart 进行 lint 和测试，主要面向拉取请求场景。它能自动检测相对于目标分支发生变更的 chart，从而只对改动部分执行检查，减少无关开销。核心命令包括 ct lint、ct install、ct lint-and-install、ct list-changed 等，可完成语法校验、安装验证和变更列表输出。工具支持通过命令行参数、CT_ 前缀环境变量和配置文件三种方式配置，优先级依次为命令行、环境变量、配置文件，配置格式兼容 JSON、TOML、YAML、HCL 等。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:39:58+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 4,
+      "tags": [
+        "tool"
+      ],
+      "primary_tag": "tool",
+      "domains": [
+        "devops",
+        "devtools"
+      ],
+      "primary_domain": "devops"
+    },
+    {
+      "owner": "wellle",
+      "name": "rmq",
+      "full_name": "wellle/rmq",
+      "url": "https://github.com/wellle/rmq",
+      "description": "Message queue system written in Go and backed by Redis",
+      "language": "Go",
+      "stars": 1616,
+      "forks": 207,
+      "homepage": "",
+      "license": "MIT",
+      "created_at": "2015-08-23T17:08:08Z",
+      "pushed_at": "2024-12-13T13:54:57Z",
+      "updated_at": "2026-10-19T17:41:19Z",
+      "open_issues": 2,
+      "summary": "rmq 是一个用 Go 编写、以 Redis 作为后端存储的消息队列系统，名称取自 Redis message queue。它面向需要在 Go 服务中实现异步任务分发的场景，通过 Redis 列表保存字符串形式的投递内容，队列在首次访问时自动创建，无需提前声明。使用时先通过 OpenConnection 或 OpenClusterConnection 建立连接，再打开具名队列，生产者可发布字符串或结构体的 JSON 表示，消费者则通过 StartConsuming 设置预取上限和轮询间隔后加入。每个消费者同一时刻只处理一条投递，并需调用 Ack、Reject 或 Push 之一。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:39:58+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 4,
+      "tags": [
+        "library"
+      ],
+      "primary_tag": "library",
+      "domains": [
+        "networking"
+      ],
+      "primary_domain": "networking"
+    },
+    {
+      "owner": "kai-scheduler",
+      "name": "KAI-Scheduler",
+      "full_name": "kai-scheduler/KAI-Scheduler",
+      "url": "https://github.com/kai-scheduler/KAI-Scheduler",
+      "description": "KAI Scheduler is an open source Kubernetes Native scheduler for AI workloads at large scale",
+      "language": "Go",
+      "stars": 1613,
+      "forks": 312,
+      "homepage": "",
+      "license": "Apache-2.0",
+      "created_at": "2025-02-26T20:39:42Z",
+      "pushed_at": "2026-10-26T07:03:40Z",
+      "updated_at": "2026-10-26T07:53:20Z",
+      "open_issues": 108,
+      "summary": "KAI Scheduler 是一个用 Go 编写的开源 Kubernetes 原生调度器，面向大规模 AI 工作负载，专为管理数千节点规模的 GPU 集群和高吞吐任务而设计。它解决的核心问题是 GPU 资源的动态分配与公平使用，支持从交互式小任务到大规模训练和推理的完整 AI 生命周期，并可与其他调度器共存。其核心能力包括批调度（Gang Scheduling）、装箱与打散调度、层级队列与配额管理、基于 DRF 和时间衰减的公平策略、拓扑感知调度、分层 PodGroup、GPU 共享、动态资源分配（DRA）、弹性工作负载与工作负载整合等。",
+      "last_seen": "2026-10-26",
+      "seen_count": 6,
+      "added_at": "2026-10-09T10:50:28+00:00",
+      "windows": [
+        "daily"
+      ],
+      "tags": [
+        "app"
+      ],
+      "primary_tag": "app",
+      "domains": [
+        "devops",
+        "ai"
+      ],
+      "primary_domain": "devops"
+    },
+    {
+      "owner": "fzipp",
+      "name": "gocyclo",
+      "full_name": "fzipp/gocyclo",
+      "url": "https://github.com/fzipp/gocyclo",
+      "description": "Calculate cyclomatic complexities of functions in Go source code.",
+      "language": "Go",
+      "stars": 1611,
+      "forks": 97,
+      "homepage": "",
+      "license": "BSD-3-Clause",
+      "created_at": "2014-01-21T17:05:17Z",
+      "pushed_at": "2025-12-27T21:31:09Z",
+      "updated_at": "2026-10-23T05:42:23Z",
+      "open_issues": 10,
+      "summary": "gocyclo 是一个用 Go 编写的命令行工具，用于计算 Go 源码中各个函数的圈复杂度。圈复杂度是一项代码质量指标，通过衡量函数源码中线性独立路径的数量，帮助识别需要重构的代码。函数圈复杂度越高，覆盖所有可能路径所需的测试用例就越多，代码也越难理解，因此可以借助常见的重构手法将其拆分为更小的函数来降低复杂度。该工具会输出每个函数的复杂度数值，并给出所有被分析函数的平均值，而平均值并非只基于被打印出来的函数计算。它还支持通过 gocyclo:ignore 指令忽略特定函数。典型使用场景是在 Go 项目的开发或持续集成流程中检查代码质量，辅助定位复杂度偏高的函数。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:39:58+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 4,
+      "tags": [
+        "tool"
+      ],
+      "primary_tag": "tool",
+      "domains": [
+        "devtools"
+      ],
+      "primary_domain": "devtools"
+    },
+    {
+      "owner": "mattn",
+      "name": "anko",
+      "full_name": "mattn/anko",
+      "url": "https://github.com/mattn/anko",
+      "description": "Scriptable interpreter written in golang",
+      "language": "Go",
+      "stars": 1586,
+      "forks": 135,
+      "homepage": "",
+      "license": "MIT",
+      "created_at": "2014-03-28T07:29:40Z",
+      "pushed_at": "2026-07-10T01:32:16Z",
+      "updated_at": "2026-10-21T12:39:24Z",
+      "open_issues": 14,
+      "summary": "Anko 是一个用 Go 语言编写的可脚本化解释器，主要解决在 Go 程序中嵌入动态脚本能力的问题。它允许开发者在 Go 应用里直接执行 Anko 脚本，从而在不重新编译主程序的情况下调整逻辑或扩展功能。其核心能力包括变量声明、算术运算、if-else 条件判断等基础语法，并支持调用外部定义的函数，例如通过 println 输出结果。使用方式分为两类：一是作为库嵌入到 Go 项目中，相关示例可参考 GoDoc 上的 vm 包文档；二是通过命令行构建并运行名为 script.ank 的脚本文件。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:39:58+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 4,
+      "tags": [
+        "library"
+      ],
+      "primary_tag": "library",
+      "domains": [
+        "systems",
+        "devtools"
+      ],
+      "primary_domain": "systems"
+    },
+    {
+      "owner": "headzoo",
+      "name": "surf",
+      "full_name": "headzoo/surf",
+      "url": "https://github.com/headzoo/surf",
+      "description": "Stateful programmatic web browsing in Go.",
+      "language": "Go",
+      "stars": 1544,
+      "forks": 160,
+      "homepage": "",
+      "license": "MIT",
+      "created_at": "2014-08-25T06:29:53Z",
+      "pushed_at": "2024-01-24T19:54:47Z",
+      "updated_at": "2026-10-13T15:29:43Z",
+      "open_issues": 41,
+      "summary": "Surf 是一个用 Go 语言编写的库，它在程序中实现了一个可编程控制的虚拟网页浏览器。与单纯下载网页内容的工具不同，Surf 的设计目标是模拟真实浏览器的行为，解决在自动化流程中需要维持会话状态、处理交互的问题。它的核心能力包括 Cookie 管理、历史记录、书签、用户代理伪装（并提供用户代理构建器）、表单提交，以及通过 jQuery 风格的 CSS 选择器进行 DOM 选取与遍历，还能抓取图片、样式表等资源。Surf 基于 goquery 构建，适合用于编写需要登录、翻页、提交表单或按页面结构提取数据的 Go 程序，例如自动化测试、爬虫和站点监控等场景。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:39:58+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 4,
+      "tags": [
+        "library"
+      ],
+      "primary_tag": "library",
+      "domains": [
+        "web"
+      ],
+      "primary_domain": "web"
+    },
+    {
+      "owner": "tkestack",
+      "name": "tke",
+      "full_name": "tkestack/tke",
+      "url": "https://github.com/tkestack/tke",
+      "description": "Native Kubernetes container management platform supporting multi-tenant and multi-cluster",
+      "language": "Go",
+      "stars": 1530,
+      "forks": 331,
+      "homepage": "",
+      "license": "NOASSERTION",
+      "created_at": "2019-11-06T07:48:30Z",
+      "pushed_at": "2024-08-01T07:03:52Z",
+      "updated_at": "2026-10-19T23:31:20Z",
+      "open_issues": 78,
+      "summary": "TKEStack 是腾讯开源的 Kubernetes 容器管理平台，用 Go 语言编写，面向在生产环境中部署容器的组织，帮助用户更方便地在各处运行 Kubernetes。它主要解决多集群、多租户场景下的统一管理问题，提供 Web 控制台和命令行客户端来集中管理多个 Kubernetes 集群，并支持对接 LDAP、OIDC、前置代理及 GitHub 等外部认证方式，授权可细化到集群和 Kubernetes 资源级别，同时通过团队与用户隔离实现多租户。在应用负载方面，它提供可视化界面和 YAML 导入等方式创建、编辑资源，并以项目级抽象支持跨集群、多命名空间部署。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:39:58+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 4,
+      "tags": [
+        "app"
+      ],
+      "primary_tag": "app",
+      "domains": [
+        "devops"
+      ],
+      "primary_domain": "devops"
+    },
+    {
+      "owner": "gobuffalo",
+      "name": "pop",
+      "full_name": "gobuffalo/pop",
+      "url": "https://github.com/gobuffalo/pop",
+      "description": "A Tasty Treat For All Your Database Needs",
+      "language": "Go",
+      "stars": 1525,
+      "forks": 251,
+      "homepage": "",
+      "license": "MIT",
+      "created_at": "2018-02-07T21:13:46Z",
+      "pushed_at": "2026-10-18T10:46:24Z",
+      "updated_at": "2026-10-21T12:40:20Z",
+      "open_issues": 91,
+      "summary": "Pop 是一个 Go 语言的数据库操作库，它封装了 sqlx，用于简化 Go 中常见的数据库处理流程。它主要解决的是在 Go 里直接操作数据库时重复代码多、模式不统一的问题，让增删改查、迁移和查询构建变得更简单。Pop 默认遵循受 ActiveRecord 影响的约定：表必须有 id 列，结构体对应 ID 字段；若存在 created_at 和 updated_at 时间戳列，创建和更新记录时会自动填充当前时间；默认表名为结构体名的小写、复数、下划线形式，例如 User 对应 users，FooBar 对应 foo_bars。它的核心能力包括 CRUD 操作、运行迁移以及构建和执行查询。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:39:58+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 4,
+      "tags": [
+        "library"
+      ],
+      "primary_tag": "library",
+      "domains": [
+        "data"
+      ],
+      "primary_domain": "data"
+    },
+    {
+      "owner": "bits-and-blooms",
+      "name": "bitset",
+      "full_name": "bits-and-blooms/bitset",
+      "url": "https://github.com/bits-and-blooms/bitset",
+      "description": "Go package implementing bitsets",
+      "language": "Go",
+      "stars": 1514,
+      "forks": 193,
+      "homepage": "https://bits-and-blooms.github.io/bitset/",
+      "license": "BSD-3-Clause",
+      "created_at": "2011-05-11T03:33:44Z",
+      "pushed_at": "2026-10-20T17:13:26Z",
+      "updated_at": "2026-10-20T17:13:32Z",
+      "open_issues": 0,
+      "summary": "bitset 是一个用 Go 语言实现的位集合库，用于在非负整数与布尔值之间建立映射，相比 map[uint]bool 更加高效。它支持对单个整数进行设置、清除、翻转和测试，同时提供集合的交集、并集、差集、补集以及对称差等运算，还能检查是否存在任意位、全部位或没有位被设置，并查询当前长度和置位数量。位集合会扩展到最大置位的大小，内存分配约为最大位数，且不会自动收缩，但提供了 Shrink 和 Compact 方法，创建时也可给出预期位数提示。Set、Clear、Flip 等许多方法返回 BitSet 指针，便于链式调用。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:39:58+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 4,
+      "tags": [
+        "library"
+      ],
+      "primary_tag": "library",
+      "domains": [
+        "systems"
+      ],
+      "primary_domain": "systems"
+    },
+    {
+      "owner": "golang",
+      "name": "vgo",
+      "full_name": "golang/vgo",
+      "url": "https://github.com/golang/vgo",
+      "description": "[mirror] Versioned Go Prototype",
+      "language": "Go",
+      "stars": 1510,
+      "forks": 62,
+      "homepage": "",
+      "license": "BSD-3-Clause",
+      "created_at": "2018-02-20T18:39:53Z",
+      "pushed_at": "2026-07-10T06:03:25Z",
+      "updated_at": "2026-08-27T10:43:20Z",
+      "open_issues": 0,
+      "summary": "golang/vgo 是 Go 官方提供的版本化 Go 命令原型，现已废弃，其全部功能均已并入 Go 主工具链，仅具历史参考价值。它最初以独立实现的形式存在，让使用 Go 1.10 工具链的用户也能体验 Go 1.11 引入的模块支持，从而解决旧版本无法感知依赖版本、难以管理包版本的问题。该仓库代码由 Go 1.11 的 go 命令自动生成，行为基本一致，仅有两处差异：默认将 GO111MODULE 视为开启，并在 Go 1.10 工具链下禁用 go test 中的 go vet。用户可通过 go get -u golang.org/x/vgo 安装。它适用于需要在 Go 1.",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:39:58+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 4,
+      "tags": [
+        "tool"
+      ],
+      "primary_tag": "tool",
+      "domains": [
+        "devtools"
+      ],
+      "primary_domain": "devtools"
+    },
+    {
+      "owner": "appleboy",
+      "name": "CodeGPT",
+      "full_name": "appleboy/CodeGPT",
+      "url": "https://github.com/appleboy/CodeGPT",
+      "description": "A CLI written in Go language that writes git commit messages or do a code review brief for you using ChatGPT AI (gpt-4.1, gpt-4o model) and automatically installs a git prepare-commit-msg hook.",
+      "language": "Go",
+      "stars": 1504,
+      "forks": 133,
+      "homepage": "",
+      "license": "MIT",
+      "created_at": "2023-03-04T13:49:29Z",
+      "pushed_at": "2026-09-29T14:01:56Z",
+      "updated_at": "2026-10-26T02:29:45Z",
+      "open_issues": 9,
+      "summary": "CodeGPT 是一个用 Go 语言编写的命令行工具，借助 ChatGPT 等大模型自动生成 Git 提交信息或代码审查摘要，并可自动安装 git prepare-commit-msg 钩子。它解决的是开发者手写提交说明繁琐、格式不统一的问题，生成内容遵循 conventional commits 规范。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:39:58+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 4,
+      "tags": [
+        "tool"
+      ],
+      "primary_tag": "tool",
+      "domains": [
+        "devtools",
+        "ai"
+      ],
+      "primary_domain": "devtools"
+    },
+    {
+      "owner": "iamduo",
+      "name": "workq",
+      "full_name": "iamduo/workq",
+      "url": "https://github.com/iamduo/workq",
+      "description": "Job server in Go",
+      "language": "Go",
+      "stars": 1497,
+      "forks": 73,
+      "homepage": "",
+      "license": "MPL-2.0",
+      "created_at": "2016-08-05T08:23:05Z",
+      "pushed_at": "2018-09-23T16:56:55Z",
+      "updated_at": "2026-10-17T12:58:18Z",
+      "open_issues": 4,
+      "archived": true,
+      "summary": "Workq 是一个用 Go 编写的作业调度服务器，以独立 TCP 服务形式运行，通过简单的文本协议与客户端进行请求/响应式交互，语言无关。它主要解决作业调度、并发控制和分布式任务协调问题，支持异步提交后按 TTL 取回结果，也支持类似 Gearman 的同步等待模式，并可在任意未来 UTC 时间调度一次性作业。核心能力包括数值优先级、每作业 TTR 超时重入队、TTL 自动删除、最大尝试次数与最大失败次数重试，以及内存存储配合持久化命令日志。典型场景涵盖定时器、为缺少并发支持的语言提供后台并发处理、跨语言分发工作，以及由 Workq 作为协调者向多个 worker 派发任务并保存执行结果。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:39:58+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 4,
+      "tags": [
+        "app"
+      ],
+      "primary_tag": "app",
+      "domains": [
+        "devops",
+        "networking"
+      ],
+      "primary_domain": "devops"
+    },
+    {
+      "owner": "mkubaczyk",
+      "name": "helmsman",
+      "full_name": "mkubaczyk/helmsman",
+      "url": "https://github.com/mkubaczyk/helmsman",
+      "description": "Helm Charts as Code",
+      "language": "Go",
+      "stars": 1495,
+      "forks": 178,
+      "homepage": "",
+      "license": "MIT",
+      "created_at": "2017-11-02T19:22:35Z",
+      "pushed_at": "2026-10-25T14:02:57Z",
+      "updated_at": "2026-10-23T22:50:25Z",
+      "open_issues": 0,
+      "summary": "Helmsman 是一个用 Go 编写的 Helm Charts as Code 工具，通过声明式的 TOML 或 YAML 文件描述 Kubernetes 应用的期望状态，自动对比 Helm 当前状态并规划、执行部署与管理操作。它解决的是 Helm 图表部署难以版本化、难以复现和难以在多命名空间、多租户集群中统一管理的问题。核心能力包括：以单一版本控制文件管理应用、支持计划与执行分离、可定义发布管理顺序与优先级、同优先级发布可并行、具备幂等性、支持从部分失败中继续执行，并可保护指定命名空间或发布免受误操作。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:39:58+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 4,
+      "tags": [
+        "tool"
+      ],
+      "primary_tag": "tool",
+      "domains": [
+        "devops"
+      ],
+      "primary_domain": "devops"
+    },
+    {
+      "owner": "google",
+      "name": "gofuzz",
+      "full_name": "google/gofuzz",
+      "url": "https://github.com/google/gofuzz",
+      "description": "Fuzz testing for go.",
+      "language": "Go",
+      "stars": 1493,
+      "forks": 119,
+      "homepage": "",
+      "license": "Apache-2.0",
+      "created_at": "2014-07-31T16:21:29Z",
+      "pushed_at": "2022-11-07T22:21:34Z",
+      "updated_at": "2026-09-29T21:16:46Z",
+      "open_issues": 11,
+      "archived": true,
+      "summary": "gofuzz 是一个用 Go 语言编写的库，用于向 Go 对象填充随机值，主要服务于测试场景。它解决的问题是：项目中的对象是否在所有情况下都能正确序列化和反序列化，以及是否存在格式错误的输入会导致程序崩溃。核心能力包括对单个变量和 map 进行随机填充，并允许自定义空指针出现的概率，必要时还能完全定制随机化逻辑。该库可与 dvyukov/go-fuzz 集成，将 go-fuzz 提供的字节切片转换为被测函数所需的不同输入类型，例如为接收 int 参数的函数生成测试数据，从而简化 Go 模糊测试的编写。典型使用场景是单元测试和模糊测试，帮助开发者验证代码在随机数据下的健壮性。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:39:58+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 4,
+      "tags": [
+        "library"
+      ],
+      "primary_tag": "library",
+      "domains": [
+        "devtools"
+      ],
+      "primary_domain": "devtools"
+    },
+    {
+      "owner": "mitchellh",
+      "name": "go-ps",
+      "full_name": "mitchellh/go-ps",
+      "url": "https://github.com/mitchellh/go-ps",
+      "description": "Find, list, and inspect processes from Go (golang).",
+      "language": "Go",
+      "stars": 1489,
+      "forks": 254,
+      "homepage": "https://gist.github.com/mitchellh/90029601268e59a29e64e55bab1c5bdc",
+      "license": "MIT",
+      "created_at": "2014-04-06T23:40:00Z",
+      "pushed_at": "2022-11-20T06:29:31Z",
+      "updated_at": "2026-10-16T16:09:28Z",
+      "open_issues": 20,
+      "archived": true,
+      "summary": "go-ps 是一个用 Go 语言编写的进程列表库，通过操作系统相关的 API 以平台安全的方式查找、列出和检查进程。它解决了跨平台获取进程信息的问题，支持 Linux、Mac OS X、Solaris 和 Windows。其实现方式因平台而异：Darwin 使用 sysctl 系统调用获取进程表，Unix 系统通过 /proc 文件系统检查进程树，Windows 则调用 CreateToolhelp32Snapshot 等 Windows API 获取进程表的即时快照。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:39:58+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 4,
+      "tags": [
+        "library"
+      ],
+      "primary_tag": "library",
+      "domains": [
+        "systems"
+      ],
+      "primary_domain": "systems"
+    },
+    {
+      "owner": "robpike",
+      "name": "ivy",
+      "full_name": "robpike/ivy",
+      "url": "https://github.com/robpike/ivy",
+      "description": "ivy, an APL-like calculator",
+      "language": "Go",
+      "stars": 1487,
+      "forks": 116,
+      "homepage": "",
+      "license": "NOASSERTION",
+      "created_at": "2014-11-11T03:50:43Z",
+      "pushed_at": "2026-10-16T23:25:25Z",
+      "updated_at": "2026-10-20T17:49:50Z",
+      "open_issues": 3,
+      "summary": "ivy 是一个用 Go 语言编写的 APL 风格解释器兼计算器，由 Rob Pike 开发，目前仍处于实验和演进阶段。它面向需要在命令行中进行数组运算、符号计算和快速数值实验的用户，提供类似 APL 的简洁表达式语法。ivy 支持浮点数、文本以及用户自定义运算符等特性，并内置演示功能，在解释器内输入 )demo 即可体验。安装时需使用其自定义域名，运行 go install robpike.io/ivy@latest，构建需要 Go 1.24。除命令行外，还有面向 iOS 和 Android 的原型应用，可在应用商店搜索“ivy bignum calculator”找到。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:39:58+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 4,
+      "tags": [
+        "app",
+        "tool"
+      ],
+      "primary_tag": "app",
+      "domains": [
+        "devtools",
+        "learning"
+      ],
+      "primary_domain": "devtools"
+    },
+    {
+      "owner": "oxc-project",
+      "name": "tsgolint",
+      "full_name": "oxc-project/tsgolint",
+      "url": "https://github.com/oxc-project/tsgolint",
+      "description": "Type aware linting for oxlint",
+      "language": "Go",
+      "stars": 1463,
+      "forks": 105,
+      "homepage": "https://oxc.rs/docs/guide/usage/linter/type-aware.html",
+      "license": "MIT",
+      "created_at": "2025-07-14T07:18:02Z",
+      "pushed_at": "2026-10-26T03:02:00Z",
+      "updated_at": "2026-10-26T03:02:03Z",
+      "open_issues": 49,
+      "summary": "tsgolint 是 Oxlint 的类型感知 lint 后端，用 Go 编写，基于 typescript-go 执行需要 TypeScript 语义分析的规则，目标兼容 TypeScript 7。它解决的是纯语法检查无法发现的类型相关问题，例如 no-floating-promises 能捕获被静默丢弃的异步失败。其特点包括：相比 ESLint 加 typescript-eslint 有显著性能优势，支持多核并行执行规则，已实现 60 余条 typescript-eslint 类型感知规则。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:39:58+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 4,
+      "tags": [
+        "tool"
+      ],
+      "primary_tag": "tool",
+      "domains": [
+        "devtools"
+      ],
+      "primary_domain": "devtools"
+    },
+    {
+      "owner": "getporter",
+      "name": "porter",
+      "full_name": "getporter/porter",
+      "url": "https://github.com/getporter/porter",
+      "description": "Porter enables you to package your application artifact, client tools, configuration and deployment logic together as an installer that you can distribute, and install with a single command.",
+      "language": "Go",
+      "stars": 1429,
+      "forks": 226,
+      "homepage": "https://porter.sh",
+      "license": "Apache-2.0",
+      "created_at": "2018-11-02T16:34:04Z",
+      "pushed_at": "2026-10-25T04:53:30Z",
+      "updated_at": "2026-10-24T11:52:29Z",
+      "open_issues": 93,
+      "summary": "Porter 是一个用 Go 编写的开源工具，基于云原生应用包规范 CNAB，帮助开发者把应用制品、客户端工具、配置和部署逻辑打包成一个可分发、可安装的安装器，用户只需一条命令即可完成安装。它主要解决应用交付环节中依赖分散、部署步骤繁琐的问题，通过声明式的编写方式让开发者专注于应用本身。核心能力包括 Mixins 和 Plugins：Mixins 提供与不同工具和服务交互的开箱即用支持，覆盖多种平台，缺少时也可自行创建或借助 exec mixin 配合自定义 Dockerfile；Plugins 则用于将 Porter 数据存储和密钥获取对接外部服务。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:39:58+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 4,
+      "tags": [
+        "tool"
+      ],
+      "primary_tag": "tool",
+      "domains": [
+        "devops"
+      ],
+      "primary_domain": "devops"
+    },
+    {
+      "owner": "stashed",
+      "name": "stash",
+      "full_name": "stashed/stash",
+      "url": "https://github.com/stashed/stash",
+      "description": "🛅 Backup your Kubernetes Stateful Applications",
+      "language": "Go",
+      "stars": 1425,
+      "forks": 89,
+      "homepage": "https://stash.run",
+      "license": "NOASSERTION",
+      "created_at": "2017-02-28T00:37:01Z",
+      "pushed_at": "2026-10-21T01:01:37Z",
+      "updated_at": "2026-10-24T11:49:30Z",
+      "open_issues": 112,
+      "summary": "Stash 是 AppsCode 推出的云原生数据备份与恢复方案，以 Go 语言编写，通过 Kubernetes Operator 的形式运行。它主要解决传统备份工具在 Kubernetes 这类动态计算环境中配置和维护过于复杂的问题，帮助用户备份集群中的磁盘、数据库等数据。Stash 借助 restic 或 Kubernetes CSI Driver 的 VolumeSnapshotter 能力，支持备份工作负载中挂载的卷、独立卷以及数据库，并可通过插件机制扩展以适配自定义工作负载。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:39:58+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 4,
+      "tags": [
+        "app",
+        "tool"
+      ],
+      "primary_tag": "app",
+      "domains": [
+        "devops"
+      ],
+      "primary_domain": "devops"
+    },
+    {
+      "owner": "minio",
+      "name": "operator",
+      "full_name": "minio/operator",
+      "url": "https://github.com/minio/operator",
+      "description": "Simple Kubernetes Operator for MinIO clusters :computer:",
+      "language": "Go",
+      "stars": 1420,
+      "forks": 529,
+      "homepage": "https://min.io/docs/minio/kubernetes/upstream/index.html",
+      "license": "AGPL-3.0",
+      "created_at": "2018-10-24T22:40:09Z",
+      "pushed_at": "2026-03-20T00:04:08Z",
+      "updated_at": "2026-10-06T10:41:04Z",
+      "open_issues": 51,
+      "archived": true,
+      "summary": "MinIO Operator 是一个用 Go 编写的 Kubernetes Operator，用于在 Kubernetes 集群中部署和管理 MinIO 租户。MinIO 本身是兼容 S3 API 的高性能对象存储，而该 Operator 解决的是在私有云、公有云或混合云环境中自动化部署与运维 MinIO 集群的问题。每个 MinIO 租户在集群内表现为独立的对象存储实例，Operator 会为租户自动生成持久卷声明，并默认通过 Kubernetes 证书 API 启用 TLS。它要求 Kubernetes 1.30.0 及以上版本，且每个命名空间最多支持一个租户。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:39:58+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 4,
+      "tags": [
+        "app"
+      ],
+      "primary_tag": "app",
+      "domains": [
+        "devops",
+        "data"
+      ],
+      "primary_domain": "devops"
+    },
+    {
+      "owner": "mitchellh",
+      "name": "go-homedir",
+      "full_name": "mitchellh/go-homedir",
+      "url": "https://github.com/mitchellh/go-homedir",
+      "description": "Go library for detecting and expanding the user's home directory without cgo.",
+      "language": "Go",
+      "stars": 1417,
+      "forks": 133,
+      "homepage": "https://gist.github.com/mitchellh/90029601268e59a29e64e55bab1c5bdc",
+      "license": "MIT",
+      "created_at": "2014-08-19T18:44:22Z",
+      "pushed_at": "2024-03-21T10:31:41Z",
+      "updated_at": "2026-10-12T22:07:09Z",
+      "open_issues": 4,
+      "archived": true,
+      "summary": "go-homedir 是一个用 Go 语言编写的库，用于在不使用 cgo 的情况下检测并展开用户的主目录。它主要解决 Go 内置 os/user 包在 Darwin 系统上依赖 cgo、导致无法交叉编译的问题。由于绝大多数场景使用 os/user 只是为了获取当前用户的主目录，该库通过纯 Go 实现这一功能，从而支持跨平台交叉编译。其核心能力包括调用 homedir.Dir() 获取用户主目录，以及使用 homedir.Expand() 将路径中的 ~ 展开为主目录。使用方式非常简单，适合需要在跨编译环境中获取或处理主目录路径的 Go 项目，例如命令行工具、配置加载或文件路径解析等场景。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:39:58+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 4,
+      "tags": [
+        "library"
+      ],
+      "primary_tag": "library",
+      "domains": [
+        "systems"
+      ],
+      "primary_domain": "systems"
+    },
+    {
+      "owner": "huandu",
+      "name": "xstrings",
+      "full_name": "huandu/xstrings",
+      "url": "https://github.com/huandu/xstrings",
+      "description": "Implements string functions widely used in other languages but absent in Go.",
+      "language": "Go",
+      "stars": 1412,
+      "forks": 76,
+      "homepage": "",
+      "license": "MIT",
+      "created_at": "2015-01-06T07:25:26Z",
+      "pushed_at": "2026-10-20T05:26:21Z",
+      "updated_at": "2026-10-23T11:11:58Z",
+      "open_issues": 0,
+      "summary": "xstrings 是一个 Go 语言字符串处理库，用于补充标准库 strings 中缺失、但在其他编程语言里常见的字符串函数。Go 的字符串函数命名风格独特，有其它语言经验但刚接触 Go 的开发者往往难以找到对应实现，该库正是为解决这一映射问题而设计。它提供了一批经过充分测试并针对性能仔细调优的函数，README 中按字母顺序列出了 xstrings 与 strings 两个包的函数对照表，并附带如何将其他语言中的常用函数对应到 Go 的说明，方便新手快速定位所需功能。安装方式为 go get github.com/huandu/xstrings，完整接口可查阅 GoDoc。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:39:58+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 4,
+      "tags": [
+        "library"
+      ],
+      "primary_tag": "library",
+      "domains": [
+        "systems"
+      ],
+      "primary_domain": "systems"
+    },
+    {
+      "owner": "client9",
+      "name": "misspell",
+      "full_name": "client9/misspell",
+      "url": "https://github.com/client9/misspell",
+      "description": "Correct commonly misspelled English words in source files",
+      "language": "Go",
+      "stars": 1405,
+      "forks": 145,
+      "homepage": "",
+      "license": "MIT",
+      "created_at": "2015-12-30T03:38:05Z",
+      "pushed_at": "2024-06-12T03:19:38Z",
+      "updated_at": "2026-09-19T16:43:38Z",
+      "open_issues": 44,
+      "archived": true,
+      "summary": "misspell 是一个用 Go 编写的命令行工具，用于快速纠正源代码和文本文件中常见的英文拼写错误。它针对源码场景做了优化：对 .go 文件只检查注释内容，也可通过 -source 参数把其他语言文件按纯文本或注释方式处理。核心能力包括自动修正（-w）、英美拼写转换（-locale）、忽略指定规则、CSV 或 SQLite 输出、自定义模板，以及递归检查目录和管道输入。它基于 strings.Replacer 实现多子串同时匹配，并利用多核并行处理多个文件，速度远快于逐个正则匹配的方案，适合作为提交前钩子或与 gometalinter 集成使用。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:39:58+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 4,
+      "tags": [
+        "tool"
+      ],
+      "primary_tag": "tool",
+      "domains": [
+        "devtools"
+      ],
+      "primary_domain": "devtools"
+    },
+    {
+      "owner": "karlseguin",
+      "name": "ccache",
+      "full_name": "karlseguin/ccache",
+      "url": "https://github.com/karlseguin/ccache",
+      "description": "A golang LRU Cache for high concurrency",
+      "language": "Go",
+      "stars": 1397,
+      "forks": 122,
+      "homepage": "",
+      "license": "MIT",
+      "created_at": "2013-10-19T00:53:44Z",
+      "pushed_at": "2026-01-13T10:52:38Z",
+      "updated_at": "2026-10-11T12:31:22Z",
+      "open_issues": 13,
+      "summary": "CCache 是一个用 Go 编写的 LRU 缓存库，主要面向高并发场景。它通过引入窗口限制元素晋升频率、用带缓冲的 channel 将晋升操作排队交给单个 worker 处理，并在同一线程内完成垃圾回收，从而降低链表上的锁竞争。除特别说明外，其方法均为线程安全。配置通过链式 API 完成，常用选项包括 MaxSize、GetsPerPromote 和 PercentToPrune，内部还可调整 Buckets、PromoteBuffer 和 DeleteBuffer。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:39:58+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 4,
+      "tags": [
+        "library"
+      ],
+      "primary_tag": "library",
+      "domains": [
+        "systems"
+      ],
+      "primary_domain": "systems"
+    },
+    {
+      "owner": "google",
+      "name": "nftables",
+      "full_name": "google/nftables",
+      "url": "https://github.com/google/nftables",
+      "description": "This repository contains a Go module to interact with Linux nftables (the iptables successor).",
+      "language": "Go",
+      "stars": 1372,
+      "forks": 189,
+      "homepage": "",
+      "license": "Apache-2.0",
+      "created_at": "2018-06-05T09:37:20Z",
+      "pushed_at": "2026-07-03T07:16:10Z",
+      "updated_at": "2026-10-18T15:24:45Z",
+      "open_issues": 23,
+      "summary": "google/nftables 是一个用纯 Go 实现的第三方库，用于在 Linux 上操作 nftables，也就是 iptables 的继任者。它不封装 libnftnl，而是直接以 Go 代码与 nftables 交互，因此适合在 Go 项目中以编程方式安装和管理 nftables 规则。该库目前处于非常早期的阶段，只包含足够安装基础 nftables 规则的数据类型和函数，随着功能增加，数据类型和 API 仍可能出现不兼容的调整。它并非 Linux nftables 官方项目，也不是 Google 的官方产品，若遇到 nftables 本身的问题应前往官方渠道反馈。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:39:58+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 4,
+      "tags": [
+        "library"
+      ],
+      "primary_tag": "library",
+      "domains": [
+        "networking",
+        "systems"
+      ],
+      "primary_domain": "networking"
+    },
+    {
+      "owner": "kubenetworks",
+      "name": "kubevpn",
+      "full_name": "kubenetworks/kubevpn",
+      "url": "https://github.com/kubenetworks/kubevpn",
+      "description": "KubeVPN offers a Cloud Native Dev Environment that connects to kubernetes cluster network. ",
+      "language": "Go",
+      "stars": 1371,
+      "forks": 76,
+      "homepage": "https://kubevpn.dev",
+      "license": "MIT",
+      "created_at": "2021-07-24T11:08:44Z",
+      "pushed_at": "2026-10-26T03:06:04Z",
+      "updated_at": "2026-10-24T11:16:46Z",
+      "open_issues": 3,
+      "summary": "KubeVPN 是一个用 Go 编写的云原生开发环境工具，用于将本地电脑接入 Kubernetes 集群网络。它解决的核心问题是让开发者无需把应用部署到集群里，就能直接访问集群内的 Pod IP、Service IP 和 DNS 域名，并借助服务网格把远端服务的入站流量拦截到本地。主要能力包括：通过 kubevpn connect 建立连接并查看状态，支持域名与短域名解析，可同时连接多个集群，提供反向代理按请求头转发流量，还能在本地 Docker 中运行与集群一致的 Pod 环境，并支持 DinD 模式。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:39:58+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 4,
+      "tags": [
+        "tool",
+        "app"
+      ],
+      "primary_tag": "tool",
+      "domains": [
+        "devops",
+        "networking"
+      ],
+      "primary_domain": "devops"
+    },
+    {
+      "owner": "qiniu",
+      "name": "qmgo",
+      "full_name": "qiniu/qmgo",
+      "url": "https://github.com/qiniu/qmgo",
+      "description": "Qmgo - The Go driver for MongoDB. It‘s based on official mongo-go-driver but easier to use like Mgo.",
+      "language": "Go",
+      "stars": 1354,
+      "forks": 151,
+      "homepage": "",
+      "license": "Apache-2.0",
+      "created_at": "2020-08-04T09:06:00Z",
+      "pushed_at": "2026-06-20T10:23:45Z",
+      "updated_at": "2026-10-25T15:26:32Z",
+      "open_issues": 49,
+      "summary": "Qmgo 是七牛云开源的 Go 语言 MongoDB 驱动，基于 MongoDB 官方驱动 mongo-go-driver 构建，但提供了类似 mgo 的链式调用风格，使用起来更简单。它主要解决从 mgo 迁移到官方新驱动时代码改动大的问题，让开发者能以较小的迁移成本继续使用熟悉的调用方式，同时用上 MongoDB 的新特性。核心能力包括文档的 CRUD 操作并支持官方全部选项，排序、限制、计数、字段选择、去重，事务处理，钩子函数，字段自动更新（默认字段与自定义字段），预定义操作符键，聚合、索引操作与游标，基于 go-playground/validator 的校验标签，以及插件机制。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:39:58+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 4,
+      "tags": [
+        "library"
+      ],
+      "primary_tag": "library",
+      "domains": [
+        "data"
+      ],
+      "primary_domain": "data"
+    },
+    {
+      "owner": "vmihailenco",
+      "name": "taskq",
+      "full_name": "vmihailenco/taskq",
+      "url": "https://github.com/vmihailenco/taskq",
+      "description": "Golang asynchronous task/job queue with Redis, SQS, IronMQ, and in-memory backends",
+      "language": "Go",
+      "stars": 1343,
+      "forks": 107,
+      "homepage": "https://taskq.uptrace.dev/",
+      "license": "BSD-2-Clause",
+      "created_at": "2017-02-04T10:11:14Z",
+      "pushed_at": "2025-04-28T03:05:23Z",
+      "updated_at": "2026-10-26T00:57:26Z",
+      "open_issues": 25,
+      "summary": "taskq 是一个用 Go 编写的异步任务与作业队列库，支持 Redis、SQS、IronMQ 以及内存后端，用于在应用中解耦耗时操作、削峰填谷并可靠地调度后台任务。它解决的核心问题是任务的异步执行与失败处理：能够根据负载自动伸缩拉取消息和消费消息的 goroutine 数量，提供全局速率限制与全局 worker 数量限制，并支持同名消息去重、指数退避的自动重试、队列内消息全部失败时自动暂停，以及处理失败消息的回退处理器。它还支持消息批处理，用于在 SQS 和 IronMQ 后端中批量增删消息，并可用 snappy 或 s2 自动压缩消息。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:39:58+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 4,
+      "tags": [
+        "library"
+      ],
+      "primary_tag": "library",
+      "domains": [
+        "networking"
+      ],
+      "primary_domain": "networking"
+    },
+    {
+      "owner": "sgreben",
+      "name": "jp",
+      "full_name": "sgreben/jp",
+      "url": "https://github.com/sgreben/jp",
+      "description": "dead simple terminal plots from JSON data. single binary, no dependencies. linux, osx, windows.",
+      "language": "Go",
+      "stars": 1343,
+      "forks": 34,
+      "homepage": "",
+      "license": "MIT",
+      "created_at": "2018-03-22T09:05:31Z",
+      "pushed_at": "2022-11-01T11:09:12Z",
+      "updated_at": "2026-10-20T12:54:56Z",
+      "open_issues": 10,
+      "summary": "jp 是一个用 Go 编写的命令行工具，用于在终端中绘制数据图表。它从标准输入读取 JSON 或 CSV 数据，并将图表输出到标准输出，适合在无图形界面的环境中快速查看数据分布。它支持柱状图、折线图、散点图、直方图和热力图，能够处理多种数据格式，包括分离的 X 和 Y 值、XY 配对、仅含 Y 值（以索引为 X）、数组数据，以及 JSONLines 和 CSV 输入。直方图可自动或固定分箱，热力图则展示二维分布。该工具编译为单一二进制文件，无外部依赖，可在 Linux、macOS 和 Windows 上运行，典型场景包括日志分析、管道数据处理和终端内的快速数据探索。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:39:58+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 4,
+      "tags": [
+        "tool"
+      ],
+      "primary_tag": "tool",
+      "domains": [
+        "data",
+        "devtools"
+      ],
+      "primary_domain": "data"
+    },
+    {
+      "owner": "hexdigest",
+      "name": "gowrap",
+      "full_name": "hexdigest/gowrap",
+      "url": "https://github.com/hexdigest/gowrap",
+      "description": "GoWrap is a command line tool for generating decorators for Go interfaces",
+      "language": "Go",
+      "stars": 1339,
+      "forks": 95,
+      "homepage": "",
+      "license": "MIT",
+      "created_at": "2018-09-15T09:20:42Z",
+      "pushed_at": "2026-10-21T01:22:36Z",
+      "updated_at": "2026-10-21T01:19:19Z",
+      "open_issues": 11,
+      "summary": "GoWrap 是一个用 Go 编写的命令行工具，通过模板为 Go 接口类型生成装饰器，帮助开发者在不改动原有代码的前提下快速为接口添加额外功能。它解决了横切关注点重复实现的问题，比如指标采集、链路追踪、熔断、限流、重试、缓存和参数校验等。核心能力在于模板化生成：内置了 prometheus、opentracing、opentelemetry、opencensus、logrus、circuitbreaker、fallback、ratelimit、retry、timeout、validate、caching 等模板，也支持自定义模板，并可使用 sprig 模板函数库及 up、down、snake。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:39:58+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 4,
+      "tags": [
+        "tool"
+      ],
+      "primary_tag": "tool",
+      "domains": [
+        "devtools"
+      ],
+      "primary_domain": "devtools"
+    },
+    {
+      "owner": "go-opencv",
+      "name": "go-opencv",
+      "full_name": "go-opencv/go-opencv",
+      "url": "https://github.com/go-opencv/go-opencv",
+      "description": "Go bindings for OpenCV / 2.x API in gocv / 1.x API in opencv",
+      "language": "Go",
+      "stars": 1324,
+      "forks": 189,
+      "homepage": "",
+      "license": "BSD-3-Clause",
+      "created_at": "2013-12-09T09:43:26Z",
+      "pushed_at": "2023-03-30T20:19:32Z",
+      "updated_at": "2026-09-20T06:19:34Z",
+      "open_issues": 38,
+      "summary": "go-opencv 是 OpenCV 的 Go 语言绑定库，通过 CGO 封装 OpenCV 1.x 的 C API，并通过 SWIG 封装 OpenCV 2 及以上版本的 C++ API（即 GoCV 包）。它源自 chai 的 go-opencv 分支，原项目当时仅支持 OpenCV1 且托管在 Google Code，不便社区贡献，因此该分支迁至 GitHub 并陆续加入社区补丁和实验性的 OpenCV 2 封装。由于 OpenCV 2.",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:39:58+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 4,
+      "tags": [
+        "library"
+      ],
+      "primary_tag": "library",
+      "domains": [
+        "media",
+        "graphics"
+      ],
+      "primary_domain": "media"
+    },
+    {
+      "owner": "docker",
+      "name": "docker-credential-helpers",
+      "full_name": "docker/docker-credential-helpers",
+      "url": "https://github.com/docker/docker-credential-helpers",
+      "description": "Programs to keep Docker login credentials safe by storing in platform keystores",
+      "language": "Go",
+      "stars": 1323,
+      "forks": 198,
+      "homepage": "",
+      "license": "MIT",
+      "created_at": "2016-02-08T16:23:25Z",
+      "pushed_at": "2026-10-20T20:48:02Z",
+      "updated_at": "2026-10-22T17:32:01Z",
+      "open_issues": 68,
+      "summary": "docker-credential-helpers 是一套用 Go 编写的程序，用于将 Docker 登录凭据存入各平台的原生密钥库，避免明文保存。它解决的核心问题是凭据安全：通过调用系统自带的密钥管理机制，让 Docker 不必在配置文件中直接存放密码。它提供 osxkeychain、secretservice、wincred 和 pass 等程序，分别对应 macOS 钥匙串、D-Bus 密钥服务、Windows 凭据管理器和 pass。使用时在 ~/.docker/config.json 中设置 credsStore 为对应程序后缀即可，例如 osxkeychain。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:39:58+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 4,
+      "tags": [
+        "tool"
+      ],
+      "primary_tag": "tool",
+      "domains": [
+        "devops",
+        "security"
+      ],
+      "primary_domain": "devops"
+    },
+    {
+      "owner": "thinkeridea",
+      "name": "go-extend",
+      "full_name": "thinkeridea/go-extend",
+      "url": "https://github.com/thinkeridea/go-extend",
+      "description": "go语言扩展包，收集一些常用的操作函数，辅助更快的完成开发工作，并减少重复代码",
+      "language": "Go",
+      "stars": 1304,
+      "forks": 155,
+      "homepage": "https://pkg.go.dev/github.com/thinkeridea/go-extend",
+      "license": "MIT",
+      "created_at": "2018-12-21T08:29:53Z",
+      "pushed_at": "2023-07-20T13:32:49Z",
+      "updated_at": "2026-10-08T15:55:26Z",
+      "open_issues": 1,
+      "summary": "go-extend 是一个用 Go 语言编写的扩展包，收集常用操作函数，目的是辅助开发者更快完成开发工作并减少重复代码。它针对标准库中的部分函数进行改写，在保持功能一致的前提下提升性能，例如 exstrings.Join、exstrings.Repeat、exstrings.Replace 借助 unsafe 包减少内存分配，exbytes.Replace 则通过原地替换直接修改输入数据。此外还提供 JoinToBytes、RepeatToBytes、ReplaceToBytes 等返回 []byte 的版本，避免类型转换开销。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:39:58+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 4,
+      "tags": [
+        "library"
+      ],
+      "primary_tag": "library",
+      "domains": [
+        "systems"
+      ],
+      "primary_domain": "systems"
+    },
+    {
+      "owner": "antonmedv",
+      "name": "countdown",
+      "full_name": "antonmedv/countdown",
+      "url": "https://github.com/antonmedv/countdown",
+      "description": "Terminal countdown timer",
+      "language": "Go",
+      "stars": 1302,
+      "forks": 120,
+      "homepage": "",
+      "license": "MIT",
+      "created_at": "2019-03-20T15:14:32Z",
+      "pushed_at": "2025-02-18T14:08:04Z",
+      "updated_at": "2026-10-17T17:03:05Z",
+      "open_issues": 9,
+      "summary": "Countdown 是一个用 Go 编写的终端倒计时工具，用来在命令行里直观地显示剩余时间。它解决的是在终端环境下需要计时提醒的场景，比如等待某个操作完成、控制脚本执行节奏或给自己设定专注时段。使用时可以按 Go 的时间格式指定时长，例如 1h2m3s，也可以直接给出目标时刻，如 02:15pm 或 14:15。它的核心特点包括：支持用 && 追加倒计时结束后自动执行的命令，支持从零开始正计时，在 macOS 上可通过 say 命令播报最后十秒，还能在倒计时下方显示标题。按键方面，空格用于暂停或继续，Esc 或 Ctrl+C 可中止倒计时且不执行后续命令。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:39:58+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 4,
+      "tags": [
+        "tool"
+      ],
+      "primary_tag": "tool",
+      "domains": [
+        "systems"
+      ],
+      "primary_domain": "systems"
+    },
+    {
+      "owner": "CtrlSpice",
+      "name": "otel-desktop-viewer",
+      "full_name": "CtrlSpice/otel-desktop-viewer",
+      "url": "https://github.com/CtrlSpice/otel-desktop-viewer",
+      "description": "otel-desktop-viewer is a CLI tool for receiving OpenTelemetry traces while working on your local machine.",
+      "language": "Go",
+      "stars": 1300,
+      "forks": 56,
+      "homepage": "",
+      "license": "Apache-2.0",
+      "created_at": "2022-10-14T17:57:02Z",
+      "pushed_at": "2026-10-26T06:47:50Z",
+      "updated_at": "2026-10-25T00:21:02Z",
+      "open_issues": 2,
+      "summary": "otel-desktop-viewer 是一款用 Go 编写的本地 OpenTelemetry 查看器，帮助开发者在本地机器上接收和查看链路追踪、指标与日志数据。它基于 OpenTelemetry Collector、DuckDB 和 Svelte 构建，本质上是一个定制化的 Collector 发行版：其桌面导出器将遥测数据写入由 duckdb 扩展管理的存储，该扩展通过 POST /rpc 的 JSON-RPC 接口暴露数据，并在二进制中内嵌 Svelte 前端界面。运行后界面位于 localhost:8000，OTLP 接收端监听 4317（gRPC）和 4318（HTTP）。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:39:58+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 4,
+      "tags": [
+        "tool"
+      ],
+      "primary_tag": "tool",
+      "domains": [
+        "devtools"
+      ],
+      "primary_domain": "devtools"
+    },
+    {
+      "owner": "kisielk",
+      "name": "godepgraph",
+      "full_name": "kisielk/godepgraph",
+      "url": "https://github.com/kisielk/godepgraph",
+      "description": "A Go dependency graph visualization tool",
+      "language": "Go",
+      "stars": 1267,
+      "forks": 98,
+      "homepage": "",
+      "license": "MIT",
+      "created_at": "2013-02-13T22:29:38Z",
+      "pushed_at": "2025-06-24T16:17:42Z",
+      "updated_at": "2026-10-26T02:56:57Z",
+      "open_issues": 12,
+      "summary": "godepgraph 是一个用 Go 编写的依赖图可视化工具，用于生成 Go 包的依赖关系图。它接收包路径作为参数，默认输出 Graphviz dot 格式，也可通过 -format mermaid 生成 Mermaid 图，配合 dot 命令即可渲染为图片。工具用颜色区分包类型：绿色为标准库、蓝色为 GOPATH 中的普通包、黄色为 vendored 包、橙色为使用 cgo 的包。它支持多种过滤方式，-s 忽略标准库，-novendor 忽略 vendored 包，-i 按名称、-p 按前缀排除指定导入路径。对 go mod 项目需传入相对路径。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:39:58+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 4,
+      "tags": [
+        "tool"
+      ],
+      "primary_tag": "tool",
+      "domains": [
+        "devtools"
+      ],
+      "primary_domain": "devtools"
+    },
+    {
+      "owner": "alibaba",
+      "name": "IOC-golang",
+      "full_name": "alibaba/IOC-golang",
+      "url": "https://github.com/alibaba/IOC-golang",
+      "description": "一款服务于 Go 开发者的依赖注入框架，方便搭建任何 Go 应用。 A Golang depenedency injection framework, helps developers to build any go application.",
+      "language": "Go",
+      "stars": 1228,
+      "forks": 121,
+      "homepage": "https://ioc-golang.github.io",
+      "license": "Apache-2.0",
+      "created_at": "2022-05-17T09:25:14Z",
+      "pushed_at": "2023-06-13T05:31:26Z",
+      "updated_at": "2026-10-13T17:32:28Z",
+      "open_issues": 25,
+      "summary": "IOC-golang 是阿里巴巴开源的一款 Go 依赖注入框架，提供完整的 IoC 容器实现，帮助开发者搭建各类 Go 应用。它支持任意结构与接口的依赖注入，并具备对象生命周期管理能力，可接管对象创建、参数注入和工厂方法，参数来源也可自定义。基于 AOP 思想，它为注册的结构体提供代理层，从而支持接口列表查看、参数值监听、方法级链路追踪、性能瓶颈分析、故障注入等调试能力。框架还提供代码生成工具，开发者通过注解即可生成结构体注册代码，并支持注入结构体、自动装配模型和调试 AOP 层的扩展。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:39:58+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 4,
+      "tags": [
+        "framework",
+        "library"
+      ],
+      "primary_tag": "framework",
+      "domains": [
+        "devtools"
+      ],
+      "primary_domain": "devtools"
+    },
+    {
+      "owner": "kevwan",
+      "name": "go-stash",
+      "full_name": "kevwan/go-stash",
+      "url": "https://github.com/kevwan/go-stash",
+      "description": "go-stash is a high performance, free and open source server-side data processing pipeline that ingests data from Kafka, processes it, and then sends it to ElasticSearch.",
+      "language": "Go",
+      "stars": 1225,
+      "forks": 152,
+      "homepage": "https://go-zero.dev",
+      "license": "MIT",
+      "created_at": "2020-08-13T08:28:03Z",
+      "pushed_at": "2026-03-30T13:14:52Z",
+      "updated_at": "2026-10-06T15:22:23Z",
+      "open_issues": 14,
+      "summary": "go-stash 是一个用 Go 编写的高性能服务端数据处理管道，主要从 Kafka 读取数据，经过处理后写入 ElasticSearch。它面向日志或事件数据的采集与转发场景，相比 logstash 吞吐量约为其五倍，且部署简单，只有一个可执行文件。配置上支持设置 Kafka 连接数、消费者线程、处理线程以及每次拉取的数据块大小，并可选择从最新或最早位置读取。过滤器支持删除、移除字段和字段转移等操作，输出端可自定义索引名格式、批量提交大小、优雅退出时间、压缩和时区。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:39:58+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 4,
+      "tags": [
+        "app"
+      ],
+      "primary_tag": "app",
+      "domains": [
+        "data",
+        "networking"
+      ],
+      "primary_domain": "data"
+    },
+    {
+      "owner": "klauspost",
+      "name": "pgzip",
+      "full_name": "klauspost/pgzip",
+      "url": "https://github.com/klauspost/pgzip",
+      "description": "Go parallel gzip (de)compression",
+      "language": "Go",
+      "stars": 1212,
+      "forks": 91,
+      "homepage": "",
+      "license": "MIT",
+      "created_at": "2014-10-16T11:29:55Z",
+      "pushed_at": "2026-10-21T12:03:43Z",
+      "updated_at": "2026-10-23T09:23:21Z",
+      "open_issues": 1,
+      "summary": "pgzip 是 Go 语言实现的并行 gzip 压缩与解压库，可作为标准库 compress/gzip 的直接替代品。它把压缩过程拆分成多个块并行处理，输出仍是标准 gzip 文件，因此无需配套的解压器即可与其他 gzip 读写器完全兼容。解压时它会提前读取并解码后续数据，使读取操作在解码器跟得上时不会阻塞，CRC 校验也在独立协程中完成。它适合一次处理超过 1MB 的大数据量场景，否则可能不如内置 gzip 快。通过 SetConcurrency 可设置块大小与并行块数，默认按 1MB 分块并使用全部 CPU 线程。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:39:58+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 4,
+      "tags": [
+        "library"
+      ],
+      "primary_tag": "library",
+      "domains": [
+        "systems"
+      ],
+      "primary_domain": "systems"
+    },
+    {
+      "owner": "google",
+      "name": "capslock",
+      "full_name": "google/capslock",
+      "url": "https://github.com/google/capslock",
+      "description": "",
+      "language": "Go",
+      "stars": 1184,
+      "forks": 52,
+      "homepage": "",
+      "license": "BSD-3-Clause",
+      "created_at": "2023-07-24T23:19:36Z",
+      "pushed_at": "2026-10-22T01:54:31Z",
+      "updated_at": "2026-10-26T04:26:35Z",
+      "open_issues": 11,
+      "summary": "Capslock 是一个用 Go 编写的命令行工具，用于分析 Go 包的能力（capability），即通过追踪对标准库中特权函数的传递调用，判断某个包能够访问哪些特权操作。它针对的是第三方依赖不应被默认信任的问题，尤其在供应链攻击增多的背景下，帮助开发者了解依赖包实际拥有的权限。其核心思路是补充以漏洞为中心的安全分析，转而识别包通过传递依赖获得的能力，从而判断包的用途、定位需要重点审查的特权代码路径，或发现能力异常变化以提前阻断潜在威胁。这一设计遵循最小权限原则，希望将代码限制在完成其功能所需的最小能力集合内。使用时，在待分析的包路径下运行 capslock 命令即可。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:39:58+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 4,
+      "tags": [
+        "library"
+      ],
+      "primary_tag": "library",
+      "domains": [
+        "security"
+      ],
+      "primary_domain": "security"
+    },
+    {
+      "owner": "denisbrodbeck",
+      "name": "machineid",
+      "full_name": "denisbrodbeck/machineid",
+      "url": "https://github.com/denisbrodbeck/machineid",
+      "description": "Get the unique machine id of any host (without admin privileges)",
+      "language": "Go",
+      "stars": 1183,
+      "forks": 160,
+      "homepage": "",
+      "license": "MIT",
+      "created_at": "2017-10-18T09:21:17Z",
+      "pushed_at": "2024-08-20T07:27:25Z",
+      "updated_at": "2026-10-23T11:24:22Z",
+      "open_issues": 6,
+      "summary": "machineid 是一个用 Go 编写的库，用于读取主机操作系统的唯一机器标识，且无需管理员权限。它解决的是在跨平台环境中稳定识别机器的问题，避免依赖 MAC 地址、BIOS 或 CPU 等硬件信息，因为这些在虚拟机中并不可靠。该库支持 Windows、Linux、macOS、FreeBSD 等系统，返回操作系统原生的 UUID 或 GUID，例如 Linux 读取 /var/lib/dbus/machine-id，Windows 读取注册表中的 MachineGuid。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:39:58+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 4,
+      "tags": [
+        "library"
+      ],
+      "primary_tag": "library",
+      "domains": [
+        "systems"
+      ],
+      "primary_domain": "systems"
+    },
+    {
+      "owner": "liyue201",
+      "name": "gostl",
+      "full_name": "liyue201/gostl",
+      "url": "https://github.com/liyue201/gostl",
+      "description": "Data structure and algorithm library for go, designed to provide functions similar to C++ STL",
+      "language": "Go",
+      "stars": 1144,
+      "forks": 116,
+      "homepage": "",
+      "license": "MIT",
+      "created_at": "2019-10-12T01:10:24Z",
+      "pushed_at": "2025-08-28T14:05:11Z",
+      "updated_at": "2026-10-24T03:47:39Z",
+      "open_issues": 5,
+      "summary": "GoSTL 是一个面向 Go 语言的数据结构与算法库，目标是提供类似 C++ STL 的功能，并结合 Go 语言特性做了扩展。它解决的是 Go 标准库在通用容器和算法方面相对精简的问题，为开发者提供更丰富的现成实现。核心能力包括 slice、array、vector、list、deque、queue、priority_queue、stack、rbtree、map、set、bitmap、bloom_filter、hamt、ketama、skiplist 等数据结构，以及 sort、stable_sort、binary_search、lower_bound、upper_bound、next_pe。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:39:58+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 4,
+      "tags": [
+        "library"
+      ],
+      "primary_tag": "library",
+      "domains": [
+        "systems"
+      ],
+      "primary_domain": "systems"
+    },
+    {
+      "owner": "antonholmquist",
+      "name": "jason",
+      "full_name": "antonholmquist/jason",
+      "url": "https://github.com/antonholmquist/jason",
+      "description": "Easy-to-use JSON Library for Go",
+      "language": "Go",
+      "stars": 1130,
+      "forks": 63,
+      "homepage": "http://godoc.org/github.com/antonholmquist/jason",
+      "license": "MIT",
+      "created_at": "2014-12-02T08:20:41Z",
+      "pushed_at": "2019-02-13T01:16:29Z",
+      "updated_at": "2026-10-22T07:26:56Z",
+      "open_issues": 4,
+      "summary": "Jason 是一个用 Go 语言编写的轻量级 JSON 库，主要面向读取任意结构的 JSON 数据，同时保持对 JSON 语法严格性的校验。它解决了在 Go 中解析不确定结构 JSON 时类型断言繁琐的问题，提供了便捷的键路径访问方式。其核心能力包括：从字节或 io.Reader（如 HTTP 响应）创建对象，通过 GetValueArray、GetObjectArray、GetObject 等方法读取嵌套值和遍历数组或对象，并在路径无效或类型不匹配时返回默认值和错误。数据类型映射与 encoding/json 一致，支持 bool、json.",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:39:58+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 4,
+      "tags": [
+        "library"
+      ],
+      "primary_tag": "library",
+      "domains": [
+        "data"
+      ],
+      "primary_domain": "data"
+    },
+    {
+      "owner": "ncruces",
+      "name": "go-sqlite3",
+      "full_name": "ncruces/go-sqlite3",
+      "url": "https://github.com/ncruces/go-sqlite3",
+      "description": "Go bindings to SQLite using wasm2go",
+      "language": "Go",
+      "stars": 1130,
+      "forks": 37,
+      "homepage": "https://pkg.go.dev/github.com/ncruces/go-sqlite3",
+      "license": "MIT",
+      "created_at": "2023-01-11T14:54:42Z",
+      "pushed_at": "2026-10-24T08:56:55Z",
+      "updated_at": "2026-10-25T03:57:31Z",
+      "open_issues": 5,
+      "summary": "ncruces/go-sqlite3 是一个无需 cgo 的 Go 语言 SQLite 绑定库，它通过 wasm2go 将 SQLite 的 Wasm 构建版本翻译为 Go 代码，因此仅依赖 Go 标准库和 x/sys。它既提供兼容 database/sql 的驱动，也允许直接调用大部分 C SQLite API，并包含 VFS 封装与纯 Go 实现、GORM 驱动等包。其能力覆盖增量 BLOB 读写、嵌套事务、自定义函数、虚拟表、自定义 VFS、在线备份、JSON、数学与统计函数、Unicode、静态加密及多种扩展。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:39:58+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 4,
+      "tags": [
+        "library"
+      ],
+      "primary_tag": "library",
+      "domains": [
+        "data"
+      ],
+      "primary_domain": "data"
+    },
+    {
+      "owner": "xlab",
+      "name": "android-go",
+      "full_name": "xlab/android-go",
+      "url": "https://github.com/xlab/android-go",
+      "description": "The android-go project provides a platform for writing native Android apps in Go programming language.",
+      "language": "Go",
+      "stars": 1090,
+      "forks": 82,
+      "homepage": "https://developer.android.com/ndk/index.html",
+      "license": "MIT",
+      "created_at": "2016-05-17T01:51:35Z",
+      "pushed_at": "2022-11-06T20:40:36Z",
+      "updated_at": "2026-10-20T15:38:30Z",
+      "open_issues": 15,
+      "summary": "android-go 是一个用 Go 语言编写原生 Android 应用的 SDK，与 gomobile 的设计思路不同，它更强调低耦合和灵活性。项目提供 android 包对 NDK API 的 Go 绑定，并支持 JNI 调用机制，可直接与 Java VM 交互，从而调用 Android SDK 的完整能力。app 包实现了 NativeActivity 的胶水层，用于处理启动流程和活动事件。此外还包含 egl、gles、gles2、gles3、gles31 等图形 API 绑定，覆盖 OpenGL ES 1 到 3.1，并支持计算 API。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:39:58+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 4,
+      "tags": [
+        "framework",
+        "library"
+      ],
+      "primary_tag": "framework",
+      "domains": [
+        "mobile"
+      ],
+      "primary_domain": "mobile"
+    },
+    {
+      "owner": "trzsz",
+      "name": "trzsz-go",
+      "full_name": "trzsz/trzsz-go",
+      "url": "https://github.com/trzsz/trzsz-go",
+      "description": "trzsz-go is the go version of trzsz, makes all terminals that support local shell to support trzsz ( trz / tsz ).",
+      "language": "Go",
+      "stars": 1069,
+      "forks": 58,
+      "homepage": "https://trzsz.github.io/go",
+      "license": "MIT",
+      "created_at": "2022-02-12T06:15:31Z",
+      "pushed_at": "2026-10-24T07:52:18Z",
+      "updated_at": "2026-10-25T09:54:04Z",
+      "open_issues": 2,
+      "summary": "trzsz-go 是 trzsz 的 Go 语言实现，用于让支持本地 shell 的终端获得原生的 trzsz（trz / tsz）文件传输能力，也可嵌入到 Go 编写的终端应用中。它解决的是传统终端在本地 shell 场景下缺少便捷文件上传下载支持的问题：在本地可用 trzsz 前缀启动 shell，或用 trzsz --dragfile 配合 ssh 实现拖拽上传；在跳板机上可通过 trzsz --relay ssh 登录远程服务器；在远程服务器上则像 lrzsz 一样用 trz 上传、tsz 下载。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:39:58+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 4,
+      "tags": [
+        "tool"
+      ],
+      "primary_tag": "tool",
+      "domains": [
+        "systems",
+        "networking"
+      ],
+      "primary_domain": "systems"
+    },
+    {
+      "owner": "caicloud",
+      "name": "cyclone",
+      "full_name": "caicloud/cyclone",
+      "url": "https://github.com/caicloud/cyclone",
+      "description": "Powerful workflow engine and end-to-end pipeline solutions implemented with native Kubernetes resources. https://cyclone.dev",
+      "language": "Go",
+      "stars": 1064,
+      "forks": 170,
+      "homepage": "",
+      "license": "Apache-2.0",
+      "created_at": "2016-10-17T04:19:35Z",
+      "pushed_at": "2023-10-24T12:08:27Z",
+      "updated_at": "2026-10-02T17:16:05Z",
+      "open_issues": 17,
+      "summary": "Cyclone 是一个用 Go 语言实现、基于 Kubernetes 原生资源构建的工作流引擎与端到端流水线方案，无需额外依赖，可运行在公有云、本地或混合云等任意 Kubernetes 环境中。它通过低层、与应用无关的工作流引擎提供 DAG 调度、资源生命周期管理以及可插拔的扩展框架，并在其上内置了 CI/CD 流水线和 AI DevOps 等高层能力。其特点包括阶段参数化、外部系统集成、cron 与 webhook 触发、执行暂停恢复重试取消、多集群与多租户支持、执行后资源自动回收、独立持久化日志，以及将复杂阶段委托给外部系统执行。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:39:58+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 4,
+      "tags": [
+        "app",
+        "framework"
+      ],
+      "primary_tag": "app",
+      "domains": [
+        "devops"
+      ],
+      "primary_domain": "devops"
+    },
+    {
+      "owner": "blang",
+      "name": "semver",
+      "full_name": "blang/semver",
+      "url": "https://github.com/blang/semver",
+      "description": "Semantic Versioning (semver) library written in golang",
+      "language": "Go",
+      "stars": 1044,
+      "forks": 104,
+      "homepage": "",
+      "license": "MIT",
+      "created_at": "2014-07-01T20:08:15Z",
+      "pushed_at": "2023-01-15T12:58:59Z",
+      "updated_at": "2026-10-16T12:22:44Z",
+      "open_issues": 13,
+      "summary": "blang/semver 是一个用 Go 编写的语义化版本库，完整覆盖语义化版本 2.0.0 规范。它解决的是在 Go 项目中解析、校验、比较和匹配版本号的需求，尤其适合需要处理依赖版本约束的工具链场景。核心特点包括：完全符合规范、不使用反射和正则、仅依赖标准库、使用值而非指针、解析与校验错误信息可读，且测试覆盖率超过 99%。它支持各级别的解析与校验、比较器式比较、辅助比较方法、原地修改，以及范围表达式，例如 >=1.0.0、=3.0.0、!3.0.1-beta.1、通配符 >=1.x 和 1.0.0，并允许用空格连接多个范围实现逻辑与，用竖线实现逻辑或，且与的优先级高于或。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:39:58+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 4,
+      "tags": [
+        "library"
+      ],
+      "primary_tag": "library",
+      "domains": [
+        "devtools"
+      ],
+      "primary_domain": "devtools"
+    },
+    {
+      "owner": "minio",
+      "name": "sha256-simd",
+      "full_name": "minio/sha256-simd",
+      "url": "https://github.com/minio/sha256-simd",
+      "description": "Accelerate SHA256 computations in pure Go using  AVX512, SHA Extensions for x86 and ARM64 for ARM. On AVX512 it provides an up to 8x improvement (over 3 GB/s per core). SHA Extensions give a performance boost of close to 4x over native.",
+      "language": "Go",
+      "stars": 1039,
+      "forks": 135,
+      "homepage": "",
+      "license": "Apache-2.0",
+      "created_at": "2016-07-16T22:31:01Z",
+      "pushed_at": "2023-05-24T07:54:41Z",
+      "updated_at": "2026-10-25T22:08:49Z",
+      "open_issues": 0,
+      "summary": "minio/sha256-simd 是一个用纯 Go 编写的 SHA256 计算加速库，可作为标准库 crypto/sha256 的直接替代品，自动为运行架构选择最快实现。它针对 x86 平台利用 AVX512 与 Intel SHA Extensions，针对 ARM64 利用 Cryptography Extensions 中的 SHA2 指令，其中 AVX512 版本通过并行处理 16 条独立消息，单核吞吐可超 3 GB/s，相比原生实现提升最高约 8 倍，SHA Extensions 也能带来接近 4 倍的性能提升。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:39:58+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 4,
+      "tags": [
+        "library"
+      ],
+      "primary_tag": "library",
+      "domains": [
+        "systems",
+        "security"
+      ],
+      "primary_domain": "systems"
+    },
+    {
+      "owner": "scylladb",
+      "name": "gocqlx",
+      "full_name": "scylladb/gocqlx",
+      "url": "https://github.com/scylladb/gocqlx",
+      "description": "All-In-One: CQL query builder, ORM and migration tool",
+      "language": "Go",
+      "stars": 1033,
+      "forks": 131,
+      "homepage": "",
+      "license": "Apache-2.0",
+      "created_at": "2017-07-20T13:50:33Z",
+      "pushed_at": "2026-10-25T16:45:03Z",
+      "updated_at": "2026-10-26T01:13:09Z",
+      "open_issues": 23,
+      "summary": "GocqlX 是面向 Go 语言的 ScyllaDB 客户端工具库，基于 scylladb/gocql 驱动构建，旨在让 Scylla 的使用更简便、更不易出错。它受 Sqlx 启发，但功能更广，核心能力包括：将结构体字段、map 或两者绑定为查询参数，按字段名把查询结果扫描进结构体，提供加载单行或全部行到结构体切片的便捷函数，并能让任意结构体直接作为 UDT 使用而无需实现编组函数。其性能与原生驱动相当。子包进一步提供 CQL 查询构建器、基于表模型的 CRUD 操作和数据库迁移工具。需注意 v3.0.0 起仅支持 ScyllaDB 的 gocql 分支，需在 go.",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:39:58+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 4,
+      "tags": [
+        "library"
+      ],
+      "primary_tag": "library",
+      "domains": [
+        "data"
+      ],
+      "primary_domain": "data"
+    },
+    {
+      "owner": "elliotchance",
+      "name": "orderedmap",
+      "full_name": "elliotchance/orderedmap",
+      "url": "https://github.com/elliotchance/orderedmap",
+      "description": "🔃 An ordered map in Go with amortized O(1) for Set, Get, Delete and Len.",
+      "language": "Go",
+      "stars": 1028,
+      "forks": 78,
+      "homepage": "",
+      "license": "MIT",
+      "created_at": "2019-11-14T21:12:26Z",
+      "pushed_at": "2026-10-09T12:09:11Z",
+      "updated_at": "2026-10-08T15:55:56Z",
+      "open_issues": 14,
+      "summary": "Go 语言原生的 map 不保证遍历顺序，若需要按插入顺序访问键值对，通常得自己维护额外的切片或链表。orderedmap 正是为解决这一问题而生的库，它实现了一个有序映射类型 OrderedMap，在 Set、Get、Delete 和 Len 操作上保持摊还 O(1) 的时间复杂度。其内部结构由原生 map 与一个精简链表组合而成，用链表维护顺序，用 map 保证查找效率。该库提供 AllFromFront、AllFromBack、Keys 和 Values 等返回迭代器的方法，迭代器支持双向遍历，越界时返回 nil，也可配合标准库的 slices.Collect 或 maps.",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:39:58+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 4,
+      "tags": [
+        "library"
+      ],
+      "primary_tag": "library",
+      "domains": [
+        "systems"
+      ],
+      "primary_domain": "systems"
+    },
+    {
+      "owner": "AliyunContainerService",
+      "name": "image-syncer",
+      "full_name": "AliyunContainerService/image-syncer",
+      "url": "https://github.com/AliyunContainerService/image-syncer",
+      "description": "Docker image synchronization tool for Docker Registry V2 based services ",
+      "language": "Go",
+      "stars": 1021,
+      "forks": 280,
+      "homepage": "",
+      "license": "Apache-2.0",
+      "created_at": "2019-10-15T02:32:38Z",
+      "pushed_at": "2025-02-05T07:40:34Z",
+      "updated_at": "2026-10-26T08:26:56Z",
+      "open_issues": 29,
+      "summary": "image-syncer 是一款用 Go 编写的 Docker 镜像同步工具，面向基于 Docker Registry V2 的各类镜像仓库服务，如阿里云容器镜像服务、Docker Hub、Quay.io、Harbor 等。它解决的是多仓库之间镜像搬运与同步的问题，支持多对多的仓库同步，且仅依赖网络与内存，不需要大容量磁盘存储，也不依赖 Docker 守护进程或其他程序，因而同步速度较快。其核心能力包括增量同步、自动忽略未变更镜像、Blob 级并发同步并可调节 goroutine 数量，以及对失败任务自动重试以应对限流等网络问题。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:39:58+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 4,
+      "tags": [
+        "tool"
+      ],
+      "primary_tag": "tool",
+      "domains": [
+        "devops"
+      ],
+      "primary_domain": "devops"
+    },
+    {
+      "owner": "google",
+      "name": "go-licenses",
+      "full_name": "google/go-licenses",
+      "url": "https://github.com/google/go-licenses",
+      "description": "A lightweight tool to report on the licenses used by a Go package and its dependencies. Highlight! Versioned external URL to licenses can be found at the same time.",
+      "language": "Go",
+      "stars": 1017,
+      "forks": 141,
+      "homepage": "",
+      "license": "Apache-2.0",
+      "created_at": "2019-11-12T10:37:11Z",
+      "pushed_at": "2026-07-09T18:03:15Z",
+      "updated_at": "2026-10-25T16:31:30Z",
+      "open_issues": 36,
+      "summary": "go-licenses 是 Google 开源的 Go 语言工具，用于分析 Go 包或二进制文件的依赖树，并报告所用库及其授权方式。它解决的是在分发 Go 程序时如何合规处理第三方依赖的问题。核心能力包括：生成 CSV 格式的授权报告，列出库、授权 URL 和类型；支持自定义 Go 模板生成报告；可将授权文档、版权声明及源码按需收集到指定目录；还能检查禁止或未知的授权类型，并支持按类型过滤。典型场景是发布 Go 二进制前核查依赖授权，或准备合规的分发材料。使用需 Go 1.16 以上，通过 go install 安装，支持忽略指定包、包含测试依赖及通过 GOFLAGS 传递构建标签。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:39:58+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 4,
+      "tags": [
+        "tool"
+      ],
+      "primary_tag": "tool",
+      "domains": [
+        "devtools"
+      ],
+      "primary_domain": "devtools"
+    },
+    {
+      "owner": "spaolacci",
+      "name": "murmur3",
+      "full_name": "spaolacci/murmur3",
+      "url": "https://github.com/spaolacci/murmur3",
+      "description": "Native MurmurHash3 Go implementation",
+      "language": "Go",
+      "stars": 1017,
+      "forks": 129,
+      "homepage": "",
+      "license": "BSD-3-Clause",
+      "created_at": "2013-02-02T09:31:57Z",
+      "pushed_at": "2023-02-23T08:44:28Z",
+      "updated_at": "2026-10-21T05:24:22Z",
+      "open_issues": 8,
+      "summary": "murmur3 是 Austin Appleby 提出的 MurmurHash3 算法的原生 Go 实现，用于在 Go 程序中计算 32 位和 128 位非加密哈希值。它对参考算法做了小幅调整，以支持 Go 标准库 Hash 接口所需的流式写入方式，因此可以像使用其他标准哈希器一样分块写入数据并获取结果。基准测试覆盖 1 字节到 8192 字节的输入，32 位版本在大数据量下吞吐可达约 2.2 GB/s，128 位版本可达约 4.4 GB/s，并附有 Go 1.0 至 1.3 各版本间的性能对比。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:39:58+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 4,
+      "tags": [
+        "library"
+      ],
+      "primary_tag": "library",
+      "domains": [
+        "systems"
+      ],
+      "primary_domain": "systems"
+    },
+    {
+      "owner": "pboehm",
+      "name": "ddns",
+      "full_name": "pboehm/ddns",
+      "url": "https://github.com/pboehm/ddns",
+      "description": "A self-hosted Dynamic DNS solution similar to DynDNS or NO-IP",
+      "language": "Go",
+      "stars": 1005,
+      "forks": 126,
+      "homepage": "",
+      "license": "MIT",
+      "created_at": "2014-07-06T16:16:45Z",
+      "pushed_at": "2021-11-27T15:47:58Z",
+      "updated_at": "2026-10-21T11:40:41Z",
+      "open_issues": 13,
+      "summary": "ddns 是一个用 Go 编写的自托管动态 DNS 解决方案，功能类似 DynDNS 或 NO-IP，基于 PowerDNS 远程后端实现。它解决的是动态 IP 环境下域名解析自动更新的问题：用户只需通过 curl 定期调用其内置的小型 Web 服务接口，即可更新主机记录的 IP 地址，超过 10 天未更新的主机会被自动移除，该期限可在自建实例中配置。部署上要求拥有可设置子域 NS 记录的域名、安装 docker 与 docker-compose 的服务器，并开放 53/udp、80/tcp、443/tcp 端口。",
+      "windows": [
+        "daily"
+      ],
+      "added_at": "2026-10-12T12:39:58+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 4,
+      "tags": [
+        "app"
+      ],
+      "primary_tag": "app",
+      "domains": [
+        "networking",
+        "devops"
+      ],
+      "primary_domain": "networking"
+    },
+    {
+      "owner": "ys-ll",
+      "name": "uniterm",
+      "full_name": "ys-ll/uniterm",
+      "url": "https://github.com/ys-ll/uniterm",
+      "description": "All-in-one terminal covering 30+ protocols — SSH, RDP, SFTP, databases, Kubernetes and more. With a built-in AI Agent that runs multi-turn shell commands autonomously.",
+      "language": "Go",
+      "stars": 941,
+      "forks": 139,
+      "homepage": "https://uniterm.net",
+      "license": "Apache-2.0",
+      "created_at": "2026-05-11T10:59:23Z",
+      "pushed_at": "2026-10-26T08:22:48Z",
+      "updated_at": "2026-10-26T08:22:52Z",
+      "open_issues": 43,
+      "summary": "uniTerm 是一款用 Go 编写的开源一体化终端工具，将 30 多种协议整合到同一界面，涵盖 SSH、Telnet、Mosh、RDP、VNC、SPICE、SFTP、SCP、FTP、SMB、WebDAV、S3 等远程访问方式，并支持 MySQL、PostgreSQL、Oracle、Redis、MongoDB 等数据库客户端，以及 Kubernetes、Docker、Podman 等容器管理。它解决的是运维和开发人员需要在多个工具间反复切换的问题，把远程终端、文件传输、远程桌面、数据库操作和服务器监控集中在一起。",
+      "windows": [
+        "weekly"
+      ],
+      "added_at": "2026-10-09T11:00:35+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 12,
+      "tags": [
+        "app"
+      ],
+      "primary_tag": "app",
+      "domains": [
+        "systems",
+        "devops",
+        "networking"
+      ],
+      "primary_domain": "systems"
+    },
+    {
+      "owner": "eugenioenko",
+      "name": "ttt",
+      "full_name": "eugenioenko/ttt",
+      "url": "https://github.com/eugenioenko/ttt",
+      "description": "TTT Editor (Terminal Text Tool): A real alternative to VS Code, Zed, and Sublime that runs in your terminal. A TUI that feels like GUI. Single binary, zero config.",
+      "language": "Go",
+      "stars": 865,
+      "forks": 98,
+      "homepage": "http://tttedit.dev/",
+      "license": "MIT",
+      "created_at": "2026-01-16T06:21:11Z",
+      "pushed_at": "2026-10-26T06:46:49Z",
+      "updated_at": "2026-10-26T07:43:43Z",
+      "open_issues": 43,
+      "summary": "TTT Editor 是一款用 Go 编写的终端文本编辑器，定位为运行在终端里的 VS Code、Zed、Sublime 替代品，以单一二进制、零配置为特点，试图让 TUI 拥有接近 GUI 的体验。它面向希望在终端内完成完整开发流程的用户，集成语法高亮、括号匹配、查找替换、代码折叠、多光标编辑、LSP 补全与诊断、格式化、Git blame 等编辑能力，并支持多文件夹工作区、文件浏览器、基于 ripgrep 的搜索、Git 暂存提交与差异查看、GitHub PR 审阅、大纲视图、命令面板，以及内置终端模拟器。",
+      "windows": [
+        "weekly"
+      ],
+      "added_at": "2026-10-10T22:24:10+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 4,
+      "tags": [
+        "app"
+      ],
+      "primary_tag": "app",
+      "domains": [
+        "devtools"
+      ],
+      "primary_domain": "devtools"
+    },
+    {
+      "owner": "openai",
+      "name": "tunnel-client",
+      "full_name": "openai/tunnel-client",
+      "url": "https://github.com/openai/tunnel-client",
+      "description": "Customer-run client for Secure MCP Tunnel: connect private or localhost MCP servers to ChatGPT, Codex, the Responses API, and AgentKit without exposing them to the public internet.",
+      "language": "Go",
+      "stars": 598,
+      "forks": 129,
+      "homepage": "",
+      "license": "Apache-2.0",
+      "created_at": "2025-12-10T00:39:35Z",
+      "pushed_at": "2026-10-23T23:33:15Z",
+      "updated_at": "2026-10-26T07:34:41Z",
+      "open_issues": 24,
+      "summary": "tunnel-client 是 OpenAI 为 Secure MCP Tunnel 提供的客户侧运行客户端，用 Go 编写。它把部署在笔记本、虚拟机、Kubernetes 集群或私有网络中的 MCP 服务器连接到 ChatGPT、Codex、Responses API 和 AgentKit，全程无需将 MCP 服务器暴露到公网，也无需新增入站防火墙规则或公网端点。客户端以守护进程形式运行，提供 /healthz、/readyz、/metrics 和 /ui 等运维接口，支持 Docker、Kubernetes 和虚拟机部署，并内置 cloudflared 配套组件。",
+      "windows": [
+        "monthly"
+      ],
+      "added_at": "2026-10-11T22:24:52+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 4,
+      "tags": [
+        "app",
+        "tool"
+      ],
+      "primary_tag": "app",
+      "domains": [
+        "networking",
+        "ai",
+        "security"
+      ],
+      "primary_domain": "networking"
+    },
+    {
+      "owner": "Agent-Field",
+      "name": "CodeAF",
+      "full_name": "Agent-Field/CodeAF",
+      "url": "https://github.com/Agent-Field/CodeAF",
+      "description": "Open-Source Software factory for Open Models",
+      "language": "Go",
+      "stars": 549,
+      "forks": 68,
+      "homepage": "agentfield.ai/codeaf",
+      "license": "Apache-2.0",
+      "created_at": "2026-08-05T16:00:07Z",
+      "pushed_at": "2026-10-26T07:12:16Z",
+      "updated_at": "2026-10-26T06:06:36Z",
+      "open_issues": 242,
+      "summary": "CodeAF 是一个用 Go 编写的开源编码工具，专为开放模型设计，目标是让每一分钱都发挥最大价值。它把分散在多个终端里的智能体工作整合到一个窗口中，统一管理所有项目和会话，每个项目保留各自的审批规则、模型和花费上限。你只需像跟同事说话一样描述问题，它就能把一句话拆成多个任务，在各自分支上运行，通过检查的工作自动合并到你的分支，无法自动验证的则等待你确认。它还提供针对特定工作定制的子工具，比如代码审查和开发任务，并能在一次会话中为不同任务自动挑选合适的模型组合。典型场景包括本地开发、CI 和脚本调用，以及从远程机器或手机通过 SSH 接入同一对话。",
+      "windows": [
+        "daily",
+        "weekly"
+      ],
+      "added_at": "2026-10-09T11:00:35+00:00",
+      "last_seen": "2026-10-26",
+      "seen_count": 13,
+      "tags": [
+        "tool",
+        "framework"
+      ],
+      "primary_tag": "tool",
+      "domains": [
+        "ai",
+        "devtools"
+      ],
+      "primary_domain": "ai"
+    },
+    {
+      "owner": "llm-d",
+      "name": "llm-d-router",
+      "full_name": "llm-d/llm-d-router",
+      "url": "https://github.com/llm-d/llm-d-router",
+      "description": "llm-d Router: The intelligent entry point for inference requests",
+      "language": "Go",
+      "stars": 432,
+      "forks": 481,
+      "homepage": "https://llm-d.ai/docs/architecture/core/router",
+      "license": "Apache-2.0",
+      "created_at": "2025-05-05T12:45:33Z",
+      "pushed_at": "2026-10-25T14:49:35Z",
+      "updated_at": "2026-10-26T01:45:19Z",
+      "open_issues": 231,
+      "summary": "llm-d Router 是面向推理请求的智能入口，由 Go 语言编写，前身为 Inference Scheduler。它通过端点选择器 EPP 与 Envoy 等生产级代理经 ext-proc 协议集成，将 KV 缓存局部性、当前负载和优先级等实时信号注入数据平面，实现负载感知与前缀缓存感知的路由、请求优先级排序和流量控制。仓库还提供 InferenceObjective 与 InferenceModelRewrite 两个请求管理 API，用于配置调度目标和模型名重写，并包含用于 P/D、E/P/D 多阶段推理的分离式边车。",
+      "last_seen": "2026-10-26",
+      "seen_count": 6,
+      "added_at": "2026-10-09T10:50:28+00:00",
+      "windows": [
+        "daily"
+      ],
+      "tags": [
+        "app"
+      ],
+      "primary_tag": "app",
+      "domains": [
+        "ai",
+        "networking",
+        "devops"
+      ],
+      "primary_domain": "ai"
+    }
+  ]
+}
